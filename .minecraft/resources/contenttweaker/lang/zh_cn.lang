@@ -1,0 +1,26 @@
+#ITEM
+#Common
+item.contenttweaker.rune.name=空白符文
+item.contenttweaker.rune1.name=雷之符文
+item.contenttweaker.mana_petals.name=魔力花瓣
+item.contenttweaker.straw_rope.name=草绳
+item.contenttweaker.twilight_key.name=暮色钥匙
+item.contenttweaker.end_portal_frame_debris.name=末地传送门碎片
+item.contenttweaker.Insulating_substrate.name=绝缘基板
+item.contenttweaker.twilight_alloy.name=暮色合金
+item.contenttweaker.four_leaf_clover.name=四叶草
+item.contenttweaker.four_leaf_clover_necklace.name=四叶草项链
+#Block
+#Common
+tile.contenttweaker.evil_stone.name=邪恶之石
+tile.contenttweaker.no_energy_table.name=未激活的研究台
+tile.contenttweaker.ender_portal.name=末地传送门- 自制
+tile.contenttweaker.ender_portal_core.name=末地传送门- 核心（自制）
+#BlockUnderWorldOre
+tile.contenttweaker.udOreAluminum.name=冥界铝矿石
+tile.contenttweaker.udOreNickel.name=冥界镍矿石
+tile.contenttweaker.udOreSilver.name=冥界银矿石
+tile.contenttweaker.udOreUranium.name=冥界铀矿石
+tile.contenttweaker.netherBlackQuartz.name=地狱焦黑石英矿石
+#Stage
+item.contenttweaker.elixir_eyesight.name=瓶装药水- 明目

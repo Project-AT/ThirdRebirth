@@ -1,0 +1,25 @@
+{
+  "guiScale": 3,
+  "hudScale": 3,
+  "tooltipScale": 3,
+  "customIndividualGuiScales": {},
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.minecraft.client.gui.GuiYesNo",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "net.minecraft.client.gui.GuiCreateWorld",
+    "lumien.custommainmenu.gui.GuiCustom",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "net.minecraft.client.gui.GuiShareToLan",
+    "net.minecraft.client.gui.GuiChat",
+    "net.optifine.gui.GuiChatOF",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [],
+  "dynamicGuiScales": []
+}

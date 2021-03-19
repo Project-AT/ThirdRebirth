@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:no_energy_table",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "facing": {
+      "north": { "y": 0   },
+      "south": { "y": 180 },
+      "west":  { "y": 270 },
+      "east":  { "y": 90  }
+    }
+  }
+}

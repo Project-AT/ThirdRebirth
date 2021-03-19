@@ -1,0 +1,15 @@
+#ITEM
+autotech.item.stone_flint_and_steel.name=Stone Flint and Steel
+
+#TOOLTIP
+autotech.tooltip.item.ban=This item is banned.
+autotech.tooltip.ritual.ban=This ritual is banned.
+
+#TITLE
+autotech.tier.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
+
+#DESCRIPTION
+autotech.description.survivalist.rock=When using a shovel to try to destroy a stone, there is a certain probability that rubble will drop.
+
+#OTHERS
+autotech.others.unlockedstage=You have unlocked a new stage!
