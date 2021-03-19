@@ -6,7 +6,7 @@ import crafttweaker.recipes.ICraftingRecipe;
 
 import scripts.grassUtils.RecipeUtils.recipeTweak;
 
-// <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
+<contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
 
 /** Recipes for Crafting Table */
 recipeTweak(true, <minecraft:furnace>,[
