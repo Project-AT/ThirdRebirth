@@ -5,6 +5,22 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.AxisAlignedBB;
 
+var overworld_anchor_point as Block = VanillaFactory.createBlock("overworld_anchor_point", <blockmaterial:rock>);
+overworld_anchor_point.blockHardness = 10.0;
+overworld_anchor_point.blockResistance = 50.0;
+overworld_anchor_point.toolClass = "shovel";
+overworld_anchor_point.toolLevel = 1;
+overworld_anchor_point.lightValue = 2;
+overworld_anchor_point.register();
+
+var twilight_anchor_point as Block = VanillaFactory.createBlock("twilight_anchor_point", <blockmaterial:rock>);
+twilight_anchor_point.blockHardness = 10.0;
+twilight_anchor_point.blockResistance = 50.0;
+twilight_anchor_point.toolClass = "pickaxe";
+twilight_anchor_point.toolLevel = 1;
+twilight_anchor_point.lightValue = 2;
+twilight_anchor_point.register();
+
 var evil_stone as Block = VanillaFactory.createBlock("evil_stone", <blockmaterial:rock>);
 evil_stone.blockHardness = 20.0;
 evil_stone.blockResistance = 50.0;
