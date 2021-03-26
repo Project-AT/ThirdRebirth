@@ -39,27 +39,6 @@ function runTitle (title as string ,color as string , bold as bool){
     }
 }
 
-/** private */ 
-function getPos(num as int, x as int, y as int, z as int) as IBlockPos[]{
-    var pos as IBlockPos[] = [
-        Position3f.create(x - num, y, z    ).asBlockPos(),
-        Position3f.create(x - num, y, z + 1).asBlockPos(),
-        Position3f.create(x - num, y, z - 1).asBlockPos(),
-
-        Position3f.create(x + num, y, z    ).asBlockPos(),
-        Position3f.create(x + num, y, z - 1).asBlockPos(),
-        Position3f.create(x + num, y, z + 1).asBlockPos(),
-
-        Position3f.create(x,     y, z + num).asBlockPos(),
-        Position3f.create(x + 1, y, z + num).asBlockPos(),
-        Position3f.create(x - 1, y, z + num).asBlockPos(),
-
-        Position3f.create(x,     y, z - num).asBlockPos(),
-        Position3f.create(x + 1, y, z - num).asBlockPos(),
-        Position3f.create(x - 1, y, z - num).asBlockPos(),
-    ];
-    return pos;
-}
 
 function creatPortals(pos as IBlockPos, world as IWorld) {
     for i in 1 to 4 {

@@ -23,7 +23,7 @@ for index, i in oreNames{
 
     RecipeBuilder.get("engineer")
         .setName("atplate" ~ index)
-        .setMaximumTier(0)
+        .setMaximumTier(1)
         .setShapeless([ingot, ingot])
         .addTool(<ore:artisansHammer>, 1)
         .addOutput(plate.firstItem)
@@ -32,7 +32,7 @@ for index, i in oreNames{
     recipes.remove(gear.firstItem);
     RecipeBuilder.get("engineer")
         .setName("atgear" ~ index)
-        .setMaximumTier(0)
+        .setMaximumTier(1)
         .setShaped([
             [null, ingot, null],
             [ingot, null, ingot],

@@ -32,15 +32,5 @@ events.onBlockBreak(function(event as BlockBreakEvent){
         if(common.getBlockID(block) has "contenttweaker:ender_portal"){
             common.breakPortals(pos, world);
         }
-        if(common.getBlockID(block) has "tallgrass" || common.getBlockID(block) has "double_plant"){
-            var rd = Math.random();
-
-            print(rd);
-            if(player.isPotionActive(<potion:minecraft:luck>) && rd >= 0.5){
-                <contenttweaker:four_leaf_clover>.createEntityItem(world, pos);
-            }else if(rd >= 0.1){
-                <contenttweaker:four_leaf_clover>.createEntityItem(world, pos);
-            }
-        }
     }
 });

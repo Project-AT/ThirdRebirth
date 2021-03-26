@@ -46,7 +46,7 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                 }else{
                     if(checkGoldPowder(world, pos, false)){//仪式正确，摆放正确
                         if(!(player.data.PlayerPersisted has "DimTwilight") || !(player.data.PlayerPersisted has "DimOverWorld")){
-                            player.sendChat("链接器无法确认两个锚定点，请确认自己是否在两个世界都建立过锚定");
+                            player.sendChat("链接器无法确定两个锚定点，请确认自己是否在两个世界都建立过锚定");
                             return ActionResult.fail();
                         }
                         var owX as int = player.data.PlayerPersisted.DimOverWorld.x.asInt();
@@ -88,7 +88,7 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                 }else{
                     if(checkGoldPowder(world, pos, false)){//仪式正确，摆放正确
                         if(!(player.data.PlayerPersisted has "DimTwilight") || !(player.data.PlayerPersisted has "DimOverWorld")){
-                            player.sendChat("链接器无法确认两个锚定点，请确认自己是否在两个世界都建立过锚定");
+                            player.sendChat("链接器无法确定两个锚定点，请确认自己是否在两个世界都建立过锚定");
                             return ActionResult.fail();
                         }
                         var twX as int = player.data.PlayerPersisted.DimTwilight.x.asInt();
