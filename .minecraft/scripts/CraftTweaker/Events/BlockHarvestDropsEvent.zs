@@ -13,18 +13,22 @@ import scripts.CraftTweaker.Utils.common;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 
+function getBlockID(block as IBlock) as string {
+    return block.definition.id;
+}
+
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     var world as IWorld = event.world;
     var player as IPlayer = event.player;
     var block as IBlock = event.block;
+    if(!event.isPlayer || event.silkTouch || event.drops.length == 0) return;
 
-    if(!world.remote && !player.creative && event.isPlayer && !event.silkTouch && event.drops.length != 0){
-        // print(common.getBlockID(block));
-        if(common.getBlockID(block) == "minecraft:tallgrass"){
+    if(!world.remote){
+        if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative){
             if(player.isPotionActive(<potion:minecraft:luck>)){
-                event.drops += <contenttweaker:four_leaf_clover> % 70;
+                event.drops += <minecraft:milk_bucket> % 50;
             }else{
-                event.drops += <contenttweaker:four_leaf_clover> % 10;
+                event.drops += <minecraft:milk_bucket> % 10;
             }
         }
         if (<ore:logWood>.matches(event.drops[0].stack)) {
