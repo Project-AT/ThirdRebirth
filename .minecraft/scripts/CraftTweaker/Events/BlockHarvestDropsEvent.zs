@@ -26,9 +26,9 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(!world.remote){
         if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative){
             if(player.isPotionActive(<potion:minecraft:luck>)){
-                event.drops += <minecraft:milk_bucket> % 50;
+                event.drops += <contenttweaker:four_leaf_clover> % 50;
             }else{
-                event.drops += <minecraft:milk_bucket> % 10;
+                event.drops += <contenttweaker:four_leaf_clover> % 10;
             }
         }
         if (<ore:logWood>.matches(event.drops[0].stack)) {
