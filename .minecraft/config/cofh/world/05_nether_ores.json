@@ -1,0 +1,29 @@
+{
+	"dependencies": "contenttweaker",
+    "priority": 100,
+	"populate": {
+		"netherblackquartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:netherblackquartz",
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 12,
+			"min-height": 30,
+			"max-height": 256,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    -1
+				]
+			}
+		}
+	}
+}

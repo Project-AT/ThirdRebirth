@@ -1,0 +1,15 @@
+{
+  "input": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "mana_craft:mana",
+      "count": 16
+    }
+  ],
+  "output": {
+    "item": "mana_craft:mana_dust"
+  },
+  "work_time": 1600
+}

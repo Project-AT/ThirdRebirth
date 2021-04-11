@@ -1,0 +1,15 @@
+{
+  "input": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "mana_craft:mana",
+      "count": 5
+    }
+  ],
+  "output": {
+    "item": "mana_craft:mana_obsidian"
+  },
+  "work_time": 120
+}

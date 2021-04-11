@@ -1,0 +1,102 @@
+{
+	"dependencies": "contenttweaker",
+    "priority": 100,
+	"populate": {
+		"udoresilver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:udoresilver",
+                        "weight": 100
+					}
+				],
+				"material": "lightningcraft:stone_block",
+				"cluster-size": 6
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 256,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    33,
+					-9
+				]
+			}
+		},
+		"udorealuminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:udorealuminum",
+                        "weight": 100
+					}
+				],
+				"material": "lightningcraft:stone_block",
+				"cluster-size": 6
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 256,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    33,
+					-9
+				]
+			}
+		},
+		"udorenickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:udoresilver",
+                        "weight": 100
+					}
+				],
+				"material": "lightningcraft:stone_block",
+				"cluster-size": 6
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 256,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    33,
+					-9
+				]
+			}
+		},
+		"udoreuranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "contenttweaker:udoreuranium",
+                        "weight": 100
+					}
+				],
+				"material": "lightningcraft:stone_block",
+				"cluster-size": 4
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 256,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    33,
+					-9
+				]
+			}
+		}
+	}
+}

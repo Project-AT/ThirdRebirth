@@ -1,0 +1,150 @@
+{
+	"dependencies": "contenttweaker",
+    "priority": 100,
+	"populate": {
+		"3_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+                        "metadata": 3,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		},
+        "5_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+                        "metadata": 5,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		},
+        "6_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+                        "metadata": 6,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		},
+        "7_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+                        "metadata": 7,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		},
+        "7__ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+                        "metadata": 7,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		},
+        "8_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "libvulpes:ore0",
+                        "metadata": 8,
+                        "weight": 100
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 80,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+                    3
+				]
+			}
+		}
+	}
+}

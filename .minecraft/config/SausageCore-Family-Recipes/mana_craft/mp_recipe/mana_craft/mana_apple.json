@@ -1,0 +1,15 @@
+{
+  "input": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "mana_craft:mana_ball",
+      "count": 4
+    }
+  ],
+  "output": {
+    "item": "mana_craft:mana_apple"
+  },
+  "work_time": 500
+}

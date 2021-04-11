@@ -1,0 +1,11 @@
+{
+  "input": [
+    {
+      "item": "mana_craft:mana_obsidian"
+    }
+  ],
+  "output": {
+    "item": "mana_craft:mana_rod"
+  },
+  "work_time": 300
+}

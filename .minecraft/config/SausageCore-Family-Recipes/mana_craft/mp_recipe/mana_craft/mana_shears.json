@@ -1,0 +1,17 @@
+{
+  "input": [
+    {
+      "item": "mana_craft:mana_rod",
+      "count": 2
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotOrichalcum",
+      "count": 3
+    }
+  ],
+  "output": {
+    "item": "mana_craft:mana_shears"
+  },
+  "work_time": 800
+}

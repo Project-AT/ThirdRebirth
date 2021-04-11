@@ -49,3 +49,7 @@ for i in knifes{
 <ore:oreSilver>.add(<contenttweaker:udoresilver>);
 <ore:oreUranium>.add(<contenttweaker:udoreuranium>);
 <ore:oreAluminum>.add(<contenttweaker:udorealuminum>);
+<ore:oreIronCoal>.add(<contenttweaker:ironcoal_ore>);
+<ore:oreAquamarine>.add(<contenttweaker:aqua_ore_gravel>);
+<ore:oreQuartzBlack>.add(<contenttweaker:netherblackquartz>);
+<ore:oreSkyStoneBlock>.add(<appliedenergistics2:sky_stone_block>);

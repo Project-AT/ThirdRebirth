@@ -1,0 +1,11 @@
+{
+	"dimensions":[
+    {
+			"dim": 7, 
+      "jed":{
+        "PlayerInventoryGroup": "stoneage"
+      }
+		}
+    
+	]
+}

@@ -11,6 +11,8 @@ item.contenttweaker.twilight_alloy.name=暮色合金
 item.contenttweaker.four_leaf_clover.name=四叶草
 item.contenttweaker.four_leaf_clover_necklace.name=四叶草项链
 item.contenttweaker.linking_tool.name=链接器
+item.contenttweaker.Aura_coal.name=灵媒
+item.contenttweaker.Blast_furnace_fuel.name=高炉燃料
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=邪恶之石
@@ -19,6 +21,9 @@ tile.contenttweaker.ender_portal.name=末地传送门- 自制
 tile.contenttweaker.ender_portal_core.name=末地传送门- 核心（自制）
 tile.contenttweaker.overworld_anchor_point.name=主世界传送锚定点
 tile.contenttweaker.twilight_anchor_point.name=暮色传送锚定点
+tile.contenttweaker.ironcoal_ore.name=铁碳矿石
+tile.contenttweaker.aura_coal_block.name=灵媒块
+tile.contenttweaker.aqua_ore_gravel.name=海蓝宝石沙砾
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=冥界铝矿石
 tile.contenttweaker.udOreNickel.name=冥界镍矿石

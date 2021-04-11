@@ -1,0 +1,8 @@
+{
+  "fuel": {
+    "type": "forge:ore_dict",
+    "ore": "nuggetOrichalcum"
+  },
+  "level": 10,
+  "time": 7500
+}
