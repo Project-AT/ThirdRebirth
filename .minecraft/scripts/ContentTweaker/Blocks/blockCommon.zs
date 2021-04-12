@@ -1,9 +1,6 @@
 #priority 21
 #loader contenttweaker
 
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Block;
-import mods.contenttweaker.AxisAlignedBB;
 import scripts.grassUtils.CotUtils;
 
 //name meterial hardness resistance sound light gravity toolClass toolLevel AABB
