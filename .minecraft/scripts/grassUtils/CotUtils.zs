@@ -14,6 +14,8 @@ import scripts.grassUtils.StringHelperCot as StringHelper;
 import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 import scripts.grassUtils.LoggerCot as Logger;
 
+import mods.contenttweaker.AxisAlignedBB;
+
 static enumRarityLevel as string[] = ["COMMON", "UNCOMMON", "RARE", "EPIC"];
 static tab as CreativeTab = null;
 
@@ -56,7 +58,7 @@ function addFluid(name as string,color as int,temperature as int,viscosity as in
     fluidt.register();
 }
 
-function addBlock(name as string,blockMaterial as BlockMaterial,hardness as float,resistance as float,blockSoundType as SoundType,lightValue as int,gravity as bool,toolClass as string,toolLevel as int){
+function addBlock(name as string,blockMaterial as BlockMaterial,hardness as float,resistance as float,blockSoundType as SoundType,lightValue as int,gravity as bool,toolClass as string,toolLevel as int,AABB as AxisAlignedBB){
     Logger.sendInfo("Adding block " ~ name);
     var blockt as Block = VanillaFactory.createBlock(name,blockMaterial);
     blockt.setBlockHardness(hardness);
@@ -66,6 +68,13 @@ function addBlock(name as string,blockMaterial as BlockMaterial,hardness as floa
     blockt.gravity = gravity;
     blockt.setToolClass(toolClass);
     blockt.setToolLevel(toolLevel);
+
+    if (!isNull(AABB)){
+        blockt.axisAlignedBB = AABB;
+        blockt.fullBlock = false;
+        blockt.blockLayer = "TRANSLUCENT";
+        blockt.translucent = true;
+    }
     if (!isNull(tab)){
         blockt.creativeTab = tab;
     }

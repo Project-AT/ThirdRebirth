@@ -1,8 +1,6 @@
-#priority 20
+#priority -5
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-import mods.dropt.Dropt;
-
-//todo
+vanilla.seeds.removeSeed(<item.mana_craft.mana:0>);

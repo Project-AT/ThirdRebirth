@@ -3,6 +3,7 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import scripts.grassUtils.CotUtils;
 
 
 var items as string[] = [
@@ -12,5 +13,5 @@ var items as string[] = [
 
 
 for item in items{
-	VanillaFactory.createItem(item).register();
+	CotUtils.addNormalItem(item);
 }
