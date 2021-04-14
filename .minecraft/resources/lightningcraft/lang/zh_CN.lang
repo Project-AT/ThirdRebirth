@@ -17,14 +17,14 @@ entity.lightningcraft:underworld_creeper.name=幽冥爬行者
 death.attack.lightningcraft:cannon=%1$s被炸飞了。
 
 #sounds
-subtitle.mob.demon_soldier.idle=DemonSoldier
-subtitle.mob.demon_soldier.hurt=DemonSoldierhurts
-subtitle.mob.demon_soldier.death=DemonSoldierdies
-subtitle.mob.underworld_ghast.moan=Underghastmoans
-subtitle.mob.underworld_ghast.warn=Underghastfires
-subtitle.mob.underworld_ghast.hurt=Underghasthurts
-subtitle.mob.underworld_ghast.death=Underghastdies
-subtitle.portal.underworld=UnderworldPortal
+subtitle.mob.demon_soldier.idle=恶魔战士
+subtitle.mob.demon_soldier.hurt=恶魔战士受伤
+subtitle.mob.demon_soldier.death=恶魔战士死亡
+subtitle.mob.underworld_ghast.moan=幽冥恶魂哀嚎
+subtitle.mob.underworld_ghast.warn=幽冥恶魂发射火球
+subtitle.mob.underworld_ghast.hurt=幽冥恶魂受伤
+subtitle.mob.underworld_ghast.death=幽冥恶魂死亡
+subtitle.portal.underworld=冥界传送门
 
 #blocks
 tile.lightningcraft:metal_block_0.name=雷电块
@@ -276,8 +276,8 @@ lore.lightningcraft:angergods=制作天域锭严重违反了规矩...现在，�
 lightningcraft.infusion_recipe_category=闪电的灌注
 lightningcraft.crusher_recipe_category=雷电粉碎
 lightningcraft.electricium_info=在雷电工艺中，雷鸣锭是十分重要的东西。要制作它，你需要将铁锭、金锭还有钻石同时扔到地上然后使用雷电轰击它们。
-lightningcraft.ichor_info=CraftedIngredient.CreateitforthefirsttimebystrikinganDemonBlood,Skyfatheringotandemeraldonthegroundwithlightning.
-lightningcraft.guide_info=Createitforthefirsttimebystrikinganbookonthegroundwithlightning.
+lightningcraft.ichor_info=合成原料，用闪电击中地面上的恶魔之血，天域锭和绿宝石来制作第一个灵液。
+lightningcraft.guide_info=用闪电击中地面上的书来制作第一本雷电工艺。
 lightningcraft.skyfather_info=天域锭可谓是继雷鸣锭之后的上等材料。不过，它们看起来相当酷！
 lightningcraft.mystic_info=神秘锭由一种神圣的介质制成，可以说它是一切能量的结合。.
 
