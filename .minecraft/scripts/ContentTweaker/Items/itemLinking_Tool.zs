@@ -32,7 +32,7 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
         // print(getBlockID(block));
         if(getBlockID(block) == "contenttweaker:twilight_anchor_point"){
             if(world.getDimension() != 7){
-                player.sendChat("此传送锚定点只能建立在暮色");
+                player.sendChat(game.localize("autotech.content.one"));
                 return ActionResult.fail();
             }
             var tagData_Twilight as IData = {PlayerPersisted : {DimTwilight : {x : pos.getX(), y : pos.getY() + 2, z : pos.getZ()}}};
@@ -40,13 +40,13 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                 if(player.isSneaking){//潜行右键
                     tagData_Twilight = tagData_Twilight + player.data;
                     player.update(tagData_Twilight);
-                    player.sendChat("暮色锚定点已成功建立");
+                    player.sendChat(game.localize("autotech.content.two"));
 
                     return ActionResult.success();
                 }else{
                     if(checkGoldPowder(world, pos, false)){//仪式正确，摆放正确
                         if(!(player.data.PlayerPersisted has "DimTwilight") || !(player.data.PlayerPersisted has "DimOverWorld")){
-                            player.sendChat("链接器无法确定两个锚定点，请确认自己是否在两个世界都建立过锚定");
+                            player.sendChat(game.localize("autotech.content.three"));
                             return ActionResult.fail();
                         }
                         var owX as int = player.data.PlayerPersisted.DimOverWorld.x.asInt();
@@ -65,17 +65,17 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                         }
                         return ActionResult.success();
                     }else{
-                        player.sendChat("请摆放仪式所需材料才可进行物质传输");
+                        player.sendChat(game.localize("autotech.content.four"));
                         return ActionResult.fail();
                     }
                 }
             }else{
-                player.sendChat("结构检测失败，请检查摆放位置是否正确或结构是否位于同一区块");
+                player.sendChat(game.localize("autotech.content.five"));
                 return ActionResult.fail();
             }
         }else if(getBlockID(block) == "contenttweaker:overworld_anchor_point"){
             if(world.getDimension() != 0){
-                player.sendChat("此传送锚定点只能建立在主世界");
+                player.sendChat(game.localize("autotech.content.six"));
                 return ActionResult.fail();
             }
             var tagData_OwerWorld as IData = {PlayerPersisted : {DimOverWorld : {x : pos.getX(), y : pos.getY() + 2, z : pos.getZ()}}};
@@ -83,12 +83,12 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                 if(player.isSneaking){//潜行右键
                     tagData_OwerWorld = tagData_OwerWorld + player.data;
                     player.update(tagData_OwerWorld);
-                    player.sendChat("主世界锚定点已成功建立");
+                    player.sendChat(game.localize("autotech.content.seven"));
                     return ActionResult.success();
                 }else{
                     if(checkGoldPowder(world, pos, false)){//仪式正确，摆放正确
                         if(!(player.data.PlayerPersisted has "DimTwilight") || !(player.data.PlayerPersisted has "DimOverWorld")){
-                            player.sendChat("链接器无法确定两个锚定点，请确认自己是否在两个世界都建立过锚定");
+                            player.sendChat("autotech.content.three");
                             return ActionResult.fail();
                         }
                         var twX as int = player.data.PlayerPersisted.DimTwilight.x.asInt();
@@ -107,12 +107,12 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
                         }
                         return ActionResult.success();
                     }else{
-                        player.sendChat("请摆放仪式所需材料才可进行物质传输");
+                        player.sendChat(game.localize("autotech.content.four"));
                         return ActionResult.fail();
                     }
                 }
             }else{
-                player.sendChat("结构检测失败，请检查摆放位置是否正确或结构是否位于同一区块");
+                player.sendChat(game.localize("autotech.content.five"));
                 return ActionResult.fail();
             }
         }

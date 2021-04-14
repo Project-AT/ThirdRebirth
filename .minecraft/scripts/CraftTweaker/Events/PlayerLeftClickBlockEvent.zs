@@ -31,7 +31,7 @@ events.onPlayerLeftClickBlock(function(event as PlayerLeftClickBlockEvent){
         if(isNull(currentItem) || !(currentItem.toolClasses has "axe")){
             for item in <ore:logWood>.items{
                 if(item.asBlock() has block && !(player.creative)){
-                    common.runTitle("请使用任意斧头进行伐木！","",true);
+                    common.runTitle(game.localize("autotech.title.notree.description"),"",true);
                     player.attackEntityFrom(<damageSource:IN_WALL>, 1.0f);
                 }
             }
