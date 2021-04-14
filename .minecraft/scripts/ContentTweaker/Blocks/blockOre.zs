@@ -1,12 +1,8 @@
 #priority 20
 #loader contenttweaker
 
-import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDict;
-import crafttweaker.oredict.IOreDictEntry;
-
-import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+import scripts.grassUtils.CotUtils;
 
 val Ores as string[] = ["udOreAluminum","udOreNickel","udOreSilver","udOreUranium","netherBlackQuartz"];
 

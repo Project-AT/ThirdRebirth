@@ -7,7 +7,41 @@ import mods.jei.JEI;
 
 var removeAndHide as IItemStack[] = [
     <appliedenergistics2:material:40>,
-    <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"})
+    <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}),
+    <enderio:item_endergy_conduit:*>,
+    <enderio:item_capacitor_crystalline:*>,
+    <enderio:item_alloy_endergy_ball:*>,
+    <enderio:item_stellar_alloy_helmet>,
+    <enderio:item_stellar_alloy_boots>,
+    <enderio:item_stellar_alloy_chestplate>,
+    <enderio:item_stellar_alloy_leggings>,
+    <enderio:item_stellar_alloy_axe>,
+    <enderio:item_stellar_alloy_pickaxe>,
+    <actuallyadditions:block_leaf_generator>,
+    <actuallyadditions:block_leaf_generator>,
+    <actuallyadditions:block_coal_generator>,
+    <actuallyadditions:block_oil_generator>,
+    <advancedrocketry:blackholegenerator>,
+    <advancedrocketry:solargenerator>,
+    <draconicevolution:generator>,
+    <enderio:block_simple_stirling_generator>,
+    <enderio:block_stirling_generator>,
+    <enderio:block_zombie_generator>,
+    <enderio:block_franken_zombie_generator>,
+    <enderio:block_ender_generator>,
+    <extrautils2:rainbowgenerator>,
+    <extrautils2:rainbowgenerator:1>,
+    <extrautils2:rainbowgenerator:2>,
+    <immersiveengineering:metal_decoration0:6>,
+    <immersiveengineering:metal_device1:2>,
+    <immersiveengineering:metal_device1:3>,
+    <integrateddynamics:coal_generator>,
+    <lightningcraft:static_generator>,
+    <lightningcraft:rf_receiver>,
+    <rftools:coalgenerator>,
+    <rftools:endergenic>,
+    <libvulpes:coalgenerator>,
+    <opencomputers:upgrade:22>
 ];
 
 var removeByRecipeName as string[] = [

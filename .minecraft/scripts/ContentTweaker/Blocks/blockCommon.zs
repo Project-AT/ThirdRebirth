@@ -2,6 +2,7 @@
 #loader contenttweaker
 
 import scripts.grassUtils.CotUtils;
+import mods.contenttweaker.AxisAlignedBB;
 
 //name meterial hardness resistance sound light gravity toolClass toolLevel AABB
 
