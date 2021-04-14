@@ -1,4 +1,5 @@
 #priority 23
+#modloaded atutils
 #loader contenttweaker
 
 import mods.contenttweaker.VanillaFactory;

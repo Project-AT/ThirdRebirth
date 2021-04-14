@@ -1,4 +1,5 @@
 #priority 10
+#modloaded atutils
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
