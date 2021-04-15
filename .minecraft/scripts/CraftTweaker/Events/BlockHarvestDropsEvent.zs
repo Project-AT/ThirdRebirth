@@ -1,4 +1,5 @@
 #priority 10
+#modloaded atutils
 
 import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;

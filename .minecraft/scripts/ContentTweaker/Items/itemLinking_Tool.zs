@@ -1,4 +1,5 @@
 #priority 20
+#modloaded atutils
 #loader contenttweaker
 
 import crafttweaker.item.IItemStack;

@@ -13,6 +13,7 @@ item.contenttweaker.four_leaf_clover_necklace.name=四叶草项链
 item.contenttweaker.linking_tool.name=链接器
 item.contenttweaker.Aura_coal.name=灵煤
 item.contenttweaker.Blast_furnace_fuel.name=高炉燃料
+item.contenttweaker.dust_rudesteel.name=粗钢粉
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=邪恶之石
@@ -33,4 +34,4 @@ tile.contenttweaker.netherBlackQuartz.name=地狱焦黑石英矿石
 #Stage
 item.contenttweaker.elixir_eyesight.name=明目药水
 #Tab
-itemGroup.autotech=AutoTech
+itemGroup.autotech=ContentTweaker AutoTech

@@ -1,4 +1,5 @@
 #priority 20
+#modloaded atutils
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -18,6 +19,22 @@ var oreDictNames as string[] = [
 var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust", "stick"
 ];
+
+var oreDictAdd as string[string] = {
+    "dustCrudeSteel" : "contenttweaker:dust_rudesteel",
+    "oreNickel" : "contenttweaker:udorenickel",
+    "oreSilver" : "contenttweaker:udoresilver",
+    "oreUranium" : "contenttweaker:udoreuranium",
+    "oreAluminum" : "contenttweaker:udorealuminum",
+    "oreCrudeSteel" : "contenttweaker:ironcoal_ore",
+    "oreAquamarine" : "contenttweaker:aqua_ore_gravel",
+    "oreQuartzBlack" : "contenttweaker:netherblackquartz",
+    "oreSkyStoneBlock" : "appliedenergistics2:sky_stone_block"
+};
+
+var oreDictRemove as string[string] = {
+    "oreDilithium" : "matteroverdrive:dilithium_ore"
+};
 
 for i in partNames {
     for l in oreDictNames {
@@ -45,11 +62,12 @@ for i in knifes{
     }
 }
 
-<ore:oreNickel>.add(<contenttweaker:udorenickel>);
-<ore:oreSilver>.add(<contenttweaker:udoresilver>);
-<ore:oreUranium>.add(<contenttweaker:udoreuranium>);
-<ore:oreAluminum>.add(<contenttweaker:udorealuminum>);
-<ore:oreCrudeSteel>.add(<contenttweaker:ironcoal_ore>);
-<ore:oreAquamarine>.add(<contenttweaker:aqua_ore_gravel>);
-<ore:oreQuartzBlack>.add(<contenttweaker:netherblackquartz>);
-<ore:oreSkyStoneBlock>.add(<appliedenergistics2:sky_stone_block>);
+for key ,value in oreDictAdd{
+    oreDict.get(key).add(itemUtils.getItem(value));
+}
+
+for key ,value in oreDictRemove{
+    val item = itemUtils.getItem(value);
+    
+    oreDict.get(key).remove(item);
+}

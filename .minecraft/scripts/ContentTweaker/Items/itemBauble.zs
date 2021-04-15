@@ -1,4 +1,5 @@
 #priority 26
+#modloaded atutils
 #loader contenttweaker
 import crafttweaker.player.IPlayer;
 
