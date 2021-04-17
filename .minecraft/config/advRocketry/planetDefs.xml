@@ -1,6 +1,6 @@
 <galaxy>
-    <star name="IKexing" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-        <planet name="IKexing-0" DIMID="0" dimMapping="">
+    <star name="Jumbo" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="Jumbo-0(overworld)" DIMID="0" dimMapping="">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
             <skyColor>1.0,1.0,1.0</skyColor>
@@ -11,7 +11,7 @@
             <rotationalPeriod>24000</rotationalPeriod>
             <atmosphereDensity>100</atmosphereDensity>
         </planet>
-        <planet name="IKexing-1">
+        <planet name="Jumbo-1">
             <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>crude_oil</gas>
@@ -19,7 +19,7 @@
             <rotationalPeriod>30000</rotationalPeriod>
             <orbitalDistance>120</orbitalDistance>
         </planet>
-        <planet name="IKexing-2">
+        <planet name="Jumbo-2">
             <isKnown>true</isKnown>
             <GasGiant>true</GasGiant>
             <gas>vapor_of_levity</gas>
