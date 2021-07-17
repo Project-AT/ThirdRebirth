@@ -134,10 +134,6 @@ biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
 jeid:error_biome
-mana_craft:mana
-mana_craft:mana_hills
-mana_craft:mana_chaos
-mana_craft:mana_chaos_hills
 twilightforest:twilight_lake
 twilightforest:twilight_forest
 twilightforest:dense_twilight_forest

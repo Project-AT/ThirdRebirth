@@ -30,7 +30,14 @@ mana_craft:mana_evoker
 naturesaura:breathless
 tetra:bleeding
 tetra:earthbound
+botania:soulcross
+botania:featherfeet
+botania:emptiness
+botania:bloodthirst
+botania:allure
+botania:clear
 twilightforest:frosted
+atutils:drowsy
 immersiveengineering:flammable
 immersiveengineering:slippery
 immersiveengineering:conductive
@@ -55,12 +62,6 @@ quark:white
 quark:resilience
 quark:curse
 quark:danger_sight
-botania:soulcross
-botania:featherfeet
-botania:emptiness
-botania:bloodthirst
-botania:allure
-botania:clear
 wizardry:nullify_gravity
 wizardry:steroid
 wizardry:phase
