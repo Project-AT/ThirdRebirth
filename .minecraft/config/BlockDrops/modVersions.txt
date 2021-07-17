@@ -55,6 +55,7 @@
   "mobstages": "2.0.8",
   "simplyjetpacks": "1.12.2-2.2.20.0",
   "jee": "1.0.8",
+  "bountifulbaubles": "0.0.1",
   "mekatweaker": "1.2.0",
   "smoothfont": "mc1.12.2-2.1.2",
   "jei": "4.16.1.301",

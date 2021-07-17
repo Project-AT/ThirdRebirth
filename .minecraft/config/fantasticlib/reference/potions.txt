@@ -92,6 +92,7 @@ astralsorcery:potionbleed
 astralsorcery:potionspellplague
 astralsorcery:potiondropmodifier
 astralsorcery:potiontimefreeze
+bountifulbaubles:sinful
 lightningcraft:demon_warding
 extrautils2:effect.xu2.doom
 extrautils2:effect.xu2.gravity
