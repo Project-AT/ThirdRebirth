@@ -65,6 +65,7 @@
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
 !/.minecraft/structures
+/.minecraft/scripts/.zsrc
 
 #pack stuff
 /instance.cfg
@@ -72,4 +73,3 @@
 !/modlist.html
 !/manifest.json
 !/.minecraft/icon.png
-

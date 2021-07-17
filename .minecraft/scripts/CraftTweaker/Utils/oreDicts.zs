@@ -67,7 +67,5 @@ for key ,value in oreDictAdd{
 }
 
 for key ,value in oreDictRemove{
-    val item = itemUtils.getItem(value);
-    
-    oreDict.get(key).remove(item);
+    oreDict.get(key).remove(itemUtils.getItem(value));
 }
