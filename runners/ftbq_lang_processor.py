@@ -49,7 +49,7 @@ def read_snbt(full_path, file_name):
 def replace_with_lang_key(line, key, f_list, index, file_name):
     head, context, tail = line.split("\"")
     if not(context.startswith("{") and context.endswith("}")):
-        lang_key = "icr.quests.%s.%s" % (file_name, key)
+        lang_key = "at.quests.%s.%s" % (file_name, key)
         print("get lang key %s, value = %s" % (lang_key, context))
         new_context = head + "\"{" + lang_key + "}\"" + tail
         f_list[index] = new_context
