@@ -1,11 +1,10 @@
 #priority 10
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
 import crafttweaker.player.IPlayer;
 
-import crafttweaker.events.IEventManager;
 import crafttweaker.event.PortalSpawnEvent;
-import crafttweaker.event.PlayerTickEvent;
 
 import scripts.CraftTweaker.Utils.common;
 

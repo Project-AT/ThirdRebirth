@@ -1,10 +1,12 @@
 #priority 10
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;
 import crafttweaker.data.IData;
+import crafttweaker.world.IBlockPos;
 
 import crafttweaker.util.Position3f;
 import scripts.CraftTweaker.Utils.common;
@@ -12,27 +14,25 @@ import scripts.CraftTweaker.Utils.common;
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockPlaceEvent;
 
+
 events.onBlockPlace(function(event as BlockPlaceEvent){
-    var pos = Position3f.create(event.x, event.y, event.z).asBlockPos();
+    var pos as IBlockPos = event.position;
     var world as IWorld = event.world;
     var player as IPlayer = event.player;
-    var worldData as IData = world.getCustomChunkData(pos);
+    var chunkData as IData = world.getCustomChunkData(pos);
 
-    var te = world.getBlock(pos);
+    var te as IData = world.getBlock(pos).data;
 
-    if(!world.remote && !isNull(te.data)){
-
-        if(te.data has "subTileName" && !player.creative){
-            if(te.data.subTileName.asString() == "endoflame"){
-                if(!(worldData has "endoflame")){
-                    world.setCustomChunkData({endoflame : 0}, pos);
-                    var upDate as IData = {endoflame : 1};
-                    world.updateCustomChunkData(upDate, pos);
-                }else if(worldData.endoflame.asInt() > 3){
-                    common.runTitle(game.localize("autotech.title.endoflame.description"),"",true);
+    if(!world.remote && !isNull(te)) {
+        if(te has "subTileName" && !player.creative) {
+            if(te.subTileName.asString() == "endoflame") {
+                if(!(chunkData has "endoflame")) {
+                    world.setCustomChunkData({endoflame : 1}, pos);
+                } else if(chunkData.endoflame.asInt() > 3) {
+                    common.runTitle(game.localize("autotech.title.endoflame.description"), "", true);
                     event.cancel();
-                }else{
-                    var upDate as IData = {endoflame : worldData.endoflame.asInt() + 1};
+                } else {
+                    var upDate as IData = {endoflame : chunkData.endoflame.asInt() + 1};
                     world.updateCustomChunkData(upDate, pos);
                 }
             }

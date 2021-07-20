@@ -1,5 +1,6 @@
 #priority 20
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
 import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;
@@ -18,20 +19,20 @@ import crafttweaker.util.Position3f;
 import crafttweaker.command.ICommandManager;
 
 
-function getItemID (item as IItemStack) as string {
+function getItemID(item as IItemStack) as string {
     return item.definition.id;
 }
 
-function getBlockID (block as IBlock) as string {
+function getBlockID(block as IBlock) as string {
     return block.definition.id;
 }
 
-function runCommand (command as string) {
+function runCommand(command as string) {
     val s = server.commandManager;
     s.executeCommand(server,command);
 }
 
-function runTitle (title as string ,color as string , bold as bool){
+function runTitle(title as string ,color as string , bold as bool){
     val s = server.commandManager;
     if(!bold){
         s.executeCommand(server,"title @a actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
@@ -53,7 +54,6 @@ function checkStructure(pos as IBlockPos, world as IWorld) as bool {
     val checkBlock = "contenttweaker:ender_portal" as string;
 
     if (!(getBlockID(world.getBlock(pos)) has checkBlock)) {
-        print("not frame.");
         return false;
     }
 
@@ -92,36 +92,27 @@ function checkStructure(pos as IBlockPos, world as IWorld) as bool {
     }
 
     var posCheck as IBlockPos = posBottomLeft;
-    print("bottom left coord:");
 
     for i in 1 to 4 {
-        print("move east");
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.east(), i))) has checkBlock)) {
-            print("check fail!");
             result = false;
         }
     }
     posCheck = posCheck.getOffset(IFacing.east(), 4);
     for i in 1 to 4 {
-        print("move north");
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.north(), i))) has checkBlock)) {
-            print("check fail!");
             result = false;
         }
     }
     posCheck = posCheck.getOffset(IFacing.north(), 4);
     for i in 1 to 4 {
-        print("move west");
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.west(), i))) has checkBlock)) {
-            print("check fail!");
             result = false;
         }
     }
     posCheck = posCheck.getOffset(IFacing.west(), 4);
     for i in 1 to 4 {
-        print("move south");
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.south(), i))) has checkBlock)) {
-            print("check fail!");
             result = false;
         }
     }
@@ -135,7 +126,6 @@ function checkStructure(pos as IBlockPos, world as IWorld) as bool {
 }
 
 function breakPortals(pos as IBlockPos, world as IWorld) {
-    print("func breakPortals");
 
     var posCheckList as IBlockPos[] = [
         pos.getOffset(IFacing.east(), 1),
@@ -146,17 +136,16 @@ function breakPortals(pos as IBlockPos, world as IWorld) {
 
     val blockID as string = "minecraft:end_portal";
     val frameID as string = "contenttweaker:ender_portal";
-    var checkBlock = getBlockID(world.getBlock(pos));
+    var checkBlock as string = getBlockID(world.getBlock(pos));
 
     if (!isNull(checkBlock)) {
-        print(checkBlock);
-        if (checkBlock == frameID || checkBlock == blockID) {
-            if (checkBlock == blockID) {
+        if(checkBlock == frameID || checkBlock == blockID) {
+            if(checkBlock == blockID) {
                 world.setBlockState(<blockstate:minecraft:air>, pos);
             }
-            for p in posCheckList {
-                if (getBlockID(world.getBlock(p)) == blockID) {
-                    breakPortals(p, world);
+            for posCheck in posCheckList {
+                if(getBlockID(world.getBlock(posCheck)) == blockID) {
+                    breakPortals(posCheck, world);
                 }
             }
         }

@@ -1,7 +1,6 @@
 #priority -5
 #modloaded atutils
 
-import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.jei.JEI;
@@ -90,27 +89,27 @@ val hideCategory as string[] = [
     "nuclearcraft_alloy_furnace"
 ];
 
-for i in removeAndHide{
-    JEI.removeAndHide(i);
+for item in removeAndHide {
+    JEI.removeAndHide(item);
 }
 
-for i in removeByRecipeName{
-    recipes.removeByRecipeName(i);
+for name in removeByRecipeName {
+    recipes.removeByRecipeName(name);
 }
 
-for i in baned{
-    i.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban"));
-    recipes.remove(i);
+for item in baned {
+    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban"));
+    recipes.remove(item);
 }
 
-for i in banRitual{
-    i.addTooltip("§4" ~ game.localize("autotech.tooltip.ritual.ban"));
+for item in banRitual {
+    item.addTooltip("§4" ~ game.localize("autotech.tooltip.ritual.ban"));
 }
 
-for i in hideCategory{
-    JEI.hideCategory(i);
+for name in hideCategory {
+    JEI.hideCategory(name);
 }
 
-for i in 22 to 28{
-    JEI.removeAndHide(<thermalfoundation:material>.definition.makeStack(i));
+for meta in 22 to 28 {
+    JEI.removeAndHide(<thermalfoundation:material>.definition.makeStack(meta));
 }

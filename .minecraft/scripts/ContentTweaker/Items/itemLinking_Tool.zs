@@ -23,6 +23,7 @@ import mods.ctutils.utils.Math;
 
 import mods.zenutils.DelayManager;
 
+
 var linking_tool as Item = VanillaFactory.createItem("linking_tool");
 linking_tool.maxStackSize = 1;
 linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
@@ -30,7 +31,6 @@ linking_tool.onItemUse = function(player, world, pos, hand, facing, blockHit){
     val item as IItemStack = player.getHeldItem(hand);
 
     if(!world.remote){
-        // print(getBlockID(block));
         if(getBlockID(block) == "contenttweaker:twilight_anchor_point"){
             if(world.getDimension() != 7){
                 player.sendChat(game.localize("autotech.content.one"));

@@ -5,8 +5,8 @@
 import mods.contenttweaker.Block;
 import scripts.grassUtils.CotUtils;
 
-val Ores as string[] = ["udOreAluminum","udOreNickel","udOreSilver","udOreUranium","netherBlackQuartz"];
+val ores as string[] = ["udOreAluminum","udOreNickel","udOreSilver","udOreUranium","netherBlackQuartz"];
 
-for i in Ores{
-    CotUtils.addBlock(i, <blockmaterial:rock>, 8.0, 5.0, <soundtype:Stone>, 0, false, "pickaxe", 2, null);
+for ore in ores {
+    CotUtils.addBlock(ore, <blockmaterial:rock>, 8.0, 5.0, <soundtype:Stone>, 0, false, "pickaxe", 2, null);
 }

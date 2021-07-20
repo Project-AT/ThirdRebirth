@@ -19,7 +19,8 @@ function createStageItem(name as string, stage as string){
     item.maxStackSize = 1;
     item.rarity = "rare";
     item.itemRightClick = function(stack, world, player, hand){
-        Commands.call("gamestage add "+ player.name +" "+ stage, player, world, false, true);
+        player.addGameStage(stage);
+        //Commands.call("gamestage add "+ player.name +" "+ stage, player, world, false, true);
         Commands.call("title "+ player.name +" title {\"text\":" + game.localize("autotech.others.unlockedstage") + ",\"bold\":false}", player, world, false, true);//您已解锁新阶段
         Commands.call("playsound minecraft:ui.toast.challenge_complete player "+ player.name, player, world, false, true);
         stack.shrink(1);

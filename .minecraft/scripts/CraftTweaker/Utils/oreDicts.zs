@@ -1,10 +1,8 @@
 #priority 20
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
-import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IItemDefinition;
-import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jei.JEI;
@@ -20,33 +18,33 @@ var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust", "stick"
 ];
 
-var oreDictAdd as string[string] = {
-    "dustCrudeSteel" : "contenttweaker:dust_rudesteel",
-    "oreNickel" : "contenttweaker:udorenickel",
-    "oreSilver" : "contenttweaker:udoresilver",
-    "oreUranium" : "contenttweaker:udoreuranium",
-    "oreAluminum" : "contenttweaker:udorealuminum",
-    "oreCrudeSteel" : "contenttweaker:ironcoal_ore",
-    "oreAquamarine" : "contenttweaker:aqua_ore_gravel",
-    "oreQuartzBlack" : "contenttweaker:netherblackquartz",
-    "oreSkyStoneBlock" : "appliedenergistics2:sky_stone_block"
+var oreDictAdd as IItemStack[string] = {
+    "dustCrudeSteel" : <contenttweaker:dust_rudesteel>,
+    "oreNickel" : <contenttweaker:udorenickel>,
+    "oreSilver" : <contenttweaker:udoresilver>,
+    "oreUranium" : <contenttweaker:udoreuranium>,
+    "oreAluminum" : <contenttweaker:udorealuminum>,
+    "oreCrudeSteel" : <contenttweaker:ironcoal_ore>,
+    "oreAquamarine" : <contenttweaker:aqua_ore_gravel>,
+    "oreQuartzBlack" : <contenttweaker:netherblackquartz>,
+    "oreSkyStoneBlock" : <appliedenergistics2:sky_stone_block>
 };
 
-var oreDictRemove as string[string] = {
-    "oreDilithium" : "matteroverdrive:dilithium_ore"
+var oreDictRemove as IItemStack[string] = {
+    "oreDilithium" : <matteroverdrive:dilithium_ore>
 };
 
-for i in partNames {
-    for l in oreDictNames {
-        var ore = oreDict.get(i ~ l);
-        var ores = ore.items;
-        for n in ores{
-            var owner = n.definition.owner;
+for partName in partNames {
+    for key in oreDictNames {
+        var ore as IOreDictEntry = oreDict.get(partName ~ key);
+        var ores as [IItemStack] = ore.items;
+        for oreItem in ores{
+            var owner = oreItem.definition.owner;
             if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft"){
-                 for o in ores{
-                    if(!(o.matches(n)) && (o.definition.owner != "chisel")){
-                        JEI.removeAndHide(o);
-                        ore.remove(o);
+                 for otherItem in ores{
+                    if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")){
+                        JEI.removeAndHide(otherItem);
+                        ore.remove(otherItem);
                     }
                 }
                 break;
@@ -55,17 +53,19 @@ for i in partNames {
     }
 }
 
-for i in knifes{
-    var knifeOwner as string = i.definition.owner;
-    if(knifeOwner == "mysticalworld" || knifeOwner == "roots"){
-        <ore:oreKnife>.add(i);
+for item in knifes {
+    var owner as string = item.definition.owner;
+
+    if(owner == "mysticalworld" || owner == "roots"){
+        <ore:oreKnife>.add(item);
     }
 }
 
-for key ,value in oreDictAdd{
-    oreDict.get(key).add(itemUtils.getItem(value));
+for key, value in oreDictAdd {
+    oreDict.get(key).add(value);
 }
 
-for key ,value in oreDictRemove{
-    oreDict.get(key).remove(itemUtils.getItem(value));
+for key, value in oreDictRemove {
+    oreDict.get(key).remove(value);
+    JEI.hide(value);
 }

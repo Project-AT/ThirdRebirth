@@ -11,6 +11,6 @@ var items as string[] = [
 ];
 
 
-for item in items{
+for item in items {
 	CotUtils.addNormalItem(item);
 }
