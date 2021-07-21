@@ -185,7 +185,7 @@ traverse:arid_highland
 traverse:rocky_plains
 wizardry:wizardry_underworld
 advancedrocketry:moon
-advancedrocketry:alien forest
+advancedrocketry:alien_forest
 advancedrocketry:hotdryrock
 advancedrocketry:space
 advancedrocketry:stormland

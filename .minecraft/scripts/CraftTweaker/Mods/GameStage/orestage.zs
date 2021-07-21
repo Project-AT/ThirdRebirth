@@ -14,7 +14,7 @@ var ores2 as IItemStack[] = [
     <libvulpes:ore0>
 ];
 
-for ore in ores{
+for ore in ores {
     if(ore.isItemBlock){
         OreStages.addReplacement("oreStage", ore);
     }
