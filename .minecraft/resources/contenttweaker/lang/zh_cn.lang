@@ -14,6 +14,7 @@ item.contenttweaker.linking_tool.name=链接器
 item.contenttweaker.Aura_coal.name=灵煤
 item.contenttweaker.Blast_furnace_fuel.name=高炉燃料
 item.contenttweaker.dust_rudesteel.name=粗钢粉
+item.contenttweaker.gravitational_anomaly_container.name=引力异常点收容器
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=邪恶之石

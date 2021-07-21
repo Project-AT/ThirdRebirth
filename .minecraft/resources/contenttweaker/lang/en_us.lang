@@ -14,6 +14,7 @@ item.contenttweaker.linking_tool.name=Linking Tool
 item.contenttweaker.Aura_coal.name=Aura Coal
 item.contenttweaker.Blast_furnace_fuel.name=Blast Furnace Fuel
 item.contenttweaker.dust_rudesteel.name=Rudesteel Dust
+item.contenttweaker.gravitational_anomaly_container.name=Gravitational Anomaly Container
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=Evil Stone
