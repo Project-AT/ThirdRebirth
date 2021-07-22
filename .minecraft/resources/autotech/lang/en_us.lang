@@ -11,6 +11,7 @@ autotech.title.endportal.description=The mysterious End Portal was placed on a E
 autotech.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
 autotech.title.notree.description=Please use any axe for logging!
 autotech.tier.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
+autotech.title.endportal.dimerror=EndPortal can only be creation in OverWorld
 
 #LinkingTool
 autotech.content.one=This Anchor Point can only be set up in Twilight.

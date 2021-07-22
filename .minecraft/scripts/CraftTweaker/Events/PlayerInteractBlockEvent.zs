@@ -32,12 +32,15 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
         }
 
-        if(!isNull(currentItem) && common.getItemID(currentItem) has "minecraft:ender_eye" && !player.creative) {
-            if(common.getBlockID(block) has "minecraft:end_portal_frame") {
+        if(!isNull(currentItem) && common.getItemID(currentItem) has "minecraft:ender_eye" && common.getBlockID(block) has "minecraft:end_portal_frame" && !player.creative) {
+            currentItem.mutable().shrink(1);
+            
+            if(world.dimension == 0) {
                 world.setBlockState(<blockstate:minecraft:air>, pos);
                 player.sendChat(game.localize("autotech.title.endportal.description"));
                 common.runCommand("summon minecraft:lightning_bolt "+ x + " " + y + " " + z);
-                common.runCommand("clear " + player.name + " minecraft:ender_eye 0 1");
+            } else {
+                player.sendChat(game.localize("autotech.title.endportal.dimerror"));
             }
         }
 
