@@ -1,4 +1,4 @@
-#priority 20
+#priority 30
 #modloaded atutils
 #loader crafttweaker reloadableevents
 
@@ -38,11 +38,11 @@ for partName in partNames {
     for key in oreDictNames {
         var ore as IOreDictEntry = oreDict.get(partName ~ key);
         var ores as [IItemStack] = ore.items;
-        for oreItem in ores{
+        for oreItem in ores {
             var owner = oreItem.definition.owner;
-            if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft"){
-                 for otherItem in ores{
-                    if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")){
+            if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
+                 for otherItem in ores {
+                    if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")) {
                         JEI.removeAndHide(otherItem);
                         ore.remove(otherItem);
                     }
@@ -67,5 +67,5 @@ for key, value in oreDictAdd {
 
 for key, value in oreDictRemove {
     oreDict.get(key).remove(value);
-    JEI.hide(value);
+    JEI.removeAndHide(value);
 }

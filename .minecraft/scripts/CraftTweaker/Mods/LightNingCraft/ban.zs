@@ -1,9 +1,14 @@
 #priority 5
 #modloaded atutils
 
-import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 
-recipes.remove(<lightningcraft:rod:*>);
-recipes.remove(<lightningcraft:plate:*>);
+var banList as IItemStack[] = [
+    <lightningcraft:rod:*>,
+    <lightningcraft:plate:*>
+];
+
+for banItem in banList {
+    recipes.remove(banItem);
+}

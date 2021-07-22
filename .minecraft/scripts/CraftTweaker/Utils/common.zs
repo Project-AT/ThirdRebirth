@@ -28,19 +28,17 @@ function getBlockID(block as IBlock) as string {
 }
 
 function runCommand(command as string) {
-    val s = server.commandManager;
-    s.executeCommand(server,command);
+    server.commandManager.executeCommand(server,command);
 }
 
-function runTitle(title as string ,color as string , bold as bool){
+function runTitle(title as string ,color as string , bold as bool) {
     val s = server.commandManager;
-    if(!bold){
+    if(!bold) {
         s.executeCommand(server,"title @a actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
-    }else{
+    } else {
         s.executeCommand(server,"title @a actionbar {\"text\":\""+title+"\",\"bold\":"+"true"+",\"color\":\""+color+"\"}");
     }
 }
-
 
 function creatPortals(pos as IBlockPos, world as IWorld) {
     for i in 1 to 4 {
@@ -51,7 +49,7 @@ function creatPortals(pos as IBlockPos, world as IWorld) {
 }
 
 function checkStructure(pos as IBlockPos, world as IWorld) as bool {
-    val checkBlock = "contenttweaker:ender_portal" as string;
+    val checkBlock as string = "contenttweaker:ender_portal";
 
     if (!(getBlockID(world.getBlock(pos)) has checkBlock)) {
         return false;
@@ -64,10 +62,11 @@ function checkStructure(pos as IBlockPos, world as IWorld) as bool {
         pos.getOffset(IFacing.east(), 4)
     ];
     var posBottomLeft as IBlockPos = pos;
-    var result = false as bool;
+    var result as bool = false;
 
     for i in 0 to 4 {
         var p as IBlockPos = posList1[i];
+
         if (getBlockID(world.getBlock(p)) has checkBlock) {
             if (i % 2 == 0) {
                 p = p.getOffset(IFacing.west(), 1);
@@ -98,24 +97,31 @@ function checkStructure(pos as IBlockPos, world as IWorld) as bool {
             result = false;
         }
     }
+
     posCheck = posCheck.getOffset(IFacing.east(), 4);
+
     for i in 1 to 4 {
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.north(), i))) has checkBlock)) {
             result = false;
         }
     }
+
     posCheck = posCheck.getOffset(IFacing.north(), 4);
+
     for i in 1 to 4 {
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.west(), i))) has checkBlock)) {
             result = false;
         }
     }
+
     posCheck = posCheck.getOffset(IFacing.west(), 4);
+
     for i in 1 to 4 {
         if (!(getBlockID(world.getBlock(posCheck.getOffset(IFacing.south(), i))) has checkBlock)) {
             result = false;
         }
     }
+
     posCheck = posCheck.getOffset(IFacing.south(), 4);
 
     if (result) {
@@ -143,6 +149,7 @@ function breakPortals(pos as IBlockPos, world as IWorld) {
             if(checkBlock == blockID) {
                 world.setBlockState(<blockstate:minecraft:air>, pos);
             }
+            
             for posCheck in posCheckList {
                 if(getBlockID(world.getBlock(posCheck)) == blockID) {
                     breakPortals(posCheck, world);

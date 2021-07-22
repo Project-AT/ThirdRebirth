@@ -15,7 +15,7 @@ var ores2 as IItemStack[] = [
 ];
 
 for ore in ores {
-    if(ore.isItemBlock){
+    if(ore.isItemBlock) {
         OreStages.addReplacement("oreStage", ore);
     }
 }

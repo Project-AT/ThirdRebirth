@@ -1,13 +1,28 @@
 #priority -5
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
-import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-var oreString as string[] = [
+import mods.jei.JEI;
+
+
+var ores as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
-    "Platinum", "Titanium", "Mithril", "Irdium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
+    "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
     "Lead", "Aluminum", "Dilithium"
 ];
+
+
+for ore in ores {
+    var oreDictEntry as IOreDictEntry = oreDict.get("shard" ~ ore);
+
+    if(!isNull(oreDictEntry) && !oreDictEntry.empty) {
+        for itemIn in oreDictEntry.items {
+            if(itemIn.definition.owner != "contenttweaker") {
+                JEI.removeAndHide(itemIn);
+                oreDictEntry.remove(itemIn);
+            }
+        }
+    }
+}

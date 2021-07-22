@@ -1,10 +1,6 @@
 #priority 5
 #modloaded atutils
 
-import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IItemDefinition;
-import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jei.JEI;
@@ -17,10 +13,10 @@ var oreNames as string[] = [
      "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "Platinum"
 ];
 
-for index, i in oreNames{
-    var gear = oreDict.get("gear" ~ i);
-    var plate = oreDict.get("plate" ~ i);
-    var ingot = oreDict.get("ingot" ~ i);
+for index, i in oreNames {
+    var gear as IOreDictEntry = oreDict.get("gear" ~ i);
+    var plate as IOreDictEntry = oreDict.get("plate" ~ i);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ i);
 
     RecipeBuilder.get("engineer")
         .setName("atplate" ~ index)

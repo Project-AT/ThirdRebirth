@@ -1,0 +1,44 @@
+#priority 30
+#modloaded atutils
+#loader contenttweaker
+
+import scripts.grassUtils.CotUtils;
+import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
+
+var materials as int[string] = {
+    "Gold" : 0xF8AF2B,
+    "Iron" : 0xAF8E77,
+    "CrudeSteel" : 0xA49892,
+    "Uranium" : 0x3A5339,
+    "QuartzBlack" : 0x1F1F1F,
+    "Tritanium" : 0x283436,
+    "Thorium" : 0x303030,
+    "Osmium" : 0xA4B5CD,
+    "Nickel" : 0xD8D8A9,
+    "Platinum" : 0x33B2FF,
+    "Titanium" : 0x947252,
+    "Mithril" : 0x6CCDFF,
+    "Iridium" : 0xBABAD6,
+    "Boron" : 0x5F5F5F,
+    "Lithium" : 0xEEEEEE,
+    "Magnesium" : 0xEFD3ED,
+    "Copper" : 0xFF7F15,
+    "Tin" : 0xC7ECFF,
+    "Silver" : 0xE4FBFE,
+    "Lead" : 0x7C8DC5,
+    "Aluminum" : 0xCECED3, 
+    "Dilithium" : 0xA87E76,
+};
+
+var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
+oreProcess.addPart("shard");
+oreProcess.addPart("crushed_ore");
+oreProcess.registerNormalPart("enriched_ore", "ore", true);
+oreProcess.registerNormalPart("mana_enriched_ore", "ore", true);
+oreProcess.registerNormalPart("crushed_enriched_ore", "item", false);
+
+for material, color in materials {
+    oreProcess.registerMaterial(material, color);
+}
+
+oreProcess.registerAllMaterialParts();
