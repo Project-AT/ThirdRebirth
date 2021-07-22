@@ -1,3 +1,5 @@
+#From https://github.com/ProjectHDS/Herodotus/blob/master/.github/workflows/ModsDownload.yml
+
 name: ModsDownload
 on: 
   workflow_dispatch:
@@ -20,4 +22,3 @@ jobs:
           name: autoTech-Mods
           path: mods
           retention-days: 5
-          
