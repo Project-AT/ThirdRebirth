@@ -4,9 +4,8 @@
 /.minecraft/*
 
 #repo stuff
-!/.gtihub
+!/.github
 !/docs
-!/artifacts
 !/runners
 !/LICENSE
 !/README.md
@@ -65,7 +64,6 @@
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
 !/.minecraft/structures
-/.minecraft/scripts/.zsrc
 
 #pack stuff
 /instance.cfg
