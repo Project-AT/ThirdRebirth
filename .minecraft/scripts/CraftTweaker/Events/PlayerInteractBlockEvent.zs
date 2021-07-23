@@ -54,7 +54,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 
         if(common.getBlockID(block) has "minecraft:bed" && player.isPotionActive(<potion:atutils:drowsy>) && !world.isDayTime()) {
             DelayManager.addDelayWork(function() {
-                TwilightTeleporter.teleportPlayer(player);
+                player.teleportTwilight();
             }, 3 * 20);
         }
     }
