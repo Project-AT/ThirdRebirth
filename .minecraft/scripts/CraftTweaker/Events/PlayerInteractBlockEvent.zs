@@ -10,7 +10,6 @@ import crafttweaker.world.IBlockPos;
 
 import scripts.CraftTweaker.Utils.common;
 import mods.zenutils.DelayManager;
-import mods.atutils.TwilightTeleporter;
 
 import crafttweaker.event.PlayerInteractBlockEvent;
 
