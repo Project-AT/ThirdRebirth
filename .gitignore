@@ -47,7 +47,7 @@
 /.minecraft/config/splash.properties
 /.minecraft/config/enderstorage.cfg
 /.minecraft/config/topaddons.cfg
-/.minecraft/config/InvTweaks.cfg
+.minecraft/config/InvTweaks.cfg
 /.minecraft/config/fantasticlib/reference/sounds.txt
 /.minecraft/config/fantasticlib/reference/recipes.txt
 /.minecraft/config/fantasticlib/reference/potion_types.txt
