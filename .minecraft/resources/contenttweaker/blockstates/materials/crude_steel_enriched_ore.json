@@ -5,7 +5,7 @@
     "model": "base:ore",
     "textures": {
       "particle": "minecraft:blocks/stone",
-      "texture": "minecraft:blocks/stone",
+      "texture": "contenttweaker:blocks/enriched_ore_shadow",
       "ore": "contenttweaker:blocks/enriched_ore",
       "ore_shadow": "contenttweaker:blocks/enriched_ore_shadow"
     }
