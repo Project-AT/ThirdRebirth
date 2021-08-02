@@ -15,6 +15,10 @@ item.contenttweaker.Aura_coal.name=Aura Coal
 item.contenttweaker.Blast_furnace_fuel.name=Blast Furnace Fuel
 item.contenttweaker.dust_rudesteel.name=Rudesteel Dust
 item.contenttweaker.gravitational_anomaly_container.name=Gravitational Anomaly Container
+item.contenttweaker.si_transistor.name=Silicon Transistor
+item.contenttweaker.germanium_integrated_circuit_board.name=Germanium Integrated Circuit Board
+item.contenttweaker.ge_wafer.name=Germanium Wafer
+item.contenttweaker.ge_transistor.name=Germanium Transistor
 
 #Block
 #Common

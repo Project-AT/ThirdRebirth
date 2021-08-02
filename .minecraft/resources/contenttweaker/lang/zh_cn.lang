@@ -15,6 +15,10 @@ item.contenttweaker.Aura_coal.name=灵煤
 item.contenttweaker.Blast_furnace_fuel.name=高炉燃料
 item.contenttweaker.dust_rudesteel.name=粗钢粉
 item.contenttweaker.gravitational_anomaly_container.name=引力异常点收容器
+item.contenttweaker.si_transistor.name=硅晶体管
+item.contenttweaker.germanium_integrated_circuit_board.name=锗集成电路
+item.contenttweaker.ge_wafer.name=锗晶圆
+item.contenttweaker.ge_transistor.name=锗晶体管
 
 #Block
 #Common
