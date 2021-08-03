@@ -4,7 +4,6 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-mana_craft:mana_priest
 roots:druid
 matteroverdrive:mad_scientist
 immersiveengineering:engineer
