@@ -1,8 +1,0 @@
-{
-  "fuel": {
-    "type": "forge:ore_dict",
-    "ore": "ingotOrichalcum"
-  },
-  "level": 25,
-  "time": 30000
-}
