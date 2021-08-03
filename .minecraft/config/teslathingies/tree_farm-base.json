@@ -1,0 +1,32 @@
+[
+  {
+    "mod_id": "rustic",
+    "logs": [ ],
+    "leaves": [ "rustic:leaves" ],
+    "saplings": [ ]
+  },
+  {
+    "mod_id": "biomesoplenty",
+    "logs": [ "biomesoplenty:log_*" ],
+    "leaves": [ "biomesoplenty:leaves_*" ],
+    "saplings": [ ]
+  },
+  {
+    "mod_id": "tconstruct",
+    "logs": [ "tconstruct:slime_congealed" ],
+    "leaves": [ "tconstruct:slime_leaves" ],
+    "saplings": [ "tconstruct:slime_sapling" ]
+  },
+  {
+    "mod_id": "evilcraft",
+    "logs": [ "evilcraft:undead_log" ],
+    "leaves": [ "evilcraft:undead_leaves" ],
+    "saplings": [ ]
+  },
+  {
+    "mod_id": "ic2",
+    "logs": [ "ic2:rubber_wood" ],
+    "leaves": [ ],
+    "saplings": [ ]
+  }
+]
