@@ -1,4 +1,3 @@
 # autoTech
-## it's dead...
 
-（maybe not）
+## It has been raised
