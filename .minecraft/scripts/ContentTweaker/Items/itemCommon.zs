@@ -6,8 +6,8 @@ import scripts.grassUtils.CotUtils;
 
 
 var items as string[] = [
-    "mana_petals", "straw_rope", "rune", "rune1", "twilight_key", "end_portal_frame_debris", "Insulating_substrate",
-    "twilight_alloy", "Blast_furnace_fuel", "Aura_coal", "dust_rudesteel", "gravitational_anomaly_container", "ge_wafer", "ge_transistor",
+    "mana_petals", "straw_rope", "rune", "rune1", "end_portal_frame_debris", "insulating_substrate",
+    "blast_furnace_fuel", "aura_coal", "dust_rudesteel", "gravitational_anomaly_container", "ge_wafer", "ge_transistor",
     "germanium_integrated_circuit_board", "si_transistor"
 ];
 
