@@ -22,10 +22,6 @@ var removeAndHide as IItemStack[] = [
     <enderio:block_zombie_generator>,
     <enderio:block_franken_zombie_generator>,
     <enderio:block_ender_generator>,
-    <actuallyadditions:block_leaf_generator>,
-    <actuallyadditions:block_leaf_generator>,
-    <actuallyadditions:block_coal_generator>,
-    <actuallyadditions:block_oil_generator>,
     <advancedrocketry:blackholegenerator>,
     <advancedrocketry:solargenerator>,
     <draconicevolution:generator>,
@@ -57,7 +53,6 @@ var removeAndHide as IItemStack[] = [
     <rftools:coalgenerator>,
     <rftools:endergenic>,
     <libvulpes:coalgenerator>,
-    <opencomputers:upgrade:22>
 ];
 
 var removeByRecipeName as string[] = [

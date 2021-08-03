@@ -36,14 +36,6 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
             } 
         }
 
-        if(common.getBlockID(block) == "contenttweaker:aqua_ore_gravel" && !player.creative){
-            if(fortune == 0) {
-                event.drops = [<astralsorcery:itemcraftingcomponent> * random % 100];
-            } else if(fortune >= 0) {
-                event.drops = [<astralsorcery:itemcraftingcomponent> * (random * fortune) % 100];
-            }
-        }
-
         if(<ore:logWood>.matches(event.drops[0].stack)) {
             if(isNull(player.currentItem) || !(player.currentItem.toolClasses has "axe")) {
                 event.drops = [];

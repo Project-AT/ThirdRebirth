@@ -7,7 +7,6 @@ import mods.randomtweaker.botania.Hydroangeas;
 
 
 var manaRecipe as ILiquidStack[int] = {
-    1700 : <liquid:astralsorcery.liquidstarlight>,
     2800 : <liquid:liquid_sunshine>,
     4000 : <liquid:nutrient_distillation>,
     5500 : <liquid:ender_distillation>
