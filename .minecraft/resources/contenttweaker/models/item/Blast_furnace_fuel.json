@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/Blast_furnace_fuel"
+    "layer0": "contenttweaker:items/blast_furnace_fuel"
   }
 }
