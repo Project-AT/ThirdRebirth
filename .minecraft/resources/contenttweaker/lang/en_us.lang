@@ -16,6 +16,7 @@ item.contenttweaker.si_transistor.name=Silicon Transistor
 item.contenttweaker.germanium_integrated_circuit_board.name=Germanium Integrated Circuit Board
 item.contenttweaker.ge_wafer.name=Germanium Wafer
 item.contenttweaker.ge_transistor.name=Germanium Transistor
+item.contenttweaker.base_board_of_basic_ic.name=Base Board of Basic Ic
 
 #Block
 #Common
