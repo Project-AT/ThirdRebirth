@@ -22,6 +22,8 @@ var removeAndHide as IItemStack[] = [
     <enderio:block_zombie_generator>,
     <enderio:block_franken_zombie_generator>,
     <enderio:block_ender_generator>,
+	<enderio:block_enhanced_combustion_generator>,
+	<enderio:block_combustion_generator>,
     <advancedrocketry:blackholegenerator>,
     <advancedrocketry:solargenerator>,
     <draconicevolution:generator>,
@@ -69,15 +71,15 @@ var baned as IItemStack[] = [
     <primal_tech:bone_club>,
     <primal_tech:stone_club>,
     <primal_tech:fluid_bladder>,
-    <nuclearcraft:alloy_furnace>
+    <nuclearcraft:alloy_furnace>,
+	<roots:unending_bowl>
 ];
 
 val banRitual as IItemStack[] = [
     <roots:ritual_animal_harvest>,
     <roots:ritual_purity>,
     <roots:ritual_germination>,
-    <roots:ritual_warding_protection>,
-    <roots:unending_bowl>
+    <roots:ritual_warding_protection>
 ];
 
 val hideCategory as string[] = [

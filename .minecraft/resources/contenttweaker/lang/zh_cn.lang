@@ -10,7 +10,7 @@ item.contenttweaker.four_leaf_clover.name=四叶草
 item.contenttweaker.four_leaf_clover_necklace.name=四叶草项链
 item.contenttweaker.aura_coal.name=灵煤
 item.contenttweaker.blast_furnace_fuel.name=高炉燃料
-item.contenttweaker.dust_rudesteel.name=粗钢粉
+item.contenttweaker.dust_crude_steel.name=粗钢粉
 item.contenttweaker.gravitational_anomaly_container.name=引力异常点收容器
 item.contenttweaker.si_transistor.name=硅晶体管
 item.contenttweaker.germanium_integrated_circuit_board.name=锗集成电路
@@ -22,7 +22,6 @@ item.contenttweaker.ge_transistor.name=锗晶体管
 tile.contenttweaker.evil_stone.name=邪恶之石
 tile.contenttweaker.no_energy_table.name=未激活的研究台
 tile.contenttweaker.ender_portal.name=末地传送门-自制
-tile.contenttweaker.ender_portal_core.name=末地传送门-核心（自制）
 tile.contenttweaker.ironcoal_ore.name=铁碳矿石
 tile.contenttweaker.aura_coal_block.name=灵煤块
 
