@@ -77,3 +77,4 @@
 /.minecraft/mods/*
 !/.minecraft/mods/randomtweaker*.jar
 !/.minecraft/mods/atutils*.jar
+/.minecraft/resources/atutils
