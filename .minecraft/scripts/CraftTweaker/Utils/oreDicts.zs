@@ -19,7 +19,7 @@ var partNames as string[] = [
 ];
 
 var oreDictAdd as IItemStack[string] = {
-    "dustCrudeSteel" : <contenttweaker:dust_rudesteel>,
+    "dustCrudeSteel" : <contenttweaker:dust_crude_steel>,
     "oreNickel" : <contenttweaker:udorenickel>,
     "oreSilver" : <contenttweaker:udoresilver>,
     "oreUranium" : <contenttweaker:udoreuranium>,
