@@ -48,7 +48,9 @@
       "8": "magnesium_mana_enriched_ore",
       "9": "platinum_enriched_ore",
       "10": "iridium_mana_enriched_ore",
-      "11": "thorium_enriched_ore"
+      "11": "thorium_enriched_ore",
+      "12": "high_strength_aluminum_alloy_block",
+      "13": "germanium_block"
     }
   }
 }

@@ -10,7 +10,6 @@ var materials as int[string] = {
     "Iron" : 0xAF8E77,
     "CrudeSteel" : 0xA49892,
     "Uranium" : 0x3A5339,
-    "QuartzBlack" : 0x1F1F1F,
     "Tritanium" : 0x283436,
     "Thorium" : 0x303030,
     "Osmium" : 0xA4B5CD,
@@ -36,7 +35,7 @@ var materials_ as int[string] = {
 };
 
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
-oreProcess.addPart(["shard", "crushed_ore"] as string[]);
+oreProcess.addParts(["shard", "crushed_ore"] as string[]);
 oreProcess.registerNormalPart("enriched_ore", "ore", true);
 oreProcess.registerNormalPart("mana_enriched_ore", "ore", true);
 oreProcess.registerNormalPart("crushed_enriched_ore", "item", false);
