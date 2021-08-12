@@ -13,7 +13,6 @@ import scripts.CraftTweaker.Utils.common;
 
 import mods.ctutils.utils.Math;
 
-
 events.onPlayerLeftClickBlock(function(event as PlayerLeftClickBlockEvent){
     val block as IBlock = event.block;
     val player as IPlayer = event.player;

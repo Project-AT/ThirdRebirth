@@ -13,7 +13,6 @@ import mods.zenutils.DelayManager;
 
 import crafttweaker.event.PlayerInteractBlockEvent;
 
-
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     val world as IWorld = event.world;
     val player as IPlayer = event.player;

@@ -13,7 +13,6 @@ import mods.ctutils.utils.Math;
 
 import crafttweaker.event.BlockHarvestDropsEvent;
 
-
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     var world as IWorld = event.world;
     var player as IPlayer = event.player;
