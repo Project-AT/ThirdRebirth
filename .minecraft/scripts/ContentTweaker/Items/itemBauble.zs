@@ -6,7 +6,6 @@ import crafttweaker.player.IPlayer;
 
 import mods.contenttweaker.VanillaFactory;
 
-
 var flcn = VanillaFactory.createBaubleItem("four_leaf_clover_necklace");
 flcn.rarity = "rare";
 flcn.onWornTick = function(bauble, wearer) {

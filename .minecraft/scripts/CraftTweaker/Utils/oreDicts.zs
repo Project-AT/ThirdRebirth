@@ -24,7 +24,6 @@ var oreDictAdd as IItemStack[string] = {
     "oreUranium" : <contenttweaker:udoreuranium>,
     "oreAluminum" : <contenttweaker:udorealuminum>,
     "oreCrudeSteel" : <contenttweaker:ironcoal_ore>,
-    "oreQuartzBlack" : <contenttweaker:netherblackquartz>,
     "oreSkyStoneBlock" : <appliedenergistics2:sky_stone_block>
 };
 

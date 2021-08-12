@@ -69,6 +69,12 @@ zenClass MaterialSystemHelper {
         return partID;
     }
 
+	function addParts(partIDs as string[]) {
+		for partID in partIDs {
+			this.addPart(partID);
+		}
+	}
+
     function registerNormalPart(name as string, type as string, hasOverlay as bool) as Part {
         Logger.sendInfo(this.getLogID() ~ "Registering normal part " ~ name);
         val id as string = StringHelper.toSnakeCase(name);

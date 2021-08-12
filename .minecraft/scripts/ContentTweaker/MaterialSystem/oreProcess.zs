@@ -27,12 +27,16 @@ var materials as int[string] = {
     "Silver" : 0xE4FBFE,
     "Lead" : 0x7C8DC5,
     "Aluminum" : 0xCECED3, 
-    "Dilithium" : 0xA87E76,
+    "Dilithium" : 0xA87E76
+};
+
+var materials_ as int[string] = {
+	"Germanium" : 0xD8D1BF,
+	"HighStrengthAluminumAlloy" : 0xF2F2F2
 };
 
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
-oreProcess.addPart("shard");
-oreProcess.addPart("crushed_ore");
+oreProcess.addPart(["shard", "crushed_ore"] as string[]);
 oreProcess.registerNormalPart("enriched_ore", "ore", true);
 oreProcess.registerNormalPart("mana_enriched_ore", "ore", true);
 oreProcess.registerNormalPart("crushed_enriched_ore", "item", false);
@@ -42,3 +46,11 @@ for material, color in materials {
 }
 
 oreProcess.registerAllMaterialParts();
+
+var oreProcess_ as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process_");
+oreProcess_.addParts(["Ingot", "Plate", "Nugget", "Gear", "Dust", "Rod", "Block"] as string[]);
+
+for material, color in materials_ {
+    oreProcess_.registerMaterial(material, color);
+}
+oreProcess_.registerAllMaterialParts();
