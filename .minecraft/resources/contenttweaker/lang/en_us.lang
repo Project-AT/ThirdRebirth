@@ -17,6 +17,7 @@ item.contenttweaker.germanium_integrated_circuit_board.name=Germanium Integrated
 item.contenttweaker.ge_wafer.name=Germanium Wafer
 item.contenttweaker.ge_transistor.name=Germanium Transistor
 item.contenttweaker.base_board_of_basic_ic.name=Base Board of Basic Ic
+item.contenttweaker.soul_extract.name=Soul Extract
 
 #Block
 #Common
@@ -49,7 +50,6 @@ base.material.gold=Gold
 base.material.iron=Iron
 base.material.crude_steel=Crude Steel
 base.material.uranium=Uranium
-base.material.quartz_black=Quartz Black
 base.material.tritanium=Tritanium
 base.material.thorium=Thorium
 base.material.osmium=Osmium

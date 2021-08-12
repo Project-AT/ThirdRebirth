@@ -7,7 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jei.JEI;
 
-
 var knifes as IItemStack[] = itemUtils.getItemsByRegexRegistryName(".*_knife.*");
 
 var oreDictNames as string[] = [
@@ -39,6 +38,7 @@ for partName in partNames {
         var ores as [IItemStack] = ore.items;
         for oreItem in ores {
             var owner = oreItem.definition.owner;
+			if (owner == "netherendingores") continue;
             if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
                  for otherItem in ores {
                     if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")) {
