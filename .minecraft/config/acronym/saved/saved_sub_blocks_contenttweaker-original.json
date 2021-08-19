@@ -33,7 +33,6 @@
       "11": "tritanium_enriched_ore",
       "12": "nickel_enriched_ore",
       "13": "platinum_mana_enriched_ore",
-      "14": "quartz_black_enriched_ore",
       "15": "gold_enriched_ore"
     },
     "2": {
@@ -43,7 +42,6 @@
       "3": "copper_mana_enriched_ore",
       "4": "silver_mana_enriched_ore",
       "5": "copper_enriched_ore",
-      "6": "quartz_black_mana_enriched_ore",
       "7": "lithium_mana_enriched_ore",
       "8": "magnesium_mana_enriched_ore",
       "9": "platinum_enriched_ore",

@@ -20,7 +20,7 @@
   "mysticallib": "1.12.2-1.10.0",
   "enderioconduits": "5.3.70",
   "resourcepackorganizer": "1.0.4",
-  "randomtweaker": "1.0.0",
+  "randomtweaker": "1.1.4",
   "unidict": "1.12.2-3.0.8",
   "openglider": "@VERSION@",
   "biomesoplenty": "7.0.1.2444",
