@@ -7,6 +7,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
 import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
 
 import scripts.CraftTweaker.Utils.common;
 import mods.ctutils.utils.Math;
@@ -42,3 +43,23 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
         }
     }
 });
+
+/* 
+    挖掘书架{@oreDict <ore:bookshelf>}有30%概率掉落词典之纸{@item <contenttweaker:dictionary_paper>}
+    不允许精准采集附魔{@ench <enchantment:minecraft:silk_touch>}的工具
+*/
+events.onBlockHarvestDrops(
+    function(event as BlockHarvestDropsEvent) {
+
+        val world as IWorld = event.world;
+        val block as IBlock = event.block;
+        val block_to_item as IItemStack = itemUtils.getItem(block.definition.id, block.meta);
+
+        if (world.remote || event.silkTouch) return;
+
+        if (<ore:bookshelf>.matches(block_to_item)) {
+            event.addItem(<contenttweaker:dictionary_paper> % 30);
+        }
+
+    }
+);
