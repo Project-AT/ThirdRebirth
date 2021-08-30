@@ -76,3 +76,10 @@ base.material.aluminum=Aluminum
 base.material.dilithium=Dilithium
 base.material.germanium=Germanium
 base.material.high_strength_aluminum_alloy=High Strength Aluminum Alloy
+
+#flower
+tile.botania:flower.aura_flower.name=Aura flower
+tile.botania:flower.mana_flower.name=Mana flower
+
+tile.botania:flower.aura_flower.reference=Aura flower
+tile.botania:flower.mana_flower.reference=Mana flower
