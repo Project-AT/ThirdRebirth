@@ -1,5 +1,6 @@
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
+import mods.randomtweaker.naturesaura.AuraChunk;
 import mods.randomtweaker.cote.SubTileFunctional;
 import mods.randomtweaker.cote.SubTileGenerating;
 
