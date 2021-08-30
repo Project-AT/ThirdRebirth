@@ -16,9 +16,15 @@ item.contenttweaker.si_transistor.name=Silicon Transistor
 item.contenttweaker.germanium_integrated_circuit_board.name=Germanium Integrated Circuit Board
 item.contenttweaker.ge_wafer.name=Germanium Wafer
 item.contenttweaker.ge_transistor.name=Germanium Transistor
-item.contenttweaker.base_board_of_basic_ic.name=Base Board of Basic Ic
+item.contenttweaker.base_board_of_basic_ic.name=Base Board of Basic IC
 item.contenttweaker.soul_extract.name=Soul Extract
 item.contenttweaker.dictionary_paper.name=Dictionary Paper
+item.contenttweaker.si_gr_ge_transistor.name=Si-Gr-Ge Transistor
+item.contenttweaker.graphene_nickel_plate.name=Graphene Nickel Plate
+item.contenttweaker.teleport_rune.name=Teleport Rune
+item.contenttweaker.villager_language_dictionary.name=Villager Language Dictionary
+item.contenttweaker.damaged_psd.name=Damaged Personal Shrinking Device
+item.contenttweaker.damaged_data_pad.name=Damaged Data Pad
 
 #Block
 #Common
