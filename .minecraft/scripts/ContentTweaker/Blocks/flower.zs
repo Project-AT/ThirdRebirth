@@ -11,6 +11,7 @@ import mods.randomtweaker.cote.SubTileGenerating;
 
 var auraFlower as SubTileFunctional = VanillaFactory.createSubTileFunctional("aura_flower", 0xFFFFFF);
 auraFlower.range = 4;
+auraFlower.color = 0x4444FF;
 auraFlower.onUpdate = function(subtile, world, pos) {
     var auraChunk as AuraChunk = world.getAuraChunk(pos);
 
@@ -23,6 +24,7 @@ auraFlower.register();
 
 var manaFlower as SubTileGenerating = VanillaFactory.createSubTileGenerating("mana_flower", 0xFFFFFF);
 manaFlower.range = 4;
+manaFlower.color = 0x4444FF;
 manaFlower.onUpdate = function(subtile, world, pos) {
     var auraChunk as AuraChunk = world.getAuraChunk(pos);
 
