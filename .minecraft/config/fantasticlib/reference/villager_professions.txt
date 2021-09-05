@@ -4,7 +4,7 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-roots:druid
+roots:wild_mage
 matteroverdrive:mad_scientist
 immersiveengineering:engineer
 extrautils2:alchemist
