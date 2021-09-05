@@ -8,6 +8,7 @@ import mods.contenttweaker.VanillaFactory;
 import scripts.grassUtils.CotUtils;
 
 var vld as Item = VanillaFactory.createItem("villager_language_dictionary");
+vld.creativeTab = CotUtils.tab;
 vld.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote) {
         player.addGameStage("villager");
@@ -15,3 +16,4 @@ vld.itemRightClick = function(stack, world, player, hand) {
     }
     return "Pass";
 };
+vld.register();

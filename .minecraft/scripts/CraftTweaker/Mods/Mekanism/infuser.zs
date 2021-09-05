@@ -1,8 +1,13 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.oredict.IOreDict;
+
 import mods.mekatweaker.InfuserType;
 
-InfuserType.addTypeObject(<ore:ingotSignalum>, "SIGNALUM", 10);
-InfuserType.addTypeObject(<ore:ingotDraconium>, "DRACONIUM", 10);
-InfuserType.addTypeObject(<ore:ingotCrystaltine>, "CRYSTALTINE", 10);
+var types as string[] = ["Signalum", "Draconium", "Crystaltine"];
+
+for type in types {
+    InfuserType.addType(type);
+    InfuserType.addTypeObject(oreDict.get("ingot" + type), type, 10);
+}
