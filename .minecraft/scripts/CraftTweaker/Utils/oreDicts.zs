@@ -28,7 +28,8 @@ var oreDictAdd as IItemStack[string] = {
 };
 
 var oreDictRemove as IItemStack[string] = {
-    "oreDilithium" : <matteroverdrive:dilithium_ore>
+    "oreDilithium" : <matteroverdrive:dilithium_ore>,
+    "gemDilithium" : <libvulpes:productgem>
 };
 
 for partName in partNames {
