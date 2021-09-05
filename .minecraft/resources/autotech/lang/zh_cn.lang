@@ -3,8 +3,8 @@ autotech.item.stone_flint_and_steel.name=石制打火石
 
 #TOOLTIP
 autotech.tooltip.item.ban=此物品已被禁用
+autotech.tooltip.item.ban.bug=因为可能会导致存档崩溃
 autotech.tooltip.ritual.ban=此仪式已被禁用
-
 
 #TITLE
 autotech.title.endportal.description=神秘的末影传送门在被放上一颗末影之眼之后，还未等遗迹有所反应，一道闪电直接越过了地底打在传送门上，随即将其毁坏，或许是传送门建造的时代太过久远了，上面残留的魔力不足以使它再次构建，看来我得另寻它法了。
