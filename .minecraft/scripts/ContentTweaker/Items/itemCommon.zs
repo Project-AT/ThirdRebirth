@@ -9,7 +9,7 @@ var items as string[] = [
     "aura_coal", "dust_crude_steel", "gravitational_anomaly_container", "ge_wafer", "ge_transistor", "bark_wisdomwood",
     "germanium_integrated_circuit_board", "si_transistor", "base_board_of_basic_ic", "soul_extract", "dictionary_paper",
     "si_gr_ge_transistor", "graphene_nickel_plate", "teleport_rune", "damaged_psd", "damaged_data_pad", "compressed_crystaltine",
-    "compressed_droconium", "compressed_signalum"
+    "compressed_draconium", "compressed_signalum"
 ];
 
 for item in items {
