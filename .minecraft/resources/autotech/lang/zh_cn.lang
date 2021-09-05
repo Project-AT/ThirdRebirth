@@ -12,6 +12,7 @@ autotech.title.endportal2.description=末地传送门激活失败，请检查仪
 autotech.title.notree.description=请使用任意斧头进行伐木！
 autotech.title.flcn.tooltip=「贴吧老哥人手一个」
 autotech.title.endportal.dimerror=末地传送门只能在主世界建设。
+autotech.title.villager.interact=你无法听懂村民的语言
 
 #JEI DESCRIPTION
 autotech.Description.survivalist.rock=使用铲子尝试破坏石头时有一定概率会掉落碎石块
