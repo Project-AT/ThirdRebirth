@@ -56,7 +56,8 @@ var removeAndHide as IItemStack[] = [
     <rftools:endergenic>,
     <libvulpes:coalgenerator>,
     <libvulpes:productdust>,
-    <libvulpes:ore0>
+    <libvulpes:ore0>,
+    <matteroverdrive:dilithium_ore>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
