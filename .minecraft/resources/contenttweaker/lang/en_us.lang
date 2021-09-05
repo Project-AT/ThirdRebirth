@@ -74,6 +74,8 @@ base.material.lead=Lead
 base.material.aluminum=Aluminum
 base.material.dilithium=Dilithium
 base.material.germanium=Germanium
+base.material.tough=Tough
+base.material.extreme=Extreme
 base.material.high_strength_aluminum_alloy=High Strength Aluminum Alloy
 
 #flower
