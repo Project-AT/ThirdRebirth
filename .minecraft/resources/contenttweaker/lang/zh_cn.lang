@@ -29,7 +29,6 @@ item.contenttweaker.damaged_data_pad.name=损坏的数据仪
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=邪恶之石
-tile.contenttweaker.no_energy_table.name=未激活的研究台
 tile.contenttweaker.ender_portal.name=末地传送门-自制
 tile.contenttweaker.ironcoal_ore.name=铁碳矿石
 tile.contenttweaker.aura_coal_block.name=灵煤块
