@@ -26,7 +26,6 @@ var materials as int[string] = {
     "Silver" : 0xE4FBFE,
     "Lead" : 0x7C8DC5,
     "Aluminum" : 0xCECED3, 
-    "Dilithium" : 0xA87E76
 };
 
 var materials_ as int[string] = {

@@ -28,7 +28,7 @@ var oreDictAdd as IItemStack[string] = {
 };
 
 var oreDictRemove as IItemStack[string] = {
-    "oreDilithium" : <matteroverdrive:dilithium_ore>
+    "gemDilithium" : <libvulpes:productgem>
 };
 
 for partName in partNames {
@@ -65,5 +65,4 @@ for key, value in oreDictAdd {
 
 for key, value in oreDictRemove {
     oreDict.get(key).remove(value);
-    JEI.removeAndHide(value);
 }

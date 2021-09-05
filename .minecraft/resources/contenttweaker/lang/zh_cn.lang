@@ -25,11 +25,14 @@ item.contenttweaker.teleport_rune.name=传送符文
 item.contenttweaker.villager_language_dictionary.name=村民语词典
 item.contenttweaker.damaged_psd.name=损坏的传送器
 item.contenttweaker.damaged_data_pad.name=损坏的数据仪
+item.contenttweaker.bark_wisdomwood.name=灵慧树树皮
+item.contenttweaker.compressed_crystaltine.name=压缩晶素
+item.contenttweaker.compressed_droconium.name=压缩龙素
+item.contenttweaker.compressed_signalum.name=压缩信素
 
 #Block
 #Common
 tile.contenttweaker.evil_stone.name=邪恶之石
-tile.contenttweaker.no_energy_table.name=未激活的研究台
 tile.contenttweaker.ender_portal.name=末地传送门-自制
 tile.contenttweaker.ironcoal_ore.name=铁碳矿石
 tile.contenttweaker.aura_coal_block.name=灵煤块
@@ -75,6 +78,8 @@ base.material.titanium=金红石
 base.material.crude_steel=铁碳
 base.material.mithril=蕴魔秘银
 base.material.germanium=镉
+base.material.tough=高强合金
+base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
 
 #flower

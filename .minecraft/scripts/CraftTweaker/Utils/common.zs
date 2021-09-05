@@ -2,6 +2,7 @@
 #modloaded atutils
 #loader crafttweaker reloadableevents
 
+import crafttweaker.player.IPlayer;
 import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;
 import crafttweaker.world.IBlockPos;
@@ -31,12 +32,12 @@ function runCommand(command as string) {
     server.commandManager.executeCommand(server,command);
 }
 
-function runTitle(title as string ,color as string , bold as bool) {
+function runTitle(title as string ,color as string , bold as bool, player as IPlayer) {
     val s = server.commandManager;
     if(!bold) {
-        s.executeCommand(server,"title @a actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
+        s.executeCommand(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
     } else {
-        s.executeCommand(server,"title @a actionbar {\"text\":\""+title+"\",\"bold\":"+"true"+",\"color\":\""+color+"\"}");
+        s.executeCommand(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"true"+",\"color\":\""+color+"\"}");
     }
 }
 

@@ -4,7 +4,7 @@
       "0": "crude_steel_mana_enriched_ore",
       "1": "iron_mana_enriched_ore",
       "2": "uranium_mana_enriched_ore",
-      "3": "dilithium_mana_enriched_ore",
+      "3": "extreme_block",
       "4": "lithium_enriched_ore",
       "5": "gold_mana_enriched_ore",
       "6": "uranium_enriched_ore",
@@ -23,7 +23,7 @@
       "1": "tritanium_mana_enriched_ore",
       "2": "mithril_mana_enriched_ore",
       "3": "aluminum_mana_enriched_ore",
-      "4": "dilithium_enriched_ore",
+      "4": "tough_block",
       "5": "iridium_enriched_ore",
       "6": "titanium_mana_enriched_ore",
       "7": "nickel_mana_enriched_ore",
@@ -33,6 +33,7 @@
       "11": "tritanium_enriched_ore",
       "12": "nickel_enriched_ore",
       "13": "platinum_mana_enriched_ore",
+      "14": "high_strength_aluminum_alloy_block",
       "15": "gold_enriched_ore"
     },
     "2": {
@@ -47,7 +48,6 @@
       "9": "platinum_enriched_ore",
       "10": "iridium_mana_enriched_ore",
       "11": "thorium_enriched_ore",
-      "12": "high_strength_aluminum_alloy_block",
       "13": "germanium_block"
     }
   }

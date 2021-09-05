@@ -55,6 +55,14 @@ var removeAndHide as IItemStack[] = [
     <rftools:coalgenerator>,
     <rftools:endergenic>,
     <libvulpes:coalgenerator>,
+    <libvulpes:productdust>,
+    <libvulpes:ore0>,
+    <matteroverdrive:dilithium_ore>
+];
+
+var removeAndBanBecauseBug as IItemStack[] = [
+    <refraction:spectrometer>,
+    <lightningcraft:lightning_miner>
 ];
 
 var removeByRecipeName as string[] = [
@@ -88,6 +96,12 @@ val hideCategory as string[] = [
 
 for item in removeAndHide {
     JEI.removeAndHide(item);
+}
+
+for item in removeAndBanBecauseBug {
+    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban"));
+    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban.bug"));
+    recipes.remove(item);
 }
 
 for name in removeByRecipeName {
