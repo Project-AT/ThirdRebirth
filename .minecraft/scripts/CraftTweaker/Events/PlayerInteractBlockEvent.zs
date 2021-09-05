@@ -45,7 +45,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if(!isNull(currentItem) && common.getItemID(currentItem) has "minecraft:ender_eye") {
             if(common.getBlockID(block) has "contenttweaker:ender_portal") {
                 if(!(common.checkStructure(pos, world))) {
-                    common.runTitle(game.localize("autotech.title.endportal2.description"), "", true);
+                    common.runTitle(game.localize("autotech.title.endportal2.description"), "", true, player);
                 }
             }
         }
