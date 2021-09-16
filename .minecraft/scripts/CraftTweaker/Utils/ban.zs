@@ -57,7 +57,8 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:coalgenerator>,
     <libvulpes:productdust>,
     <libvulpes:ore0>,
-    <matteroverdrive:dilithium_ore>
+    <matteroverdrive:dilithium_ore>,
+    <survivalist:rock>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [

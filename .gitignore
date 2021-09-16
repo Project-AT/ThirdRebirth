@@ -77,3 +77,4 @@
 /.minecraft/mods/*
 !/.minecraft/mods/atutils*.jar
 /.minecraft/resources/atutils
+.minecraft/icon.png

@@ -1,8 +1,8 @@
 #priority 5
 #modloaded atutils
 
-import mods.harvestcrafttweaker.HarvestCraftTweaker.addPressing;
+import mods.harvestcrafttweaker.HarvestCraftTweaker;
 
 // addPressing(IIngredient input, IItemStack leftOutput, IItemStack rightOutput);
 
-addPressing(<netherex:enoki_mushroom>, <minecraft:paper>, <minecraft:paper>);
+HarvestCraftTweaker.addPressing(<netherex:enoki_mushroom>, <minecraft:paper>, <minecraft:paper>);
