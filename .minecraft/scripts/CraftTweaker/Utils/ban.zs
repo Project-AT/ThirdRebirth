@@ -46,6 +46,7 @@ var removeAndHide as IItemStack[] = [
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}),
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}),
+    <extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
     <immersiveengineering:metal_decoration0:6>,
     <immersiveengineering:metal_device1:2>,
     <immersiveengineering:metal_device1:3>,
@@ -58,7 +59,8 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:productdust>,
     <libvulpes:ore0>,
     <matteroverdrive:dilithium_ore>,
-    <survivalist:rock>
+    <survivalist:rock>,
+    <teslathingies:powder_maker>,
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -77,9 +79,12 @@ var baned as IItemStack[] = [
     <primal_tech:flint_edged_disc>,
     <primal_tech:bone_knife>,
     <primal_tech:fluid_bladder>,
+    <primal_tech:wood_club>,
+    <primal_tech:bone_club>,
+    <primal_tech:stone_club>,
+    <primal_tech:water_saw>,
     <nuclearcraft:alloy_furnace>,
-	<roots:unending_bowl>,
-    <primal_tech:water_saw>
+	<roots:unending_bowl>
 ];
 
 val banRitual as IItemStack[] = [
