@@ -24,12 +24,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     val z as int= event.z;
 
     if(!event.world.remote) {
-        if(!isNull(currentItem) && currentItem.hasTag && common.getItemID(currentItem) has "minecraft:flint_and_steel" && !player.creative) {
-            if(!isNull(currentItem.tag.display.Name)) {
-                currentItem.mutable().withDamage(currentItem.damage + 4);
-            }
-        }
-
+    
         if(!isNull(currentItem) && common.getItemID(currentItem) has "minecraft:ender_eye" && common.getBlockID(block) has "minecraft:end_portal_frame" && !player.creative) {
             currentItem.mutable().shrink(1);
             
