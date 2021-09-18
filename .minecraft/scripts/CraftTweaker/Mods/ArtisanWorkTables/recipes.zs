@@ -49,7 +49,7 @@ for index, i in oreNames {
     var ingot as IOreDictEntry = oreDict.get("ingot" ~ i);
 
     RecipeBuilder.get("blacksmith")
-        .setName("atplate" ~ index)
+        .setName("atplate_" ~ index)
         .setMaximumTier(1)
         .setShapeless([ingot, ingot])
         .addTool(<ore:artisansHammer>, 4)
@@ -59,7 +59,7 @@ for index, i in oreNames {
 
     recipes.remove(gear.firstItem);
     RecipeBuilder.get("blacksmith")
-        .setName("atgear" ~ index)
+        .setName("atgear_" ~ index)
         .setMaximumTier(1)
         .setShaped([
             [null, ingot, null],
