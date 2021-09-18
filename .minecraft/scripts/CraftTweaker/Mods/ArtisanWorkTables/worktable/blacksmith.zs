@@ -3,7 +3,6 @@
 
 import crafttweaker.oredict.IOreDictEntry;
 
-import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 var orePlainNames as string[] = [

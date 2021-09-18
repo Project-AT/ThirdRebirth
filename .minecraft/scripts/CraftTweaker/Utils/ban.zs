@@ -67,7 +67,8 @@ var removeAndHide as IItemStack[] = [
 
 var removeAndBanBecauseBug as IItemStack[] = [
     <refraction:spectrometer>,
-    <lightningcraft:lightning_miner>
+    <lightningcraft:lightning_miner>,
+    <mysticalworld:gold_dust>
 ];
 
 var removeByRecipeName as string[] = [
