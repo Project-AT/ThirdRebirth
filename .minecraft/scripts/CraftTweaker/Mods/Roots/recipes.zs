@@ -1,8 +1,9 @@
 #priority 5
 #modloaded atutils
 
-import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack;
+import scripts.grassUtils.RecipeUtils;
 
-import scripts.grassUtils.RecipeUtils.recipeTweak;
-
+RecipeUtils.recipeTweak(true, <roots:fire_starter>,[
+    [null, <primal_tech:fire_sticks>],
+    [null, <primal_tech:fire_sticks>]
+]);

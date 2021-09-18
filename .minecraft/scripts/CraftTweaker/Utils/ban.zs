@@ -53,6 +53,8 @@ var removeAndHide as IItemStack[] = [
     <integrateddynamics:coal_generator>,
     <lightningcraft:static_generator>,
     <lightningcraft:rf_receiver>,
+    <lightningcraft:rod:*>,
+    <lightningcraft:plate:*>,
     <rftools:coalgenerator>,
     <rftools:endergenic>,
     <libvulpes:coalgenerator>,
