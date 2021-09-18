@@ -12,8 +12,9 @@ var orePlainNames as string[] = [
 
 var oreNames as string[] = [
     "Tin",   "Nickel",  "Invar", "Iron", "Bronze", "Constantan", "Electrum",
-     "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide",
-     "Enderium", "Signalum", "Lumium", "Iridium", "Mithril"
+    "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide", "Germanium",
+    "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "HighStrengthAluminumAlloy", 
+    "Dawnstone", "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium"
 ];
 
 for index, i in orePlainNames {
