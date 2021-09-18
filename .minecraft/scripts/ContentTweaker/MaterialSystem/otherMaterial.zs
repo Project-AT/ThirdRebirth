@@ -19,5 +19,6 @@ for material, color in materials {
 
 otherMaterial.registerMaterialPart("Tough", "Gear");
 otherMaterial.registerMaterialPart("Tough", "Block");
+otherMaterial.registerMaterialPart("Tough", "Plate");
 otherMaterial.registerMaterialPart("Extreme", "Block");
 otherMaterial.registerMaterialPart("Dilithium", "Dust");
