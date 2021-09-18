@@ -12,9 +12,12 @@ var orePlainNames as string[] = [
 
 var oreNames as string[] = [
     "Tin",   "Nickel",  "Invar", "Iron", "Bronze", "Constantan", "Electrum",
-    "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide", "Germanium",
-    "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "HighStrengthAluminumAlloy", 
-    "Dawnstone", "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium"
+    "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide", "Germanium", "Tough",
+    "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "HighStrengthAluminumAlloy"
+];
+
+var onlyPlateOreNames as string[] = [
+    "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium", "Dawnstone"
 ];
 
 for index, i in orePlainNames {
@@ -69,4 +72,17 @@ for index, i in oreNames {
         .addTool(<ore:artisansBurner>, 16)
         .addOutput(gear.firstItem)
     .create();
+}
+
+for index, i in onlyPlateOreNames {
+    var plate as IOreDictEntry = oreDict.get("plate" ~ i);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ i);
+
+    RecipeBuilder.get("blacksmith")
+        .setName("atplate__" ~ index)
+        .setMaximumTier(1)
+        .setShapeless([ingot, ingot])
+        .addTool(<ore:artisansHammer>, 4)
+        .addOutput(plate.firstItem)
+     .create();
 }

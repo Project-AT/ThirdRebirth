@@ -46,7 +46,7 @@ for material, color in materials {
 oreProcess.registerAllMaterialParts();
 
 var oreProcess_ as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process_");
-oreProcess_.addParts(["Ingot", "Plate", "Nugget", "Gear", "Dust", "Rod", "Block"] as string[]);
+oreProcess_.addParts(["ingot", "plate", "nugget", "gear", "dust", "rod", "block"] as string[]);
 
 for material, color in materials_ {
     oreProcess_.registerMaterial(material, color);
