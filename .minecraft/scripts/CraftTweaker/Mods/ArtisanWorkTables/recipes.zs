@@ -6,35 +6,66 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 import mods.artisanworktables.builder.RecipeBuilder;
 
-//删除齿轮的手搓合成，铁、木、石齿轮不删
-var oreNames as string[] = [
-    "Gold", "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Invar", "Iron",
-    "Bronze", "Constantan", "Electrum", "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide",
-     "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "Platinum"
+var orePlainNames as string[] = [
+    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum",
 ];
 
-for index, i in oreNames {
+var oreNames as string[] = [
+    "Tin",   "Nickel",  "Invar", "Iron", "Bronze", "Constantan", "Electrum",
+     "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide",
+     "Enderium", "Signalum", "Lumium", "Iridium", "Mithril"
+];
+
+for index, i in orePlainNames {
     var gear as IOreDictEntry = oreDict.get("gear" ~ i);
     var plate as IOreDictEntry = oreDict.get("plate" ~ i);
     var ingot as IOreDictEntry = oreDict.get("ingot" ~ i);
 
-    RecipeBuilder.get("engineer")
+    RecipeBuilder.get("blacksmith")
         .setName("atplate" ~ index)
         .setMaximumTier(1)
         .setShapeless([ingot, ingot])
-        .addTool(<ore:artisansHammer>, 1)
+        .addTool(<ore:artisansHammer>, 4)
         .addOutput(plate.firstItem)
      .create();
 
     recipes.remove(gear.firstItem);
-    RecipeBuilder.get("engineer")
+    RecipeBuilder.get("blacksmith")
         .setName("atgear" ~ index)
         .setMaximumTier(1)
         .setShaped([
             [null, ingot, null],
             [ingot, null, ingot],
             [null, ingot, null]])
+        .addTool(<ore:artisansHammer>, 16)
+        .addOutput(gear.firstItem)
+    .create();
+}
+
+for index, i in oreNames {
+    var gear as IOreDictEntry = oreDict.get("gear" ~ i);
+    var plate as IOreDictEntry = oreDict.get("plate" ~ i);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ i);
+
+    RecipeBuilder.get("blacksmith")
+        .setName("atplate" ~ index)
+        .setMaximumTier(1)
+        .setShapeless([ingot, ingot])
         .addTool(<ore:artisansHammer>, 4)
+        .addTool(<ore:artisansBurner>, 4)
+        .addOutput(plate.firstItem)
+     .create();
+
+    recipes.remove(gear.firstItem);
+    RecipeBuilder.get("blacksmith")
+        .setName("atgear" ~ index)
+        .setMaximumTier(1)
+        .setShaped([
+            [null, ingot, null],
+            [ingot, null, ingot],
+            [null, ingot, null]])
+        .addTool(<ore:artisansHammer>, 16)
+        .addTool(<ore:artisansBurner>, 16)
         .addOutput(gear.firstItem)
     .create();
 }
