@@ -60,7 +60,7 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:ore0>,
     <matteroverdrive:dilithium_ore>,
     <survivalist:rock>,
-    <teslathingies:powder_maker>,
+    <teslathingies:powder_maker>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -83,6 +83,12 @@ var baned as IItemStack[] = [
     <primal_tech:bone_club>,
     <primal_tech:stone_club>,
     <primal_tech:water_saw>,
+    <primal_tech:bone_pickaxe>,
+    <primal_tech:bone_axe>,
+    <primal_tech:bone_sword>,
+    <primal_tech:bone_knife>,
+    <primal_tech:bone_shovel>,
+    <primal_tech:bone_shears>,
     <nuclearcraft:alloy_furnace>,
 	<roots:unending_bowl>
 ];
