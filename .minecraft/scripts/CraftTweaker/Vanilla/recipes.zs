@@ -6,6 +6,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.ICraftingRecipe;
 
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
 
@@ -22,9 +23,51 @@ RecipeUtils.recipeTweak(true, <minecraft:crafting_table>,[
     [<ore:plankWood>, <ore:rock>, <ore:plankWood>]
 ]);
 
-RecipeUtils.recipeTweak(false,<minecraft:flint_and_steel>.withDisplayName(game.localize("autotech.item.stone_flint_and_steel.name")),
-    [[<minecraft:stone>, <minecraft:flint>]]
-);
+artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>, [
+    [null, <ore:shardGlass>, null],
+    [<ore:shardGlass>, null, <ore:shardGlass>]
+], {<ore:artisansBurner> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle> * 4, [
+    [null, <ore:blockGlass>, null],
+    [<ore:blockGlass>, null, <ore:blockGlass>]
+], {<ore:artisansBurner> : 4} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:string> * 4, [
+    [<ore:blockWool>]
+], {<ore:artisansMortar> : 4} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:string> * 4, [
+    [<ore:blockWool>]
+], {<ore:artisansMortar> : 4} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:dye:14>, [
+    [<ore:cropCarrot>]
+], {<ore:artisansMortar> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:dye:6>, [
+    [<mysticalworld:carapace>]
+], {<ore:artisansMortar> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:sugar> * 2, [
+    [<minecraft:reeds>]
+], {<ore:artisansMortar> : 2} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:dye:15> * 4, [
+    [<ore:bone>]
+], {<ore:artisansMortar> : 4} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:blaze_powder> * 5, [
+    [<ore:rodBlaze>]
+], {<ore:artisansMortar> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:flint>, [
+    [<ore:gravel>]
+], {<ore:artisansMortar> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:magma_cream>, [
+    [<minecraft:magma>]
+], {<ore:artisansMortar> : 4} as int[IIngredient]);
 
 for recipe in recipes.all {
     var rec1D as IIngredient[] = recipe.ingredients1D;
