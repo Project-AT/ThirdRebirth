@@ -29,7 +29,7 @@ for k, v in recipe {
     addRecipe(k, v);
 }
 
-function addRecipe(a as IOreDictEntry, b as IOreDictEntry) {
+function addRecipe(b as IOreDictEntry, a as IOreDictEntry) {
     RecipeUtils.recipeTweak(true, a.firstItem, RecipeUtils.createFull3(b));
     RecipeUtils.recipeTweak(false, b.firstItem * 9, [[a]]);
 }
