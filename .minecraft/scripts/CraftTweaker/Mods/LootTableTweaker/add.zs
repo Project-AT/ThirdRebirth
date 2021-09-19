@@ -27,3 +27,12 @@ for table in tables {
     mainPool.addItemEntry(<bountifulbaubles:potionwormhole>, 15, "bountifulbaubles:potionwormhole");
     mainPool.addItemEntry(<bountifulbaubles:potionrecall>, 12, "bountifulbaubles:potionrecall");
 }
+
+// 根源魔法木屋里箱子的战利品表
+var pool as LootPool = LootTweaker.getTable("mysticalworld:chests/hut").addPool("books", 1, 4, 0, 4);
+// 自然灵气之书
+pool.addItemEntry(<patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), 10, "naturesaura:book");
+// 织法宝典
+pool.addItemEntry(<wizardry:book>, 10, "wizardry:book");
+// 荒野魔法
+pool.addItemEntry(<roots:roots_guide>, 10, "roots:roots_guide");
