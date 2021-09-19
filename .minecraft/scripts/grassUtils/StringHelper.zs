@@ -14,8 +14,8 @@ function getItemNameWithUnderline(input as IItemStack) as string {
     var id as string = input.definition.id.split(":")[1];
     var meta as int = input.metadata;
     if (meta == 0){
-        return (mod + "_" + id);
-    } else return (mod + "_" + id + "_" + meta);
+        return (mod + "_" + id + "_" + input.amount);
+    } else return (mod + "_" + id + "_" + meta + "_" + input.amount);
 }
 
 function toLowerCamelCase(arg as string) as string {

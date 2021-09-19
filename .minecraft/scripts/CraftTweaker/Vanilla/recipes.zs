@@ -37,10 +37,6 @@ artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:string> * 4, [
     [<ore:blockWool>]
 ], {<ore:artisansMortar> : 4} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:string> * 4, [
-    [<ore:blockWool>]
-], {<ore:artisansMortar> : 4} as int[IIngredient]);
-
 artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:dye:14>, [
     [<ore:cropCarrot>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);

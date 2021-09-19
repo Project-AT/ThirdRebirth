@@ -53,7 +53,7 @@ artisanUtils.RecipeTweakWithLiquid("basic", true, <artisanworktables:worktable:7
     [<ore:plankWood>, null, <ore:plankWood>]
 ], <liquid:mana_fluid> * 1000);
 
-artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:7>, [
+artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:worktable:7>, [
     [<ore:ingotIron>, <ore:plateCopper>, <ore:ingotIron>],
     [<ore:blockIron>, <artisanworktables:worktable:5>, <ore:blockIron>],
     [<ore:plankTreatedWood>, null, <ore:plankTreatedWood>]
