@@ -12,7 +12,6 @@ vld.creativeTab = CotUtils.tab;
 vld.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote) {
         player.addGameStage("villager");
-        stack.shrink(1);
     }
     return "Pass";
 };
