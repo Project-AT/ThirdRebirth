@@ -47,6 +47,9 @@ tile.contenttweaker.udOreSilver.name=Underworld Silver Ore
 tile.contenttweaker.udOreUranium.name=Underworld Uranium Ore
 tile.contenttweaker.netherBlackQuartz.name=Nether Black Quartz Ore
 
+#Enchantment
+enchantment.critical=Critical
+
 #Stage
 item.contenttweaker.elixir_eyesight.name=Eyesight Elixir
 
