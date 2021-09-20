@@ -1,8 +1,29 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.item.IIngredient;
+
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
 
 RecipeUtils.recipeTweak(true, <lightningcraft:stone_block>,
     RecipeUtils.createCrossWithCore(<ore:runedObsidian>, <ore:quartzDark>, <naturesaura:infused_stone>)
 );
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <lightningcraft:lightning_cell>, [
+	[<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>],
+    [<ore:plateElectricium>, <contenttweaker:rune1>, <ore:plateElectricium>],
+    [<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>]
+], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <lightningcraft:lightning_infuser>, [
+	[<lightningcraft:stone_block>, <ore:plateElectricium>, <lightningcraft:stone_block>],
+    [<ore:plateGold>, <contenttweaker:rune1>, <ore:plateGold>],
+    [<lightningcraft:stone_block>, <ore:plateElectricium>, <lightningcraft:stone_block>]
+], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <lightningcraft:lightning_cell:2>, [
+	[<ore:rodMystic>, <ore:plateElectricium>, <ore:rodMystic>],
+    [<ore:plateMystic>, <lightningcraft:lightning_cell:1>, <ore:plateMystic>],
+    [<ore:rodMystic>, <ore:plateElectricium>, <ore:rodMystic>]
+], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);

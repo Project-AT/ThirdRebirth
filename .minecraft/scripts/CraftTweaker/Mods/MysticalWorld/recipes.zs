@@ -12,3 +12,9 @@ RecipeUtils.recipeTweak(false, <ore:dustGold>.firstItem, RecipeUtils.createFull3
 artisanUtils.RecipeTweakWithTools_("basic", false, <mysticalworld:silk_thread>, [
     [<mysticalworld:silk_cocoon>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <mysticalworld:pearleporter>, [
+    [null, <ore:ingotGold>, <mysticalworld:pearl>],
+    [null, <ore:bone>, <ore:ingotGold>],
+    [<ore:nuggetGold>, null, null]
+], {<ore:artisansAthame> : 1} as int[IIngredient]);
