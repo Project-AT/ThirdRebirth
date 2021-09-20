@@ -13,7 +13,6 @@ var ores as string[] = [
     "Lead", "Aluminum", "Dilithium"
 ];
 
-
 for ore in ores {
     var oreDictEntry as IOreDictEntry = oreDict.get("shard" ~ ore);
 

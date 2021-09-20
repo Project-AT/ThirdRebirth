@@ -14,7 +14,7 @@ var oreDictNames as string[] = [
     "Constantan", "Electrum", "Steel", "Iridium", "Invar"
 ];
 var partNames as string[] = [
-    "ingot", "ore", "plate", "gear", "block", "nugget", "dust", "stick"
+    "ingot", "ore", "plate", "gear", "block", "nugget", "dust"
 ];
 
 var oreDictAdd as IItemStack[string] = {

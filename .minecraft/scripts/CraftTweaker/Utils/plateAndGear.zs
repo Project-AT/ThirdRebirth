@@ -34,6 +34,7 @@ for index, i in orePlainNames {
         [ingot, null, ingot],
         [null, ingot, null]
     ], {<ore:artisansHammer> : 16} as int[IIngredient]);
+    
 }
 
 for index, i in oreNames {
@@ -60,4 +61,5 @@ for index, i in onlyPlateOreNames {
     artisanUtils.RecipeTweakWithTools_("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
     ], {<ore:artisansHammer> : 4} as int[IIngredient]);
+
 }
