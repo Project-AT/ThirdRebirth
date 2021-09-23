@@ -7,8 +7,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jei.JEI;
 
-var knifes as IItemStack[] = itemUtils.getItemsByRegexRegistryName(".*_knife.*");
-
 var oreDictNames as string[] = [
     "Iron", "Gold", "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", "Thorium", "Bronze",
     "Constantan", "Electrum", "Steel", "Iridium", "Invar"
@@ -31,9 +29,10 @@ var oreDictAdd as IItemStack[string] = {
     "blockRustyIron" : <atutils:rusty_iron>
 };
 
-var oreDictRemove as IItemStack[string] = {
-    "gemDilithium" : <libvulpes:productgem>
-};
+var oreDictRemove as IItemStack[] = [
+    <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, 
+    <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>
+];
 
 for partName in partNames {
     for key in oreDictNames {
@@ -55,18 +54,17 @@ for partName in partNames {
     }
 }
 
-for item in knifes {
-    var owner as string = item.definition.owner;
-
-    if(owner == "mysticalworld" || owner == "roots"){
-        <ore:oreKnife>.add(item);
-    }
-}
-
 for key, value in oreDictAdd {
     oreDict.get(key).add(value);
 }
 
-for key, value in oreDictRemove {
-    oreDict.get(key).remove(value);
+for item in oreDictRemove {
+    for ore in item.ores {
+        ore.remove(item);
+    }
+    JEI.removeAndHide(item);
+}
+
+for ore in <libvulpes:productgem>.ores {
+    ore.remove(<libvulpes:productgem>);
 }

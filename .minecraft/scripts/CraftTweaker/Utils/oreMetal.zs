@@ -4,6 +4,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var orePlainNames as string[] = [
@@ -19,6 +20,8 @@ var oreNames as string[] = [
 var onlyPlateOreNames as string[] = [
     "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium", "Dawnstone"
 ];
+
+var oreStickOrRodTemp as string[] = [];
 
 for index, i in orePlainNames {
     var gear as IOreDictEntry = oreDict.get("gear" ~ i);
@@ -61,5 +64,29 @@ for index, i in onlyPlateOreNames {
     artisanUtils.RecipeTweakWithTools_("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
     ], {<ore:artisansHammer> : 4} as int[IIngredient]);
+
+}
+
+for ore in oreDict.entries {
+    var oreName as string = "";
+    if (ore.name.contains("stick"))
+        oreName = "stick";
+    else if (ore.name.contains("rod"))
+        oreName = "rod";
+    
+    var metalName = RecipeUtils.getMetalNameNew(ore, oreName);
+    if (!(oreStickOrRodTemp has metalName)) { 
+        var oreDictIngot = oreDict.get("ingot" + metalName);
+        if (!oreDictIngot.empty) {
+            oreStickOrRodTemp += metalName;
+            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem, 
+                RecipeUtils.createLeftSlash(oreDictIngot),
+            {<ore:artisansHammer> : 3} as int[IIngredient]);
+
+            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem, 
+                RecipeUtils.createRightSlash(oreDictIngot),
+            {<ore:artisansHammer> : 3} as int[IIngredient]);
+        }
+    }
 
 }
