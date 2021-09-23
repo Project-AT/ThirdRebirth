@@ -35,4 +35,4 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
 	[<ore:wireCopper>, <embers:archaic_circuit>, <ore:wireCopper>],
     [<immersiveengineering:material:26>, <ore:wireCopper>, <immersiveengineering:material:26>],
     [<contenttweaker:insulating_substrate>, <contenttweaker:insulating_substrate>, <contenttweaker:insulating_substrate>]
-], {<ore:artisansSolderer> : 1} as int[IIngredient]);
+], {<ore:artisansSolderer> : 6} as int[IIngredient]);

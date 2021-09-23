@@ -30,8 +30,8 @@ RecipeUtils.recipeTweak(true, <atutils:flint_hoe>, [
 	[null, <ore:stickWood>]
 ]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>,[
+artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>, [
 	[<ore:ingotIron>, <thermalfoundation:material:657>, <ore:ingotIron>],
     [<ore:cobblestone>, null, <ore:cobblestone>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
-], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);
+], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 15} as int[IIngredient]);

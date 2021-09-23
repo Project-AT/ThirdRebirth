@@ -9,7 +9,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <refraction:assembly_table>,
 	[<ore:ingotSteel>, <embers:focal_lens>, <ore:ingotSteel>],
     [<immersiveengineering:material:27>, <enderio:item_material>, <immersiveengineering:material:27>],
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
-], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);
+], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 20} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithAll("engineer", false, <refraction:lens> * 6, [
      [<enderio:block_fused_quartz>,<enderio:block_fused_quartz>,<enderio:block_fused_quartz>]

@@ -28,19 +28,19 @@ artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight
     [null, <roots:wildewheet>, null],
     [<roots:salmon_of_knowledge>.withTag({advancements: ["everything"], crafter: "Nature"}), <minecraft:glass_bottle>, <roots:moonglow_leaf>],
     [null, <roots:cloud_berry>,     null]
-], <liquid:water> * 250, {<ore:artisansBeaker> : 1} as int[IIngredient]);
+], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <atutils:stick_thunder>, [
 	[null, <ore:manaPearl>, <contenttweaker:rune1>],
     [null, <botania:manaresource:3>, <ore:manaPearl>],
-    [<botania:manaresource:3>,null, null]
-], {<ore:artisansAthame> : 1, <ore:artisansGrimoire> : 1} as int[IIngredient]);
+    [<botania:manaresource:3>]
+], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <atutils:advance_stick_thunder>, [
 	[null, <botania:manaresource:9>, <ore:ingotLead>],
     [<botania:manaresource:8>, <atutils:advance_stick_thunder>, <botania:manaresource:8>],
-    [<ore:dreamwoodTwig>, <botania:manaresource:9>, null]
-], {<ore:artisansAthame> : 1, <ore:artisansGrimoire> : 1} as int[IIngredient]);
+    [<ore:dreamwoodTwig>, <botania:manaresource:9>]
+], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 20} as int[IIngredient]);
 
 var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,

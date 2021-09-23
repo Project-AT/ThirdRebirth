@@ -20,6 +20,12 @@ artisanUtils.RecipeTweak("basic", false, <naturesaura:gold_powder> * 8, [
     <naturesaura:gold_leaf>, <naturesaura:gold_leaf>]
 ]);
 
+artisanUtils.RecipeTweakWithTools("mage", true, <naturesaura:offering_table>, [
+    [<naturesaura:infused_stone>, <naturesaura:infused_iron>, <naturesaura:infused_stone>],
+    [<naturesaura:token_sorrow>, <wizardry:nacre_block>, <naturesaura:token_fear>],
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
+], {<ore:artisansAthame> : 10,  <ore:artisansGrimoire> : 10} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithAll("mage", true, <naturesaura:wood_stand>, [
     [null, <naturesaura:gold_leaf>, null],
     [<roots:cloud_berry>,  <roots:wildwood_log>,   <roots:stalicripe>],

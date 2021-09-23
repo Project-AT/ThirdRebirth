@@ -15,4 +15,4 @@ artisanUtils.RecipeTweakWithTools("mage", true, <wizardry:mana_battery>, [
     [<roots:dewgonia>, <ore:manaPearl>, <roots:dewgonia>],
     [<ore:gemDiamond>, nacrePearl, <ore:gemDiamond>],
     [<roots:dewgonia>, <ore:manaPearl>, <roots:dewgonia>]
-], {<ore:artisansAthame> : 1, <ore:artisansGrimoire> : 1} as int[IIngredient]);
+], {<ore:artisansAthame> : 8, <ore:artisansGrimoire> : 15} as int[IIngredient]);
