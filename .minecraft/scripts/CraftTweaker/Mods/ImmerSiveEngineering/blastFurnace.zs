@@ -14,5 +14,5 @@ BlastFurnace.addFuel(<contenttweaker:blast_furnace_fuel>, 1200);
 
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-BlastFurnace.addRecipe(<thermalfoundation:material:160>, <ore:ingotCrudeSteel>, 140, <immersiveengineering:material:7>);
-BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <ore:blockCrudeSteel>, 1120, <immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<thermalfoundation:material:160>, <ore:ingotCrudeSteel>, 300, <immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <ore:blockCrudeSteel>, 2400, <immersiveengineering:material:7>);
