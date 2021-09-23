@@ -18,6 +18,11 @@ RecipeUtils.recipeTweak(true, <contenttweaker:four_leaf_clover_necklace>, [
     [null, <contenttweaker:four_leaf_clover>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
+    [<ore:charcoal>, <ore:dustCoal>],
+    [<ore:dustCoal>, <ore:dustCoal>]
+]);
+
 artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay_ball>, [
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],
     [<ore:dustCoal>, <ore:clayBall>, <ore:dustQuartz>],

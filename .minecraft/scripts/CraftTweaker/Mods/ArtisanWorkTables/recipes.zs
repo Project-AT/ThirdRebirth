@@ -59,6 +59,12 @@ artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:worktable:6>
     [<ore:plankTreatedWood>, null, <ore:plankTreatedWood>]
 ], {<ore:artisansHammer> : 10} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:3>, [
+    [<ore:ingotIron>, <ore:plateIron>, <ore:ingotIron>],
+    [<ore:plateIron>, <artisanworktables:worktable:3>, <ore:plateIron>],
+    [<ore:ingotSteel>, <minecraft:anvil>, <ore:ingotSteel>]
+], {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 5} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithAll("basic", true, <artisanworktables:workstation:7>, [
     [<ore:powderMana>, <ore:powderMana>, <ore:powderMana>],
     [<ore:ingotManasteel>, <artisanworktables:worktable:7>, <ore:ingotManasteel>],

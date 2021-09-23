@@ -9,7 +9,7 @@ import mods.jei.JEI;
 
 var oreDictNames as string[] = [
     "Iron", "Gold", "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", "Thorium", "Bronze",
-    "Constantan", "Electrum", "Steel", "Iridium", "Invar"
+    "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz"
 ];
 var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust"
@@ -26,13 +26,29 @@ var oreDictAdd as IItemStack[string] = {
     "ingotRustyIron" : <contenttweaker:rusty_iron_ingot>,
     "plateTritanium" : <matteroverdrive:tritanium_plate>,
     "plateTough" : <contenttweaker:tough_alloy_plate>,
-    "blockRustyIron" : <atutils:rusty_iron>
+    "blockRustyIron" : <atutils:rusty_iron>,
+    "dustQuartz" : <enderio:item_material:33>
 };
 
 var oreDictRemove as IItemStack[] = [
     <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, 
     <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>
 ];
+
+for key, value in oreDictAdd {
+    oreDict.get(key).add(value);
+}
+
+for item in oreDictRemove {
+    for ore in item.ores {
+        ore.remove(item);
+    }
+    JEI.removeAndHide(item);
+}
+
+for ore in <libvulpes:productgem>.ores {
+    ore.remove(<libvulpes:productgem>);
+}
 
 for partName in partNames {
     for key in oreDictNames {
@@ -52,19 +68,4 @@ for partName in partNames {
             }
         }
     }
-}
-
-for key, value in oreDictAdd {
-    oreDict.get(key).add(value);
-}
-
-for item in oreDictRemove {
-    for ore in item.ores {
-        ore.remove(item);
-    }
-    JEI.removeAndHide(item);
-}
-
-for ore in <libvulpes:productgem>.ores {
-    ore.remove(<libvulpes:productgem>);
 }
