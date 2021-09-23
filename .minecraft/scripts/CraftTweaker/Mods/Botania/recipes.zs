@@ -80,8 +80,8 @@ for i in 0 to 16 {
         [<botania:flower>.definition.makeStack(i)]
     ], {<ore:artisansMortar> : 3} as int[IIngredient]);
 
-    artisanUtils.RecipeTweakWithTools_("basic", false, doubleflower * 6, [
-        [<botania:flower>.definition.makeStack(i)]
+    artisanUtils.RecipeTweakWithTools_("basic", false, <botania:petal>.definition.makeStack(i) * 6, [
+        [doubleflower]
     ], {<ore:artisansMortar> : 6} as int[IIngredient]);
 
 }
