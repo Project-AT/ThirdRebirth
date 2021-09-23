@@ -21,6 +21,7 @@ MetalPress.removeRecipe(<libvulpes:productrod:4>);
 MetalPress.removeRecipe(<immersiveengineering:material:1>);
 MetalPress.removeRecipe(<immersiveengineering:material:2>);
 MetalPress.removeRecipe(<immersiveengineering:material:3>);
+MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);
 
 for metal in plateMetals {
     var orePlate as IOreDictEntry = oreDict.get("plate" + metal);
