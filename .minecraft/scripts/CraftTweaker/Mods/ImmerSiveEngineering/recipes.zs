@@ -49,13 +49,13 @@ artisanUtils.RecipeTweakWithTools("blacksmith", true, <immersiveengineering:meta
     [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>]
 ], {<ore:artisansHammer> : 2} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("base", true, <libvulpes:productfan:6>, [
+artisanUtils.RecipeTweakWithTools("basic", true, <libvulpes:productfan:6>, [
     [<ore:plateSteel>, null, <ore:plateSteel>],
     [null, <ore:rodSteel>, null],
     [<ore:plateSteel>, null, <ore:plateSteel>]
 ], {<ore:artisansHammer> : 2, <ore:artisansDriver> : 2} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("base", true, <immersiveengineering:wooden_device0:2>, [
+artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:wooden_device0:2>, [
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
     [<minecraft:crafting_table>, <ore:plateSteel>, <ore:fenceTreatedWood>],
     [<ore:fenceTreatedWood>, <ore:plateSteel>, <ore:fenceTreatedWood>]

@@ -19,7 +19,7 @@ artisanUtils.RecipeTweakWithAll("chemist", true, <bountifulbaubles:potionrecall>
     [<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 ], <liquid:mana_fluid>*1000, {<ore:artisansBeaker> : 3} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools_("mega", true, <bountifulbaubles:spectralsilt>, [
+artisanUtils.RecipeTweakWithTools_("mage", true, <bountifulbaubles:spectralsilt>, [
     [runeOr, <ore:elvenPixieDust>, runeOr],
     [<ore:elvenPixieDust>, <naturesaura:aura_cache>.withTag({aura: 400000}), <ore:elvenPixieDust>],
     [runeOr, <ore:elvenPixieDust>, runeOr],

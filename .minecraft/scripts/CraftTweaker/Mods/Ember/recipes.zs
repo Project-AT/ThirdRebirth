@@ -70,12 +70,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:item_pipe> * 8, [
     [<ore:ingotLead>, <ore:plateLead>, <ore:ingotLead>]
 ], {<ore:artisansSpanner> : 4} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("base", true, <embers:blend_caminite> * 8, [
+artisanUtils.RecipeTweakWithTools("basic", true, <embers:blend_caminite> * 8, [
     [<contenttweaker:refractory_clay_ball>, <ore:dustAluminum>, <contenttweaker:refractory_clay_ball>],
     [<ore:blockClay>, <ore:sand>, <ore:blockClay>],
     [<contenttweaker:refractory_clay_ball>, <ore:dustQuartz>, <contenttweaker:refractory_clay_ball>]
 ], {<ore:artisansHammer> : 1} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("base", false, <embers:wrapped_sealed_planks>, [
+artisanUtils.RecipeTweakWithTools("basic", false, <embers:wrapped_sealed_planks>, [
     [<embers:sealed_planks>, <ore:barsIron>]
 ], {<ore:artisansHammer> : 1} as int[IIngredient]);
