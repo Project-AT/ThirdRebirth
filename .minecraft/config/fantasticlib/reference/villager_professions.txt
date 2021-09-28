@@ -6,6 +6,7 @@ minecraft:butcher
 minecraft:nitwit
 roots:wild_mage
 matteroverdrive:mad_scientist
+pneumaticcraft:mechanic
 immersiveengineering:engineer
 extrautils2:alchemist
 extrautils2:red_mechanic

@@ -1,54 +1,7 @@
 {
   "savedSubBlockNames": {
-    "0": {
-      "0": "crude_steel_mana_enriched_ore",
-      "1": "iron_mana_enriched_ore",
-      "2": "uranium_mana_enriched_ore",
-      "3": "extreme_block",
-      "4": "lithium_enriched_ore",
-      "5": "gold_mana_enriched_ore",
-      "6": "uranium_enriched_ore",
-      "7": "titanium_enriched_ore",
-      "8": "silver_enriched_ore",
-      "9": "lead_mana_enriched_ore",
-      "10": "thorium_mana_enriched_ore",
-      "11": "boron_enriched_ore",
-      "12": "boron_mana_enriched_ore",
-      "13": "aluminum_enriched_ore",
-      "14": "osmium_mana_enriched_ore",
-      "15": "mithril_enriched_ore"
-    },
-    "1": {
-      "0": "tin_mana_enriched_ore",
-      "1": "tritanium_mana_enriched_ore",
-      "2": "mithril_mana_enriched_ore",
-      "3": "aluminum_mana_enriched_ore",
-      "4": "tough_block",
-      "5": "iridium_enriched_ore",
-      "6": "titanium_mana_enriched_ore",
-      "7": "nickel_mana_enriched_ore",
-      "8": "crude_steel_enriched_ore",
-      "9": "osmium_enriched_ore",
-      "10": "tin_enriched_ore",
-      "11": "tritanium_enriched_ore",
-      "12": "nickel_enriched_ore",
-      "13": "platinum_mana_enriched_ore",
-      "14": "high_strength_aluminum_alloy_block",
-      "15": "gold_enriched_ore"
-    },
-    "2": {
-      "0": "iron_enriched_ore",
-      "1": "lead_enriched_ore",
-      "2": "magnesium_enriched_ore",
-      "3": "copper_mana_enriched_ore",
-      "4": "silver_mana_enriched_ore",
-      "5": "copper_enriched_ore",
-      "7": "lithium_mana_enriched_ore",
-      "8": "magnesium_mana_enriched_ore",
-      "9": "platinum_enriched_ore",
-      "10": "iridium_mana_enriched_ore",
-      "11": "thorium_enriched_ore",
-      "13": "germanium_block"
-    }
+    "0": {},
+    "1": {},
+    "2": {}
   }
 }
