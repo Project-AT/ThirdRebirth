@@ -30,7 +30,8 @@ var materials as int[string] = {
 
 var materials_ as int[string] = {
 	"Germanium" : 0xD8D1BF,
-	"HighStrengthAluminumAlloy" : 0xF2F2F2
+	"HighStrengthAluminumAlloy" : 0xF2F2F2,
+    "pure_iron" : 0xF5F5F2
 };
 
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");

@@ -32,8 +32,7 @@ item.contenttweaker.refractory_brick.name=耐火砖
 item.contenttweaker.rusty_iron_ingot.name=锈铁锭
 item.contenttweaker.refractory_clay_ball.name=耐火粘土
 item.contenttweaker.tough_alloy_plate.name=高强合金板
-item.contenttweaker.study_icon.name=研究图标
-item.contenttweaker.pure_iron.name=纯铁锭
+item.contenttweaker.research_icon.name=研究图标
 
 #Block
 #Common
@@ -88,6 +87,7 @@ base.material.titanium=金红石
 base.material.crude_steel=铁碳
 base.material.mithril=蕴魔秘银
 base.material.germanium=锗
+base.material.pure_iron=纯铁
 base.material.tough=高强合金
 base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
