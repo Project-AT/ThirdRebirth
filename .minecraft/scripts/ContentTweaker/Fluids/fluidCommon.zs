@@ -2,6 +2,7 @@
 #modloaded atutils
 #loader contenttweaker
 
+import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
 
 //High Density Polyethylene
