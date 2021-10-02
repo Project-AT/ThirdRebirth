@@ -3,15 +3,16 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2854",
+        "id": "forge-14.23.5.2855",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "autoTech",
-  "author": "",
+  "name": "AutoTech",
+  "author": "Project-AT",
+  "version": "",
   "files": [
     {
       "projectID": 285742,
@@ -140,7 +141,7 @@
     },
     {
       "projectID": 514170,
-      "fileID": 3470304,
+      "fileID": 3476210,
       "required": true
     },
     {
