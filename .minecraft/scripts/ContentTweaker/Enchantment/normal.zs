@@ -3,7 +3,6 @@
 #loader contenttweaker
 
 import crafttweaker.entity.IEntityEquipmentSlot;
-
 import mods.contenttweaker.enchantments.EnchantmentBuilder;
 
 var critical as EnchantmentBuilder = EnchantmentBuilder.create("critical");

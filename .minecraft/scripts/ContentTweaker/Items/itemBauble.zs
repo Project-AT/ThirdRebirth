@@ -3,7 +3,6 @@
 #loader contenttweaker
 
 import crafttweaker.player.IPlayer;
-
 import mods.contenttweaker.VanillaFactory;
 
 var flcn = VanillaFactory.createBaubleItem("four_leaf_clover_necklace");

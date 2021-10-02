@@ -33,6 +33,8 @@ item.contenttweaker.refractory_brick.name=Refractory Brtick
 item.contenttweaker.rusty_iron_ingot.name=Rusty Iron Ingot
 item.contenttweaker.refractory_clay_ball.name=Refractory Clay Ball
 item.contenttweaker.tough_alloy_plate.name=Tough Alloy Plate
+item.contenttweaker.study_icon.name=Studied Icon
+item.contenttweaker.pure_iron.name=Pure Iron Ingot
 
 #Block
 #Common
@@ -46,6 +48,9 @@ tile.contenttweaker.udOreNickel.name=Underworld Nickel Ore
 tile.contenttweaker.udOreSilver.name=Underworld Silver Ore
 tile.contenttweaker.udOreUranium.name=Underworld Uranium Ore
 tile.contenttweaker.netherBlackQuartz.name=Nether Black Quartz Ore
+
+#Fluid
+fluid.hdpe=High Density Polyethylene
 
 #Enchantment
 enchantment.critical=Critical

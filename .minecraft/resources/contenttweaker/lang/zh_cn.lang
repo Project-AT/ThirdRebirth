@@ -32,6 +32,8 @@ item.contenttweaker.refractory_brick.name=耐火砖
 item.contenttweaker.rusty_iron_ingot.name=锈铁锭
 item.contenttweaker.refractory_clay_ball.name=耐火粘土
 item.contenttweaker.tough_alloy_plate.name=高强合金板
+item.contenttweaker.study_icon.name=研究图标
+item.contenttweaker.pure_iron.name=纯铁锭
 
 #Block
 #Common
@@ -45,6 +47,9 @@ tile.contenttweaker.udOreNickel.name=冥界镍矿石
 tile.contenttweaker.udOreSilver.name=冥界银矿石
 tile.contenttweaker.udOreUranium.name=冥界铀矿石
 tile.contenttweaker.netherBlackQuartz.name=地狱焦黑石英矿石
+
+#Fluid
+fluid.hdpe=高密度聚乙烯
 
 #Enchantment
 enchantment.critical=会心一击

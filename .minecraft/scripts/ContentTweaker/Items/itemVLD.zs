@@ -4,7 +4,6 @@
 
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;
-
 import scripts.grassUtils.CotUtils;
 
 var vld as Item = VanillaFactory.createItem("villager_language_dictionary");
