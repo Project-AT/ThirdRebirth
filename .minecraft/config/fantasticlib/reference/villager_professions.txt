@@ -5,8 +5,8 @@ minecraft:smith
 minecraft:butcher
 minecraft:nitwit
 roots:wild_mage
-matteroverdrive:mad_scientist
 pneumaticcraft:mechanic
+matteroverdrive:mad_scientist
 immersiveengineering:engineer
 extrautils2:alchemist
 extrautils2:red_mechanic
