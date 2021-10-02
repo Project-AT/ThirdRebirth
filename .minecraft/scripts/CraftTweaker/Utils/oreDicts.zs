@@ -27,7 +27,8 @@ var oreDictAdd as IItemStack[string] = {
     "plateTritanium" : <matteroverdrive:tritanium_plate>,
     "plateTough" : <contenttweaker:tough_alloy_plate>,
     "blockRustyIron" : <atutils:rusty_iron>,
-    "dustQuartz" : <enderio:item_material:33>
+    "dustQuartz" : <enderio:item_material:33>,
+    "stickSteel" : <lightningcraft:rod:1>
 };
 
 var oreDictRemove as IItemStack[] = [
