@@ -49,8 +49,8 @@ artisanUtils.RecipeTweak("basic", true, <artisanworktables:workstation:12>, [
 
 artisanUtils.RecipeTweakWithLiquid("basic", true, <artisanworktables:worktable:7>, [
     [<wizardry:orb:1>, <minecraft:wool:11>, <wizardry:orb:1>],
-    [<ore:plankWood>, <artisanworktables:worktable:5>, <ore:plankWood>],
-    [<ore:plankWood>, null, <ore:plankWood>]
+    [<wizardry:wisdom_wood_planks>, <artisanworktables:worktable:5>, <wizardry:wisdom_wood_planks>],
+    [<wizardry:wisdom_wood_planks>, null, <wizardry:wisdom_wood_planks>]
 ], <liquid:mana_fluid> * 1000);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:worktable:6>, [

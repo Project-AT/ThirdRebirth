@@ -7,6 +7,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+<contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
+
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
@@ -23,7 +25,7 @@ RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
     [<ore:dustCoal>, <ore:dustCoal>]
 ]);
 
-artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay_ball>, [
+artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay_ball> * 7, [
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],
     [<ore:dustCoal>, <ore:clayBall>, <ore:dustQuartz>],
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],

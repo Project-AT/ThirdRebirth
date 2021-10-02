@@ -15,10 +15,10 @@ RecipeUtils.recipeTweak(true, <naturesaura:ancient_stick> * 2, [
     [<naturesaura:ancient_planks>]
 ]);
 
-artisanUtils.RecipeTweak("basic", false, <naturesaura:gold_powder> * 8, [
+artisanUtils.RecipeTweakWithTools("basic", false, <naturesaura:gold_powder> * 8, [
     [<mysticalworld:gold_dust_tiny>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>, 
     <naturesaura:gold_leaf>, <naturesaura:gold_leaf>]
-]);
+], {<ore:artisansMortar> : 4} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <naturesaura:offering_table>, [
     [<naturesaura:infused_stone>, <naturesaura:infused_iron>, <naturesaura:infused_stone>],

@@ -8,9 +8,6 @@ import crafttweaker.recipes.ICraftingRecipe;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-<contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
-
-/** Recipes for Crafting Table */
 RecipeUtils.recipeTweak(true, <minecraft:furnace>,[
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
     [<ore:cobblestone>, null, <ore:cobblestone>],
@@ -23,15 +20,13 @@ RecipeUtils.recipeTweak(true, <minecraft:crafting_table>,[
     [<ore:plankWood>, <ore:rock>, <ore:plankWood>]
 ]);
 
-artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>, [
-    [null, <ore:shardGlass>, null],
-    [<ore:shardGlass>, null, <ore:shardGlass>]
-], {<ore:artisansBurner> : 1} as int[IIngredient]);
+artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>,
+    inputPatternGet(["G G", " G "], {"G" : <ore:shardGlass>})
+, {<ore:artisansBurner> : 1} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle> * 4, [
-    [null, <ore:blockGlass>, null],
-    [<ore:blockGlass>, null, <ore:blockGlass>]
-], {<ore:artisansBurner> : 4} as int[IIngredient]);
+artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle> * 4,
+    inputPatternGet(["G G", " G "], {"G" : <ore:blockGlass>})
+, {<ore:artisansBurner> : 4} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:string> * 4, [
     [<ore:blockWool>]
