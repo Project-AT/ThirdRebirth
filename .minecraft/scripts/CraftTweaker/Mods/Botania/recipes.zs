@@ -7,6 +7,17 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+var manaTransform as IItemStack[IIngredient] = {
+    <ore:ingotManasteel> : <ore:ingotIron>.firstItem,
+    <botania:storage> : <ore:blockIron>.firstItem,
+    <ore:manaDiamond> : <ore:gemDiamond>.firstItem,
+    <botania:storage:3> : <ore:blockDiamond>.firstItem,
+    <ore:quartzMana> : <ore:gemQuartz>.firstItem,
+    <botania:quartztypemana> : <minecraft:quartz_block>,
+    <botania:quartztypemana:1> : <minecraft:quartz_block:1>,
+    <botania:quartztypemana:2> : <minecraft:quartz_block:2>
+};
+
 RecipeUtils.recipeTweak(true, <botania:altar>, [
     [<ore:slabCobblestone>, <wizardry:nacre_pearl>.withTag({purity_override: 1.0 as float}), <ore:slabCobblestone>],
     [null, <minecraft:cobblestone>, null],
@@ -77,4 +88,8 @@ for i in 0 to 16 {
         [doubleflower]
     ], {<ore:artisansMortar> : 6} as int[IIngredient]);
 
+}
+
+for input, output in manaTransform {
+    RecipeUtils.recipeTweak(false, output, [[input, <botania:spellcloth>.anyDamage().transformDamage()]]);
 }

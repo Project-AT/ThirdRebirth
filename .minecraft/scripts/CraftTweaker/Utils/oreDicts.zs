@@ -72,3 +72,15 @@ for partName in partNames {
         }
     }
 }
+
+for item in loadedMods["roots"].items {
+    if (item.name.contains("knift")) {
+        <ore:knife>.add(item);
+    }
+}
+
+for item in loadedMods["mysticalworld"].items {
+    if (item.name.contains("knift")) {
+        <ore:knife>.add(item);
+    }
+}

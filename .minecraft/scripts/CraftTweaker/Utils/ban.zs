@@ -87,7 +87,6 @@ var baned as IItemStack[] = [
     <primal_tech:bone_pickaxe>,
     <primal_tech:bone_axe>,
     <primal_tech:bone_sword>,
-    <primal_tech:bone_knife>,
     <primal_tech:bone_shovel>,
     <primal_tech:bone_shears>,
     <nuclearcraft:alloy_furnace>,
