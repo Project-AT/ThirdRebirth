@@ -26,5 +26,5 @@ RecipeUtils.recipeTweak(true, <primal_tech:work_stump>, [
 ]);
 
 RecipeUtils.recipeTweak(false, <primal_tech:fire_sticks>, [
-    [<ore:oreKnife>.transformDamage(), <ore:stickWood>]
+    [<ore:knife>.transformDamage(), <ore:stickWood>]
 ]);

@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_decoration:1> * 3, [
@@ -60,3 +61,123 @@ artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:wooden_de
     [<minecraft:crafting_table>, <ore:plateSteel>, <ore:fenceTreatedWood>],
     [<ore:fenceTreatedWood>, <ore:plateSteel>, <ore:fenceTreatedWood>]
 ], {<ore:artisansHandsaw> : 5, <ore:artisansSpanner> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device0:2>, 
+    inputPattern(["KLK", "GQG", "FRF"])
+        .with("K", <ore:ingotConstantan>)
+        .with("L", <ore:ingotAluminum>)
+        .with("G", <ore:ingotSteel>)
+        .with("Q", <ore:blockLead>)
+        .with("F", <ore:plankTreatedWood>)
+        .with("R", <ore:blockRedstone>).get()
+, {<ore:artisansSpanner> : 3, <ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device0:1>, 
+    inputPattern(["TKT", "HQH", "FRF"])
+        .with("T", <ore:ingotCopper>)
+        .with("K", <ore:ingotConstantan>)
+        .with("H", <ore:ingotElectrum>)
+        .with("Q", <ore:ingotLead>)
+        .with("F", <ore:plankTreatedWood>)
+        .with("R", <ore:blockRedstone>).get()
+, {<ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device0>, 
+    inputPattern(["ITI", "GQG", "FRF"])
+        .with("I", <ore:ingotIron>)
+        .with("T", <ore:ingotCopper>)
+        .with("G", <ore:plateSteel>)
+        .with("Q", <ore:ingotLead>)
+        .with("F", <ore:plankTreatedWood>)
+        .with("R", <ore:dustRedstone>).get()
+, {<ore:artisansDriver> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1:5>,
+    inputPattern(["GXG", "BZB", "FTF"])
+        .with("G", <ore:ingotSteel>)
+        .with("X", <ore:coilCopper>)
+        .with("B", <ore:blockGlass>)
+        .with("Z", <ore:electronTube>)
+        .with("F", <ore:plankTreatedWood>)
+        .with("T", <immersiveengineering:metal_decoration0>).get()
+, {<ore:artisansSpanner> : 3, <ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1:1>, 
+    inputPattern(["GQG", "QXQ", "GTG"])
+        .with("G", <ore:ingotSteel>)
+        .with("Q", <ore:plateLead>)
+        .with("X", <ore:coilCopper>)
+        .with("T", <ore:ingotCopper>).get()
+, {<ore:artisansSpanner> : 3, <ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device0:6>,
+    inputPattern(["GTG", "T T", "GTG"])
+        .with("G", <ore:plateSteel>)
+        .with("T", <ore:barsIron>).get()
+, {<ore:artisansSpanner> : 3, <ore:artisansDriver> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1>,
+    inputPattern(["GGG", "GSG", "GWG"])
+        .with("G", <ore:plateSteel>)
+        .with("S", <ore:fanSteel>)
+        .with("W", <immersiveengineering:metal_device1:1>).get()
+, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:3>, 
+    RecipeUtils.createCrossWithCore(<ore:ingotBronze>, <ore:plateIron>, <ore:dustRedstone>)
+, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:4>, 
+    inputPattern(["ILI", "TCT", "TLT"])
+        .with("I", <ore:plateIron>)
+        .with("L", <immersiveengineering:material:8>)
+        .with("T", <ore:ingotCopper>)
+        .with("C", <ore:gearCopper>).get()
+, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:5>, 
+    inputPattern(["GLG", "DCD", "GLG"])
+        .with("G", <ore:plateSteel>)
+        .with("L", <immersiveengineering:material:9>)
+        .with("D", <ore:ingotSteel>)
+        .with("C", <ore:gearElectrum>).get()
+, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 8} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:9>, 
+    inputPattern(["  G", " Q ", "G"])
+        .with("G", <ore:plateSteel>)
+        .with("Q", <ore:ingotBronze>).get()
+, {<ore:artisansSpanner> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:8>, 
+    inputPattern(["  T", " C ", "T"])
+        .with("T", <ore:plateSteel>)
+        .with("C", <ore:ingotCopper>).get()
+, {<ore:artisansSpanner> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:blueprint>.withTag({blueprint: "components"}),
+    inputPattern([" N ", "ICS", "LLL"])
+        .with("N", <ore:ingotNickel>)
+        .with("I", <ore:ingotIron>)
+        .with("C", <ore:ingotCopper>)
+        .with("S", <ore:ingotSteel>)
+        .with("L", <artisanworktables:design_pattern>).get()
+, {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:blueprint>.withTag({blueprint: "molds"}),
+    inputPattern(["QSC", "ISI", "LLL"])
+        .with("Q", <ore:plateLead>)
+        .with("S", <ore:plateSteel>)
+        .with("I", <ore:plateIron>)
+        .with("C", <ore:plateCopper>)
+        .with("L", <artisanworktables:design_pattern>).get()
+, {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),
+    inputPattern(["HHH", "CQK", "LLL"])
+        .with("H", <ore:gunpowder>)
+        .with("K", <ore:ingotConstantan>)
+        .with("Q", <ore:ingotLead>)
+        .with("C", <ore:ingotCopper>)
+        .with("L", <artisanworktables:design_pattern>).get()
+, {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);

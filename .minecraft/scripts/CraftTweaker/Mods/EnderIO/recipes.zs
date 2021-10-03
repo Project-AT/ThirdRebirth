@@ -30,7 +30,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
 ], {<ore:artisansDriver> : 10, <ore:artisansHammer> : 8} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacitor>, [
-	[null, <embers:nugget_dawnstone>, <ore:ingotHOPGraphite>],
-	[<embers:nugget_dawnstone>, <embers:plate_caminite>, <embers:nugget_dawnstone>],
-    [<ore:ingotHOPGraphite>, <embers:nugget_dawnstone>]
+	[null, <embers:nugget_dawnstone>, <ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>],
+	[<embers:nugget_dawnstone>, <embers:plate_caminite> | <ore:plasticWhite>, <embers:nugget_dawnstone>],
+    [<ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>, <embers:nugget_dawnstone>]
 ], {<ore:artisansDriver> : 1, <ore:artisansSolderer> : 3} as int[IIngredient]);
