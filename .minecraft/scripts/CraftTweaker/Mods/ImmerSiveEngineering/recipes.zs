@@ -32,9 +32,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
     [<minecraft:redstone>, <ore:plateNickel>, <minecraft:redstone>]
 ], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 3} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:26> * 3, [
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1:6> * 12, [
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-    [null, null, null],
+    [],
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansHammer> : 6} as int[IIngredient]);
 
