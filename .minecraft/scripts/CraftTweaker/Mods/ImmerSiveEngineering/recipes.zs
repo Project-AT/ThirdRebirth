@@ -34,7 +34,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1:6> * 12, [
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-    [],
+    [null, null, null],
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansHammer> : 6} as int[IIngredient]);
 
