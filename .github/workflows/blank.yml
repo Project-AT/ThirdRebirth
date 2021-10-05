@@ -29,8 +29,8 @@ jobs:
       - name: Commit processor changes
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: ikexing
-          author_email: ikexing.cn@gmail.com
+          author_name: ikexing-cn
+          author_email: ikexing@qq.com
           message: "ftbq lang processor changes (github action)"
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
