@@ -28,7 +28,7 @@ manaFlower.onUpdate = function(subtile, world, pos) {
     var auraHighestPos as IBlockPos = world.getHighestSpot(pos, 4, pos);
     var auraChunk as IAuraChunk = world.getAuraChunk(auraHighestPos);
 
-    if(!world.remote && !isNull(auraChunk) && 1000 != subtile.getMana()) {
+    if(!world.remote && !isNull(auraChunk) && subtile.getMaxMana() != subtile.getMana()) {
         auraChunk.drainAura(auraHighestPos, 20);
         subtile.addMana(1);
     }
