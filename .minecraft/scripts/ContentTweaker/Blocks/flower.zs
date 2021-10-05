@@ -17,7 +17,7 @@ auraFlower.onUpdate = function(subtile, world, pos) {
 
     if(!world.remote && subtile.getMana() > 0 && !isNull(auraChunk)) {
         subtile.addMana(-1);
-        auraChunk.storeAura(auraLowestPos, 20);
+        auraChunk.storeAura(auraLowestPos, 2);
     }
 };
 auraFlower.register();
@@ -29,7 +29,7 @@ manaFlower.onUpdate = function(subtile, world, pos) {
     var auraChunk as IAuraChunk = world.getAuraChunk(auraHighestPos);
 
     if(!world.remote && !isNull(auraChunk) && subtile.getMaxMana() != subtile.getMana()) {
-        auraChunk.drainAura(auraHighestPos, 20);
+        auraChunk.drainAura(auraHighestPos, 2);
         subtile.addMana(1);
     }
 };
