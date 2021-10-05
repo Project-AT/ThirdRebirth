@@ -3,9 +3,9 @@
 name: black
 on:
   push:
-    branches: [ main ]
+    branches: [ ftbq-bug ]
   pull_request:
-    branches: [ main ]
+    branches: [ ftbq-bug ]
 
   workflow_dispatch:
 env:
