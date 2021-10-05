@@ -1,0 +1,26 @@
+{
+	title: "提炼机",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f4d3e11f",
+		"73798140"
+	],
+	hide: true,
+	tasks: [{
+		uid: "858ffb11",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil_soul",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

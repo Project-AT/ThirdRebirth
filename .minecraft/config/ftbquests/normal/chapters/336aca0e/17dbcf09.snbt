@@ -1,0 +1,75 @@
+{
+	title: "对太古动力核心的分析",
+	icon: "embers:ancient_motive_core",
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"我发现太古动力核心裸露出来的发光水晶里面似乎正在有规律的闪动，我认为里面可能会包含着一些有用的信息。有了电路板的算力的帮助，可以尝试破译这里面的秘密了。",
+		"我需要收集更多的样本来整合出里面究竟隐藏着什么有用的信息。"
+	],
+	dependencies: [
+		"b0828ece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "560cb1b1",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "31d405d1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "6950435a",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "89c06447",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "fa0a16b5",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36b0eabd",
+		type: "item",
+		team_reward: true,
+		auto: "disabled",
+		item: "embers:codex"
+	},
+	{
+		uid: "d12d992a",
+		type: "gamestage",
+		title: "解锁 余烬阶段",
+		icon: "embers:golems_eye",
+		team_reward: true,
+		auto: "no_toast",
+		stage: ""
+	}]
+}

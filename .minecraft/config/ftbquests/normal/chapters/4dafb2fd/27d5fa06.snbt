@@ -1,0 +1,20 @@
+{
+	title: "灰烬魔力脉冲机",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ed5b601b",
+		"73798140"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b21ee10",
+		type: "item",
+		items: [{
+			item: "embers:ember_cluster"
+		}]
+	}]
+}

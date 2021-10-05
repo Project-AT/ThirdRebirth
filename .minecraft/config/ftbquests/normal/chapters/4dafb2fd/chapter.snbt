@@ -1,0 +1,10 @@
+{
+	title: "3级研究",
+	icon: "contenttweaker:germanium_integrated_circuit_board",
+	description: [
+		"体积小、重量轻。其性能比起印刷电路板更上一层楼"
+	],
+	always_invisible: false,
+	group: 441259579,
+	default_quest_shape: ""
+}

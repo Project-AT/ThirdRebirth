@@ -1,0 +1,31 @@
+{
+	title: "1级研究",
+	icon: "immersiveengineering:material 1 27",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"使用具有良好导电性的魔法合金配合电路板，其算力能够将研究能力提升一个等级"
+	],
+	dependencies: [
+		"c1b0c462"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de924ff5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "5aa69c9f",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}],
+		count: 8L,
+		consume_items: true
+	}]
+}

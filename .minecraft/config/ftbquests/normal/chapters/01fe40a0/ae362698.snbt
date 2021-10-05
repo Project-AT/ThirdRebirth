@@ -1,0 +1,25 @@
+{
+	title: "魔法机械化",
+	icon: "psi:cad_colorizer_ 1 17",
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"被巫师艺术的设计法术机制而激发，也许我可以自己制作一套释放法术的设备。",
+		"将这个星球对于神秘能量运用的技术与现有的机械体系结合，也许能碰撞出不一样的火花"
+	],
+	dependencies: [
+		"e1b4668c",
+		"6713f66a",
+		"9ff3de4a",
+		"bb63f1bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0428cdba",
+		type: "item",
+		items: [{
+			item: "psi:cad_colorizer_ 1 17"
+		}],
+		ignore_nbt: 1b
+	}]
+}

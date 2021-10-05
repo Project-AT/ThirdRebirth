@@ -1,0 +1,36 @@
+{
+	title: "终末之地的新材料",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"在终末之地发现的全新材料"
+	],
+	dependencies: [
+		"62ec947f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9739521b",
+		type: "item",
+		items: [{
+			item: "quark:biotite"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d3b3acff",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e8a1a5d3",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}],
+		consume_items: true
+	}]
+}

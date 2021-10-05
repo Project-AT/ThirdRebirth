@@ -1,0 +1,20 @@
+{
+	title: "雷电工艺",
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"9ff3de4a"
+	],
+	tasks: [{
+		uid: "770e8bd6",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "lightningcraft:guide"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

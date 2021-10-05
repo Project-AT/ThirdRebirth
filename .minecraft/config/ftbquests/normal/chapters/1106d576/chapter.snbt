@@ -1,0 +1,7 @@
+{
+	title: "4级研究",
+	icon: "mekanism:controlcircuit",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

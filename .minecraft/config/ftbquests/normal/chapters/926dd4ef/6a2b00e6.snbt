@@ -1,0 +1,22 @@
+{
+	title: "巫师艺术",
+	icon: "wizardry:book",
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"通过对遍布世界的淡蓝色池子之中的液体进行利用，激发其中的神秘能量来释放出法术。"
+	],
+	dependencies: [
+		"cbb0a3e0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37624ac4",
+		type: "item",
+		items: [{
+			item: "wizardry:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
