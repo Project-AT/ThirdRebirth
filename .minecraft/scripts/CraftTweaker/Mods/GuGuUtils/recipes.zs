@@ -2,7 +2,7 @@
 #modloaded atutils
 
 import scripts.grassUtils.RecipeUtils;
-
+import scripts.CraftTweaker.Utils.artisanUtils;
 
 RecipeUtils.recipeTweak(true, <gugu-utils:emberinputhatch:5>, 
     RecipeUtils.createSurround(<gugu-utils:emberinputhatch:4>, <immersiveengineering:wirecoil>)
@@ -85,3 +85,9 @@ RecipeUtils.recipeTweak(true, <gugu-utils:sparkmanahatch:1>,
         .with("H", <ore:livingrock>)
         .with("L", <botania:pool:3> | <botania:pool>).get()
 );
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <gugu-utils:environmenthatch>, [
+    [null, <psi:exosuit_sensor>],
+    [<psi:exosuit_sensor:1>, <modularmachinery:blockcasing>, <psi:exosuit_sensor:3>],
+    [null, <psi:exosuit_sensor:2>]
+], {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 5});

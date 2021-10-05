@@ -34,3 +34,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacito
 	[<embers:nugget_dawnstone>, <embers:plate_caminite> | <ore:plasticWhite>, <embers:nugget_dawnstone>],
     [<ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>, <embers:nugget_dawnstone>]
 ], {<ore:artisansDriver> : 1, <ore:artisansSolderer> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_smelter>, 
+    inputPattern(["SBS", "GCG", "SQS"])
+        .with("S", <ore:ingotSteel>)
+        .with("B", <ore:plateSteel>)
+        .with("G", <ore:gearsteel>)
+        .with("C", <ore:itemSimpleMachineChassi>)
+        .with("Q", <immersiveengineering:metal_device1:1>).get()
+, {<ore:artisansHammer> : 20, <ore:artisansSpanner> : 10});
