@@ -45,9 +45,7 @@ tile.contenttweaker.aura_coal_block.name=Aura Coal Blcok
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=Underworld Aluminum Ore
 tile.contenttweaker.udOreNickel.name=Underworld Nickel Ore
-tile.contenttweaker.udOreSilver.name=Underworld Silver Ore
 tile.contenttweaker.udOreUranium.name=Underworld Uranium Ore
-tile.contenttweaker.netherBlackQuartz.name=Nether Black Quartz Ore
 
 #Fluid
 fluid.hdpe=High Density Polyethylene
