@@ -59,7 +59,7 @@ for partName in partNames {
         var ores as [IItemStack] = ore.items;
         for oreItem in ores {
             var owner = oreItem.definition.owner;
-			if (owner == "netherendingores") continue;
+			if (owner == "netherendingores" || owner == "contenttweaker") continue;
             if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
                  for otherItem in ores {
                     if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")) {
