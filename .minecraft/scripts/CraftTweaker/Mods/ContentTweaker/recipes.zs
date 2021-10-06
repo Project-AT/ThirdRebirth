@@ -25,6 +25,14 @@ RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
     [<ore:dustCoal>, <ore:dustCoal>]
 ]);
 
+RecipeUtils.recipeTweak(false, <contenttweaker:pure_iron_ingot>, [
+    [<botania:spellcloth>, <botania:manaresource>]
+]);
+
+RecipeUtils.recipeTweak(false, <contenttweaker:sub_block_holder_2:12>, [
+    [<botania:spellcloth>, <botania:storage>]
+]);
+
 artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay_ball> * 7, [
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],
     [<ore:dustCoal>, <ore:clayBall>, <ore:dustQuartz>],
@@ -45,7 +53,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <atutils:stick_thunder>, [
 
 artisanUtils.RecipeTweakWithTools("mage", true, <atutils:advance_stick_thunder>, [
 	[null, <botania:manaresource:9>, <ore:ingotLead>],
-    [<botania:manaresource:8>, <atutils:advance_stick_thunder>, <botania:manaresource:8>],
+    [<botania:manaresource:8>, <atutils:stick_thunder>, <botania:manaresource:8>],
     [<ore:dreamwoodTwig>, <botania:manaresource:9>]
 ], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 20} as int[IIngredient]);
 

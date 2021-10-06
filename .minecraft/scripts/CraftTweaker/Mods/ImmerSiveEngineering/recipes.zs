@@ -95,7 +95,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_device1:5>,
     inputPattern(["GXG", "BZB", "FTF"])
         .with("G", <ore:ingotSteel>)
-        .with("X", <ore:coilCopper>)
+        .with("X", <immersiveengineering:connector:2>)
         .with("B", <ore:blockGlass>)
         .with("Z", <ore:electronTube>)
         .with("F", <ore:plankTreatedWood>)
@@ -128,11 +128,11 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:4>, 
-    inputPattern(["ILI", "TCT", "TLT"])
+    inputPattern(["ILI", "TCT", "ILI"])
         .with("I", <ore:plateIron>)
         .with("L", <immersiveengineering:material:8>)
         .with("T", <ore:ingotCopper>)
-        .with("C", <ore:gearCopper>).get()
+        .with("C", <ore:gearBronze>).get()
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 3} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:5>, 
@@ -151,7 +151,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:8>, 
     inputPattern(["  T", " C ", "T"])
-        .with("T", <ore:plateSteel>)
+        .with("T", <ore:plateIron>)
         .with("C", <ore:ingotCopper>).get()
 , {<ore:artisansSpanner> : 3} as int[IIngredient]);
 

@@ -61,6 +61,7 @@
 #other stuff
 /.minecraft/scripts/.zsrc
 !/.minecraft/resources
+!/.minecraft/oresources
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
 !/.minecraft/structures

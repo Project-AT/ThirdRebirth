@@ -25,7 +25,7 @@ RecipeUtils.recipeTweak(true, <artisanworktables:worktable:5>, [
 
 artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:6>, [
     [<ore:plateSteel>, <ore:plateBronze>, <ore:plateSteel>],
-    [<ore:stickIron>, <artisanworktables:worktable:6>, <ore:stickIron>],
+    [<ore:stickSteel>, <artisanworktables:worktable:6>, <ore:stickSteel>],
     [<ore:plankTreatedWood>, <ore:chest>, <ore:plankTreatedWood>]
 ], {<ore:artisansSpanner> : 10, <ore:artisansDriver> : 10} as int[IIngredient]);
 
