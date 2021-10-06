@@ -44,6 +44,10 @@ tile.contenttweaker.aura_coal_block.name=灵煤块
 tile.contenttweaker.udOreAluminum.name=冥界铝矿石
 tile.contenttweaker.udOreNickel.name=冥界镍矿石
 tile.contenttweaker.udOreUranium.name=冥界铀矿石
+tile.contenttweaker.udOreBoron.name=冥界硼矿石
+tile.contenttweaker.udOreLithium.name=冥界锂矿石
+tile.contenttweaker.udOreMagnesium.name=冥界镁矿石
+tile.contenttweaker.udOreThorium.name=冥界钍矿石
 
 #Fluid
 fluid.hdpe=高密度聚乙烯

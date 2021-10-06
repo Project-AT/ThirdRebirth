@@ -46,6 +46,10 @@ tile.contenttweaker.aura_coal_block.name=Aura Coal Blcok
 tile.contenttweaker.udOreAluminum.name=Underworld Aluminum Ore
 tile.contenttweaker.udOreNickel.name=Underworld Nickel Ore
 tile.contenttweaker.udOreUranium.name=Underworld Uranium Ore
+tile.contenttweaker.udOreBoron.name=Underworld Boron Ore
+tile.contenttweaker.udOreLithium.name=Underworld Lithium Ore
+tile.contenttweaker.udOreMagnesium.name=Underworld Magnesium Ore
+tile.contenttweaker.udOreThorium.name=Underworld Thorium Ore
 
 #Fluid
 fluid.hdpe=High Density Polyethylene
