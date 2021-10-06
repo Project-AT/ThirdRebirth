@@ -1,9 +1,9 @@
 {
-	title: "{autotech.quests.27d5fa06.title}",
+	title: "灰烬魔力脉冲机",
 	x: -2.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.27d5fa06.text.1}"
+		""
 	],
 	dependencies: [
 		"ed5b601b",

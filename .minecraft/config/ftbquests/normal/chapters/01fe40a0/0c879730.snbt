@@ -1,9 +1,9 @@
 {
-	title: "{autotech.quests.0c879730.title}",
+	title: "自动化工程师装配机",
 	x: 2.0d,
 	y: -1.0d,
 	text: [
-		"{autotech.quests.0c879730.text.1}"
+		"采用自动化合成技术减少对一些需要大量使用的东西投入的精力"
 	],
 	dependencies: [
 		"73798140"

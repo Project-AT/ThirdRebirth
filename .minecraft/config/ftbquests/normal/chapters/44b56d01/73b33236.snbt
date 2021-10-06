@@ -15,7 +15,7 @@
 	rewards: [{
 		uid: "bf292f1f",
 		type: "gamestage",
-		title: "{autotech.quests.73b33236.title}",
+		title: "解锁 根源魔法阶段",
 		icon: "roots:pestle",
 		team_reward: true,
 		auto: "no_toast",

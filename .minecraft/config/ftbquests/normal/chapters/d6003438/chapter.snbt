@@ -1,7 +1,7 @@
 {
-	title: "{autotech.quests.d6003438.title}",
+	title: "2级研究",
 	icon: "pneumaticcraft:printed_circuit_board",
-	description: ["{autotech.quests.d6003438.description}"	description: [
+	description: [
 		"印刷电路板的性能相比起普通电路板的性能更加优越，因此能进行更高一级的研究"
 	],
 	always_invisible: false,

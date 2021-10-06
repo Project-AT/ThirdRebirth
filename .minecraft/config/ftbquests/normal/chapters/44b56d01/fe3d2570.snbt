@@ -20,7 +20,7 @@
 	rewards: [{
 		uid: "b8ec0ebb",
 		type: "gamestage",
-		title: "{autotech.quests.fe3d2570.title}",
+		title: "解锁 自然灵气阶段",
 		icon: "naturesaura:gold_leaf",
 		team_reward: true,
 		auto: "no_toast",

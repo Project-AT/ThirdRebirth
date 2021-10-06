@@ -1,9 +1,9 @@
 {
-	title: "{autotech.quests.f2119ed5.title}",
+	title: "终末之地的新材料",
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.f2119ed5.text.1}"
+		"在终末之地发现的全新材料"
 	],
 	dependencies: [
 		"62ec947f"
