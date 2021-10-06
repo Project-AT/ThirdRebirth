@@ -1,7 +1,7 @@
 {
-	title: "0级研究",
+	title: "{autotech.quests.926dd4ef.title}",
 	icon: "minecraft:writable_book",
-	description: [
+	description: ["{autotech.quests.926dd4ef.description}"	description: [
 		"象征着游戏最初级的生产力下的能进行的研究任务，笔和书将会是你的主要科研工具"
 	],
 	always_invisible: false,

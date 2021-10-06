@@ -1,10 +1,10 @@
 {
-	title: "0级研究",
+	title: "{autotech.quests.31d324a3.title}",
 	icon: "minecraft:writable_book",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"一张桌子以及书和笔作为主要科研工具，能够进行最初级的科研任务。"
+		"{autotech.quests.31d324a3.text.1}"
 	],
 	tasks: [{
 		uid: "7a6d2b73",

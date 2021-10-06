@@ -1,12 +1,12 @@
 {
-	title: "研究",
+	title: "{autotech.quests.898a8d25.title}",
 	icon: {
 		id: "botania:brewvial",
 		tag: {
 			brewKey: "speed"
 		}
 	},
-	description: [
+	description: ["{autotech.quests.898a8d25.description}"	description: [
 		"在这里进行研究任务，推动游戏的进度"
 	],
 	always_invisible: false,

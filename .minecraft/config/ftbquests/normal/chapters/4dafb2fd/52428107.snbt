@@ -1,9 +1,9 @@
 {
-	title: "基础电子装配机",
+	title: "{autotech.quests.52428107.title}",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		""
+		"{autotech.quests.52428107.text.1}"
 	],
 	dependencies: [
 		"27d5fa06"

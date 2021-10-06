@@ -1,7 +1,7 @@
 {
-	title: "研究",
+	title: "{autotech.quests.1a4d163b.title}",
 	icon: "contenttweaker:research_icon",
-	description: [
+	description: ["{autotech.quests.1a4d163b.description}"	description: [
 		"在此完成研究任务，推动游戏发展"
 	],
 	always_invisible: false,

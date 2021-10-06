@@ -1,9 +1,9 @@
 {
-	title: "荒野魔法",
+	title: "{autotech.quests.e1b4668c.title}",
 	x: 2.0d,
 	y: 1.5d,
 	text: [
-		"运用生长在野外的独特植物，激发其中的神秘能量施展出自然魔法。"
+		"{autotech.quests.e1b4668c.text.1}"
 	],
 	dependencies: [
 		"cbb0a3e0"

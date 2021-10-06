@@ -1,10 +1,10 @@
 {
-	title: "1级研究",
+	title: "{autotech.quests.b0828ece.title}",
 	icon: "immersiveengineering:material 1 27",
 	x: 2.0d,
 	y: 0.0d,
 	text: [
-		"使用最初级的电路板来作为新的科研工具，使科研能力提升一个等级。"
+		"{autotech.quests.b0828ece.text.1}"
 	],
 	dependencies: [
 		"31d324a3"

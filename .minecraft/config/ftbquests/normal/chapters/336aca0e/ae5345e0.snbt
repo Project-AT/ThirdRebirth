@@ -1,10 +1,10 @@
 {
-	title: "合金炉",
+	title: "{autotech.quests.ae5345e0.title}",
 	icon: "enderio:block_alloy_smelter",
 	x: 1.5d,
 	y: -0.5d,
 	text: [
-		"我需要能进行更精度控制的合金炉，加热、熔炼、固溶、保温和淬火一体化，并且能对更多的材料进行处理。"
+		"{autotech.quests.ae5345e0.text.1}"
 	],
 	dependencies: [
 		"6f5f6696"

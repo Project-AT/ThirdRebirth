@@ -1,9 +1,9 @@
 {
-	title: "炼金光学",
+	title: "{autotech.quests.2c26a9fb.title}",
 	x: 2.0d,
 	y: -4.0d,
 	text: [
-		"经过灰烬炼金术制作出来的聚焦镜片，光线穿过之后照射在皮肤上能立即感觉到更加温热了，我应该深入研究里面究竟蕴藏着什么。"
+		"{autotech.quests.2c26a9fb.text.1}"
 	],
 	dependencies: [
 		"f4d3e11f"

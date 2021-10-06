@@ -1,10 +1,10 @@
 {
-	title: "对于聚焦镜片的研究",
+	title: "{autotech.quests.f66e9011.title}",
 	icon: "embers:focal_lens",
 	x: -1.5d,
 	y: -2.5d,
 	text: [
-		"经过灰烬炼金术制作出来的聚焦镜片，光线穿过镜片之后照射在皮肤上能立即非常明显地感觉到更加温热了，我应该深入研究其背后究竟蕴藏着怎样的能量。"
+		"{autotech.quests.f66e9011.text.1}"
 	],
 	dependencies: [
 		"17dbcf09"
@@ -88,7 +88,7 @@
 	{
 		uid: "1f1024ee",
 		type: "gamestage",
-		title: "解锁 折射阶段",
+		title: "{autotech.quests.f66e9011.title}",
 		icon: "refraction:screw_driver",
 		team_reward: true,
 		auto: "enabled",
