@@ -1,10 +1,10 @@
 {
-	title: "2级研究",
+	title: "{autotech.quests.e82cff8c.title}",
 	icon: "pneumaticcraft:printed_circuit_board",
 	x: -0.5d,
 	y: -1.0d,
 	text: [
-		"使用最新制作出的锗晶体管以及电容组装而成的印刷电路板，性能比普通电路板更加优越！"
+		"{autotech.quests.e82cff8c.text.1}"
 	],
 	dependencies: [
 		"bb63f1bd"

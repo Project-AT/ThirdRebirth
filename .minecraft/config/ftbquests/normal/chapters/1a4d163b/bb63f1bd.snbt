@@ -1,10 +1,10 @@
 {
-	title: "1级研究",
+	title: "{autotech.quests.bb63f1bd.title}",
 	icon: "immersiveengineering:material 1 27",
 	x: -2.5d,
 	y: -1.0d,
 	text: [
-		"使用具有良好导电性的魔法合金配合电路板，其算力能够将研究能力提升一个等级"
+		"{autotech.quests.bb63f1bd.text.1}"
 	],
 	dependencies: [
 		"c1b0c462"

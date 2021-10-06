@@ -1,11 +1,11 @@
 {
-	title: "对太古动力核心的分析",
+	title: "{autotech.quests.17dbcf09.title}",
 	icon: "embers:ancient_motive_core",
 	x: -4.5d,
 	y: -0.5d,
 	text: [
-		"我发现太古动力核心裸露出来的发光水晶里面似乎正在有规律的闪动，我认为里面可能会包含着一些有用的信息。有了电路板的算力的帮助，可以尝试破译这里面的秘密了。",
-		"我需要收集更多的样本来整合出里面究竟隐藏着什么有用的信息。"
+		"{autotech.quests.17dbcf09.text.1}",
+		"{autotech.quests.17dbcf09.text.2}"
 	],
 	dependencies: [
 		"b0828ece"
@@ -66,7 +66,7 @@
 	{
 		uid: "d12d992a",
 		type: "gamestage",
-		title: "解锁 余烬阶段",
+		title: "{autotech.quests.17dbcf09.title}",
 		icon: "embers:golems_eye",
 		team_reward: true,
 		auto: "no_toast",

@@ -1,5 +1,5 @@
 {
-	title: "雷电工艺",
+	title: "{autotech.quests.afb99046.title}",
 	x: 8.0d,
 	y: 0.0d,
 	dependencies: [
