@@ -1,9 +1,9 @@
 {
-	title: "植物魔法",
+	title: "{autotech.quests.9ff3de4a.title}",
 	x: 6.0d,
 	y: 0.0d,
 	text: [
-		"通过献给众神的仪式，我从所谓的“神”手上获得了对存在于万物之中的神秘能量进行提炼的技术。将神秘能量注入植物内，创造出各种功能的植物。"
+		"{autotech.quests.9ff3de4a.text.1}"
 	],
 	dependencies: [
 		"6713f66a"

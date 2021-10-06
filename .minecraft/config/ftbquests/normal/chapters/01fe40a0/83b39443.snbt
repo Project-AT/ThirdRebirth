@@ -1,9 +1,9 @@
 {
-	title: "提炼机",
+	title: "{autotech.quests.83b39443.title}",
 	x: 2.0d,
 	y: -3.0d,
 	text: [
-		""
+		"{autotech.quests.83b39443.text.1}"
 	],
 	dependencies: [
 		"f4d3e11f",

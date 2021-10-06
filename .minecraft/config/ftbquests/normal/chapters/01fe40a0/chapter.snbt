@@ -1,8 +1,8 @@
 {
-	title: "1级研究",
+	title: "{autotech.quests.01fe40a0.title}",
 	icon: "immersiveengineering:material 1 27",
 	description: [
-		"电路板的算力令科研能力大大提升，能进行的研究任务比书和笔多得多"
+		"{autotech.quests.01fe40a0.description.1}"
 	],
 	always_invisible: false,
 	group: 441259579,

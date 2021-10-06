@@ -1,10 +1,10 @@
 {
-	title: "芝麻开门",
+	title: "{autotech.quests.62ec947f.title}",
 	x: 2.0d,
 	y: 0.0d,
 	text: [
-		"经过分析，传送门上的青色物质是金、铅、铂以及一些不明成分组合而成的合金。而底部结构在外层的是一种珊瑚状的淡黄色物质，貌似是由孢子结合而成。",
-		"根据现有的技术应该可以仿制出传送门并激活，前往传送目的地。"
+		"{autotech.quests.62ec947f.text.1}",
+		"{autotech.quests.62ec947f.text.2}"
 	],
 	dependencies: [
 		"ba15a281"

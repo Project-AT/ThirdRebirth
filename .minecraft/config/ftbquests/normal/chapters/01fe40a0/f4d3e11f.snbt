@@ -1,10 +1,10 @@
 {
-	title: "水晶律动",
+	title: "{autotech.quests.f4d3e11f.title}",
 	x: -0.5d,
 	y: -3.0d,
 	text: [
-		"我发现太古动力核心裸露出来的发光水晶里面似乎正在有规律的闪动，我认为里面可能会包含着一些有用的信息。有了电路板的算力的帮助，可以尝试破译这里面的秘密了。",
-		"我需要收集更多的样本来整合出里面究竟隐藏着什么有用的信息。"
+		"{autotech.quests.f4d3e11f.text.1}",
+		"{autotech.quests.f4d3e11f.text.2}"
 	],
 	dependencies: [
 		"bb63f1bd"

@@ -1,10 +1,10 @@
 {
-	title: "原住民的语言",
+	title: "{autotech.quests.cbb0a3e0.title}",
 	icon: "contenttweaker:villager_language_dictionary",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"在学会了原住民的语言之后，便可以开始学习遗留下来的魔法古著，运用存在于环境中的神秘能量。"
+		"{autotech.quests.cbb0a3e0.text.1}"
 	],
 	dependencies: [
 		"c1b0c462"
@@ -13,7 +13,7 @@
 	tasks: [{
 		uid: "2a6dba20",
 		type: "gamestage",
-		title: "学会村民语（右键村民语词典）",
+		title: "{autotech.quests.cbb0a3e0.title}",
 		icon: "contenttweaker:villager_language_dictionary",
 		stage: "villager"
 	}]
