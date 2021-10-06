@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Tin Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "thermalfoundation:ore",
+            "properties": {
+                "type": "tin"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 56,
+        "widthMin": 4,
+        "widthMax": 6,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 15,
+        "countMax": 29,
+        "yieldMin": 500,
+        "yieldMax": 800,
+        "extractionCooldownScale": 1
+    }
+]

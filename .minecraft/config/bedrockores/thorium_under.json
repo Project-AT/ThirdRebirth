@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Under Thorium Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "contenttweaker:udorethorium"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 40,
+        "widthMin": 4,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 13,
+        "countMax": 20,
+        "yieldMin": 200,
+        "yieldMax": 250,
+        "extractionCooldownScale": 1
+    }
+]

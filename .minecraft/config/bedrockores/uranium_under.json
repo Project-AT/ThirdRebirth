@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Under Uranium Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "contenttweaker:udoreuranium"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 30,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 10,
+        "countMax": 20,
+        "yieldMin": 200,
+        "yieldMax": 350,
+        "extractionCooldownScale": 1
+    }
+]

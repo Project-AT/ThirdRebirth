@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Silver Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "thermalfoundation:ore",
+            "properties": {
+                "type": "silver"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 28,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 3,
+        "countMax": 11,
+        "yieldMin": 100,
+        "yieldMax": 200,
+        "extractionCooldownScale": 1
+    }
+]

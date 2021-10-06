@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Nether Amrthyst Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "netherex:amethyst_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 22,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 10,
+        "countMax": 20,
+        "yieldMin": 300,
+        "yieldMax": 500,
+        "extractionCooldownScale": 1
+    }
+]

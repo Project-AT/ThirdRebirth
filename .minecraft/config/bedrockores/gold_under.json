@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Under Gold Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "lightningcraft:ore_block",
+            "properties": {
+                "varient": 1
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 23,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 7,
+        "countMax": 21,
+        "yieldMin": 640,
+        "yieldMax": 1280,
+        "extractionCooldownScale": 1
+    }
+]

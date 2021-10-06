@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Gold Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:gold_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 23,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 7,
+        "countMax": 21,
+        "yieldMin": 400,
+        "yieldMax": 800,
+        "extractionCooldownScale": 1
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Diamond Ore, Rare"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:diamond_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 8,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 5,
+        "countMax": 10,
+        "yieldMin": 50,
+        "yieldMax": 80,
+        "extractionCooldownScale": 1
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Under Diamond Ore, Rare"],
+        "enabled": true,
+        "state": {
+            "name": "lightningcraft:ore_block",
+            "properties": {
+                "varient": 2
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 8,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 5,
+        "countMax": 10,
+        "yieldMin": 80,
+        "yieldMax": 128,
+        "extractionCooldownScale": 1
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Aluminum Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "thermalfoundation:ore",
+            "properties": {
+                "type": "aluminum"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 30,
+        "widthMin": 5,
+        "widthMax": 7,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 20,
+        "countMax": 45,
+        "yieldMin": 600,
+        "yieldMax": 1000,
+        "extractionCooldownScale": 1
+    }
+]

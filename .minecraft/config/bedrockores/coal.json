@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Coal Ore, Abundant"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:coal_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 180,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 10,
+        "countMax": 16,
+        "yieldMin": 1000,
+        "yieldMax": 1800,
+        "extractionCooldownScale": 1
+    }
+]

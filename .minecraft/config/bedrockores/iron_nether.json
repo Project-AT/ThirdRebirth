@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Nether Iron Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_nether_vanilla",
+            "properties": {
+                "blocks": "iron_ore"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 100,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 11,
+        "countMax": 20,
+        "yieldMin": 1500,
+        "yieldMax": 2500,
+        "extractionCooldownScale": 1
+    }
+]

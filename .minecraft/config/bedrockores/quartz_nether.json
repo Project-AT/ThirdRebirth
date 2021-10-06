@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Nether Quartz Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:quartz_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 110,
+        "widthMin": 5,
+        "widthMax": 7,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 30,
+        "countMax": 45,
+        "yieldMin": 800,
+        "yieldMax": 1500,
+        "extractionCooldownScale": 1
+    }
+]

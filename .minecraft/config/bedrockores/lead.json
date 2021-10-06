@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Lead Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "thermalfoundation:ore",
+            "properties": {
+                "type": "lead"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 95,
+        "widthMin": 4,
+        "widthMax": 6,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 15,
+        "countMax": 29,
+        "yieldMin": 600,
+        "yieldMax": 900,
+        "extractionCooldownScale": 1
+    }
+]

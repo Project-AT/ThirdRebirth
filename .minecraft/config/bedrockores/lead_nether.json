@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Nether Lead Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_nether_modded_1",
+            "properties": {
+                "blocks": "lead_ore"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 95,
+        "widthMin": 4,
+        "widthMax": 6,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 15,
+        "countMax": 29,
+        "yieldMin": 800,
+        "yieldMax": 1000,
+        "extractionCooldownScale": 1
+    }
+]

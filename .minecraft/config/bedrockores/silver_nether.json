@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Nether Silver Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_nether_modded_1",
+            "properties": {
+                "blocks": "silver_ore"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 28,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 3,
+        "countMax": 11,
+        "yieldMin": 150,
+        "yieldMax": 250,
+        "extractionCooldownScale": 1
+    }
+]

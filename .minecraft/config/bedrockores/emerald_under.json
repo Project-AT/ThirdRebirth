@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Under Emerald Ore, Rare"],
+        "enabled": true,
+        "state": {
+            "name": "lightningcraft:ore_block",
+            "properties": {
+                "varient": 3
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 5,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 3,
+        "countMax": 8,
+        "yieldMin": 128,
+        "yieldMax": 256,
+        "extractionCooldownScale": 1
+    }
+]

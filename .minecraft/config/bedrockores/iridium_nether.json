@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Nether Iridium Ore, Rare"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_nether_modded_1",
+            "properties": {
+                "blocks": "iridium_ore"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 9,
+        "widthMin": 3,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 10,
+        "countMax": 15,
+        "yieldMin": 200,
+        "yieldMax": 400,
+        "extractionCooldownScale": 1
+    }
+]

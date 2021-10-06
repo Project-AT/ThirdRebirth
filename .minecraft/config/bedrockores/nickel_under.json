@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Under Nickel Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "contenttweaker:udorenickel"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 34,
+        "widthMin": 4,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 11,
+        "countMax": 16,
+        "yieldMin": 800,
+        "yieldMax": 1200,
+        "extractionCooldownScale": 1
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Under Magnesium Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "contenttweaker:udoremagnesium"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 76,
+        "widthMin": 4,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 13,
+        "countMax": 20,
+        "yieldMin": 400,
+        "yieldMax": 500,
+        "extractionCooldownScale": 1
+    }
+]

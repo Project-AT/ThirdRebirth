@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Redstone Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:redstone_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 42,
+        "widthMin": 4,
+        "widthMax": 6,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 11,
+        "countMax": 26,
+        "yieldMin": 700,
+        "yieldMax": 900,
+        "extractionCooldownScale": 1
+    }
+]

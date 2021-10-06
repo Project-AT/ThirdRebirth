@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Emerald Ore, Rare"],
+        "enabled": true,
+        "state": {
+            "name": "minecraft:emerald_ore"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 5,
+        "widthMin": 2,
+        "widthMax": 4,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 3,
+        "countMax": 8,
+        "yieldMin": 80,
+        "yieldMax": 160,
+        "extractionCooldownScale": 1
+    }
+]

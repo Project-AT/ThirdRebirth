@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Under Iron Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "lightningcraft:ore_block",
+            "properties": {
+                "varient": 0
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 100,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 11,
+        "countMax": 20,
+        "yieldMin": 1600,
+        "yieldMax": 3200,
+        "extractionCooldownScale": 1
+    }
+]

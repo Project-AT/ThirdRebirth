@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Under Aluminum Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "contenttweaker:udorealuminum"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -9,
+        "weight": 82,
+        "widthMin": 5,
+        "widthMax": 7,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 20,
+        "countMax": 45,
+        "yieldMin": 960,
+        "yieldMax": 1600,
+        "extractionCooldownScale": 1
+    }
+]

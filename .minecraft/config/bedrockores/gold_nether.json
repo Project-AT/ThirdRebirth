@@ -1,0 +1,25 @@
+[
+    {
+        "comment": ["Nether Gold Ore, Uncommon"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_nether_vanilla",
+            "properties": {
+                "blocks": "gold_ore"
+            }
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": -1,
+        "weight": 23,
+        "widthMin": 3,
+        "widthMax": 5,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 7,
+        "countMax": 21,
+        "yieldMin": 500,
+        "yieldMax": 900,
+        "extractionCooldownScale": 1
+    }
+]
