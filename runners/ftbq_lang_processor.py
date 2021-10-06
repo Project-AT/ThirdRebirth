@@ -85,8 +85,6 @@ def write_lang(path):
         to_append_entries.append(key + "=" + value)
     f = open(path, "w+", encoding="utf-8")
     f.writelines(f_list_copy)
-    if (len(f_list[0]) != 0 and f_list[0] != "\n"):
-        f.write("\n")
     for entry in to_append_entries:
         f.write(entry + "\n")
     f.close()
