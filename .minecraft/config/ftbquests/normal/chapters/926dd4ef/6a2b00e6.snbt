@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.6a2b00e6.title}",
+	title: "巫师艺术",
 	icon: "wizardry:book",
 	x: 2.0d,
 	y: -1.5d,
 	text: [
-		"{autotech.quests.6a2b00e6.text.1}"
+		"通过对遍布世界的淡蓝色池子之中的液体进行利用，激发其中的神秘能量来释放出法术。"
 	],
 	dependencies: [
 		"cbb0a3e0"

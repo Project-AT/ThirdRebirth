@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.83ac4638.title}",
+	title: "模块化机器",
 	icon: "modularmachinery:blockcontroller",
 	x: -4.5d,
 	y: 4.5d,
 	text: [
-		"{autotech.quests.83ac4638.text.1}"
+		"拥有了钢，工业文明的粮食以及铝，我可以以此来设计一些大型机器来生产我需要的材料。"
 	],
 	dependencies: [
 		"b0828ece"

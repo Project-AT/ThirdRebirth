@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.08efca60.title}",
+	title: "2级研究",
 	icon: "pneumaticcraft:printed_circuit_board",
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.08efca60.text.1}"
+		"印刷电路板相比起普通电路板有着更优良的高精密性以及轻便性，能更好的应用到高精密仪器上。"
 	],
 	dependencies: [
 		"b0828ece"

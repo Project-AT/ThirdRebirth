@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.6f5f6696.title}",
+	title: "更先进的机器",
 	icon: "enderio:item_material",
 	x: -0.5d,
 	y: -0.5d,
 	text: [
-		"{autotech.quests.6f5f6696.text.1}"
+		"我发现现有的机器已经无法满足需求了，我应该对之前的机器进行改良，研究出更高性能的机器来继续发展。"
 	],
 	dependencies: [
 		"744935eb"

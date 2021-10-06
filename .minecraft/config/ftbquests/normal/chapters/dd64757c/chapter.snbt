@@ -1,5 +1,5 @@
 {
-	title: "{autotech.quests.dd64757c.title}",
+	title: "5级研究",
 	icon: "mekanism:controlcircuit 1 1",
 	always_invisible: false,
 	group: 0,

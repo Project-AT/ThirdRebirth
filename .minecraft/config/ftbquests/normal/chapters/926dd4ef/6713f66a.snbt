@@ -1,9 +1,9 @@
 {
-	title: "{autotech.quests.6713f66a.title}",
+	title: "自然之灵气",
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.6713f66a.text.1}"
+		"利用遍布在世界的神秘能量（被称之为灵气）作为能源，制造出不同的设备和道具来发展生产力。"
 	],
 	dependencies: [
 		"e1b4668c",
