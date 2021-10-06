@@ -12,7 +12,7 @@ static tweakedRecipesAmount as int = 0;
 
 //修改合成，先删后加，第一个参数true表有序，false无序，需要二维数组（即使是无序）
 function recipeTweak(isShaped as bool,out as IItemStack,input as IIngredient[][]) as int{
-    var recipeName as string = StringHelper.getItemNameWithUnderline(out);
+    var recipeName as string = StringHelper.getItemNameWithUnderline(out) ~ tweakedRecipesAmount;
     if (out.hasTag) {
         recipeName ~= ("_withtag_" ~ tweakedRecipesAmount);
     }

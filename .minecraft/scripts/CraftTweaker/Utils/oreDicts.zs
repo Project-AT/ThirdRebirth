@@ -18,9 +18,12 @@ var partNames as string[] = [
 var oreDictAdd as IItemStack[string] = {
     "dustCrudeSteel" : <contenttweaker:dust_crude_steel>,
     "oreNickel" : <contenttweaker:udorenickel>,
-    "oreSilver" : <contenttweaker:udoresilver>,
     "oreUranium" : <contenttweaker:udoreuranium>,
     "oreAluminum" : <contenttweaker:udorealuminum>,
+    "oreBoron" : <contenttweaker:udoreboron>,
+    "oreLithium" : <contenttweaker:udorelithium>,
+    "oreMagnesium" : <contenttweaker:udoremagnesium>,
+    "oreThorium" : <contenttweaker:udorethorium>,
     "oreCrudeSteel" : <contenttweaker:ironcoal_ore>,
     "oreSkyStoneBlock" : <appliedenergistics2:sky_stone_block>,
     "ingotRustyIron" : <contenttweaker:rusty_iron_ingot>,
@@ -59,10 +62,11 @@ for partName in partNames {
         var ores as [IItemStack] = ore.items;
         for oreItem in ores {
             var owner = oreItem.definition.owner;
-			if (owner == "netherendingores" || owner == "contenttweaker") continue;
-            if(owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
+            if (owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
                  for otherItem in ores {
                     if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")) {
+                        if (otherItem.definition.owner == "netherendingores" || 
+                            otherItem.definition.owner == "contenttweaker") continue;
                         JEI.removeAndHide(otherItem);
                         ore.remove(otherItem);
                     }
@@ -74,13 +78,13 @@ for partName in partNames {
 }
 
 for item in loadedMods["roots"].items {
-    if (item.name.contains("knift")) {
+    if (item.name.contains("knife")) {
         <ore:knife>.add(item);
     }
 }
 
 for item in loadedMods["mysticalworld"].items {
-    if (item.name.contains("knift")) {
+    if (item.name.contains("knife")) {
         <ore:knife>.add(item);
     }
 }
