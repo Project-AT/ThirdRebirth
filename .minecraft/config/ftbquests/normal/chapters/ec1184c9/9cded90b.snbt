@@ -1,10 +1,10 @@
 {
-	title: "末影の传输",
+	title: "{autotech.quests.9cded90b.title}",
 	x: 6.0d,
 	y: 0.0d,
 	text: [
-		"尽管已经有了末影板条箱可以用于超远距离传输，但无法直接传输流体，并且对于灵气的消耗也不低。",
-		"来到了终末之地，里面拥有着一些我从未见过的材料，也许我可以以此来制作出能耗更小的设备？"
+		"{autotech.quests.9cded90b.text.1}",
+		"{autotech.quests.9cded90b.text.2}"
 	],
 	dependencies: [
 		"f2119ed5",

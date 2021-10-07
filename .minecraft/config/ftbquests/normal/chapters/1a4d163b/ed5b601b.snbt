@@ -1,9 +1,9 @@
 {
-	title: "3级研究",
+	title: "{autotech.quests.ed5b601b.title}",
 	x: 1.5d,
 	y: -1.0d,
 	text: [
-		"将电容和锗晶体管组装在锗晶圆上，将电路小型化，性能大幅度提升。"
+		"{autotech.quests.ed5b601b.text.1}"
 	],
 	dependencies: [
 		"e82cff8c"

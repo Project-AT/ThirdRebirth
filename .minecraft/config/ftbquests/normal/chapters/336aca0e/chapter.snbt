@@ -1,8 +1,8 @@
 {
-	title: "1级研究",
+	title: "{autotech.quests.336aca0e.title}",
 	icon: "immersiveengineering:material 1 27",
 	description: [
-		"使用最初级的电路板作为辅助计算工具，能够进行的科研任务将会比用书和笔多得多。"
+		"{autotech.quests.336aca0e.description.1}"
 	],
 	always_invisible: false,
 	group: -1987408603,

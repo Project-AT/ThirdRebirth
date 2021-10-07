@@ -1,9 +1,9 @@
 {
-	title: "灵气灌注嬗变机",
+	title: "{autotech.quests.9e12d8a1.title}",
 	x: 2.0d,
 	y: 2.0d,
 	text: [
-		"通过机械化灵气祭坛，加快对物品进行灵气灌注和嬗变处理的效率。"
+		"{autotech.quests.9e12d8a1.text.1}"
 	],
 	dependencies: [
 		"6713f66a",

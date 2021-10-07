@@ -1,9 +1,9 @@
 {
-	title: "电子分析破译仪",
+	title: "{autotech.quests.3e5e4e61.title}",
 	x: -4.0d,
 	y: 0.0d,
 	text: [
-		"从基岩层挖掘出来的未知工艺品，其中的加密机制多达1919种.需要有一定的算力才能开展破译行动，而现在刚刚好可以达到技术要求。现在只需要设计一台机器用于破解未知工艺品。"
+		"{autotech.quests.3e5e4e61.text.1}"
 	],
 	dependencies: [
 		"ed5b601b"
