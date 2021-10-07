@@ -25,7 +25,7 @@ calm.onWornTick = function(bauble, wearer) {
 calm.onUnequipped = function(bauble, wearer) {
     var player as IPlayer = wearer;
 
-    player.update({furySlot : -1 as int});
+    player.update({calmSlot : -1 as int});
 
     if(bauble.hasTag && !isNull(bauble.tag.critical)) {
         bauble.mutable().removeTag("critical");
