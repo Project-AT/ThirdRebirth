@@ -1,0 +1,15 @@
+{
+	title: "{autotech.quests.898a8d25.title}",
+	icon: {
+		id: "botania:brewvial",
+		tag: {
+			brewKey: "speed"
+		}
+	},
+	description: [
+		"{autotech.quests.898a8d25.description.1}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

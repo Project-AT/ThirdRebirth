@@ -1,0 +1,28 @@
+{
+	title: "{autotech.quests.b0828ece.title}",
+	icon: "immersiveengineering:material 1 27",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.b0828ece.text.1}"
+	],
+	dependencies: [
+		"31d324a3"
+	],
+	tasks: [{
+		uid: "ac4c39c7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}],
+		count: 16L
+	},
+	{
+		uid: "cf19720d",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}],
+		count: 8L
+	}]
+}

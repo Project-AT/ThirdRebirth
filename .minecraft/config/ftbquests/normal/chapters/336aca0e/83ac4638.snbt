@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.83ac4638.title}",
+	icon: "modularmachinery:blockcontroller",
+	x: -4.5d,
+	y: 4.5d,
+	text: [
+		"{autotech.quests.83ac4638.text.1}"
+	],
+	dependencies: [
+		"b0828ece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a17ca93",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}

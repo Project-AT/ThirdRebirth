@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"f4d3e11f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea9ced18",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}]
+}

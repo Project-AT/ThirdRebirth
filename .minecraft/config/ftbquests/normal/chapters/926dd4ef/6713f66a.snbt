@@ -1,0 +1,25 @@
+{
+	title: "{autotech.quests.6713f66a.title}",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.6713f66a.text.1}"
+	],
+	dependencies: [
+		"e1b4668c",
+		"6a2b00e6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d806535",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

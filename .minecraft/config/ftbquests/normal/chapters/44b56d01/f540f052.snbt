@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.f540f052.title}",
+	icon: "contenttweaker:villager_language_dictionary",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.f540f052.text.1}"
+	],
+	dependencies: [
+		"31d324a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee103be4",
+		type: "gamestage",
+		title: "{autotech.quests.f540f052.title}",
+		icon: "contenttweaker:villager_language_dictionary",
+		stage: "villager"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.62ec947f.title}",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.62ec947f.text.1}",
+		"{autotech.quests.62ec947f.text.2}"
+	],
+	dependencies: [
+		"ba15a281"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f571be6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ender_portal"
+		}]
+	}]
+}

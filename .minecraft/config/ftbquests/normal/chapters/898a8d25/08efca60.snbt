@@ -1,0 +1,22 @@
+{
+	title: "{autotech.quests.08efca60.title}",
+	icon: "pneumaticcraft:printed_circuit_board",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.08efca60.text.1}"
+	],
+	dependencies: [
+		"b0828ece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1887bd64",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:printed_circuit_board"
+		}],
+		count: 16L,
+		consume_items: true
+	}]
+}

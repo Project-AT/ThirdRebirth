@@ -1,0 +1,19 @@
+{
+	title: "{autotech.quests.3e5e4e61.title}",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.3e5e4e61.text.1}"
+	],
+	dependencies: [
+		"ed5b601b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c195de51",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	}]
+}

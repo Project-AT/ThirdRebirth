@@ -1,0 +1,21 @@
+{
+	title: "{autotech.quests.25a85b72.title}",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"{autotech.quests.25a85b72.text.1}",
+		"{autotech.quests.25a85b72.text.2}"
+	],
+	dependencies: [
+		"f4d3e11f",
+		"73798140"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea507068",
+		type: "item",
+		items: [{
+			item: "embers:jet_augment"
+		}]
+	}]
+}

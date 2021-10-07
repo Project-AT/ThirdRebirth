@@ -1,0 +1,22 @@
+{
+	title: "{autotech.quests.bb63f1bd.title}",
+	icon: "immersiveengineering:material 1 27",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"{autotech.quests.bb63f1bd.text.1}"
+	],
+	dependencies: [
+		"c1b0c462"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de924ff5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 27"
+		}],
+		count: 15L,
+		consume_items: true
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.ed5b601b.title}",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"{autotech.quests.ed5b601b.text.1}"
+	],
+	dependencies: [
+		"e82cff8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "228a28c1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:germanium_integrated_circuit_board"
+		}],
+		consume_items: true
+	}]
+}

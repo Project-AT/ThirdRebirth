@@ -1,0 +1,25 @@
+{
+	title: "{autotech.quests.eb0d30b1.title}",
+	icon: "botania:manaresource",
+	x: -1.5d,
+	y: 4.5d,
+	text: [
+		"{autotech.quests.eb0d30b1.text.1}",
+		"{autotech.quests.eb0d30b1.text.2}",
+		"{autotech.quests.eb0d30b1.text.3}"
+	],
+	dependencies: [
+		"83ac4638",
+		"93cd0851"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b40b500d",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 16L,
+		consume_items: true
+	}]
+}

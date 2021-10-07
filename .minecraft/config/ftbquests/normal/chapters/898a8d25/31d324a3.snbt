@@ -1,0 +1,40 @@
+{
+	title: "{autotech.quests.31d324a3.title}",
+	icon: "minecraft:writable_book",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.31d324a3.text.1}"
+	],
+	tasks: [{
+		uid: "7a6d2b73",
+		type: "item",
+		items: [{
+			item: "minecraft:writable_book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37aa2287",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true,
+		ignore_damage: true
+	}]
+}

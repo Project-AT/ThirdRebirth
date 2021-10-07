@@ -1,0 +1,28 @@
+{
+	title: "{autotech.quests.83b39443.title}",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"{autotech.quests.83b39443.text.1}",
+		"{autotech.quests.83b39443.text.2}",
+		"{autotech.quests.83b39443.text.3}",
+		"{autotech.quests.83b39443.text.4}"
+	],
+	dependencies: [
+		"f4d3e11f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "858ffb11",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil_soul",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"fe3d2570"
+	],
+	hide: true,
+	tasks: [{
+		uid: "357d9537",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e99793fd",
+		type: "gamestage",
+		title: "{autotech.quests.93cd0851.title}",
+		icon: {
+			id: "botania:lexicon",
+			tag: {}
+		},
+		team_reward: true,
+		auto: "no_toast",
+		stage: ""
+	}]
+}

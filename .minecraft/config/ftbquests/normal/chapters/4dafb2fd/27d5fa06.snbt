@@ -1,0 +1,23 @@
+{
+	title: "{autotech.quests.27d5fa06.title}",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.27d5fa06.text.1}"
+	],
+	dependencies: [
+		"ed5b601b",
+		"73798140",
+		"9ff3de4a",
+		"f4d3e11f",
+		"71db5d4d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b21ee10",
+		type: "item",
+		items: [{
+			item: "embers:ember_cluster"
+		}]
+	}]
+}

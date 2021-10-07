@@ -1,0 +1,6 @@
+{
+	title: "{autotech.quests.51d3d0c2.title}",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.f4d3e11f.title}",
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"{autotech.quests.f4d3e11f.text.1}",
+		"{autotech.quests.f4d3e11f.text.2}"
+	],
+	dependencies: [
+		"bb63f1bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70c8cc3e",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}]
+	}]
+}

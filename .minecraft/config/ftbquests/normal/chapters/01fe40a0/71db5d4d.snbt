@@ -1,0 +1,25 @@
+{
+	title: "{autotech.quests.71db5d4d.title}",
+	icon: "botania:manaresource",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"{autotech.quests.71db5d4d.text.1}",
+		"{autotech.quests.71db5d4d.text.2}",
+		"{autotech.quests.71db5d4d.text.3}",
+		"{autotech.quests.71db5d4d.text.4}"
+	],
+	dependencies: [
+		"73798140",
+		"9ff3de4a",
+		"ae362698"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a79d7a1d",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}]
+}

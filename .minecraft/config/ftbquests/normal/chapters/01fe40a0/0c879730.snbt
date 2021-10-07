@@ -1,0 +1,18 @@
+{
+	title: "{autotech.quests.0c879730.title}",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"{autotech.quests.0c879730.text.1}"
+	],
+	dependencies: [
+		"73798140"
+	],
+	tasks: [{
+		uid: "06fe71c3",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workstation 1 6"
+		}]
+	}]
+}

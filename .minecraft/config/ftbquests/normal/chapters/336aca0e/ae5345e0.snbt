@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.ae5345e0.title}",
+	icon: "enderio:block_alloy_smelter",
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"{autotech.quests.ae5345e0.text.1}"
+	],
+	dependencies: [
+		"6f5f6696"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88556d3c",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}]
+}

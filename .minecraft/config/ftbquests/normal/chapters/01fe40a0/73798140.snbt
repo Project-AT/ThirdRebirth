@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.73798140.title}",
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"{autotech.quests.73798140.text.1}"
+	],
+	dependencies: [
+		"bb63f1bd",
+		"9e12d8a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e159677",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}

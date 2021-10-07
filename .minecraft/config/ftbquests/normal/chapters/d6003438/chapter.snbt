@@ -1,0 +1,10 @@
+{
+	title: "{autotech.quests.d6003438.title}",
+	icon: "pneumaticcraft:printed_circuit_board",
+	description: [
+		"{autotech.quests.d6003438.description.1}"
+	],
+	always_invisible: false,
+	group: -1987408603,
+	default_quest_shape: ""
+}

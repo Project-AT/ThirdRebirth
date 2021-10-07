@@ -1,0 +1,10 @@
+{
+	title: "{autotech.quests.44b56d01.title}",
+	icon: "minecraft:writable_book",
+	description: [
+		"{autotech.quests.44b56d01.description.1}"
+	],
+	always_invisible: false,
+	group: -1987408603,
+	default_quest_shape: ""
+}

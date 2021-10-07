@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.52428107.title}",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.52428107.text.1}"
+	],
+	dependencies: [
+		"2c26a9fb",
+		"27d5fa06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7cf7acab",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

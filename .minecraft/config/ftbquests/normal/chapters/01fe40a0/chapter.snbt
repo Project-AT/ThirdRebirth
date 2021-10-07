@@ -1,0 +1,10 @@
+{
+	title: "{autotech.quests.01fe40a0.title}",
+	icon: "immersiveengineering:material 1 27",
+	description: [
+		"{autotech.quests.01fe40a0.description.1}"
+	],
+	always_invisible: false,
+	group: 441259579,
+	default_quest_shape: ""
+}

@@ -1,0 +1,75 @@
+{
+	title: "{autotech.quests.17dbcf09.title}",
+	icon: "embers:ancient_motive_core",
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"{autotech.quests.17dbcf09.text.1}",
+		"{autotech.quests.17dbcf09.text.2}"
+	],
+	dependencies: [
+		"b0828ece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "560cb1b1",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "31d405d1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "6950435a",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "89c06447",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "fa0a16b5",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36b0eabd",
+		type: "item",
+		team_reward: true,
+		auto: "disabled",
+		item: "embers:codex"
+	},
+	{
+		uid: "d12d992a",
+		type: "gamestage",
+		title: "{autotech.quests.17dbcf09.title}",
+		icon: "embers:golems_eye",
+		team_reward: true,
+		auto: "no_toast",
+		stage: ""
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "{autotech.quests.ba15a281.title}",
+	icon: "minecraft:end_portal_frame",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.ba15a281.text.1}"
+	],
+	dependencies: [
+		"e82cff8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d80ce8e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:end_portal_frame_debris"
+		}],
+		count: 16L,
+		consume_items: true
+	}]
+}

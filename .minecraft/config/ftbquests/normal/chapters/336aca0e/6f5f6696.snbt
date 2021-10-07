@@ -1,0 +1,83 @@
+{
+	title: "{autotech.quests.6f5f6696.title}",
+	icon: "enderio:item_material",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"{autotech.quests.6f5f6696.text.1}"
+	],
+	dependencies: [
+		"744935eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc8b9e46",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}]
+	},
+	{
+		uid: "77d660c9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	},
+	{
+		uid: "039ade43",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	},
+	{
+		uid: "770d1c35",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	},
+	{
+		uid: "8c86d2f0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 19"
+		}]
+	},
+	{
+		uid: "0b666a65",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	},
+	{
+		uid: "f5a8e1e5",
+		type: "item",
+		items: [{
+			item: "embers:heat_coil"
+		}]
+	},
+	{
+		uid: "cb3761ec",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	},
+	{
+		uid: "4443d726",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	},
+	{
+		uid: "259c68f0",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}]
+}

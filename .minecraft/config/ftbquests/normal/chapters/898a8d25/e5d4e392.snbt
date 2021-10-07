@@ -1,0 +1,17 @@
+{
+	title: "{autotech.quests.e5d4e392.title}",
+	icon: "mekanism:controlcircuit 1 3",
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"1d6a2b4f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4a2636b1",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}]
+	}]
+}

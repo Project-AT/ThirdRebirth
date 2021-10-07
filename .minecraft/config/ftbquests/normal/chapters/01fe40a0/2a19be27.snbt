@@ -1,0 +1,185 @@
+{
+	title: "{autotech.quests.2a19be27.title}",
+	icon: "thermaldynamics:duct_32",
+	x: -0.5d,
+	y: -5.0d,
+	text: [
+		"{autotech.quests.2a19be27.text.1}",
+		"{autotech.quests.2a19be27.text.2}",
+		"{autotech.quests.2a19be27.text.3}"
+	],
+	dependencies: [
+		"bb63f1bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3708e234",
+		type: "item",
+		items: [{
+			item: "embers:pipe"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "ed93ae21",
+		type: "item",
+		items: [{
+			item: "embers:pump"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "11b286ed",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "9646f4d7",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "09d5f6fc",
+		type: "item",
+		items: [{
+			item: "quark:pipe"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "a75caecb",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cc727721",
+		type: "item",
+		items: [{
+			item: "flopper:flopper"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "15ece8c1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 162"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "6b7b1c0e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 161"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "ef7435fe",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "66105436",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 129"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b1ece42e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "61fa7a0a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "af0e33d7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "69aae751",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:servo 1 2",
+		count: 2
+	},
+	{
+		uid: "6bf75628",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:servo 1 1",
+		count: 2
+	},
+	{
+		uid: "babcd9d3",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_32 1 1"
+	},
+	{
+		uid: "bdec428b",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_0 1 1",
+		count: 6
+	},
+	{
+		uid: "4464c7ac",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_16 1 3",
+		count: 6
+	},
+	{
+		uid: "bde8d8ac",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:retriever 1 1",
+		count: 2
+	},
+	{
+		uid: "1305bbc3",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:retriever 1 2",
+		count: 2
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "{autotech.quests.4282ca7b.title}",
+	icon: "mekanism:controlcircuit 1 2",
+	always_invisible: false,
+	group: -1987408603,
+	default_quest_shape: ""
+}

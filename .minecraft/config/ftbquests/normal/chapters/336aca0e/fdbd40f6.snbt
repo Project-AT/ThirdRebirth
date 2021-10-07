@@ -1,0 +1,68 @@
+{
+	title: "{autotech.quests.fdbd40f6.title}",
+	icon: "embers:jet_augment",
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"{autotech.quests.fdbd40f6.text.1}",
+		"{autotech.quests.fdbd40f6.text.2}"
+	],
+	dependencies: [
+		"17dbcf09"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f88c6a22",
+		type: "item",
+		items: [{
+			item: "embers:jet_augment"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "816ff51d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "b9e7116c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 164"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "ecf0077e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot 1 11"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f24b54a8",
+		type: "item",
+		team_reward: true,
+		auto: "disabled",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
+	},
+	{
+		uid: "b550780e",
+		type: "item",
+		item: "pneumaticcraft:ingot_iron_compressed",
+		count: 10
+	}]
+}

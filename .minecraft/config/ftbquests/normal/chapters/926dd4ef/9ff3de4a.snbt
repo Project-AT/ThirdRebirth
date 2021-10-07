@@ -1,0 +1,22 @@
+{
+	title: "{autotech.quests.9ff3de4a.title}",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.9ff3de4a.text.1}"
+	],
+	dependencies: [
+		"6713f66a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2fc6f817",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

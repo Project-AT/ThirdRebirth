@@ -1,0 +1,10 @@
+{
+	title: "{autotech.quests.4dafb2fd.title}",
+	icon: "contenttweaker:germanium_integrated_circuit_board",
+	description: [
+		"{autotech.quests.4dafb2fd.description.1}"
+	],
+	always_invisible: false,
+	group: 441259579,
+	default_quest_shape: ""
+}

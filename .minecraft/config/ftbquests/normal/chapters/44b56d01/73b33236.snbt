@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"f540f052"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9047f789",
+		type: "item",
+		items: [{
+			item: "roots:roots_guide"
+		}]
+	}],
+	rewards: [{
+		uid: "bf292f1f",
+		type: "gamestage",
+		title: "{autotech.quests.73b33236.title}",
+		icon: "roots:pestle",
+		team_reward: true,
+		auto: "no_toast",
+		stage: ""
+	}]
+}

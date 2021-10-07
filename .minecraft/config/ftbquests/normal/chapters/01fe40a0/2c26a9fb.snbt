@@ -1,0 +1,19 @@
+{
+	title: "{autotech.quests.2c26a9fb.title}",
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"{autotech.quests.2c26a9fb.text.1}"
+	],
+	dependencies: [
+		"f4d3e11f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06f28515",
+		type: "item",
+		items: [{
+			item: "embers:focal_lens"
+		}]
+	}]
+}

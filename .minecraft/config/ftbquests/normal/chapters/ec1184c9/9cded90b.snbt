@@ -1,0 +1,21 @@
+{
+	title: "{autotech.quests.9cded90b.title}",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"{autotech.quests.9cded90b.text.1}",
+		"{autotech.quests.9cded90b.text.2}"
+	],
+	dependencies: [
+		"f2119ed5",
+		"6713f66a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4d8e0d5",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "{autotech.quests.9e12d8a1.title}",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"{autotech.quests.9e12d8a1.text.1}"
+	],
+	dependencies: [
+		"6713f66a",
+		"ae362698"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae657731",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}]
+}

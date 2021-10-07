@@ -1,0 +1,10 @@
+{
+	title: "{autotech.quests.1a4d163b.title}",
+	icon: "contenttweaker:research_icon",
+	description: [
+		"{autotech.quests.1a4d163b.description.1}"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
