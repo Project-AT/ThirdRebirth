@@ -1,0 +1,21 @@
+{
+	title: "末影の传输",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"尽管已经有了末影板条箱可以用于超远距离传输，但无法直接传输流体，并且对于灵气的消耗也不低。",
+		"来到了终末之地，里面拥有着一些我从未见过的材料，也许我可以以此来制作出能耗更小的设备？"
+	],
+	dependencies: [
+		"f2119ed5",
+		"6713f66a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4d8e0d5",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}]
+}

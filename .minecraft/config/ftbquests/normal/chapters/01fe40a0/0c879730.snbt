@@ -1,0 +1,18 @@
+{
+	title: "自动化工程师装配机",
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"采用自动化合成技术减少对一些需要大量使用的东西投入的精力"
+	],
+	dependencies: [
+		"73798140"
+	],
+	tasks: [{
+		uid: "06fe71c3",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workstation 1 6"
+		}]
+	}]
+}

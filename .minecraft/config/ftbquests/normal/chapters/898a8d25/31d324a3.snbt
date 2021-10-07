@@ -1,0 +1,40 @@
+{
+	title: "0级研究",
+	icon: "minecraft:writable_book",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"一张桌子以及书和笔作为主要科研工具，能够进行最初级的科研任务。"
+	],
+	tasks: [{
+		uid: "7a6d2b73",
+		type: "item",
+		items: [{
+			item: "minecraft:writable_book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37aa2287",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true,
+		ignore_damage: true
+	}]
+}

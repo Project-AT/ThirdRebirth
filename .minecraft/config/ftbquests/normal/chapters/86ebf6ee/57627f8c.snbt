@@ -1,0 +1,19 @@
+{
+	title: "储存系统",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"292516b1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "60a5c51d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}]
+}

@@ -1,0 +1,185 @@
+{
+	title: "管道改良",
+	icon: "thermaldynamics:duct_32",
+	x: -0.5d,
+	y: -5.0d,
+	text: [
+		"对于物品、流体以及能量的传输改良，在物品以及流体传输方面，尽管传输效率足够高，但缺乏高效简洁过滤，并且在多点传输、各管道之间协调性较差。",
+		"因此需要在分配和检索方面进行改进，为了更适合以后的发展，但由于技术限制，效率会有所下降。",
+		"而能量方面，线缆传输在点对点，远程传输方面表现出优异的性能，但随着机械布置的集中化，需要一套适合密集排线的能量管道。"
+	],
+	dependencies: [
+		"bb63f1bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3708e234",
+		type: "item",
+		items: [{
+			item: "embers:pipe"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "ed93ae21",
+		type: "item",
+		items: [{
+			item: "embers:pump"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "11b286ed",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "9646f4d7",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "09d5f6fc",
+		type: "item",
+		items: [{
+			item: "quark:pipe"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "a75caecb",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cc727721",
+		type: "item",
+		items: [{
+			item: "flopper:flopper"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "15ece8c1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 162"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "6b7b1c0e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 161"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "ef7435fe",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 131"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "66105436",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 129"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b1ece42e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "61fa7a0a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "af0e33d7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "69aae751",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:servo 1 2",
+		count: 2
+	},
+	{
+		uid: "6bf75628",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:servo 1 1",
+		count: 2
+	},
+	{
+		uid: "babcd9d3",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_32 1 1"
+	},
+	{
+		uid: "bdec428b",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_0 1 1",
+		count: 6
+	},
+	{
+		uid: "4464c7ac",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:duct_16 1 3",
+		count: 6
+	},
+	{
+		uid: "bde8d8ac",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:retriever 1 1",
+		count: 2
+	},
+	{
+		uid: "1305bbc3",
+		type: "item",
+		auto: "disabled",
+		item: "thermaldynamics:retriever 1 2",
+		count: 2
+	}]
+}

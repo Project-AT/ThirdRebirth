@@ -1,0 +1,10 @@
+{
+	title: "0级研究",
+	icon: "minecraft:writable_book",
+	description: [
+		"表示着游戏最初级的生产力下能进行的研究，书和笔将会是你的主要科研工具"
+	],
+	always_invisible: false,
+	group: -1987408603,
+	default_quest_shape: ""
+}

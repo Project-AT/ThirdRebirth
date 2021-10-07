@@ -1,0 +1,20 @@
+{
+	title: "基础电子装配机",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"在提炼出了硅之后，一个新的时期开启了，我可以使用硅来代替锗，并且制作出更高性能的集成电路。"
+	],
+	dependencies: [
+		"2c26a9fb",
+		"27d5fa06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7cf7acab",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

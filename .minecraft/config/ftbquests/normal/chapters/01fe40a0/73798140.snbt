@@ -1,0 +1,20 @@
+{
+	title: "模块化机器",
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"成功炼出了钢和铝，拥有了工业文明的基石。我可以开始设计一些不同的大型机器来用于生产。"
+	],
+	dependencies: [
+		"bb63f1bd",
+		"9e12d8a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e159677",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}
