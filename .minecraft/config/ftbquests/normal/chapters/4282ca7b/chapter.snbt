@@ -1,7 +1,0 @@
-{
-	title: "6级研究",
-	icon: "mekanism:controlcircuit 1 2",
-	always_invisible: false,
-	group: -1987408603,
-	default_quest_shape: ""
-}
