@@ -1,12 +1,12 @@
 {
-	title: "{autotech.quests.2a19be27.title}",
+	title: "管道改良",
 	icon: "thermaldynamics:duct_32",
 	x: -0.5d,
 	y: -5.0d,
 	text: [
-		"{autotech.quests.2a19be27.text.1}",
-		"{autotech.quests.2a19be27.text.2}",
-		"{autotech.quests.2a19be27.text.3}"
+		"对于物品、流体以及能量的传输改良，在物品以及流体传输方面，尽管传输效率足够高，但缺乏高效简洁过滤，并且在多点传输、各管道之间协调性较差。",
+		"因此需要在分配和检索方面进行改进，为了更适合以后的发展，但由于技术限制，效率会有所下降。",
+		"而能量方面，线缆传输在点对点，远程传输方面表现出优异的性能，但随着机械布置的集中化，需要一套适合密集排线的能量管道。"
 	],
 	dependencies: [
 		"bb63f1bd"

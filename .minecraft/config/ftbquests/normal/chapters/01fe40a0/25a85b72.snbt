@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.25a85b72.title}",
+	title: "灰烬气动",
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"{autotech.quests.25a85b72.text.1}",
-		"{autotech.quests.25a85b72.text.2}"
+		"通过使用煤渣喷气机，解决了灰烬能量转机械能效率较低的问题。",
+		"使用灰烬能量产生高压气体，是性价比较高的动力来源。所以我将会对高压气体的利用进行研究。"
 	],
 	dependencies: [
 		"f4d3e11f",

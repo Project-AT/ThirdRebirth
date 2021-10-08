@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.290af5b0.title}",
+	title: "灰烬魔力脉冲机",
 	icon: "modularmachinery:blockcontroller",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.290af5b0.text.1}"
+		""
 	],
 	dependencies: [
 		"292516b1",

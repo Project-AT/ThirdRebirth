@@ -1,12 +1,12 @@
 {
-	title: "{autotech.quests.e6ad78c2.title}",
+	title: "终末之地",
 	icon: "minecraft:end_portal_frame",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"{autotech.quests.e6ad78c2.text.1}",
-		"{autotech.quests.e6ad78c2.text.2}",
-		"{autotech.quests.e6ad78c2.text.3}"
+		"末影珍珠和烈焰粉合成出来的末影之眼飘往的方向指向着一个地牢，里面有一个神秘的传送门，门框架上的凹槽和末影之眼刚刚好贴合。",
+		"用末影之眼全部放满后传送门激活失败，门框破碎，看起来已经坏了。",
+		"我应该研究一下传送门，用硬度够高的镐子敲些样本下来，尝试一下仿制出末影传送门。"
 	],
 	dependencies: [
 		"08efca60"

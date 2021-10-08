@@ -1,10 +1,10 @@
 {
-	title: "{autotech.quests.bb63f1bd.title}",
+	title: "1级研究",
 	icon: "immersiveengineering:material 1 27",
 	x: -2.5d,
 	y: -1.0d,
 	text: [
-		"{autotech.quests.bb63f1bd.text.1}"
+		"运用电路板的算力将研究能力提升一个等级。"
 	],
 	dependencies: [
 		"c1b0c462"

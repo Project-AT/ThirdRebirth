@@ -18,7 +18,7 @@
 	rewards: [{
 		uid: "e99793fd",
 		type: "gamestage",
-		title: "{autotech.quests.93cd0851.title}",
+		title: "解锁 植物魔法阶段",
 		icon: {
 			id: "botania:lexicon",
 			tag: {}
