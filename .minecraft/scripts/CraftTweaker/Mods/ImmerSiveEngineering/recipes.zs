@@ -123,11 +123,11 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
         .with("W", <immersiveengineering:metal_device1:1>).get()
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:3>, 
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:3> * 2, 
     RecipeUtils.createCrossWithCore(<ore:ingotBronze>, <ore:plateIron>, <ore:dustRedstone>)
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:4>, 
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:4> * 2, 
     inputPattern(["ILI", "TCT", "ILI"])
         .with("I", <ore:plateIron>)
         .with("L", <immersiveengineering:material:8>)
@@ -135,7 +135,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
         .with("C", <ore:gearBronze>).get()
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 3} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:5>, 
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:5> * 2, 
     inputPattern(["GLG", "DCD", "GLG"])
         .with("G", <ore:plateSteel>)
         .with("L", <immersiveengineering:material:9>)

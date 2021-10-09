@@ -20,11 +20,11 @@ RecipeUtils.recipeTweak(true, <gugu-utils:pressurehatch:1>,
     RecipeUtils.createCrossWithCore(<immersiveengineering:metal_device0:6>, <ore:ingotIronCompressed>, <modularmachinery:itemmodularium>)
 );
 
-RecipeUtils.recipeTweak(true, <gugu-utils:pressurehatch>, 
+RecipeUtils.recipeTweak(true, <gugu-utils:sparkmanahatch>, 
     RecipeUtils.createCrossWithCore(<botania:pool:3> | <botania:pool>, <ore:ingotIronCompressed>, <ore:livingrock>)
 );
 
-RecipeUtils.recipeTweak(true, <gugu-utils:sparkmanahatch>, 
+RecipeUtils.recipeTweak(true, <gugu-utils:pressurehatch>, 
     RecipeUtils.createCrossWithCore(<modularmachinery:blockcasing>, <ore:ingotIronCompressed>, <modularmachinery:itemmodularium>)
 );
 

@@ -21,4 +21,4 @@ artisanUtils.RecipeTweakWithTools_("mage", true, <bountifulbaubles:spectralsilt>
     [<ore:runeSpringB>, <ore:elvenPixieDust>, <ore:runeSummerB>],
     [<ore:elvenPixieDust>, <naturesaura:aura_cache>.withTag({aura: 400000}), <ore:elvenPixieDust>],
     [<ore:runeAutumnB>, <ore:elvenPixieDust>, <ore:runeWinterB>],
-], {<ore:artisansKnife> : 20, <ore:artisansGrimoire> : 8} as int[IIngredient]);
+], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 8} as int[IIngredient]);

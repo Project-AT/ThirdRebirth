@@ -56,7 +56,7 @@ artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:flint>, [
     [<ore:gravel>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:magma_cream>, [
+artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:magma_cream> * 2, [
     [<minecraft:magma>]
 ], {<ore:artisansMortar> : 4} as int[IIngredient]);
 
