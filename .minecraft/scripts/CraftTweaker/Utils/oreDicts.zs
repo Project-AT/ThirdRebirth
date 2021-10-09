@@ -79,12 +79,12 @@ for partName in partNames {
 
 for item in loadedMods["roots"].items {
     if (item.name.contains("knife")) {
-        <ore:knife>.add(item..definition.makeStack(32767));
+        <ore:knife>.add(item.definition.makeStack(32767));
     }
 }
 
 for item in loadedMods["mysticalworld"].items {
     if (item.name.contains("knife")) {
-        <ore:knife>.add(item..definition.makeStack(32767));
+        <ore:knife>.add(item.definition.makeStack(32767));
     }
 }
