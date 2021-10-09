@@ -6,11 +6,11 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.nuclearcraft.Melter;
 
-val recipes as IIngredient[ILiquidStack] = {
-    <liquid:oil_soul> * 100 : <ore:soulSand>,
-    <liquid:dawnstone> * 144 : <ore:ingotDawnstone>,
-    <liquid:dawnstone> * 144 : <ore:plateDawnstone>,
-    <liquid:dawnstone> * 16 : <ore:nuggetDawnstone>
+val recipes as ILiquidStack[IIngredient] = {
+    <ore:soulSand> : <liquid:oil_soul> * 100,
+    <ore:ingotDawnstone> : <liquid:dawnstone> * 144,
+    <ore:plateDawnstone> : <liquid:dawnstone> * 144,
+    <ore:nuggetDawnstone> : <liquid:dawnstone> * 16
 };
 
 for input, output in recipes {
