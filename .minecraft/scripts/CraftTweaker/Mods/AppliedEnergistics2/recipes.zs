@@ -4,7 +4,7 @@
 import scripts.grassUtils.RecipeUtils;
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:view_cell>, 
-    RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, <ore:ingotElectricalSteel> | <enderio:item_alloy_ingot>, <ore:fusedQuartz>)
+    RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>, <ore:fusedQuartz>)
 );
 
 RecipeUtils.recipeTweak(true, <advancedrocketry:misc>, 
