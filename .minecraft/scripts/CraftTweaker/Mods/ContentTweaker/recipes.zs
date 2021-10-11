@@ -9,14 +9,6 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
 
-//fix iron recipe
-recipes.removeShapeless(<minecraft:iron_ingot>, [<botania:spellcloth>,<botania:manaresource>]);
-RecipeUtils.recipeTweak(true, <minecraft:iron_block>, [
-    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
-    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
-]);
-
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
@@ -52,18 +44,6 @@ artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight
     [<roots:salmon_of_knowledge>.withTag({advancements: ["everything"], crafter: "Nature"}), <minecraft:glass_bottle>, <roots:moonglow_leaf>],
     [null, <roots:cloud_berry>,     null]
 ], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("mage", true, <atutils:stick_thunder>, [
-	[null, <ore:manaPearl>, <contenttweaker:rune1>],
-    [null, <botania:manaresource:3>, <ore:manaPearl>],
-    [<botania:manaresource:3>]
-], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("mage", true, <atutils:advance_stick_thunder>, [
-	[null, <botania:manaresource:9>, <ore:ingotLead>],
-    [<botania:manaresource:8>, <atutils:stick_thunder>, <botania:manaresource:8>],
-    [<ore:dreamwoodTwig>, <botania:manaresource:9>]
-], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 20} as int[IIngredient]);
 
 var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,

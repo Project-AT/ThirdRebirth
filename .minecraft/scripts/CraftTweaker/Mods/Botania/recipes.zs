@@ -91,5 +91,5 @@ for i in 0 to 16 {
 }
 
 for input, output in manaTransform {
-    RecipeUtils.recipeTweak(false, output, [[input, <botania:spellcloth>.anyDamage().transformDamage()]]);
+    recipes.addShapeless(output, [input, <botania:spellcloth>.anyDamage().transformDamage()]);
 }

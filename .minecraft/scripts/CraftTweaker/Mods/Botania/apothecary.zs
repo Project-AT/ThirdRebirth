@@ -5,10 +5,10 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.botania.Apothecary;
 
-function apothecaryUtil(output as IItemStack, input as IIngredient[]) {
-    Apothecary.removeRecipe(output);
-    Apothecary.addRecipe(output, input);
+function apothecaryUtil(output as string, input as IIngredient[]) {
+    Apothecary.removeRecipe(<botania:specialflower>.withTag({type: output}));
+    Apothecary.addRecipe(<botania:specialflower>.withTag({type: output}), input);
 }
 
-apothecaryUtil(<botania:specialflower>.withTag({type: "hydroangeas"}), [<contenttweaker:mana_petals>, <botania:petal:14>, <botania:petal:8>, <botania:petal:12>, <botania:petal:12>]);
-apothecaryUtil(<botania:specialflower>.withTag({type: "endoflame"}), [<contenttweaker:mana_petals>, <botania:petal:11>, <botania:petal:11>, <botania:petal:13>, <botania:petal:13>]);
+apothecaryUtil("hydroangeas", [<contenttweaker:mana_petals>, <ore:petalBlue>, <ore:petalBlue>, <ore:petalGreen>, <ore:petalGreen>]);
+apothecaryUtil("endoflame", [<contenttweaker:mana_petals>, <ore:petalRed>, <ore:petalLightGray>, <ore:petalBrown>, <ore:petalBrown>]);
