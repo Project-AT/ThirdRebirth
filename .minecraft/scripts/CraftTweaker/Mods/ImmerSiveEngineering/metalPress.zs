@@ -18,10 +18,13 @@ for i in 30 to 41 {
 }
 
 MetalPress.removeRecipe(<libvulpes:productrod:4>);
-MetalPress.removeRecipe(<immersiveengineering:material:1>);
-MetalPress.removeRecipe(<immersiveengineering:material:2>);
-MetalPress.removeRecipe(<immersiveengineering:material:3>);
+
+for i in 1 to 4 {
+    MetalPress.removeRecipe(<immersiveengineering:material>.definition.makeStack(i));
+}
+
 MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);
+MetalPress.addRecipe(<contenttweaker:insulating_substrate> * 9, <immersiveengineering:stone_decoration:8>, <immersiveengineering:mold>, 2400);
 
 for metal in plateMetals {
     var orePlate as IOreDictEntry = oreDict.get("plate" + metal);

@@ -8,6 +8,9 @@ import crafttweaker.recipes.ICraftingRecipe;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
+furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
+
 RecipeUtils.recipeTweak(true, <minecraft:furnace>,[
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
     [<ore:cobblestone>, null, <ore:cobblestone>],
