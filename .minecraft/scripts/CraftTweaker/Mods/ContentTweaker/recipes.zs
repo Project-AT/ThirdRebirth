@@ -9,6 +9,14 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.tier.flcn.tooltip"));
 
+//fix iron recipe
+recipes.removeShapeless(<minecraft:iron_ingot>, [<botania:spellcloth>,<botania:manaresource>]);
+RecipeUtils.recipeTweak(true, <minecraft:iron_block>, [
+    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
+]);
+
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
