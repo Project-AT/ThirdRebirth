@@ -1,5 +1,6 @@
 #priority 20
 #modloaded atutils
+#disable_search_tree
 #loader crafttweaker reloadableevents
 
 import crafttweaker.player.IPlayer;

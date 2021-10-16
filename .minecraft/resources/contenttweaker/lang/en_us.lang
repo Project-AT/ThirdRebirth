@@ -35,6 +35,8 @@ item.contenttweaker.refractory_clay_ball.name=Refractory Clay Ball
 item.contenttweaker.tough_alloy_plate.name=Tough Alloy Plate
 item.contenttweaker.study_icon.name=Studied Icon
 item.contenttweaker.pure_iron.name=Pure Iron Ingot
+item.contenttweaker.sensitive_element.name=Sensitive Element
+item.contenttweaker.thin_film_transistor.name=Thin Film Transistor
 
 #Block
 #Common
