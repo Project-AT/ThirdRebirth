@@ -53,11 +53,11 @@ events.onBlockHarvestDrops(
 
         val world as IWorld = event.world;
         val block as IBlock = event.block;
-        val block_to_item as IItemStack = itemUtils.getItem(block.definition.id, block.meta);
+        val itemBlock as IItemStack = block.getItem(world, event.position, event.blockState);
 
         if (world.remote || event.silkTouch) return;
 
-        if (<ore:bookshelf>.matches(block_to_item)) {
+        if (<ore:bookshelf>.matches(itemBlock)) {
             event.addItem(<contenttweaker:dictionary_paper> % 30);
         }
 

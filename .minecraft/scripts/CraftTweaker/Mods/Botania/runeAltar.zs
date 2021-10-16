@@ -13,7 +13,7 @@ function runeAltarUtil(output as IItemStack, input as IIngredient[], mana as int
 }
 
 runeAltarUtil(<contenttweaker:rune1> * 2, [
-    <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <contenttweaker:rune1>, <botania_tweaks:compressed_tiny_potato_1>
+    <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <ore:ingotSilver>, <botania_tweaks:compressed_tiny_potato_1>
 ], 10000, false);
 
 runeAltarUtil(<contenttweaker:teleport_rune> * 2, [
