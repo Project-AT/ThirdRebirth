@@ -17,7 +17,8 @@ var skyIngotRc as AgglomerationRecipe = AgglomerationRecipe
 
 var terraSteelRm as AgglomerationRecipe = AgglomerationRecipe
     .create()
-    .output(<botania:manaresource:4>);
+    .output(<botania:manaresource:4>)
+    .inputs(<botania:manaresource:2>, <botania:manaresource>, <botania:manaresource:1>);
 
 var terraSteelMB as AgglomerationMultiblock = AgglomerationMultiblock
     .create()
