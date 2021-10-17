@@ -9,7 +9,7 @@ RecipeUtils.recipeTweak(true, <rftools:storage_scanner>,
         .with("C", <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
         .with("Y", <advancedrocketry:misc>)
         .with("H", <rftools:machine_frame>)
-        .with("D", <ore:circuitBasic> | <contenttweaker:germanium_integrated_circuit_board>)
+        .with("D", <contenttweaker:germanium_integrated_circuit_board>)
         .with("Q", <rftools:sensor_block>).get()
 );
 
@@ -20,22 +20,6 @@ RecipeUtils.recipeTweak(true, <rftools:storage_scanner>,
         .with("T", <contenttweaker:germanium_integrated_circuit_board> | <pneumaticcraft:printed_circuit_board>)
         .with("H", <rftools:machine_frame>)
         .with("Q", <rftools:sensor_block>).get()
-);
-
-RecipeUtils.recipeTweak(true, <xnet:controller>,
-    inputPattern(["CYC", "THT", "CCC"])
-        .with("C", <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
-        .with("Y", <advancedrocketry:misc>)
-        .with("H", <rftools:machine_frame>)
-        .with("T", <contenttweaker:germanium_integrated_circuit_board> | <pneumaticcraft:printed_circuit_board>).get()
-);
-
-RecipeUtils.recipeTweak(true, <xnet:controller>,
-    inputPattern(["CYC", "CHC", "CDC"])
-        .with("C", <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
-        .with("Y", <advancedrocketry:misc>)
-        .with("H", <rftools:machine_frame>)
-        .with("D", <ore:circuitBasic> | <contenttweaker:germanium_integrated_circuit_board>).get()
 );
 
 RecipeUtils.recipeTweak(true, <rftools:sensor_block>, 
