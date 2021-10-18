@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "autoTech",
-  "author": "",
+  "name": "AutoTech",
+  "author": "Project-AT",
   "files": [
     {
       "projectID": 285742,
@@ -781,11 +781,6 @@
     {
       "projectID": 247111,
       "fileID": 2887479,
-      "required": true
-    },
-    {
-      "projectID": 289444,
-      "fileID": 2537249,
       "required": true
     },
     {
