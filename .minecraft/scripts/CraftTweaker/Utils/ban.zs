@@ -60,7 +60,9 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:ore0>,
     <matteroverdrive:dilithium_ore>,
     <survivalist:rock>,
-    <teslathingies:powder_maker>
+    <teslathingies:powder_maker>,
+    <extendedcrafting:material:*>,
+    <extendedcrafting:storage>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
