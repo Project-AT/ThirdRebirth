@@ -88,3 +88,5 @@ for item in loadedMods["mysticalworld"].items {
         <ore:knife>.add(item.definition.makeStack(32767));
     }
 }
+
+<ore:itemSilicon>.remove(<enderio:item_material:5>);

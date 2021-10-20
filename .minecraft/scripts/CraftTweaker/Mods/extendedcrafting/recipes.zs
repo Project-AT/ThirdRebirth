@@ -1,6 +1,8 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.item.IIngredient;
+
 import scripts.grassUtils.RecipeUtils;
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:table_advanced>, [
@@ -92,3 +94,7 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:table_basic>, [
     [<ore:plateTough>, <artisanworktables:worktable:5>, <ore:plateTough>],
     [<extendedcrafting:material:14>, <ore:blockTough>, <extendedcrafting:material:14>]
 ]);
+
+recipes.replaceAllOccurences(<ore:blockBlackIron>, <ore:blockTough>, <*>.only(function(stack) {
+    return stack.definition.id == "extendedcrafting:trimmed";
+}));

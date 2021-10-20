@@ -45,6 +45,14 @@ artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight
     [null, <roots:cloud_berry>,     null]
 ], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <contenttweaker:sensitive_element> * 3, 
+    inputPattern("Z Z", "GFG", "XZX")
+        .with("Z", <ore:paper>)
+        .with("G", <enderio:item_material:5>)
+        .with("F", <ore:dustGermanium>)
+        .with("X", <ore:wireElectrum>).get()
+, {<ore:artisansSolderer> : 3} as int[IIngredient]);
+
 var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,
     <ore:ingotExtreme> : <ore:blockExtreme>,
