@@ -1,30 +1,34 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.item.IIngredient;
+
 import scripts.grassUtils.RecipeUtils;
 
+var ingotTwo as IIngredient = <ore:ingotElectricalSteel> | <ore:ingotPureIron>;
+
 RecipeUtils.recipeTweak(true, <packagedauto:packager_extension>, [
-    [<ore:ingotElectricalSteel>, <packagedauto:me_package_component>, <ore:ingotElectricalSteel>],
+    [ingotTwo, <packagedauto:me_package_component>, ingotTwo],
     [<ore:dustSignalum>, <mekanism:basicblock:8>, <ore:dustSignalum>],
-    [<appliedenergistics2:material:23>,  <ore:ingotElectricalSteel>, <appliedenergistics2:material:24>]
+    [<appliedenergistics2:material:23>,  ingotTwo, <appliedenergistics2:material:24>]
 ]);
 
 RecipeUtils.recipeTweak(true, <packagedauto:unpackager>, [
-    [<ore:ingotElectricalSteel>, <packagedauto:me_package_component>, <ore:ingotElectricalSteel>],
+    [ingotTwo, <packagedauto:me_package_component>, ingotTwo],
     [<ore:dustSignalum>, <appliedenergistics2:material:23>, <ore:dustSignalum>],
-    [<ore:ingotElectricalSteel>, <appliedenergistics2:material:23>, <ore:ingotElectricalSteel>]
+    [ingotTwo, <appliedenergistics2:material:23>, ingotTwo]
 ]);
 
 RecipeUtils.recipeTweak(true, <packagedauto:packager>, [
-    [<ore:ingotElectricalSteel>, <packagedauto:me_package_component>, <ore:ingotElectricalSteel>],
+    [ingotTwo, <packagedauto:me_package_component>, ingotTwo],
     [<ore:dustSignalum>, <mekanism:basicblock:8>, <ore:dustSignalum>],
-    [<ore:ingotElectricalSteel>, <appliedenergistics2:material:23>, <ore:ingotElectricalSteel>]
+    [ingotTwo, <appliedenergistics2:material:23>, ingotTwo]
 ]);
 
 RecipeUtils.recipeTweak(true, <packagedauto:encoder>, [
-    [<ore:ingotElectricalSteel>, <packagedauto:me_package_component>, <ore:ingotElectricalSteel>],
+    [ingotTwo, <packagedauto:me_package_component>, ingotTwo],
     [<appliedenergistics2:material:24>, <mekanism:basicblock:8>, <appliedenergistics2:material:22>],
-    [<ore:ingotElectricalSteel>, <ore:dustSignalum>, <ore:ingotElectricalSteel>]
+    [ingotTwo, <ore:dustSignalum>, ingotTwo]
 ]);
 
 RecipeUtils.recipeTweak(true, <packagedauto:package_component>, [
@@ -34,7 +38,7 @@ RecipeUtils.recipeTweak(true, <packagedauto:package_component>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <packagedauto:recipe_holder> * 2, [
-    [<ore:ingotCopper>, <ore:ingotElectricalSteel>, <ore:ingotCopper>],
+    [<ore:ingotCopper>, ingotTwo, <ore:ingotCopper>],
     [<ore:ingotCopper>, <ore:dustSignalum>, <ore:ingotCopper>],
-    [<ore:ingotElectricalSteel>, <packagedauto:package_component>, <ore:ingotElectricalSteel>]
+    [ingotTwo, <packagedauto:package_component>, ingotTwo]
 ]);

@@ -33,11 +33,11 @@ RecipeUtils.recipeTweak(true, <rftools:sensor_block>,
 );
 
 RecipeUtils.recipeTweak(true, <rftools:sensor_block>, [
-    [<ore:ingotElectricalSteel>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel>],
+    [<ore:ingotElectricalSteel> | <ore:ingotPureIron>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>],
     [<contenttweaker:sensitive_element>, <appliedenergistics2:view_cell>, <contenttweaker:sensitive_element>],
-    [<ore:ingotElectricalSteel>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel>]
+    [<ore:ingotElectricalSteel> | <ore:ingotPureIron>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <rftools:machine_frame>, 
-    RecipeUtils.createCrossWithCore(<ore:dustRedstone>, <ore:ingotSteel>, <ore:ingotElectricalSteel>)
+    RecipeUtils.createCrossWithCore(<ore:dustRedstone>, <ore:ingotSteel>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
 , {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 10});
