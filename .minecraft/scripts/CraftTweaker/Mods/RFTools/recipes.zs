@@ -35,3 +35,9 @@ RecipeUtils.recipeTweak(true, <rftools:sensor_block>,
 artisanUtils.RecipeTweakWithTools("engineer", true, <rftools:machine_frame>, 
     RecipeUtils.createCrossWithCore(<ore:dustRedstone>, <ore:ingotSteel>, <ore:ingotElectricalSteel>)
 , {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 10});
+
+RecipeUtils.recipeTweak(true, <rftools:sensor_block>, [
+    [<ore:ingotElectricalSteel>,<contenttweaker:sensitive_element>,<ore:ingotElectricalSteel>],
+    [<contenttweaker:sensitive_element>,<appliedenergistics2:view_cell>,<contenttweaker:sensitive_element>],
+    [<ore:ingotElectricalSteel>,<contenttweaker:sensitive_element>,<ore:ingotElectricalSteel>]
+]);

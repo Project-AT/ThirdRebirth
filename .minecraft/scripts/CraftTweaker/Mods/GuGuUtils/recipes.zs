@@ -91,3 +91,10 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <gugu-utils:environmenthatch
     [<psi:exosuit_sensor:1>, <modularmachinery:blockcasing>, <psi:exosuit_sensor:3>],
     [null, <psi:exosuit_sensor:2>]
 ], {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 5});
+
+
+RecipeUtils.recipeTweak(true, <gugu-utils:environmenthatch>, [
+    [null, <contenttweaker:sensitive_element>],
+    [<contenttweaker:sensitive_element>, <modularmachinery:blockcasing>, <contenttweaker:sensitive_element>],
+    [null,<contenttweaker:sensitive_element>]
+]);
