@@ -71,12 +71,6 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:frame>, [
     [<ore:ingotTough>, <ore:fusedQuartz>, <ore:ingotTough>]
 ]);
 
-RecipeUtils.recipeTweak(true, <extendedcrafting:material:15>, [
-    [null, <ore:plateTough>, null],
-    [<ore:ingotElectrum>, <appliedenergistics2:material:16>, <ore:ingotElectrum>],
-    [null, <ore:plateTough>, null]
-]);
-
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:17>, [
     [null, <ore:plateTough>, null],
     [<ore:ingotTerrasteel>, <appliedenergistics2:material:16>, <ore:ingotTerrasteel>],
@@ -98,3 +92,9 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:table_basic>, [
 recipes.replaceAllOccurences(<ore:blockBlackIron>, <ore:blockTough>, <*>.only(function(stack) {
     return stack.definition.id == "extendedcrafting:trimmed";
 }));
+
+RecipeUtils.recipeTweak(true, <extendedcrafting:material:15>, [
+    [null, <ore:plateTough>, null],
+    [<ore:ingotLumium>, <appliedenergistics2:material:16>, <ore:ingotLumium>],
+    [null, <ore:plateTough>, null]
+]);

@@ -130,3 +130,61 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
     [<thermaldynamics:duct_0:2>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_32:2>],
     [<ore:wool>, <mekanism:polyethene:2>, <ore:wool>]
 ]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
+    [null, <minecraft:lever>, null],
+    [<ore:dustRedstone>, <appliedenergistics2:part:36>, <ore:dustRedstone>],
+    [null, <minecraft:lever>, null]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:301>, [
+    [<appliedenergistics2:part:300>, <ore:eye>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:302>, [
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
+    [<ore:ingotPureIron>, <appliedenergistics2:part:36>, <ore:ingotPureIron>],
+    [<ore:ingotPureIron>, <immersiveengineering:metal_device0:5>, <ore:ingotPureIron>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:300>, [
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
+    [<ore:ingotPureIron>, <appliedenergistics2:part:36>, <ore:ingotPureIron>],
+    [<ore:ingotPureIron>, <embers:breaker>, <ore:ingotPureIron>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:320>, [
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
+    [<ore:ingotPureIron>, <appliedenergistics2:part:36>, <ore:ingotPureIron>],
+    [<ore:ingotPureIron>, <ore:hopper>, <ore:ingotPureIron>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:321>, [
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
+    [<ore:ingotPureIron>, <appliedenergistics2:part:36>, <ore:ingotPureIron>],
+    [<ore:ingotPureIron>, <flopper:flopper>, <ore:ingotPureIron>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:inscriber>, [
+    [<ore:ingotDarkSteel>, <minecraft:sticky_piston>, <ore:ingotDarkSteel>],
+    [<ore:ingotDarkSteel>, null ,null],
+    [<ore:ingotDarkSteel>, <minecraft:sticky_piston>, <ore:ingotDarkSteel>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:quartz_growth_accelerator>, [
+    [<ore:ingotPureIron>, <appliedenergistics2:material:1>, <ore:ingotPureIron>],
+    [<ore:fusedQuartz>, <appliedenergistics2:quartz_block>, <ore:fusedQuartz>],
+    [<ore:ingotPureIron>, <appliedenergistics2:material:1>, <ore:ingotPureIron>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:energy_cell>, [
+    [<ore:crystalCertusQuartz>, <ore:dustLithium>, <ore:crystalCertusQuartz>],
+    [<ore:dustLithium>, <ore:fusedQuartz>, <ore:dustLithium>],
+    [<ore:crystalCertusQuartz>, <ore:dustLithium>, <ore:crystalCertusQuartz>]
+]); 
+
+RecipeUtils.recipeTweak(true, <appliedenergistics2:charger>, [
+    [<ore:ingotIronCompressed>, <ore:ingotRedstoneAlloy>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, null ,null],
+    [<ore:ingotIronCompressed>, <ore:ingotRedstoneAlloy>, <ore:ingotIronCompressed>]
+]); 

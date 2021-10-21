@@ -48,3 +48,15 @@ RecipeUtils.recipeTweak(true, <libvulpes:enhancedmotor>, [
     [<ore:stickTitaniumAluminide>, <ore:motor>, <ore:ingotTough>],
     [null, <ore:coilAluminum>, <ore:ingotTough>]
 ]);
+
+RecipeUtils.recipeTweak(true, <libvulpes:advstructuremachine> * 4, [
+    [<ore:stickTitaniumAluminide>, <ore:plateTitaniumAluminide>, <ore:stickTitaniumAluminide>],
+    [<ore:plateTitaniumAluminide>, null, <ore:plateTitaniumAluminide>],
+    [<ore:stickTitaniumAluminide>, <ore:plateTitaniumAluminide>, <ore:stickTitaniumAluminide>]
+]);
+
+RecipeUtils.recipeTweak(true, <libvulpes:holoprojector>, [
+    [<refraction:lens>, <refraction:lens>, <refraction:lens>],
+    [<ore:dustSignalum>, <appliedenergistics2:view_cell>, <ore:dustSignalum>],
+    [<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>]
+]);
