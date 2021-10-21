@@ -15,7 +15,7 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:misc>,
     RecipeUtils.createCrossWithCore(<appliedenergistics2:view_cell>, <ore:plasticBlack>, <ore:fusedQuartz>)
 );
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:220>, [
+RecipeUtils.recipeTweak(false, <appliedenergistics2:part:220>, [
     [<appliedenergistics2:interface>, <rftools:sensor_block>]
 ]);
 
@@ -25,7 +25,7 @@ RecipeUtils.recipeTweak(true, <rf-capability-adapter:aecapabilityadapter>, [
     [ingotTwo, <appliedenergistics2:material:1>, ingotTwo]
 ]);
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:221>, [
+RecipeUtils.recipeTweak(false, <appliedenergistics2:part:221>, [
     [<appliedenergistics2:fluid_interface>, <rftools:sensor_block>]
 ]);
 
@@ -137,7 +137,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
     [null, <minecraft:lever>, null]
 ]); 
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:301>, [
+RecipeUtils.recipeTweak(false, <appliedenergistics2:part:301>, [
     [<appliedenergistics2:part:300>, <ore:eye>]
 ]); 
 
