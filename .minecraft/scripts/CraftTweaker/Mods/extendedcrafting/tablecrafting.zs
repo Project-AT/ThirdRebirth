@@ -11,7 +11,7 @@ extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:crafting_core>, [
 	[<ore:blockTough>, <extendedcrafting:material:18>, <extendedcrafting:material:16>, <extendedcrafting:material:18>, <ore:blockTough>]
 ]);
 
-extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>*2, [
+extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24> * 2, [
 	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
@@ -152,7 +152,7 @@ extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:me_conversion_matri
 	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null]
 ]);
 
-extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:1>*4, [
+extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:1> * 4, [
 	[<ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>], 
 	[<ore:dustOsmium>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustOsmium>], 
 	[<ore:alloyAdvanced>, <ore:dustSignalum>, <enderio:item_basic_capacitor:2>, <ore:dustSignalum>, <ore:alloyAdvanced>], 
@@ -160,7 +160,7 @@ extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:1>*4, [
 	[<ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>]
 ]);
 
-extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:2>*8, [
+extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:2> * 8, [
 	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null], 
 	[<ore:dustGermanium>, <ore:circuitAdvanced>, <ore:skullGuardianDiode>, <ore:circuitAdvanced>, <enderio:item_basic_capacitor:2>, <ore:circuitAdvanced>, <ore:dustGermanium>], 
 	[<ore:alloyElite>, <enderio:item_basic_capacitor:2>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <ore:skullGuardianDiode>, <ore:alloyElite>], 
@@ -170,7 +170,7 @@ extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:2>*8, [
 	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null]
 ]);
 
-extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:3>*12, [
+extendedcrafting.TableCrafting.addShaped(0, <mekanism:controlcircuit:3> * 12, [
 	[<ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>], 
 	[<ore:ingotExtreme>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotExtreme>], 
 	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>], 
