@@ -3,7 +3,6 @@
 
 import mods.extendedcrafting.TableCrafting;
 
-
 extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:crafting_core>, [
 	[<ore:blockTough>, <ore:plateTough>, <extendedcrafting:material:10>, <ore:plateTough>, <ore:blockTough>], 
 	[<ore:plateTough>, <ore:ingotTough>, <ore:circuitElite>, <ore:ingotTough>, <ore:plateTough>], 
@@ -12,15 +11,11 @@ extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:crafting_core>, [
 	[<ore:blockTough>, <extendedcrafting:material:18>, <extendedcrafting:material:16>, <extendedcrafting:material:18>, <ore:blockTough>]
 ]);
 
-
 extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:24>*2, [
 	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
-	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>], 
-	[null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null]
+	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>]
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:interface>, [
@@ -100,15 +95,15 @@ extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:crafting_injector
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_core>, [
-	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null], 
+	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>], 
 	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
 	[<ore:alloyAdvanced>, <ore:ingotTritanium>, <ore:circuitAdvanced>, <ore:ingotTritanium>, <ore:alloyAdvanced>], 
 	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
-	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null]
+	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>]
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:crafting_injector:2>, [
-	[null, null, null, <draconicevolution:wyvern_core>, null, null, null], 
+	[null, null, null, <draconicevolution:wyvern_core>], 
 	[<rftools:dimensional_shard>, <ore:alloyElite>, <draconicevolution:wyvern_core>, <draconicevolution:awakened_core>, <draconicevolution:wyvern_core>, <ore:alloyElite>, <rftools:dimensional_shard>], 
 	[<ore:gemDilithium>, <ore:ingotExtreme>, <ore:alloyElite>, <rftools:dimensional_shard>, <ore:alloyElite>, <ore:ingotExtreme>, <ore:gemDilithium>], 
 	[<ore:ingotTritanium>, <rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <rftools:dimensional_shard>, <ore:ingotTritanium>], 
@@ -130,28 +125,28 @@ extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:crafting_injector
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:s_magnet>, [
-	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null], 
+	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>], 
 	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
 	[<ore:dustSignalum>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:dustSignalum>], 
 	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
-	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null]
+	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>]
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:h_compensator>, [
-	[null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null], 
+	[null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>], 
 	[<ore:plateTritanium>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:plateTritanium>], 
 	[<ore:plateTritanium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:circuitElite>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:plateTritanium>], 
 	[<ore:plateTritanium>, <extendedcrafting:material:48>, <ore:ingotExtreme>, <ore:gemDilithium>, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:plateTritanium>], 
 	[<ore:plateTritanium>, <extendedcrafting:material:48>, <ore:ingotExtreme>, <ore:ingotSignalum>, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:plateTritanium>], 
-	[null, <ore:plateTritanium>, <ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>, <ore:plateTritanium>, null], 
-	[null, null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null, null]
+	[null, <ore:plateTritanium>, <ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>, <ore:plateTritanium>], 
+	[null, null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>]
 ]);
 
 extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:me_conversion_matrix>, [
 	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null], 
 	[null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null], 
 	[null, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:crystalPureFluix>, <ore:gemDilithium>, <extendedcrafting:material:48>, null], 
-	[null, <extendedcrafting:material:48>, <appliedenergistics2:material:44>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>, <extendedcrafting:material:48>, null], 
+	[null, <extendedcrafting:material:48>, <appliedenergistics2:material:44>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>, <extendedcrafting:material:48>], 
 	[null, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:crystalPureFluix>, <ore:gemDilithium>, <extendedcrafting:material:48>, null], 
 	[null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null], 
 	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null]
