@@ -1,7 +1,10 @@
 #priority 5
 #modloaded atutils
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:s_magnet>, [
+
+import mods.extendedcrafting.TableCrafting;
+
+extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:s_magnet>, [
 	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null], 
 	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
 	[<ore:dustSignalum>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:dustSignalum>], 
@@ -9,7 +12,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:s_magnet>, [
 	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:h_compensator>, [
+extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:h_compensator>, [
 	[null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null], 
 	[<ore:plateTritanium>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:plateTritanium>], 
 	[<ore:plateTritanium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:circuitElite>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:plateTritanium>], 
@@ -19,7 +22,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:h_compensator>
 	[null, null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:me_conversion_matrix>, [
+extendedcrafting.TableCrafting.addShaped(0, <matteroverdrive:me_conversion_matrix>, [
 	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null], 
 	[null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null], 
 	[null, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:crystalPureFluix>, <ore:gemDilithium>, <extendedcrafting:material:48>, null], 
