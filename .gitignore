@@ -71,11 +71,12 @@
 /mmc-pack.json
 !/modlist.html
 !/manifest.json
-!/.minecraft/icon.png
+.minecraft/icon.png
+.minecraft/resources/mekatweaker/blockstates
+.minecraft/resources/mekatweaker/textures
 
 # utils mod
 !/.minecraft/mods
 /.minecraft/mods/*
 !/.minecraft/mods/atutils*.jar
 /.minecraft/resources/atutils
-.minecraft/icon.png
