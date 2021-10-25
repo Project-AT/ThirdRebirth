@@ -37,6 +37,8 @@ item.contenttweaker.study_icon.name=Studied Icon
 item.contenttweaker.pure_iron.name=Pure Iron Ingot
 item.contenttweaker.sensitive_element.name=Sensitive Element
 item.contenttweaker.thin_film_transistor.name=Thin Film Transistor
+item.contenttweaker.glaze.name=Glaze
+item.contenttweaker.glazed_refractory_brick.name=Glazed Refractory Brick
 
 #Block
 #Common

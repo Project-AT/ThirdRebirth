@@ -35,6 +35,8 @@ item.contenttweaker.tough_alloy_plate.name=高强合金板
 item.contenttweaker.research_icon.name=研究图标
 item.contenttweaker.sensitive_element.name=敏感元件
 item.contenttweaker.thin_film_transistor.name=薄膜晶体管
+item.contenttweaker.glaze.name=釉料
+item.contenttweaker.glazed_refractory_brick.name=釉制耐火砖
 
 #Block
 #Common
