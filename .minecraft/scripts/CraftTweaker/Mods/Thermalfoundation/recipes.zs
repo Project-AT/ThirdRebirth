@@ -22,3 +22,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:
 	[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>],
     [null, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansDriver> : 4, <ore:artisansSpanner> : 4} as int[IIngredient]);
+
+recipes.remove(<thermalfoundation:material:101>);
+
+recipes.remove(<thermalfoundation:material:102>);
