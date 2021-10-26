@@ -1,11 +1,11 @@
 #priority 5
 #modloaded atutils
 
-import crafttweaker.item.ItemStack;
+import crafttweaker.item.IItemStack;
 
 import mods.immersiveengineering.ArcFurnace;
 
-var removeRecipes as ItemStack[] = [
+var removeRecipes as IItemStack[] = [
     <enderio:item_alloy_ingot:7>,
     <enderio:item_alloy_ingot:6>,
     <enderio:item_alloy_ingot:0>,

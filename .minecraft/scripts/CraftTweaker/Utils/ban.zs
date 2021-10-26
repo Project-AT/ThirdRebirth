@@ -61,7 +61,10 @@ var removeAndHide as IItemStack[] = [
     <matteroverdrive:dilithium_ore>,
     <survivalist:rock>,
     <teslathingies:powder_maker>,
-    <extendedcrafting:material:*>,
+    <extendedcrafting:material>,
+    <extendedcrafting:material:1>,
+    <extendedcrafting:material:2>,
+    <extendedcrafting:material:3>,
     <extendedcrafting:storage>
 ];
 
