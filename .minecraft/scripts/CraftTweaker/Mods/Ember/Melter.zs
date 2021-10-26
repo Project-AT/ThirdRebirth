@@ -6,6 +6,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.embers.Melter;
 
+// todo 消耗时间，耗电量
+
 val recipes as IIngredient[][ILiquidStack] = {
     <liquid:sulfur> * 666 : [<ore:dustSulfur>],
     <liquid:naoh> * 666 : [<ore:dustSodiumHydroxide>],
