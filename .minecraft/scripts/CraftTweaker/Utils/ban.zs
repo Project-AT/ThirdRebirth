@@ -75,7 +75,14 @@ var removeByRecipeName as string[] = [
     "extrautils2:shortcut_chest",
     "extrautils2:shortcut_stick",
     "extrautils2:shortcut_hopper",
-    "mana_craft:orichalcum/orichalcum_ingot_from_block"
+    "mana_craft:orichalcum/orichalcum_ingot_from_block", 
+    "thermalfoundation:draconium_ingot", 
+    "thermalfoundation:draconium_ingot_1", 
+    "thermalfoundation:draconium_ingot_2", 
+    "thermalfoundation:dust_signalum", 
+    "thermalfoundation:dust_lumium", 
+    "modularmachinery:modularium_ingot", 
+    "refraction:reflective_alloy"
 ];
 
 var baned as IItemStack[] = [

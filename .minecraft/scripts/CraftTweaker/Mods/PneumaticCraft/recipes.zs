@@ -2,6 +2,8 @@
 #modloaded atutils
 
 import scripts.CraftTweaker.Utils.artisanUtils;
+import mods.pneumaticcraft.explosioncrafting;
+import mods.pneumaticcraft.pressurechamber;
 
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])
@@ -18,3 +20,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
         .with("C", <ore:itemSimpleMachineChassi>)
         .with("K", <ore:blockCopper>).get()
 , {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
+
+explosioncrafting.removeRecipe(<pneumaticcraft:ingot_iron_compressed>);
+
+pressurechamber.removeRecipe([<pneumaticcraft:ingot_iron_compressed>]);
