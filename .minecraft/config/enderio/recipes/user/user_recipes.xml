@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+    <!-- ========== Alloy Smelter recipes to be removed ========== -->
+
+    <!-- CrT: <ore:ingotTough> -->
+    <recipe name="Alloy: Tough Alloy (Nuclearcraft)" disabled="true"/>
+
+    <!-- CrT: <ore:ingotExtreme> -->
+    <recipe name="Alloy: EXTREME Alloy (Nuclearcraft)" disabled="true"/>
+
+    <!-- CrT: <ore:ingotElectricalSteel> -->
+    <recipe name="Alloy: Electrical Steel" disabled="true"/>
+    <recipe name="Alloy: Electrical Steel, Variant" disabled="true"/>
+
+    <!-- CrT: <ore:ingotLumium> -->
+    <recipe name="Alloy: Lumium Blend" disabled="true"/>
+    <recipe name="Alloy: Lumium (Thermal Expansion)" disabled="true"/>
+    <recipe name="Alloy: Lumium from dust (Thermal Expansion)" disabled="true"/>
+
+    <!-- CrT: <ore:ingotEndSteel> -->
+    <recipe name="Alloy: End Steel" disabled="true"/>
+
+    <!-- CrT: <ore:ingotSoularium> -->
+    <recipe name="Alloy: Soularium" disabled="true"/>
+
+    <!-- CrT: <ore:ingotSignalum> -->
+    <recipe name="Alloy: Signalum Blend" disabled="true"/>
+    <recipe name="Alloy: Signalum (Thermal Expansion)" disabled="true"/>
+
+    <!-- CrT: <ore:ingotEnderium> -->
+    <recipe name="Alloy: Enderium Blend" disabled="true"/>
+    <recipe name="Alloy: Enderium (Thermal Expansion)" disabled="true"/>
+
+    <!-- CrT: <ore:ingotMelodicAlloy> -->
+    <recipe name="Alloy: Endergy Melodic Alloy" disabled="true"/>
+
+    <!-- CrT: <ore:ingotDarkSteel> -->
+    <recipe name="Alloy: Dark Steel" disabled="true"/>
+    <recipe name="Alloy: Dark Steel, Variant" disabled="true"/>
+
+    <!-- CrT: <ore:ingotRedstoneAlloy> -->
+    <recipe name="Alloy: Redstone Alloy" disabled="true"/>
+
+</enderio:recipes>

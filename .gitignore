@@ -17,7 +17,8 @@
 #configs
 !/.minecraft/config/
 /.minecraft/config/agricraft/json/defaults/*
-/.minecraft/config/enderio/recipes/*
+/.minecraft/config/enderio/recipes/**/*.*
+!/.minecraft/config/enderio/recipes/user/user_recipes.xml
 /.minecraft/config/tellme/*
 /.minecraft/config/jei/worldSettings.cfg
 /.minecraft/config/jei/bookmarks.ini
