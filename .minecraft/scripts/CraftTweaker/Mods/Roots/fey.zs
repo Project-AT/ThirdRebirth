@@ -34,5 +34,5 @@ ferUtils(<minecraft:crafting_table>, [
 ], false);
 
 ferUtils(<roots:runestone> * 4, [
-    <roots:runic_dust>, <minecraft:stone>, <minecraft:stone>, <minecraft:stone>, <minecraft:stone>
+    <roots:runic_dust>, <ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>
 ], true);
