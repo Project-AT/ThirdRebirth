@@ -17,5 +17,8 @@ autotech.title.villager.interact=你无法听懂村民的语言
 #JEI DESCRIPTION
 autotech.Description.survivalist.rock=使用铲子尝试破坏石头时有一定概率会掉落碎石块
 
+#JEI TITLE
+jei.magnetic_attraction.title=仪式 - 磁力吸引
+
 #OTHERS
 autotech.others.unlockedstage=您已解锁新阶段!

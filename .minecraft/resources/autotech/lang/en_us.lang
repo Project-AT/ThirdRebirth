@@ -18,5 +18,8 @@ autotech.title.villager.interact=You can't understand the villagers' language
 #JEI DESCRIPTION
 autotech.description.survivalist.rock=When using a shovel to try to destroy a stone, there is a certain probability that rubble will drop.
 
+#JEI TITLE
+jei.magnetic_attraction.title=Ritual - Magnetic Attraction
+
 #OTHERS
 autotech.others.unlockedstage=You have unlocked a new stage!
