@@ -43,3 +43,10 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_
         .with("C", <ore:itemSimpleMachineChassi>)
         .with("Q", <immersiveengineering:metal_device1:1>).get()
 , {<ore:artisansHammer> : 20, <ore:artisansSpanner> : 10});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:2>, 
+    inputPattern("LXL", " T ", "LXL")
+        .with("L", <ore:itemSimpleChassiParts>)
+        .with("X", <ore:ingotDarkSteel>)
+        .with("T", <ore:dyeMachine>).get()
+, {<ore:artisansHammer> : 10});
