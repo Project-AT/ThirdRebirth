@@ -18,8 +18,10 @@ var manaTransform as IItemStack[IIngredient] = {
     <botania:quartztypemana:2> : <minecraft:quartz_block:2>
 };
 
+var nacrePearl as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long});
+
 RecipeUtils.recipeTweak(true, <botania:altar>, [
-    [<ore:slabCobblestone>, <wizardry:nacre_pearl>.withTag({purity_override: 1.0 as float}), <ore:slabCobblestone>],
+    [<ore:slabCobblestone>, nacrePearl, <ore:slabCobblestone>],
     [null, <minecraft:cobblestone>, null],
     [<minecraft:cobblestone>, <ore:livingrock>, <minecraft:cobblestone>]
 ]);
@@ -36,7 +38,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>,[
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader:2>, [
     [<ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>],
-    [<ore:ingotElvenElementium>, <wizardry:nacre_pearl>.withTag({purity: 600 as long, complete: 1 as byte, purity_override: 1.0 as float}), null],
+    [<ore:ingotElvenElementium>, nacrePearl, null],
     [<ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>]
 ], {<ore:artisansAthame> : 5, <ore:artisansGrimoire> : 5} as int[IIngredient]);
 
@@ -52,13 +54,13 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>, [
 ], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
-    [<ore:livingrock>, <wizardry:nacre_pearl>.withTag({purity: 600 as long, complete: 1 as byte, purity_override: 1.0 as float}), <ore:livingrock>,],
+    [<ore:livingrock>, nacrePearl, <ore:livingrock>,],
     [<ore:livingrock>, <ore:livingrock>,  <ore:livingrock>]
 ], {<ore:artisansAthame> : 5, <ore:artisansGrimoire> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader>, [
 	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
-    [<ore:ingotGold>, <wizardry:nacre_pearl>.withTag({purity: 600 as long, complete: 1 as byte, purity_override: 1.0 as float}), null],
+    [<ore:ingotGold>, nacrePearl, null],
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
