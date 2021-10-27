@@ -20,12 +20,6 @@ RecipeUtils.recipeTweak(true, <minecraft:furnace>,[
     [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
 ]);
 
-RecipeUtils.recipeTweak(true, <minecraft:crafting_table>,[
-    [<ore:plankWood>, <ore:rock>, <ore:plankWood>],
-    [<ore:ingotIron>, <contenttweaker:straw_rope>, <ore:ingotIron>],
-    [<ore:plankWood>, <ore:rock>, <ore:plankWood>]
-]);
-
 artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>,
     inputPatternGet(["G G", " G "], {"G" : <ore:shardGlass>})
 , {<ore:artisansBurner> : 1} as int[IIngredient]);
