@@ -8,7 +8,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var manaTransform as IItemStack[IIngredient] = {
-    <ore:ingotManasteel> : <ore:ingotIron>.firstItem,
+    <ore:ingotManasteel> : <ore:ingotPureIron>.firstItem,
     <botania:storage> : <ore:blockIron>.firstItem,
     <ore:manaDiamond> : <ore:gemDiamond>.firstItem,
     <botania:storage:3> : <ore:blockDiamond>.firstItem,

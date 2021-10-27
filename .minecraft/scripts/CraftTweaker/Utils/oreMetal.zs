@@ -79,11 +79,11 @@ for ore in oreDict.entries {
         var oreDictIngot = oreDict.get("ingot" + metalName);
         if (!oreDictIngot.empty) {
             oreStickOrRodTemp += metalName;
-            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem, 
+            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem * 3, 
                 RecipeUtils.createLeftSlash(oreDictIngot),
             {<ore:artisansHammer> : 3} as int[IIngredient]);
 
-            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem, 
+            artisanUtils.RecipeTweakWithTools("blacksmith", true, ore.firstItem * 3, 
                 RecipeUtils.createRightSlash(oreDictIngot),
             {<ore:artisansHammer> : 3} as int[IIngredient]);
         }
