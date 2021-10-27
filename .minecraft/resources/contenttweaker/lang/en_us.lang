@@ -57,6 +57,7 @@ tile.contenttweaker.udOreThorium.name=Underworld Thorium Ore
 
 #Fluid
 fluid.hdpe=High Density Polyethylene
+fluid.glaze_slurry=Glaze Slurry
 
 #Enchantment
 enchantment.critical=Critical
