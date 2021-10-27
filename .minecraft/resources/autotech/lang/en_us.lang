@@ -11,7 +11,7 @@ autotech.title.endoflame.description=The number of Endoflame in this block is no
 autotech.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
 autotech.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
 autotech.title.notree.description=Please use any axe for logging!
-autotech.tier.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
+autotech.title.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
 autotech.title.endportal.dimerror=EndPortal can only be creation in OverWorld
 autotech.title.villager.interact=You can't understand the villagers' language
 
