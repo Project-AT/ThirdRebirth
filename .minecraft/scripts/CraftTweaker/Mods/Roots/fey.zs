@@ -13,6 +13,14 @@ function ferUtils(output as IItemStack, input as IIngredient[], isRemove as bool
     Fey.addRecipe(StringHelper.getItemNameWithUnderline(output), output, input);
 }
 
+var stacks as IItemStack[] = [
+    <ore:ingotGold>.firstItem, <ore:nuggetGold>.firstItem, <ore:nuggetIron>.firstItem, <ore:ingotIron>.firstItem  
+];
+
+for stack in stacks {
+    Fey.removeRecipe(stack);
+}
+
 ferUtils(<roots:runic_shears>, [
     <roots:wooden_shears>, <roots:pereskia>, <ore:ingotGold>, <roots:runic_dust>, <roots:runic_dust>
 ], true);
