@@ -8,9 +8,8 @@ import mods.roots.Chrysopoeia;
 
 import scripts.grassUtils.StringHelper;
 
-
 var stacks as IItemStack[] = [
-    <ore:ingotGold>.firstItem, <ore:nuggetGold>.firstItem, <ore:nuggetIron>.firstItem, <ore:ingotIron>.firstItem  
+    <minecraft:gold_ingot>, <minecraft:gold_nugget>, <minecraft:iron_nugget>, <minecraft:iron_ingot>
 ];
 
 function chrysopoeiaUtils(output as IItemStack, input as IIngredient) {
@@ -22,5 +21,5 @@ chrysopoeiaUtils(<minecraft:ender_pearl>, <mysticalworld:pearl> * 8);
 chrysopoeiaUtils(<biomesoplenty:fleshchunk>, <ore:listAllmeatraw> | <ore:listAllfishraw>);
 
 for stack in stacks {
-    Chrysopoeia.removeRecipe(stack);
+    Chrysopoeia.removeRecipeByOutput(stack);
 }

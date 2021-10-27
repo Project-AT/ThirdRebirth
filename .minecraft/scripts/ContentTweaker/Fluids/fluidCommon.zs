@@ -7,7 +7,7 @@ import mods.contenttweaker.VanillaFactory;
 
 import scripts.grassUtils.CotUtils;
 
-CotUtils.addFluid("glaze_slurry", 0xABCDEF, 600, 3000, 3000, 0, true);
+CotUtils.addFluid("glaze_slurry", 0x722628, 600, 3000, 3000, 0, true);
 
 //High Density Polyethylene
 var hdpe as Fluid = VanillaFactory.createFluid("hdpe", 0x000000);
