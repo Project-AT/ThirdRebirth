@@ -93,3 +93,44 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:fuelingstation>, [
     [<ore:ingotIronCompressed>, <mekanism:basicblock:8>, <ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:fanSteel>, <ore:ingotIronCompressed>]
 ]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:oxygendetection>, [
+    [<ore:ingotHighStrengthAluminumAlloy>, <advancedrocketry:misc>, <ore:ingotHighStrengthAluminumAlloy>],
+    [<rftools:sensor_block>, <mekanism:basicblock:8>, <ore:fanSteel>],
+    [<ore:ingotHighStrengthAluminumAlloy>, <ore:circuitAdvanced>, <ore:ingotHighStrengthAluminumAlloy>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:microwavereciever>, [
+    [<ore:lensGlass>, <advancedrocketry:satelliteprimaryfunction>, <ore:lensGlass>],
+    [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+    [<ore:ingotHighStrengthAluminumAlloy>, <advancedrocketry:ic:1>, <ore:ingotHighStrengthAluminumAlloy>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:drill>, [
+    [<ore:gearTough>, <immersiveengineering:drillhead>, <ore:gearTough>],
+    [<immersiveengineering:drillhead>, <mekanism:basicblock:8>, <immersiveengineering:drillhead>],
+    [<ore:gearTough>, <immersiveengineering:drillhead>, <ore:gearTough>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:blastbrick> * 2, [
+    [<ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>],
+    [<ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:oxygencharger>, [
+    [<ore:fanSteel>, <advancedrocketry:misc>, <ore:fanSteel>],
+    [<ore:ingotIronCompressed>, <mekanism:basicblock:8>, <ore:ingotIronCompressed>],
+    [<ore:ingotIronCompressed>, <ore:plateHighStrengthAluminumAlloy>, <ore:ingotIronCompressed>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:oxygenvent>, [
+    [<ore:plateHighStrengthAluminumAlloy>, <ore:fanSteel>, <ore:plateHighStrengthAluminumAlloy>],
+    [<ore:plateHighStrengthAluminumAlloy>, <libvulpes:structuremachine>, <ore:plateHighStrengthAluminumAlloy>],
+    [<ore:plateHighStrengthAluminumAlloy>, <ore:blockMotor>, <ore:plateHighStrengthAluminumAlloy>]
+]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:oxygenscrubber>, [
+    [<ore:rodHighStrengthAluminumAlloy>, <ore:fanSteel>, <ore:rodHighStrengthAluminumAlloy>],
+    [<ore:plateHighStrengthAluminumAlloy>, <libvulpes:structuremachine>, <ore:plateHighStrengthAluminumAlloy>],
+    [<ore:rodHighStrengthAluminumAlloy>, <ore:blockMotor>, <ore:rodHighStrengthAluminumAlloy>]
+]);
