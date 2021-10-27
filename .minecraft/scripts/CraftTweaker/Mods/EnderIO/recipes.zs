@@ -17,12 +17,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material>, [
     [<enderio:item_material:69>,<enderio:item_material:69>,<enderio:item_material:69>]
 ], {<ore:artisansHammer> : 4, <ore:artisansSpanner> : 5} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:2> * 4, [
-	[<enderio:item_material:69>, <nuclearcraft:alloy:1>, <enderio:item_material:69>],
-    [null, <enderio:item_material:51>, null],
-	[<enderio:item_material:69>, <nuclearcraft:alloy:1>, <enderio:item_material:69>]
-], {<ore:artisansHammer> : 4} as int[IIngredient]);
-
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
 	[<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>],
     [<enderio:item_material:2>, <embers:mech_core>, <enderio:item_material:2>],
@@ -44,7 +38,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_
         .with("Q", <immersiveengineering:metal_device1:1>).get()
 , {<ore:artisansHammer> : 20, <ore:artisansSpanner> : 10});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:2>, 
+artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:2> * 4, 
     inputPattern("LXL", " T ", "LXL")
         .with("L", <ore:itemSimpleChassiParts>)
         .with("X", <ore:ingotDarkSteel>)
