@@ -54,6 +54,9 @@ tile.contenttweaker.udOreLithium.name=冥界锂矿石
 tile.contenttweaker.udOreMagnesium.name=冥界镁矿石
 tile.contenttweaker.udOreThorium.name=冥界钍矿石
 
+#BlockEndOre
+tile.contenttweaker.endOreLithium.name=末地锂矿石
+
 #Fluid
 fluid.hdpe=高密度聚乙烯
 fluid.glaze_slurry=釉浆

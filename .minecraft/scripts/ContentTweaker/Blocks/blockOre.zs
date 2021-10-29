@@ -7,7 +7,7 @@ import scripts.grassUtils.CotUtils;
 
 val ores as string[] = [
     "udOreAluminum", "udOreNickel", "udOreUranium", "udOreBoron",
-    "udOreLithium", "udOreMagnesium", "udOreThorium"
+    "udOreLithium", "udOreMagnesium", "udOreThorium", "endOreLithium"
 ];
 
 for ore in ores {
