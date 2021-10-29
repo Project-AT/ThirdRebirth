@@ -1,5 +1,6 @@
 {
 	"priority": 1000000000000,
+	"namespace": "minecraft",
 	"populate": {
 		"dirt": {
 
@@ -124,6 +125,7 @@
 
 		"coal": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
@@ -145,6 +147,7 @@
 
 		"iron": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
@@ -166,6 +169,7 @@
 
 		"gold": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
@@ -187,6 +191,7 @@
 
 		"redstone": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
@@ -208,6 +213,7 @@
 
 		"diamond": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
@@ -229,6 +235,7 @@
 
 		"lapis": {
 			"distribution": "gaussian",
+			"enabled": false,
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
@@ -289,6 +296,7 @@
 
 		"emerald": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": {
 					"name": "emerald_ore"
@@ -369,6 +377,7 @@
 
 		"quartz": {
 			"distribution": "uniform",
+			"enabled": false,
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
