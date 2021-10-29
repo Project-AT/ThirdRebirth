@@ -56,6 +56,7 @@ tile.contenttweaker.udOreThorium.name=冥界钍矿石
 
 #Fluid
 fluid.hdpe=高密度聚乙烯
+fluid.glaze_slurry=釉浆
 
 #Enchantment
 enchantment.critical=会心一击
