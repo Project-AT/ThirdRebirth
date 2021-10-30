@@ -55,6 +55,9 @@ tile.contenttweaker.udOreLithium.name=Underworld Lithium Ore
 tile.contenttweaker.udOreMagnesium.name=Underworld Magnesium Ore
 tile.contenttweaker.udOreThorium.name=Underworld Thorium Ore
 
+#BlockEndOre
+tile.contenttweaker.endOreLithium.name=End Lithium Ore
+
 #Fluid
 fluid.hdpe=High Density Polyethylene
 fluid.glaze_slurry=Glaze Slurry
