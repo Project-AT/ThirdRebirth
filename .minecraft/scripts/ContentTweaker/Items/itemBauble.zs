@@ -3,6 +3,7 @@
 #loader contenttweaker
 
 import crafttweaker.player.IPlayer;
+import crafttweaker.entity.IEntityLivingBase;
 
 import mods.contenttweaker.VanillaFactory;
 
@@ -18,13 +19,16 @@ flcn.register();
 var calm = VanillaFactory.createBaubleItem("calm");
 calm.baubleType = "RING";
 calm.onWornTick = function(bauble, wearer) {
+    if(!isPlayer(wearer) && wearer.world.remote) return;
+
     var player as IPlayer = wearer;
     player.update({calmSlot : player.isBaubleEquipped(<item:contenttweaker:calm>)});
 
 };
 calm.onUnequipped = function(bauble, wearer) {
-    var player as IPlayer = wearer;
+    if(!isPlayer(wearer) && wearer.world.remote) return;
 
+    var player as IPlayer = wearer;
     player.update({calmSlot : -1 as int});
 
     if(bauble.hasTag && !isNull(bauble.tag.critical)) {
@@ -36,12 +40,15 @@ calm.register();
 var fury = VanillaFactory.createBaubleItem("fury");
 fury.baubleType = "RING";
 fury.onWornTick = function(bauble, wearer) {
+    if(!isPlayer(wearer) && wearer.world.remote) return;
+
     var player as IPlayer = wearer;
     player.update({furySlot : player.isBaubleEquipped(<item:contenttweaker:fury>)});
 };
 fury.onUnequipped = function(bauble, wearer) {
-    var player as IPlayer = wearer;
+    if(!isPlayer(wearer) && wearer.world.remote) return;
 
+    var player as IPlayer = wearer;
     player.update({furySlot : -1 as int});
 
     if(bauble.hasTag && !isNull(bauble.tag.critical)) {
@@ -49,3 +56,10 @@ fury.onUnequipped = function(bauble, wearer) {
     }
 };
 fury.register();
+
+function isPlayer(wearer as IEntityLivingBase) as bool {
+    if(wearer instanceof IPlayer) {
+        return true;
+    }
+    return false;
+}
