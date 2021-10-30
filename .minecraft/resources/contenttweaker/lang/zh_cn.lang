@@ -39,6 +39,11 @@ item.contenttweaker.thin_film_transistor.name=薄膜晶体管
 item.contenttweaker.glaze.name=釉料
 item.contenttweaker.glazed_refractory_brick.name=釉制耐火砖
 
+#Item
+#Bauble
+item.contenttweaker.calm.name=冷静指环
+item.contenttweaker.fury.name=愤怒指环
+
 #Block
 #Common
 tile.contenttweaker.ender_portal.name=末地传送门-自制
@@ -71,9 +76,9 @@ item.contenttweaker.elixir_eyesight.name=明目药水
 itemGroup.autotech=ContentTweakerAutoTech
 
 #Part
-contenttweaker.part.enriched_ore=富集%s矿石
-contenttweaker.part.mana_enriched_ore=魔力富集%s矿石
-contenttweaker.part.crushed_enriched_ore=富集%s脏粉
+contenttweaker.part.ore_enriched=富集%s矿石
+contenttweaker.part.ore_mana_enriched=魔力富集%s矿石
+contenttweaker.part.ore_crushed_enriched=富集%s脏粉
 
 #Material
 base.material.tin=锡
