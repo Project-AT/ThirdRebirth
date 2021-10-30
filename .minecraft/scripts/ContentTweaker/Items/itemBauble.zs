@@ -19,47 +19,45 @@ flcn.register();
 var calm = VanillaFactory.createBaubleItem("calm");
 calm.baubleType = "RING";
 calm.onWornTick = function(bauble, wearer) {
-    if(!isPlayer(wearer) && wearer.world.remote) return;
+    if(!isPlayer(wearer)) return;
 
     var player as IPlayer = wearer;
     player.update({calmSlot : player.isBaubleEquipped(<item:contenttweaker:calm>)});
-
 };
 calm.onUnequipped = function(bauble, wearer) {
-    if(!isPlayer(wearer) && wearer.world.remote) return;
+    if(!isPlayer(wearer)) return;
 
     var player as IPlayer = wearer;
     player.update({calmSlot : -1 as int});
 
-    if(bauble.hasTag && !isNull(bauble.tag.critical)) {
-        bauble.mutable().removeTag("critical");
-    }
+    removeTag(bauble);
 };
 calm.register();
 
 var fury = VanillaFactory.createBaubleItem("fury");
 fury.baubleType = "RING";
 fury.onWornTick = function(bauble, wearer) {
-    if(!isPlayer(wearer) && wearer.world.remote) return;
+    if(!isPlayer(wearer)) return;
 
     var player as IPlayer = wearer;
     player.update({furySlot : player.isBaubleEquipped(<item:contenttweaker:fury>)});
 };
 fury.onUnequipped = function(bauble, wearer) {
-    if(!isPlayer(wearer) && wearer.world.remote) return;
+    if(!isPlayer(wearer)) return;
 
     var player as IPlayer = wearer;
     player.update({furySlot : -1 as int});
 
-    if(bauble.hasTag && !isNull(bauble.tag.critical)) {
-        bauble.mutable().removeTag("critical");
-    }
+    removeTag(bauble);
 };
 fury.register();
 
-function isPlayer(wearer as IEntityLivingBase) as bool {
-    if(wearer instanceof IPlayer) {
-        return true;
+function removeTag(bauble as IItemStack) as void {
+    if(bauble.hasTag && !isNull(bauble.tag.critical)) {
+        bauble.mutable().removeTag("critical");
     }
-    return false;
+}
+
+function isPlayer(wearer as IEntityLivingBase) as bool {
+    return wearer instanceof IPlayer && !wearer.world.remote;
 }
