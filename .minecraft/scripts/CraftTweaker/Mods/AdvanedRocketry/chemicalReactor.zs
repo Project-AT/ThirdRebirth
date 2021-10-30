@@ -3,6 +3,8 @@
 
 import mods.advancedrocketry.ChemicalReactor;
 
+ChemicalReactor.removeRecipe(<liquid:rocketfuel>);
+
 ChemicalReactor.addRecipe(<liquid:diborane> * 5000, 400, 20, <liquid:boron> * 114, <liquid:hydrogen> * 1500);
 ChemicalReactor.addRecipe(<liquid:ammonia> * 500, 400, 20, <liquid:nitrogen> * 250, <liquid:hydrogen> * 750);
 ChemicalReactor.addRecipe(<liquid:water> * 250, 400, 20, <liquid:oxygen> * 250, <liquid:hydrogen> * 500);

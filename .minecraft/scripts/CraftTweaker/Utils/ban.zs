@@ -102,7 +102,8 @@ var baned as IItemStack[] = [
     <primal_tech:bone_shovel>,
     <primal_tech:bone_shears>,
     <nuclearcraft:alloy_furnace>,
-	<roots:unending_bowl>
+	<roots:unending_bowl>,
+    <advancedrocketry:electrolyser>
 ];
 
 val banRitual as IItemStack[] = [
