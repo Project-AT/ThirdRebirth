@@ -3,6 +3,7 @@
 #loader contenttweaker
 
 import crafttweaker.player.IPlayer;
+import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityLivingBase;
 
 import mods.contenttweaker.VanillaFactory;
