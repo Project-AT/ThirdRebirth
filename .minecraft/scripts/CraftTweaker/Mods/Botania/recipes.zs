@@ -9,7 +9,7 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 var manaTransform as IItemStack[IIngredient] = {
     <ore:ingotManasteel> : <ore:ingotPureIron>.firstItem,
-    <botania:storage> : <ore:blockIron>.firstItem,
+    <botania:storage> : <ore:blockPureIron>.firstItem,
     <ore:manaDiamond> : <ore:gemDiamond>.firstItem,
     <botania:storage:3> : <ore:blockDiamond>.firstItem,
     <ore:quartzMana> : <ore:gemQuartz>.firstItem,
