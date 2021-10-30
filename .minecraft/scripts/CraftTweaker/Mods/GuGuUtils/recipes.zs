@@ -21,7 +21,7 @@ RecipeUtils.recipeTweak(true, <gugu-utils:pressurehatch:1>,
 );
 
 RecipeUtils.recipeTweak(true, <gugu-utils:sparkmanahatch>, 
-    RecipeUtils.createCrossWithCore(<botania:pool:3> | <botania:pool>, <ore:ingotIronCompressed>, <ore:livingrock>)
+    RecipeUtils.createCrossWithCore(<botania:pool:3> | <botania:pool>, <modularmachinery:itemmodularium>, <ore:livingrock>)
 );
 
 RecipeUtils.recipeTweak(true, <gugu-utils:pressurehatch>, 
