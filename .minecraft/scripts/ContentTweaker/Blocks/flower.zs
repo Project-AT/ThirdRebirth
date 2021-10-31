@@ -20,9 +20,13 @@ auraFlower.onUpdate = function(subtile, world, pos) {
         var auraLowestPos = world.getLowestSpot(pos, 4, pos);
         var auraChunk as IAuraChunk = world.getAuraChunk(auraLowestPos);
 
-        if(!world.remote && subtile.getMana() > 0 && !isNull(auraChunk)) {
-            subtile.consumeMana(800);
-            auraChunk.storeAura(auraLowestPos, 1600);
+        if(subtile.getMana() > 0 && !isNull(auraChunk)) {
+            if(world.remote) {
+                world.playSound("botania:endoflame", "block", pos.asPosition3f(), 0.2F, 0.1F);
+            } else {
+                subtile.consumeMana(800);
+                auraChunk.storeAura(auraLowestPos, 1600);
+            }
         }
     }
 };
@@ -38,9 +42,13 @@ manaFlower.onUpdate = function(subtile, world, pos) {
         var auraHighestPos as IBlockPos = world.getHighestSpot(pos, 4, pos);
         var auraChunk as IAuraChunk = world.getAuraChunk(auraHighestPos);
 
-        if(!world.remote && !isNull(auraChunk) && subtile.getMaxMana() != subtile.getMana()) {
-            auraChunk.drainAura(auraHighestPos, 1600);
-            subtile.addMana(800);
+        if(!isNull(auraChunk) && subtile.getMaxMana() != subtile.getMana()) {
+            if(world.remote) {
+                world.playSound("botania:endoflame", "block", pos.asPosition3f(), 0.2F, 0.1F);
+            } else {
+                auraChunk.drainAura(auraHighestPos, 1600);
+                subtile.addMana(800);
+            }
         }
     }
 };
