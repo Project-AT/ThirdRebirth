@@ -40,6 +40,11 @@ item.contenttweaker.thin_film_transistor.name=Thin Film Transistor
 item.contenttweaker.glaze.name=Glaze
 item.contenttweaker.glazed_refractory_brick.name=Glazed Refractory Brick
 
+#Item
+#Bauble
+item.contenttweaker.calm.name=Calm Ring
+item.contenttweaker.fury.name=Fury Ring
+
 #Block
 #Common
 tile.contenttweaker.ender_portal.name=Ender Portal Frame - Selfmade
@@ -57,6 +62,7 @@ tile.contenttweaker.udOreThorium.name=Underworld Thorium Ore
 
 #BlockEndOre
 tile.contenttweaker.endOreLithium.name=End Lithium Ore
+tile.contenttweaker.endOreRutile.name=End Rutile Ore
 
 #Fluid
 fluid.hdpe=High Density Polyethylene
@@ -72,9 +78,9 @@ item.contenttweaker.elixir_eyesight.name=Eyesight Elixir
 itemGroup.autotech=ContentTweaker AutoTech
 
 #Part
-contenttweaker.part.enriched_ore=Enriched %s Ore
-contenttweaker.part.mana_enriched_ore=Mana Enriched %s Ore
-contenttweaker.part.crushed_enriched_ore=Crushed Enriched %s
+contenttweaker.part.ore_enriched=Enriched %s Ore
+contenttweaker.part.ore_mana_enriched=Mana Enriched %s Ore
+contenttweaker.part.ore_crushed_enriched=Crushed Enriched %s
 
 #Material
 base.material.gold=Gold

@@ -31,14 +31,14 @@ var materials as int[string] = {
 var materials_ as int[string] = {
 	"Germanium" : 0xD8D1BF,
 	"HighStrengthAluminumAlloy" : 0xF2F2F2,
-    "pure_iron" : 0xF5F5F2
+    "PureIron" : 0xF5F5F2
 };
 
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
 oreProcess.addParts(["shard", "crushed_ore"] as string[]);
-oreProcess.registerNormalPart("enriched_ore", "ore", true);
-oreProcess.registerNormalPart("mana_enriched_ore", "ore", true);
-oreProcess.registerNormalPart("crushed_enriched_ore", "item", false);
+oreProcess.registerNormalPart("ore_enriched", "ore", true);
+oreProcess.registerNormalPart("ore_mana_enriched", "ore", true);
+oreProcess.registerNormalPart("ore_crushed_enriched", "item", false);
 
 for material, color in materials {
     oreProcess.registerMaterial(material, color);
