@@ -61,6 +61,7 @@ tile.contenttweaker.udOreThorium.name=冥界钍矿石
 
 #BlockEndOre
 tile.contenttweaker.endOreLithium.name=末地锂矿石
+tile.contenttweaker.endOreRutile.name=末地金红石矿石
 
 #Fluid
 fluid.hdpe=高密度聚乙烯

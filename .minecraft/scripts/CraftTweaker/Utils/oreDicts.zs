@@ -23,6 +23,7 @@ var oreDictAdd as IItemStack[string] = {
     "oreBoron" : <contenttweaker:udoreboron>,
     "oreLithium" : <contenttweaker:udorelithium>,
     "oreEndLithium" : <contenttweaker:endorelithium>,
+    "oreEndRutile" : <contenttweaker:endorerutile>,
     "oreMagnesium" : <contenttweaker:udoremagnesium>,
     "oreThorium" : <contenttweaker:udorethorium>,
     "oreCrudeSteel" : <contenttweaker:ironcoal_ore>,

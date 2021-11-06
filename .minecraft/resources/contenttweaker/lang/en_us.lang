@@ -62,6 +62,7 @@ tile.contenttweaker.udOreThorium.name=Underworld Thorium Ore
 
 #BlockEndOre
 tile.contenttweaker.endOreLithium.name=End Lithium Ore
+tile.contenttweaker.endOreRutile.name=End Rutile Ore
 
 #Fluid
 fluid.hdpe=High Density Polyethylene
