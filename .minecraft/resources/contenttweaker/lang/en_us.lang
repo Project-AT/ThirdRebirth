@@ -39,6 +39,8 @@ item.contenttweaker.sensitive_element.name=Sensitive Element
 item.contenttweaker.thin_film_transistor.name=Thin Film Transistor
 item.contenttweaker.glaze.name=Glaze
 item.contenttweaker.glazed_refractory_brick.name=Glazed Refractory Brick
+item.contenttweaker.autotech.name=AuTo TeCh
+item.contenttweaker.mana_crystal.name=Mana Crystal
 
 #Item
 #Bauble
