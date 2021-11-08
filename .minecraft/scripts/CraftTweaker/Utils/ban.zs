@@ -7,7 +7,6 @@ import mods.jei.JEI;
 
 var removeAndHide as IItemStack[] = [
     <appliedenergistics2:material:40>,
-    <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}),
     <enderio:item_endergy_conduit:*>,
     <enderio:item_capacitor_crystalline:*>,
     <enderio:item_alloy_endergy_ball:*>,
@@ -59,7 +58,6 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:productdust>,
     <libvulpes:ore0>,
     <matteroverdrive:dilithium_ore>,
-    <survivalist:rock>,
     <teslathingies:powder_maker>,
     <extendedcrafting:material>,
     <extendedcrafting:material:1>,
