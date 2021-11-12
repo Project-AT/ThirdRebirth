@@ -11,6 +11,6 @@ RecipeUtils.recipeTweak(true, <draconicevolution:draconic_core>, [
 
 RecipeUtils.recipeTweak(true, <draconicevolution:crafting_injector>, [
     [<rftools:dimensional_shard>, <draconicevolution:draconic_core>, <rftools:dimensional_shard>],
-    [<ore:ingotTough>, <ore:blockTritanium>, <ore:ingotTough>],
+    [<ore:ingotTough>, <ore:blockTitaniumIridium>, <ore:ingotTough>],
     [<ore:ingotTough>, <matteroverdrive:s_magnet>, <ore:ingotTough>]
 ]);
