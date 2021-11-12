@@ -12,7 +12,7 @@ import scripts.grassUtils.StringHelper;
 function pyreUtils(output as IItemStack, input as IIngredient[], isRemove as bool) {
     if (isRemove) Pyre.removeRecipe(output.withAmount(1));
 
-    Pyre.addRecipe(StringHelper.getItemNameWithUnderline(output), output.withAmount(1), input);
+    Pyre.addRecipe(StringHelper.getItemNameWithUnderline(output), output, input);
 }
 
 recipes.remove(<naturesaura:gold_fiber>);
@@ -21,17 +21,17 @@ pyreUtils(<naturesaura:gold_fiber>, [
     <minecraft:glowstone_dust>, <survivalist:plant_fibres>, <survivalist:plant_fibres>
 ], false);
 
-Apothecary.removeRecipe(<botania:specialflower>);
-pyreUtils(<botania:specialflower>, [
-    <roots:petals>, <botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "puredaisy"}));
+pyreUtils(<botania:specialflower>.withTag({type: "puredaisy"}), [
+    <contenttweaker:mana_petals>, <botania:petal>, <botania:petal>, <botania:petal>, <botania:petal>
 ], false);
 
 pyreUtils(<roots:dewgonia> * 3, [
-    <ore:tallgrass>, <botania:petal:11>, <botania:petal:9>, <roots:terra_moss>, <roots:petals>
+    <ore:tallgrass>, <botania:petal:11>, <botania:petal:9>, <roots:terra_moss>, <contenttweaker:mana_petals>
 ], true);
 
 pyreUtils(<roots:moonglow_leaf> * 3, [
-    <ore:treeLeaves>, <ore:blockGlass>, <roots:bark_birch>, <roots:petals>, <botania:petal>
+    <ore:treeLeaves>, <ore:blockGlass>, <roots:bark_birch>, <contenttweaker:mana_petals>, <botania:petal>
 ], true);
 
 pyreUtils(<roots:stalicripe> * 3, [
@@ -39,7 +39,7 @@ pyreUtils(<roots:stalicripe> * 3, [
 ], true);
 
 pyreUtils(<roots:pereskia> * 3, [
-    <botania:petal:6>, <roots:petals>, <minecraft:reeds>, <minecraft:beetroot>, <roots:wildroot>
+    <botania:petal:6>, <contenttweaker:mana_petals>, <minecraft:reeds>, <minecraft:beetroot>, <roots:wildroot>
 ], true);
 
 pyreUtils(<roots:infernal_bulb> * 3, [
@@ -51,5 +51,5 @@ pyreUtils(<roots:baffle_cap_mushroom> * 3, [
 ], true);
 
 pyreUtils(<roots:cloud_berry> * 3, [
-    <ore:treeLeaves>, <roots:petals>, <botania:petal:5>, <roots:terra_moss>, <wizardry:sky_dust>
+    <ore:treeLeaves>, <contenttweaker:mana_petals>, <botania:petal:5>, <roots:terra_moss>, <wizardry:sky_dust>
 ], true);
