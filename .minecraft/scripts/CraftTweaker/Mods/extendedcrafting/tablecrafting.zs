@@ -148,13 +148,13 @@ tableCraftingUtils(<matteroverdrive:h_compensator>, [
 ]);
 
 tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
-	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null], 
-	[null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null], 
+	[null, null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null, null], 
+	[null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null], 
 	[null, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:crystalPureFluix>, <ore:gemDilithium>, <extendedcrafting:material:48>, null], 
 	[null, <extendedcrafting:material:48>, <appliedenergistics2:material:44>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>, <extendedcrafting:material:48>, null], 
 	[null, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:crystalPureFluix>, <ore:gemDilithium>, <extendedcrafting:material:48>, null], 
-	[null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null], 
-	[null, null, <ore:ingotUltimate>, <extendedcrafting:material:48>, <ore:ingotUltimate>, null, null]
+	[null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null], 
+	[null, null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null, null]
 ]);
 
 tableCraftingUtils(<mekanism:controlcircuit:1> * 4, [
