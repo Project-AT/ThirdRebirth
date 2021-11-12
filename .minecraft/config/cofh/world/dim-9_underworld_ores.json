@@ -1,0 +1,168 @@
+{
+    "priority": 100,
+    "namespace": "underworld",
+	"dimension": {
+		"restriction": "whitelist",
+		"value": [-9]
+	},
+    "populate": {
+
+        "aluminum": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udorealuminum",
+                    "metadata": 4,
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+
+        "lithium": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udorelithium",
+                    "metadata": 4,
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+
+        "magnesium": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udoremagnesium",
+                    "metadata": 4,
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+
+		"boron": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udoreboron",
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+		
+		"thorium": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udorethorium",
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+		
+		"uranium": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udoreuranium",
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		},
+
+		"nickel": {
+			"enabled": true,
+			"dependencies": "contenttweaker",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:udorenickel",
+					"weight": 100
+				},
+				"material": {
+					"name": "lightningcraft:stone_block",
+					"metadata": 6
+                },
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 245,
+			"retrogen": false,
+			"biome": "all"
+		}
+
+    }
+}
