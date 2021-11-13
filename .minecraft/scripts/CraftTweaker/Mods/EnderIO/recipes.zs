@@ -33,7 +33,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_
     inputPattern(["SBS", "GCG", "SQS"])
         .with("S", <ore:ingotSteel>)
         .with("B", <ore:plateSteel>)
-        .with("G", <ore:gearsteel>)
+        .with("G", <ore:gearSteel>)
         .with("C", <ore:itemSimpleMachineChassi>)
         .with("Q", <immersiveengineering:metal_device1:1>).get()
 , {<ore:artisansHammer> : 20, <ore:artisansSpanner> : 10});
