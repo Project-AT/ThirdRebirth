@@ -43,7 +43,7 @@ pyreUtils(<roots:pereskia> * 3, [
 ], true);
 
 pyreUtils(<roots:infernal_bulb> * 3, [
-    <botania:mushroom:14>, <wizardry:devil_dust>, <ore:gunpowder>, <ore:dustGold>, <roots:wildroot>
+    <botania:mushroom:14>, <wizardry:devil_dust>, <ore:gunpowder>, <ore:dustSulfur>, <roots:wildroot>
 ], true);
 
 pyreUtils(<roots:baffle_cap_mushroom> * 3, [
