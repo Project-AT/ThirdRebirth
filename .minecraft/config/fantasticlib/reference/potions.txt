@@ -29,13 +29,6 @@ biomesoplenty:curse
 naturesaura:breathless
 tetra:bleeding
 tetra:earthbound
-botania:soulcross
-botania:featherfeet
-botania:emptiness
-botania:bloodthirst
-botania:allure
-botania:clear
-atutils:drowsy
 immersiveengineering:flammable
 immersiveengineering:slippery
 immersiveengineering:conductive
@@ -54,6 +47,13 @@ tombstone:exorcism
 tombstone:reach
 tombstone:lightning_resistance
 tombstone:bone_shield
+botania:soulcross
+botania:featherfeet
+botania:emptiness
+botania:bloodthirst
+botania:allure
+botania:clear
+atutils:drowsy
 quark:blue
 quark:black
 quark:white
