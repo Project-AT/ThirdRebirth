@@ -10,14 +10,14 @@ import mods.randomtweaker.cote.ISubTileEntityGenerating;
 
 var auraFlower as ISubTileEntityFunctional = VanillaFactory.createSubTileFunctional("aura_flower", 0x4444FF);
 auraFlower.range = 4;
-auraFlower.maxMana = 10000;
+auraFlower.maxMana = 8000;
 auraFlower.acceptsRedstone = true;
 auraFlower.onUpdate = function(subtile, world, pos) {
     if(subtile.getTicksExisted() % 80 == 0 && subtile.getRedstoneSignal() <= 0) {
         var auraLowestPos = world.getLowestSpot(pos, 4, pos);
         var auraChunk as IAuraChunk = world.getAuraChunk(auraLowestPos);
 
-        if(subtile.getMana() > 0 && !isNull(auraChunk)) {
+        if(subtile.getMana() >= 800 && !isNull(auraChunk)) {
             if(world.remote) {
                 world.playSound("botania:endoflame", "block", pos.asPosition3f(), 0.2F, 0.1F);
             } else {
@@ -31,7 +31,7 @@ auraFlower.register();
 
 var manaFlower as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("mana_flower", 0x4444FF);
 manaFlower.range = 4;
-manaFlower.maxMana = 10000;
+manaFlower.maxMana = 8000;
 manaFlower.acceptsRedstone = true;
 manaFlower.onUpdate = function(subtile, world, pos) {
     if(subtile.getTicksExisted() % 80 == 0 && subtile.getRedstoneSignal() <= 0) {
