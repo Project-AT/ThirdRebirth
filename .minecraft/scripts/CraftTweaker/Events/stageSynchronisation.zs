@@ -34,8 +34,8 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
     if(!isNull(data) && !isNull(data.hadStages)) {
         var map as IData[string] = data.hadStages.asMap();
 
-        for stage in map {
-            if(map[stage].asBool() && !player.hasGameStage(stage)) {
+        for stage, isHad in map {
+            if(isHad.asBool() && !player.hasGameStage(stage)) {
                 player.addGameStage(stage);
             }
         }
