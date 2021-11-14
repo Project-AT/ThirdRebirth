@@ -1,0 +1,1263 @@
+{
+    "registryname": "stargate",
+    "localizedname": "at.stargate.name",
+    "color" : "383736",
+    "requires-blueprint": true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "draconicevolution:reactor_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "gugu-utils:environmenthatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcircuitry"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:spatial_pylon@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "matteroverdrive:fusion_reactor_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "matteroverdrive:decorative.tritanium_plate@0"
+            ]
+        }
+    ]}
