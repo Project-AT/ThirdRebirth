@@ -26,13 +26,13 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(!world.remote) {
         if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative) {
             if(player.isPotionActive(<potion:minecraft:luck>) && fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (10 * random * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (5 * random * fortune);
             } else if(fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (10 * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (5 * fortune);
             } else if(player.isPotionActive(<potion:minecraft:luck>)) {
-                event.drops += <contenttweaker:four_leaf_clover> % (10 * random);
+                event.drops += <contenttweaker:four_leaf_clover> % (5 * random);
             } else {
-                event.drops += <contenttweaker:four_leaf_clover> % 10;
+                event.drops += <contenttweaker:four_leaf_clover> % 5;
             } 
         }
 
@@ -59,6 +59,10 @@ events.onBlockHarvestDrops(
 
         if (<ore:bookshelf>.matches(itemBlock) && world.random.nextInt(10) == 0) {
             event.drops = [<contenttweaker:dictionary_paper>];
+        }
+
+        if(common.getBlockID(block) == "minecraft:leaves") {
+            event.drops += <minecraft:stick> % 50;
         }
 
     }
