@@ -10,9 +10,3 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 var nacrePearl as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long});
 
 artisanUtils.RecipeTweakWithLiquid("basic", true, <wizardry:nacre_block>, RecipeUtils.createFull3(nacrePearl), <liquid:nacre_fluid> * 4000);
-
-artisanUtils.RecipeTweakWithTools("mage", true, <wizardry:mana_battery>, [
-    [<roots:dewgonia>, <ore:manaPearl>, <roots:dewgonia>],
-    [<ore:gemDiamond>, nacrePearl, <ore:gemDiamond>],
-    [<roots:dewgonia>, <ore:manaPearl>, <roots:dewgonia>]
-], {<ore:artisansAthame> : 8, <ore:artisansGrimoire> : 15} as int[IIngredient]);

@@ -42,17 +42,6 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader:2>, [
     [<ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>]
 ], {<ore:artisansAthame> : 5, <ore:artisansGrimoire> : 5} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("mage", true, <botania:runealtar>, [
-    [<ore:livingrock>, <ore:manaDiamond>, <ore:livingrock>],
-    [null, <wizardry:mana_battery>, null],
-    [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
-], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>, [
-    [<ore:livingrock>, <wizardry:mana_battery>, <ore:livingrock>,],
-    [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
-], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
-
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
     [<ore:livingrock>, nacrePearl, <ore:livingrock>,],
     [<ore:livingrock>, <ore:livingrock>,  <ore:livingrock>]
