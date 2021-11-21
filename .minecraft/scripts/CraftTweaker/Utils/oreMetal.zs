@@ -8,7 +8,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var orePlainNames as string[] = [
-    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum",
+    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "PureIron"
 ];
 
 var oreNames as string[] = [
