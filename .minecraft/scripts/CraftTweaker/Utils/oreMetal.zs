@@ -8,13 +8,14 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var orePlainNames as string[] = [
-    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "PureIron"
+    "PureIron", "Iron"
 ];
 
 var oreNames as string[] = [
-    "Tin",   "Nickel",  "Invar", "Iron", "Bronze", "Constantan", "Electrum",
-    "Steel", "Titanium", "TitaniumIridium", "TitaniumAluminide", "Germanium", "Tough",
-    "Enderium", "Signalum", "Lumium", "Iridium", "Mithril", "HighStrengthAluminumAlloy"
+    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "Tin", "Nickel",
+    "Invar", "Bronze", "Constantan", "Electrum", "Steel", "Titanium", "TitaniumIridium", 
+    "TitaniumAluminide", "Germanium", "Tough","Enderium", "Signalum", "Lumium", "Iridium", 
+    "Mithril", "HighStrengthAluminumAlloy"
 ];
 
 var onlyPlateOreNames as string[] = [
@@ -63,7 +64,7 @@ for index, i in onlyPlateOreNames {
 
     artisanUtils.RecipeTweakWithTools_("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
-    ], {<ore:artisansHammer> : 4} as int[IIngredient]);
+    ], {<ore:artisansHammer> : 4, <ore:artisansBurner> : 4} as int[IIngredient]);
 
 }
 
