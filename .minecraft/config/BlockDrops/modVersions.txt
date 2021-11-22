@@ -96,6 +96,7 @@
   "immersiveengineering": "0.12-98",
   "psi": "r1.1-78",
   "thermaldynamics": "2.5.6",
+  "requious": "1.0",
   "applecore": "3.4.0",
   "enderiopowertools": "5.3.70",
   "dropt": "1.12.2-1.19.1",
