@@ -14,10 +14,12 @@ furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
 
 furnace.remove(<draconicevolution:draconium_ingot>);
 
+furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
+
 RecipeUtils.recipeTweak(true, <minecraft:furnace>,[
-    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-    [<ore:cobblestone>, null, <ore:cobblestone>],
-    [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
+    [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
+    [<ore:ingotBrick>, <buildinggadgets:constructionpaste>, <ore:ingotBrick>],
+    [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>,

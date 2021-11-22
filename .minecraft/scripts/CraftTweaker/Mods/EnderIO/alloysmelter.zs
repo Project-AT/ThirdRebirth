@@ -23,3 +23,4 @@ AlloySmelter.addRecipe(<enderio:item_alloy_ingot:6> * 2, [<ore:dustPetrotheum>, 
 AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:ingotAluminum>, <ore:ingotSteel> * 2]);
 AlloySmelter.addRecipe(<refraction:reflective_alloy> * 5, [<ore:ingotIron> * 3, <ore:ingotEnergeticSilver>, <ore:ingotGold>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3> * 2, [<ore:gemRedstone>, <ore:ingotBronze>, <ore:ingotElectricalSteel>]);
+AlloySmelter.addRecipe(<enderio:item_material:1>, [<ore:dyeMachine> * 2, <ore:ingotTough> * 4, <ore:itemSimpleMachineChassi>]);

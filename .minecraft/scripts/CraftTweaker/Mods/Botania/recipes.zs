@@ -65,6 +65,13 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:alfheimportal>, [
 	[<ore:livingwood>, <naturesaura:sky_ingot>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("mage", true, <botania:runealtar>, 
+    inputPattern("ABA", " C ", "AAA")
+        .with("A", <ore:livingrock>)
+        .with("B", <contenttweaker:mana_crystal>)
+        .with("C", <ore:manaDiamond>).get()
+, {<ore:artisansGrimoire> : 98, <ore:artisansAthame> : 135} as int[IIngredient]);
+
 for i in 0 to 16 {
 
     var doubleflower as IItemStack = <botania:doubleflower1>.definition.makeStack(i);

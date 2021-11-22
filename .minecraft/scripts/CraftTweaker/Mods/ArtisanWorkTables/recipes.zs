@@ -70,3 +70,10 @@ artisanUtils.RecipeTweakWithAll("basic", true, <artisanworktables:workstation:7>
     [<ore:ingotManasteel>, <artisanworktables:worktable:7>, <ore:ingotManasteel>],
     [<ore:livingwood>, null, <ore:livingwood>]
 ], <liquid:mana_fluid> * 4000, {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <artisanworktables:mechanical_toolbox>, 
+    inputPattern("A A", "BCB", "A A")
+        .with("A", <ore:ingotIron>)
+        .with("B", <ore:gearIronInfinity> | <ore:gearBronze>)
+        .with("C", <artisanworktables:toolbox>).get()
+, {<ore:artisansSpanner> : 20} as int[IIngredient]);
