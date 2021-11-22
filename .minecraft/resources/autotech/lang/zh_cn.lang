@@ -1,6 +1,3 @@
-#ITEM
-autotech.item.stone_flint_and_steel.name=石制打火石
-
 #TOOLTIP
 autotech.tooltip.item.ban=此物品已被禁用
 autotech.tooltip.item.ban.bug=因为可能会导致存档崩溃
@@ -31,7 +28,7 @@ modularmachinery.aura_perfusion_changer=灵气灌注嬗变机
 modularmachinery.electronic_assembly_machine_mk1=基础电子装配机
 modularmachinery.electronic_assembly_machine_mk2=高级智能电子装配机
 modularmachinery.vacuum_alloy_arc_furnace=真空合金电弧炉
-modularmachinery.HighEnergy_shredder=高能粉碎机
+modularmachinery.high_energy_shredder=高能粉碎机
 modularmachinery.fractionator=分馏塔
 modularmachinery.embers_perfusioner=灰烬能量灌注机
 modularmachinery.aura_collector=灵气收集器
@@ -41,8 +38,8 @@ modularmachinery.fmph_mk2=发酵产魔仓 Mk2
 modularmachinery.fmph_mk3=发酵产魔仓 Mk3
 modularmachinery.fmph_mk4=发酵产魔仓 Mk4
 modularmachinery.fmph_mk5=发酵产魔仓 Mk5
-modularmachinery.st=小型涡轮机
-modularmachinery.stb=小型火力锅炉
+modularmachinery.small_turbine=小型涡轮机
+modularmachinery.small_thermal_boilers=小型火力锅炉
 modularmachinery.ordinary_thermal_boilers=普通火力锅炉
 modularmachinery.ordinary_turbines=普通涡轮机
 modularmachinery.embers_magic_pulser=灰烬魔力脉冲机

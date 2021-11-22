@@ -17,7 +17,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -241,7 +241,7 @@
             "y": 8,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "y": 10,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -265,7 +265,7 @@
             "y": 10,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -273,7 +273,7 @@
             "y": 10,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -281,7 +281,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -289,7 +289,7 @@
             "y": 8,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -297,7 +297,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -313,7 +313,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -321,7 +321,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -329,7 +329,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -505,7 +505,7 @@
             "y": 10,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -513,7 +513,7 @@
             "y": 8,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -521,7 +521,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -529,7 +529,7 @@
             "y": 10,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -537,7 +537,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -553,7 +553,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -561,7 +561,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -569,7 +569,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -721,7 +721,7 @@
             "y": 10,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -729,7 +729,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -737,7 +737,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -753,7 +753,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -761,7 +761,7 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -769,7 +769,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -905,7 +905,7 @@
             "y": 10,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -913,7 +913,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -921,7 +921,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -929,7 +929,7 @@
             "y": 10,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -937,7 +937,7 @@
             "y": 8,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -945,7 +945,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -961,7 +961,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1097,7 +1097,7 @@
             "y": 10,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1105,7 +1105,7 @@
             "y": 10,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1113,7 +1113,7 @@
             "y": 10,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1121,7 +1121,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1129,7 +1129,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1137,7 +1137,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1145,7 +1145,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1153,7 +1153,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1289,7 +1289,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1297,7 +1297,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1305,7 +1305,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1321,7 +1321,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1329,7 +1329,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1489,7 +1489,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1497,7 +1497,7 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1505,7 +1505,7 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1513,7 +1513,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1521,7 +1521,7 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1529,7 +1529,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1537,7 +1537,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1553,7 +1553,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1705,7 +1705,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1713,7 +1713,7 @@
             "y": 8,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1721,7 +1721,7 @@
             "y": 8,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1729,7 +1729,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -1737,7 +1737,7 @@
             "y": 8,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1745,7 +1745,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -1753,7 +1753,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         }
     ]}

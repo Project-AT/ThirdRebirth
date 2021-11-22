@@ -65,7 +65,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {
@@ -113,7 +113,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {
@@ -233,7 +233,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {
@@ -777,7 +777,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {
@@ -841,7 +841,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcircuitry"
+                "modularmachinery:blockcircuitry@2"
             ]
         },
         {

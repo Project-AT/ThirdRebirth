@@ -1,7 +1,7 @@
 {
     "registryname": "embers_magic_pulser",
     "localizedname": "at.embers_magic_pulser.name",
-    "color" : "383736",
+    "color" : "363536",
     "requires-blueprint": true,
     "parts": [
         {
@@ -17,7 +17,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "gugu-utils:sparkmanahatch@0"
+                "gugu-utils:sparkmanahatch"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -49,7 +49,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -65,7 +65,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -73,7 +73,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "gugu-utils:emberinputhatch@2"
+                "gugu-utils:emberinputhatch"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -97,7 +97,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -105,7 +105,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -121,7 +121,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -129,7 +129,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -137,7 +137,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -145,7 +145,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -153,7 +153,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -161,7 +161,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -169,7 +169,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -177,7 +177,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -185,7 +185,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -201,7 +201,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -209,7 +209,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -217,7 +217,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -225,7 +225,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -233,7 +233,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -241,7 +241,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -265,7 +265,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -273,7 +273,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -281,7 +281,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -289,7 +289,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -297,7 +297,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -305,7 +305,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -313,7 +313,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -321,7 +321,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -329,7 +329,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -337,7 +337,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -345,7 +345,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -353,7 +353,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -361,7 +361,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         }
     ]}

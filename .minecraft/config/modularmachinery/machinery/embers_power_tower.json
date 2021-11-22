@@ -17,7 +17,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -57,16 +57,16 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
             "x": 0,
             "y": 11,
             "z": 1,
-            "nbt": {"size":"0","xp":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"embers:tile_entity_seed_new","spawns":"010010"},
+            "nbt": {"size":"0","xp":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"embers:tile_entity_seed_new","spawns":"000011"},
             "elements": [
-                "embers:seed_silver@0"
+                "embers:seed_silver"
             ]
         },
         {
@@ -170,7 +170,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -226,7 +226,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -234,7 +234,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -266,7 +266,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
