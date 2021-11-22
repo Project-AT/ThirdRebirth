@@ -8,7 +8,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 var oreDictNames as string[] = [
-    "Iron", "Gold", "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", "Thorium", "Bronze",
+    "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", "Thorium", "Bronze",
     "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz"
 ];
 var partNames as string[] = [

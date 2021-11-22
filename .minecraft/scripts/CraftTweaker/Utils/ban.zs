@@ -141,7 +141,3 @@ for item in banRitual {
 for name in hideCategory {
     JEI.hideCategory(name);
 }
-
-for meta in 22 to 28 {
-    JEI.removeAndHide(<thermalfoundation:material>.definition.makeStack(meta));
-}

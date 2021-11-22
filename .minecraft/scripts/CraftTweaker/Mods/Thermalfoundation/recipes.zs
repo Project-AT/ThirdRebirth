@@ -1,9 +1,19 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.jei.JEI;
+
 import scripts.CraftTweaker.Utils.artisanUtils;
+
+for meta in 22 to 28 {
+    var stack as IItemStack = <thermalfoundation:material>.definition.makeStack(meta);
+    if (meta == 22 || meta == 23) JEI.hide(stack);
+    if (meta == 26) continue;
+    recipes.remove(stack);
+}
 
 artisanUtils.RecipeTweakWithTools_("basic", false, <thermalfoundation:material:768>, [
     [<ore:coal>]
