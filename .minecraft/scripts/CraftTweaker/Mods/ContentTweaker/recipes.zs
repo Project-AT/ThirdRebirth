@@ -45,6 +45,14 @@ artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight
     [null, <roots:cloud_berry>,     null]
 ], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>, 
+    inputPattern("ABA", "GFG", "ABA")
+        .with("B", <ore:manaPearl>)
+        .with("G", <ore:gemDiamond>)
+        .with("F", <wizardry:nacre_pearl>)
+        .with("A", <roots:dewgonia>).get()
+, {<ore:artisansGrimoire> : 30, <ore:artisansAthame> : 30} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <contenttweaker:sensitive_element> * 3, 
     inputPattern("Z Z", "GFG", "XZX")
         .with("Z", <ore:paper>)

@@ -28,6 +28,12 @@ artisanUtils.RecipeTweakWithTools("mage", true, <naturesaura:offering_table>, [
 
 artisanUtils.RecipeTweakWithAll("mage", true, <naturesaura:wood_stand>, [
     [null, <naturesaura:gold_leaf>, null],
-    [<roots:cloud_berry>,  <roots:wildwood_log>,   <roots:stalicripe>],
-    [<roots:infernal_bulb>,<roots:wildwood_log>,   <roots:dewgonia>]
+    [<roots:cloud_berry>, <roots:wildwood_log>, <roots:stalicripe>],
+    [<roots:infernal_bulb>, <roots:wildwood_log>, <roots:dewgonia>]
 ], <liquid:mana_fluid> * 1000, {<ore:artisansAthame> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:sensitive_element> * 3, [
+    [<naturesaura:infused_stone>, <naturesaura:sky_ingot>, <naturesaura:infused_stone>],
+    [<naturesaura:token_sorrow>,  <wizardry:nacre_block>, <naturesaura:token_fear>],
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
+], {<ore:artisansGrimoire> : 30, <ore:artisansAthame> : 30} as int[IIngredient]);
