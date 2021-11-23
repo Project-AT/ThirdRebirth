@@ -26,7 +26,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(!world.remote) {
         if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative) {
             if(player.isPotionActive(<potion:minecraft:luck>) && fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (5 * random * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (2 * random * fortune);
             } else if(fortune != 0) {
                 event.drops += <contenttweaker:four_leaf_clover> % (5 * fortune);
             } else if(player.isPotionActive(<potion:minecraft:luck>)) {
