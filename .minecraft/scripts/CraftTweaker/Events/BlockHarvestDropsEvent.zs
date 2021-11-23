@@ -60,4 +60,8 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
             event.drops = [<contenttweaker:dictionary_paper>];
         }
     }
+
+    if (<ore:treeLeaves>.matches(itemBlock)) {
+        event.drops += <minecraft:stick> % 30;
+    }
 });
