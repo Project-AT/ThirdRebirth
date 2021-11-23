@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "brick_kiln" },
+        "facing=south": { "model": "brick_kiln", "y": 180 },
+        "facing=west":  { "model": "brick_kiln", "y": 270 },
+        "facing=east":  { "model": "brick_kiln", "y": 90 }
+    }
+}
