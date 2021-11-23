@@ -62,7 +62,7 @@ events.onBlockHarvestDrops(
         }
 
         if(common.getBlockID(block) == "minecraft:leaves") {
-            event.drops += <minecraft:stick> % 50;
+            event.drops += <minecraft:stick> % 30;
         }
 
     }
