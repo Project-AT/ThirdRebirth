@@ -16,11 +16,9 @@ furnace.remove(<draconicevolution:draconium_ingot>);
 
 furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
 
-RecipeUtils.recipeTweak(true, <minecraft:furnace>,[
-    [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-    [<ore:ingotBrick>, <buildinggadgets:constructionpaste>, <ore:ingotBrick>],
-    [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]
-]);
+artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:furnace>,
+    inputPatternGet(["GGG", "GAG", "GGG"], {"G" : <ore:ingotBrick>, "A" : <buildinggadgets:constructionpaste>})
+, {<ore:artisansTrowel> : 6} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <minecraft:glass_bottle>,
     inputPatternGet(["G G", " G "], {"G" : <ore:shardGlass>})
