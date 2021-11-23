@@ -24,8 +24,8 @@ mortarUtils(<roots:runic_dust> * 5, [
     <thermalfoundation:material:769>, <minecraft:stone>, <minecraft:dye:15>, <ore:dustWheat>, <roots:moonglow_leaf>
 ]);
 
-mortarUtils(<minecraft:coal>, [<thermalfoundation:material:768>]);
-mortarUtils(<minecraft:coal:1>, [<thermalfoundation:material:769>]);
+mortarUtils(<thermalfoundation:material:768>, [<minecraft:coal>]);
+mortarUtils(<thermalfoundation:material:769>, [<minecraft:coal:1>]);
 
 Mortar.changeSpell("spell_chrysopoeia", [
     nacrePearl, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>
