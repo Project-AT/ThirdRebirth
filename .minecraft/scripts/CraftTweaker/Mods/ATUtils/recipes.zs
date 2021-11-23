@@ -18,3 +18,9 @@ artisanUtils.RecipeTweakWithTools("mage", true, <atutils:advance_stick_thunder>,
     [<botania:manaresource:8>, <atutils:stick_thunder>, <botania:manaresource:8>],
     [<ore:dreamwoodTwig>, <botania:manaresource:9>]
 ], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 20} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(true, <minecraft:furnace>, 
+    inputPatternGet(["GGG", "GAG", "GGG"], {
+        "G" : <ore:ingotBrick>, 
+        "A" : <buildinggadgets:constructionpaste>
+}));
