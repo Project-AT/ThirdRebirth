@@ -26,7 +26,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(!world.remote) {
         if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative) {
             if(player.isPotionActive(<potion:minecraft:luck>) && fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (5 * random * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (2 * random * fortune);
             } else if(fortune != 0) {
                 event.drops += <contenttweaker:four_leaf_clover> % (5 * fortune);
             } else if(player.isPotionActive(<potion:minecraft:luck>)) {
@@ -38,32 +38,30 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
 
         if(<ore:logWood>.matches(event.drops[0].stack)) {
             if(isNull(player.currentItem) || !(player.currentItem.toolClasses has "axe")) {
+                if (<ore:knife>.matches(player.currentItem)) return;
                 event.drops = [];
             }
         }
     }
 });
 
-/* 
-    挖掘书架{@oreDict <ore:bookshelf>}有10%概率掉落词典之纸{@item <contenttweaker:dictionary_paper>}
-    不允许精准采集附魔{@ench <enchantment:minecraft:silk_touch>}的工具
-*/
-events.onBlockHarvestDrops(
-    function(event as BlockHarvestDropsEvent) {
 
-        val world as IWorld = event.world;
-        val block as IBlock = event.block;
-        val itemBlock as IItemStack = block.getItem(world, event.position, event.blockState);
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    val world as IWorld = event.world;
+    val block as IBlock = event.block;
+    val player as IPlayer = event.player;
+    val itemBlock as IItemStack = block.getItem(world, event.position, event.blockState);
 
-        if (world.remote || event.silkTouch) return;
-
-        if (<ore:bookshelf>.matches(itemBlock) && world.random.nextInt(10) == 0) {
+    if (world.remote || event.silkTouch || !event.isPlayer) return;
+    if (<ore:bookshelf>.matches(itemBlock)) {
+        if (<ore:knife>.matches(player.currentItem) && world.random.nextInt(10) <= 3) {
+            event.drops = [<contenttweaker:dictionary_paper>];
+        } else if (world.random.nextInt(10) == 0){
             event.drops = [<contenttweaker:dictionary_paper>];
         }
-
-        if(common.getBlockID(block) == "minecraft:leaves") {
-            event.drops += <minecraft:stick> % 50;
-        }
-
     }
-);
+
+    if (<ore:treeLeaves>.matches(itemBlock)) {
+        event.drops += <minecraft:stick> % 30;
+    }
+});

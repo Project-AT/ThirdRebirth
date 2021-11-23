@@ -29,9 +29,10 @@ events.onPlayerLeftClickBlock(function(event as PlayerLeftClickBlockEvent){
         }
 
         if(isNull(currentItem) || !(currentItem.toolClasses has "axe")) {
+            if (<ore:knife>.matches(currentItem)) return;
             for logwood in <ore:logWood>.items {
                 if(logwood.asBlock() has block && !(player.creative)) {
-                    common.runTitle(game.localize("autotech.title.notree.description"), "", true, player    );
+                    common.runTitle(game.localize("autotech.title.notree.description"), "", true, player);
                     player.attackEntityFrom(<damageSource:IN_WALL>, 1.0f);
                 }
             }
