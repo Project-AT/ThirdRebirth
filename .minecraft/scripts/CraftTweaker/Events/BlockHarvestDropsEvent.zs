@@ -38,6 +38,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
 
         if(<ore:logWood>.matches(event.drops[0].stack)) {
             if(isNull(player.currentItem) || !(player.currentItem.toolClasses has "axe")) {
+                if (<ore:knife>.matches(player.currentItem)) return;
                 event.drops = [];
             }
         }
