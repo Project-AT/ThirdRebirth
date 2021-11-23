@@ -52,7 +52,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     val player as IPlayer = event.player;
     val itemBlock as IItemStack = block.getItem(world, event.position, event.blockState);
 
-    if (world.remote || event.silkTouch || !event.isPlayer) return;
+    if (world.remote || event.silkTouch) return;
     if (<ore:bookshelf>.matches(itemBlock)) {
         if (<ore:knife>.matches(player.currentItem) && world.random.nextInt(10) <= 3) {
             event.drops = [<contenttweaker:dictionary_paper>];

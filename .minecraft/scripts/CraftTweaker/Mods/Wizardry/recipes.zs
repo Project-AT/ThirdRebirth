@@ -10,7 +10,3 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 var nacrePearl as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long});
 
 artisanUtils.RecipeTweakWithLiquid("basic", true, <wizardry:nacre_block>, RecipeUtils.createFull3(nacrePearl), <liquid:nacre_fluid> * 4000);
-
-RecipeUtils.recipeTweak(false, <wizardry:wisdom_wood_planks> * 2, [
-    [<wizardry:wisdom_wood_log>]
-]);
