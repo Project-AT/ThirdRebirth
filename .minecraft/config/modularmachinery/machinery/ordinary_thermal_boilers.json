@@ -313,7 +313,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockinputbus"
             ]
         },
         {

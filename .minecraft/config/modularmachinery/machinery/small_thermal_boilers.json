@@ -1,7 +1,7 @@
 {
     "registryname": "small_thermal_boilers",
     "localizedname": "at.small_thermal_boilers.name",
-    "color" : "383736",
+    "color" : "7B7B7B",
     "requires-blueprint": true,
     "parts": [
         {
@@ -9,7 +9,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -17,7 +17,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcontroller"
+                "modularmachinery:blockcontroller@2"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -65,7 +65,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockbunker@0"
             ]
         },
         {
@@ -97,7 +97,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -121,7 +121,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -145,7 +145,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -161,7 +161,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -193,7 +193,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -233,7 +233,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -241,7 +241,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -265,7 +265,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -273,7 +273,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -281,7 +281,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -289,7 +289,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -297,7 +297,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -305,7 +305,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -313,7 +313,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
