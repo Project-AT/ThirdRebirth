@@ -1,4 +1,3 @@
-  
 #priority 10
 #modloaded atutils
 #loader crafttweaker reloadableevents
