@@ -44,12 +44,6 @@ RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:4> * 4, [
     [<ore:ingotTough>, <modularmachinery:blockcasing>, <ore:ingotTough>]
 ]);
 
-RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:2>, [
-    [<modularmachinery:itemmodularium>, <ore:rodSteel>, <modularmachinery:itemmodularium>],
-    [<ore:rodSteel>, null, <ore:rodSteel>],
-    [<modularmachinery:itemmodularium>, <ore:rodSteel>, <modularmachinery:itemmodularium>]
-]);
-
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk1"}),
     inputPattern(["   ", "ABC", "LLL"])
         .with("A", <modularmachinery:itemmodularium>)
@@ -144,13 +138,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_tur
         .with("C", <modularmachinery:itemmodularium>).get()
 , {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 22} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_turbine_controller>,
+artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_thermal_boilers_controller>,
     inputPattern([" B ", "BAB", " B "])
         .with("A", <modularmachinery:blockcasing:2>)
         .with("B", <modularmachinery:itemmodularium>).get()
 , {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 13} as int[IIngredient]);
 
-RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:2>, 
+RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:2> * 2, 
     inputPatternGet(["ABA", "B B", "ABA"], {
         "A" : <ore:rodSteel>,
         "B" : <modularmachinery:itemmodularium>
