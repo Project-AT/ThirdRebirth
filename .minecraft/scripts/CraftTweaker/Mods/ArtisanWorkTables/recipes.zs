@@ -81,6 +81,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <artisanworktables:mechanica
 RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, 
     inputPatternGet([" A ", "BCB", " B "], {
         "A" : <ore:plateCopper>,
-        "B" : <minecraft:chest>,
-        "C" : <ore:logWood>
+        "B" : <ore:plankWood>,
+        "C" : <minecraft:chest>
 }));
