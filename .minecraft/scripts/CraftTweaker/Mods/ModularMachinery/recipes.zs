@@ -1,7 +1,10 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.item.IIngredient;
+
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcasing:5>, [
     [<modularmachinery:blockcasing>,<ore:circuitBasic>]
@@ -146,3 +149,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_tur
         .with("A", <modularmachinery:blockcasing:2>)
         .with("B", <modularmachinery:itemmodularium>).get()
 , {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 13} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:2>, 
+    inputPatternGet(["ABA", "B B", "ABA"], {
+        "A" : <ore:rodSteel>,
+        "B" : <modularmachinery:itemmodularium>
+}));

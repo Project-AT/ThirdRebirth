@@ -77,3 +77,10 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <artisanworktables:mechanica
         .with("B", <ore:gearIronInfinity> | <ore:gearBronze>)
         .with("C", <artisanworktables:toolbox>).get()
 , {<ore:artisansSpanner> : 20} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>, 
+    inputPatternGet([" A ", "BCB", " B "], {
+        "A" : <ore:plateCopper>,
+        "B" : <minecraft:chest>,
+        "C" : <ore:logWood>
+}));
