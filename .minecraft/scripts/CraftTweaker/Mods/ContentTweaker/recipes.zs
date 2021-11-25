@@ -41,8 +41,8 @@ artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay
 
 artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight>, [
     [null, <roots:wildewheet>, null],
-    [<roots:salmon_of_knowledge>.withTag({advancements: ["everything"], crafter: "Nature"}), <minecraft:glass_bottle>, <roots:moonglow_leaf>],
-    [null, <roots:cloud_berry>,     null]
+    [<roots:salmon_of_knowledge>, <minecraft:glass_bottle>, <roots:moonglow_leaf>],
+    [null, <roots:cloud_berry>, null]
 ], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>, 

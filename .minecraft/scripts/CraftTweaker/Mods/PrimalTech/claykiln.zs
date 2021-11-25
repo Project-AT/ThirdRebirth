@@ -12,3 +12,4 @@ ClayKiln.addRecipe(<embers:plate_caminite>, <embers:plate_caminite_raw>, 400);
 ClayKiln.addRecipe(<minecraft:brick>, <minecraft:clay_ball>, 300);
 ClayKiln.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>, 400);
 ClayKiln.addRecipe(<minecraft:stone>, <minecraft:cobblestone>, 400);
+ClayKiln.addRecipe(<minecraft:glass>, <minecraft:sand>, 400);

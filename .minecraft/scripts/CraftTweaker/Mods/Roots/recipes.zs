@@ -23,31 +23,12 @@ artisanUtils.RecipeTweakWithTools("basic", false, <roots:petals> * 2, [
     [<ore:allTallFlowers>]
 ], {<ore:artisansMortar> : 2} as int[IIngredient]);
 
-RecipeUtils.recipeTweak(true, <roots:pyre>, 
-    inputPatternGet(["ABA", "BCB", "DED"], {
-        "A" : <roots:wildroot>,
-        "B" : <ore:logWood>,
-        "C" : <roots:terra_moss>,
-        "D" : <ore:stone>,
-        "E" : <primal_tech:charcoal_block>
-}));
+RecipeUtils.recipeTweak(true, <roots:fire_starter>,[
+    [null, <primal_tech:fire_sticks>],
+    [null, <primal_tech:fire_sticks>]
+]);
 
-RecipeUtils.recipeTweak(true, <roots:grove_stone>, 
-    inputPatternGet(["ABA", "CBE", "DBD"], {
-        "A" : <roots:runic_dust>,
-        "B" : <ore:stone>,
-        "C" : <roots:wildroot>,
-        "D" : <ore:slabStone>,
-        "E" : <roots:terra_moss>
-}));
-
-RecipeUtils.recipeTweak(true, <roots:grove_stone>, 
-    inputPatternGet(["A A", "ABA", "   "], {
-        "A" : <ore:stone>,
-        "B" : <ore:charcoal>
-}));
-
-RecipeUtils.recipeTweak(true, <roots:fire_starter>, 
+RecipeUtils.recipeTweak(true, <roots:fire_starter>,
     inputPatternGet([" A ", " BA"], {
         "A" : <ore:stickWood>,
         "B" : <ore:knife>
@@ -57,4 +38,28 @@ artisanUtils.RecipeTweak("basic", true, <roots:fire_starter>,
     inputPatternGet([" A ", " BA"], {
         "A" : <ore:stickWood>,
         "B" : <ore:knife>
+}));
+
+RecipeUtils.recipeTweak(true, <roots:pyre>,
+    inputPatternGet(["ABA", "BCB", "DED"], {
+        "A" : <roots:wildroot>,
+        "B" : <ore:logWood>,
+        "C" : <roots:terra_moss>,
+        "D" : <ore:stone>,
+        "E" : <primal_tech:charcoal_block>
+}));
+
+RecipeUtils.recipeTweak(true, <roots:grove_stone>,
+    inputPatternGet(["ABA", "CBE", "DBD"], {
+        "A" : <roots:runic_dust>,
+        "B" : <ore:stone>,
+        "C" : <roots:wildroot>,
+        "D" : <ore:slabStone>,
+        "E" : <roots:terra_moss>
+}));
+
+RecipeUtils.recipeTweak(true, <roots:mortar>,
+    inputPatternGet(["A A", "ABA", " A "], {
+        "A" : <ore:stone>,
+        "B" : <ore:charcoal>
 }));
