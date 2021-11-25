@@ -12,3 +12,6 @@ for toolType in toolTypes {
     wooden.maxDamage = 1;
     stone.maxDamage = 1;
 }
+
+<entity:minecraft:creeper>.addDrop(<ore:dustSulfur>.firstItem, 0, 2);
+<entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>.firstItem, 0, 3);
