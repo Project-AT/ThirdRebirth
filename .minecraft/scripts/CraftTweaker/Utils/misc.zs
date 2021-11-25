@@ -14,4 +14,4 @@ for toolType in toolTypes {
 }
 
 <entity:minecraft:creeper>.addDrop(<ore:dustSulfur>.firstItem, 0, 2);
-<entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>.firstItem, 0, 3);
+<entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>, 0, 3);
