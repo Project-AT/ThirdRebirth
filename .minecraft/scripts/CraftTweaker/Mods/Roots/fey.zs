@@ -39,4 +39,4 @@ ferUtils(<roots:runestone> * 4, [
 
 ferUtils(<minecraft:experience_bottle>, [
     <minecraft:potion>.withTag({Potion: "minecraft:water"}), <roots:spirit_herb>, <roots:pereskia>, <roots:terra_moss>, <contenttweaker:bark_wisdomwood>
-], true);
+], false);
