@@ -63,7 +63,10 @@ var removeAndHide as IItemStack[] = [
     <extendedcrafting:material:1>,
     <extendedcrafting:material:2>,
     <extendedcrafting:material:3>,
-    <extendedcrafting:storage>
+    <extendedcrafting:storage>,
+    <embers:ore_quartz>,
+    <mysticalworld:quartz_ore>,
+    <mysticalworld:granite_quartz_ore>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
