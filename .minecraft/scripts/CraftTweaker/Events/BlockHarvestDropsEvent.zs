@@ -16,11 +16,14 @@ import scripts.CraftTweaker.Utils.common;
 import crafttweaker.event.BlockHarvestDropsEvent;
 
 function removeDrops(items as IItemStack[], drops as [WeightedItemStack]) as [WeightedItemStack] {
-    var newList as [WeightedItemStack] = [];
+    var newList = [] as [WeightedItemStack];
 
     for drop in drops {
-        if(items has drop.stack) continue;
-        newList += drop;
+        var flag as bool = true;
+        for item in items {
+            if (item.matches(drop.stack)) flag = false;
+        }
+        if (flag) newList += drop;
     }
 
     return newList;
