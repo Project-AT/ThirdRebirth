@@ -9,6 +9,8 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.title.flcn.tooltip"));
 
+furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
+
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
