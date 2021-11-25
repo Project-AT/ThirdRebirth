@@ -3,6 +3,8 @@
 
 import scripts.grassUtils.RecipeUtils;
 
+furnace.remove(<draconicevolution:draconium_ingot>);
+
 RecipeUtils.recipeTweak(true, <draconicevolution:draconic_core>, [
     [<ore:itemEnrichedAlloy>, <draconicevolution:draconium_ingot>, <ore:itemEnrichedAlloy>],
     [<draconicevolution:draconium_ingot>, <ore:circuitBasic>, <draconicevolution:draconium_ingot>],

@@ -3,7 +3,7 @@
 
 import mods.modularmachinery.RecipeBuilder;
 
-RecipeBuilder.newBuilder("small_thermal_boiler_recipe", "small_thermal_boiler", 1)
+RecipeBuilder.newBuilder("small_thermal_boiler_recipe", "small_thermal_boilers", 1)
     .addFluidInput(<liquid:water> * 800)
     .addItemInput(<atutils:equivalent_fuel>)
     .addFluidOutput(<liquid:steam> * 4000)

@@ -69,6 +69,7 @@ tile.contenttweaker.endOreRutile.name=End Rutile Ore
 #Fluid
 fluid.hdpe=High Density Polyethylene
 fluid.glaze_slurry=Glaze Slurry
+fluid.eutrophic_water=Eutrophic Water
 
 #Enchantment
 enchantment.critical=Critical

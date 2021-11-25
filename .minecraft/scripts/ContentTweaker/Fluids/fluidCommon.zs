@@ -19,3 +19,8 @@ hdpe.luminosity = 1;
 hdpe.stillLocation = "contenttweaker:fluids/hdpe_still";
 hdpe.flowingLocation = "contenttweaker:fluids/hdpe_flow";
 hdpe.register();
+
+var eutrophic as Fluid = VanillaFactory.createFluid("eutrophic_water", 0x006400);
+eutrophic.density = 950;
+eutrophic.viscosity = 900;
+eutrophic.register();

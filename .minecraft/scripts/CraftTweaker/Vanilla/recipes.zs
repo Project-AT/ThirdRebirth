@@ -9,12 +9,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
-
 furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
-
-furnace.remove(<draconicevolution:draconium_ingot>);
-
-furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
 
 RecipeUtils.recipeTweak(true, <minecraft:crafting_table>, [
     [null, <ore:leather>, null],

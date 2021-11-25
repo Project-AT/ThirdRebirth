@@ -2,17 +2,38 @@
 #modloaded atutils
 #loader crafttweaker reloadableevents
 
+import crafttweaker.data.IData;
 import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;
-import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
-import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.item.WeightedItemStack;
 
-import scripts.CraftTweaker.Utils.common;
 import mods.ctutils.utils.Math;
+import scripts.CraftTweaker.Utils.common;
 
 import crafttweaker.event.BlockHarvestDropsEvent;
+
+function removeDrops(items as IItemStack[], drops as [WeightedItemStack]) as [WeightedItemStack] {
+    var newList = [] as [WeightedItemStack];
+
+    for drop in drops {
+        var flag as bool = true;
+        for item in items {
+            if (item.matches(drop.stack)) flag = false;
+        }
+        if (flag) newList += drop;
+    }
+
+    return newList;
+}
+
+var removeSeeds as IItemStack[] = [
+    <extrautils2:redorchid>,
+    <extrautils2:enderlilly>,
+    <teslathingies:tesla_plant_seeds>
+];
 
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     var world as IWorld = event.world;
@@ -59,6 +80,10 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
         } else if (world.random.nextInt(10) == 0){
             event.drops = [<contenttweaker:dictionary_paper>];
         }
+    }
+
+    if(<ore:tallgrass>.matches(itemBlock)) {
+        event.drops = removeDrops(removeSeeds, event.drops);
     }
 
     if (<ore:treeLeaves>.matches(itemBlock)) {

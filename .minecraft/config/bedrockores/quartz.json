@@ -1,0 +1,22 @@
+[
+    {
+        "comment": ["Quartz Ore, Rich"],
+        "enabled": true,
+        "state": {
+            "name": "netherendingores:ore_other_1"
+        },
+        "dimensionFilter": "whitelist",
+        "dimensionSelector": "id",
+        "dimension": 0,
+        "weight": 78,
+        "widthMin": 4,
+        "widthMax": 6,
+        "heightMin": 1,
+        "heightMax": 2,
+        "countMin": 15,
+        "countMax": 29,
+        "yieldMin": 900,
+        "yieldMax": 1100,
+        "extractionCooldownScale": 1
+    }
+]

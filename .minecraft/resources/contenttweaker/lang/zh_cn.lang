@@ -68,6 +68,7 @@ tile.contenttweaker.endOreRutile.name=末地金红石矿石
 #Fluid
 fluid.hdpe=高密度聚乙烯
 fluid.glaze_slurry=釉浆
+fluid.eutrophic_water=富营养水
 
 #Enchantment
 enchantment.critical=会心一击
