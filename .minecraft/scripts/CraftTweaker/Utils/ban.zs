@@ -66,7 +66,8 @@ var removeAndHide as IItemStack[] = [
     <extendedcrafting:storage>,
     <embers:ore_quartz>,
     <mysticalworld:quartz_ore>,
-    <mysticalworld:granite_quartz_ore>
+    <mysticalworld:granite_quartz_ore>,
+    <nuclearcraft:gem:6>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -119,6 +120,11 @@ val hideCategory as string[] = [
 ];
 
 for item in removeAndHide {
+    if (item.ores.length != 0) {
+        for ore in item.ores {
+            ore.remove(item);
+        }
+    }
     JEI.removeAndHide(item);
 }
 
