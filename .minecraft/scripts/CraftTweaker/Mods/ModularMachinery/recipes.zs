@@ -45,33 +45,33 @@ RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:4> * 4, [
 ]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk1"}),
-    inputPattern(["   ", "ABC", "LLL"])
+    inputPattern(["ABC", "LLL"])
         .with("A", <modularmachinery:itemmodularium>)
         .with("B", <ore:ingotManasteel>)
         .with("C", <ore:quartzMana>)
         .with("L", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 13, <ore:artisansTSquare> : 12} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk2"}),
-    inputPattern(["   ", "   ", "AB "])
+artisanUtils.RecipeTweakWithTools("designer", false, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk2"}),
+    inputPattern(["AB"])
         .with("A", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk1"}))
         .with("B", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 26, <ore:artisansTSquare> : 24} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk3"}),
-    inputPattern(["   ", "   ", "AB "])
+    inputPattern(["AB"])
         .with("A", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk2"}))
         .with("B", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 39, <ore:artisansTSquare> : 35} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk4"}),
-    inputPattern(["   ", "   ", "AB "])
+    inputPattern(["AB"])
         .with("A", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk3"}))
         .with("B", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 78, <ore:artisansTSquare> : 69} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk5"}),
-    inputPattern(["   ", "   ", "AB "])
+    inputPattern(["AB"])
         .with("A", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk4"}))
         .with("B", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 143, <ore:artisansTSquare> : 121} as int[IIngredient]);
@@ -86,7 +86,7 @@ artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itembluepr
 , {<ore:artisansPencil> : 11, <ore:artisansTSquare> : 13} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_thermal_boilers"}),
-    inputPattern(["   ", "ABC", "LLL"])
+    inputPattern(["ABC", "LLL"])
         .with("A", <modularmachinery:itemmodularium>)
         .with("B", <ore:plateIron>)
         .with("C", <ore:coal> | <ore:charcoal>)
