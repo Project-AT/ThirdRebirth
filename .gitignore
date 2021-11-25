@@ -58,6 +58,7 @@
 /.minecraft/config/fantasticlib/reference/enchantments.txt
 /.minecraft/config/fantasticlib/reference/blockstates.txt
 /.minecraft/config/fantasticlib/reference/blocks.txt
+/.minecraft/config/wizardry/wizManifest.json
 
 #other stuff
 /.minecraft/scripts/.zsrc
