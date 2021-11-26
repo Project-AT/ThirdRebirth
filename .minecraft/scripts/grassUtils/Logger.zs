@@ -1,4 +1,5 @@
 #priority 32768
+#loader crafttweaker reloadableevents
 
 static LOGGER_ID as string = "[" ~ "GrassUtils" ~ "]" ~ " ";
 

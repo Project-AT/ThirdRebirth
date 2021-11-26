@@ -1,4 +1,4 @@
-#loader crafttweaker
+#loader crafttweaker reloadableevents
 #priority 30000
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

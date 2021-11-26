@@ -1,4 +1,5 @@
 #priority 29998
+#loader crafttweaker reloadableevents
 import scripts.grassUtils.RecipeUtils;
 import scripts.grassUtils.Logger;
 
