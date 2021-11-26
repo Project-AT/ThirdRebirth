@@ -3,6 +3,9 @@ autotech.tooltip.item.ban=This item is banned.
 autotech.tooltip.item.ban.bug=Because it may cause the world to crash
 autotech.tooltip.ritual.ban=This ritual is banned.
 
+#FailedMessage
+autotech.machine.failed=
+
 #TITLE
 autotech.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
 autotech.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
