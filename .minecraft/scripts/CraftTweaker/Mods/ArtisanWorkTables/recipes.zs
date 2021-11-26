@@ -74,7 +74,7 @@ artisanUtils.RecipeTweakWithAll("basic", true, <artisanworktables:workstation:7>
 artisanUtils.RecipeTweakWithTools("engineer", true, <artisanworktables:mechanical_toolbox>, 
     inputPattern("A A", "BCB", "A A")
         .with("A", <ore:ingotIron>)
-        .with("B", <ore:gearIronInfinity> | <ore:gearBronze>)
+        .with("B", <ore:gearIron> | <ore:gearBronze>)
         .with("C", <artisanworktables:toolbox>).get()
 , {<ore:artisansSpanner> : 20} as int[IIngredient]);
 
