@@ -6,6 +6,11 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+RecipeUtils.recipeTweak(true, <artisanworktables:design_pattern>, [
+    [<ore:paper>, <ore:dyeBlue>],
+    [<ore:paper>, <ore:paper>]
+]);
+
 RecipeUtils.recipeTweak(true, <artisanworktables:worktable:3>, [
     [<minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>],
     [<ore:plankWood>, <artisanworktables:worktable:5>, <ore:plankWood>],
@@ -16,11 +21,6 @@ RecipeUtils.recipeTweak(true, <artisanworktables:worktable:5>, [
     [<ore:plankWood>, <ore:craftingTableWood>, <ore:plankWood>],
     [<ore:plankWood>, <minecraft:bucket>, <ore:plankWood>],
     [<ore:plankWood>, null, <ore:plankWood>]
-]);
-
-artisanUtils.RecipeTweak("designer", true, <artisanworktables:design_pattern>, [
-    [<ore:paper>, <ore:dyeBlue>],
-    [<ore:paper>, <ore:paper>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:6>, [
