@@ -12,8 +12,6 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularcontroller.RecipeModifierOperation;
 import mods.modularcontroller.MachineRecipeStartEvent;
 
-import scripts.grassUtils.GrassUtils.i18n;
-
 var recipes as int[][int] = {
     1 : [8 , 8, 4800],
     2 : [16, 7, 9600],
@@ -39,7 +37,7 @@ events.onMachineRecipeStart(function(event as MachineRecipeStartEvent) {
         var sparkManaHatch as IBlock = getSparkManaHatch(machineLevel, event);
 
         if(elementium + elvenQuartz + recipes[machineLevel][2] > (1000000 - sparkManaHatch.data.mana.asInt())) {
-            event.setFailed(i18n("autotech.machine.failed"));
+            event.setFailed("autotech.machine.failed");
         } else {
             event.addModifier("gugu-utils:mana", IOType.output(), elementium + elvenQuartz, RecipeModifierOperation.addition());
         }
@@ -87,10 +85,10 @@ function getElvenQuartzBlockAmount(event as MachineRecipeStartEvent, level as in
 
 function isBlockElvenQuartz(world as IWorld, pos as IBlockPos) as bool {
     var block as IBlock = world.getBlock(pos);
-    return block.definition.id == "botania:quartztypeelf" && block.meta == 1 ? true : false;
+    return block.definition.id == "botania:quartztypeelf" && block.meta == 1;
 }
 
 function isBlockElementium(world as IWorld, pos as IBlockPos) as bool {
     var block as IBlock = world.getBlock(pos);
-    return block.definition.id == "botania:storage" && block.meta == 2 ? true : false;
+    return block.definition.id == "botania:storage" && block.meta == 2;
 }
