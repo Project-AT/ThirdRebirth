@@ -37,4 +37,4 @@ ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, nul
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:ingotAluminum>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, null, 200, 2048, [<ore:ingotBronze>, <ore:ingotElectricalSteel>], "Alloying");
 ArcFurnace.addRecipe(<contenttweaker:glazed_refractory_brick>, <ore:ingotBrickNether>, null, 200, 2048, [<contenttweaker:refractory_clay_ball> * 2, <contenttweaker:glaze>], "Alloying");
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>, <contenttweaker:glaze>]);
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>], "Alloying");

@@ -63,3 +63,12 @@ RecipeUtils.recipeTweak(true, <roots:mortar>,
         "A" : <ore:stone>,
         "B" : <ore:charcoal>
 }));
+
+RecipeUtils.recipeTweak(true, <roots:fey_crafter>,
+    inputPatternGet(["ABA", "BCB", "DED"], {
+        "A" : <roots:wildroot>,
+        "B" : <ore:treeSapling>,
+        "C" : <wizardry:nacre_pearl>,
+        "D" : <roots:terra_moss>,
+        "E" : <ore:logWood>
+}));

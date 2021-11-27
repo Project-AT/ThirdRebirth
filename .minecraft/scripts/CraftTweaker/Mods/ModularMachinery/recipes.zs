@@ -230,8 +230,8 @@ RecipeUtils.recipeTweak(true, <modularmachinery:blockoutputbus:2>,
         "B" : <modularmachinery:blockoutputbus:1>,
 }));
 
-RecipeUtils.recipeTweak(false, <modularmachinery:blockoutputbus:1>, 
-    [[<modularmachinery:blockoutputbus>, <ore:ingotTough>]]);
+RecipeUtils.recipeTweak(false, <modularmachinery:blockoutputbus:3>, 
+    [[<modularmachinery:blockoutputbus:2>, <ore:ingotTough>]]);
 
-RecipeUtils.recipeTweak(false, <modularmachinery:blockinputbus:1>, 
-    [[<modularmachinery:blockinputbus>, <ore:ingotTough>]]);
+RecipeUtils.recipeTweak(false, <modularmachinery:blockinputbus:3>, 
+    [[<modularmachinery:blockinputbus:2>, <ore:ingotTough>]]);
