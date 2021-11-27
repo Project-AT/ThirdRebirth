@@ -45,6 +45,6 @@
     <recipe name="Alloy: Redstone Alloy" disabled="true"/>
 
     <!-- CrT: <ore:ingotVibrantAlloy> -->
-    <recipe name="Alloy: Vibrant Alloy" disabled="true">
+    <recipe name="Alloy: Vibrant Alloy" disabled="true"/>
 
 </enderio:recipes>

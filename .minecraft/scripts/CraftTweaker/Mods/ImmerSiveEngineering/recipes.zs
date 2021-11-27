@@ -182,4 +182,4 @@ artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:bluepr
         .with("L", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithLiquid("base", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
+artisanUtils.RecipeTweakWithLiquid("basic", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
