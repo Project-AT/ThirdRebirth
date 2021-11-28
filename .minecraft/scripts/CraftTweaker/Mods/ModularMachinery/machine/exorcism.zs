@@ -18,7 +18,7 @@ var manaTransform as IItemStack[IItemStack] = {
 };
 
 for input, output in manaTransform {
-    RecipeBuilder.newBuilder("exorcismer_recipe_" + output.commandString, "exorcismer", 40)
+    RecipeBuilder.newBuilder("exorcism_recipe_" + output.commandString, "exorcism", 40)
         .addItemInput(input)
         .addItemOutput(output.withAmount(1))
         .addManaOutput((output.amount / 2) as int)

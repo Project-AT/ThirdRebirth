@@ -4,7 +4,7 @@ autotech.tooltip.item.ban.bug=因为可能会导致存档崩溃
 autotech.tooltip.ritual.ban=此仪式已被禁用
 
 #FailedMessage
-autotech.machine.failed=魔力火花仓可存储魔力小于此次合成输出量, 合成停止
+autotech.machine.failed=输出仓空间不足以支撑本次输出量
 
 #TITLE
 autotech.title.endportal.description=神秘的末影传送门在被放上一颗末影之眼之后，还未等遗迹有所反应，一道闪电直接越过了地底打在传送门上，随即将其毁坏，或许是传送门建造的时代太过久远了，上面残留的魔力不足以使它再次构建，看来我得另寻它法了。
@@ -25,8 +25,8 @@ autotech.others.unlockedstage=您已解锁新阶段!
 
 #Machine
 modularmachinery.runes_engraving=符文刻印机
-modularmachinery.crystal_catalytic_silo=晶体催化仓
-modularmachinery.exorcismer=驱魔机
+modularmachinery.crystal_catalytic_hatch=晶体催化仓
+modularmachinery.exorcism=驱魔机
 modularmachinery.aura_perfusion_changer=灵气灌注嬗变机
 modularmachinery.electronic_assembly_machine_mk1=基础电子装配机
 modularmachinery.electronic_assembly_machine_mk2=高级智能电子装配机

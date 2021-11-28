@@ -4,7 +4,7 @@ autotech.tooltip.item.ban.bug=Because it may cause the world to crash
 autotech.tooltip.ritual.ban=This ritual is banned.
 
 #FailedMessage
-autotech.machine.failed=
+autotech.machine.failed=There is insufficient output bin space to support this output
 
 #TITLE
 autotech.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
@@ -24,18 +24,18 @@ jei.magnetic_attraction.title=Ritual - Magnetic Attraction
 autotech.others.unlockedstage=You have unlocked a new stage!
 
 #Machine
-modularmachinery.runes_engraving=Runes Engraving
-modularmachinery.crystal_catalytic_silo=Crystal Catalytic Silo
-modularmachinery.exorcismer=Exorcismer
-modularmachinery.aura_perfusion_changer=Aura Cerfusion Changer
+modularmachinery.runes_engraving=Runes Engraving Machine
+modularmachinery.crystal_catalytic_hatch=Crystal Catalytic Hatch
+modularmachinery.exorcism=Exorcism Machine
+modularmachinery.aura_perfusion_changer=Aura Cerfusion Changer Machine
 modularmachinery.electronic_assembly_machine_mk1=Electronic Assembly Machine Mk1
 modularmachinery.electronic_assembly_machine_mk2=Electronic Assembly Machine Mk2
 modularmachinery.vacuum_alloy_arc_furnace=Vacuum Alloy Arc Furnace
-modularmachinery.high_energy_shredder=High Energy Shredder
+modularmachinery.high_energy_shredder=High Energy Shredder Machine
 modularmachinery.fractionator=Fractionator
-modularmachinery.embers_perfusioner=Embers Perfusioner
-modularmachinery.aura_collector=Aura Collector
-modularmachinery.annihilator=Annihilator
+modularmachinery.embers_perfusioner=Embers Perfusioner Machine
+modularmachinery.aura_collector=Aura Collector Machine
+modularmachinery.annihilator=Annihilator Hatch
 modularmachinery.fmph_mk1=Fermentation Mana Production Hatch Mk1
 modularmachinery.fmph_mk2=Fermentation Mana Production Hatch Mk2
 modularmachinery.fmph_mk3=Fermentation Mana Production Hatch Mk3
@@ -44,12 +44,12 @@ modularmachinery.fmph_mk5=Fermentation Mana Production Hatch Mk5
 modularmachinery.small_turbine=Small Turbine
 modularmachinery.small_thermal_boiler=Small Thermal Boilers
 modularmachinery.ordinary_thermal_boilers=Ordinary Thermal Boilers
-modularmachinery.ordinary_turbines=Ordinary Turbines
-modularmachinery.embers_magic_pulser=Embers Magic Pulser
-modularmachinery.embers_air_compressor=Embers Air Compressor
+modularmachinery.ordinary_turbines=Ordinary Turbines Machine
+modularmachinery.embers_magic_pulser=Embers Magic Pulser Machine
+modularmachinery.embers_air_compressor=Embers Air Compressor Machine
 modularmachinery.decipherer=Decipherer
 modularmachinery.big_embers_furnace=Big Embers Furnace
 modularmachinery.embers_power_tower=Embers Power Tower
 modularmachinery.experimental_stargate=Experimental Stargate
 modularmachinery.stargate=Stargate
-modularmachinery.refinery=Refinery
+modularmachinery.refinery=Refinery Machine

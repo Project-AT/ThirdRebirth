@@ -1,7 +1,7 @@
 {
-    "registryname": "exorcismer",
-    "localizedname": "at.exorcismer.name",
-    "color" : "383736",
+    "registryname": "exorcism",
+    "localizedname": "at.exorcism.name",
+    "color" : "E1D8F6",
     "requires-blueprint": true,
     "parts": [
         {
