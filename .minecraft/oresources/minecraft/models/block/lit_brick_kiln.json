@@ -2,7 +2,7 @@
     "parent": "block/orientable",
     "textures": {
         "top": "blocks/brick_kiln_top",
-        "front": "blocks/brick_kiln_front_off",
+        "front": "blocks/brick_kiln_front_on",
         "side": "blocks/brick_kiln_side"
     }
 }
