@@ -235,3 +235,33 @@ RecipeUtils.recipeTweak(false, <modularmachinery:blockoutputbus:3>,
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockinputbus:3>, 
     [[<modularmachinery:blockinputbus:2>, <ore:ingotTough>]]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockoutputbus:4>, 
+    inputPatternGet(["ABA"], {
+        "A" : <ore:ingotTough>,
+        "B" : <modularmachinery:blockoutputbus:3>,
+}));
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockinputbus:4>, 
+    inputPatternGet(["ABA"], {
+        "A" : <ore:ingotTough>,
+        "B" : <modularmachinery:blockinputbus:3>,
+}));
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockinputbus:4>, 
+    inputPatternGet(["CBC", "EAE", "CDC"], {
+        "B" : <extrautils2:minichest>,
+        "A" : <modularmachinery:blockcasing:4>,
+        "C" : <ore:plateIron>,
+        "D" : <immersiveengineering:wooden_device0>,
+        "E" : <ore:ingotTough>
+}));
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockoutputbus:4>, 
+    inputPatternGet(["CDC", "EAE", "CBC"], {
+        "B" : <extrautils2:minichest>,
+        "A" : <modularmachinery:blockcasing:4>,
+        "C" : <ore:plateIron>,
+        "D" : <immersiveengineering:wooden_device0>,
+        "E" : <ore:ingotTough>
+}));
