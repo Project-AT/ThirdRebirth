@@ -23,21 +23,14 @@ artisanUtils.RecipeTweakWithTools("basic", false, <roots:petals> * 2, [
     [<ore:allTallFlowers>]
 ], {<ore:artisansMortar> : 2} as int[IIngredient]);
 
-RecipeUtils.recipeTweak(true, <roots:fire_starter>,[
-    [null, <primal_tech:fire_sticks>],
-    [null, <primal_tech:fire_sticks>]
+RecipeUtils.recipeTweak(false, <roots:fire_starter>, [
+    [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>],
 ]);
 
-RecipeUtils.recipeTweak(true, <roots:fire_starter>,
-    inputPatternGet([" A ", " BA"], {
+RecipeUtils.recipeTweak(false, <roots:fire_starter>,
+    inputPatternGet(["BAA"], {
         "A" : <ore:stickWood>,
-        "B" : <ore:knife>
-}));
-
-artisanUtils.RecipeTweak("basic", true, <roots:fire_starter>,
-    inputPatternGet([" A ", " BA"], {
-        "A" : <ore:stickWood>,
-        "B" : <ore:knife>
+        "B" : <ore:knife>.transformDamage()
 }));
 
 RecipeUtils.recipeTweak(true, <roots:pyre>,
