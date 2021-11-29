@@ -50,7 +50,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_the
         .with("B", <modularmachinery:itemmodularium>).get()
 , {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 13} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:exorcismer_controller>,
+artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:exorcism_controller>,
     inputPattern(["CBC", "BAB", "CBC"])
         .with("A", <botania:spellcloth>)
         .with("B", <botania:quartztypeelf>)
