@@ -23,8 +23,8 @@ RecipeUtils.recipeTweak(true, <contenttweaker:four_leaf_clover_necklace>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
-    [<ore:charcoal>, <ore:dustCoal>],
-    [<ore:dustCoal>, <ore:dustCoal>]
+    [<ore:fuelCoke>, <ore:dustCharcoal>],
+    [<ore:dustCharcoal>, <ore:dustCharcoal>]
 ]);
 
 RecipeUtils.recipeTweak(false, <contenttweaker:pure_iron_ingot>, [
