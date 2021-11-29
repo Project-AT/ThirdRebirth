@@ -46,7 +46,10 @@ tombstone:true_sight
 tombstone:exorcism
 tombstone:reach
 tombstone:lightning_resistance
+tombstone:frost_resistance
 tombstone:bone_shield
+tombstone:bait
+tombstone:aquatic_life
 botania:soulcross
 botania:featherfeet
 botania:emptiness
