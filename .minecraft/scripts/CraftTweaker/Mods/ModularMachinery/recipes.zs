@@ -265,3 +265,18 @@ RecipeUtils.recipeTweak(true, <modularmachinery:blockoutputbus:4>,
         "D" : <immersiveengineering:wooden_device0>,
         "E" : <ore:ingotTough>
 }));
+
+for stack in <modularmachinery:blockoutputbus>.definition.subItems {
+    RecipeUtils.recipeTweak(false, <modularmachinery:blockinputbus>.definition.makeStack(stack.metadata), [[stack]]);
+    RecipeUtils.recipeTweak(false, stack, [[<modularmachinery:blockinputbus>.definition.makeStack(stack.metadata)]]);
+}
+
+for stack in <modularmachinery:blockenergyoutputhatch>.definition.subItems {
+    RecipeUtils.recipeTweak(false, <modularmachinery:blockenergyinputhatch>.definition.makeStack(stack.metadata), [[stack]]);
+    RecipeUtils.recipeTweak(false, stack, [[<modularmachinery:blockenergyinputhatch>.definition.makeStack(stack.metadata)]]);
+}
+
+for stack in <modularmachinery:blockfluidinputhatch>.definition.subItems {
+    RecipeUtils.recipeTweak(false, <modularmachinery:blockfluidoutputhatch>.definition.makeStack(stack.metadata), [[stack]]);
+    RecipeUtils.recipeTweak(false, stack, [[<modularmachinery:blockfluidoutputhatch>.definition.makeStack(stack.metadata)]]);
+}
