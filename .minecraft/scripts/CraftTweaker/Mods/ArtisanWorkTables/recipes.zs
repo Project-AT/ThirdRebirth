@@ -84,3 +84,11 @@ RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>,
         "B" : <ore:plankWood>,
         "C" : <minecraft:chest>
 }));
+
+RecipeUtils.recipeTweak(true, <artisanworktables:workstation:5>, 
+    inputPatternGet(["CCC", "BAB", "BDB"], {
+        "A" : <artisanworktables:worktable:5>,
+        "B" : <ore:logWood>,
+        "C" : <ore:plankWood>,
+        "D" : <ore:chest>
+}));

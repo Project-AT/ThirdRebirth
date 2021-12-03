@@ -45,7 +45,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader:2>, [
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
     [<ore:livingrock>, nacrePearl, <ore:livingrock>,],
     [<ore:livingrock>, <ore:livingrock>,  <ore:livingrock>]
-], {<ore:artisansAthame> : 5, <ore:artisansGrimoire> : 5} as int[IIngredient]);
+], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader>, [
 	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
