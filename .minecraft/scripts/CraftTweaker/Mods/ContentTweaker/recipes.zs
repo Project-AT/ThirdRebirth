@@ -79,21 +79,32 @@ for k, v in recipe {
     addRecipe(k, v);
 }
 
-static partName as string = "oreAuraInfusion";
+static shard as string = "shard";
+static auraInfusion as string = "oreAuraInfusion";
 
 for ore in oreDict.entries {
     var oreName as string = ore.name;
+    var firstItem as IItemStack = ore.firstItem;
     
-    if(oreName.contains(partName)) {
-        var output as IItemStack = ore.firstItem;
-        var recipeName as string = StringHelper.getItemNameWithUnderline(output);
-        var metalName as string = RecipeUtils.getMetalNameNew(ore, partName);
+    if(oreName.contains(auraInfusion)) {
+        var recipeName as string = StringHelper.getItemNameWithUnderline(firstItem);
+        var metalName as string = RecipeUtils.getMetalNameNew(ore, auraInfusion);
         var oreMetal as IOreDictEntry = oreDict.get("ore" ~ metalName);
 
         if(!isNull(oreMetal) && !oreMetal.empty) {
-            Altar.addRecipe(recipeName, oreMetal, output, null, 2000, 80);
+            Altar.addRecipe(recipeName, oreMetal, firstItem, null, 2000, 80);
+        }
+        continue;
+    }
+
+    if(oreName.contains(shard)) {
+        var metalName as string = RecipeUtils.getMetalNameNew(ore, shard);
+        var oreMetal as IOreDictEntry = oreDict.get("ingot" ~ metalName);
+        if(!isNull(oreMetal) && !oreMetal.empty) {
+            RecipeUtils.recipeTweak(false, oreMetal.firstItem, [[ore * 3]]);
         }
     }
+
 }
 
 function addRecipe(b as IOreDictEntry, a as IOreDictEntry) {
