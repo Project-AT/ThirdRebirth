@@ -37,7 +37,7 @@ var materials_ as int[string] = {
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
 oreProcess.addParts(["shard", "crushed_ore"] as string[]);
 oreProcess.registerNormalPart("ore_enriched", "ore", true);
-oreProcess.registerNormalPart("ore_mana_enriched", "ore", true);
+oreProcess.registerNormalPart("ore_aura_infusion", "ore", true);
 oreProcess.registerNormalPart("ore_crushed_enriched", "item", false);
 
 for material, color in materials {

@@ -6,8 +6,8 @@
     "textures": {
       "particle": "minecraft:blocks/stone",
       "texture": "minecraft:blocks/stone",
-      "ore": "contenttweaker:blocks/ore_mana_enriched",
-      "ore_shadow": "contenttweaker:blocks/ore_mana_enriched_shadow"
+      "ore": "contenttweaker:blocks/ore_aura_infusion",
+      "ore_shadow": "contenttweaker:blocks/ore_aura_infusion_shadow"
     }
   },
   "variants": {

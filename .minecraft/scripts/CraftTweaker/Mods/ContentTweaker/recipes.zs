@@ -1,10 +1,15 @@
 #priority 5
 #modloaded atutils
+#loader crafttweaker reloadableevents
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.naturesaura.Altar;
+
 import scripts.grassUtils.RecipeUtils;
+import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.title.flcn.tooltip"));
@@ -72,6 +77,23 @@ var recipe as IOreDictEntry[IOreDictEntry] = {
 
 for k, v in recipe {
     addRecipe(k, v);
+}
+
+static partName as string = "oreAuraInfusion";
+
+for ore in oreDict.entries {
+    var oreName as string = ore.name;
+    
+    if(oreName.contains(partName)) {
+        var output as IItemStack = ore.firstItem;
+        var recipeName as string = StringHelper.getItemNameWithUnderline(output);
+        var metalName as string = RecipeUtils.getMetalNameNew(ore, partName);
+        var oreMetal as IOreDictEntry = oreDict.get("ore" ~ metalName);
+
+        if(!isNull(oreMetal) && !oreMetal.empty) {
+            Altar.addRecipe(recipeName, oreMetal, output, null, 2000, 80);
+        }
+    }
 }
 
 function addRecipe(b as IOreDictEntry, a as IOreDictEntry) {

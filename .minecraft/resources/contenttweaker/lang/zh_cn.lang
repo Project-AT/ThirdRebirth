@@ -81,7 +81,7 @@ itemGroup.autotech=ContentTweakerAutoTech
 
 #Part
 contenttweaker.part.ore_enriched=富集%s矿石
-contenttweaker.part.ore_mana_enriched=魔力富集%s矿石
+contenttweaker.part.ore_aura_infusion=灵气灌注%s矿石
 contenttweaker.part.ore_crushed_enriched=富集%s脏粉
 
 #Material
