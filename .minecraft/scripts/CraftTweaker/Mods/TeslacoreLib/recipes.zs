@@ -7,10 +7,6 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslacorelib:machine_case>,
-	RecipeUtils.createCrossWithCore(<embers:mech_core>, <ore:stonePolished>, <minecraft:redstone>)
-, {<ore:artisansDriver> : 5, <ore:artisansSpanner> : 8} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("engineer", true, <teslacorelib:machine_case>,
 	RecipeUtils.createCrossWithCore(<immersiveengineering:material:27>, <quark:polished_stone>, <ore:ingotSteel>)
 , {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 5} as int[IIngredient]);
 

@@ -6,7 +6,7 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-var recipeName = [
+var recipeNames = [
     "quark:chest",
     "quark:custom_chest_1",
     "quark:custom_chest_3",
@@ -15,6 +15,6 @@ var recipeName = [
     "quark:custom_chest_9",
 ] as string[];
 
-for str in recipeName {
+for str in recipeNames {
     recipes.removeByRecipeName(str);
 }
