@@ -101,7 +101,10 @@ for ore in oreDict.entries {
         var metalName as string = RecipeUtils.getMetalNameNew(ore, shard);
         var oreMetal as IOreDictEntry = oreDict.get("ingot" ~ metalName);
         if(!isNull(oreMetal) && !oreMetal.empty) {
-            RecipeUtils.recipeTweak(false, oreMetal.firstItem, [[ore * 3]]);
+            var metal as IItemStack = oreMetal.firstItem;
+            var recipeName as string = StringHelper.getItemNameWithUnderline(metal);
+            
+            recipes.addShapeless(recipeName, metal, [ore, ore, ore]);
         }
     }
 
