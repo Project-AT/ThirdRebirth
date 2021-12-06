@@ -32,23 +32,12 @@ for log in <ore:logWood>.items {
 		baseCraftPlank(log);
 	}
 }
-for item in <ore:plankWood>.items {
-	for recipe in recipes.getRecipesFor(item) {
-		var rec1D as IIngredient[] = recipe.ingredients1D;
-		if(rec1D.length == 1) {
-			for i in rec1D[0].items {
-				if(<ore:logWood>.matches(i)) {
-					recipes.removeByRecipeName(recipe.fullResourceDomain);
-					recipes.addShapeless(<survivalist:chopping_block>, rec1D);
-				}
-			}
-		}
-	}
-}
+
 function baseCraftPlank(log as IItemStack) as void {
 	val plank as IItemStack = recipes.craft([[log]]);
 	if(isNull(plank)) return;
 	log2PlankMap[log] = plank.withAmount(1);
-	recipes.removeShaped(plank,[[log]]);
-	artisanUtils.RecipeTweakWithTools("basic",false,plank * 4,[[log]],{<ore:artisansHandsaw> : 2});
+	recipes.removeShaped(plank, [[log]]);
+	recipes.addShapeless(<survivalist:chopping_block>, [log]);
+	artisanUtils.RecipeTweakWithTools("basic", false, plank * 4, [[log]], {<ore:artisansHandsaw> : 2});
 }
