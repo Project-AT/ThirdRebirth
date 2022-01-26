@@ -12,8 +12,8 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <teslacorelib:machine_case>,
 
 RecipeUtils.recipeTweak(true, <teslacorelib:base_addon>, 
     inputPatternGet(["A A", " B", "A A"], {
-        "A" : <pneumaticcraft:plastic:12>,
-        "B" : <minecraft:redstone>
+        "B" : <pneumaticcraft:plastic:12>,
+        "A" : <minecraft:redstone>
 }));
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:tree_farm>,
@@ -82,3 +82,37 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:animal_releas
         "D" : <teslacorelib:machine_case>,
         "E" : <embers:wrapped_sealed_planks>
 }), {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:item_liquefier>,
+	inputPatternGet(["EBE", "BDB", "ECE"], {
+        "B" : <ore:plateInvar>,
+        "C" : <immersiveengineering:metal_device1:1>,
+        "D" : <teslacorelib:machine_case>,
+        "E" : <ore:ingotSteel>
+}), {<ore:artisansDriver> : 7, <ore:artisansSpanner> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:fluid_compound_producer>,
+	inputPatternGet(["EAE", "BDB", "ECE"], {
+        "B" : <ore:plateSteel>,
+        "C" : <immersiveengineering:metal_decoration0:4>,
+        "D" : <teslacorelib:machine_case>,
+        "E" : <ore:ingotSteel>,
+        "A" : <ore:fanSteel>
+}), {<ore:artisansDriver> : 7, <ore:artisansSpanner> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:powered_kiln>,
+	inputPatternGet(["EAE", "BDB", "ECE"], {
+        "B" : <ore:plateSteel>,
+        "C" : <modularmachinery:blockcasing:2>,
+        "D" : <teslacorelib:machine_case>,
+        "E" : <ore:ingotSteel>,
+        "A" : <immersiveengineering:metal_decoration0>
+}), {<ore:artisansDriver> : 7, <ore:artisansSpanner> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:fluid_solidifier>,
+	inputPatternGet(["ECE", "BDB", "ECE"], {
+        "B" : <ore:plateInvar>,
+        "C" : <ore:obsidian>,
+        "D" : <teslacorelib:machine_case>,
+        "E" : <ore:ingotInvar>
+}), {<ore:artisansDriver> : 7, <ore:artisansSpanner> : 3} as int[IIngredient]);
