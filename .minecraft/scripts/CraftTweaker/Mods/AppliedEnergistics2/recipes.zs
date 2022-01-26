@@ -7,6 +7,8 @@ import scripts.grassUtils.RecipeUtils;
 
 var ingotTwo as IIngredient = <ore:ingotElectricalSteel> | <ore:ingotPureIron>;
 
+furnace.remove(<appliedenergistics2:material:5>);
+
 RecipeUtils.recipeTweak(true, <appliedenergistics2:view_cell>, 
     RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, ingotTwo, <ore:fusedQuartz>)
 );
