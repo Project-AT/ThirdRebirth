@@ -6,6 +6,7 @@ import mods.randomtweaker.botania.IHydroangeas;
 
 
 var manaRecipe as ILiquidStack[int] = {
+    2000 : <liquid:eutrophic_water>,
     2800 : <liquid:liquid_sunshine>,
     4000 : <liquid:nutrient_distillation>,
     5500 : <liquid:ender_distillation>
