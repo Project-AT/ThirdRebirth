@@ -8,18 +8,17 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var orePlainNames as string[] = [
-    "PureIron", "Iron"
+    "PureIron", "Iron", "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "Dawnstone"
 ];
 
 var oreNames as string[] = [
-    "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "Tin", "Nickel",
-    "Invar", "Bronze", "Constantan", "Electrum", "Steel", "Titanium", "TitaniumIridium", 
+    "Tin", "Nickel", "Invar", "Bronze", "Constantan", "Electrum", "Steel", "Titanium", "TitaniumIridium", 
     "TitaniumAluminide", "Germanium", "Tough","Enderium", "Signalum", "Lumium", "Iridium", 
     "Mithril", "HighStrengthAluminumAlloy"
 ];
 
 var onlyPlateOreNames as string[] = [
-    "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium", "Dawnstone"
+    "Uranium", "Electricium", "Skyfather", "Mystic", "Tritanium"
 ];
 
 var oreStickOrRodTemp as string[] = [];
