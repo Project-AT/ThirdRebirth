@@ -15,3 +15,5 @@ pureDaisyTweak(<naturesaura:infused_stone>, <botania:livingrock>);
 pureDaisyTweak(<naturesaura:ancient_bark>, <botania:livingwood>);
 
 PureDaisy.addRecipe(<naturesaura:ancient_log>, <botania:livingwood>);
+
+PureDaisy.addRecipe(<liquid:tf-sewage>, <teslathingies:dung_block>);
