@@ -80,7 +80,7 @@
   "crafttweaker": "4.1.20",
   "mysticalworld": "1.12.2-1.11.0",
   "ido": "2.0.0-B",
-  "forge": "14.23.5.2855",
+  "forge": "14.23.5.2860",
   "phosphor-lighting": "1.12.2-0.2.7",
   "ftbutilities": "5.4.1.131",
   "wpt": "1.0.3",
