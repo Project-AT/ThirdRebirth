@@ -33,3 +33,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <lightningcraft:lightning_ce
     [<ore:plateSkyfather>,<lightningcraft:lightning_cell>, <ore:plateSkyfather>],
     [<ore:rodGold>, <ore:ingotSilver>, <ore:rodGold>]
 ], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 8} as int[IIngredient]);
+
+for i in 0 .. 10 {
+    recipes.remove(<lightningcraft:plate>.definition.makeStack(i));
+}

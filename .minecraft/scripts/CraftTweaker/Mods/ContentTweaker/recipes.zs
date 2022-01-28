@@ -62,7 +62,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>,
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <contenttweaker:sensitive_element> * 3, 
     inputPattern("Z Z", "GFG", "XZX")
-        .with("Z", <ore:paper>)
+        .with("Z", <ore:plasticWhite>)
         .with("G", <enderio:item_material:5>)
         .with("F", <ore:dustGermanium>)
         .with("X", <ore:wireElectrum>).get()
@@ -72,7 +72,8 @@ var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,
     <ore:ingotExtreme> : <ore:blockExtreme>,
     <ore:ingotRustyIron> : <ore:blockRustyIron>,
-    <ore:ingotHighStrengthAluminumAlloy> : <ore:blockHighStrengthAluminumAlloy>
+    <ore:ingotHighStrengthAluminumAlloy> : <ore:blockHighStrengthAluminumAlloy>,
+    <ore:ingotPureIron> : <ore:blockPureIron>
 };
 
 for k, v in recipe {
