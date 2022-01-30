@@ -95,7 +95,6 @@ for ore in oreDict.entries {
         if(!isNull(oreMetal) && !oreMetal.empty) {
             Altar.addRecipe(recipeName, oreMetal, firstItem, null, 2000, 80);
         }
-        continue;
     }
 
     if(oreName.contains(shard)) {
