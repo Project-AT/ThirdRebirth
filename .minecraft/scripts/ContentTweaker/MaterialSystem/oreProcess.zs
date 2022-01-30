@@ -35,7 +35,7 @@ var materials_ as int[string] = {
 };
 
 var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process");
-oreProcess.addPart("shard");
+oreProcess.addParts(["shard", "clump"]);
 oreProcess.registerNormalPart("ore_enriched", "ore", true);
 oreProcess.registerNormalPart("ore_aura_infusion", "ore", true);
 oreProcess.registerNormalPart("ore_crushed_infused", "item", false);
