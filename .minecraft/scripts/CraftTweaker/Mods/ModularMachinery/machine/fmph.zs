@@ -7,10 +7,10 @@ import crafttweaker.world.IWorld;
 import crafttweaker.world.IFacing;
 import crafttweaker.world.IBlockPos;
 
-import mods.modularcontroller.IOType;
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularcontroller.MachineRecipeBaseEvent;
 import mods.modularcontroller.RecipeModifierOperation;
-import mods.modularcontroller.MachineRecipeStartEvent;
+import mods.modularcontroller.MachineRecipeCompleteEvent;
 
 var recipes as int[][int] = {
     1 : [8 , 8, 4800],
@@ -27,29 +27,29 @@ for key, value in recipes {
     .build();
 }
 
-events.onMachineRecipeStart(function(event as MachineRecipeStartEvent) {
+events.onMachineRecipeComplete(function(event as MachineRecipeCompleteEvent) {
     var machineName as string = event.machineID;
 
     if(machineName has "fmph_mk") {
-        var machineLevel as int = machineName.split(":")[1].substring(7) as int;
-        var elementium as int = getElementiumBlockAmount(event, machineLevel) * 200;
-        var elvenQuartz as int = getElvenQuartzBlockAmount(event, machineLevel) * 50;
+        var machineLevel as int = machineName.split(":")[1].substring("fmph_mk".length) as int;
+        var elvenQuartzAdd as int = getElvenQuartzBlockAmount(event, machineLevel) * 50;
+        var elementiumAdd as int = getElementiumBlockAmount(event, machineLevel) * 200;
         var sparkManaHatch as IBlock = getSparkManaHatch(machineLevel, event);
+        var totallyAdd as int = elvenQuartzAdd + elementiumAdd;
+        var recipeMana as int = recipes[machineLevel][2];
 
-        if(elementium + elvenQuartz + recipes[machineLevel][2] > (1000000 - sparkManaHatch.data.mana.asInt())) {
-            event.setFailed("autotech.machine.failed");
-        } else {
-            event.addModifier("gugu-utils:mana", IOType.output(), elementium + elvenQuartz, RecipeModifierOperation.addition());
+        if(totallyAdd + recipeMana < (1000000 - sparkManaHatch.data.mana.asInt())) {
+            event.addModifier("gugu-utils:mana", totallyAdd, RecipeModifierOperation.addition());
         }
     }
 });
 
-function getSparkManaHatch(level as int, event as MachineRecipeStartEvent) as IBlock {
+function getSparkManaHatch(level as int, event as MachineRecipeBaseEvent) as IBlock {
     var newPos as IBlockPos = event.pos.getOffset(event.facing.opposite, 1).up(level);
     return event.world.getBlock(newPos);
 }
 
-function getElementiumBlockAmount(event as MachineRecipeStartEvent, level as int) as int {
+function getElementiumBlockAmount(event as MachineRecipeBaseEvent, level as int) as int {
     var amount as int = 0;
     var world as IWorld = event.world;
 
@@ -69,7 +69,7 @@ function getElementiumBlockAmount(event as MachineRecipeStartEvent, level as int
     return amount;
 }
 
-function getElvenQuartzBlockAmount(event as MachineRecipeStartEvent, level as int) as int {
+function getElvenQuartzBlockAmount(event as MachineRecipeBaseEvent, level as int) as int {
     var amount as int = 0;
     var world as IWorld = event.world;
 
