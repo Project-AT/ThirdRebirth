@@ -14,13 +14,25 @@ var ores as string[] = [
 ];
 
 for ore in ores {
-    var oreDictEntry as IOreDictEntry = oreDict.get("shard" ~ ore);
+    var shard as IOreDictEntry = oreDict.get("shard" ~ ore);
+    var clamp as IOreDictEntry = oreDict.get("clump" ~ ore);
 
-    if(!isNull(oreDictEntry) && !oreDictEntry.empty) {
-        for itemIn in oreDictEntry.items {
+    if(!isNull(shard) && !shard.empty) {
+        for itemIn in shard.items {
             if(itemIn.definition.owner != "contenttweaker") {
+                mods.mekanism.chemical.injection.removeRecipe(itemIn);
                 JEI.removeAndHide(itemIn);
-                oreDictEntry.remove(itemIn);
+                shard.remove(itemIn);
+            }
+        }
+    }
+
+    if(!isNull(clamp) && !clamp.empty) {
+        for itemIn in clamp.items {
+            if(itemIn.definition.owner != "contenttweaker") {
+                mods.mekanism.purification.removeRecipe(itemIn);
+                JEI.removeAndHide(itemIn);
+                clamp.remove(itemIn);
             }
         }
     }
