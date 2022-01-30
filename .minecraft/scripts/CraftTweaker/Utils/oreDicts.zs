@@ -62,13 +62,17 @@ for partName in partNames {
     for key in oreDictNames {
         var ore as IOreDictEntry = oreDict.get(partName ~ key);
         var ores as [IItemStack] = ore.items;
+
         for oreItem in ores {
             var owner = oreItem.definition.owner;
+
             if (owner == "thermalfoundation" || owner == "enderio" || owner == "nuclearcraft") {
                  for otherItem in ores {
-                    if(!(otherItem.matches(oreItem)) && (otherItem.definition.owner != "chisel")) {
-                        if (otherItem.definition.owner == "netherendingores" || 
-                            otherItem.definition.owner == "contenttweaker") continue;
+                    var otherOwner as string = otherItem.definition.owner;
+
+                    if(!(otherItem.matches(oreItem)) && (otherOwner != "chisel")) {
+                        if (otherOwner == "netherendingores" || otherOwner == "contenttweaker") 
+                            continue;
                         JEI.removeAndHide(otherItem);
                         ore.remove(otherItem);
                     }

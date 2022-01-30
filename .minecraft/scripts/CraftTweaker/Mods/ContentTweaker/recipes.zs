@@ -100,6 +100,7 @@ for ore in oreDict.entries {
     if(oreName.contains(shard)) {
         var metalName as string = RecipeUtils.getMetalNameNew(ore, shard);
         var oreMetal as IOreDictEntry = oreDict.get("ingot" ~ metalName);
+        
         if(!isNull(oreMetal) && !oreMetal.empty) {
             var metal as IItemStack = oreMetal.firstItem;
             var recipeName as string = StringHelper.getItemNameWithUnderline(metal);
