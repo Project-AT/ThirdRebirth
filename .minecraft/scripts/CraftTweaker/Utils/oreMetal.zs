@@ -32,6 +32,9 @@ for index, i in orePlainNames {
         [ingot, ingot]
     ], {<ore:artisansHammer> : 4} as int[IIngredient]);
 
+    
+    if(i == "Dawnstone") continue;
+
     artisanUtils.RecipeTweakWithTools("blacksmith", true, gear.firstItem, [
         [null, ingot, null],
         [ingot, null, ingot],
