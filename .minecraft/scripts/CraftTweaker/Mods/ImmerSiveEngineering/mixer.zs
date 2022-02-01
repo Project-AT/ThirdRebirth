@@ -10,8 +10,8 @@ Mixer.addRecipe(<liquid:nutrient_distillation> * 1000, <liquid:eutrophic_water> 
     [<teslathingies:dung_block>, <ore:cropNetherWart>], 20480);
 
 Mixer.addRecipe(<liquid:eutrophic_water> * 1000, <liquid:water> * 1000, 
-    [<ore:listAllfruit> * 4 ], 20480);
+    [<ore:listAllfruit> * 4, <ore:listAllsugar>], 20480);
 Mixer.addRecipe(<liquid:eutrophic_water> * 1000, <liquid:water> * 1000, 
-    [<ore:listAllveggie> * 4], 20480);
+    [<ore:listAllveggie> * 4, <ore:listAllsugar>], 20480);
 Mixer.addRecipe(<liquid:eutrophic_water> * 1000, <liquid:water> * 1000, 
-    [<ore:listAllmeatraw> * 2], 20480);
+    [<ore:listAllmeatraw> * 2, <ore:listAllsugar>], 20480);
