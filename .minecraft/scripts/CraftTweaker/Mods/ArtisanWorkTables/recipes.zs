@@ -6,7 +6,7 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-RecipeUtils.recipeTweak(true, <artisanworktables:design_pattern>, [
+RecipeUtils.recipeTweak(true, <artisanworktables:design_pattern> * 3, [
     [<ore:paper>, <ore:dyeBlue>],
     [<ore:paper>, <ore:paper>]
 ]);
