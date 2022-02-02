@@ -1,8 +1,7 @@
-
 #priority -5
 #modloaded atutils
 #loader crafttweaker reloadableevents
-#suppress all
+#ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
@@ -59,10 +58,10 @@ for oreName in oreNames {
         mods.appliedenergistics2.Grinder.removeRecipe(ore.firstItem);
         mods.appliedenergistics2.Grinder.addRecipe(dust.firstItem, ore.firstItem, 8, dust.firstItem, 0.75);
 
-        mods.integrateddynamics.Squeezer.removeRecipe(ore.firstItem);
+        //mods.integrateddynamics.Squeezer.removeRecipe(ore.firstItem);
         mods.integrateddynamics.Squeezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 0.75);
 
-        mods.integrateddynamics.MechanicalSqueezer.removeRecipe(ore.firstItem);
+        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(ore.firstItem);
         mods.integrateddynamics.MechanicalSqueezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 1.0);
 
         var name as string = StringHelper.getItemNameWithUnderline(dust.firstItem) ~ num;
@@ -92,10 +91,10 @@ for oreName in oreNames {
         mods.appliedenergistics2.Grinder.removeRecipe(oreAuraInfusion.firstItem);
         mods.appliedenergistics2.Grinder.addRecipe(oreCrushedInfused.firstItem, oreAuraInfusion.firstItem, 8, oreCrushedInfused.firstItem, 1.0);
 
-        mods.integrateddynamics.Squeezer.removeRecipe(oreAuraInfusion.firstItem);
+        //mods.integrateddynamics.Squeezer.removeRecipe(oreAuraInfusion.firstItem);
         mods.integrateddynamics.Squeezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
 
-        mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
+        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
         mods.integrateddynamics.MechanicalSqueezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreCrushedInfused.firstItem) ~ num;
@@ -126,10 +125,10 @@ for oreName in oreNames {
         mods.appliedenergistics2.Grinder.removeRecipe(oreEnriched.firstItem);
         mods.appliedenergistics2.Grinder.addRecipe(oreCrushedEnriched.firstItem, oreEnriched.firstItem, 8, oreCrushedEnriched.firstItem, 1.0);
 
-        mods.integrateddynamics.Squeezer.removeRecipe(oreEnriched.firstItem);
+        //mods.integrateddynamics.Squeezer.removeRecipe(oreEnriched.firstItem);
         mods.integrateddynamics.Squeezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem, 1.0, oreCrushedEnriched.firstItem, 1.0);
 
-        mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreEnriched.firstItem);
+        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreEnriched.firstItem);
         mods.integrateddynamics.MechanicalSqueezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem * 2, 1.0, dust.firstItem, 0.25);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreCrushedEnriched.firstItem) ~ num;
@@ -159,10 +158,10 @@ for oreName in oreNames {
         mods.appliedenergistics2.Grinder.removeRecipe(crystal.firstItem);
         mods.appliedenergistics2.Grinder.addRecipe(dust.firstItem * 2, crystal.firstItem, 8, dust.firstItem, 1.0);
 
-        mods.integrateddynamics.Squeezer.removeRecipe(crystal.firstItem);
+        //mods.integrateddynamics.Squeezer.removeRecipe(crystal.firstItem);
         mods.integrateddynamics.Squeezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
 
-        mods.integrateddynamics.MechanicalSqueezer.removeRecipe(crystal.firstItem);
+        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(crystal.firstItem);
         mods.integrateddynamics.MechanicalSqueezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(dust.firstItem) ~ num;
