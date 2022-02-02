@@ -1,7 +1,6 @@
 #priority -5
 #modloaded atutils
 #loader crafttweaker reloadableevents
-#ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
