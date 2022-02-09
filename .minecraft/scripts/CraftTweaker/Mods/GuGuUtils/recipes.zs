@@ -97,3 +97,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <gugu-utils:environmenthatch
     [<psi:exosuit_sensor:1>, <modularmachinery:blockcasing>, <psi:exosuit_sensor:3>],
     [null, <psi:exosuit_sensor:2>]
 ], {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 5});
+
+artisanUtils.RecipeTweakWithTools("mage", true, <gugu-utils:lenstransform>, 
+    inputPattern(" A", "ABA", " A")
+        .with("A", <ore:nuggetTerrasteel>)
+        .with("B", <botania:lens>).get()
+, {<ore:artisansAthame> : 22});

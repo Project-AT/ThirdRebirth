@@ -49,7 +49,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader>, [
 	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
-    [<ore:ingotGold>, nacrePearl, null],
+    [<ore:ingotGold>, nacrePearl],
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
@@ -66,7 +66,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:alfheimportal>, [
 ], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:runealtar>, 
-    inputPattern("ABA", " C ", "AAA")
+    inputPattern("ABA", " C", "AAA")
         .with("A", <ore:livingrock>)
         .with("B", <contenttweaker:mana_crystal>)
         .with("C", <ore:manaDiamond>).get()

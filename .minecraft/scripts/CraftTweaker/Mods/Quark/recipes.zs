@@ -18,3 +18,9 @@ var recipeNames = [
 for str in recipeNames {
     recipes.removeByRecipeName(str);
 }
+
+RecipeUtils.recipeTweak(true, <quark:iron_rod>, [
+    [null, <ore:stickIron>],
+    [null, <ore:stickIron>],
+    [null, <ore:ingotIron>]
+]);

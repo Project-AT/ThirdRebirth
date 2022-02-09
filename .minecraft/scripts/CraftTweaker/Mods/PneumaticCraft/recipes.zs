@@ -18,3 +18,62 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
         .with("C", <ore:itemSimpleMachineChassi>)
         .with("K", <ore:blockCopper>).get()
 , {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:transistor>,
+    inputPattern(["Q", " W", "E E"])
+        .with("Q", <ore:plasticBlack>)
+        .with("W", <ore:gemRedstone>)
+        .with("E", <ore:nuggetPureIron>).get()
+, {<ore:artisansSolderer> : 22});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:capacitor>,
+    inputPattern(["Q", " W", "E E"])
+        .with("Q", <ore:plasticBlue>)
+        .with("W", <ore:dustBedrock>)
+        .with("E", <ore:nuggetPureIron>).get()
+, {<ore:artisansSolderer> : 22});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:air_compressor>,
+    inputPattern(["EEE", "EQW", "ESE"])
+        .with("Q", <modularmachinery:blockcasing:2>)
+        .with("W", <pneumaticcraft:pressure_tube>)
+        .with("S", <teslacorelib:machine_case>)
+        .with("E", <ore:ingotSteel>).get()
+, {<ore:artisansSpanner> : 29, <ore:artisansDriver> : 26});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_tube> * 8,
+    inputPattern(["QAQ"])
+        .with("Q", <ore:ingotSteel>)
+        .with("A", <ore:plateSteel>).get()
+, {<ore:artisansSpanner> : 22});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_chamber_wall>,
+    inputPattern(["QAQ", "AQA", "QAQ"])
+        .with("Q", <ore:ingotSteel>)
+        .with("A", <ore:blockIronCompressed>).get()
+, {<ore:artisansSpanner> : 29, <ore:artisansDriver> : 26});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:vortex_tube>,
+    inputPattern(["QAQ", "WAW", "QQQ"])
+        .with("Q", <ore:ingotSteel>)
+        .with("W", <ore:ingotCopper>)
+        .with("A", <pneumaticcraft:pressure_tube>).get()
+, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneumatic_processing_plant>,
+    inputPattern(["QAQ", "UFO", "QAQ"])
+        .with("Q", <ore:ingotSteel>)
+        .with("U", <pneumaticcraft:pressure_tube>)
+        .with("F", <ore:blockSteel>)
+        .with("O", <ore:ingotCopper>)
+        .with("A", <ore:blockGlassHardened>).get()
+, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+
+artisanUtils.RecipeTweak("engineer", true, <pneumaticcraft:plastic_mixer>,
+    inputPattern(["QAQ", "AEA", "QWQ"])
+        .with("Q", <ore:plateSteel>)
+        .with("W", <ore:ingotSteel>)
+        .with("E", <ore:blockSteel>)
+        .with("A", <ore:blockGlassHardened>).get()
+);
+

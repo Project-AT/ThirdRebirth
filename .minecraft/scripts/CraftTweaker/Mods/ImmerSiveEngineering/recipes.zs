@@ -183,3 +183,19 @@ artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:bluepr
 , {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithLiquid("basic", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:air_compressor> * 2,
+    inputPattern(["QWQ", "EQE", "SSS"])
+        .with("Q", <ore:wireCopper>)
+        .with("W", <embers:archaic_circuit>)
+        .with("S", <contenttweaker:insulating_substrate>)
+        .with("E", <ore:electronTube>).get()
+, {<ore:artisansSolderer> : 23});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:27>,
+    inputPattern(["Q Q", "EQE", "SSS"])
+        .with("Q", <ore:wireCopper>)
+        .with("W", <embers:archaic_circuit>)
+        .with("S", <contenttweaker:insulating_substrate>)
+        .with("E", <ore:electronTube>).get()
+, {<ore:artisansSolderer> : 21});
