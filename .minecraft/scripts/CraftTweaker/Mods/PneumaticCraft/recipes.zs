@@ -3,6 +3,8 @@
 
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])
         .with("D", <immersiveengineering:material:27>)
@@ -20,14 +22,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
 , {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:transistor>,
-    inputPattern(["Q", " W", "E E"])
+    inputPattern([" Q", " W", "E E"])
         .with("Q", <ore:plasticBlack>)
         .with("W", <ore:gemRedstone>)
         .with("E", <ore:nuggetPureIron>).get()
 , {<ore:artisansSolderer> : 22});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:capacitor>,
-    inputPattern(["Q", " W", "E E"])
+    inputPattern([" Q", " W", "E E"])
         .with("Q", <ore:plasticBlue>)
         .with("W", <ore:dustBedrock>)
         .with("E", <ore:nuggetPureIron>).get()
@@ -69,11 +71,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
         .with("A", <ore:blockGlassHardened>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
 
-artisanUtils.RecipeTweak("engineer", true, <pneumaticcraft:plastic_mixer>,
-    inputPattern(["QAQ", "AEA", "QWQ"])
-        .with("Q", <ore:plateSteel>)
-        .with("W", <ore:ingotSteel>)
-        .with("E", <ore:blockSteel>)
-        .with("A", <ore:blockGlassHardened>).get()
-);
+recipes.remove(<pneumaticcraft:plastic_mixer>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>],
+    [<ore:blockGlassHardened>, <modularmachinery:blockcasing>, <ore:blockGlassHardened>],
+    [<ore:plateSteel>, <thermalfoundation:material:160>, <ore:plateSteel>]])
+  .addOutput(<pneumaticcraft:plastic_mixer>)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .create();
 

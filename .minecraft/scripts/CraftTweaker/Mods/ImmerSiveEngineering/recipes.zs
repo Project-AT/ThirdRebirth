@@ -27,7 +27,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_dec
 ], {<ore:artisansTrowel> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:26> * 3, [
-	[null, <ore:blockGlass>, null],
+	[null, <ore:blockGlass>],
     [<ore:blockGlass>, <ore:wireCopper>, <ore:blockGlass>],
     [<minecraft:redstone>, <ore:plateNickel>, <minecraft:redstone>]
 ], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 3} as int[IIngredient]);
@@ -38,12 +38,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansHammer> : 6} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:27>, [
-	[<ore:wireCopper>, <embers:archaic_circuit>, <ore:wireCopper>],
-    [<immersiveengineering:material:26>, <ore:wireCopper>, <immersiveengineering:material:26>],
-    [<contenttweaker:insulating_substrate>, <contenttweaker:insulating_substrate>, <contenttweaker:insulating_substrate>]
-], {<ore:artisansSolderer> : 6} as int[IIngredient]);
-
 artisanUtils.RecipeTweakWithTools("blacksmith", true, <immersiveengineering:metal_device0:4>, [
 	[<ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>],
     [<ore:blockSheetmetalIron>, null, <ore:blockSheetmetalIron>],
@@ -52,7 +46,7 @@ artisanUtils.RecipeTweakWithTools("blacksmith", true, <immersiveengineering:meta
 
 artisanUtils.RecipeTweakWithTools("basic", true, <libvulpes:productfan:6>, [
     [<ore:plateSteel>, null, <ore:plateSteel>],
-    [null, <ore:rodSteel>, null],
+    [null, <ore:rodSteel>],
     [<ore:plateSteel>, null, <ore:plateSteel>]
 ], {<ore:artisansHammer> : 2, <ore:artisansDriver> : 2} as int[IIngredient]);
 
@@ -184,7 +178,7 @@ artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:bluepr
 
 artisanUtils.RecipeTweakWithLiquid("basic", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:air_compressor> * 2,
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:27> * 2,
     inputPattern(["QWQ", "EQE", "SSS"])
         .with("Q", <ore:wireCopper>)
         .with("W", <embers:archaic_circuit>)
