@@ -1,6 +1,7 @@
 #priority 5
 #modloaded atutils
 
+import mods.zenutils.NetworkHandler;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -17,8 +18,13 @@ for toolType in toolTypes {
     stone.maxDamage = 1;
 }
 
+addRegexLogFilter("(.*)No Mekanism(.*)");
 <entity:minecraft:creeper>.addDrop(<ore:dustSulfur>.firstItem, 0, 2);
 <entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>, 0, 3);
+
+NetworkHandler.registerServer2ClientMessage("atutils.end_portal.spawn", function(player, byteBuf) {
+    player.playSound("minecraft:block.end_portal.spawn", 1.0F, 1.0F);
+});
 
 static log2PlankMap as IItemStack[IItemStack] = {};
 
