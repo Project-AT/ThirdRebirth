@@ -17,3 +17,5 @@ ChemicalReactor.addRecipe(<liquid:sulfur_trioxide> * 500, 400, 20, <liquid:sulfu
 ChemicalReactor.addRecipe(<liquid:sulfuric_acid> * 500, 400, 20, <liquid:sulfur_trioxide> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:ethanol> * 2000, 400, 20, <liquid:sugar> * 72, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:sic_vapor> * 4000, 400, 20, [<liquid:coal> * 1000, <liquid:quartz> * 1000]);
+ChemicalReactor.addRecipe(<liquid:sulfuric_acid> * 1000, 400, 20, [<liquid:sulfur> * 333, <liquid:steam> * 1000]);
+ChemicalReactor.addRecipe(<liquid:ethene> * 1000, 400, 20, [<liquid:lpg> * 1000, <liquid:sulfuric_acid> * 1000]);

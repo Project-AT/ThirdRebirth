@@ -1,5 +1,7 @@
 #priority 5
 #modloaded atutils
 
-mods.immersiveengineering.Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
-mods.immersiveengineering.Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustCoke>, 2048);
+import mods.immersiveengineering.Squeezer;
+
+Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
+Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustCoke>, 2048);
