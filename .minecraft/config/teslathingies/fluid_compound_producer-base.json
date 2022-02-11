@@ -1,8 +1,32 @@
 [
-  {
-    "_comment": "Molten Tesla + Fluid Redstone => More Molten Tesla",
-    "input_a": { "name": "tf-molten_tesla", "quantity": 100 },
-    "input_b": { "name": "redstone", "quantity": 100 },
-    "output": { "name": "tf-molten_tesla", "quantity": 150 }
-  }
+    {
+        "_comment": "Molten Tesla + Fluid Redstone => More Molten Tesla",
+        "input_a": {
+            "name": "tf-molten_tesla",
+            "quantity": 100
+        },
+        "input_b": {
+            "name": "redstone",
+            "quantity": 100
+        },
+        "output": {
+            "name": "tf-molten_tesla",
+            "quantity": 150
+        }
+    },
+    {
+        "_comment": "sulfur + steam => sulfuric_acid",
+        "input_a": {
+            "name": "sulfur",
+            "quantity": 333
+        },
+        "input_b": {
+            "name": "steam",
+            "quantity": 1000
+        },
+        "output": {
+            "name": "sulfuric_acid",
+            "quantity": 1000
+        }
+    }
 ]

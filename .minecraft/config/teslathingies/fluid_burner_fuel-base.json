@@ -1,4 +1,12 @@
 [
-  { "name": "lava", "quantity": 100, "ticks": 600 },
-  { "name": "redstone", "quantity": 100, "ticks": 1000 }
+    {
+        "name": "lava",
+        "quantity": 100,
+        "ticks": 600
+    },
+    {
+        "name": "redstone",
+        "quantity": 100,
+        "ticks": 1000
+    }
 ]

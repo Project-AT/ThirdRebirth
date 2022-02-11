@@ -1,8 +1,21 @@
 [
-  {
-    "top_stacks": [{ "name": "obsidian" }],
-    "left_fluid": { "name": "tf-molten_tesla", "quantity": 125 },
-    "right_fluid": { "name": "tf-liquidxp", "quantity": 125},
-    "output": { "name": "teslathingies:teslified_obsidian", "quantity": 4 }
-  }
+    {
+        "top_stacks": [
+            {
+                "name": "obsidian"
+            }
+        ],
+        "left_fluid": {
+            "name": "tf-molten_tesla",
+            "quantity": 125
+        },
+        "right_fluid": {
+            "name": "tf-liquidxp",
+            "quantity": 125
+        },
+        "output": {
+            "name": "teslathingies:teslified_obsidian",
+            "quantity": 4
+        }
+    }
 ]
