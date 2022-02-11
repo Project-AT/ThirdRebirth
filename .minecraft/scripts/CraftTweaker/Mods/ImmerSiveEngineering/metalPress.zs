@@ -23,9 +23,6 @@ for i in 1 to 4 {
     MetalPress.removeRecipe(<immersiveengineering:material>.definition.makeStack(i));
 }
 
-MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);
-MetalPress.addRecipe(<contenttweaker:insulating_substrate> * 9, <immersiveengineering:stone_decoration:8>, <immersiveengineering:mold>, 2400);
-
 for metal in plateMetals {
     var orePlate as IOreDictEntry = oreDict.get("plate" + metal);
     var oreIngot as IOreDictEntry = oreDict.get("ingot" + metal);
@@ -39,3 +36,7 @@ for metal in rodMetals {
 
     MetalPress.addRecipe(oreRod.firstItem * 2, oreIngot, <immersiveengineering:mold:2>, 1800);
 }
+
+MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);
+MetalPress.addRecipe(<contenttweaker:insulating_substrate> * 9, <immersiveengineering:stone_decoration:8>, <immersiveengineering:mold>, 2400);
+MetalPress.addRecipe(<pneumaticcraft:empty_pcb:100>, <pneumaticcraft:plastic:2>, <pneumaticcraft:pcb_blueprint>, 2400);
