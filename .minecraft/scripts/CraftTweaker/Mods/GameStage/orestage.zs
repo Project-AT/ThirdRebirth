@@ -7,6 +7,6 @@ import mods.orestages.OreStages;
 
 for ore in oreDict.entries {
     if (ore.name.contains("ore")) {
-        OreStages.addReplacement("oreStage", ore);
+        OreStages.addNonDefaultingReplacement("oreStage", ore);
     }
 }
