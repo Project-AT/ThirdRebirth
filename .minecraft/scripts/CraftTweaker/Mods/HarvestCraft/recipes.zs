@@ -6,9 +6,7 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-RecipeUtils.recipeTweak(false, <harvestcraft:oliveoilitem> * 2, [
-    [<quark:tallow>, <harvestcraft:potitem>.reuse()]
-]);
+recipes.addShapeless(<harvestcraft:oliveoilitem> * 2, [<quark:tallow>, <harvestcraft:potitem>.reuse()]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:grinder>,
 	inputPatternGet(["CBC", "D D", "EEE"], {

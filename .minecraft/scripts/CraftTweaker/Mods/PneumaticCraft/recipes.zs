@@ -12,15 +12,6 @@ artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprin
         .with("T", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneumatic_processing_plant>,
-    inputPattern(["YBY", "GCK", "YBY"])
-        .with("Y", <ore:ingotIronCompressed>)
-        .with("B", <ore:blockGlass>)
-        .with("G", <pneumaticcraft:pressure_tube>)
-        .with("C", <ore:itemSimpleMachineChassi>)
-        .with("K", <ore:blockCopper>).get()
-, {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
-
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:transistor>,
     inputPattern([" Q", " W", "E E"])
         .with("Q", <ore:plasticBlack>)
@@ -66,16 +57,16 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
     inputPattern(["QAQ", "UFO", "QAQ"])
         .with("Q", <ore:ingotSteel>)
         .with("U", <pneumaticcraft:pressure_tube>)
-        .with("F", <ore:blockSteel>)
+        .with("F", <modularmachinery:blockcasing>)
         .with("O", <ore:ingotCopper>)
-        .with("A", <ore:blockGlassHardened>).get()
+        .with("A", <ore:fusedQuartz>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
 
 recipes.remove(<pneumaticcraft:plastic_mixer>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateSteel>, <ore:blockGlassHardened>, <ore:plateSteel>],
-    [<ore:blockGlassHardened>, <modularmachinery:blockcasing>, <ore:blockGlassHardened>],
+    [<ore:plateSteel>, <ore:fusedQuartz>, <ore:plateSteel>],
+    [<ore:fusedQuartz>, <modularmachinery:blockcasing>, <ore:fusedQuartz>],
     [<ore:plateSteel>, <thermalfoundation:material:160>, <ore:plateSteel>]])
   .addOutput(<pneumaticcraft:plastic_mixer>)
   .setMinimumTier(1)
