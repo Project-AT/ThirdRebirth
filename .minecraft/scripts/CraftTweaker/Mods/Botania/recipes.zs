@@ -78,6 +78,12 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>,
         .with("B", <contenttweaker:mana_crystal>).get()
 , {<ore:artisansGrimoire> : 16, <ore:artisansAthame> : 18} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("mage", true, <botania:pylon:1>, [
+    [null, <naturesaura:infused_iron>],
+    [<naturesaura:infused_iron>, <botania:pylon>, <naturesaura:infused_iron>],
+    [null, <minecraft:ender_eye>]
+], {<ore:artisansAthame> : 30, <ore:artisansGrimoire> : 30} as int[IIngredient]);
+
 for i in 0 to 16 {
 
     var doubleflower as IItemStack = <botania:doubleflower1>.definition.makeStack(i);

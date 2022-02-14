@@ -38,4 +38,5 @@ for i in 0 to 16 {
     
     mortarUtils(<botania:petal>.definition.makeStack(i) * 6, [doubleflower]);
     mortarUtils(<botania:petal>.definition.makeStack(i) * 3, [<botania:flower>.definition.makeStack(i)]);
+    mortarUtils(<botania:dye>.definition.makeStack(i), [<botania:petal>.definition.makeStack(i)]);
 }
