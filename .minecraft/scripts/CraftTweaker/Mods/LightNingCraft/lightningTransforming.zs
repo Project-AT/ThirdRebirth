@@ -1,6 +1,7 @@
 #priority 5
 #modloaded atutils
 
-import moretweaker.lightningcraft.LightningTransforming;
+import mods.lightningcraft.LightningTransforming;
 
-LightningTransforming.add(<lightningcraft:ingot>, [<ore:ingotCopper>, <ore:ingotSilver>, <ore:ingotManasteel>]);
+LightningTransforming.add(<lightningcraft:ingot>, 
+    [<ore:ingotCopper>.firstItem, <ore:ingotSilver>.firstItem, <ore:ingotManasteel>.firstItem]);

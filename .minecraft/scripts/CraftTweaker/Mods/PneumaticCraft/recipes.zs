@@ -40,8 +40,8 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_tub
         .with("A", <ore:plateSteel>).get()
 , {<ore:artisansSpanner> : 22});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_chamber_wall>,
-    inputPattern(["QAQ", "AQA", "QAQ"])
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_chamber_wall> * 16,
+    inputPattern(["QAQ", "A A", "QAQ"])
         .with("Q", <ore:ingotSteel>)
         .with("A", <ore:blockIronCompressed>).get()
 , {<ore:artisansSpanner> : 29, <ore:artisansDriver> : 26});
@@ -58,7 +58,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
         .with("Q", <ore:ingotSteel>)
         .with("U", <pneumaticcraft:pressure_tube>)
         .with("F", <modularmachinery:blockcasing>)
-        .with("O", <ore:ingotCopper>)
+        .with("O", <ore:blockCopper>)
         .with("A", <ore:fusedQuartz>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
 

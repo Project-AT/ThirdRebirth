@@ -6,7 +6,7 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-RecipeUtils.recipeTweak(true, <lightningcraft:stone_block>,
+RecipeUtils.recipeTweak(true, <lightningcraft:stone_block> * 4,
     RecipeUtils.createCrossWithCore(<ore:runedObsidian>, <ore:quartzDark>, <naturesaura:infused_stone>)
 );
 

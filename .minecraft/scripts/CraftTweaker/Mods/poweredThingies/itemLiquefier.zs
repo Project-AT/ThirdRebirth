@@ -10,14 +10,15 @@ import mods.poweredthingies.Tweaker.itemLiquefierTweaker;
 // todo 消耗时间，耗电量
 
 function itemLiquefier(output as ILiquidStack, input as IItemStack){
+    //(output ~ ":" ~ input);
     itemLiquefierTweaker().addRecipe(input, output);
 }
 
 val recipes as IIngredient[][ILiquidStack] = {
-    <liquid:oil_soul>  *   100 : [<minecraft:soul_sand>],
-    <liquid:dawnstone>  *   144 : [<embers:ingot_dawnstone>],
-    <liquid:dawnstone>  *   144 : [<embers:plate_dawnstone>],
-    <liquid:dawnstone>  *   16 : [<embers:nugget_dawnstone>],
+    <liquid:oil_soul> *  100 : [<minecraft:soul_sand>],
+    <liquid:dawnstone> *  144 : [<embers:ingot_dawnstone>],
+    <liquid:dawnstone> *  144 : [<embers:plate_dawnstone>],
+    <liquid:dawnstone> *  16 : [<embers:nugget_dawnstone>],
     <liquid:sulfur> *  666 : [<ore:dustSulfur>],
     <liquid:naoh> *  666 : [<ore:dustSodiumHydroxide>],
     <liquid:koh> *  666 : [<ore:dustPotassiumHydroxide>],
@@ -43,7 +44,13 @@ val recipes as IIngredient[][ILiquidStack] = {
     <liquid:purpur> *  288 : [<minecraft:purpur_block>],
     <liquid:purpur> *  72 : [<minecraft:chorus_fruit_popped>],
     <liquid:glowstone> *  250 : [<ore:dustGlowstone>],
-    <liquid:glowstone> *  1000 : [<ore:glowstone>]
+    <liquid:glowstone> *  1000 : [<ore:glowstone>],
+    <liquid:gold> *  16 : [<ore:nuggetGold>],
+    <liquid:gold> *  144 : [<ore:ingotGold>],
+    <liquid:gold> *  1296 : [<ore:blockGold>],
+    <liquid:copper> *  16 : [<ore:nuggetCopper>],
+    <liquid:copper> *  144 : [<ore:ingotCopper>],
+    <liquid:copper> *  1296 : [<ore:blockCopper>],
 };
 
 for output, inputs in recipes {

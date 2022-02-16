@@ -16,4 +16,8 @@ FluidToFluid.transform(<liquid:liquid_sunshine>, <liquid:mana_fluid>,
 FluidToFluid.transform(<liquid:ender_distillation>, <liquid:nutrient_distillation>, 
     [<ore:itemVibrantPowder>, <appliedenergistics2:material:46> * 4], true);
 FluidToFluid.transform(<liquid:eutrophic_water>, <liquid:water>, 
-    [<ore:listAllfruit> * 4 | <ore:listAllveggie> * 4 | <ore:listAllmeatraw> * 2, <ore:listAllsugar>], true);
+    [<ore:listAllfruit> * 4 , <ore:listAllsugar>], true);
+FluidToFluid.transform(<liquid:eutrophic_water>, <liquid:water>, 
+    [<ore:listAllveggie> * 4, <ore:listAllsugar>], true);
+FluidToFluid.transform(<liquid:eutrophic_water>, <liquid:water>, 
+    [<ore:listAllmeatraw> * 2, <ore:listAllsugar>], true);
