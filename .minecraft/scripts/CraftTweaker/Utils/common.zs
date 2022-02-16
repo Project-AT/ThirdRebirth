@@ -30,15 +30,15 @@ function getBlockID(block as IBlock) as string {
 }
 
 function runCommand(command as string) {
-    server.commandManager.executeCommand(server,command);
+    server.commandManager.executeCommandSilent(server,command);
 }
 
 function runTitle(title as string ,color as string , bold as bool, player as IPlayer) {
     val s = server.commandManager;
     if(!bold) {
-        s.executeCommand(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
+        s.executeCommandSilent(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"false"+",\"color\":\""+color+"\"}");
     } else {
-        s.executeCommand(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"true"+",\"color\":\""+color+"\"}");
+        s.executeCommandSilent(server,"title "+ player.name +" actionbar {\"text\":\""+title+"\",\"bold\":"+"true"+",\"color\":\""+color+"\"}");
     }
 }
 
