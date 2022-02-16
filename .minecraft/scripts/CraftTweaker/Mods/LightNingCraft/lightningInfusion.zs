@@ -2,6 +2,7 @@
 #modloaded atutils
 
 import mods.lightningcraft.LightningInfusion;
+import mods.lightningcraft.LightningTransforming;
 
 LightningInfusion.remove(<lightningcraft:stone_block:3>);
 LightningInfusion.add(<lightningcraft:stone_block:3>, <lightningcraft:stone_block>, 35,

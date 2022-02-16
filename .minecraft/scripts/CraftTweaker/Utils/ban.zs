@@ -67,7 +67,8 @@ var removeAndHide as IItemStack[] = [
     <embers:ore_quartz>,
     <mysticalworld:quartz_ore>,
     <mysticalworld:granite_quartz_ore>,
-    <nuclearcraft:gem:6>
+    <nuclearcraft:gem:6>,
+    <mysticalworld:copper_ingot>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [

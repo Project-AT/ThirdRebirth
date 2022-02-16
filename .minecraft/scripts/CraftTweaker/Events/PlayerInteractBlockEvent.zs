@@ -8,6 +8,7 @@ import crafttweaker.world.IWorld;
 import crafttweaker.block.IBlock;
 import crafttweaker.world.IBlockPos;
 
+import scripts.grassUtils.EventUtils;
 import scripts.CraftTweaker.Utils.common;
 import mods.zenutils.DelayManager;
 import mods.zenutils.NetworkHandler;
@@ -22,7 +23,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var pos as IBlockPos = event.position;
     val x as int = event.x;
     val y as int = event.y;
-    val z as int= event.z;
+    val z as int = event.z;
 
     if(!event.world.remote) {
     
@@ -33,6 +34,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 world.setBlockState(<blockstate:minecraft:air>, pos);
                 player.sendChat(game.localize("autotech.title.endportal.description"));
                 common.runCommand("summon minecraft:lightning_bolt "+ x + " " + y + " " + z);
+                DelayManager.addDelayWork(function() {
+                    EventUtils.spawnItem(world, <contenttweaker:end_portal_frame_debris>.withAmount(8 + getRandomNumber(world)), pos.add(getRandomNumber(world), 0, getRandomNumber(world)));
+                }, 20);
             } else {
                 player.sendChat(game.localize("autotech.title.endportal.dimerror"));
             }
@@ -51,3 +55,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
 });
+
+function getRandomNumber(world as IWorld) as int {
+    return world.getRandom().nextInt(4);
+}
