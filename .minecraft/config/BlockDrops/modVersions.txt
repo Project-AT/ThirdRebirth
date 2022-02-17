@@ -1,5 +1,6 @@
 {
   "blockdrops": "1.4.0",
+  "moretweaker": "1.0.19",
   "draconicevolution": "2.3.28",
   "chunkgenlimit": "1.1",
   "refraction": "1.9",
