@@ -53,6 +53,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:small_the
 artisanUtils.RecipeTweakWithTools("engineer", true, <modularcontroller:exorcism_controller>,
     inputPattern(["CBC", "BAB", "CBC"])
         .with("A", <botania:spellcloth>)
-        .with("B", <botania:quartztypeelf>)
+        .with("B", <ore:blockQuartzMana>)
         .with("C", <modularmachinery:itemmodularium>).get()
 , {<ore:artisansSpanner> : 21, <ore:artisansDriver> : 15} as int[IIngredient]);
