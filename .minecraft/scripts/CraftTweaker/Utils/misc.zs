@@ -18,8 +18,8 @@ for toolType in toolTypes {
     stone.maxDamage = 1;
 }
 
-addRegexLogFilter("(.*)Lightning-Infusion needs 4 inputs(.*)");
 addRegexLogFilter("(.*)No Mekanism(.*)");
+addRegexLogFilter("(.*)Lightning-Infusion needs 4 inputs(.*)");
 <entity:minecraft:creeper>.addDrop(<ore:dustSulfur>.firstItem, 0, 2);
 <entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>, 0, 3);
 

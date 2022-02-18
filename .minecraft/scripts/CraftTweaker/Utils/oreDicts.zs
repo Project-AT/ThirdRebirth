@@ -15,27 +15,29 @@ var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust"
 ];
 
-var oreDictAdd as IItemStack[string] = {
-    "dustCrudeSteel" : <contenttweaker:dust_crude_steel>,
-    "oreNickel" : <contenttweaker:udorenickel>,
-    "oreUranium" : <contenttweaker:udoreuranium>,
-    "oreAluminum" : <contenttweaker:udorealuminum>,
-    "oreBoron" : <contenttweaker:udoreboron>,
-    "oreLithium" : <contenttweaker:udorelithium>,
-    "oreEndLithium" : <contenttweaker:endorelithium>,
-    "oreEndRutile" : <contenttweaker:endorerutile>,
-    "oreMagnesium" : <contenttweaker:udoremagnesium>,
-    "oreThorium" : <contenttweaker:udorethorium>,
-    "oreCrudeSteel" : <contenttweaker:ironcoal_ore>,
-    "oreSkyStoneBlock" : <appliedenergistics2:sky_stone_block>,
-    "ingotRustyIron" : <contenttweaker:rusty_iron_ingot>,
-    "plateTritanium" : <matteroverdrive:tritanium_plate>,
-    "plateTough" : <contenttweaker:tough_alloy_plate>,
-    "blockRustyIron" : <atutils:rusty_iron>,
-    "dustQuartz" : <enderio:item_material:33>,
-    "stickSteel" : <lightningcraft:rod:1>,
-    "stickAluminum" : <lightningcraft:rod:4>,
-    "stickIron" : <lightningcraft:rod>
+var oreDictAdd as IItemStack[][string] = {
+    "dustCrudeSteel" : [<contenttweaker:dust_crude_steel>],
+    "oreNickel" : [<contenttweaker:udorenickel>],
+    "oreUranium" : [<contenttweaker:udoreuranium>],
+    "oreAluminum" : [<contenttweaker:udorealuminum>],
+    "oreBoron" : [<contenttweaker:udoreboron>],
+    "oreLithium" : [<contenttweaker:udorelithium>],
+    "oreEndLithium" : [<contenttweaker:endorelithium>],
+    "oreEndRutile" : [<contenttweaker:endorerutile>],
+    "oreMagnesium" : [<contenttweaker:udoremagnesium>],
+    "oreThorium" : [<contenttweaker:udorethorium>],
+    "oreCrudeSteel" : [<contenttweaker:ironcoal_ore>],
+    "oreSkyStoneBlock" : [<appliedenergistics2:sky_stone_block>],
+    "ingotRustyIron" : [<contenttweaker:rusty_iron_ingot>],
+    "plateTritanium" : [<matteroverdrive:tritanium_plate>],
+    "plateTough" : [<contenttweaker:tough_alloy_plate>],
+    "blockRustyIron" : [<atutils:rusty_iron>],
+    "dustQuartz" : [<enderio:item_material:33>],
+    "stickSteel" : [<lightningcraft:rod:1>],
+    "stickAluminum" : [<lightningcraft:rod:4>],
+    "stickIron" : [<lightningcraft:rod>],
+    "dustAsh" : [<item:botania:manaresource:23>],
+    "exosuitSensorLight" : [<psi:exosuit_sensor>, <contenttweaker:sensitive_element>]
 };
 
 var oreDictRemove as IItemStack[] = [
