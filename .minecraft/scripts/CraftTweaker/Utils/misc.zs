@@ -1,4 +1,4 @@
-#priority 5
+#priority 10
 #modloaded atutils
 
 import mods.zenutils.NetworkHandler;
