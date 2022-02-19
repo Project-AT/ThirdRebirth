@@ -84,7 +84,7 @@ itemGroup.autotech=ContentTweaker AutoTech
 contenttweaker.part.ore_enriched=Enriched %s Ore
 contenttweaker.part.ore_aura_infusion=Aura Infusion %s Ore
 contenttweaker.part.ore_crushed_enriched=Crushed Enriched %s
-contenttweaker.part.ore_crushed_infusion=Crushed Infusion %s Ore
+contenttweaker.part.ore_crushed_infused=Crushed Infused %s Ore
 
 #Material
 base.material.gold=Gold
