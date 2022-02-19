@@ -36,7 +36,6 @@ var oreDictAdd as IItemStack[][string] = {
     "stickSteel" : [<lightningcraft:rod:1>],
     "stickAluminum" : [<lightningcraft:rod:4>],
     "stickIron" : [<lightningcraft:rod>],
-    "dustAsh" : [<item:botania:manaresource:23>],
     "exosuitSensorLight" : [<psi:exosuit_sensor>, <contenttweaker:sensitive_element>]
 };
 
