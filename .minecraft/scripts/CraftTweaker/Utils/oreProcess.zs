@@ -53,6 +53,18 @@ for oreName in oreNames {
         }
     }
 
+    if(!isNull(crystal) && !crystal.empty) {
+        for itemIn in crystal.items {
+            if(itemIn.definition.owner != "contenttweaker") {
+                mods.mekanism.chemical.crystallizer.removeRecipe(itemIn);
+                JEI.removeAndHide(itemIn);
+                crystal.remove(itemIn);
+            }
+        }
+    }
+
+// -------------------------------------------------------------------------------
+
     if(!isNull(ore) && !ore.empty && !isNull(dust) && !dust.empty) {
         mods.appliedenergistics2.Grinder.removeRecipe(ore.firstItem);
         mods.appliedenergistics2.Grinder.addRecipe(dust.firstItem, ore.firstItem, 8, dust.firstItem, 0.75);
