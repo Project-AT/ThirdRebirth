@@ -39,7 +39,7 @@ events.onMachineRecipeComplete(function(event as MachineRecipeCompleteEvent) {
         var recipeMana as int = recipes[machineLevel][2];
 
         if(totallyAdd + recipeMana < (1000000 - sparkManaHatch.data.mana.asInt())) {
-            event.addModifier("gugu-utils:mana", totallyAdd, RecipeModifierOperation.addition());
+            event.addModifier("gugu-utils:mana", RecipeModifierOperation.addition() * totallyAdd);
         }
     }
 });
