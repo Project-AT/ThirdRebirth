@@ -1,9 +1,9 @@
 #priority 5
 #modloaded atutils
-#suppress all
+
 import crafttweaker.item.IItemStack;
 
-import moretweaker.lightningcraft.LightningInfusion;
+import mods.lightningcraft.LightningInfusion;
 
 
 var toRemoves as IItemStack[] = [

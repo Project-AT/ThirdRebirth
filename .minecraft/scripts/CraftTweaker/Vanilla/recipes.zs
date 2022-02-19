@@ -12,7 +12,7 @@ furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
 furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
 
 RecipeUtils.recipeTweak(true, <minecraft:crafting_table>, [
-    [null, <ore:leather>, null],
+    [null, <ore:leather>],
     [<ore:plankTreatedWood>, <primal_tech:work_stump_upgraded>, <ore:plankTreatedWood>],
     [null, <ore:ingotIron>]
 ]);

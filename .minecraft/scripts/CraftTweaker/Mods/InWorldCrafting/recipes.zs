@@ -21,3 +21,5 @@ FluidToFluid.transform(<liquid:eutrophic_water>, <liquid:water>,
     [<ore:listAllveggie> * 4, <ore:listAllsugar>], true);
 FluidToFluid.transform(<liquid:eutrophic_water>, <liquid:water>, 
     [<ore:listAllmeatraw> * 2, <ore:listAllsugar>], true);
+FluidToFluid.transform(<liquid:ichor>, <liquid:blood>, 
+    [<wizardry:devil_dust> * 10, <minecraft:magma_cream> * 4], true);

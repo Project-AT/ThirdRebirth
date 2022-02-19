@@ -66,7 +66,7 @@ recipes.remove(<pneumaticcraft:plastic_mixer>);
 RecipeBuilder.get("engineer")
   .setShaped([
     [<ore:plateSteel>, <ore:fusedQuartz>, <ore:plateSteel>],
-    [<ore:fusedQuartz>, <modularmachinery:blockcasing>, <ore:fusedQuartz>],
+    [<ore:fusedQuartz>, <teslacorelib:machine_case>, <ore:fusedQuartz>],
     [<ore:plateSteel>, <thermalfoundation:material:160>, <ore:plateSteel>]])
   .addOutput(<pneumaticcraft:plastic_mixer>)
   .setMinimumTier(1)

@@ -2,6 +2,15 @@
 #modloaded atutils
 
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
+
+var recipeNames as string[] = [
+    "xnet:connector_0"
+];
+
+for recipeName in recipeNames {
+    recipes.removeByRecipeName(recipeName);
+}
 
 RecipeUtils.recipeTweak(true, <xnet:controller>,
     inputPattern(["CYC", "THT", "CCC"])
@@ -42,3 +51,11 @@ RecipeUtils.recipeTweak(true, <xnet:netcable:3> * 6, [
     [<thermaldynamics:duct_16:2>, <thermaldynamics:duct_0:1>, <thermaldynamics:duct_32>],
     [<ore:plasticGreen>, <ore:plasticGreen>, <ore:plasticGreen>]
 ]);
+
+for i in 0 .. 4 {
+    recipes.addShaped(<xnet:connector>.definition.makeStack(i),
+        inputPattern([" Q", "QWQ", " Q"])
+            .with("Q", <xnet:netcable>.definition.makeStack(i))
+            .with("W", <rftools:sensor_block>).get()
+    );
+}
