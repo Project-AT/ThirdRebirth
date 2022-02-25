@@ -29,6 +29,7 @@ for oreName in oreNames {
     var crystal as IOreDictEntry = oreDict.get("crystal" ~ oreName);
 
     var dust as IOreDictEntry = oreDict.get("dust" ~ oreName);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ oreName);
     var oreCrushedInfused as IOreDictEntry = oreDict.get("oreCrushedInfused" ~ oreName);
     var oreCrushedEnriched as IOreDictEntry = oreDict.get("oreCrushedEnriched" ~ oreName);
     
@@ -195,5 +196,25 @@ for oreName in oreNames {
             .addItemOutput(dust.firstItem.withAmount(3))
         .build();
     }
+
+// -------------------------------------------------------------------------------
+    if(!isNull(ingot) && !ingot.empty) {
+        if(!isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
+            furnace.addRecipe(ingot.firstItem * 2, oreAuraInfusion);
+        }
+        if(!isNull(oreEnriched) && !oreEnriched.empty) {
+            furnace.addRecipe(ingot.firstItem * 3, oreEnriched);
+        }
+        if(!isNull(oreCrushedEnriched) && !oreCrushedEnriched.empty) {
+            furnace.addRecipe(ingot.firstItem * 2, oreCrushedEnriched);
+        }
+        if(!isNull(oreCrushedInfused) && !oreCrushedInfused.empty && !isNull(shard) && !shard.empty) {
+            furnace.addRecipe(shard.firstItem * 4, oreCrushedInfused);
+        }
+        if(!isNull(clamp) && !clamp.empty && !isNull(shard) && !shard.empty) {
+            furnace.addRecipe(shard.firstItem * 8, clamp);
+        }
+    }
+
 
 }

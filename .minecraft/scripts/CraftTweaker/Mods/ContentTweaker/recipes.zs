@@ -49,10 +49,16 @@ artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay
 ], {<ore:artisansMortar> : 7} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight>, [
-    [null, <roots:wildewheet>, null],
+    [null, <roots:wildewheet>],
     [<roots:salmon_of_knowledge>, <minecraft:glass_bottle>, <roots:moonglow_leaf>],
-    [null, <roots:cloud_berry>, null]
+    [null, <roots:cloud_berry>]
 ], <liquid:water> * 250, {<ore:artisansBeaker> : 135} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithAll("mage", true, <contenttweaker:ender_portal>, [
+    [<ore:ingotEnderiumBase>, <ore:pearlEnderEye>, <ore:ingotEnderiumBase>],
+    [<ore:ingotEnderiumBase>, <contenttweaker:teleport_rune>, <ore:ingotEnderiumBase>],
+    [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+], <liquid:ender> * 1000, {<ore:artisansAthame> : 64, <ore:artisansGrimoire> : 64} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>, 
     inputPattern("ABA", "GFG", "ABA")

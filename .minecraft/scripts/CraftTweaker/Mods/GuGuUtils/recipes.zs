@@ -55,7 +55,7 @@ RecipeUtils.recipeTweak(true, <gugu-utils:emberinputhatch:4>,
 RecipeUtils.recipeTweak(true, <gugu-utils:emberinputhatch:5>, 
     inputPattern(["L L", " C ", "L L"])
         .with("L", <ore:ingotDawnstone>)
-        .with("C", <gugu-utils:emberinputhatch:4>).get()
+        .with("C", <gugu-utils:emberinputhatch:2>).get()
 );
 
 RecipeUtils.recipeTweak(true, <gugu-utils:emberinputhatch:6>, 

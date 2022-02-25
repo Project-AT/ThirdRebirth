@@ -12,8 +12,6 @@ function pureDaisyTweak(input as IIngredient, output as IItemStack) as void {
 }
 
 pureDaisyTweak(<naturesaura:infused_stone>, <botania:livingrock>);
-pureDaisyTweak(<naturesaura:ancient_bark>, <botania:livingwood>);
-
-PureDaisy.addRecipe(<naturesaura:ancient_log>, <botania:livingwood>);
+pureDaisyTweak(<ore:ancientTree>, <botania:livingwood>);
 
 PureDaisy.addRecipe(<liquid:tf-sewage>, <teslathingies:dung_block>);

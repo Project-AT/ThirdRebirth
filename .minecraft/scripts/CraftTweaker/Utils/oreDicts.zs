@@ -36,7 +36,8 @@ var oreDictAdd as IItemStack[][string] = {
     "stickSteel" : [<lightningcraft:rod:1>],
     "stickAluminum" : [<lightningcraft:rod:4>],
     "stickIron" : [<lightningcraft:rod>],
-    "exosuitSensorLight" : [<psi:exosuit_sensor>, <contenttweaker:sensitive_element>]
+    "exosuitSensorLight" : [<psi:exosuit_sensor>, <contenttweaker:sensitive_element>],
+    "ancientTree" : [<naturesaura:ancient_log>, <naturesaura:ancient_bark>]
 };
 
 var oreDictRemove as IItemStack[] = [

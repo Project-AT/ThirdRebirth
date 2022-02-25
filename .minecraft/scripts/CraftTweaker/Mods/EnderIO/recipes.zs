@@ -5,16 +5,18 @@ import crafttweaker.item.IIngredient;
 
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+var pyrolyticCarbon = <ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>;
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:69> * 2, [
 	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
-    [null, <ore:ingotIron>, null],
+    [null, <ore:ingotIron>],
     [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]
 ], {<ore:artisansHammer> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material>, [
-	[<enderio:item_material:69>,<enderio:item_material:69>,<enderio:item_material:69>],
-    [<enderio:item_material:69>,<embers:mech_core>,        <enderio:item_material:69>],
-    [<enderio:item_material:69>,<enderio:item_material:69>,<enderio:item_material:69>]
+	[<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>],
+    [<enderio:item_material:69>, <embers:mech_core>, <enderio:item_material:69>],
+    [<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>]
 ], {<ore:artisansHammer> : 4, <ore:artisansSpanner> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
@@ -24,9 +26,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
 ], {<ore:artisansDriver> : 10, <ore:artisansHammer> : 8} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacitor>, [
-	[null, <embers:nugget_dawnstone>, <ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>],
+	[null, <embers:nugget_dawnstone>, pyrolyticCarbon],
 	[<embers:nugget_dawnstone>, <embers:plate_caminite> | <ore:plasticWhite>, <embers:nugget_dawnstone>],
-    [<ore:ingotHOPGraphite> | <ore:ingotPyrolyticCarbon>, <embers:nugget_dawnstone>]
+    [pyrolyticCarbon, <embers:nugget_dawnstone>]
 ], {<ore:artisansDriver> : 1, <ore:artisansSolderer> : 3} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_smelter>, 
@@ -44,3 +46,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:2> * 
         .with("X", <ore:ingotDarkSteel>)
         .with("T", <ore:dyeMachine>).get()
 , {<ore:artisansHammer> : 10});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacitor>, [
+    [null, <ore:nuggetElectricalSteel> | <contenttweaker:pure_iron_nugget>, pyrolyticCarbon],   
+    [<ore:nuggetElectricalSteel> | <contenttweaker:pure_iron_nugget>, <mekanism:polyethene:2>, <ore:nuggetElectricalSteel> | <contenttweaker:pure_iron_nugget>],
+    [pyrolyticCarbon, <ore:nuggetElectricalSteel> | <contenttweaker:pure_iron_nugget>]
+], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 5} as int[IIngredient]);
