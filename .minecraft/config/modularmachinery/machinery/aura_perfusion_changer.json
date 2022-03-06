@@ -25,15 +25,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "naturesaura:nature_altar@0"
+                "modularmachinery:blockinputbus@2"
             ]
         },
         {
@@ -42,6 +34,14 @@
             "z": 0,
             "elements": [
                 "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "naturesaura:nature_altar@0"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockfluidinputhatch@2"
             ]
         },
         {
@@ -65,7 +65,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockoutputbus@2"
             ]
         },
         {
@@ -125,14 +125,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "gugu-utils:aurainputhatch"
-            ]
-        },
-        {
             "x": -2,
             "y": -1,
             "z": 1,
@@ -143,7 +135,15 @@
         {
             "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 1,
+            "elements": [
+                "gugu-utils:aurainputhatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -157,9 +157,9 @@
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 1,
+            "x": 0,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -181,6 +181,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
             "x": 0,
             "y": -1,
             "z": 2,
@@ -189,7 +197,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 2,
             "y": -1,
             "z": 1,
             "elements": [
@@ -208,14 +216,6 @@
             "x": 0,
             "y": -1,
             "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]

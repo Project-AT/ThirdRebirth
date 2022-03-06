@@ -17,7 +17,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -65,7 +65,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -113,7 +113,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "modularmachinery:blockenergyinputhatch@7"
             ]
         },
         {
@@ -121,7 +121,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -129,7 +129,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -137,7 +137,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "gugu-utils:emberinputhatch"
+                "gugu-utils:emberinputhatch@7"
             ]
         },
         {
@@ -169,7 +169,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
@@ -209,7 +209,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
@@ -313,7 +313,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
@@ -321,7 +321,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
@@ -409,7 +409,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "modularmachinery:blockfluidinputhatch@2"
             ]
         },
         {
@@ -449,7 +449,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "embers:mech_edge@6"
+                "embers:mech_edge@2"
             ]
         },
         {
@@ -457,7 +457,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus"
+                "modularmachinery:blockinputbus@1"
             ]
         },
         {
@@ -513,7 +513,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch"
+                "modularmachinery:blockfluidoutputhatch@7"
             ]
         },
         {
@@ -545,7 +545,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockoutputbus"
+                "modularmachinery:blockoutputbus@1"
             ]
         },
         {
@@ -641,7 +641,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "modularmachinery:blockfluidoutputhatch@7"
             ]
         },
         {
