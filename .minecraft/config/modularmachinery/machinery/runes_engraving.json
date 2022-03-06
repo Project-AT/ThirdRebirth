@@ -1,7 +1,7 @@
 {
     "registryname": "runes_engraving",
     "localizedname": "at.runes_engraving.name",
-    "color" : "383736",
+    "color" : "C4C5BE",
     "requires-blueprint": true,
     "parts": [
         {

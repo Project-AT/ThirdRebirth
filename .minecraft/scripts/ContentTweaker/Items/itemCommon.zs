@@ -11,7 +11,7 @@ var items as string[] = [
     "soul_extract","dictionary_paper", "si_gr_ge_transistor", "graphene_nickel_plate", "teleport_rune", "damaged_psd",
     "damaged_data_pad","compressed_crystaltine", "compressed_draconium", "compressed_signalum", "refractory_brick",
     "refractory_clay_ball", "rusty_iron_ingot", "tough_alloy_plate", "research_icon", "sensitive_element", "thin_film_transistor",
-    "glazed_refractory_brick", "glaze", "mana_crystal", "autotech"
+    "glazed_refractory_brick", "glaze", "mana_crystal", "autotech", "stamp_nugget"
 ];
 
 for item in items {
