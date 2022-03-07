@@ -47,3 +47,16 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:grocket:6> * 2,
     [<thermalfoundation:material:128>, <extrautils2:pipe>, <thermalfoundation:material:128>],
     [<ore:stonePolished>, <minecraft:redstone_block>, <ore:stonePolished>]
 ], {<ore:artisansSpanner> : 8});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:user>, [
+    [null, <minecraft:dispenser>],
+    [<ore:compressed1xCobblestone>, <teslacorelib:machine_case>, <ore:compressed1xCobblestone>],
+    [null, <ore:compressed1xCobblestone>]
+], {<ore:artisansDriver> : 25, <ore:artisansSolderer> : 25});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:miner>, [
+    [null, <thermalfoundation:material:656>],
+    [<ore:compressed1xCobblestone>, <teslacorelib:machine_case>, <ore:compressed1xCobblestone>],
+    [null, <ore:compressed1xCobblestone>]
+], {<ore:artisansSpanner> : 25});
+

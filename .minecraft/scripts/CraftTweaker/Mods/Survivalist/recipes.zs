@@ -35,3 +35,5 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>, [
     [<ore:cobblestone>, null, <ore:cobblestone>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 15} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(false, <survivalist:tanned_leather>, [[<ore:itemLeather>, <mysticalworld:tannins>]]);

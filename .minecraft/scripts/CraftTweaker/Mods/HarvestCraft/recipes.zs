@@ -8,6 +8,10 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 recipes.addShapeless(<harvestcraft:oliveoilitem> * 2, [<quark:tallow>, <harvestcraft:potitem>.reuse()]);
 
+RecipeUtils.recipeTweak(false, <harvestcraft:hardenedleatheritem>, [[<ore:materialLeather>, <ore:materialPressedwax>]]);
+RecipeUtils.recipeTweak(false, <harvestcraft:honeyitem>, [[<harvestcraft:honeycombitem> | <biomesoplenty:honeycomb>]]);
+RecipeUtils.recipeTweak(false, <harvestcraft:beeswaxitem>, [[<harvestcraft:waxcombitem>]]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:grinder>,
 	inputPatternGet(["CBC", "D D", "EEE"], {
         "B" : <minecraft:iron_sword>,

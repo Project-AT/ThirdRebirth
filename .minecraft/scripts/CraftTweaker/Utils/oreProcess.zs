@@ -198,6 +198,7 @@ for oreName in oreNames {
     }
 
 // -------------------------------------------------------------------------------
+
     if(!isNull(ingot) && !ingot.empty) {
         if(!isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
             furnace.addRecipe(ingot.firstItem * 2, oreAuraInfusion);
@@ -216,5 +217,10 @@ for oreName in oreNames {
         }
     }
 
+// -------------------------------------------------------------------------------
+
+    if(!isNull(oreEnriched) && !oreEnriched.empty && !isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
+        mods.randomtweaker.botania.IOrechid.addOreRecipe(oreAuraInfusion.firstItem, oreEnriched, 1000);
+    }
 
 }

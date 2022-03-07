@@ -27,8 +27,14 @@ artisanUtils.RecipeTweakWithTools_("basic", false, <thermalfoundation:material:7
     [<ore:stoneBrimstone>]
 ], {<ore:artisansMortar> : 4} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:656>, [
+    [null, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotCopper>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+], {<ore:artisansSpanner> : 10} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:657>, [
-	[<ore:plateIron>, <ore:plateIron>, null],
+	[<ore:plateIron>, <ore:plateIron>],
 	[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>],
     [null, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansDriver> : 4, <ore:artisansSpanner> : 4} as int[IIngredient]);

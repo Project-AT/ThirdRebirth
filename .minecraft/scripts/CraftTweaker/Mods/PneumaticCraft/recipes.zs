@@ -73,3 +73,32 @@ RecipeBuilder.get("engineer")
   .setMaximumTier(1)
   .create();
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_controller>, [
+    [<advancedrocketry:misc>, <pneumaticcraft:printed_circuit_board>],
+    [null, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:printed_circuit_board>],
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:compressed_iron_block>, <pneumaticcraft:ingot_iron_compressed>]
+], {<ore:artisansSpanner> : 100, <ore:artisansDriver> : 100});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_drill>, [
+    [<ore:gemDiamond>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
+    [<thermalfoundation:material:656>, null, <pneumaticcraft:pneumatic_cylinder>],
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:ingot_iron_compressed>]
+], {<ore:artisansSpanner> : 50, <ore:artisansDriver> : 50});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_laser>, [
+    [<refraction:laser>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
+    [null, null, <pneumaticcraft:pneumatic_cylinder>],
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:ingot_iron_compressed>]
+], {<ore:artisansSpanner> : 50, <ore:artisansDriver> : 50});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_platform>, [
+    [<pneumaticcraft:pneumatic_cylinder>, null, <pneumaticcraft:pneumatic_cylinder>],
+    [<ore:plasticOrange>, <ore:plasticOrange>, <ore:plasticOrange>],
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:ingot_iron_compressed>]
+], {<ore:artisansSpanner> : 20, <ore:artisansDriver> : 20});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_io_unit>, [
+    [<ore:hopper>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
+    [null, null, <pneumaticcraft:pneumatic_cylinder>],
+    [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:ingot_iron_compressed>]
+], {<ore:artisansSpanner> : 33, <ore:artisansDriver> : 33});

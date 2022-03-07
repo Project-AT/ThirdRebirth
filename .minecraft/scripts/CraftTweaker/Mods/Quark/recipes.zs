@@ -24,3 +24,20 @@ RecipeUtils.recipeTweak(true, <quark:iron_rod>, [
     [null, <ore:stickIron>],
     [null, <ore:ingotIron>]
 ]);
+
+RecipeUtils.recipeTweak(true, <quark:backpack>, [
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
+    [<simplyjetpacks:metaitem:4>, <ore:chest>, <simplyjetpacks:metaitem:4>],
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]
+]);
+
+for i in 0 .. 15 {
+    var recipeName = "quark:quilted_wool";
+    if (i > 0) {
+        recipeName = recipeName ~ "_" ~ i;
+    }
+    recipes.removeByRecipeName(recipeName);
+    artisanUtils.RecipeTweakWithTools_("basic", false, <quark:quilted_wool>.definition.makeStack(i),
+        [[<minecraft:wool>.definition.makeStack(i), <ore:string>]]
+    , {<ore:artisansNeedle> : 2});
+}
