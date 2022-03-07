@@ -32,6 +32,66 @@ RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:3>, [
     [null, <ore:gearTough>]
 ]);
 
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch>, [
+    [null,<ore:ingotLead>,null],
+    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
+    [null,<ore:ingotLead>,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch>, [
+    [null,<ore:ingotCopper>,null],
+    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
+    [null,<ore:ingotCopper>,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:1>, [
+    [null,null,null],
+    [<ore:ingotElectrum>,<modularmachinery:blockenergyinputhatch>,<ore:ingotElectrum>],
+    [null,null,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:1>, [
+    [null,null,null],
+    [<ore:ingotElectrum>,<modularmachinery:blockenergyoutputhatch>,<ore:ingotElectrum>],
+    [null,null,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:2>, [
+    [null,null,null],
+    [<ore:ingotConstantan>,<modularmachinery:blockenergyinputhatch:1>,<ore:ingotConstantan>],
+    [null,null,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:2>, [
+    [null,null,null],
+    [<ore:ingotConstantan>,<modularmachinery:blockenergyoutputhatch:1>,<ore:ingotConstantan>],
+    [null,null,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:1>, [
+    [null,<ore:ingotLead>,<ore:ingotElectrum>],
+    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
+    [<ore:ingotElectrum>,<ore:ingotLead>,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:1>, [
+    [null,<ore:ingotCopper>,<ore:ingotElectrum>],
+    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
+    [<ore:ingotElectrum>,<ore:ingotCopper>,null]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:2>, [
+    [<ore:ingotConstantan>,<ore:ingotLead>,<ore:ingotElectrum>],
+    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
+    [<ore:ingotElectrum>,<ore:ingotLead>,<ore:ingotConstantan>]
+]);
+
+RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:2>, [
+    [<ore:ingotConstantan>,<ore:ingotCopper>,<ore:ingotElectrum>],
+    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
+    [<ore:ingotElectrum>,<ore:ingotCopper>,<ore:ingotConstantan>]
+]);
+
 RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:1> * 2, [
     [<modularmachinery:itemmodularium>, <ore:fenceSteel>, <modularmachinery:itemmodularium>],
     [<ore:fenceSteel>, null, <ore:fenceSteel>],
