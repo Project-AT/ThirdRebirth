@@ -38,8 +38,10 @@ item.contenttweaker.sensitive_element.name=敏感元件
 item.contenttweaker.thin_film_transistor.name=薄膜晶体管
 item.contenttweaker.glaze.name=釉料
 item.contenttweaker.glazed_refractory_brick.name=釉制耐火砖
-item.contenttweaker.autotech.name=AuTo TeCh
+item.contenttweaker.autotech.name=AutoTech
 item.contenttweaker.mana_crystal.name=魔力水晶
+item.contenttweaker.stamp_nugget.name=颗粒模具
+item.contenttweaker.raw_stamp_nugget.name=未烧制的颗粒模具
 
 #Item
 #Bauble
