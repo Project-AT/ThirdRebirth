@@ -20,10 +20,13 @@ AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:2> * 2, [<ore:ingotEndS
 AlloySmelter.addRecipe(<draconicevolution:draconium_ingot> * 2, [<ore:ingotMelodicAlloy>, <ore:ingotRefinedObsidian>, <ore:dustDraconium>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:6> * 2, [<ore:dustPetrotheum>, <ore:ingotSteel> * 2, <ore:gemEnderBiotite>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:6> * 2, [<ore:dustPetrotheum>, <ore:ingotSteel> * 2, <ore:substanceEbony>]);
-AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:ingotAluminum>, <ore:ingotSteel> * 2]);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:ingotSteel> * 2, <ore:ingotAluminum>]);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:dustSteel> * 2, <ore:dustAluminum>]);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:dustSteel> * 2, <ore:ingotAluminum>]);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:ingotSteel> * 2, <ore:dustAluminum>]);
 AlloySmelter.addRecipe(<refraction:reflective_alloy> * 5, [<ore:ingotIron> * 3, <ore:ingotEnergeticSilver>, <ore:ingotGold>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3> * 2, [<ore:gemRedstone>, <ore:ingotBronze>, <ore:ingotElectricalSteel>]);
 AlloySmelter.addRecipe(<enderio:item_material:1>, [<ore:dyeMachine> * 2, <ore:ingotTough> * 4, <ore:itemSimpleMachineChassi>]);
 AlloySmelter.addRecipe(<contenttweaker:glazed_refractory_brick>, [<ore:ingotBrickNether>, <contenttweaker:refractory_clay_ball> * 2, <contenttweaker:glaze>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, [<ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>]);
-
+AlloySmelter.addRecipe(<enderio:item_material:50> * 2, [<psi:material:5> * 2, <quark:black_ash> * 4, <ore:slimeball>]);

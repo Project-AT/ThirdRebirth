@@ -33,11 +33,14 @@ ArcFurnace.addRecipe(<extendedcrafting:material:48>, <ore:ingotEnderium>, null, 
 ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:2> * 2, <ore:ingotEndSteel>, null, 200, 2048, [<integrateddynamics:crystalized_chorus_chunk> * 4, <ore:ingotManganese>], "Alloying");
 ArcFurnace.addRecipe(<draconicevolution:draconium_ingot> * 2, <ore:ingotMelodicAlloy>, null, 200, 2048, [<ore:ingotRefinedObsidian>, <ore:dustDraconium>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, null, 200, 2048, [<ore:ingotSteel> * 2, <ore:gemEnderBiotite>], "Alloying");
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, null, 200, 2048, [<ore:ingotSteel> * 2, <ore:substanceEbony>], "Alloying");
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:ingotAluminum>], "Alloying");
+ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, null, 200, 2048, [<ore:dustAluminum>], "Alloying");
+ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, null, 200, 2048, [<ore:ingotAluminum>], "Alloying");
+ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:dustAluminum>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, null, 200, 2048, [<ore:ingotBronze>, <ore:ingotElectricalSteel>], "Alloying");
 ArcFurnace.addRecipe(<contenttweaker:glazed_refractory_brick>, <ore:ingotBrickNether>, null, 200, 2048, [<contenttweaker:refractory_clay_ball> * 2, <contenttweaker:glaze>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>], "Alloying");
 ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:ingotIron>, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:gemQuartz> * 4, null, 200, 2048);
+ArcFurnace.addRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, null, 200, 2048, [<quark:black_ash> * 4, <ore:slimeball>], "Alloying");
