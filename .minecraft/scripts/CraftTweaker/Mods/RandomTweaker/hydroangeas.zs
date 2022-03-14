@@ -15,5 +15,5 @@ var manaRecipe as ILiquidStack[int] = {
 IHydroangeas.setBlockBelowFactor(<roots:elemental_soil_water>, 1.15);
 
 for key, value in manaRecipe {
-    IHydroangeas.addManaRecipe(value, (key / 40), <liquid:mana_fluid>, 1.15);
+    IHydroangeas.addManaRecipe(value, (key), <liquid:mana_fluid>, 1.15);
 }
