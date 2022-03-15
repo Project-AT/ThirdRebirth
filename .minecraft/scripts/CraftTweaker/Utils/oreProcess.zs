@@ -9,7 +9,6 @@ import mods.modularmachinery.RecipePrimer;
 
 import scripts.grassUtils.StringHelper;
 
-
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
@@ -221,6 +220,18 @@ for oreName in oreNames {
 
     if(!isNull(oreEnriched) && !oreEnriched.empty && !isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
         mods.randomtweaker.botania.IOrechid.addOreRecipe(oreAuraInfusion.firstItem, oreEnriched, 1000);
+    }
+
+// -------------------------------------------------------------------------------
+    if (!isNull(oreAuraInfusion) && !oreAuraInfusion.empty && !isNull(ore) && !ore.empty) {
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreAuraInfusion.firstItem) ~ num;
+        num = num + 1;
+
+        RecipeBuilder.newBuilder("aura_perfusion_changer_controller" ~ name, "aura_perfusion_changer_controller", 10)
+            .addItemInput(ore)
+            .addAuraInput(1000, true)
+            .addItemOutput(oreAuraInfusion)
+        .build();
     }
 
 }
