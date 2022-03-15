@@ -24,4 +24,3 @@ for input, output in manaTransform {
         .addManaOutput((output.amount / 2) as int)
     .build();
 }
-
