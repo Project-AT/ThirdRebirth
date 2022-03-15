@@ -1,7 +1,7 @@
 {
     "registryname": "aura_collector",
     "localizedname": "at.aura_collector.name",
-    "color" : "383736",
+    "color" : "A89CB0",
     "requires-blueprint": true,
     "parts": [
         {

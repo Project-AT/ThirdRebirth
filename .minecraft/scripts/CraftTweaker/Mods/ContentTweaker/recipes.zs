@@ -101,7 +101,7 @@ for ore in oreDict.entries {
         var oreMetal as IOreDictEntry = oreDict.get("ore" ~ metalName);
 
         if(!isNull(oreMetal) && !oreMetal.empty) {
-            Altar.addRecipe(recipeName, oreMetal, firstItem, null, 2000, 80);
+            Altar.addRecipe(recipeName, oreMetal, firstItem, null, 10000, 80);
         }
     }
 

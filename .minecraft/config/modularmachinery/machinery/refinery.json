@@ -113,7 +113,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@7"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
@@ -409,7 +409,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -457,7 +457,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus@1"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -513,7 +513,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@7"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -545,7 +545,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "modularmachinery:blockoutputbus@1"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -641,7 +641,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@7"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
