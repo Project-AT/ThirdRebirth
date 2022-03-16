@@ -267,7 +267,7 @@ artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itembluepr
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:exorcism"}),
     inputPattern(["ABA", "LLL"])
-        .with("A", <ore:quartzElven>)
+        .with("A", <ore:quartzMana>)
         .with("B", <ore:blockQuartzMana>)
         .with("L", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 12, <ore:artisansTSquare> : 12} as int[IIngredient]);

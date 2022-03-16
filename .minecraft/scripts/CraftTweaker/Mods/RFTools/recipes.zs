@@ -17,7 +17,7 @@ RecipeUtils.recipeTweak(true, <rftools:storage_scanner>,
     inputPattern(["CYC", "THT", "CQC"])
         .with("C", <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
         .with("Y", <advancedrocketry:misc>)
-        .with("T", <contenttweaker:germanium_integrated_circuit_board> | <pneumaticcraft:printed_circuit_board>)
+        .with("T", <pneumaticcraft:printed_circuit_board>)
         .with("H", <rftools:machine_frame>)
         .with("Q", <rftools:sensor_block>).get()
 );

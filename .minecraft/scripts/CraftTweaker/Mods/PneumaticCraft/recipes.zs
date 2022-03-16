@@ -1,9 +1,16 @@
 #priority 5
 #modloaded atutils
 
+import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 import mods.artisanworktables.builder.RecipeBuilder;
+
+RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_valve>, [[<pneumaticcraft:pressure_tube>, <pneumaticcraft:pressure_chamber_wall>]]);
+
+RecipeUtils.recipeTweak(true, <pneumaticcraft:pressure_chamber_glass>, 
+    RecipeUtils.createSurround(<ore:ingotIronCompressed>, <pneumaticcraft:pressure_chamber_glass>)
+);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])
