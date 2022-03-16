@@ -25,7 +25,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockinputbus@2"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -65,7 +65,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus@2"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -137,7 +137,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "gugu-utils:aurainputhatch@0"
+                "gugu-utils:aurainputhatch"
             ]
         },
         {
