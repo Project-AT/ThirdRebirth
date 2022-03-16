@@ -8,10 +8,10 @@ import mods.randomtweaker.jei.IJeiUtils;
 import mods.randomtweaker.jei.IJeiPanel;
 
 var oresTransform as IIngredient[IIngredient] = {
-    <ore:oreIron> : <ore:nuggetIron>,
-    <ore:oreNickel> : <ore:nuggetNickel>,
-    <ore:blockRustyIron> : <ore:ingotIron>,
-    <ore:oreCrudeSteel> : <ore:nuggetCrudeSteel>
+    <ore:oreIron> : <ore:nuggetIron> * 3,
+    <ore:oreNickel> : <ore:nuggetNickel> * 3,
+    <ore:blockRustyIron> : <ore:ingotIron> * 3,
+    <ore:oreCrudeSteel> : <ore:nuggetCrudeSteel> * 3
 };
 
 function addJeiRecipe(input as IIngredient, output as IIngredient) {
