@@ -53,6 +53,22 @@ fury.onUnequipped = function(bauble, wearer) {
 };
 fury.register();
 
+var excavation = VanillaFactory.createBaubleItem("excavation");
+excavation.baubleType = "RING";
+excavation.onEquipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        if (!player.world.remote) player.setAllowFTBUltimine(true);
+    }
+};
+excavation.onUnequipped = function(bauble, wearer) {
+    if(wearer instanceof IPlayer) {
+        var player as IPlayer = wearer;
+        if (!player.world.remote) player.setAllowFTBUltimine(false);
+    }
+};
+excavation.register();
+
 function removeTag(bauble as IItemStack) as void {
     if(bauble.hasTag && !isNull(bauble.tag.critical)) {
         bauble.mutable().removeTag("critical");
