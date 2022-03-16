@@ -17,6 +17,6 @@ RecipeBuilder.newBuilder("refinery_recipe_2", "refinery", 50)
     .addItemOutput(<contenttweaker:soul_extract>)
     .addEnergyPerTickInput(100)
     .addFluidInput(<liquid:oil_soul> * 250)
-    .addFluidOutput(<liquid:crude_oil> * 250)
+    .addFluidOutput(<liquid:oil> * 250)
     .addEmberInput(200)
 .build();
