@@ -193,3 +193,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
         .with("S", <contenttweaker:insulating_substrate>)
         .with("E", <ore:electronTube>).get()
 , {<ore:artisansSolderer> : 21});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:stone_decoration:2>, [
+    [null, <ore:plateSteel>],
+    [<contenttweaker:glazed_refractory_brick>, <immersiveengineering:stone_decoration:1>, <contenttweaker:glazed_refractory_brick>],
+    [null, <contenttweaker:glazed_refractory_brick>]
+], {<ore:artisansHammer> : 10, <ore:artisansTrowel> : 15} as int[IIngredient]);
+
+
+

@@ -7,201 +7,201 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcasing:5>, [
-    [<modularmachinery:blockcasing>,<ore:circuitBasic>]
+    [<modularmachinery:blockcasing>, <ore:circuitBasic>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcircuitry:1>, [
-    [<modularmachinery:blockcasing>,<ore:circuitElite>]
+    [<modularmachinery:blockcasing>, <ore:circuitElite>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcircuitry:2>, [
-    [<modularmachinery:blockcasing>,<ore:circuitUltimate>]
+    [<modularmachinery:blockcasing>, <ore:circuitUltimate>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcasing:5>, [
-    [<contenttweaker:germanium_integrated_circuit_board>,<modularmachinery:blockcasing>,<contenttweaker:germanium_integrated_circuit_board>]
+    [<contenttweaker:germanium_integrated_circuit_board>, <modularmachinery:blockcasing>, <contenttweaker:germanium_integrated_circuit_board>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockcircuitry>, [
-    [<modularmachinery:blockcasing>,<ore:circuitAdvanced>]
+    [<modularmachinery:blockcasing>, <ore:circuitAdvanced>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:3>, [
-    [null,<ore:gearTough>,null],
-    [<ore:gearTough>,<modularmachinery:blockcasing>,<ore:gearTough>],
-    [null,<ore:gearTough>,null]
+    [null, <ore:gearTough>],
+    [<ore:gearTough>, <modularmachinery:blockcasing>, <ore:gearTough>],
+    [null, <ore:gearTough>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch>, [
-    [null,<ore:ingotLead>,null],
-    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
-    [null,<ore:ingotLead>,null]
+    [null, <ore:ingotLead>],
+    [<ore:ingotCopper>, <modularmachinery:blockcasing>, <ore:ingotCopper>],
+    [null, <ore:ingotLead>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch>, [
-    [null,<ore:ingotCopper>,null],
-    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
-    [null,<ore:ingotCopper>,null]
+    [null, <ore:ingotCopper>],
+    [<ore:ingotLead>, <modularmachinery:blockcasing>, <ore:ingotLead>],
+    [null, <ore:ingotCopper>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:1>, [
-    [<ore:ingotElectrum>,<modularmachinery:blockenergyinputhatch>,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>, <modularmachinery:blockenergyinputhatch>, <ore:ingotElectrum>],
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:1>, [
-    [<ore:ingotElectrum>,<modularmachinery:blockenergyoutputhatch>,<ore:ingotElectrum>],
+    [<ore:ingotElectrum>, <modularmachinery:blockenergyoutputhatch>, <ore:ingotElectrum>],
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:2>, [
-    [<ore:ingotConstantan>,<modularmachinery:blockenergyinputhatch:1>,<ore:ingotConstantan>],
+    [<ore:ingotConstantan>, <modularmachinery:blockenergyinputhatch:1>, <ore:ingotConstantan>],
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:2>, [
-    [<ore:ingotConstantan>,<modularmachinery:blockenergyoutputhatch:1>,<ore:ingotConstantan>]
+    [<ore:ingotConstantan>, <modularmachinery:blockenergyoutputhatch:1>, <ore:ingotConstantan>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:1>, [
-    [null,<ore:ingotLead>,<ore:ingotElectrum>],
-    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
-    [<ore:ingotElectrum>,<ore:ingotLead>,null]
+    [null, <ore:ingotLead>, <ore:ingotElectrum>],
+    [<ore:ingotCopper>, <modularmachinery:blockcasing>, <ore:ingotCopper>],
+    [<ore:ingotElectrum>, <ore:ingotLead>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:1>, [
-    [null,<ore:ingotCopper>,<ore:ingotElectrum>],
-    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
-    [<ore:ingotElectrum>,<ore:ingotCopper>,null]
+    [null, <ore:ingotCopper>, <ore:ingotElectrum>],
+    [<ore:ingotLead>, <modularmachinery:blockcasing>, <ore:ingotLead>],
+    [<ore:ingotElectrum>, <ore:ingotCopper>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyinputhatch:2>, [
-    [<ore:ingotConstantan>,<ore:ingotLead>,<ore:ingotElectrum>],
-    [<ore:ingotCopper>,<modularmachinery:blockcasing>,<ore:ingotCopper>],
-    [<ore:ingotElectrum>,<ore:ingotLead>,<ore:ingotConstantan>]
+    [<ore:ingotConstantan>, <ore:ingotLead>, <ore:ingotElectrum>],
+    [<ore:ingotCopper>, <modularmachinery:blockcasing>, <ore:ingotCopper>],
+    [<ore:ingotElectrum>, <ore:ingotLead>, <ore:ingotConstantan>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockenergyoutputhatch:2>, [
-    [<ore:ingotConstantan>,<ore:ingotCopper>,<ore:ingotElectrum>],
-    [<ore:ingotLead>,<modularmachinery:blockcasing>,<ore:ingotLead>],
-    [<ore:ingotElectrum>,<ore:ingotCopper>,<ore:ingotConstantan>]
+    [<ore:ingotConstantan>, <ore:ingotCopper>, <ore:ingotElectrum>],
+    [<ore:ingotLead>, <modularmachinery:blockcasing>, <ore:ingotLead>],
+    [<ore:ingotElectrum>, <ore:ingotCopper>, <ore:ingotConstantan>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch>, [
-    [null,<ore:blockGlass>,null],
-    [<ore:blockGlass>,<modularmachinery:blockcasing>,<ore:blockGlass>],
-    [null,<ore:blockGlass>,null]
+    [null, <ore:blockGlass>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing>, <ore:blockGlass>],
+    [null, <ore:blockGlass>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch>, [
-    [<ore:blockGlass>,null,<ore:blockGlass>],
-    [null,<modularmachinery:blockcasing>,null],
-    [<ore:blockGlass>,null,<ore:blockGlass>]
+    [<ore:blockGlass>, null, <ore:blockGlass>],
+    [null, <modularmachinery:blockcasing>],
+    [<ore:blockGlass>, null, <ore:blockGlass>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:1>, [
-    [<ore:plateIron>,<modularmachinery:blockfluidinputhatch>,<ore:plateIron>]
+    [<ore:plateIron>, <modularmachinery:blockfluidinputhatch>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:1>, [
-    [<ore:plateIron>,<modularmachinery:blockfluidoutputhatch>,<ore:plateIron>]
+    [<ore:plateIron>, <modularmachinery:blockfluidoutputhatch>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:2>, [
-    [<ore:plateSteel>,<modularmachinery:blockfluidinputhatch:1>,<ore:plateSteel>]
+    [<ore:plateSteel>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateSteel>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:2>, [
-    [<ore:plateSteel>,<modularmachinery:blockfluidoutputhatch:1>,<ore:plateSteel>]
+    [<ore:plateSteel>, <modularmachinery:blockfluidoutputhatch:1>, <ore:plateSteel>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockfluidinputhatch:3>, [
-    [<modularmachinery:blockfluidinputhatch:2>,<ore:ingotTough>]
+    [<modularmachinery:blockfluidinputhatch:2>, <ore:ingotTough>]
 ]);
 
 RecipeUtils.recipeTweak(false, <modularmachinery:blockfluidoutputhatch:3>, [
-    [<modularmachinery:blockfluidoutputhatch:2>,<ore:ingotTough>]
+    [<modularmachinery:blockfluidoutputhatch:2>, <ore:ingotTough>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:1>, [
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>],
-    [<ore:blockGlass>,<modularmachinery:blockcasing>,<ore:blockGlass>],
-    [null,<ore:blockGlass>,null]
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing>, <ore:blockGlass>],
+    [null,<ore:blockGlass>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:1>, [
-    [null,<ore:blockGlass>,null],
-    [<ore:blockGlass>,<modularmachinery:blockcasing>,<ore:blockGlass>],
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>]
+    [null, <ore:blockGlass>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing>, <ore:blockGlass>],
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:2>, [
-    [<ore:plateSteel>,<ore:blockGlass>,<ore:plateSteel>],
-    [<ore:blockGlass>,<modularmachinery:blockcasing>,<ore:blockGlass>],
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>]
+    [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing>, <ore:blockGlass>],
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:2>, [
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>],
-    [<ore:blockGlass>,<modularmachinery:blockcasing>,<ore:blockGlass>],
-    [<ore:plateSteel>,<ore:blockGlass>,<ore:plateSteel>]
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing>, <ore:blockGlass>],
+    [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:3>, [
-    [<ore:plateSteel>,<ore:blockGlass>,<ore:plateSteel>],
-    [<ore:blockGlass>,<modularmachinery:blockcasing:4>,<ore:blockGlass>],
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>]
+    [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing:4>, <ore:blockGlass>],
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:3>, [
-    [<ore:plateIron>,<ore:blockGlass>,<ore:plateIron>],
-    [<ore:blockGlass>,<modularmachinery:blockcasing:4>,<ore:blockGlass>],
-    [<ore:plateSteel>,<ore:blockGlass>,<ore:plateSteel>]
+    [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>],
+    [<ore:blockGlass>, <modularmachinery:blockcasing:4>, <ore:blockGlass>],
+    [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:4>, [
-    [null,<ore:plateIron>,null],
-    [<ore:plateIron>,<modularmachinery:blockfluidinputhatch:3>,<ore:plateIron>],
-    [null,<ore:plateIron>,null]
+    [null, <ore:plateIron>],
+    [<ore:plateIron>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateIron>],
+    [null, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:4>, [
-    [null,<ore:plateIron>,null],
-    [<ore:plateIron>,<modularmachinery:blockfluidoutputhatch:3>,<ore:plateIron>],
-    [null,<ore:plateIron>,null]
+    [null, <ore:plateIron>],
+    [<ore:plateIron>, <modularmachinery:blockfluidoutputhatch:3>, <ore:plateIron>],
+    [null, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:5>, [
-    [null,<ore:plateTough>,null],
-    [<ore:plateTough>,<modularmachinery:blockfluidinputhatch:4>,<ore:plateTough>],
-    [null,<ore:plateTough>,null]
+    [null, <ore:plateTough>],
+    [<ore:plateTough>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateTough>],
+    [null, <ore:plateTough>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:5>, [
-    [null,<ore:plateTough>,null],
-    [<ore:plateTough>,<modularmachinery:blockfluidoutputhatch:4>,<ore:plateTough>],
-    [null,<ore:plateTough>,null]
+    [null, <ore:plateTough>],
+    [<ore:plateTough>, <modularmachinery:blockfluidoutputhatch:4>, <ore:plateTough>],
+    [null, <ore:plateTough>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:6>, [
-    [null,<ore:ingotExtreme>,null],
-    [<ore:ingotExtreme>,<modularmachinery:blockfluidinputhatch:5>,<ore:ingotExtreme>],
-    [null,<ore:ingotExtreme>,null]
+    [null, <ore:ingotExtreme>],
+    [<ore:ingotExtreme>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotExtreme>],
+    [null, <ore:ingotExtreme>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:6>, [
-    [null,<ore:ingotExtreme>,null],
-    [<ore:ingotExtreme>,<modularmachinery:blockfluidoutputhatch:5>,<ore:ingotExtreme>],
-    [null,<ore:ingotExtreme>,null]
+    [null, <ore:ingotExtreme>],
+    [<ore:ingotExtreme>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotExtreme>],
+    [null, <ore:ingotExtreme>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidinputhatch:5>, [
-    [<ore:plateIron>,<ore:plateTough>,<ore:plateIron>],
-    [<ore:plateTough>,<modularmachinery:blockfluidinputhatch:3>,<ore:plateTough>],
-    [<ore:plateIron>,<ore:plateTough>,<ore:plateIron>]
+    [<ore:plateIron>, <ore:plateTough>, <ore:plateIron>],
+    [<ore:plateTough>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateTough>],
+    [<ore:plateIron>, <ore:plateTough>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockfluidoutputhatch:5>, [
-    [<ore:plateIron>,<ore:plateTough>,<ore:plateIron>],
-    [<ore:plateTough>,<modularmachinery:blockfluidoutputhatch:3>,<ore:plateTough>],
-    [<ore:plateIron>,<ore:plateTough>,<ore:plateIron>]
+    [<ore:plateIron>, <ore:plateTough>, <ore:plateIron>],
+    [<ore:plateTough>, <modularmachinery:blockfluidoutputhatch:3>, <ore:plateTough>],
+    [<ore:plateIron>, <ore:plateTough>, <ore:plateIron>]
 ]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:1> * 2, [
@@ -247,6 +247,47 @@ artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itembluepr
         .with("A", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fmph_mk4"}))
         .with("B", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 143, <ore:artisansTSquare> : 121} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractionator"}), [
+    [<modularmachinery:itemmodularium>, <ore:ingotDawnstone>, <ore:plateSteel>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 31, <ore:artisansPencil> : 49});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_embers_furnace"}), [
+    [<ore:dustAshes>, <ore:plateLead>, <embers:brick_caminite>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 11, <ore:artisansPencil> : 19});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:electronic_assembly_machine"}), [
+    [<ore:dustRedstone>, <ore:plateSteel>, <modularmachinery:itemmodularium>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 21, <ore:artisansPencil> : 19});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:refinery"}), [
+    [<ore:plateSteel>, <ore:ingotDawnstone>, <ore:blockGlassHardened>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 50, <ore:artisansPencil> : 50});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ordinary_turbines"}), [
+    [null, <ore:dustRedstone>],
+    [<modularmachinery:itemmodularium>, <ore:plateSteel>, <ore:ingotBronze>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 31, <ore:artisansPencil> : 34});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ordinary_thermal_boilers"}), [
+    [<modularmachinery:itemmodularium>, <ore:plateSteel>, <ore:fuelCoke>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 34, <ore:artisansPencil> : 43});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aura_collector"}), [
+    [<ore:ingotGold>, <naturesaura:infused_stone>, <naturesaura:infused_iron>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 19, <ore:artisansPencil> : 19});
+
+artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aura_perfusion_changer"}), [
+    [null, <naturesaura:infused_iron>, <modularmachinery:itemmodularium>],
+    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
+], {<ore:artisansTSquare> : 26, <ore:artisansPencil> : 29});
 
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_turbine"}),
     inputPattern([" D ", "ABC", "LLL"])

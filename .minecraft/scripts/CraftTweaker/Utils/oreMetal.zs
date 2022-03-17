@@ -3,6 +3,7 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
@@ -76,9 +77,9 @@ for ore in oreDict.entries {
         oreName = "stick";
     else if (ore.name.contains("rod"))
         oreName = "rod";
-    
+
     var metalName = RecipeUtils.getMetalNameNew(ore, oreName);
-    if (!(oreStickOrRodTemp has metalName)) { 
+    if (!isNull(metalName) && !(oreStickOrRodTemp has metalName)) { 
         var oreDictIngot = oreDict.get("ingot" + metalName);
         if (!oreDictIngot.empty) {
             oreStickOrRodTemp += metalName;
@@ -92,4 +93,12 @@ for ore in oreDict.entries {
         }
     }
 
+    if (ore.name.startsWith("nugget")) {
+        metalName = RecipeUtils.getMetalNameNew(ore, "nugget");
+        var liquidName = metalName.substring(0, 1).toLowerCase() ~ metalName.substring(1);
+        var liquidMetal = game.getLiquid(liquidName);
+        if (!isNull(liquidMetal)) {
+            mods.embers.Stamper.add(ore.firstItem, liquidMetal * 16, <contenttweaker:stamp_nugget>);
+        }
+    }
 }

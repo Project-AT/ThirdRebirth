@@ -17,5 +17,5 @@ artisanUtils.RecipeTweakWithTools_("basic", false, <mysticalworld:silk_thread> *
 artisanUtils.RecipeTweakWithTools("mage", true, <mysticalworld:pearleporter>, [
     [null, <ore:ingotGold>, <mysticalworld:pearl>],
     [null, <ore:bone>, <ore:ingotGold>],
-    [<ore:nuggetGold>, null, null]
+    [<ore:nuggetGold>]
 ], {<ore:artisansAthame> : 1} as int[IIngredient]);

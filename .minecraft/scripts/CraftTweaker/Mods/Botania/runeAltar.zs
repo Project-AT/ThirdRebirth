@@ -25,3 +25,26 @@ runeAltarUtil(<bountifulbaubles:magicmirror>, [
     <bountifulbaubles:potionrecall>, <bountifulbaubles:potionrecall>, <bountifulbaubles:potionrecall>,
     <netherex:dull_mirror>, <botania:managlass>, <botania:managlass>, <botania:managlass>
 ], 500000, false);
+
+var spellNames as string[] = [
+    "aqua_bubble",
+    "wild_fire",
+    "shatter",
+    "dandelion_winds"
+];
+
+var inputitems as IIngredient[][] = [
+    [<wizardry:orb:1>, <ore:listAllfishraw>],
+    [<minecraft:flint>, <ore:voodooPoppetProtectionBurn>],
+    [<roots:baffle_cap_mushroom>, <roots:terra_spores>],
+    [<ore:feather>, <ore:sugarcane>]
+];
+
+for i in 0 .. 4 {
+    var spellName = "roots:spell_" ~ spellNames[i];
+    var inputItem = inputitems[i];
+    inputItem += <ore:ingotManasteel>;
+    inputItem += <ore:powderMana>;
+    inputItem += <roots:spell_dust>.withTag({spell_storage: {s: spellName}});
+    runeAltarUtil(<botania:rune>.definition.makeStack(i), inputItem, 6666, true);
+}
