@@ -46,5 +46,5 @@
 
     <!-- CrT: <ore:ingotVibrantAlloy> -->
     <recipe name="Alloy: Vibrant Alloy" disabled="true"/>
-
+    
 </enderio:recipes>
