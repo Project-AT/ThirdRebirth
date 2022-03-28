@@ -17,7 +17,16 @@ var toRemoves as IItemStack[] = [
     <botania_tweaks:ultimate_extended_crafty_crate>,
 ];
 
-static ElvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
+var experienceRecipes as double[IIngredient] = {
+    <ore:gemRime> : 2.0D,
+    <ore:cropTea> : 0.02D,
+    <ore:gemPearl> : 0.05D,
+    <ore:gemAmethyst> : 2.0D,
+    <ore:foodBread> : -100.0D,
+    <ore:flourEqualswheat> : -10.0D
+};
+
+var elvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
     <botania:manaresource:7> : {
         [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>] : {
             0: 0.01D
@@ -29,11 +38,11 @@ static ElvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
             4: 0.01D
         }
     },
-    <botania:dreamwood:5> : {
+    <botania:dreamwood> : {
         [<ore:livingwood>, <ore:livingwood>] : {
             0: 0.01D
         },
-        [<ore:livingwood>, <ore:livingwood>] : {
+        [<ore:livingwood>] : {
             2: 0.01D
         }
     },
@@ -48,14 +57,14 @@ static ElvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
             3: 0.01D
         }
     },
-    <botania:storage> : {
-        [<botania:storage:2>, <botania:storage:2>, <botania:storage:2>, <botania:storage:2>] : {
+    <botania:storage:2> : {
+        [<botania:storage>, <botania:storage>, <botania:storage>, <botania:storage>] : {
             0: 0.1D
         },
-        [<botania:storage:2>, <botania:storage:2>] : {
+        [<botania:storage>, <botania:storage>] : {
             2: 0.1D
         },
-        [<botania:storage:2>] : {
+        [<botania:storage>] : {
             4: 0.1D
         }
     },
@@ -117,11 +126,14 @@ for remove in toRemoves {
     ElvenTrade.removeRecipe(remove);
 }
 
-for output, recipe in ElvenTradeRecipes {
+for output, recipe in elvenTradeRecipes {
     for input, recipe_ in recipe {
         for level, experience in recipe_ {
-            IBotaniaAPI.registerElvenTradeRecipe(StringHelper.getItemNameWithUnderline(output) ~ level, level, input, output);
+            IBotaniaAPI.addElvenTradeRecipe(StringHelper.getItemNameWithUnderline(output) ~ level, level, experience, input, output);
         }
     }
 }
 
+for input, experience in experienceRecipes {
+    IBotaniaAPI.addAlfPortalExperience(input, experience);
+}
