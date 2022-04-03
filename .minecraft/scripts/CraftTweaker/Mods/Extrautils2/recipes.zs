@@ -4,6 +4,9 @@
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+recipes.removeByRecipeName("extrautils2:watering_can");
+
+
 RecipeUtils.recipeTweak(true, <extrautils2:ingredients>, [
     [null, <minecraft:redstone>],
     [<minecraft:redstone>, <wizardry:nacre_pearl>, <minecraft:redstone>],
@@ -60,3 +63,32 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:miner>, [
     [null, <ore:compressed1xCobblestone>]
 ], {<ore:artisansSpanner> : 25});
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:analogcrafter>, [
+    [null, <extendedcrafting:crafting_table>],
+    [<embers:sealed_planks>, <teslacorelib:machine_case>, <embers:sealed_planks>],
+    [null, <embers:sealed_planks>]
+], {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 18});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:crafter>, [
+    [null, <extendedcrafting:crafting_table>],
+    [<extrautils2:compressedcobblestone>, <teslacorelib:machine_case>, <extrautils2:compressedcobblestone>],
+    [null, <extrautils2:compressedcobblestone>]
+], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 20});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:scanner>, [
+    [null, <ore:eye>],
+    [<ore:compressed1xCobblestone>, <teslacorelib:machine_case>, <ore:compressed1xCobblestone>],
+    [null, <ore:compressed1xCobblestone>]
+], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 20});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:indexer>, [
+    [<ore:gemRedstone>, <extrautils2:grocket:3>, <ore:gemRedstone>],
+    [<extrautils2:decorativesolid:3>, <teslacorelib:machine_case>, <extrautils2:decorativesolid:3>],
+    [<ore:gemRedstone>, <extrautils2:decorativesolid:3>, <ore:gemRedstone>]
+], {<ore:artisansSpanner> : 20, <ore:artisansDriver> : 25});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:resonator>, [
+    [<ore:ingotIron>, <ore:dyeBlack>, <ore:ingotIron>],
+    [<ore:gemRedstone>, <teslacorelib:machine_case>, <ore:gemRedstone>],
+    [<ore:ingotIron>, <ore:dyeBlack>, <ore:ingotIron>]
+], {<ore:artisansSpanner> : 20, <ore:artisansDriver> : 25});

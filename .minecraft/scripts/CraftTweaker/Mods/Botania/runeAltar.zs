@@ -46,5 +46,9 @@ for i in 0 .. 4 {
     inputItem += <ore:ingotManasteel>;
     inputItem += <ore:powderMana>;
     inputItem += <roots:spell_dust>.withTag({spell_storage: {s: spellName}});
-    runeAltarUtil(<botania:rune>.definition.makeStack(i), inputItem, 6666, true);
+    runeAltarUtil(<botania:rune>.definition.makeStack(i) * 2, inputItem, 6666, true);
+}
+
+for i in 4 .. 8 {
+    recipes.remove(<botania:rune>.definition.makeStack(i));
 }

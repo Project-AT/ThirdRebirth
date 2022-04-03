@@ -21,12 +21,6 @@ RecipeUtils.recipeTweak(true, <embers:plate_caminite_raw>, [
     [<embers:blend_caminite>, <embers:stamp_plate>.reuse() | <immersiveengineering:mold>.reuse()]
 ]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <embers:block_furnace>, [
-	[<embers:plate_caminite>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_wild_fire"}}), <embers:plate_caminite>],
-    [<ore:ingotSteel>, <botania:rune:1>, <ore:ingotSteel>],
-    [<ore:plateSteel>, <immersiveengineering:metal_device1:1>,<ore:plateSteel>]
-], {<ore:artisansDriver> : 1, <ore:artisansSpanner> : 1} as int[IIngredient]);
-
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_bore>, [
 	[<embers:stairs_caminite_brick>, <immersiveengineering:metal_decoration0:5>, <embers:stairs_caminite_brick>],
     [<immersiveengineering:material:9>, <embers:mech_core>, <immersiveengineering:material:9>],
@@ -52,9 +46,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mixer>, [
 ], {<ore:artisansSpanner> : 10, <ore:artisansDriver> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:pump>, [
-    [null, <ore:dustRedstone>, null], 
+    [null, <ore:dustRedstone>], 
     [<embers:pipe>, <embers:plate_caminite>, <embers:pipe>],
-    [null, <ore:dustRedstone>, null]
+    [null, <ore:dustRedstone>]
 ], {<ore:artisansSpanner> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:item_pump>, [
@@ -239,3 +233,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:reaction_chamber>,
         .with("O", <ore:ingotBronze>)
         .with("A", <embers:spark_plug>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <embers:block_furnace>, [
+    [<embers:plate_caminite>, null, <embers:plate_caminite>],
+    [<ore:ingotSteel>, <ore:runeFireB>, <ore:ingotSteel>],
+    [<ore:plateSteel>, <ore:coilCopper>, <ore:plateSteel>]
+], {<ore:artisansSpanner> : 23, <ore:artisansDriver> : 25});

@@ -24,7 +24,7 @@ val itemToLiquids as ILiquidStack[IItemStack] = {
 };
 
 val oreToLiquids as ILiquidStack[IOreDictEntry] = {
-    
+    <ore:itemSalt> : <liquid:brine> * 15,
     <ore:nuggetCopper> : <liquid:copper> *  16,
     <ore:nuggetGold> : <liquid:gold> *  16,
 

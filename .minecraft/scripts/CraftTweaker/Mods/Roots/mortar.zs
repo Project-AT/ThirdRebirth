@@ -26,6 +26,7 @@ mortarUtils(<roots:runic_dust> * 5, [
 
 mortarUtils(<thermalfoundation:material:768>, [<minecraft:coal>]);
 mortarUtils(<thermalfoundation:material:769>, [<minecraft:coal:1>]);
+mortarUtils(<ore:nuggetGold>.firstItem * 3, [<minecraft:golden_carrot>]);
 
 Mortar.changeSpell("spell_chrysopoeia", [
     nacrePearl, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>
