@@ -2,10 +2,19 @@
 #modloaded atutils
 #loader crafttweaker reloadableevents
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+
 import mods.jei.JEI;
-import mods.modularmachinery.RecipeBuilder;
+import mods.naturesaura.Altar;
+import mods.mekanism.enrichment;
+import mods.appliedenergistics2.Grinder;
+import mods.integrateddynamics.Squeezer;
+import mods.immersiveengineering.Crusher;
 import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+import mods.lightningcraft.LightningCrusher;
+import mods.integrateddynamics.MechanicalSqueezer;
 
 import scripts.grassUtils.StringHelper;
 
@@ -16,23 +25,23 @@ var oreNames as string[] = [
 ];
 
 var num as int = 0;
-var machineNmae as string =  "high_energy_shredder";
+var machineName as string =  "high_energy_shredder";
 
 for oreName in oreNames {
     var shard as IOreDictEntry = oreDict.get("shard" ~ oreName);
     var clamp as IOreDictEntry = oreDict.get("clump" ~ oreName);
 
     var ore as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var crystal as IOreDictEntry = oreDict.get("crystal" ~ oreName);
     var oreEnriched as IOreDictEntry = oreDict.get("oreEnriched" ~ oreName);
     var oreAuraInfusion as IOreDictEntry = oreDict.get("oreAuraInfusion" ~ oreName);
-    var crystal as IOreDictEntry = oreDict.get("crystal" ~ oreName);
 
     var dust as IOreDictEntry = oreDict.get("dust" ~ oreName);
     var ingot as IOreDictEntry = oreDict.get("ingot" ~ oreName);
     var oreCrushedInfused as IOreDictEntry = oreDict.get("oreCrushedInfused" ~ oreName);
     var oreCrushedEnriched as IOreDictEntry = oreDict.get("oreCrushedEnriched" ~ oreName);
+    var oreCleanCrushedInfused as IOreDictEntry = oreDict.get("oreCleanCrushedInfused" ~ oreName);
     
-
     if(!isNull(shard) && !shard.empty) {
         for itemIn in shard.items {
             if(itemIn.definition.owner != "contenttweaker") {
@@ -65,99 +74,111 @@ for oreName in oreNames {
 
 // -------------------------------------------------------------------------------
 
-    if(!isNull(ore) && !ore.empty && !isNull(dust) && !dust.empty) {
-        mods.appliedenergistics2.Grinder.removeRecipe(ore.firstItem);
-        mods.appliedenergistics2.Grinder.addRecipe(dust.firstItem, ore.firstItem, 8, dust.firstItem, 0.75);
+    if (!shard.empty && !oreCleanCrushedInfused.empty) {
+        furnace.addRecipe(shard.firstItem * 5, oreCleanCrushedInfused.firstItem);
+    }
 
-        //mods.integrateddynamics.Squeezer.removeRecipe(ore.firstItem);
-        mods.integrateddynamics.Squeezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 0.75);
+    if (!ore.empty && !oreAuraInfusion.empty) {
+        var firstItem as IItemStack = oreAuraInfusion.firstItem;
+        Altar.addRecipe(StringHelper.getItemNameWithUnderline(firstItem), ore, firstItem, null, 10000, 80);
+    }
 
-        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(ore.firstItem);
-        mods.integrateddynamics.MechanicalSqueezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 1.0);
+    if (!ingot.empty && !shard.empty) {
+        var firstItem as IItemStack = ingot.firstItem;
+        recipes.addShapeless(StringHelper.getItemNameWithUnderline(firstItem), firstItem, [shard, shard, shard]);
+    }
+
+    if(!ore.empty && !dust.empty) {
+        Grinder.removeRecipe(ore.firstItem);
+        Grinder.addRecipe(dust.firstItem, ore.firstItem, 8, dust.firstItem, 0.75);
+
+        //Squeezer.removeRecipe(ore.firstItem);
+        Squeezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 0.75);
+
+        //MechanicalSqueezer.removeRecipe(ore.firstItem);
+        MechanicalSqueezer.addRecipe(ore.firstItem, dust.firstItem, 1.0, dust.firstItem, 1.0);
 
         var name as string = StringHelper.getItemNameWithUnderline(dust.firstItem) ~ num;
         num = num + 1;
 
-        mods.naturesaura.Altar.removeRecipe(dust.firstItem);
-        mods.naturesaura.Altar.addRecipe("Altar" ~ name, ore, dust.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
+        Altar.removeRecipe(dust.firstItem);
+        Altar.addRecipe("Altar" ~ name, ore, dust.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
 
-        mods.immersiveengineering.Crusher.removeRecipesForInput(ore.firstItem);
-        mods.immersiveengineering.Crusher.addRecipe(dust.firstItem, ore, 2000, dust.firstItem, 1.0);
+        Crusher.removeRecipesForInput(ore.firstItem);
+        Crusher.addRecipe(dust.firstItem, ore, 2000, dust.firstItem, 1.0);
 
-        mods.lightningcraft.LightningCrusher.remove(dust.firstItem);
-        mods.lightningcraft.LightningCrusher.add(dust.firstItem * 2, ore);
+        LightningCrusher.remove(dust.firstItem);
+        LightningCrusher.add(dust.firstItem * 2, ore);
 
-        mods.mekanism.enrichment.removeRecipe(ore.firstItem);
-        mods.mekanism.enrichment.addRecipe(ore, dust.firstItem * 2);
+        enrichment.removeRecipe(ore.firstItem);
+        enrichment.addRecipe(ore, dust.firstItem * 2);
 
-        RecipeBuilder.newBuilder(machineNmae ~ name, machineNmae, 40)
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 40)
             .addItemInput(ore.firstItem)
             .addItemOutput(dust.firstItem.withAmount(2))
         .build();
 
     }
 
-    if(!isNull(oreAuraInfusion) && !oreAuraInfusion.empty && !isNull(oreCrushedInfused) && !oreCrushedInfused.empty) {
+    if(!oreAuraInfusion.empty && !oreCrushedInfused.empty) {
         
-        mods.appliedenergistics2.Grinder.removeRecipe(oreAuraInfusion.firstItem);
-        mods.appliedenergistics2.Grinder.addRecipe(oreCrushedInfused.firstItem, oreAuraInfusion.firstItem, 8, oreCrushedInfused.firstItem, 1.0);
+        Grinder.removeRecipe(oreAuraInfusion.firstItem);
+        Grinder.addRecipe(oreCrushedInfused.firstItem, oreAuraInfusion.firstItem, 8, oreCrushedInfused.firstItem, 1.0);
 
-        //mods.integrateddynamics.Squeezer.removeRecipe(oreAuraInfusion.firstItem);
-        mods.integrateddynamics.Squeezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
+        //Squeezer.removeRecipe(oreAuraInfusion.firstItem);
+        Squeezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
 
-        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
-        mods.integrateddynamics.MechanicalSqueezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
+        //MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
+        MechanicalSqueezer.addRecipe(oreAuraInfusion.firstItem, oreCrushedInfused.firstItem, 1.0, oreCrushedInfused.firstItem, 1.0);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreCrushedInfused.firstItem) ~ num;
         num = num + 1;
 
-        mods.naturesaura.Altar.removeRecipe(oreCrushedInfused.firstItem);
-        mods.naturesaura.Altar.addRecipe(name, oreAuraInfusion, oreCrushedInfused.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
+        Altar.removeRecipe(oreCrushedInfused.firstItem);
+        Altar.addRecipe(name, oreAuraInfusion, oreCrushedInfused.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
 
-        mods.immersiveengineering.Crusher.removeRecipesForInput(oreAuraInfusion.firstItem);
-        mods.immersiveengineering.Crusher.addRecipe(oreCrushedInfused.firstItem, oreAuraInfusion, 2000, oreCrushedInfused.firstItem, 1.0);
+        Crusher.removeRecipesForInput(oreAuraInfusion.firstItem);
+        Crusher.addRecipe(oreCrushedInfused.firstItem, oreAuraInfusion, 2000, oreCrushedInfused.firstItem, 1.0);
 
-        mods.lightningcraft.LightningCrusher.remove(oreCrushedInfused.firstItem);
-        mods.lightningcraft.LightningCrusher.add(oreCrushedInfused.firstItem * 2, oreAuraInfusion);
+        LightningCrusher.remove(oreCrushedInfused.firstItem);
+        LightningCrusher.add(oreCrushedInfused.firstItem * 2, oreAuraInfusion);
 
-        mods.mekanism.enrichment.removeRecipe(oreAuraInfusion.firstItem);
-        mods.mekanism.enrichment.addRecipe(oreAuraInfusion, oreCrushedInfused.firstItem * 2);
+        enrichment.removeRecipe(oreAuraInfusion.firstItem);
+        enrichment.addRecipe(oreAuraInfusion, oreCrushedInfused.firstItem * 2);
 
-        RecipeBuilder.newBuilder(machineNmae ~ name, machineNmae, 40)
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 40)
             .addItemInput(oreAuraInfusion.firstItem)
             .addItemOutput(oreCrushedInfused.firstItem.withAmount(2))
         .build();
     }
     
-    if(!isNull(oreEnriched) && !oreEnriched.empty && 
-       !isNull(oreCrushedEnriched) && !oreCrushedEnriched.empty && 
-       !isNull(dust) && !dust.empty) {
+    if(!oreEnriched.empty && !oreCrushedEnriched.empty && !dust.empty) {
 
-        mods.appliedenergistics2.Grinder.removeRecipe(oreEnriched.firstItem);
-        mods.appliedenergistics2.Grinder.addRecipe(oreCrushedEnriched.firstItem, oreEnriched.firstItem, 8, oreCrushedEnriched.firstItem, 1.0);
+        Grinder.removeRecipe(oreEnriched.firstItem);
+        Grinder.addRecipe(oreCrushedEnriched.firstItem, oreEnriched.firstItem, 8, oreCrushedEnriched.firstItem, 1.0);
 
-        //mods.integrateddynamics.Squeezer.removeRecipe(oreEnriched.firstItem);
-        mods.integrateddynamics.Squeezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem, 1.0, oreCrushedEnriched.firstItem, 1.0);
+        //Squeezer.removeRecipe(oreEnriched.firstItem);
+        Squeezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem, 1.0, oreCrushedEnriched.firstItem, 1.0);
 
-        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(oreEnriched.firstItem);
-        mods.integrateddynamics.MechanicalSqueezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem * 2, 1.0, dust.firstItem, 0.25);
+        //MechanicalSqueezer.removeRecipe(oreEnriched.firstItem);
+        MechanicalSqueezer.addRecipe(oreEnriched.firstItem, oreCrushedEnriched.firstItem * 2, 1.0, dust.firstItem, 0.25);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreCrushedEnriched.firstItem) ~ num;
         num = num + 1;
 
-        mods.naturesaura.Altar.removeRecipe(oreCrushedEnriched.firstItem);
-        mods.naturesaura.Altar.addRecipe(name, oreEnriched, oreCrushedEnriched.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
+        Altar.removeRecipe(oreCrushedEnriched.firstItem);
+        Altar.addRecipe(name, oreEnriched, oreCrushedEnriched.firstItem * 2, <naturesaura:crushing_catalyst>, 500, 100);
 
-        mods.immersiveengineering.Crusher.removeRecipesForInput(oreEnriched.firstItem);
-        mods.immersiveengineering.Crusher.addRecipe(oreCrushedEnriched.firstItem * 2, oreEnriched, 2000, dust.firstItem, 0.25);
+        Crusher.removeRecipesForInput(oreEnriched.firstItem);
+        Crusher.addRecipe(oreCrushedEnriched.firstItem * 2, oreEnriched, 2000, dust.firstItem, 0.25);
 
-        mods.lightningcraft.LightningCrusher.remove(oreCrushedEnriched.firstItem);
-        mods.lightningcraft.LightningCrusher.add(oreCrushedEnriched.firstItem * 2, oreEnriched);
+        LightningCrusher.remove(oreCrushedEnriched.firstItem);
+        LightningCrusher.add(oreCrushedEnriched.firstItem * 2, oreEnriched);
 
-        mods.mekanism.enrichment.removeRecipe(oreEnriched.firstItem);
-        mods.mekanism.enrichment.addRecipe(oreEnriched, oreCrushedEnriched.firstItem * 2);
+        enrichment.removeRecipe(oreEnriched.firstItem);
+        enrichment.addRecipe(oreEnriched, oreCrushedEnriched.firstItem * 2);
 
-        RecipeBuilder.newBuilder(machineNmae ~ name, machineNmae, 40)
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 40)
             .addItemInput(oreEnriched.firstItem)
             .addItemOutput(oreCrushedEnriched.firstItem.withAmount(2))
             .addItemOutput(dust.firstItem.withAmount(1))
@@ -165,32 +186,32 @@ for oreName in oreNames {
         .build();
     }
 
-    if(!isNull(crystal) && !crystal.empty && !isNull(dust) && !dust.empty) {
-        mods.appliedenergistics2.Grinder.removeRecipe(crystal.firstItem);
-        mods.appliedenergistics2.Grinder.addRecipe(dust.firstItem * 2, crystal.firstItem, 8, dust.firstItem, 1.0);
+    if(!crystal.empty && !dust.empty) {
+        Grinder.removeRecipe(crystal.firstItem);
+        Grinder.addRecipe(dust.firstItem * 2, crystal.firstItem, 8, dust.firstItem, 1.0);
 
-        //mods.integrateddynamics.Squeezer.removeRecipe(crystal.firstItem);
-        mods.integrateddynamics.Squeezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
+        //Squeezer.removeRecipe(crystal.firstItem);
+        Squeezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
 
-        //mods.integrateddynamics.MechanicalSqueezer.removeRecipe(crystal.firstItem);
-        mods.integrateddynamics.MechanicalSqueezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
+        //MechanicalSqueezer.removeRecipe(crystal.firstItem);
+        MechanicalSqueezer.addRecipe(crystal.firstItem, dust.firstItem * 2, 1.0, dust.firstItem, 1.0);
 
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(dust.firstItem) ~ num;
         num = num + 1;
 
-        mods.naturesaura.Altar.removeRecipe(dust.firstItem);
-        mods.naturesaura.Altar.addRecipe(name, crystal, dust.firstItem * 3, <naturesaura:crushing_catalyst>, 500, 100);
+        Altar.removeRecipe(dust.firstItem);
+        Altar.addRecipe(name, crystal, dust.firstItem * 3, <naturesaura:crushing_catalyst>, 500, 100);
 
-        mods.immersiveengineering.Crusher.removeRecipesForInput(crystal.firstItem);
-        mods.immersiveengineering.Crusher.addRecipe(dust.firstItem * 2, crystal, 2000, dust.firstItem, 1.0);
+        Crusher.removeRecipesForInput(crystal.firstItem);
+        Crusher.addRecipe(dust.firstItem * 2, crystal, 2000, dust.firstItem, 1.0);
 
-        mods.lightningcraft.LightningCrusher.remove(crystal.firstItem);
-        mods.lightningcraft.LightningCrusher.add(dust.firstItem * 3, crystal);
+        LightningCrusher.remove(crystal.firstItem);
+        LightningCrusher.add(dust.firstItem * 3, crystal);
 
-        mods.mekanism.enrichment.removeRecipe(crystal.firstItem);
-        mods.mekanism.enrichment.addRecipe(crystal, dust.firstItem * 3);
+        enrichment.removeRecipe(crystal.firstItem);
+        enrichment.addRecipe(crystal, dust.firstItem * 3);
 
-        RecipeBuilder.newBuilder(machineNmae ~ name, machineNmae, 40)
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 40)
             .addItemInput(crystal.firstItem)
             .addItemOutput(dust.firstItem.withAmount(3))
         .build();
@@ -198,32 +219,36 @@ for oreName in oreNames {
 
 // -------------------------------------------------------------------------------
 
-    if(!isNull(ingot) && !ingot.empty) {
-        if(!isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
+    if(!ingot.empty) {
+        if(!oreAuraInfusion.empty) {
             furnace.addRecipe(ingot.firstItem * 2, oreAuraInfusion);
         }
-        if(!isNull(oreEnriched) && !oreEnriched.empty) {
+
+        if(!oreEnriched.empty) {
             furnace.addRecipe(ingot.firstItem * 3, oreEnriched);
         }
-        if(!isNull(oreCrushedEnriched) && !oreCrushedEnriched.empty) {
+
+        if(!oreCrushedEnriched.empty) {
             furnace.addRecipe(ingot.firstItem * 2, oreCrushedEnriched);
         }
-        if(!isNull(oreCrushedInfused) && !oreCrushedInfused.empty && !isNull(shard) && !shard.empty) {
+
+        if(!oreCrushedInfused.empty && !shard.empty) {
             furnace.addRecipe(shard.firstItem * 4, oreCrushedInfused);
         }
-        if(!isNull(clamp) && !clamp.empty && !isNull(shard) && !shard.empty) {
+
+        if(!clamp.empty && !shard.empty) {
             furnace.addRecipe(shard.firstItem * 8, clamp);
         }
     }
 
 // -------------------------------------------------------------------------------
 
-    if(!isNull(oreEnriched) && !oreEnriched.empty && !isNull(oreAuraInfusion) && !oreAuraInfusion.empty) {
+    if(!oreEnriched.empty && !oreAuraInfusion.empty) {
         mods.randomtweaker.botania.IOrechid.addOreRecipe(oreAuraInfusion.firstItem, oreEnriched, 1000);
     }
 
 // -------------------------------------------------------------------------------
-    if (!isNull(oreAuraInfusion) && !oreAuraInfusion.empty && !isNull(ore) && !ore.empty) {
+    if (!oreAuraInfusion.empty && !ore.empty) {
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreAuraInfusion.firstItem) ~ num;
         num = num + 1;
 

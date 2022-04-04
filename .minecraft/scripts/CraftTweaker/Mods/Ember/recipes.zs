@@ -156,14 +156,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_funnel>,
         .with("Q", <embers:ember_receiver>)
         .with("E", <ore:plateDawnstone>)
         .with("W", <ore:ingotCopper>).get()
-, {<ore:artisansDriver> : 28, <ore:artisansSpanner> : 29});
+, {<ore:artisansDriver> : 14, <ore:artisansSpanner> : 15});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_pulser>,
     inputPattern([" E", " Q", " W"])
         .with("Q", <embers:ember_emitter>)
         .with("E", <ore:plateDawnstone>)
         .with("W", <ore:ingotSteel>).get()
-, {<ore:artisansDriver> : 26, <ore:artisansSpanner> : 25});
+, {<ore:artisansDriver> : 13, <ore:artisansSpanner> : 13});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:spark_plug>,
     inputPattern(["E E", " W", " Q"])
@@ -184,14 +184,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_receiver> * 2,
         .with("Q", <embers:plate_caminite>)
         .with("E", <ore:ingotIron>)
         .with("W", <ore:ingotCopper>).get()
-, {<ore:artisansDriver> : 18, <ore:artisansSpanner> : 27});
+, {<ore:artisansDriver> : 14, <ore:artisansSpanner> : 21});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_emitter> * 2,
     inputPattern([" W"," W", "EQE"])
         .with("Q", <embers:plate_caminite>)
         .with("E", <ore:ingotIron>)
         .with("W", <ore:ingotCopper>).get()
-, {<ore:artisansDriver> : 22, <ore:artisansSpanner> : 18});
+, {<ore:artisansDriver> : 17, <ore:artisansSpanner> : 14});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:boiler>, [
     [<ore:rodCopper>, <ore:ingotCopper>, <ore:rodCopper>],
