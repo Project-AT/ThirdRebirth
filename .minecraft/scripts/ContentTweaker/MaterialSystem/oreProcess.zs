@@ -38,8 +38,9 @@ var oreProcess as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_p
 oreProcess.addParts(["shard", "clump", "crystal"]);
 oreProcess.registerNormalPart("ore_enriched", "ore", true);
 oreProcess.registerNormalPart("ore_aura_infusion", "ore", true);
-oreProcess.registerNormalPart("ore_crushed_infused", "item", false);
+oreProcess.registerNormalPart("ore_crushed_infused", "item", true);
 oreProcess.registerNormalPart("ore_crushed_enriched", "item", false);
+oreProcess.registerNormalPart("ore_clean_crushed_infused", "item", false);
 
 for material, color in materials {
     oreProcess.registerMaterial(material, color);

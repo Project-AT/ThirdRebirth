@@ -14,9 +14,10 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.title.flcn.tooltip"));
 
-furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
 furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:oreCrudeSteel>);
 furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:dustCrudeSteel>);
+furnace.addRecipe(<contenttweaker:stamp_nugget>, <contenttweaker:raw_stamp_nugget>);
+furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
 
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
@@ -86,37 +87,6 @@ var recipe as IOreDictEntry[IOreDictEntry] = {
 
 for k, v in recipe {
     addRecipe(k, v);
-}
-
-static shard as string = "shard";
-static auraInfusion as string = "oreAuraInfusion";
-
-for ore in oreDict.entries {
-    var oreName as string = ore.name;
-    var firstItem as IItemStack = ore.firstItem;
-    
-    if(oreName.contains(auraInfusion)) {
-        var recipeName as string = StringHelper.getItemNameWithUnderline(firstItem);
-        var metalName as string = RecipeUtils.getMetalNameNew(ore, auraInfusion);
-        var oreMetal as IOreDictEntry = oreDict.get("ore" ~ metalName);
-
-        if(!isNull(oreMetal) && !oreMetal.empty) {
-            Altar.addRecipe(recipeName, oreMetal, firstItem, null, 10000, 80);
-        }
-    }
-
-    if(oreName.contains(shard)) {
-        var metalName as string = RecipeUtils.getMetalNameNew(ore, shard);
-        var oreMetal as IOreDictEntry = oreDict.get("ingot" ~ metalName);
-        
-        if(!isNull(oreMetal) && !oreMetal.empty) {
-            var metal as IItemStack = oreMetal.firstItem;
-            var recipeName as string = StringHelper.getItemNameWithUnderline(metal);
-            
-            recipes.addShapeless(recipeName, metal, [ore, ore, ore]);
-        }
-    }
-
 }
 
 function addRecipe(b as IOreDictEntry, a as IOreDictEntry) {
