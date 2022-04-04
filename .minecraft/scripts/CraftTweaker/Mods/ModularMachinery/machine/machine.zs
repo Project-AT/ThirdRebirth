@@ -1,6 +1,8 @@
 #priority 5
 #modloaded atutils
 
+import crafttweaker.liquid.ILiquidStack;
+
 import mods.modularmachinery.RecipeBuilder;
 
 import scripts.grassUtils.StringHelper;
@@ -41,11 +43,36 @@ RecipeBuilder.newBuilder("fractionator_recipe", "fractionator", 100)
 .build();
 
 for item in game.items {
-    for item_ in item.subItems{
+    for item_ in item.subItems {
         RecipeBuilder.newBuilder("big_embers_furnace_recipe" + StringHelper.getItemNameWithUnderline(item_), "big_embers_furnace", 2)
             .addItemInput(item_)
             .addItemOutput(<embers:dust_ash>)
             .addEmberInput(20)
         .build();
     }
+}
+
+var liquidList as ILiquidStack[] = [
+    <liquid:lpg> * 2,
+    <liquid:fuel> * 5,
+    <liquid:oil> * 125,
+    <liquid:diesel> * 11,
+    <liquid:kerosene> * 7,
+    <liquid:creosote> * 250
+];
+
+for i, liquid in liquidList {
+    var time as int = 20;
+    var steam as ILiquidStack = <liquid:steam> * 1000;
+
+    if (i == 1 || i == 3 || i == 4) {
+        time *= 2;
+        steam.withAmount(2000);
+    }
+
+    RecipeBuilder.newBuilder("small_thermal_boiler_recipe" ~ liquid.definition.name, "small_thermal_boilers", time)
+    .addFluidInput(liquid)
+    .addFluidInput(<liquid:water> * 200)
+    .addFluidOutput(steam)
+    .build();
 }
