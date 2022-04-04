@@ -6,7 +6,8 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Electrolyzer;
 
 function addRecipe(input as ILiquidStack, output1 as ILiquidStack, output2 as ILiquidStack = null, output3 as ILiquidStack = null, output4 as ILiquidStack = null, remove as bool = true) {
-    Electrolyzer.removeRecipeWithInput(input);
+    if (remove)
+        Electrolyzer.removeRecipeWithInput(input);
     Electrolyzer.addRecipe(input, output1, output2, output3, output4);
 }
 
