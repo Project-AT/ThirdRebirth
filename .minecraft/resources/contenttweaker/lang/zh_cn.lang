@@ -42,6 +42,8 @@ item.contenttweaker.autotech.name=AutoTech
 item.contenttweaker.mana_crystal.name=魔力水晶
 item.contenttweaker.stamp_nugget.name=颗粒模具
 item.contenttweaker.raw_stamp_nugget.name=未烧制的颗粒模具
+item.contenttweaker.wine_stone.name=酒石
+item.contenttweaker.tartaric_acid.name=酒石酸
 
 #Item
 #Bauble
@@ -72,6 +74,10 @@ tile.contenttweaker.endOreRutile.name=末地金红石矿石
 fluid.hdpe=高密度聚乙烯
 fluid.glaze_slurry=釉浆
 fluid.eutrophic_water=富营养水
+fluid.infused_slag_slurry=灌注矿渣浆液
+fluid.germanium_slurry=锗浆液
+fluid.tartaric_acid_solution=酒石酸溶液
+fluid.slag_waste_slurry=矿渣废液
 
 #Enchantment
 enchantment.critical=会心一击
@@ -86,7 +92,8 @@ itemGroup.autotech=ContentTweakerAutoTech
 contenttweaker.part.ore_enriched=富集%s矿石
 contenttweaker.part.ore_aura_infusion=灵气灌注%s矿石
 contenttweaker.part.ore_crushed_enriched=富集%s脏粉
-contenttweaker.part.ore_crushed_infused=灌注%s矿石碎片
+contenttweaker.part.ore_crushed_infused=粉碎灌注%s矿石
+contenttweaker.part.ore_clean_crushed_infused=干净粉碎灌注%s矿石
 
 #Material
 base.material.tin=锡

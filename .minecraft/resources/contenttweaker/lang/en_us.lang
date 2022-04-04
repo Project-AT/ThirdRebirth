@@ -43,6 +43,8 @@ item.contenttweaker.autotech.name=AutoTech
 item.contenttweaker.mana_crystal.name=Mana Crystal
 item.contenttweaker.stamp_nugget.name=Nugget Stamp
 item.contenttweaker.raw_stamp_nugget.name=Raw Nugget Stamp
+item.contenttweaker.wine_stone.name=Wine Stone
+item.contenttweaker.tartaric_acid.name=Tartaric Acid
 
 #Item
 #Bauble
@@ -73,6 +75,10 @@ tile.contenttweaker.endOreRutile.name=End Rutile Ore
 fluid.hdpe=High Density Polyethylene
 fluid.glaze_slurry=Glaze Slurry
 fluid.eutrophic_water=Eutrophic Water
+fluid.infused_slag_slurry=Infused Slag Slurry
+fluid.germanium_slurry=Germanium Slurry
+fluid.tartaric_acid_solution=Tartaric Acid Solution
+fluid.slag_waste_slurry=Slag Waste Slurry
 
 #Enchantment
 enchantment.critical=Critical
@@ -88,6 +94,7 @@ contenttweaker.part.ore_enriched=Enriched %s Ore
 contenttweaker.part.ore_aura_infusion=Aura Infusion %s Ore
 contenttweaker.part.ore_crushed_enriched=Crushed Enriched %s
 contenttweaker.part.ore_crushed_infused=Crushed Infused %s Ore
+contenttweaker.part.ore_clean_crushed_infused=Clean Crushed Infused %s Ore
 
 #Material
 base.material.gold=Gold
