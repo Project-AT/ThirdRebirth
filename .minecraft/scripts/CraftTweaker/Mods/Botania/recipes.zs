@@ -18,10 +18,8 @@ var manaTransform as IItemStack[IIngredient] = {
     <botania:quartztypemana:2> : <minecraft:quartz_block:2>
 };
 
-var nacrePearl as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long});
-
 RecipeUtils.recipeTweak(true, <botania:altar>, [
-    [<ore:slabCobblestone>, nacrePearl, <ore:slabCobblestone>],
+    [<ore:slabCobblestone>, NACRE_PEARL, <ore:slabCobblestone>],
     [null, <minecraft:cobblestone>, null],
     [<minecraft:cobblestone>, <ore:livingrock>, <minecraft:cobblestone>]
 ]);
@@ -38,18 +36,18 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>,[
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader:2>, [
     [<ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>],
-    [<ore:ingotElvenElementium>, nacrePearl, null],
+    [<ore:ingotElvenElementium>, NACRE_PEARL, null],
     [<ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>]
 ], {<ore:artisansAthame> : 5, <ore:artisansGrimoire> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
-    [<ore:livingrock>, nacrePearl, <ore:livingrock>,],
+    [<ore:livingrock>, NACRE_PEARL, <ore:livingrock>,],
     [<ore:livingrock>, <ore:livingrock>,  <ore:livingrock>]
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader>, [
 	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
-    [<ore:ingotGold>, nacrePearl],
+    [<ore:ingotGold>, NACRE_PEARL],
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 

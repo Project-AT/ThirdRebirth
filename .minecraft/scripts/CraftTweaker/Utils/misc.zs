@@ -1,4 +1,4 @@
-#priority 10
+#priority 15
 #modloaded atutils
 
 import mods.zenutils.NetworkHandler;
@@ -7,6 +7,11 @@ import crafttweaker.item.IIngredient;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
+
+global NACRE_PEARL as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | 
+									<wizardry:nacre_pearl>.withTag({purity: 599 as long}) | 
+									<wizardry:nacre_pearl>.withTag({purity: 601 as long});
+
 
 var toolTypes as string[] = ["sword", "axe", "pickaxe", "shovel"];
 

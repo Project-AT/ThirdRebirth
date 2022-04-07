@@ -9,7 +9,6 @@ import mods.roots.Mortar;
 import scripts.grassUtils.StringHelper;
 
 static tweakedRecipesAmount as int = 0;
-var nacrePearl as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long});
 
 function mortarUtils(output as IItemStack, input as IIngredient[]) {
     Mortar.addRecipe(StringHelper.getItemNameWithUnderline(output) + tweakedRecipesAmount,  output,  input);
@@ -29,7 +28,7 @@ mortarUtils(<thermalfoundation:material:769>, [<minecraft:coal:1>]);
 mortarUtils(<ore:nuggetGold>.firstItem * 3, [<minecraft:golden_carrot>]);
 
 Mortar.changeSpell("spell_chrysopoeia", [
-    nacrePearl, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>
+    NACRE_PEARL, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>
 ]);
 
 for i in 0 to 16 {

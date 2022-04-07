@@ -65,7 +65,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>,
     inputPattern("ABA", "GFG", "ABA")
         .with("B", <ore:manaPearl>)
         .with("G", <ore:gemDiamond>)
-        .with("F", <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long}))
+        .with("F", NACRE_PEARL)
         .with("A", <roots:dewgonia>).get()
 , {<ore:artisansGrimoire> : 30, <ore:artisansAthame> : 30} as int[IIngredient]);
 

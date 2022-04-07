@@ -61,7 +61,7 @@ RecipeUtils.recipeTweak(true, <roots:fey_crafter>,
     inputPatternGet(["ABA", "BCB", "DED"], {
         "A" : <roots:wildroot>,
         "B" : <ore:treeSapling>,
-        "C" : <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | <wizardry:nacre_pearl>.withTag({purity: 601 as long}),
+        "C" : NACRE_PEARL,
         "D" : <roots:terra_moss>,
         "E" : <ore:logWood>
 }));

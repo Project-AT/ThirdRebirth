@@ -9,7 +9,7 @@ recipes.removeByRecipeName("extrautils2:watering_can");
 
 RecipeUtils.recipeTweak(true, <extrautils2:ingredients>, [
     [null, <minecraft:redstone>],
-    [<minecraft:redstone>, <wizardry:nacre_pearl>, <minecraft:redstone>],
+    [<minecraft:redstone>, NACRE_PEARL, <minecraft:redstone>],
     [null, <minecraft:redstone>]
 ]);
 
