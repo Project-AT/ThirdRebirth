@@ -5,7 +5,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.botania.ElvenTrade;
 import mods.atutils.IBotaniaAPI;
 
 import scripts.grassUtils.StringHelper;
@@ -123,7 +122,7 @@ var elvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
 };
 
 for remove in toRemoves {
-    ElvenTrade.removeRecipe(remove);
+    IBotaniaAPI.removeElvenTradeRecipe(remove);
 }
 
 for output, recipe in elvenTradeRecipes {
