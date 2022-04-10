@@ -16,6 +16,7 @@
 
 #configs
 !/.minecraft/config/
+/.minecraft/config/acronym/saved/*
 /.minecraft/config/advRocketry/advancedRocketry.cfg
 /.minecraft/config/AE2Stuff/readme.txt
 /.minecraft/config/AppliedEnergistics2/items.csv
