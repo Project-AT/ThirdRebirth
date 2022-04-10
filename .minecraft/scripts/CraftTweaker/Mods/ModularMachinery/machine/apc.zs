@@ -19,12 +19,11 @@ var itemTransform as int[IItemStack][IItemStack] = {
     <minecraft:stone> : {<naturesaura:infused_stone> : 7500}
 };
 
-for input, output in itemTransform {
-    var machineName = "aura_perfusion_changer_controller";
+var machineName = "aura_perfusion_changer";
 
+for input, output in itemTransform {
     for output_, aura in output {
         var name = StringHelper.getItemNameWithUnderline(output_);
-
         RecipeBuilder.newBuilder(machineName ~ name, machineName, 10)
             .addItemInput(input)
             .addItemOutput(output_)
