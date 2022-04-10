@@ -57,11 +57,14 @@
 /.minecraft/config/vanillafix/methods-stable_39.csv
 
 #other stuff
-/.minecraft/scripts/.zsrc
 !/.minecraft/resources
+.minecraft/resources/mekatweaker/blockstates
+.minecraft/resources/mekatweaker/textures/blockstates
+/.minecraft/resources/atutils
 !/.minecraft/oresources
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
+/.minecraft/scripts/.zsrc
 !/.minecraft/structures
 
 #pack stuff
@@ -70,11 +73,8 @@
 !/modlist.html
 !/manifest.json
 .minecraft/icon.png
-.minecraft/resources/mekatweaker/blockstates
-.minecraft/resources/mekatweaker/textures
 
 # utils mod
 !/.minecraft/mods
 /.minecraft/mods/*
 !/.minecraft/mods/atutils*.jar
-/.minecraft/resources/atutils
