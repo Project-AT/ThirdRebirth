@@ -11,6 +11,7 @@ import mods.naturesaura.Altar;
 import scripts.grassUtils.RecipeUtils;
 import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
+import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.title.flcn.tooltip"));
 
@@ -69,7 +70,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:mana_crystal>,
         .with("A", <roots:dewgonia>).get()
 , {<ore:artisansGrimoire> : 30, <ore:artisansAthame> : 30} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <contenttweaker:sensitive_element> * 3, 
+electronicAssembly.addRecipe("engineer", true, <contenttweaker:sensitive_element> * 3, 
     inputPattern("Z Z", "GFG", "XZX")
         .with("Z", <ore:plasticWhite>)
         .with("G", <enderio:item_material:5>)

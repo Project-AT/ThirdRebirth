@@ -73,7 +73,11 @@ var oreDictAdd as IItemStack[][string] = {
         <harvestcraft:fruitcakeitem>,
         <travelersbackpack:travelers_backpack:18>
     ],
-    
+    "nuggetSmithingIron" : [<contenttweaker:pure_iron_nugget>, <enderio:item_alloy_nugget>],
+    "ingotSmithingIron" : [<contenttweaker:pure_iron_ingot>, <enderio:item_alloy_ingot>],
+    "blockSmithingIron" : [<ore:blockPureIron>.firstItem, <enderio:block_alloy>],
+    "pyrolyticCarbon" : [<immersiveengineering:material>, <nuclearcraft:part:15>],
+
 };
 
 var oreDictRemove as IItemStack[] = [

@@ -18,3 +18,4 @@ function addSqueezerRecipeByLiquid(input as IItemStack, output as IItemStack, ou
 }
 
 addSqueezerRecipeByLiquid(<biomesoplenty:fleshchunk>, <minecraft:rotten_flesh>, <liquid:blood> * 10, 10);
+addSqueezerRecipeByLiquid(<netherex:gloomy_netherrack>, null, <liquid:oil_soul> * 25, 10);

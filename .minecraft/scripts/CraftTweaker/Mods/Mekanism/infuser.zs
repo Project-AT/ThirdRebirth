@@ -5,10 +5,10 @@ import crafttweaker.oredict.IOreDict;
 
 import mods.mekatweaker.InfuserType;
 
-var types as string[] = ["signalum", "draconium", "crystaltine"];
+var types as string[] = ["Signalum", "Draconium", "Crystaltine"];
 
 for type in types {
-    InfuserType.addType(type);
     InfuserType.addTypeObject(oreDict.get("ingot" + type), type, 10);
-    InfuserType.addTypeObject(itemUtils.getItem("contenttweaker:compressed_" + type), type, 80);
+    InfuserType.addTypeObject(oreDict.get("dust" + type), type, 10);
+    InfuserType.addTypeObject(itemUtils.getItem("contenttweaker:compressed_" + type.toLowerCase()), type, 80);
 }

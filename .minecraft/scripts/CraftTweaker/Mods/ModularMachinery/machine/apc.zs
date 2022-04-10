@@ -16,7 +16,7 @@ var itemTransform as int[IItemStack][IItemStack] = {
     <minecraft:glass_bottle> : {<minecraft:potion>.withTag({Potion: "minecraft:water"}) : 25000},
     <contenttweaker:sub_block_holder_2:12> : {<naturesaura:infused_iron_block> : 135000},
     <minecraft:red_mushroom> : {<minecraft:nether_wart> : 30000},
-    <minecraft:stone> : {<naturesaura:infused_stone> : 7500}
+    <minecraft:stone> : {<naturesaura:infused_stone> : 7500},
 };
 
 var machineName = "aura_perfusion_changer";
@@ -32,3 +32,9 @@ for input, output in itemTransform {
     }
 }
 
+RecipeBuilder.newBuilder(machineName ~ "_psi_5", machineName, 50)
+    .addItemInput(<ore:coal>)
+    .addItemOutput(<psi:material:5>)
+    .addFluidOutput(<liquid:aura_end> * 100)
+    .addAuraInput(100, true)
+.build();

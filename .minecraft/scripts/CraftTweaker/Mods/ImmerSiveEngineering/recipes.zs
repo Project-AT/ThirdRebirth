@@ -8,6 +8,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
+
 artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_decoration:1> * 3, [
     [<ore:ingotBrickNether>, <contenttweaker:refractory_brick>, <ore:ingotBrickNether>],
     [<contenttweaker:refractory_brick>, <buildinggadgets:constructionpaste>, <contenttweaker:refractory_brick>],
@@ -26,7 +28,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_dec
     [<ore:ingotBrick>, <contenttweaker:refractory_brick>, <ore:ingotBrick>]
 ], {<ore:artisansTrowel> : 2} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:26> * 3, [
+electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:26> * 3, [
 	[null, <ore:blockGlass>],
     [<ore:blockGlass>, <ore:wireCopper>, <ore:blockGlass>],
     [<minecraft:redstone>, <ore:plateNickel>, <minecraft:redstone>]
@@ -137,13 +139,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
         .with("C", <ore:gearElectrum>).get()
 , {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 8} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:9>, 
+electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:9>, 
     inputPattern(["  G", " Q ", "G"])
         .with("G", <ore:plateSteel>)
         .with("Q", <ore:ingotBronze>).get()
 , {<ore:artisansSpanner> : 3} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:8>, 
+electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:8>, 
     inputPattern(["  T", " C ", "T"])
         .with("T", <ore:plateIron>)
         .with("C", <ore:ingotCopper>).get()
@@ -178,7 +180,7 @@ artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:bluepr
 
 artisanUtils.RecipeTweakWithLiquid("basic", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:27> * 2,
+electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27> * 2,
     inputPattern(["QWQ", "EQE", "SSS"])
         .with("Q", <ore:wireCopper>)
         .with("W", <embers:archaic_circuit>)
@@ -186,7 +188,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:materi
         .with("E", <ore:electronTube>).get()
 , {<ore:artisansSolderer> : 23});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:material:27>,
+electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27>,
     inputPattern(["Q Q", "EQE", "SSS"])
         .with("Q", <ore:wireCopper>)
         .with("W", <embers:archaic_circuit>)

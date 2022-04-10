@@ -5,6 +5,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
 RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_valve>, [[<pneumaticcraft:pressure_tube>, <pneumaticcraft:pressure_chamber_wall>]]);
 
@@ -19,14 +20,14 @@ artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprin
         .with("T", <artisanworktables:design_pattern>).get()
 , {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:transistor>,
+electronicAssembly.addRecipe("engineer", true, <pneumaticcraft:transistor>,
     inputPattern([" Q", " W", "E E"])
         .with("Q", <ore:plasticBlack>)
         .with("W", <ore:gemRedstone>)
         .with("E", <ore:nuggetPureIron>).get()
 , {<ore:artisansSolderer> : 22});
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:capacitor>,
+electronicAssembly.addRecipe("engineer", true, <pneumaticcraft:capacitor>,
     inputPattern([" Q", " W", "E E"])
         .with("Q", <ore:plasticBlue>)
         .with("W", <ore:dustBedrock>)
