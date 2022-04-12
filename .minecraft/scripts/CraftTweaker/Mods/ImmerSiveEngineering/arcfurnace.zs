@@ -44,3 +44,46 @@ ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:ingotIron>, null, 20
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:gemQuartz> * 4, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, null, 200, 2048, [<quark:black_ash> * 4, <ore:slimeball>], "Alloying");
+
+var oldrecipe as IItemStack[] =[
+<immersiveengineering:metal:8>,
+<immersiveengineering:metal:7>,
+<immersiveengineering:metal:6>,
+<immersiveengineering:metal:5>,
+<immersiveengineering:metal:4>,
+<immersiveengineering:metal:3>,
+<immersiveengineering:metal:2>,
+<immersiveengineering:metal:1>,
+<immersiveengineering:metal>
+];
+for recipe in oldrecipe{
+    ArcFurnace.removeRecipe(recipe);
+}
+
+ArcFurnace.addRecipe(<thermalfoundation:material:128>*2,<ore:oreCopper>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:128>,<ore:dustCopper>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:132>*2,<ore:oreAluminium>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:132>,<ore:dustAluminium>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:131>*2,<ore:oreLead>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:131>,<ore:dustLead>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:130>*2,<ore:oreSilver>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:130>,<ore:dustSilver>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:123>*2,<ore:oreNickel>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:123>,<ore:dustNickel>,null,100,512);
+ArcFurnace.addRecipe(<nuclearcraft:ingot:4>*2,<ore:oreUranium>,<immersiveengineering:material:7>,200,512);
+ArcFurnace.addRecipe(<nuclearcraft:ingot:4>,<ore:dustUranium>,null,100,512);
+
+ArcFurnace.addRecipe(<thermalfoundation:material:161>*2,<ore:ingotGold>,null,100,512,[<ore:dustSilver>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:161>*2,<ore:dustGold>,null,100,512,[<ore:dustSilver>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:161>*2,<ore:ingotSilver>,null,100,512,[<ore:dustSilver>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:161>*2,<ore:dustSilver>,null,100,512,[<ore:dustSilver>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:128>*2,<ore:ingotNickel>,null,100,512,[<ore:ingotCopper>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:128>*2,<ore:dustNickel>,null,100,512,[<ore:ingotCopper>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:128>*2,<ore:ingotCopper>,null,100,512,[<ore:ingotCopper>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:128>*2,<ore:dustCopper>,null,100,512,[<ore:ingotCopper>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:160>,<ore:ingotIron>,<immersiveengineering:material:7>,400,512,[<ore:dustCoke>],"Alloying");
+ArcFurnace.addRecipe(<thermalfoundation:material:160>,<ore:ingotIron>,<immersiveengineering:material:7>,400,512,[<ore:fuelCoke>],"Alloying");
+
+ArcFurnace.addRecipe(<thermalfoundation:material:161>,<ore:dustConstantan>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:128>,<ore:dustElectrum>,null,100,512);
+ArcFurnace.addRecipe(<thermalfoundation:material:160>,<ore:dustSteel>,null,100,512);
