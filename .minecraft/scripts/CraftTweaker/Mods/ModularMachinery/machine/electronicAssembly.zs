@@ -19,7 +19,6 @@ zenClass electronicAssemblyRecipe {
         m_ingerdinetInput = [];
     }
     var m_machineName as string = "electronic_assembly_machine";
-    var m_recipeTime as int = 2 * 20;
     static m_tweakedRecipesAmount as int = 0;
     var m_primer as RecipePrimer;
     var m_itemInput as IItemStack[];
@@ -87,12 +86,12 @@ zenClass electronicAssemblyRecipe {
         return this;
     }
 
-    function build() as electronicAssemblyRecipe {
+    function build(recipeTime as int = 50, energyPerTickInput as int = 50) as electronicAssemblyRecipe {
         if (isNull(m_itemOutput)) {
             Logger.sendError("item error, no output");
         }
         var recipeName as string = m_machineName ~ "_" ~ StringHelper.getItemNameWithUnderline(m_itemOutput) ~ "_" ~ m_tweakedRecipesAmount;
-        var m_primer as RecipePrimer = RecipeBuilder.newBuilder(recipeName, m_machineName, m_recipeTime);
+        var m_primer as RecipePrimer = RecipeBuilder.newBuilder(recipeName, m_machineName, recipeTime);
         m_tweakedRecipesAmount += 1;
 
         for item in m_itemInput {
@@ -104,6 +103,9 @@ zenClass electronicAssemblyRecipe {
         }
 
         m_primer.addItemOutput(m_itemOutput);
+        m_primer.addItemOutput(m_itemOutput.withAmount(1));
+        m_primer.setChance(0);
+        m_primer.addEnergyPerTickInput(energyPerTickInput);
         m_primer.build();
         return this;
     }

@@ -1,8 +1,42 @@
 {
     "registryname": "electronic_assembly_machine",
     "localizedname": "at.electronic_assembly_machine.name",
-    "color" : "383736",
+    "color": "383736",
     "requires-blueprint": true,
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "description": "modularmachinery.modifier.1",
+            "modifier": [
+                {
+                    "io": "output",
+                    "target": "item",
+                    "operation": 0,
+                    "multiplier": 0.025,
+                    "affectChance": true
+                }
+            ]
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "description": "modularmachinery.modifier.1",
+            "modifier": [
+                {
+                    "io": "output",
+                    "target": "item",
+                    "operation": 0,
+                    "multiplier": 0.025,
+                    "affectChance": true
+                }
+            ]
+        }
+    ],
     "parts": [
         {
             "x": 0,
@@ -100,4 +134,5 @@
                 "immersiveengineering:sheetmetal@8"
             ]
         }
-    ]}
+    ]
+}
