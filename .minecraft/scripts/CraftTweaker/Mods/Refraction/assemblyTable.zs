@@ -23,5 +23,5 @@ function assemblyTableRecipe(output as IItemStack, inputs as IIngredient[],
 
 assemblyTableRecipe(<contenttweaker:germanium_integrated_circuit_board>,
     [<contenttweaker:ge_wafer>, <contenttweaker:ge_transistor> * 2, <enderio:item_basic_capacitor>, <mekanism:polyethene:2>, <enderio:item_material:50>],
-    32, 64, 96, 160, 48, 80, 255, 255, false
+    32, 64, 96, 160, 0, 0, 255, 255, false
 );
