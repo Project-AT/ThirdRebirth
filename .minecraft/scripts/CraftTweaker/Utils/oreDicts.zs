@@ -76,7 +76,7 @@ var oreDictAdd as IItemStack[][string] = {
     "nuggetSmithingIron" : [<contenttweaker:pure_iron_nugget>, <enderio:item_alloy_nugget>],
     "ingotSmithingIron" : [<contenttweaker:pure_iron_ingot>, <enderio:item_alloy_ingot>],
     "blockSmithingIron" : [<ore:blockPureIron>.firstItem, <enderio:block_alloy>],
-    "pyrolyticCarbon" : [<immersiveengineering:material>, <nuclearcraft:part:15>],
+    "pyrolyticCarbon" : [<immersiveengineering:material:19>, <nuclearcraft:part:15>],
 
 };
 
