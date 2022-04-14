@@ -44,9 +44,9 @@ zenClass electronicAssemblyRecipe {
     }
 
     function addInput(item as IItemStack) as electronicAssemblyRecipe {
-        for input in m_itemInput {
-            if (input.matches(item)) {
-                input.withAmount(input.amount + item.amount);
+        for i, input in m_itemInput {
+            if (input.withAmount(1).matches(item)) {
+                m_itemInput[i] = input.withAmount(input.amount + item.amount);
                 return this;
             }
         }

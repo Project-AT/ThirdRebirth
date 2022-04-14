@@ -30,9 +30,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_bore>, [
 ], {<ore:artisansSpanner> : 1} as int[IIngredient]);
 
 electronicAssembly.addRecipe("engineer", true, <embers:archaic_circuit> * 2, [
-    [<embers:archaic_brick>,<ore:wireCopper>, <embers:archaic_brick>],
-    [<embers:archaic_brick>,<ore:plateCopper>,<embers:archaic_brick>],
-    [<embers:archaic_brick>,<ore:wireCopper>, <embers:archaic_brick>]
+    [<embers:archaic_brick>, <ore:wireCopper>, <embers:archaic_brick>],
+    [<embers:archaic_brick>, <ore:plateCopper>, <embers:archaic_brick>],
+    [<embers:archaic_brick>, <ore:wireCopper>, <embers:archaic_brick>]
 ], {<ore:artisansDriver> : 2, <ore:artisansSolderer> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mech_core>, [
