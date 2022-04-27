@@ -1,11 +1,11 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.atutils.IBotaniaAPI;
+import mods.trutils.IBotaniaAPI;
 
 import scripts.grassUtils.StringHelper;
 

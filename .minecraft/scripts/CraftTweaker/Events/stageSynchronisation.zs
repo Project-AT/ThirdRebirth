@@ -1,5 +1,5 @@
 #priority 10
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;

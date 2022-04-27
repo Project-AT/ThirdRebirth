@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationRecipe;
 import mods.botaniatweaks.AgglomerationMultiblock;

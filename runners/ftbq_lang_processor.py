@@ -3,8 +3,8 @@
 import os
 
 ftbquests_path = ".minecraft/config/ftbquests"
-zh_cn_path = ".minecraft/resources/ftbq/lang/zh_cn.lang"
-en_us_path = ".minecraft/resources/ftbq/lang/en_us.lang"
+zh_cn_path = ".minecraft/resources/ftbquests/lang/zh_cn.lang"
+en_us_path = ".minecraft/resources/ftbquests/lang/en_us.lang"
 should_replace_key_type_value = [
     "title"
 ]
@@ -59,7 +59,7 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     head = line[0:first_quote_index]
     content = line[first_quote_index + 1:last_quote_index]
     tail = line[last_quote_index + 1:len(line)]
-    lang_key = "autotech.quests.%s.%s" % (file_name, key)
+    lang_key = "thirdrebirth.quests.%s.%s" % (file_name, key)
     print("get lang key %s, value = %s" % (lang_key, content))
     new_content = head + "\"{" + lang_key + "}\"" + tail
     f_list[index] = new_content

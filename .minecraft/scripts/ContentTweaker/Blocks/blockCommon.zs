@@ -1,5 +1,5 @@
 #priority 21
-#modloaded atutils
+#modloaded trutils
 #loader contenttweaker
 
 import scripts.grassUtils.CotUtils;

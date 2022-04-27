@@ -1,5 +1,5 @@
 #priority 10
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

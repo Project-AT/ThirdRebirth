@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -17,7 +17,7 @@ ferUtils(<roots:runic_shears>, [
     <roots:wooden_shears>, <roots:pereskia>, <ore:ingotGold>, <roots:runic_dust>, <roots:runic_dust>
 ], true);
 
-ferUtils(<atutils:evil_stone>, [
+ferUtils(<trutils:evil_stone>, [
     <botania:felpumpkin>, <ore:runedObsidian>, <ore:blockMeatRaw>, <roots:infernal_bulb>, <ore:ingotGold>
 ], false);
 

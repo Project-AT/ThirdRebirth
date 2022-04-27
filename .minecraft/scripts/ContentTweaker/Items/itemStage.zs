@@ -1,5 +1,5 @@
 #priority 23
-#modloaded atutils
+#modloaded trutils
 #loader contenttweaker
 
 import mods.contenttweaker.VanillaFactory;
@@ -20,7 +20,7 @@ function createStageItem(name as string, stage as string) {
     item.rarity = "rare";
     item.itemRightClick = function(stack, world, player, hand) {
         player.addGameStage(stage);
-        Commands.call("title "+ player.name +" title {\"text\":" + game.localize("autotech.others.unlockedstage") + ",\"bold\":false}", player, world, false, true);//您已解锁新阶段
+        Commands.call("title "+ player.name +" title {\"text\":" + game.localize("thirdrebirth.others.unlockedstage") + ",\"bold\":false}", player, world, false, true);//您已解锁新阶段
         Commands.call("playsound minecraft:ui.toast.challenge_complete player "+ player.name, player, world, false, true);
         stack.shrink(1);
         return "SUCCESS";

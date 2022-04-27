@@ -1,27 +1,27 @@
 #TOOLTIP
-autotech.tooltip.item.ban=This item is banned.
-autotech.tooltip.item.ban.bug=Because it may cause the world to crash
-autotech.tooltip.ritual.ban=This ritual is banned.
+thirdrebirth.tooltip.item.ban=This item is banned.
+thirdrebirth.tooltip.item.ban.bug=Because it may cause the world to crash
+thirdrebirth.tooltip.ritual.ban=This ritual is banned.
 
 #FailedMessage
-autotech.machine.failed=There is insufficient output bin space to support this output
+thirdrebirth.machine.failed=There is insufficient output bin space to support this output
 
 #TITLE
-autotech.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
-autotech.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
-autotech.title.notree.description=Please use any axe for logging!
-autotech.title.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
-autotech.title.endportal.dimerror=EndPortal can only be creation in OverWorld
-autotech.title.villager.interact=You can't understand the villagers' language
+thirdrebirth.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
+thirdrebirth.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
+thirdrebirth.title.notree.description=Please use any axe for logging!
+thirdrebirth.title.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
+thirdrebirth.title.endportal.dimerror=EndPortal can only be creation in OverWorld
+thirdrebirth.title.villager.interact=You can't understand the villagers' language
 
 #JEI DESCRIPTION
-autotech.description.survivalist.rock=When using a shovel to try to destroy a stone, there is a certain probability that rubble will drop.
+thirdrebirth.description.survivalist.rock=When using a shovel to try to destroy a stone, there is a certain probability that rubble will drop.
 
 #JEI TITLE
 jei.magnetic_attraction.title=Ritual - Magnetic Attraction
 
 #OTHERS
-autotech.others.unlockedstage=You have unlocked a new stage!
+thirdrebirth.others.unlockedstage=You have unlocked a new stage!
 
 #Machine
 modularmachinery.runes_engraving=Runes Engraving Machine

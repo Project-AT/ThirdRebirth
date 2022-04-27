@@ -1,5 +1,5 @@
 #priority 10
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
@@ -32,13 +32,13 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             
             if(world.dimension == 0) {
                 world.setBlockState(<blockstate:minecraft:air>, pos);
-                player.sendChat(game.localize("autotech.title.endportal.description"));
+                player.sendChat(game.localize("thirdrebirth.title.endportal.description"));
                 common.runCommand("summon minecraft:lightning_bolt "+ x + " " + y + " " + z);
                 DelayManager.addDelayWork(function() {
                     EventUtils.spawnItem(world, <contenttweaker:end_portal_frame_debris>.withAmount(8 + getRandomNumber(world)), pos.add(getRandomNumber(world), 0, getRandomNumber(world)));
                 }, 20);
             } else {
-                player.sendChat(game.localize("autotech.title.endportal.dimerror"));
+                player.sendChat(game.localize("thirdrebirth.title.endportal.dimerror"));
             }
         }
 
@@ -47,9 +47,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 
             if(common.getBlockID(block) has "contenttweaker:ender_portal") {
                 if(!(common.checkStructure(pos, world))) {
-                    common.runTitle(game.localize("autotech.title.endportal2.description"), "", true, player);
+                    common.runTitle(game.localize("thirdrebirth.title.endportal2.description"), "", true, player);
                 } else {
-                    NetworkHandler.sendToAllAround("atutils.end_portal.spawn", x, y, z, 8, 0, function(byteBuf) {});
+                    NetworkHandler.sendToAllAround("trutils.end_portal.spawn", x, y, z, 8, 0, function(byteBuf) {});
                 }
             }
         }

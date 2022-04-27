@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.liquid.ILiquidStack;
 
@@ -9,7 +9,7 @@ import scripts.grassUtils.StringHelper;
 
 RecipeBuilder.newBuilder("small_thermal_boiler_recipe", "small_thermal_boilers", 20)
     .addFluidInput(<liquid:water> * 200)
-    .addItemInput(<atutils:equivalent_fuel>)
+    .addItemInput(<trutils:equivalent_fuel>)
     .addFluidOutput(<liquid:steam> * 1000)
 .build();
 
@@ -21,7 +21,7 @@ RecipeBuilder.newBuilder("small_turbine_recipe", "small_turbine", 10)
 
 RecipeBuilder.newBuilder("ordinary_thermal_boilers_reicipe", "ordinary_thermal_boilers", 5)
     .addFluidInput(<liquid:water> * 200)
-    .addItemInput(<atutils:equivalent_fuel>)
+    .addItemInput(<trutils:equivalent_fuel>)
     .addFluidOutput(<liquid:steam> * 1000)
 .build();
 

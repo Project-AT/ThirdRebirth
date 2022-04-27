@@ -1,5 +1,5 @@
 #priority -5
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.item.IItemStack;
 
@@ -138,8 +138,8 @@ for item in removeAndHide {
 }
 
 for item in removeAndBanBecauseBug {
-    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban"));
-    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban.bug"));
+    item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
+    item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban.bug"));
     recipes.remove(item);
 }
 
@@ -148,12 +148,12 @@ for name in removeByRecipeName {
 }
 
 for item in baned {
-    item.addTooltip("§4" ~ game.localize("autotech.tooltip.item.ban"));
+    item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
     recipes.remove(item);
 }
 
 for item in banRitual {
-    item.addTooltip("§4" ~ game.localize("autotech.tooltip.ritual.ban"));
+    item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.ritual.ban"));
 }
 
 for name in hideCategory {

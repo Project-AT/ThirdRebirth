@@ -60,7 +60,7 @@
 !/.minecraft/resources
 .minecraft/resources/mekatweaker/blockstates
 .minecraft/resources/mekatweaker/textures/blockstates
-/.minecraft/resources/atutils
+/.minecraft/resources/trutils
 !/.minecraft/oresources
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
@@ -77,4 +77,4 @@
 # utils mod
 !/.minecraft/mods
 /.minecraft/mods/*
-!/.minecraft/mods/atutils*.jar
+!/.minecraft/mods/trutils*.jar

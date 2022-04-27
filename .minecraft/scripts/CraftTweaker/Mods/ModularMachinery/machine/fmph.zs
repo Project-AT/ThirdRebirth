@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.block.IBlock;

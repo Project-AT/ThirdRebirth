@@ -1,5 +1,5 @@
 #priority 20
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;

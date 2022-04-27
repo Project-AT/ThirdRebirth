@@ -1,8 +1,8 @@
 #priority 30
-#modloaded atutils
+#modloaded trutils
 #loader contenttweaker
 
 import scripts.grassUtils.CotUtils;
 
 
-CotUtils.addCreativeTabAndNormalItem("autotech", "four_leaf_clover");
+CotUtils.addCreativeTabAndNormalItem("thirdrebirth", "four_leaf_clover");

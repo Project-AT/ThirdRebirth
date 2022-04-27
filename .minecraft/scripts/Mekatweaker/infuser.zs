@@ -1,6 +1,6 @@
 #priority 15
 #loader mekatweaker
-#modloaded atutils
+#modloaded trutils
 
 import mods.mekatweaker.InfuserType;
 

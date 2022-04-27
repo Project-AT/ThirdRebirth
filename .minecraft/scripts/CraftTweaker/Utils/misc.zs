@@ -1,5 +1,5 @@
 #priority 15
-#modloaded atutils
+#modloaded trutils
 
 import mods.zenutils.NetworkHandler;
 import crafttweaker.item.IItemStack;
@@ -28,7 +28,7 @@ addRegexLogFilter("(.*)Lightning-Infusion needs 4 inputs(.*)");
 <entity:minecraft:creeper>.addDrop(<ore:dustSulfur>.firstItem, 0, 2);
 <entity:embers:ancient_golem>.addDrop(<embers:archaic_circuit>, 0, 3);
 
-NetworkHandler.registerServer2ClientMessage("atutils.end_portal.spawn", function(player, byteBuf) {
+NetworkHandler.registerServer2ClientMessage("trutils.end_portal.spawn", function(player, byteBuf) {
     player.playSound("minecraft:block.end_portal.spawn", 1.0F, 1.0F);
 });
 

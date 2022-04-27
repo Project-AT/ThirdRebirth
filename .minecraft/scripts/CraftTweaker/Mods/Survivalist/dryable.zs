@@ -1,4 +1,4 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import gigaherz.survivalist.Dryable;

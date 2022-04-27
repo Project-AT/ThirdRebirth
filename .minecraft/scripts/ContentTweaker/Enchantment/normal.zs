@@ -1,5 +1,5 @@
 #priority 30
-#modloaded atutils
+#modloaded trutils
 #loader contenttweaker
 
 import crafttweaker.entity.IEntityEquipmentSlot;

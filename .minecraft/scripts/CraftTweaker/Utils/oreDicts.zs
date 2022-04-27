@@ -1,5 +1,5 @@
 #priority 30
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
@@ -31,7 +31,7 @@ var oreDictAdd as IItemStack[][string] = {
     "ingotRustyIron" : [<contenttweaker:rusty_iron_ingot>],
     "plateTritanium" : [<matteroverdrive:tritanium_plate>],
     "plateTough" : [<contenttweaker:tough_alloy_plate>],
-    "blockRustyIron" : [<atutils:rusty_iron>],
+    "blockRustyIron" : [<trutils:rusty_iron>],
     "dustQuartz" : [<enderio:item_material:33>],
     "stickSteel" : [<lightningcraft:rod:1>],
     "stickAluminum" : [<lightningcraft:rod:4>],

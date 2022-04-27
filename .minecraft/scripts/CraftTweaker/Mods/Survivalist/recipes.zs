@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.item.IIngredient;
 
@@ -24,7 +24,7 @@ RecipeUtils.recipeTweak(true, <survivalist:hatchet>, [
     [<contenttweaker:straw_rope>, <ore:stickWood>]
 ]);
 
-RecipeUtils.recipeTweak(true, <atutils:flint_hoe>, [
+RecipeUtils.recipeTweak(true, <trutils:flint_hoe>, [
     [<ore:itemFlint>, <contenttweaker:straw_rope>],
 	[null, <ore:stickWood>],
 	[null, <ore:stickWood>]

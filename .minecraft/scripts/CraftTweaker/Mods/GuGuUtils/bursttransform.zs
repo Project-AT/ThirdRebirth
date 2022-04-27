@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 import crafttweaker.data.IData;
 
 import mods.guguutils.BurstTransform;

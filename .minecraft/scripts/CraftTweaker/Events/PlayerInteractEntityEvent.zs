@@ -1,5 +1,5 @@
 #priority 10
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
@@ -21,7 +21,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
 
     if (villagers has target.definition.id  && !player.hasGameStage("villager")) {
         if (world.remote && hand == "MAIN_HAND") {
-            common.runTitle(game.localize("autotech.title.villager.interact"), "", false, player);
+            common.runTitle(game.localize("thirdrebirth.title.villager.interact"), "", false, player);
         }
         
         event.cancel();

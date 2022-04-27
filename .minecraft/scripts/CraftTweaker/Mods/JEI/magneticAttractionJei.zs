@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import crafttweaker.item.IIngredient;
 
@@ -15,13 +15,13 @@ var oresTransform as IIngredient[IIngredient] = {
 };
 
 function addJeiRecipe(input as IIngredient, output as IIngredient) {
-    JEI.createJeiRecipe("MagneticAttraction").addInput(input).addInput(<atutils:magnetic_attraction>).addOutput(output).build();
+    JEI.createJeiRecipe("MagneticAttraction").addInput(input).addInput(<trutils:magnetic_attraction>).addOutput(output).build();
 }
 
 JEI.createJei("MagneticAttraction", game.localize("jei.magnetic_attraction.title"))
-    .setModid("atutils")
-    .setIcon(<atutils:magnetic_attraction>)
-    .addRecipeCatalyst(<atutils:magnetic_attraction>)
+    .setModid("trutils")
+    .setIcon(<trutils:magnetic_attraction>)
+    .addRecipeCatalyst(<trutils:magnetic_attraction>)
     .setBackground(IJeiUtils.createBackground(120, 50))
     .addSlot(IJeiUtils.createItemSlot(11, 16, true))
     .addSlot(IJeiUtils.createItemSlot(34, 16, true, false))

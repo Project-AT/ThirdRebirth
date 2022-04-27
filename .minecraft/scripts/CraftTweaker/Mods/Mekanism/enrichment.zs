@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import mods.mekanism.enrichment as Enrichment;
 

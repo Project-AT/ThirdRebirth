@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
@@ -13,7 +13,7 @@ import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
-<contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("autotech.title.flcn.tooltip"));
+<contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("thirdrebirth.title.flcn.tooltip"));
 
 furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:oreCrudeSteel>);
 furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:dustCrudeSteel>);

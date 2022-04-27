@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import mods.jei.JEI;
 import moretweaker.jei.MoreJei;
@@ -14,4 +14,4 @@ for toRemove in toRemoveDescriptors {
     MoreJei.removeDescription(toRemove);
 }
 
-MoreJei.addDescription(<survivalist:rock>, [game.localize("autotech.description.survivalist.rock")]);
+MoreJei.addDescription(<survivalist:rock>, [game.localize("thirdrebirth.description.survivalist.rock")]);
