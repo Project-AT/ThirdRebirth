@@ -38,7 +38,7 @@ item.contenttweaker.sensitive_element.name=敏感元件
 item.contenttweaker.thin_film_transistor.name=薄膜晶体管
 item.contenttweaker.glaze.name=釉料
 item.contenttweaker.glazed_refractory_brick.name=釉制耐火砖
-item.contenttweaker.thirdrebirth.name=thirdrebirth
+item.contenttweaker.thirdrebirth.name=ThirdRebirth
 item.contenttweaker.mana_crystal.name=魔力水晶
 item.contenttweaker.stamp_nugget.name=颗粒模具
 item.contenttweaker.raw_stamp_nugget.name=未烧制的颗粒模具
@@ -86,7 +86,7 @@ enchantment.critical=会心一击
 item.contenttweaker.elixir_eyesight.name=明目药水
 
 #Tab
-itemGroup.thirdrebirth=ContentTweakerthirdrebirth
+itemGroup.thirdrebirth=ContentTweaker ThirdRebirth
 
 #Part
 contenttweaker.part.ore_enriched=富集%s矿石

@@ -39,7 +39,7 @@ item.contenttweaker.sensitive_element.name=Sensitive Element
 item.contenttweaker.thin_film_transistor.name=Thin Film Transistor
 item.contenttweaker.glaze.name=Glaze
 item.contenttweaker.glazed_refractory_brick.name=Glazed Refractory Brick
-item.contenttweaker.thirdrebirth.name=thirdrebirth
+item.contenttweaker.thirdrebirth.name=ThirdRebirth
 item.contenttweaker.mana_crystal.name=Mana Crystal
 item.contenttweaker.stamp_nugget.name=Nugget Stamp
 item.contenttweaker.raw_stamp_nugget.name=Raw Nugget Stamp
@@ -87,7 +87,7 @@ enchantment.critical=Critical
 item.contenttweaker.elixir_eyesight.name=Eyesight Elixir
 
 #Tab
-itemGroup.thirdrebirth=ContentTweaker thirdrebirth
+itemGroup.thirdrebirth=ContentTweaker ThirdRebirth
 
 #Part
 contenttweaker.part.ore_enriched=Enriched %s Ore
