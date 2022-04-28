@@ -64,13 +64,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:miner>, [
 ], {<ore:artisansSpanner> : 25});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:analogcrafter>, [
-    [null, <extendedcrafting:crafting_table>],
+    [null, <minecraft:crafting_table>],
     [<embers:sealed_planks>, <teslacorelib:machine_case>, <embers:sealed_planks>],
     [null, <embers:sealed_planks>]
 ], {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 18});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:crafter>, [
-    [null, <extendedcrafting:crafting_table>],
+    [null, <minecraft:crafting_table>],
     [<extrautils2:compressedcobblestone>, <teslacorelib:machine_case>, <extrautils2:compressedcobblestone>],
     [null, <extrautils2:compressedcobblestone>]
 ], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 20});

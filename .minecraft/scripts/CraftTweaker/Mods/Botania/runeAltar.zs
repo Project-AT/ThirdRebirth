@@ -50,5 +50,5 @@ for i in 0 .. 4 {
 }
 
 for i in 4 .. 8 {
-    recipes.remove(<botania:rune>.definition.makeStack(i));
+    RuneAltar.removeRecipe(<botania:rune>.definition.makeStack(i));
 }

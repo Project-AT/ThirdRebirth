@@ -65,7 +65,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
     inputPattern(["QAQ", "UFO", "QAQ"])
         .with("Q", <ore:ingotSteel>)
         .with("U", <pneumaticcraft:pressure_tube>)
-        .with("F", <modularmachinery:blockcasing>)
+        .with("F", <teslacorelib:machine_case>)
         .with("O", <ore:blockCopper>)
         .with("A", <ore:fusedQuartz>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
