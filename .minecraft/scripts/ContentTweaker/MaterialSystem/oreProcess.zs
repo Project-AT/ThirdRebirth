@@ -26,10 +26,11 @@ var materials as int[string] = {
     "Silver" : 0xE4FBFE,
     "Lead" : 0x7C8DC5,
     "Aluminum" : 0xCECED3, 
+    "Germanium" : 0xD8D1BF,
 };
 
 var materials_ as int[string] = {
-	"Germanium" : 0xD8D1BF,
+    "Germanium" : 0xD8D1BF,
 	"HighStrengthAluminumAlloy" : 0xF2F2F2,
     "PureIron" : 0xF5F5F2
 };
