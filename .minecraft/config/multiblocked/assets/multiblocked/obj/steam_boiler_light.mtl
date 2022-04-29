@@ -1,0 +1,6 @@
+# Made in Blockbench 4.2.3
+newmtl m_1
+map_Kd multiblocked:steam_boiler_export
+newmtl m_2
+map_Kd multiblocked:steam_boiler_controller_light
+newmtl none

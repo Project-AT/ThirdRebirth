@@ -1,0 +1,168 @@
+{
+  "consumeCatalyst": false,
+  "location": "multiblocked:steam_boiler",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:steam_boiler_controller",
+    "type": "imodel"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:obj/steam_boiler.obj",
+    "type": "obj"
+  },
+  "workingRenderer": {
+    "modelLocation": "multiblocked:obj/steam_boiler_light.obj",
+    "type": "obj"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "AAA",
+        "ABA",
+        "BBB",
+        "BBB"
+      ],
+      [
+        "AAF",
+        "@ E",
+        "BBB",
+        "B D",
+        "BCB"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "ABA",
+        "BBB",
+        "BBB"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "FluidOutput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "minCount": 1,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "OUT"
+      },
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "multiblocked:steam_boiler",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 9
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "C": {
+        "states": [
+          {
+            "id": "fluiddrawers:tank",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "FluidInput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "minCount": 1,
+        "maxCount": 4,
+        "previewCount": 4,
+        "io": "IN"
+      },
+      "FluidFuelInput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "minCount": 0,
+        "maxCount": 2,
+        "previewCount": 2,
+        "io": "IN"
+      },
+      "Iteminput": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "minCount": 0,
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "FluidOutput",
+        "C"
+      ],
+      "D": [
+        "FluidInput"
+      ],
+      "E": [
+        "Iteminput"
+      ],
+      "F": [
+        "FluidFuelInput"
+      ]
+    }
+  },
+  "recipeMap": "85701754-ce99-40e8-9c07-bfb3bd8424d4"
+}
