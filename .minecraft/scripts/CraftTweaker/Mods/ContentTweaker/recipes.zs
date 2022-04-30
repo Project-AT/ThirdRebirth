@@ -1,6 +1,5 @@
 #priority 5
 #modloaded trutils
-#loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

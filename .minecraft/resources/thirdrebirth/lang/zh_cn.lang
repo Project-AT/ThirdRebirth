@@ -1,6 +1,6 @@
 #TOOLTIP
 thirdrebirth.tooltip.item.ban=此物品已被禁用
-thirdrebirth.tooltip.item.ban.bug=因为可能会导致存档崩溃
+thirdrebirth.tooltip.item.ban.bug=此物品已被禁用, 因为可能会导致存档崩溃
 thirdrebirth.tooltip.ritual.ban=此仪式已被禁用
 
 #FailedMessage

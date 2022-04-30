@@ -143,7 +143,6 @@ for item in removeAndHide {
 }
 
 for item in removeAndBanBecauseBug {
-    item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
     item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban.bug"));
     recipes.remove(item);
 }
