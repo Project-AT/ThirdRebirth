@@ -27,13 +27,13 @@ var removeAndHide as IItemStack[] = [
     <advancedrocketry:solargenerator>,
     <draconicevolution:generator>,
     <extrautils2:quarry>,
-    <extrautils2:teleporter:1>
+    <extrautils2:teleporter:1>,
     <extrautils2:teleporter>,
     <extrautils2:quarryproxy>,
     <extrautils2:rainbowgenerator>,
     <extrautils2:rainbowgenerator:1>,
     <extrautils2:rainbowgenerator:2>,
-    <extrautils2:machine>.withTag({Type: "extrautils2:furnace"})
+    <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
     <extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
     <extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}),
@@ -73,13 +73,13 @@ var removeAndHide as IItemStack[] = [
     <mysticalworld:quartz_ore>,
     <mysticalworld:copper_ingot>,
     <mysticalworld:granite_quartz_ore>,
-    <nuclearcraft:gem:6>,
+    <nuclearcraft:gem:6>
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
     <refraction:spectrometer>,
-    <lightningcraft:lightning_miner>,
-    <mysticalworld:gold_dust>
+    <mysticalworld:gold_dust>,
+    <lightningcraft:lightning_miner>
 ];
 
 var removeByRecipeName as string[] = [
