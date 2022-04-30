@@ -21,7 +21,7 @@ import scripts.grassUtils.StringHelper;
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
-    "Lead", "Aluminum", "Dilithium"
+    "Lead", "Aluminum", "Dilithium", "Germanium"
 ];
 
 var num as int = 0;
