@@ -259,4 +259,6 @@ for oreName in oreNames {
         .build();
     }
 
+    mods.trutils.WashingMachineRecipes.addRecipe(25, 80, <liquid:sulfuric_acid> * 50, oreCrushedInfused, oreCleanCrushedInfused.firstItem, <liquid:infused_slag_slurry> * 15);
+
 }

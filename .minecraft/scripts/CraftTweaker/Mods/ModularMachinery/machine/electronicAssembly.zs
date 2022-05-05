@@ -51,6 +51,7 @@ zenClass electronicAssemblyRecipe {
             }
         }
         m_itemInput += item;
+        return this;
     }
 
     function addInputItem(item as IIngredient) as electronicAssemblyRecipe {

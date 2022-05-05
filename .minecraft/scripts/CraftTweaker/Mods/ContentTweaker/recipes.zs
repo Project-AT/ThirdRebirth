@@ -24,10 +24,16 @@ RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
 ]);
 
+RecipeUtils.recipeTweak(true, <contenttweaker:stamp_nugget>, [
+    [null, <embers:blend_caminite>],
+    [<embers:blend_caminite>, <embers:blend_caminite>, <embers:blend_caminite>],
+    [null, <embers:blend_caminite>]
+]);
+
 RecipeUtils.recipeTweak(true, <contenttweaker:four_leaf_clover_necklace>, [
-    [null, <contenttweaker:straw_rope>, null],
+    [null, <contenttweaker:straw_rope>],
     [<contenttweaker:straw_rope>, null, <contenttweaker:straw_rope>],
-    [null, <contenttweaker:four_leaf_clover>, null]
+    [null, <contenttweaker:four_leaf_clover>]
 ]);
 
 RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
