@@ -29,7 +29,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_dec
 ], {<ore:artisansTrowel> : 2} as int[IIngredient]);
 
 electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:26> * 3, [
-	[null, <ore:blockGlass>],
+    [null, <ore:blockGlass>],
     [<ore:blockGlass>, <ore:wireCopper>, <ore:blockGlass>],
     [<minecraft:redstone>, <ore:plateNickel>, <minecraft:redstone>]
 ], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 3} as int[IIngredient]);
@@ -41,7 +41,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
 ], {<ore:artisansHammer> : 6} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("blacksmith", true, <immersiveengineering:metal_device0:4>, [
-	[<ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>],
+    [<ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>, <ore:slabSheetmetalIron>],
     [<ore:blockSheetmetalIron>, null, <ore:blockSheetmetalIron>],
     [<ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>, <ore:blockSheetmetalIron>]
 ], {<ore:artisansHammer> : 2} as int[IIngredient]);

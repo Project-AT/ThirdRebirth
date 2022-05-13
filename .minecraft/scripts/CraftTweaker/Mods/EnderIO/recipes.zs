@@ -7,19 +7,19 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
 electronicAssembly.addRecipe("engineer", true, <enderio:item_material:69> * 2, [
-	[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
+    [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
     [null, <ore:ingotIron>],
     [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]
 ], {<ore:artisansHammer> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material>, [
-	[<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>],
+    [<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>],
     [<enderio:item_material:69>, <embers:mech_core>, <enderio:item_material:69>],
     [<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>]
 ], {<ore:artisansHammer> : 4, <ore:artisansSpanner> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
-	[<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>],
+    [<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>],
     [<enderio:item_material:2>, <embers:mech_core>, <enderio:item_material:2>],
     [<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>]
 ], {<ore:artisansDriver> : 10, <ore:artisansHammer> : 8} as int[IIngredient]);

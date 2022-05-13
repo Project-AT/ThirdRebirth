@@ -34,7 +34,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:
 ], {<ore:artisansSpanner> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:657>, [
-	[<ore:plateIron>, <ore:plateIron>],
-	[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>],
     [null, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansDriver> : 4, <ore:artisansSpanner> : 4} as int[IIngredient]);

@@ -25,7 +25,7 @@ RecipeUtils.recipeTweak(true, <botania:altar>, [
 ]);
 
 RecipeUtils.recipeTweak(false, <botania:manaresource:6>, [
-	[<quark:root>, <ore:dustRedstone>]
+    [<quark:root>, <ore:dustRedstone>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool>,[
@@ -46,21 +46,21 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pool:2>, [
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:spreader>, [
-	[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
     [<ore:ingotGold>, NACRE_PEARL],
     [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:livingwood:5>, [
-	[<roots:terra_moss>, <botania:vineball>, <roots:terra_moss>],
-	[<naturesaura:gold_fiber>, <ore:livingwood>, <naturesaura:gold_fiber>],
-	[<roots:terra_moss>, <botania:vineball>, <roots:terra_moss>]
+    [<roots:terra_moss>, <botania:vineball>, <roots:terra_moss>],
+    [<naturesaura:gold_fiber>, <ore:livingwood>, <naturesaura:gold_fiber>],
+    [<roots:terra_moss>, <botania:vineball>, <roots:terra_moss>]
 ], {<ore:artisansAthame> : 3, <ore:artisansGrimoire> : 3} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:alfheimportal>, [
-	[<ore:livingwood>, <naturesaura:sky_ingot>, <ore:livingwood>],
-	[<naturesaura:calling_spirit>, <contenttweaker:teleport_rune>, <naturesaura:calling_spirit>],
-	[<ore:livingwood>, <naturesaura:sky_ingot>, <ore:livingwood>]
+    [<ore:livingwood>, <naturesaura:sky_ingot>, <ore:livingwood>],
+    [<naturesaura:calling_spirit>, <contenttweaker:teleport_rune>, <naturesaura:calling_spirit>],
+    [<ore:livingwood>, <naturesaura:sky_ingot>, <ore:livingwood>]
 ], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <botania:runealtar>, 
@@ -81,6 +81,18 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:pylon:1>, [
     [<naturesaura:infused_iron>, <botania:pylon>, <naturesaura:infused_iron>],
     [null, <minecraft:ender_eye>]
 ], {<ore:artisansAthame> : 30, <ore:artisansGrimoire> : 30} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <botania:terraplate>, [
+    [<ore:blockLapis>, <ore:blockLapis>, <ore:blockLapis>],
+    [<ore:runeEarthB>, <ore:runeManaB>, <ore:runeAirB>],
+    [<ore:runeFireB>, <contenttweaker:rune1>, <ore:runeWaterB>]
+], {<ore:artisansAthame> : 125, <ore:artisansGrimoire> : 114} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <botania:alchemycatalyst>, [
+    [<ore:livingrock>, <contenttweaker:mana_crystal>, <ore:livingrock>],
+    [<minecraft:brewing_stand>, <naturesaura:sky_ingot>, <minecraft:brewing_stand>],
+    [<ore:livingrock>, <contenttweaker:mana_crystal>, <ore:livingrock>]
+], {<ore:artisansAthame> : 85, <ore:artisansGrimoire> : 92} as int[IIngredient]);
 
 for i in 0 to 16 {
 

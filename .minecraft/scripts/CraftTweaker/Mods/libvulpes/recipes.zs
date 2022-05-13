@@ -5,8 +5,8 @@ import scripts.grassUtils.RecipeUtils;
 
 RecipeUtils.recipeTweak(true, <libvulpes:linker>, [
     [null, <ore:dustSignalum>, null],
-	[<contenttweaker:high_strength_aluminum_alloy_plate>, <appliedenergistics2:material:23>, <contenttweaker:high_strength_aluminum_alloy_plate>],
-	[<contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>]
+    [<contenttweaker:high_strength_aluminum_alloy_plate>, <appliedenergistics2:material:23>, <contenttweaker:high_strength_aluminum_alloy_plate>],
+    [<contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>]
 ]);
 
 RecipeUtils.recipeTweak(true, <libvulpes:battery:1>, [

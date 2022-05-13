@@ -13,7 +13,7 @@ RecipeUtils.recipeTweak(false, <harvestcraft:honeyitem>, [[<harvestcraft:honeyco
 RecipeUtils.recipeTweak(false, <harvestcraft:beeswaxitem>, [[<harvestcraft:waxcombitem>]]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:grinder>,
-	inputPatternGet(["CBC", "D D", "EEE"], {
+    inputPatternGet(["CBC", "D D", "EEE"], {
         "B" : <minecraft:iron_sword>,
         "C" : <ore:ingotIron>,
         "D" : <ore:gearIron>,
@@ -21,7 +21,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:grinder>,
 }), {<ore:artisansSpanner> : 6} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:presser>,
-	inputPatternGet(["CBC", "D D", "EDE"], {
+    inputPatternGet(["CBC", "D D", "EDE"], {
         "B" : <minecraft:piston>,
         "C" : <ore:ingotIron>,
         "D" : <ore:gearIron>,
@@ -29,7 +29,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:presser>,
 }), {<ore:artisansSpanner> : 9} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:waterfilter>,
-	inputPatternGet(["DCD", "D D", "EEE"], {
+    inputPatternGet(["DCD", "D D", "EEE"], {
         "C" : <ore:ingotIron>,
         "D" : <ore:barsIron>,
         "E" : <ore:plankTreatedWood>

@@ -8,13 +8,13 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 artisanUtils.RecipeTweakWithTools("mage", true, <trutils:stick_thunder>, [
-	[null, <ore:manaPearl>, <contenttweaker:rune1>],
+    [null, <ore:manaPearl>, <contenttweaker:rune1>],
     [null, <botania:manaresource:3>, <ore:manaPearl>],
     [<botania:manaresource:3>]
 ], {<ore:artisansAthame> : 10, <ore:artisansGrimoire> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("mage", true, <trutils:advance_stick_thunder>, [
-	[null, <botania:manaresource:9>, <ore:ingotLead>],
+    [null, <botania:manaresource:9>, <ore:ingotLead>],
     [<botania:manaresource:8>, <trutils:stick_thunder>, <botania:manaresource:8>],
     [<ore:dreamwoodTwig>, <botania:manaresource:9>]
 ], {<ore:artisansAthame> : 20, <ore:artisansGrimoire> : 20} as int[IIngredient]);
@@ -69,3 +69,9 @@ RecipeUtils.recipeTweak(true, <trutils:crude_steel_shovel>,
         "A" : <ore:ingotCrudeSteel>,
         "B" : <ore:stickWood>
 }));
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <trutils:washing_machine>, [
+    [<ore:plateSteel>, <ore:fanSteel>, <ore:plateSteel>],
+    [<minecraft:bucket>, <ore:itemSimpleMachineChassi>, <minecraft:bucket>],
+    [<ore:plateSteel>, <immersiveengineering:toolupgrade:7>, <ore:plateSteel>]
+], {<ore:artisansSpanner> : 35, <ore:artisansDriver> : 40} as int[IIngredient]);

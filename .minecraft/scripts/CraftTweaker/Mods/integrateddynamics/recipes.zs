@@ -8,7 +8,7 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:squeezer>,
-	inputPatternGet(["DBD", "D D", "ECE"], {
+    inputPatternGet(["DBD", "D D", "ECE"], {
         "B" : <ore:blockIron>,
         "C" : <ore:ingotIron>,
         "D" : <immersiveengineering:material>,
@@ -16,7 +16,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:squeezer
 }), {<ore:artisansSpanner> : 7} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:mechanical_squeezer>,
-	inputPatternGet(["EBE", "CDC", "EBE"], {
+    inputPatternGet(["EBE", "CDC", "EBE"], {
         "B" : <ore:blockSteel>,
         "C" : <integrateddynamics:energy_battery> | <immersiveengineering:metal_device0:1>,
         "D" : <integrateddynamics:squeezer>,
@@ -24,7 +24,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:mechanic
 }), {<ore:artisansSpanner> : 14} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:mechanical_drying_basin>,
-	inputPatternGet(["EBE", "CDC", "EBE"], {
+    inputPatternGet(["EBE", "CDC", "EBE"], {
         "B" : <ore:ingotSteel>,
         "C" : <integrateddynamics:energy_battery> | <immersiveengineering:metal_device0:1>,
         "D" : <integrateddynamics:drying_basin>,

@@ -26,12 +26,12 @@ RecipeUtils.recipeTweak(true, <survivalist:hatchet>, [
 
 RecipeUtils.recipeTweak(true, <trutils:flint_hoe>, [
     [<ore:itemFlint>, <contenttweaker:straw_rope>],
-	[null, <ore:stickWood>],
-	[null, <ore:stickWood>]
+    [null, <ore:stickWood>],
+    [null, <ore:stickWood>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>, [
-	[<ore:ingotIron>, <thermalfoundation:material:657>, <ore:ingotIron>],
+    [<ore:ingotIron>, <thermalfoundation:material:657>, <ore:ingotIron>],
     [<ore:cobblestone>, null, <ore:cobblestone>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 15} as int[IIngredient]);
