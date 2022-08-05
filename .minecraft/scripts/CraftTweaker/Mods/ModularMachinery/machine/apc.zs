@@ -35,6 +35,13 @@ for input, output in itemTransform {
 RecipeBuilder.newBuilder(machineName ~ "_psi_5", machineName, 50)
     .addItemInput(<ore:coal>)
     .addItemOutput(<psi:material:5>)
-    .addFluidOutput(<liquid:aura_end> * 100)
+    .addFluidInput(<liquid:aura_end> * 100)
+    .addAuraInput(100, true)
+.build();
+
+RecipeBuilder.newBuilder(machineName ~ "_psi_6", machineName, 50)
+    .addItemInput(<ore:gemQuartz>)
+    .addItemOutput(<psi:material:6>)
+    .addFluidInput(<liquid:aura_end> * 100)
     .addAuraInput(100, true)
 .build();
