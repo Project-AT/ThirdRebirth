@@ -49,4 +49,9 @@
     
     <!-- CrT: <ore:itemMachineChassi> -->
     <recipe name="Chassis" disabled="true"/>
+
+    <!-- CrT: <ore:itemInfinityGoop> -->
+    <recipe name="Infinity Goop" required="true" disabled="true"/>
+    <recipe name="Infinity Goop, Charcoal" required="false" disabled="true"/>
+    
 </enderio:recipes>

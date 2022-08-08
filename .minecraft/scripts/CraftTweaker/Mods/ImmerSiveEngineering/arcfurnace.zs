@@ -44,17 +44,20 @@ ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:ingotIron>, null, 20
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:gemQuartz> * 4, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, null, 200, 2048, [<quark:black_ash> * 4, <ore:slimeball>], "Alloying");
+ArcFurnace.addRecipe(<simplyjetpacks:metaitemmods:12>, <ore:ingotSoularium>, null, 200, 2048, [<ore:dustFluix> * 4, <ore:itemPulsatingCrystal>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_material:75>, <ore:substanceEbony>, null, 200, 2048, [<ore:dustBedrock> * 2], "Alloying");
+
 
 var oldrecipe as IItemStack[] =[
-<immersiveengineering:metal:8>,
-<immersiveengineering:metal:7>,
-<immersiveengineering:metal:6>,
-<immersiveengineering:metal:5>,
-<immersiveengineering:metal:4>,
-<immersiveengineering:metal:3>,
-<immersiveengineering:metal:2>,
-<immersiveengineering:metal:1>,
-<immersiveengineering:metal>
+    <immersiveengineering:metal:8>,
+    <immersiveengineering:metal:7>,
+    <immersiveengineering:metal:6>,
+    <immersiveengineering:metal:5>,
+    <immersiveengineering:metal:4>,
+    <immersiveengineering:metal:3>,
+    <immersiveengineering:metal:2>,
+    <immersiveengineering:metal:1>,
+    <immersiveengineering:metal>
 ];
 for recipe in oldrecipe{
     ArcFurnace.removeRecipe(recipe);

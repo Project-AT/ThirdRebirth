@@ -1,5 +1,5 @@
 #priority 5
-#modloaded atutils
+#modloaded trutils
 
 import mods.immersiveengineering.AlloySmelter;
 
@@ -9,3 +9,11 @@ AlloySmelter.addRecipe(<thermalfoundation:material:161>, <ore:ingotSilver>, <ore
 AlloySmelter.addRecipe(<thermalfoundation:material:161>, <ore:dustSilver>, <ore:dustGold>, 200);
 AlloySmelter.addRecipe(<thermalfoundation:material:161>, <ore:ingotSilver>, <ore:dustGold>, 200);
 AlloySmelter.addRecipe(<thermalfoundation:material:161>, <ore:dustSilver>, <ore:ingotGold>, 200);
+
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, <ore:ingotAluminum>, 200);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, <ore:dustAluminum>, 200);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, <ore:ingotAluminum> , 200);
+AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, <ore:dustAluminum>, 200);
+AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, 200);
+AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, 200);
+AlloySmelter.addRecipe(<enderio:item_material:75>, <ore:substanceEbony>, <ore:dustBedrock> * 2, 200);
