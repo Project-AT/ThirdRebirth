@@ -45,6 +45,12 @@ item.contenttweaker.stamp_nugget.name=Nugget Stamp
 item.contenttweaker.raw_stamp_nugget.name=Raw Nugget Stamp
 item.contenttweaker.wine_stone.name=Wine Stone
 item.contenttweaker.tartaric_acid.name=Tartaric Acid
+item.contenttweaker.crude_silicon_dust.name=Crude Silicon Dust
+item.contenttweaker.infused_crude_silicon_dust.name=Infused Crude Silicon Dust
+item.contenttweaker.infused_protective_layer_crude_silicon_dust.name=Infused Protective Layer Crude Silicon Dust
+item.contenttweaker.mana_infused_crude_silicon_dust.name=Mana Infused Crude Silicon Dust
+item.contenttweaker.contains_impurities_silicon_dust.name=Contains Impurities Silicon Dust
+item.contenttweaker.silicon_dust.name=Silicon Dust
 
 #Item
 #Bauble

@@ -44,6 +44,12 @@ item.contenttweaker.stamp_nugget.name=颗粒模具
 item.contenttweaker.raw_stamp_nugget.name=未烧制的颗粒模具
 item.contenttweaker.wine_stone.name=酒石
 item.contenttweaker.tartaric_acid.name=酒石酸
+item.contenttweaker.crude_silicon_dust.name=粗硅粉
+item.contenttweaker.infused_crude_silicon_dust.name=灵硅粉
+item.contenttweaker.infused_protective_layer_crude_silicon_dust.name=灌注灵气保护层粗硅粉
+item.contenttweaker.mana_infused_crude_silicon_dust.name=灌注魔力粗硅粉
+item.contenttweaker.contains_impurities_silicon_dust.name=含杂硅粉
+item.contenttweaker.silicon_dust.name=硅粉
 
 #Item
 #Bauble
