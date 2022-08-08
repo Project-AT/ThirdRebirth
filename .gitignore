@@ -64,7 +64,7 @@
 !/.minecraft/oresources
 !/.minecraft/scripts
 /.minecraft/scripts/nc_script_addons/*
-/.minecraft/scripts/.zsrc
+/.minecraft/scripts/*.zsrc
 !/.minecraft/structures
 
 #pack stuff
