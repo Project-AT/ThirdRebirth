@@ -54,4 +54,6 @@
     <recipe name="Infinity Goop" required="true" disabled="true"/>
     <recipe name="Infinity Goop, Charcoal" required="false" disabled="true"/>
     
+    <!-- CrT: <ore:ingot_dark_soularium> -->
+    <recipe name="Alloy: Dark Soularium Alloy" required="true" disabled="true"/>
 </enderio:recipes>

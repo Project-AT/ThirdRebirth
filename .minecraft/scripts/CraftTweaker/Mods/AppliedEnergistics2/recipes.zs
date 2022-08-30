@@ -36,7 +36,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:380>, [
     [<appliedenergistics2:material:24>, <ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>]
 ]);
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:material:28>*3, [
+RecipeUtils.recipeTweak(true, <appliedenergistics2:material:28> * 3, [
     [<ore:ingotPlatinum>, ingotTwo, null],
     [<ore:dustSignalum>, <appliedenergistics2:material:23>, ingotTwo],
     [<ore:ingotPlatinum>, ingotTwo, null]
@@ -54,7 +54,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:360>, [
     [null, <artisanworktables:worktable:5>, null]
 ]);
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:180>*3, [
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:180> * 3, [
     [null, ingotTwo, <ore:blockGlassHardened>],
     [ingotTwo, <advancedrocketry:misc>, <ore:blockGlassHardened>],
     [null, ingotTwo, <ore:blockGlassHardened>]
@@ -133,7 +133,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
     [<ore:wool>, <mekanism:polyethene:2>, <ore:wool>]
 ]); 
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:80> * 3, [
     [null, <minecraft:lever>, null],
     [<ore:dustRedstone>, <appliedenergistics2:part:36>, <ore:dustRedstone>],
     [null, <minecraft:lever>, null]

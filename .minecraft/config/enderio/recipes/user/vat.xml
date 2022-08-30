@@ -169,11 +169,11 @@ XML editor will display that as tooltips when editing this file.
 
     <!-- 添加配方 -->
     <recipe name="ThirdRebirth vat hdpe" required="true">
-        <fermenting energy="2000">
+        <fermenting energy="80000">
             <inputgroup>
-                <input name="dustSalt" multiplier="1.0"/>
+                <input name="substanceIvory" multiplier="1.0"/>
             </inputgroup>
-            <inputfluid name="ethene" multiplier="1.0"/>
+            <inputfluid name="ethene" multiplier="4.0"/>
             <outputfluid name="hdpe"/>
         </fermenting>
     </recipe>

@@ -5,6 +5,8 @@ import crafttweaker.item.IIngredient;
 
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+recipes.addShapeless(<bountifulbaubles:potionrecall> * 2, [<bountifulbaubles:potionwormhole>, <minecraft:potion>.withTag({Potion: "minecraft:water"})]);
+
 artisanUtils.RecipeTweakWithTools("chemist", true, <bountifulbaubles:potionwormhole> * 4, [
     [<ore:cropNetherWart>, <bountifulbaubles:potionrecall>, <ore:cropNetherWart>],
     [<bountifulbaubles:potionrecall>, <ore:enderpearl>, <bountifulbaubles:potionrecall>],
