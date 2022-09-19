@@ -51,6 +51,7 @@ item.contenttweaker.infused_protective_layer_crude_silicon_dust.name=Infused Pro
 item.contenttweaker.mana_infused_crude_silicon_dust.name=Mana Infused Crude Silicon Dust
 item.contenttweaker.contains_impurities_silicon_dust.name=Contains Impurities Silicon Dust
 item.contenttweaker.silicon_dust.name=Silicon Dust
+item.contenttweaker.tinned_copper_wire.name=Tinned Copper Wire
 
 #Item
 #Bauble
@@ -63,6 +64,10 @@ item.contenttweaker.excavation.name=Excavation Ring
 tile.contenttweaker.ender_portal.name=Ender Portal Frame - Selfmade
 tile.contenttweaker.ironcoal_ore.name=Ironcoal Ore
 tile.contenttweaker.aura_coal_block.name=Aura Coal Blcok
+tile.contenttweaker.basic_machine_casing.name=Basic Machine Casing
+tile.contenttweaker.toughed_machine_casing.name=Toughed Machine Casing
+tile.contenttweaker.basic_machine_circuitry.name=Basic Machine Circuitry
+tile.contenttweaker.advance_machine_circuitry.name=Advance Machine Circuitry
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=Underworld Aluminum Ore
@@ -128,6 +133,7 @@ base.material.germanium=Germanium
 base.material.tough=Tough
 base.material.extreme=Extreme
 base.material.high_strength_aluminum_alloy=High Strength Aluminum Alloy
+base.material.rose_gold=Rose Gold
 
 #flower
 tile.botania:flower.aura_flower.name=Aura flower

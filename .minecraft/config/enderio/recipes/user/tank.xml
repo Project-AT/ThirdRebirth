@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes
+    xmlns:enderio="http://enderio.com/recipes"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <recipe name="ThirdRebirth : suncrystal" required="true">
+        <tanking type="FILL" logic="NONE">
+            <input name="extrautils2:suncrystal:250"/>
+            <fluid name="aura_overworld" amount="2500"/>
+            <output name="extrautils2:suncrystal:0"/>
+        </tanking>
+    </recipe>
+</enderio:recipes>

@@ -50,6 +50,7 @@ item.contenttweaker.infused_protective_layer_crude_silicon_dust.name=灌注灵�
 item.contenttweaker.mana_infused_crude_silicon_dust.name=灌注魔力粗硅粉
 item.contenttweaker.contains_impurities_silicon_dust.name=含杂硅粉
 item.contenttweaker.silicon_dust.name=硅粉
+item.contenttweaker.tinned_copper_wire.name=镀锡铜线
 
 #Item
 #Bauble
@@ -62,6 +63,10 @@ item.contenttweaker.excavation.name=连锁指环
 tile.contenttweaker.ender_portal.name=末地传送门-自制
 tile.contenttweaker.ironcoal_ore.name=铁碳矿石
 tile.contenttweaker.aura_coal_block.name=灵煤块
+tile.contenttweaker.basic_machine_casing.name=基础机械外壳
+tile.contenttweaker.toughed_machine_casing.name=高强机械外壳
+tile.contenttweaker.basic_machine_circuitry.name=基础机械电路板
+tile.contenttweaker.advance_machine_circuitry.name=高级机械电路板
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=冥界铝矿石
@@ -128,6 +133,7 @@ base.material.pure_iron=纯铁
 base.material.tough=高强合金
 base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
+base.material.rose_gold=高强度铝合金
 
 #flower
 tile.botania:flower.aura_flower.name=灵雾兰

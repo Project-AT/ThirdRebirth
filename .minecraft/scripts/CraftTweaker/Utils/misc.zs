@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import mods.zenutils.NetworkHandler;
+import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -9,8 +10,8 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 global NACRE_PEARL as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | 
-									<wizardry:nacre_pearl>.withTag({purity: 599 as long}) | 
-									<wizardry:nacre_pearl>.withTag({purity: 601 as long});
+                                    <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | 
+                                    <wizardry:nacre_pearl>.withTag({purity: 601 as long});
 
 
 var toolTypes as string[] = ["sword", "axe", "pickaxe", "shovel"];
@@ -57,8 +58,8 @@ function baseCraftPlank(log as IItemStack) as void {
       .setShapeless([log])
       .addOutput(plank * 4)
       .setExtraOutputOne(<mekanism:sawdust>, 1.0)
-      .setExtraOutputTwo(<astralsorcery:itemcraftingcomponent>, 0.30)
-      .setExtraOutputThree(<astralsorcery:itemcraftingcomponent>, 0.15)
+      .setExtraOutputTwo(<mekanism:sawdust>, 0.30)
+      .setExtraOutputThree(<mekanism:sawdust>, 0.15)
       .addTool(<ore:artisansHandsaw>, 2)
       .create();
 }
