@@ -92,3 +92,8 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:resonator>, [
     [<ore:gemRedstone>, <teslacorelib:machine_case>, <ore:gemRedstone>],
     [<ore:ingotIron>, <ore:dyeBlack>, <ore:ingotIron>]
 ], {<ore:artisansSpanner> : 20, <ore:artisansDriver> : 25});
+
+RecipeUtils.recipeTweak(true, <extrautils2:suncrystal:250>, 
+    inputPatternGet([" A", "A A", " A"], {
+        "A" : <ore:clathrateGlowstone>
+}));

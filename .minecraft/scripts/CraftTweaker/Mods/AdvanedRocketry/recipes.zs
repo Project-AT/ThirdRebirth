@@ -134,3 +134,8 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:oxygenscrubber>, [
     [<ore:plateHighStrengthAluminumAlloy>, <libvulpes:structuremachine>, <ore:plateHighStrengthAluminumAlloy>],
     [<ore:rodHighStrengthAluminumAlloy>, <ore:blockMotor>, <ore:rodHighStrengthAluminumAlloy>]
 ]);
+
+RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>, 
+    inputPatternGet(["A A", "A A", "AAA"], {
+        "A" : <appliedenergistics2:material:11>
+}));

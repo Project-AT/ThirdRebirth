@@ -32,14 +32,14 @@ RecipeUtils.recipeTweak(false, <appliedenergistics2:part:221>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:380>, [
-    [null, <appliedenergistics2:material:22>, null],
+    [null, <appliedenergistics2:material:22>],
     [<appliedenergistics2:material:24>, <ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:material:28> * 3, [
-    [<ore:ingotPlatinum>, ingotTwo, null],
+    [<ore:ingotPlatinum>, ingotTwo],
     [<ore:dustSignalum>, <appliedenergistics2:material:23>, ingotTwo],
-    [<ore:ingotPlatinum>, ingotTwo, null]
+    [<ore:ingotPlatinum>, ingotTwo]
 ]); 
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:energy_acceptor>, [
@@ -49,9 +49,9 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:energy_acceptor>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:360>, [
-    [null, <appliedenergistics2:material:22>, null],
+    [null, <appliedenergistics2:material:22>],
     [<appliedenergistics2:material:24>, <appliedenergistics2:part:380>, <appliedenergistics2:material:23>],
-    [null, <artisanworktables:worktable:5>, null]
+    [null, <artisanworktables:worktable:5>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:180> * 3, [
@@ -73,7 +73,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:crafting_unit>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:460>, [
-    [null, ingotTwo, null],
+    [null, ingotTwo],
     [ingotTwo, <appliedenergistics2:material:1>, ingotTwo],
     [<appliedenergistics2:material:1>, <appliedenergistics2:material:24>, <appliedenergistics2:material:1>]
 ]);
@@ -85,27 +85,27 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:fluid_interface>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:261>, [
-    [null, <mekanism:plasticblock:4>, null],
+    [null, <mekanism:plasticblock:4>],
     [<ore:ingotIronCompressed>, <thermaldynamics:retriever:3>, <ore:ingotIronCompressed>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:260>, [
-    [null, <ore:fusedQuartz>, null],
+    [null, <ore:fusedQuartz>],
     [<ore:ingotIronCompressed>, <thermaldynamics:retriever:3>, <ore:ingotIronCompressed>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:241>, [
-    [null, <mekanism:plasticblock:4>, null],
+    [null, <mekanism:plasticblock:4>],
     [<ore:ingotIronCompressed>, <thermaldynamics:servo:3>, <ore:ingotIronCompressed>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:241>, [
-    [null, <mekanism:plasticblock:4>, null],
+    [null, <mekanism:plasticblock:4>],
     [<ore:ingotIronCompressed>, <thermaldynamics:retriever:3>, <ore:ingotIronCompressed>]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:240>, [
-    [null, <ore:fusedQuartz>, null],
+    [null, <ore:fusedQuartz>],
     [<ore:ingotIronCompressed>, <thermaldynamics:retriever:3>, <ore:ingotIronCompressed>]
 ]);
 
@@ -122,9 +122,9 @@ RecipeUtils.recipeTweak(true, <packagedauto:me_package_component>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:material:25> * 3, [
-    [<ore:ingotGold>, ingotTwo, null],
+    [<ore:ingotGold>, ingotTwo],
     [<ore:dustSignalum>, <appliedenergistics2:material:23>, ingotTwo],
-    [<ore:ingotGold>, ingotTwo, null]
+    [<ore:ingotGold>, ingotTwo]
 ]);
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
@@ -133,10 +133,10 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:36> * 3, [
     [<ore:wool>, <mekanism:polyethene:2>, <ore:wool>]
 ]); 
 
-RecipeUtils.recipeTweak(true, <appliedenergistics2:part:80> * 3, [
-    [null, <minecraft:lever>, null],
+RecipeUtils.recipeTweak(true, <appliedenergistics2:part:80>, [
+    [null, <minecraft:lever>],
     [<ore:dustRedstone>, <appliedenergistics2:part:36>, <ore:dustRedstone>],
-    [null, <minecraft:lever>, null]
+    [null, <minecraft:lever>]
 ]); 
 
 RecipeUtils.recipeTweak(false, <appliedenergistics2:part:301>, [
@@ -169,7 +169,7 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:part:321>, [
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:inscriber>, [
     [<ore:ingotDarkSteel>, <minecraft:sticky_piston>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null ,null],
+    [<ore:ingotDarkSteel>],
     [<ore:ingotDarkSteel>, <minecraft:sticky_piston>, <ore:ingotDarkSteel>]
 ]); 
 
@@ -187,6 +187,6 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:energy_cell>, [
 
 RecipeUtils.recipeTweak(true, <appliedenergistics2:charger>, [
     [<ore:ingotIronCompressed>, <ore:ingotRedstoneAlloy>, <ore:ingotIronCompressed>],
-    [<ore:ingotIronCompressed>, null ,null],
+    [<ore:ingotIronCompressed>],
     [<ore:ingotIronCompressed>, <ore:ingotRedstoneAlloy>, <ore:ingotIronCompressed>]
 ]); 

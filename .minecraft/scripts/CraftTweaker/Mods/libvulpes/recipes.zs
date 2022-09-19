@@ -13,7 +13,7 @@ RecipeUtils.recipeTweak(true, <libvulpes:battery:1>, [
     [<ore:itemBattery>, <ore:itemBattery>]
 ]);
 
-RecipeUtils.recipeTweak(true, <libvulpes:structuremachine>*4, [
+RecipeUtils.recipeTweak(true, <libvulpes:structuremachine> * 4, [
     [<ore:rodHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>],
     [<ore:plateHighStrengthAluminumAlloy>, null, <ore:plateHighStrengthAluminumAlloy>],
     [<ore:rodHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>]

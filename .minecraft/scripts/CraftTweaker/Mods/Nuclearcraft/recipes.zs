@@ -163,3 +163,8 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:assembler>, [
     [<ore:actuator>, <ore:chassis>, <ore:actuator>],
     [<ore:plateAdvanced>, <ore:servo>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 42});
+
+RecipeUtils.recipeTweak(true, <nuclearcraft:alloy:13>, 
+    inputPatternGet(["AA", "AA"], {
+        "A" : <nuclearcraft:part:13>
+}));

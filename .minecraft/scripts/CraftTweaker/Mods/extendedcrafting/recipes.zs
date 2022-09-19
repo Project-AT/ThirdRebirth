@@ -94,7 +94,13 @@ recipes.replaceAllOccurences(<ore:blockBlackIron>, <ore:blockTough>, <*>.only(fu
 }));
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:15>, [
-    [null, <ore:plateTough>, null],
+    [null, <ore:plateTough>],
     [<ore:ingotLumium>, <appliedenergistics2:material:16>, <ore:ingotLumium>],
-    [null, <ore:plateTough>, null]
+    [null, <ore:plateTough>]
 ]);
+
+RecipeUtils.recipeTweak(true, <extendedcrafting:material:7> * 2, 
+    inputPatternGet(["AAA", "ABA", "AAA"], {
+        "A" : <enderio:block_holier_fog>,
+        "B" : <extrautils2:suncrystal>
+}));

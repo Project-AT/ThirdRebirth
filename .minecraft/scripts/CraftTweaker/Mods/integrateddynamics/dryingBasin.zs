@@ -14,3 +14,4 @@ function addDryingBasinRecipe(input as IItemStack, inputFluid as ILiquidStack, o
 
 addDryingBasinRecipe(null, <liquid:ichor> * 1000, <lightningcraft:material:5>, null, 20, 10);
 addDryingBasinRecipe(null, <liquid:petrotheum> * 250, <thermalfoundation:material:1027>, null, 20, 10);
+addDryingBasinRecipe(null, <liquid:slag_waste_slurry> * 250, <thermalfoundation:material:865>, null, 40, 20);

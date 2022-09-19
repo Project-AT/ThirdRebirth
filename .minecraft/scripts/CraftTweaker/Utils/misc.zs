@@ -52,4 +52,13 @@ function baseCraftPlank(log as IItemStack) as void {
 	recipes.removeShaped(plank, [[log]]);
 	recipes.addShapeless(<survivalist:chopping_block>, [log]);
 	artisanUtils.RecipeTweakWithTools("basic", false, plank * 4, [[log]], {<ore:artisansHandsaw> : 2});
+    
+    RecipeBuilder.get("carpenter")
+      .setShapeless([log])
+      .addOutput(plank * 4)
+      .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+      .setExtraOutputTwo(<astralsorcery:itemcraftingcomponent>, 0.30)
+      .setExtraOutputThree(<astralsorcery:itemcraftingcomponent>, 0.15)
+      .addTool(<ore:artisansHandsaw>, 2)
+      .create();
 }

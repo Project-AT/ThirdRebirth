@@ -173,7 +173,7 @@ XML editor will display that as tooltips when editing this file.
             <inputgroup>
                 <input name="substanceIvory" multiplier="1.0"/>
             </inputgroup>
-            <inputfluid name="ethene" multiplier="4.0"/>
+            <inputfluid name="ethene" multiplier="0.25"/>
             <outputfluid name="hdpe"/>
         </fermenting>
     </recipe>
