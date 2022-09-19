@@ -92,7 +92,7 @@ for mod in loadedMods {
             ItemStages.removeItemStage(item);
             continue;
         }
-        item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
+        //item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
     }
 }
 
