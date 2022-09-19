@@ -8,7 +8,7 @@ import scripts.grassUtils.classes.MaterialSystemHelper.MaterialSystemHelper;
 var materials as int[string] = {
     "Tough" : 0x171221,
     "Extreme" : 0x722A3C,
-    "Dilithium" : 0xEEE7E5, 
+    "Dilithium" : 0xEEE7E5,
 };
 
 var otherMaterial as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("otherMaterial");
