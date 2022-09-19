@@ -15,6 +15,9 @@ for type in types {
     InfuserType.addTypeObject(itemUtils.getItem("contenttweaker:compressed_" + type.toLowerCase()), type, 80);
 }
 
+InfuserType.addTypeObject(<embers:shard_ember>, "ember", 10);
+InfuserType.addTypeObject(<embers:crystal_ember>, "ember", 60);
+
 infuser.removeRecipe(<ore:itemEnrichedAlloy>);
 infuser.addRecipe("SIGNALUM", 10, <ore:ingotFerroboron>, <ore:itemEnrichedAlloy>.firstItem);
 infuser.removeRecipe(<ore:alloyElite>);
@@ -26,3 +29,5 @@ infuser.addRecipe("CRYSTALTINE", 10, <ore:dustObsidian>, <ore:dustRefinedObsidia
 infuser.addRecipe("REDSTONE", 40, <ore:ingotSmithingIron>, <ore:ingotRedstoneAlloy>.firstItem);
 infuser.addRecipe("DIAMOND", 10, <ore:ingotGold>, <ore:ingotCrystallineAlloy>.firstItem);
 infuser.addRecipe("OBSIDIAN", 40, <ore:plateAdvanced>, <deepmoblearning:soot_covered_plate>);
+infuser.addRecipe("EMBER", 10, <ore:ingotRoseGold>, <ore:ingotDawnstone>.firstItem);
+infuser.addRecipe("EMBER", 40, <ore:ingotSilver>, <ore:ingotEnergeticSilver>.firstItem);

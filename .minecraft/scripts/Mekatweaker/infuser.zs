@@ -4,7 +4,7 @@
 
 import mods.mekatweaker.InfuserType;
 
-var typeNames as string[] = ["Signalum", "Draconium", "Crystaltine"];
+var typeNames as string[] = ["Signalum", "Draconium", "Crystaltine", "Ember"];
 
 for typeName in typeNames {
     InfuserType.addType(typeName.toLowerCase());
