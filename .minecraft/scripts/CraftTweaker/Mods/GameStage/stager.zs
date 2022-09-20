@@ -85,7 +85,7 @@ for stage, modids in defaultStageModMap {
 for mod in loadedMods {
     if (modUsed has mod.id) continue;
 
-    recipes.removeByMod(mod.id);
+    //recipes.removeByMod(mod.id);
     ItemStages.stageModItems("locked", mod.id);
     for item in loadedMods[mod.id].items {
         if (isContains(item, exceptItemStacks) || isMapContains(item, specialStageItemStackMap)) {

@@ -17,4 +17,4 @@ AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> *
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, 200);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, 200);
 AlloySmelter.addRecipe(<enderio:item_material:75>, <ore:substanceEbony>, <ore:dustBedrock> * 2, 200);
-AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem, <ore:ingotGold>, <ore:ingotIron>, 200);
+AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem, <ore:ingotGold>, <ore:ingotCopper>, 200);

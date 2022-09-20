@@ -14,7 +14,7 @@ ClayKiln.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>, 400);
 ClayKiln.addRecipe(<minecraft:stone>, <minecraft:cobblestone>, 400);
 ClayKiln.addRecipe(<minecraft:glass>, <minecraft:sand>, 400);
 
-ClayKiln.addRecipe(<minecraft:nether_brick>, <minecraft:netherbrick>, 600);
+ClayKiln.addRecipe(<minecraft:netherbrick>, <minecraft:netherrack>, 600);
 ClayKiln.addRecipe(<netherex:gloomy_netherbrick>, <netherex:gloomy_netherrack>, 600);
 ClayKiln.addRecipe(<netherex:lively_netherbrick>, <netherex:lively_netherrack>, 600);
 ClayKiln.addRecipe(<netherex:fiery_netherbrick>, <netherex:fiery_netherrack>, 600);

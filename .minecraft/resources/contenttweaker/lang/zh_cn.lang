@@ -133,7 +133,7 @@ base.material.pure_iron=纯铁
 base.material.tough=高强合金
 base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
-base.material.rose_gold=高强度铝合金
+base.material.rose_gold=玫瑰金
 
 #flower
 tile.botania:flower.aura_flower.name=灵雾兰
