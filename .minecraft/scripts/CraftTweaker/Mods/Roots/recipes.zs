@@ -1,6 +1,8 @@
 #priority 5
 #modloaded trutils
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import crafttweaker.item.IIngredient;
 
 import scripts.grassUtils.RecipeUtils;
@@ -65,3 +67,57 @@ RecipeUtils.recipeTweak(true, <roots:fey_crafter>,
         "D" : <roots:terra_moss>,
         "E" : <ore:logWood>
 }));
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_oak> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<wizardry:wisdom_wood_log>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<contenttweaker:bark_wisdomwood> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log:1>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_spruce> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log:2>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_birch> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log:3>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_jungle> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log2:1>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_dark_oak> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();

@@ -8,8 +8,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 var oreDictNames as string[] = [
-    "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", "Thorium", "Bronze",
-    "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz"
+    "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", 
+    "Thorium", "Bronze", "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz", "Gold", "Iron",
+    "Diamond", "Emerald"
 ];
 var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust"
@@ -77,6 +78,30 @@ var oreDictAdd as IItemStack[][string] = {
     "ingotSmithingIron" : [<contenttweaker:pure_iron_ingot>, <enderio:item_alloy_ingot>],
     "blockSmithingIron" : [<ore:blockPureIron>.firstItem, <enderio:block_alloy>],
     "pyrolyticCarbon" : [<immersiveengineering:material:19>, <nuclearcraft:part:15>],
+    "boatWood" : [
+        <biomesoplenty:boat_sacred_oak>,
+        <biomesoplenty:boat_cherry>,
+        <biomesoplenty:boat_umbran>,
+        <biomesoplenty:boat_fir>,
+        <biomesoplenty:boat_ethereal>,
+        <biomesoplenty:boat_magic>,
+        <biomesoplenty:boat_mangrove>,
+        <biomesoplenty:boat_palm>,
+        <biomesoplenty:boat_redwood>,
+        <biomesoplenty:boat_willow>,
+        <biomesoplenty:boat_pine>,
+        <biomesoplenty:boat_hellbark>,
+        <biomesoplenty:boat_jacaranda>,
+        <biomesoplenty:boat_mahogany>,
+        <biomesoplenty:boat_ebony>,
+        <biomesoplenty:boat_eucalyptus>,
+        <minecraft:boat>,
+        <minecraft:spruce_boat>,
+        <minecraft:birch_boat>,
+        <minecraft:jungle_boat>,
+        <minecraft:acacia_boat>,
+        <minecraft:dark_oak_boat>
+    ]
 
 };
 

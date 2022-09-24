@@ -1,6 +1,6 @@
 #priority 5
 #modloaded trutils
-
+import mods.artisanworktables.builder.RecipeBuilder;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
@@ -52,7 +52,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <libvulpes:productfan:6>, [
     [<ore:plateSteel>, null, <ore:plateSteel>]
 ], {<ore:artisansHammer> : 2, <ore:artisansDriver> : 2} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:wooden_device0:2>, [
+artisanUtils.RecipeTweakWithTools("carpenter", true, <immersiveengineering:wooden_device0:2>, [
     [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
     [<minecraft:crafting_table>, <ore:plateSteel>, <ore:fenceTreatedWood>],
     [<ore:fenceTreatedWood>, <ore:plateSteel>, <ore:fenceTreatedWood>]
@@ -179,6 +179,7 @@ artisanUtils.RecipeTweakWithTools("designer", true, <immersiveengineering:bluepr
 , {<ore:artisansPencil> : 10, <ore:artisansTSquare> :10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithLiquid("basic", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 125);
+artisanUtils.RecipeTweakWithLiquid("carpenter", false, <immersiveengineering:treated_wood>, [[<ore:plankWood>]], <liquid:creosote> * 100);
 
 electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27> * 2,
     inputPattern(["QWQ", "EQE", "SSS"])
@@ -202,5 +203,15 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:stone_
     [null, <contenttweaker:glazed_refractory_brick>]
 ], {<ore:artisansHammer> : 10, <ore:artisansTrowel> : 15} as int[IIngredient]);
 
+RecipeBuilder.get("carpenter")
+    .setShapeless([<ore:scaffoldingTreatedWood>])
+    .addTool(<ore:artisansHandsaw>, 1)
+    .addTool(<ore:artisansFramingHammer>, 1)
+    .addOutput(<immersiveengineering:treated_wood_slab>)
+    .setExtraOutputOne(<immersiveengineering:material>, 1.0)
+    .create();
 
-
+artisanUtils.RecipeTweakWithTools("carpenter", true, <immersiveengineering:material> * 5, [
+    [<ore:plankTreatedWood>],
+    [<ore:plankTreatedWood>]
+], {<ore:artisansHandsaw> : 2} as int[IIngredient]);

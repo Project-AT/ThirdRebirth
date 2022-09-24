@@ -5,8 +5,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
-import mods.naturesaura.Altar;
-
 import scripts.grassUtils.RecipeUtils;
 import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
@@ -24,7 +22,7 @@ RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<contenttweaker:dictionary_paper>,<contenttweaker:dictionary_paper>]
 ]);
 
-RecipeUtils.recipeTweak(true, <contenttweaker:stamp_nugget>, [
+RecipeUtils.recipeTweak(true, <contenttweaker:raw_stamp_nugget>, [
     [null, <embers:blend_caminite>],
     [<embers:blend_caminite>, <embers:blend_caminite>, <embers:blend_caminite>],
     [null, <embers:blend_caminite>]
@@ -82,6 +80,26 @@ electronicAssembly.addRecipe("engineer", true, <contenttweaker:sensitive_element
         .with("F", <ore:dustGermanium>)
         .with("X", <ore:wireElectrum>).get()
 , {<ore:artisansSolderer> : 3} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:calm>, [
+    [<ore:gemRime>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>],
+    [<ore:ingotSilver>, <ore:runePrideB>, <ore:ingotSilver>],
+    [<bountifulbaubles:spectralsilt>, <ore:ingotSilver>, <bountifulbaubles:spectralsilt>]
+], {<ore:artisansGemCutter> : 35, <ore:artisansGrimoire> : 50} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("mage", true, <contenttweaker:fury>, [
+    [<ore:gemAmethyst>, <ore:ingotRoseGold>, <bountifulbaubles:spectralsilt>],
+    [<ore:ingotRoseGold>, <ore:runeWrathB>, <ore:ingotRoseGold>],
+    [<bountifulbaubles:spectralsilt>, <ore:ingotRoseGold>, <bountifulbaubles:spectralsilt>]
+], {<ore:artisansGemCutter> : 25, <ore:artisansGrimoire> : 50} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <contenttweaker:tinned_copper_wire>, [
+    [<ore:wireCopper>, <ore:nuggetTin>]
+], {<ore:artisansBurner> : 5} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithLiquid("engineer", false, <contenttweaker:tinned_copper_wire>, [
+    [<ore:wireCopper>]
+], <liquid:tin> * 16);
 
 var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,

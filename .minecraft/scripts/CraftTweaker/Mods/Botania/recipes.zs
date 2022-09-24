@@ -94,6 +94,16 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:alchemycatalyst>, [
     [<ore:livingrock>, <contenttweaker:mana_crystal>, <ore:livingrock>]
 ], {<ore:artisansAthame> : 85, <ore:artisansGrimoire> : 92} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("carpenter", true, <botania:manaresource:13> * 2, [
+    [<botania:dreamwood>],
+    [<botania:dreamwood>]
+], {<ore:artisansHandsaw> : 2} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("carpenter", true, <botania:manaresource:3> * 2, [
+    [<botania:livingwood>],
+    [<botania:livingwood>]
+], {<ore:artisansHandsaw> : 2} as int[IIngredient]);
+
 for i in 0 to 16 {
 
     var doubleflower as IItemStack = <botania:doubleflower1>.definition.makeStack(i);

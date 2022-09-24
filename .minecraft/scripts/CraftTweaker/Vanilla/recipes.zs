@@ -1,6 +1,8 @@
 #priority 5
 #modloaded trutils
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.ICraftingRecipe;
@@ -61,3 +63,23 @@ artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:flint>, [
 artisanUtils.RecipeTweakWithTools_("basic", false, <minecraft:magma_cream> * 2, [
     [<minecraft:magma>]
 ], {<ore:artisansMortar> : 4} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("carpenter", false, <minecraft:stick> * 2, [
+    [<ore:fenceWood>]
+], {<ore:artisansHandsaw> : 3, <ore:artisansFramingHammer> : 2} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("carpenter", false, <minecraft:stick> * 2, [
+    [<minecraft:ladder>]
+], {<ore:artisansHandsaw> : 1} as int[IIngredient]);
+
+
+RecipeBuilder.get("carpenter")
+    .setShaped([
+        [<ore:plankWood>],
+        [<ore:plankWood>]])
+    .addTool(<ore:artisansHandsaw>, 2)
+    .addOutput(<minecraft:stick> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 0.25)
+    .setExtraOutputTwo(<minecraft:stick>, 0.5)
+    .create();
+

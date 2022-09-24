@@ -32,4 +32,4 @@ AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, [<ore:ingotEnergeticAlloy>,
 AlloySmelter.addRecipe(<enderio:item_material:50> * 2, [<psi:material:5> * 2, <quark:black_ash> * 4, <ore:slimeball>]);
 AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:12>, [<ore:ingotSoularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>]);
 AlloySmelter.addRecipe(<enderio:item_material:75>, [<ore:substanceEbony>, <ore:dustBedrock> * 2]);
-AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem, [<ore:ingotGold>, <ore:ingotCopper>]);
+AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem * 2, [<ore:ingotGold>, <ore:ingotCopper>]);

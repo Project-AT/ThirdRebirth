@@ -1,7 +1,10 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IIngredient;
+
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
 
 RecipeUtils.recipeTweak(true, <primal_tech:clay_kiln>, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
@@ -28,3 +31,10 @@ RecipeUtils.recipeTweak(true, <primal_tech:work_stump>, [
 RecipeUtils.recipeTweak(false, <primal_tech:fire_sticks>, [
     [<ore:knife>.transformDamage(), <ore:stickWood>]
 ]);
+
+artisanUtils.RecipeTweakWithTools("carpenter", true, <primal_tech:wooden_hopper> * 5, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [null, <ore:plankWood>]
+], {<ore:artisansHandsaw> : 6, <ore:artisansFramingHammer> : 4} as int[IIngredient]);
+

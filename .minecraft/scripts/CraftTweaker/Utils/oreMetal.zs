@@ -31,16 +31,16 @@ for index, i in orePlainNames {
 
     artisanUtils.RecipeTweakWithTools("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
-    ], {<ore:artisansHammer> : 4} as int[IIngredient]);
+    ], {<ore:artisansHammer> : 2} as int[IIngredient]);
 
     
     if(i == "Dawnstone") continue;
 
     artisanUtils.RecipeTweakWithTools("blacksmith", true, gear.firstItem, [
-        [null, ingot, null],
+        [null, ingot],
         [ingot, null, ingot],
-        [null, ingot, null]
-    ], {<ore:artisansHammer> : 16} as int[IIngredient]);
+        [null, ingot]
+    ], {<ore:artisansHammer> : 8} as int[IIngredient]);
     
 }
 
@@ -51,13 +51,13 @@ for index, i in oreNames {
 
     artisanUtils.RecipeTweakWithTools("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
-    ], {<ore:artisansHammer> : 4, <ore:artisansBurner> : 4} as int[IIngredient]);
+    ], {<ore:artisansHammer> : 4, <ore:artisansBurner> : 2} as int[IIngredient]);
 
     artisanUtils.RecipeTweakWithTools("blacksmith", true, gear.firstItem, [
-        [null, ingot, null],
+        [null, ingot],
         [ingot, null, ingot],
-        [null, ingot, null]
-    ], {<ore:artisansHammer> : 16, <ore:artisansBurner> : 16} as int[IIngredient]);
+        [null, ingot]
+    ], {<ore:artisansHammer> : 8, <ore:artisansBurner> : 4} as int[IIngredient]);
 
 }
 
@@ -67,7 +67,7 @@ for index, i in onlyPlateOreNames {
 
     artisanUtils.RecipeTweakWithTools_("blacksmith", false, plate.firstItem, [
         [ingot, ingot]
-    ], {<ore:artisansHammer> : 4, <ore:artisansBurner> : 4} as int[IIngredient]);
+    ], {<ore:artisansHammer> : 2, <ore:artisansBurner> : 2} as int[IIngredient]);
 
 }
 

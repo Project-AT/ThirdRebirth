@@ -92,3 +92,15 @@ RecipeUtils.recipeTweak(true, <artisanworktables:workstation:5>,
         "C" : <ore:plankWood>,
         "D" : <ore:chest>
 }));
+
+artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:worktable:1>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:fenceWood>, <artisanworktables:worktable:5>, <ore:fenceWood>],
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+], {<ore:artisansHandsaw> : 25} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:1>, [
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+    [<ore:stairWood>, <artisanworktables:worktable:1>, <ore:stairWood>],
+    [<minecraft:ladder>, <ore:chestWood>, <minecraft:ladder>]
+], {<ore:artisansHandsaw> : 30, <ore:artisansSartisansFramingHammerpanner> : 35} as int[IIngredient]);
