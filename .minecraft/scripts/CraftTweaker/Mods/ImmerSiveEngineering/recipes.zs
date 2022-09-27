@@ -211,7 +211,7 @@ RecipeBuilder.get("carpenter")
     .setExtraOutputOne(<immersiveengineering:material>, 1.0)
     .create();
 
-artisanUtils.RecipeTweakWithTools("carpenter", true, <immersiveengineering:material> * 5, [
+artisanUtils.RecipeTweakWithTools_("carpenter", true, <immersiveengineering:material> * 5, [
     [<ore:plankTreatedWood>],
     [<ore:plankTreatedWood>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);

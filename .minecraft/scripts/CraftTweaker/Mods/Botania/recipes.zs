@@ -99,7 +99,7 @@ artisanUtils.RecipeTweakWithTools("carpenter", true, <botania:manaresource:13> *
     [<botania:dreamwood>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("carpenter", true, <botania:manaresource:3> * 2, [
+artisanUtils.RecipeTweakWithTools_("carpenter", true, <botania:manaresource:3> * 2, [
     [<botania:livingwood>],
     [<botania:livingwood>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);

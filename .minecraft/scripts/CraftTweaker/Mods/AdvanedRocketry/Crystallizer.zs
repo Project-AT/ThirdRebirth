@@ -23,7 +23,7 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
 }
 
 addRecipe([
-    <appliedenergistics2:material> * 3 % 100
+    <ore:crystalFluix>.firstItem * 3 % 100
 ], 20, 200, [<psi:material>, <ore:dustCertusQuartz>, <ore:dustNetherQuartz>]);
 
 addRecipe([

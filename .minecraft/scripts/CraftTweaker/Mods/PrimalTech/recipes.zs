@@ -32,7 +32,7 @@ RecipeUtils.recipeTweak(false, <primal_tech:fire_sticks>, [
     [<ore:knife>.transformDamage(), <ore:stickWood>]
 ]);
 
-artisanUtils.RecipeTweakWithTools("carpenter", true, <primal_tech:wooden_hopper> * 5, [
+artisanUtils.RecipeTweakWithTools_("carpenter", true, <primal_tech:wooden_hopper>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [null, <ore:plankWood>]

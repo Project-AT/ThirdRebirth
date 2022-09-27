@@ -18,4 +18,4 @@ BlastFurnace.addRecipe(<thermalfoundation:material:160>, <ore:ingotCrudeSteel>, 
 BlastFurnace.addRecipe(<thermalfoundation:material:160>, <ore:ingotPureIron>, 300, <immersiveengineering:material:7>);
 BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <ore:blockCrudeSteel>, 1200, <immersiveengineering:material:7> * 9);
 BlastFurnace.addRecipe(<thermalfoundation:storage_alloy>, <ore:blockPureIron>, 2400, <immersiveengineering:material:7> * 9);
-BlastFurnace.addRecipe(<enderio:item_material:5>, <nuclearcraft:gem_dust:2>, 2000, <immersiveengineering:material:7>);
+BlastFurnace.addRecipe(<enderio:item_material:5>, <nuclearcraft:gem_dust:2>, 101, <immersiveengineering:material:7>);

@@ -10,7 +10,7 @@ import mods.jei.JEI;
 var oreDictNames as string[] = [
     "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", 
     "Thorium", "Bronze", "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz", "Gold", "Iron",
-    "Diamond", "Emerald"
+    "Diamond", "Emerald", "NetherQuartz"
 ];
 var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust"

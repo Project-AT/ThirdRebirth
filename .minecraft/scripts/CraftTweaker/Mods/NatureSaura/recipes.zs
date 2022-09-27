@@ -33,7 +33,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <naturesaura:offering_table>, [
 ], {<ore:artisansGrimoire> : 30, <ore:artisansAthame> : 30} as int[IIngredient]);
 
 
-artisanUtils.RecipeTweakWithTools("carpenter", true, <naturesaura:ancient_stick> * 4, [
+artisanUtils.RecipeTweakWithTools_("carpenter", true, <naturesaura:ancient_stick> * 4, [
     [<naturesaura:ancient_planks>],
     [<naturesaura:ancient_planks>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);
