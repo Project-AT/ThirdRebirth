@@ -94,7 +94,7 @@ artisanUtils.RecipeTweakWithTools("mage", true, <botania:alchemycatalyst>, [
     [<ore:livingrock>, <contenttweaker:mana_crystal>, <ore:livingrock>]
 ], {<ore:artisansAthame> : 85, <ore:artisansGrimoire> : 92} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("carpenter", true, <botania:manaresource:13> * 2, [
+artisanUtils.RecipeTweakWithTools_("carpenter", true, <botania:manaresource:13> * 2, [
     [<botania:dreamwood>],
     [<botania:dreamwood>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);

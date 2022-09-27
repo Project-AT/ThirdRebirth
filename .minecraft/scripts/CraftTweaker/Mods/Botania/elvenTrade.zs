@@ -17,10 +17,10 @@ var toRemoves as IItemStack[] = [
 ];
 
 var experienceRecipes as double[IIngredient] = {
-    <ore:gemRime> : 2.0D,
+    <ore:gemRime> : 0.25D,
     <ore:cropTea> : 0.02D,
     <ore:gemPearl> : 0.05D,
-    <ore:gemAmethyst> : 2.0D,
+    <ore:gemAmethyst> : 0.25D,
     <ore:foodBread> : -100.0D,
     <ore:flourEqualswheat> : -10.0D
 };
@@ -45,14 +45,14 @@ var elvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
             2: 0.01D
         }
     },
-    <minecraft:quartz> : {
-        [<botania:quartz:5>, <botania:quartz:5>, <botania:quartz:5>, <botania:quartz:5>] : {
+    <ore:quartzElven>.firstItem : {
+        [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>] : {
             0: 0.01D
         },
-        [<botania:quartz:5>, <botania:quartz:5>] : {
+        [<ore:gemQuartz>, <ore:gemQuartz>] : {
             2: 0.01D
         },
-        [<botania:quartz:5>] : {
+        [<ore:gemQuartz>] : {
             3: 0.01D
         }
     },
@@ -83,19 +83,19 @@ var elvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {
             3: 0.1D
         }
     },
-    <botania:storage:3> : {
-        [<botania:storage:4>, <botania:storage:4>] : {
+    <botania:storage:4> : {
+        [<botania:storage:3>, <botania:storage:3>] : {
             1: 1.0D
         },
-        [<botania:storage:4>] : {
-            1: 1.0D
+        [<botania:storage:3>] : {
+            3: 1.0D
         }
     },
     <botania:manaresource:8> : {
-        [<ore:elvenPixieDust>, <ore:elvenPixieDust>] : {
+        [<ore:manaPearl>, <ore:manaPearl>] : {
             1: 0.1D
         },
-        [<ore:elvenPixieDust>] : {
+        [<ore:manaPearl>] : {
             3: 0.1D
         },
     },
