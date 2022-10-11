@@ -120,7 +120,8 @@ var baned as IItemStack[] = [
     <teslathingies:compound_maker>,
     <teslathingies:fluid_burner>,
     <teslathingies:incinerator>,
-    <teslathingies:item_compound_producer>
+    <teslathingies:item_compound_producer>,
+    <embers:dust_metallurgic>
 ];
 
 val banRitual as IItemStack[] = [
