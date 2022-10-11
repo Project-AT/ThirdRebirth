@@ -93,7 +93,8 @@ var removeByRecipeName as string[] = [
     "thermalfoundation:dust_signalum", 
     "thermalfoundation:dust_lumium", 
     "modularmachinery:modularium_ingot", 
-    "refraction:reflective_alloy"
+    "refraction:reflective_alloy",
+    "netherex:wither_bone"
 ];
 
 var baned as IItemStack[] = [

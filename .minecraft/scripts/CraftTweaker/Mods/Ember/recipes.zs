@@ -27,7 +27,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_bore>, [
     [<embers:stairs_caminite_brick>, <immersiveengineering:metal_decoration0:5>, <embers:stairs_caminite_brick>],
     [<immersiveengineering:material:9>, <embers:mech_core>, <immersiveengineering:material:9>],
     [<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>]
-], {<ore:artisansSpanner> : 1} as int[IIngredient]);
+], {<ore:artisansDriver> : 23, <ore:artisansSpanner> : 25} as int[IIngredient]);
 
 electronicAssembly.addRecipe("engineer", true, <embers:archaic_circuit> * 2, [
     [<embers:archaic_brick>, <ore:wireCopper>, <embers:archaic_brick>],
@@ -241,3 +241,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:block_furnace>, [
     [<ore:ingotSteel>, <ore:runeFireB>, <ore:ingotSteel>],
     [<ore:plateSteel>, <ore:coilCopper>, <ore:plateSteel>]
 ], {<ore:artisansSpanner> : 23, <ore:artisansDriver> : 25});
+
+artisanUtils.RecipeTweakWithLiquid("carpenter", false, <embers:sealed_planks>, [
+    [<ore:plankTreatedWood>]
+], <liquid:slime> * 12);
+
+artisanUtils.RecipeTweakWithLiquid("basic", false, <embers:sealed_planks>, [
+    [<ore:plankTreatedWood>]
+], <liquid:slime> * 18);
+
+

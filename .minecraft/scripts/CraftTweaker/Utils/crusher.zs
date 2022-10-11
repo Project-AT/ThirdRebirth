@@ -69,4 +69,5 @@ function addRecipe(input as IItemStack, output as IItemStack) {
 }
 
 addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
-addRecipe(<enderio:item_material:63>, <quark:black_ash>);
+addRecipe(<netherex:wither_dust>, <quark:black_ash>);
+addRecipe(<netherex:wither_bone>, <netherex:wither_dust> * 5);

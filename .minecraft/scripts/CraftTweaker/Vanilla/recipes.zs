@@ -14,6 +14,8 @@ furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
 furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
 furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
 
+RecipeUtils.recipeTweak(true, <minecraft:paper> * 3, [[<biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>]]);
+
 RecipeUtils.recipeTweak(true, <minecraft:crafting_table>, [
     [null, <ore:leather>],
     [<ore:plankTreatedWood>, <primal_tech:work_stump_upgraded>, <ore:plankTreatedWood>],

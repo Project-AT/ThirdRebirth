@@ -104,3 +104,15 @@ artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:
     [<ore:stairWood>, <artisanworktables:worktable:1>, <ore:stairWood>],
     [<minecraft:ladder>, <ore:chestWood>, <minecraft:ladder>]
 ], {<ore:artisansHandsaw> : 30, <ore:artisansSartisansFramingHammerpanner> : 35} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <artisanautomation:automator_power_rf>, [
+    [<ore:ingotIronCompressed>, <embers:wrapped_sealed_planks>, <ore:ingotIronCompressed>],
+    [<ore:stickSteel>, <immersiveengineering:metal_decoration0:4>, <ore:stickSteel>],
+    [<ore:ingotIronCompressed>, <embers:wrapped_sealed_planks>, <ore:ingotIronCompressed>]
+], {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 12} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <artisanautomation:automator>, [
+    [<ore:ingotIronCompressed>, <ore:blockGlassHardened>, <ore:ingotIronCompressed>],
+    [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
+    [<embers:wrapped_sealed_planks>, <immersiveengineering:metal_decoration0:4>, <embers:wrapped_sealed_planks>]
+], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 15} as int[IIngredient]);

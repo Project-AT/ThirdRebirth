@@ -18,6 +18,7 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
     }
     recipeBuilder.timeRequired(time);
     recipeBuilder.power(power);
+    recipeBuilder.maxOutputSize(1);
     recipeBuilder.build();
 }
 

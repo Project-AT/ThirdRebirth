@@ -101,9 +101,26 @@ var oreDictAdd as IItemStack[][string] = {
         <minecraft:jungle_boat>,
         <minecraft:acacia_boat>,
         <minecraft:dark_oak_boat>
+    ],
+    "mold" : [
+        <immersiveengineering:mold>,
+        <immersiveengineering:mold:1>,
+        <immersiveengineering:mold:2>,
+        <immersiveengineering:mold:3>,
+        <immersiveengineering:mold:4>,
+        <immersiveengineering:mold:5>,
+        <immersiveengineering:mold:6>,
+        <immersiveengineering:mold:7>
+    ],
+    "stonePolished" : [
+        <chisel:stonebrick2:9>
+    ],
+    "trapdoorWood" : [
+        <wizardry:wisdom_wood_trapdoor>,
     ]
-
 };
+
+
 
 var oreDictRemove as IItemStack[] = [
     <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, 

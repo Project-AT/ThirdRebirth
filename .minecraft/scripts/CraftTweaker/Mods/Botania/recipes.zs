@@ -18,6 +18,8 @@ var manaTransform as IItemStack[IIngredient] = {
     <botania:quartztypemana:2> : <minecraft:quartz_block:2>
 };
 
+RecipeUtils.recipeTweak(false, <botania:manaresource:6>, [[<ore:dustRedstone>, <biomesoplenty:plant_1:9>]]);
+
 RecipeUtils.recipeTweak(true, <botania:altar>, [
     [<ore:slabCobblestone>, NACRE_PEARL, <ore:slabCobblestone>],
     [null, <minecraft:cobblestone>, null],
