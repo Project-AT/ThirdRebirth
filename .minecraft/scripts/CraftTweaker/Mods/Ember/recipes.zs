@@ -197,19 +197,19 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_emitter> * 2,
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:boiler>, [
     [<ore:rodCopper>, <ore:ingotCopper>, <ore:rodCopper>],
-    [<ore:plateSteel>, <modularmachinery:blockcasing:2>, <ore:plateSteel>],
+    [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>],
     [<ore:ingotSteel>, <ore:blockCopper>, <ore:ingotSteel>]
 ], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_activator>, [
     [<ore:rodCopper>, <ore:ingotCopper>, <ore:rodCopper>],
-    [<ore:plateSteel>, <modularmachinery:blockcasing:2>, <ore:plateSteel>],
+    [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>],
     [<embers:brick_caminite>, <ore:plateSteel>, <embers:brick_caminite>]
 ], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:cinder_plinth>, [
     [null, <ore:plateLead>],
-    [<ore:ingotSilver>, <modularmachinery:blockcasing:2>, <ore:ingotSilver>],
+    [<ore:ingotSilver>, <minecraft:furnace>, <ore:ingotSilver>],
     [<ore:plateLead>, <embers:block_caminite_brick>, <ore:plateLead>]
 ], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
 

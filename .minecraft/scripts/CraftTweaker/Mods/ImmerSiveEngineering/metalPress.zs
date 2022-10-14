@@ -39,5 +39,4 @@ for metal in rodMetals {
 
 MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);
 MetalPress.addRecipe(<contenttweaker:insulating_substrate> * 9, <immersiveengineering:stone_decoration:8>, <immersiveengineering:mold>, 2400);
-MetalPress.addRecipe(<pneumaticcraft:empty_pcb:100>, <pneumaticcraft:plastic:2>, <pneumaticcraft:pcb_blueprint>, 2400);
 MetalPress.addRecipe(<contenttweaker:rune> * 2, <botania:livingrock>, <immersiveengineering:mold>, 2400);

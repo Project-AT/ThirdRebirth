@@ -36,7 +36,7 @@ electronicAssembly.addRecipe("engineer", true, <pneumaticcraft:capacitor>,
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:air_compressor>,
     inputPattern(["EEE", "EQW", "ESE"])
-        .with("Q", <modularmachinery:blockcasing:2>)
+        .with("Q", <minecraft:furnace>)
         .with("W", <pneumaticcraft:pressure_tube>)
         .with("S", <teslacorelib:machine_case>)
         .with("E", <ore:ingotSteel>).get()

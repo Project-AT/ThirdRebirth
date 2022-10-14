@@ -49,7 +49,7 @@ electronicAssembly.addRecipe("engineer", true, <enderio:item_basic_capacitor>, [
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_vat>, [
     [<ore:ingotSmithingIron>, <ore:servo>, <ore:ingotSmithingIron>],
     [<enderio:block_tank>, <ore:itemMachineChassi>, <enderio:block_tank>],
-    [<ore:ingotSmithingIron>, <modularmachinery:blockcasing:2>, <ore:ingotSmithingIron>]
+    [<ore:ingotSmithingIron>, <minecraft:furnace>, <ore:ingotSmithingIron>]
 ], {<ore:artisansDriver> : 30, <ore:artisansSpanner> : 35} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_alloy_smelter>, [

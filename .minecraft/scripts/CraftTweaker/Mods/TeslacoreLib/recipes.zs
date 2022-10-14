@@ -103,7 +103,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:fluid_compoun
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:powered_kiln>,
     inputPatternGet(["EAE", "BDB", "ECE"], {
         "B" : <ore:plateSteel>,
-        "C" : <modularmachinery:blockcasing:2>,
+        "C" : <minecraft:furnace>,
         "D" : <teslacorelib:machine_case>,
         "E" : <ore:ingotSteel>,
         "A" : <immersiveengineering:metal_decoration0>

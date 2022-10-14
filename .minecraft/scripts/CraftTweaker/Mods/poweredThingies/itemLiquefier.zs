@@ -37,6 +37,7 @@ val oreToLiquids as ILiquidStack[IOreDictEntry] = {
     <ore:dustSodiumHydroxide> : <liquid:naoh> *  666,
     <ore:dustPotassiumHydroxide> : <liquid:koh> *  666,
     <ore:dustArsenic> : <liquid:arsenic> *  666,
+    <ore:dustRhodochrosite> : <liquid:manganese_dioxide> * 144,
 
     <ore:ingotBrickNether> : <liquid:nether_brick> *  72,
     <ore:ingotHardCarbon> : <liquid:hard_carbon> *  144,

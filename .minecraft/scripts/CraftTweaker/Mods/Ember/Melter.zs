@@ -52,6 +52,7 @@ val oreLiquids as ILiquidStack[IIngredient] = {
     <ore:dustFluorite> : <liquid:fluorite> * 666,
     <ore:dustVilliaumite> : <liquid:villiaumite> * 666,
     <ore:dustCarobbiite> : <liquid:carobbiite> * 666,
+    <ore:dustRhodochrosite> : <liquid:manganese_dioxide> * 144,
 
     <ore:ingotBrickNether> : <liquid:nether_brick> * 72,
     <ore:ingotGraphite> : <liquid:coal> * 100,
