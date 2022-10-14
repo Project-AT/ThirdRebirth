@@ -132,7 +132,8 @@ val banRitual as IItemStack[] = [
 ];
 
 val hideCategory as string[] = [
-    "nuclearcraft_alloy_furnace"
+    "nuclearcraft_alloy_furnace",
+    "Painter"
 ];
 
 for item in removeAndHide {
