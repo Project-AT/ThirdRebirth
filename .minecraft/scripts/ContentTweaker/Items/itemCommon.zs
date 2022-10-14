@@ -13,7 +13,8 @@ var items as string[] = [
     "refractory_clay_ball", "rusty_iron_ingot", "tough_alloy_plate", "research_icon", "sensitive_element", "thin_film_transistor",
     "glazed_refractory_brick", "glaze", "mana_crystal", "thirdrebirth", "stamp_nugget", "raw_stamp_nugget", "wine_stone",
     "tartaric_acid", "crude_silicon_dust", "infused_crude_silicon_dust", "infused_protective_layer_crude_silicon_dust",
-    "mana_infused_crude_silicon_dust", "contains_impurities_silicon_dust", "silicon_dust", "tinned_copper_wire"
+    "mana_infused_crude_silicon_dust", "contains_impurities_silicon_dust", "silicon_dust", "tinned_copper_wire",
+    "inactive_view_cell", "inactive_energytablet"
 ];
 
 for item in items {

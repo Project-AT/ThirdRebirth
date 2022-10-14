@@ -51,6 +51,8 @@ item.contenttweaker.mana_infused_crude_silicon_dust.name=灌注魔力粗硅粉
 item.contenttweaker.contains_impurities_silicon_dust.name=含杂硅粉
 item.contenttweaker.silicon_dust.name=硅粉
 item.contenttweaker.tinned_copper_wire.name=镀锡铜线
+item.contenttweaker.inactive_energytablet.name=未激活的能量板
+item.contenttweaker.inactive_view_cell.name=未激活的显示元件
 
 #Item
 #Bauble
@@ -134,6 +136,7 @@ base.material.tough=高强合金
 base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
 base.material.rose_gold=玫瑰金
+base.material.iron_compressed=耐候钢
 
 #flower
 tile.botania:flower.aura_flower.name=灵雾兰

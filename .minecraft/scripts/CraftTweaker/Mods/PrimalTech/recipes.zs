@@ -38,7 +38,7 @@ artisanUtils.RecipeTweakWithTools_("carpenter", true, <primal_tech:wooden_hopper
     [null, <ore:plankWood>]
 ], {<ore:artisansHandsaw> : 6, <ore:artisansFramingHammer> : 4} as int[IIngredient]);
 
-RecipeUtils.recipeTweak(true, <primal_tech:wooden_hopper> * 2, [
+RecipeUtils.recipeTweak(true, <primal_tech:wooden_hopper>, [
     [<ore:plankWood>, <ore:trapdoorWood> | <minecraft:iron_trapdoor> | <enderio:block_dark_steel_trapdoor>, <ore:plankWood>],
     [<ore:plankWood>, <extrautils2:minichest>, <ore:plankWood>],
     [null, <ore:plankWood>]

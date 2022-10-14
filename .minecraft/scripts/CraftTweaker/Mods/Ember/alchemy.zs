@@ -68,7 +68,7 @@ Alchemy.add(<botania:rune:7>,
     }
 );
 
-Alchemy.add(<ore:blockEnergeticSilver>.firstItem,
+Alchemy.add(<ore:blockEnergeticSilver>.firstItem * 4,
     [<embers:ember_cluster>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>], {
         ASP(<embers:aspectus_silver>) : 128 .. 256,
     }

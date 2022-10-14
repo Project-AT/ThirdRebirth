@@ -9,12 +9,13 @@ var ingotTwo as IIngredient = <ore:ingotElectricalSteel> | <ore:ingotPureIron>;
 
 furnace.remove(<appliedenergistics2:material:5>);
 
+recipes.replaceAllOccurences(<appliedenergistics2:view_cell>, <ore:aeViewCellReplacement>);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:view_cell>, 
-    RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, ingotTwo, <ore:fusedQuartz>)
+    [[<contenttweaker:inactive_view_cell>]]
 );
 
 RecipeUtils.recipeTweak(true, <advancedrocketry:misc>, 
-    RecipeUtils.createCrossWithCore(<appliedenergistics2:view_cell>, <ore:plasticBlack>, <ore:fusedQuartz>)
+    RecipeUtils.createCrossWithCore(<ore:aeViewCellReplacement>, <ore:plasticBlack>, <ore:fusedQuartz>)
 );
 
 RecipeUtils.recipeTweak(false, <appliedenergistics2:part:220>, [

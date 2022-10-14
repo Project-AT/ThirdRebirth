@@ -9,6 +9,7 @@ var materials as int[string] = {
     "Tough" : 0x171221,
     "Extreme" : 0x722A3C,
     "Dilithium" : 0xEEE7E5,
+    "IronCompressed" : 0x636363,
 };
 
 var otherMaterial as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("otherMaterial");
@@ -21,3 +22,4 @@ otherMaterial.registerMaterialPart("Tough", "gear");
 otherMaterial.registerMaterialPart("Tough", "block");
 otherMaterial.registerMaterialPart("Extreme", "block");
 otherMaterial.registerMaterialPart("Dilithium", "dust");
+otherMaterial.registerMaterialPart("IronCompressed", "plate");

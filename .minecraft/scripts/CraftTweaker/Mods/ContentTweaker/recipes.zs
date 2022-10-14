@@ -117,3 +117,15 @@ function addRecipe(b as IOreDictEntry, a as IOreDictEntry) {
     RecipeUtils.recipeTweak(true, a.firstItem, RecipeUtils.createFull3(b));
     RecipeUtils.recipeTweak(false, b.firstItem * 9, [[a]]);
 }
+
+RecipeUtils.recipeTweak(false, <contenttweaker:inactive_energytablet>, [[<mekanism:energytablet>]]);
+RecipeUtils.recipeTweak(true, <contenttweaker:inactive_energytablet>, [
+    [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>],
+    [<mekanism:enrichedalloy>, <ore:ingotGold>, <mekanism:enrichedalloy>],
+    [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>]
+]);
+
+RecipeUtils.recipeTweak(false, <contenttweaker:inactive_view_cell>, [[<appliedenergistics2:view_cell>]]);
+RecipeUtils.recipeTweak(true, <contenttweaker:inactive_view_cell>, 
+    RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>, <ore:fusedQuartz>)
+);

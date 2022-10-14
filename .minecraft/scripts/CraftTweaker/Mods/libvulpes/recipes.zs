@@ -57,6 +57,6 @@ RecipeUtils.recipeTweak(true, <libvulpes:advstructuremachine> * 4, [
 
 RecipeUtils.recipeTweak(true, <libvulpes:holoprojector>, [
     [<refraction:lens>, <refraction:lens>, <refraction:lens>],
-    [<ore:dustSignalum>, <appliedenergistics2:view_cell>, <ore:dustSignalum>],
+    [<ore:dustSignalum>, <ore:aeViewCellReplacement>, <ore:dustSignalum>],
     [<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>]
 ]);

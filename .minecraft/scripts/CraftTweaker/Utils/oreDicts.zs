@@ -117,6 +117,14 @@ var oreDictAdd as IItemStack[][string] = {
     ],
     "trapdoorWood" : [
         <wizardry:wisdom_wood_trapdoor>,
+    ],
+    "mekTabletReplacement" : [
+        <mekanism:energytablet>,
+        <contenttweaker:inactive_energytablet>
+    ],
+    "aeViewCellReplacement" : [
+        <appliedenergistics2:view_cell>,
+        <contenttweaker:inactive_view_cell>
     ]
 };
 

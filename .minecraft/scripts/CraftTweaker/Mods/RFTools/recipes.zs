@@ -29,12 +29,12 @@ RecipeUtils.recipeTweak(true, <rftools:sensor_block>,
         .with("1", <psi:exosuit_sensor:1>)
         .with("2", <psi:exosuit_sensor:2>)
         .with("3", <psi:exosuit_sensor:3>)
-        .with("H", <appliedenergistics2:view_cell>).get()
+        .with("H", <ore:aeViewCellReplacement>).get()
 );
 
 RecipeUtils.recipeTweak(true, <rftools:sensor_block>, [
     [<ore:ingotElectricalSteel> | <ore:ingotPureIron>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>],
-    [<contenttweaker:sensitive_element>, <appliedenergistics2:view_cell>, <contenttweaker:sensitive_element>],
+    [<contenttweaker:sensitive_element>, <ore:aeViewCellReplacement>, <contenttweaker:sensitive_element>],
     [<ore:ingotElectricalSteel> | <ore:ingotPureIron>, <contenttweaker:sensitive_element>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>]
 ]);
 

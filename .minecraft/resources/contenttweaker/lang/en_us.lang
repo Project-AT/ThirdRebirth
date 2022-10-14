@@ -52,6 +52,8 @@ item.contenttweaker.mana_infused_crude_silicon_dust.name=Mana Infused Crude Sili
 item.contenttweaker.contains_impurities_silicon_dust.name=Contains Impurities Silicon Dust
 item.contenttweaker.silicon_dust.name=Silicon Dust
 item.contenttweaker.tinned_copper_wire.name=Tinned Copper Wire
+item.contenttweaker.inactive_energytablet.name=Inactive Energy Tablet
+item.contenttweaker.inactive_view_cell.name=Inactive View Cell
 
 #Item
 #Bauble
@@ -134,6 +136,7 @@ base.material.tough=Tough
 base.material.extreme=Extreme
 base.material.high_strength_aluminum_alloy=High Strength Aluminum Alloy
 base.material.rose_gold=Rose Gold
+base.material.iron_compressed=Weathering Steel
 
 #flower
 tile.botania:flower.aura_flower.name=Aura flower
