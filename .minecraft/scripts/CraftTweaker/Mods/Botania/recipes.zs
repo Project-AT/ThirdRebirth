@@ -15,7 +15,8 @@ var manaTransform as IItemStack[IIngredient] = {
     <ore:quartzMana> : <ore:gemQuartz>.firstItem,
     <botania:quartztypemana> : <minecraft:quartz_block>,
     <botania:quartztypemana:1> : <minecraft:quartz_block:1>,
-    <botania:quartztypemana:2> : <minecraft:quartz_block:2>
+    <botania:quartztypemana:2> : <minecraft:quartz_block:2>,
+    <contenttweaker:mana_infused_crude_silicon_dust> : <contenttweaker:infused_protective_layer_crude_silicon_dust>
 };
 
 RecipeUtils.recipeTweak(false, <botania:manaresource:6>, [[<ore:dustRedstone>, <biomesoplenty:plant_1:9>]]);

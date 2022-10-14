@@ -19,3 +19,5 @@ BurstTransform.addRecipe(<pneumaticcraft:unassembled_pcb>, 100, <pneumaticcraft:
         return true;
     }
 );
+
+BurstTransform.addRecipe(<contenttweaker:mana_infused_crude_silicon_dust>, 2500, <contenttweaker:infused_crude_silicon_dust>);

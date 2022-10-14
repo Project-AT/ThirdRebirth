@@ -16,6 +16,8 @@ furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:oreCrudeSteel>);
 furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:dustCrudeSteel>);
 furnace.addRecipe(<contenttweaker:stamp_nugget>, <contenttweaker:raw_stamp_nugget>);
 furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
+furnace.addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
+furnace.addRecipe(<appliedenergistics2:material:5>, <contenttweaker:silicon_dust>);
 
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
