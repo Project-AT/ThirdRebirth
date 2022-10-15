@@ -39,31 +39,31 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:air_compress
         .with("Q", <minecraft:furnace>)
         .with("W", <pneumaticcraft:pressure_tube>)
         .with("S", <teslacorelib:machine_case>)
-        .with("E", <ore:ingotSteel>).get()
+        .with("E", <ore:ingotIronCompressed>).get()
 , {<ore:artisansSpanner> : 29, <ore:artisansDriver> : 26});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_tube> * 8,
     inputPattern(["QAQ"])
-        .with("Q", <ore:ingotSteel>)
-        .with("A", <ore:plateSteel>).get()
+        .with("Q", <ore:ingotIronCompressed>)
+        .with("A", <ore:plateIronCompressed>).get()
 , {<ore:artisansSpanner> : 22});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:pressure_chamber_wall> * 16,
     inputPattern(["QAQ", "A A", "QAQ"])
-        .with("Q", <ore:ingotSteel>)
+        .with("Q", <ore:ingotIronCompressed>)
         .with("A", <ore:blockIronCompressed>).get()
 , {<ore:artisansSpanner> : 29, <ore:artisansDriver> : 26});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:vortex_tube>,
     inputPattern(["QAQ", "WAW", "QQQ"])
-        .with("Q", <ore:ingotSteel>)
+        .with("Q", <ore:ingotIronCompressed>)
         .with("W", <ore:ingotCopper>)
         .with("A", <pneumaticcraft:pressure_tube>).get()
 , {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneumatic_processing_plant>,
     inputPattern(["QAQ", "UFO", "QAQ"])
-        .with("Q", <ore:ingotSteel>)
+        .with("Q", <ore:ingotIronCompressed>)
         .with("U", <pneumaticcraft:pressure_tube>)
         .with("F", <teslacorelib:machine_case>)
         .with("O", <ore:blockCopper>)
@@ -73,9 +73,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:thermopneuma
 recipes.remove(<pneumaticcraft:plastic_mixer>);
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<ore:plateSteel>, <ore:fusedQuartz>, <ore:plateSteel>],
+    [<ore:plateIronCompressed>, <ore:fusedQuartz>, <ore:plateIronCompressed>],
     [<ore:fusedQuartz>, <teslacorelib:machine_case>, <ore:fusedQuartz>],
-    [<ore:plateSteel>, <thermalfoundation:material:160>, <ore:plateSteel>]])
+    [<ore:plateIronCompressed>, <thermalfoundation:material:160>, <ore:plateIronCompressed>]])
   .addOutput(<pneumaticcraft:plastic_mixer>)
   .setMinimumTier(1)
   .setMaximumTier(1)

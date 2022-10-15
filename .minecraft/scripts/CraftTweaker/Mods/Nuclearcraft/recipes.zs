@@ -105,7 +105,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:infuser>, [
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 38});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:melter>, [
-    [<ore:plateAdvanced>, <ore:ingotBrickNetherGlazed>, <ore:plateAdvanced>],
+    [<ore:plateAdvanced>, <teslathingies:item_liquefier>, <ore:plateAdvanced>],
     [<ore:ingotBrickNetherGlazed>, <ore:chassis>, <ore:ingotBrickNetherGlazed>],
     [<ore:plateAdvanced>, <ore:servo>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 38, <ore:artisansSpanner> : 42});
@@ -141,7 +141,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:chemical_react
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 40});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:salt_mixer>, [
-    [<ore:plateBasic>, <ore:ingotSteel>, <ore:plateBasic>],
+    [<ore:plateBasic>, <teslathingies:fluid_compound_producer>, <ore:plateBasic>],
     [<flopper:flopper>, <ore:chassis>, <flopper:flopper>],
     [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]
 ], {<ore:artisansDriver> : 28, <ore:artisansSpanner> : 32});
