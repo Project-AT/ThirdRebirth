@@ -39,7 +39,10 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, 
         <enderio:block_self_resetting_lever5>, <enderio:block_self_resetting_lever10>, <enderio:block_self_resetting_lever30>, <enderio:block_self_resetting_lever60>, <enderio:block_self_resetting_lever300>, 
         <enderio:block_self_resetting_lever5i>, <enderio:block_self_resetting_lever10i>, <enderio:block_self_resetting_lever30i>, <enderio:block_self_resetting_lever60i>, <enderio:block_self_resetting_lever300i>, 
-        <enderio:block_painted_pressure_plate:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_glass:*>, 
+        <enderio:block_painted_pressure_plate:1>, <enderio:block_painted_pressure_plate:3>, <enderio:block_painted_pressure_plate:5>,
+        <enderio:block_painted_pressure_plate:7>, <enderio:block_painted_pressure_plate:8>, <enderio:block_painted_pressure_plate:9>,
+        <enderio:block_painted_pressure_plate:10>, <enderio:block_painted_pressure_plate:11>, <enderio:block_painted_pressure_plate:12>,
+        <enderio:block_painted_pressure_plate:13>, <enderio:block_fused_quartz:15>, <enderio:block_fused_glass:15>,
         <trutils:washing_machine>, <ore:dustBedrock>, <ore:itemPulsatingPowder>, <ore:itemVibrantPowder>, <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>, <ore:itemRemoteAwarenessUpgrade>, 
         <enderio:item_capacitor_grainy>, <ore:paperBlack>, <ore:gearVibrant>, <ore:itemBinderComposite>, <ore:itemPlatePhotovoltaic>, <ore:itemConduitBinder>, <ore:itemPowderPhotovoltaic>, 
         <ore:gearIronInfinity>, <ore:itemSimpleMachineChassi>, <ore:itemSimpleChassiParts>, <enderio:block_reinforced_obsidian>, <ore:gearEnergized>, 
@@ -50,7 +53,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         
     ],
     "three" : [
-        <mekanism:polyethene:*>
+        <mekanism:polyethene>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>
     ]
 };
 
@@ -124,6 +127,12 @@ for mod in loadedMods {
             continue;
         }
         //item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
+    }
+}
+
+for stage, items in specialStageItemStackMap {
+    for item in items {
+        ItemStages.addItemStage(stage, item);
     }
 }
 
