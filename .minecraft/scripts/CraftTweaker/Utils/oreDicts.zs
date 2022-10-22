@@ -199,6 +199,12 @@ for item in loadedMods["mysticalworld"].items {
 
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
 
+var oreNames as string[] = [
+    "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
+    "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
+    "Lead", "Aluminum", "Dilithium", "Germanium"
+];
+
 for oreName in oreNames {
     var shard as IOreDictEntry = oreDict.get("shard" ~ oreName);
     var clamp as IOreDictEntry = oreDict.get("clump" ~ oreName);
@@ -214,15 +220,16 @@ for oreName in oreNames {
     var oreCrushedEnriched as IOreDictEntry = oreDict.get("oreCrushedEnriched" ~ oreName);
     var oreCleanCrushedInfused as IOreDictEntry = oreDict.get("oreCleanCrushedInfused" ~ oreName);
 
-    if (!shard.empty) <ore:allShards>.addAll(shard);
-    if (!clamp.empty) <ore:allClamp>.addAll(clamp);
-    if (!ore.empty) <ore:allOre>.addAll(ore);
-    if (!crystal.empty) <ore:allCrystal>.addAll(crystal);
-    if (!oreEnriched.empty) <ore:allOreEnriched>.addAll(oreEnriched);
-    if (!oreAuraInfusion.empty) <ore:allOreAuraInfusion>.addAll(oreAuraInfusion);
-    if (!dust.empty) <ore:alldust>.addAll(dust);
-    if (!ingot.empty) <ore:allIngot>.addAll(ingot);
-    if (!oreCrushedInfused.empty) <ore:allOreCrushedInfused>.addAll(oreCrushedInfused);
-    if (!oreCrushedEnriched.empty) <ore:allOreCrushedEnriched>.addAll(oreCrushedEnriched);
-    if (!oreCleanCrushedInfused.empty) <ore:allOreCleanCrushedInfused>.addAll(oreCleanCrushedInfused);
+
+    if(!isNull(shard) && !shard.empty) oreDict.get("allshards").addAll(shard);
+    if(!isNull(clamp) && !clamp.empty) oreDict.get("allClamps").addAll(clamp);
+    if(!isNull(ore) && !ore.empty) oreDict.get("allOres").addAll(ore);
+    if(!isNull(crystal) && !crystal.empty) oreDict.get("allCrystals").addAll(crystal);
+    if(!isNull(oreEnriched) && !oreEnriched.empty) oreDict.get("allOreEnricheds").addAll(oreEnriched);
+    if(!isNull(oreAuraInfusion) && !oreAuraInfusion.empty) oreDict.get("allOreAuraInfusions").addAll(oreAuraInfusion);
+    if(!isNull(dust) && !dust.empty) oreDict.get("alldusts").addAll(dust);
+    if(!isNull(ingot) && !ingot.empty) oreDict.get("allIngots").addAll(ingot);
+    if(!isNull(oreCrushedInfused) && !oreCrushedInfused.empty) oreDict.get("allOreCrushedInfuseds").addAll(oreCrushedInfused);
+    if(!isNull(oreCrushedEnriched) && !oreCrushedEnriched.empty) oreDict.get("allOreCrushedEnricheds").addAll(oreCrushedEnriched);
+    if(!isNull(oreCleanCrushedInfused) && !oreCleanCrushedInfused.empty) oreDict.get("allOreCleanCrushedInfuseds").addAll(oreCleanCrushedInfused);
 }
