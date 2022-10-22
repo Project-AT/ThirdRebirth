@@ -12,9 +12,11 @@ WashingMachineRecipes.addRecipe(recipeTime as int,
                                 fluidOutput as ILiquidStack);
 */
 
-WashingMachineRecipes.addRecipe(10,
-                                2000,
-                                <liquid:sulfuric_acid> * 25,
-                                <contenttweaker:contains_impurities_silicon_dust>,
-                                <contenttweaker:silicon_dust>,
-                                <liquid:infused_slag_slurry> * 25);
+WashingMachineRecipes
+    .addRecipe(10, 2000,
+            <liquid:sulfuric_acid> * 25,
+            <contenttweaker:contains_impurities_silicon_dust>,
+            <contenttweaker:silicon_dust>,
+            <liquid:infused_slag_slurry> * 25);
+
+

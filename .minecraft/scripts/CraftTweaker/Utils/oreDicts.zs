@@ -125,7 +125,17 @@ var oreDictAdd as IItemStack[][string] = {
     "aeViewCellReplacement" : [
         <appliedenergistics2:view_cell>,
         <contenttweaker:inactive_view_cell>
-    ]
+    ],
+    "ingotTritanium" : [
+        <matteroverdrive:tritanium_ingot>
+    ],
+    "ingotAluminum" : [
+        <nuclearcraft:ingot:12>,
+        <embers:ingot_aluminum>
+    ],
+    "ingotAluminium" : [
+        <thermalfoundation:material:132>
+    ], 
 };
 
 

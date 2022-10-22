@@ -261,4 +261,7 @@ for oreName in oreNames {
 
     mods.trutils.WashingMachineRecipes.addRecipe(25, 80, <liquid:sulfuric_acid> * 50, oreCrushedInfused, oreCleanCrushedInfused.firstItem, <liquid:infused_slag_slurry> * 50);
 
+    if (!ingot.empty && !dust.empty) {
+        mods.mekanism.crusher.addRecipe(ingot, dust.firstItem);
+    }
 }

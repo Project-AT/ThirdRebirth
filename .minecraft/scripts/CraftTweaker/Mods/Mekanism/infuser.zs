@@ -32,3 +32,7 @@ infuser.addRecipe("OBSIDIAN", 40, <ore:plateAdvanced>, <deepmoblearning:soot_cov
 infuser.addRecipe("EMBER", 10, <ore:ingotRoseGold>, <ore:ingotDawnstone>.firstItem);
 infuser.addRecipe("EMBER", 40, <ore:ingotSilver>, <ore:ingotEnergeticSilver>.firstItem);
 infuser.addRecipe("TIN", 1, <ore:wireCopper>, <contenttweaker:tinned_copper_wire>);
+infuser.removeRecipe(<mekanism:otherdust:1>);
+infuser.addRecipe("CARBON", 10, <mekanism:enrichediron>, <ore:dustSteel>.firstItem);
+infuser.removeRecipe(<mekanism:ingot:2>);
+infuser.addRecipe("TIN", 10, <ore:ingotCopper>, <ore:ingotBronze>.firstItem);
