@@ -41,11 +41,13 @@ RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
     [<ore:dustCharcoal>, <ore:dustCharcoal>]
 ]);
 
+//手动驱魔配方
 RecipeUtils.recipeTweak(false, <contenttweaker:pure_iron_ingot>, [
     [<botania:spellcloth>, <botania:manaresource>]
 ]);
 
-RecipeUtils.recipeTweak(false, <contenttweaker:sub_block_holder_2:12>, [
+//手动驱魔配方
+RecipeUtils.recipeTweak(false, <ore:blockPureIron>.firstItem, [
     [<botania:spellcloth>, <botania:storage>]
 ]);
 

@@ -7,11 +7,11 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+//压力室气阀合成
 RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_valve>, [[<pneumaticcraft:pressure_tube>, <pneumaticcraft:pressure_chamber_wall>]]);
 
-RecipeUtils.recipeTweak(true, <pneumaticcraft:pressure_chamber_glass>, 
-    RecipeUtils.createSurround(<ore:ingotIronCompressed>, <pneumaticcraft:pressure_chamber_glass>)
-);
+//压力室玻璃合成
+RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_glass>, [[<ore:blockGlass>, <pneumaticcraft:pressure_chamber_wall>]]);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])

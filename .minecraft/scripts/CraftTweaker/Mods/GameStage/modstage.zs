@@ -7,13 +7,32 @@ import crafttweaker.liquid.ILiquidStack;
 
 val defaultStageModMap as string[][string] = {
     "two" : [
-        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets"
+        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets", "teslacorelib"
     ],
     "three" : [
-        "enderio"
+        "enderio", "nuclearcraft"
+    ],
+    "root" : [
+        "roots"
+    ],
+    "wizardry" : [
+        "wizardry"
+    ],
+    "aura" : [
+        "naturesaura"
+    ],
+    "botania" : [
+        "botania", "botanianeedsit"
+    ],
+    "ember" : [
+        "embers"
+    ],
+    "refraction" : [
+        "refraction"
     ],
 };
 
+//无阶段mod
 var modUsed as string[] = [
     "minecraft", "primal_tech", "elevatorid", "travelersbackpack", "quark", "tetra", "flopper", "artisanworktables",
     "immersiveengineering", "akashictome", "morphtool", "tombstone", "harvestcraft", "survivalist", "cookingforblockheads",

@@ -7,6 +7,7 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+//封印之布手动驱魔配方
 var manaTransform as IItemStack[IIngredient] = {
     <ore:ingotManasteel> : <ore:ingotPureIron>.firstItem,
     <botania:storage> : <ore:blockPureIron>.firstItem,
