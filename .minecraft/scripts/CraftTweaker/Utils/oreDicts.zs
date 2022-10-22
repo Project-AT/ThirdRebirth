@@ -198,3 +198,31 @@ for item in loadedMods["mysticalworld"].items {
 }
 
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
+
+for oreName in oreNames {
+    var shard as IOreDictEntry = oreDict.get("shard" ~ oreName);
+    var clamp as IOreDictEntry = oreDict.get("clump" ~ oreName);
+
+    var ore as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var crystal as IOreDictEntry = oreDict.get("crystal" ~ oreName);
+    var oreEnriched as IOreDictEntry = oreDict.get("oreEnriched" ~ oreName);
+    var oreAuraInfusion as IOreDictEntry = oreDict.get("oreAuraInfusion" ~ oreName);
+
+    var dust as IOreDictEntry = oreDict.get("dust" ~ oreName);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ oreName);
+    var oreCrushedInfused as IOreDictEntry = oreDict.get("oreCrushedInfused" ~ oreName);
+    var oreCrushedEnriched as IOreDictEntry = oreDict.get("oreCrushedEnriched" ~ oreName);
+    var oreCleanCrushedInfused as IOreDictEntry = oreDict.get("oreCleanCrushedInfused" ~ oreName);
+
+    if (!shard.empty) <ore:allShards>.addAll(shard);
+    if (!clamp.empty) <ore:allClamp>.addAll(clamp);
+    if (!ore.empty) <ore:allOre>.addAll(ore);
+    if (!crystal.empty) <ore:allCrystal>.addAll(crystal);
+    if (!oreEnriched.empty) <ore:allOreEnriched>.addAll(oreEnriched);
+    if (!oreAuraInfusion.empty) <ore:allOreAuraInfusion>.addAll(oreAuraInfusion);
+    if (!dust.empty) <ore:alldust>.addAll(dust);
+    if (!ingot.empty) <ore:allIngot>.addAll(ingot);
+    if (!oreCrushedInfused.empty) <ore:allOreCrushedInfused>.addAll(oreCrushedInfused);
+    if (!oreCrushedEnriched.empty) <ore:allOreCrushedEnriched>.addAll(oreCrushedEnriched);
+    if (!oreCleanCrushedInfused.empty) <ore:allOreCleanCrushedInfused>.addAll(oreCleanCrushedInfused);
+}
