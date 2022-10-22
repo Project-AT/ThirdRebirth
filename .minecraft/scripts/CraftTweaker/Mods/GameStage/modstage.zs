@@ -25,12 +25,13 @@ var modUsed as string[] = [
 for stage, modids in defaultStageModMap {
     for modid in modids {
         ItemStages.stageModItems(stage, modid);
+        modUsed += modid;
     }
 }
 
 for mod in loadedMods {
     if (modUsed has mod.id) continue;
-    if (defaultStageModMap has mod.id) continue;
+    //if (defaultStageModMap has mod.id) continue;
 
     //recipes.removeByMod(mod.id);
     ItemStages.stageModItems("locked", mod.id);
