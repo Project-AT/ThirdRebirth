@@ -17,6 +17,9 @@ import mods.lightningcraft.LightningCrusher;
 import mods.integrateddynamics.MechanicalSqueezer;
 
 import scripts.grassUtils.StringHelper;
+import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Mods.AdvanedRocketry.Lathe;
+import scripts.CraftTweaker.Mods.AdvanedRocketry.Rollingmachine;
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
@@ -263,5 +266,37 @@ for oreName in oreNames {
 
     if (!ingot.empty && !dust.empty) {
         mods.mekanism.crusher.addRecipe(ingot, dust.firstItem);
+    }
+}
+
+for ore in oreDict {
+    if (ore.name.startsWith("ingot")) {
+        
+        var metal as string = RecipeUtils.getMetalNameNew(ore, "ingot");
+        var plate as IOreDictEntry = oreDict.get("plate" ~ metal);
+        var rod as IOreDictEntry = oreDict.get("rod" ~ metal);
+        var sheet as IOreDictEntry = oreDict.get("sheet" ~ metal);
+        var stick as IOreDictEntry = oreDict.get("stick" ~ metal);
+        var ingot as IOreDictEntry = ore;
+
+        if (isNull(ingot) || ingot.empty) continue;
+
+        if (!isNull(plate) && !plate.empty) {
+            print("plate - >" ~ plate.name);
+            print("ingot - >" ~ ingot.name);
+            Lathe.addRecipe([plate.firstItem % 100], 50, 160, [ingot]);
+            if (!isNull(sheet) && !sheet.empty) {
+                Lathe.addRecipe([sheet.firstItem % 100], 50, 160, [plate]);
+            }
+        }
+
+        if (!isNull(rod) && !rod.empty) {
+            Rollingmachine.addRecipe([rod.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
+        }
+        else if (!isNull(stick) && !stick.empty) {
+            print("stick -> " ~ stick.name);
+            print("ingot -> " ~ ingot.name);
+            Rollingmachine.addRecipe([stick.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
+        }
     }
 }

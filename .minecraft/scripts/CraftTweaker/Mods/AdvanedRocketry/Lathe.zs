@@ -4,11 +4,10 @@ import mods.advancedrocketry.RecipeTweaker;
 import mods.advancedrocketry.RecipeBuilder;
 import mods.advancedrocketry.RecipeRemover;
 import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.WeightedItemStack;
 
-static machineName as string = "Crystallizer";
+static machineName as string = "Lathe";
 
 function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int, inputItems as IIngredient[]) {
     var recipeBuilder as RecipeBuilder = RecipeTweaker.forMachine(machineName).builder();
@@ -24,18 +23,5 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
     recipeBuilder.build();
 }
 
-addRecipe([
-    <ore:crystalFluix>.firstItem * 3 % 100
-], 20, 200, [<psi:material>, <ore:dustCertusQuartz>, <ore:dustNetherQuartz>]);
+RecipeTweaker.forMachine(machineName).removeAll();
 
-addRecipe([
-    <ore:crystalPureCertusQuartz>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed> * 3]);
-
-addRecipe([
-    <ore:crystalPureNetherQuartz>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed:600> * 3]);
-
-addRecipe([
-    <ore:crystalPureFluix>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed:1200> * 3]);
