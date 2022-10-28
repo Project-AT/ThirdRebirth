@@ -136,7 +136,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:pressurizer>, 
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:chemical_reactor>, [
     [<ore:plateAdvanced>, <ore:motor>, <ore:plateAdvanced>],
-    [<extendedcrafting:material:7>, <ore:chassis>, <extendedcrafting:material:7>],
+    [<embers:reaction_chamber>, <ore:chassis>, <embers:reaction_chamber>],
     [<ore:plateAdvanced>, <ore:servo>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 40});
 

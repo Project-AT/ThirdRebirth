@@ -121,3 +121,16 @@ RecipeBuilder.get("carpenter")
     .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
     .setMaximumTier(1)
     .create();
+
+RecipeUtils.recipeTweak(true, <roots:imbuer>,
+    inputPatternGet(["B B", " A ", "B B"], {
+        "A" : <ore:runestone>,
+        "B" : <ore:stickWood>,
+}));
+
+RecipeUtils.recipeTweak(true, <roots:imposer>,
+    inputPatternGet(["B B", " C ", "AAA"], {
+        "A" : <ore:runestone>,
+        "B" : <ore:stickWood>,
+        "C" : <roots:imbuer>,
+}));

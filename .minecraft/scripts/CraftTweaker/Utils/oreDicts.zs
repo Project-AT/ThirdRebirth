@@ -136,6 +136,13 @@ var oreDictAdd as IItemStack[][string] = {
     "ingotAluminium" : [
         <thermalfoundation:material:132>
     ], 
+    "listAllseed" : [
+        <roots:moonglow_seed>,
+        <immersiveengineering:seed>,
+        <roots:spirit_herb_seed>,
+        <roots:wildewheet_seed>,
+        <extrautils2:enderlilly>,
+    ],
 };
 
 

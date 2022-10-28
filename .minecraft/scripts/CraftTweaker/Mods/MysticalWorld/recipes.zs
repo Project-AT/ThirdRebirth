@@ -19,3 +19,5 @@ artisanUtils.RecipeTweakWithTools("mage", true, <mysticalworld:pearleporter>, [
     [null, <ore:bone>, <ore:ingotGold>],
     [<ore:nuggetGold>]
 ], {<ore:artisansAthame> : 1} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(false, <mysticalworld:assorted_seeds> * 4, [[<ore:listAllseed>, <ore:listAllseed>, <ore:listAllseed>, <ore:listAllseed>]]);
