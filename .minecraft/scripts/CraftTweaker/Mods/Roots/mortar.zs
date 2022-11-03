@@ -26,6 +26,10 @@ mortarUtils(<roots:runic_dust> * 5, [
 mortarUtils(<thermalfoundation:material:768>, [<minecraft:coal>]);
 mortarUtils(<thermalfoundation:material:769>, [<minecraft:coal:1>]);
 mortarUtils(<ore:nuggetGold>.firstItem * 3, [<minecraft:golden_carrot>]);
+mortarUtils(<contenttweaker:mana_petals>, [<roots:cloud_berry>]);
+mortarUtils(<contenttweaker:mana_petals>, [<roots:dewgonia>]);
+mortarUtils(<contenttweaker:mana_petals>, [<roots:moonglow_leaf>]);
+mortarUtils(<contenttweaker:mana_petals>, [<roots:pereskia>]);
 
 Mortar.changeSpell("spell_chrysopoeia", [
     NACRE_PEARL, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>

@@ -109,7 +109,7 @@ val exceptItemStacks as IIngredient[] = [
     <botania:petalblock:9>, <botania:petalblock:8>, <botania:petalblock:7>, <botania:petalblock:6>, <botania:petalblock:5>, <botania:petalblock:4>, <botania:petalblock:3>, <botania:petalblock:2>, <botania:petalblock:1>, <botania:petalblock:10>, <botania:petalblock:11>, <botania:petalblock:12>, <botania:petalblock:14>, <botania:petalblock:13>, <botania:petalblock:15>, 
     <roots:mortar>, <roots:roots_guide>, <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), <ore:ingotRoseGold>, <ore:dustRoseGold>, <ore:nuggetRoseGold>, <ore:blockRoseGold>, 
     <ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed1xDirt>, <ore:compressed2xDirt>, <ore:compressed1xSand>, <ore:compressed2xSand>, <ore:compressed1xGravel>, <ore:compressed2xGravel>, <ore:compressed1xNetherrack>, <ore:compressed2xNetherrack>, 
-    <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,
+    <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,<botania:pestleandmortar>, <ore:dye>,
 ];
 
 for stage, items in specialStageItemStackMap {

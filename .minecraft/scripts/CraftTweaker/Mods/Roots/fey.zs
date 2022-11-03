@@ -21,8 +21,10 @@ ferUtils(<trutils:evil_stone>, [
     <botania:felpumpkin>, <ore:runedObsidian>, <ore:blockMeatRaw>, <roots:infernal_bulb>, <ore:ingotGold>
 ], false);
 
-ferUtils(<roots:salmon_of_knowledge>, [
-    <minecraft:fish:1>, <roots:baffle_cap_mushroom>, <ore:rootsBark>, <minecraft:experience_bottle>, <contenttweaker:villager_language_dictionary>
+Fey.removeRecipe(<roots:salmon_of_knowledge>);
+
+ferUtils(<roots:salmon_of_knowledge>.withTag({crafter: "Fey"}), [
+    <minecraft:fish:1>, <roots:baffle_cap_mushroom>, <contenttweaker:bark_wisdomwood>, <minecraft:experience_bottle>, <contenttweaker:villager_language_dictionary>
 ], true);
 
 ferUtils(<roots:wildwood_sapling>, [
@@ -44,3 +46,23 @@ ferUtils(<minecraft:experience_bottle>, [
 ferUtils(<extrautils2:wateringcan:1000>, [
     <roots:mortar>, <ore:runestone>, <roots:spirit_herb>, <roots:terra_moss>, <roots:dewgonia>
 ], false);
+
+ferUtils(<roots:living_sword>, [
+    <contenttweaker:bark_wisdomwood>, <ore:rootsBark>, <ore:ingotRustyIron>, <ore:wildroot>, <minecraft:wooden_sword>
+], true);
+
+ferUtils(<roots:living_hoe>, [
+    <contenttweaker:bark_wisdomwood>, <ore:rootsBark>, <ore:ingotRustyIron>, <ore:wildroot>, <minecraft:wooden_hoe>
+], true);
+
+ferUtils(<roots:living_shovel>, [
+    <contenttweaker:bark_wisdomwood>, <ore:rootsBark>, <ore:ingotRustyIron>, <ore:wildroot>, <minecraft:wooden_shovel>
+], true);
+
+ferUtils(<roots:living_axe>, [
+    <contenttweaker:bark_wisdomwood>, <ore:rootsBark>, <ore:ingotRustyIron>, <ore:wildroot>, <minecraft:wooden_axe>
+], true);
+
+ferUtils(<roots:living_pickaxe>, [
+    <contenttweaker:bark_wisdomwood>, <ore:rootsBark>, <ore:ingotRustyIron>, <ore:wildroot>, <minecraft:wooden_pickaxe>
+], true);

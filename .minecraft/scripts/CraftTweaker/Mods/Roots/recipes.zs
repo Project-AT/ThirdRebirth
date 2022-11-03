@@ -134,3 +134,7 @@ RecipeUtils.recipeTweak(true, <roots:imposer>,
         "B" : <ore:stickWood>,
         "C" : <roots:imbuer>,
 }));
+
+artisanUtils.RecipeTweakWithTools("basic", false, <contenttweaker:mana_petals>, [
+    [<roots:dewgonia> | <roots:cloud_berry> | <roots:moonglow_leaf> | <roots:pereskia>]
+], {<ore:artisansMortar> : 1} as int[IIngredient]);

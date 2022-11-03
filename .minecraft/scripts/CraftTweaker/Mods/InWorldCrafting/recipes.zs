@@ -10,6 +10,7 @@ FireCrafting.addRecipe(<wizardry:devil_dust>, <roots:runic_dust>, 60);
 FluidToItem.transform(<contenttweaker:mana_petals>, <liquid:mana_fluid>, [<roots:petals>], true);
 FluidToItem.transform(<contenttweaker:glaze>, <liquid:glaze_slurry>, [<buildinggadgets:constructionpaste>], true);
 FluidToItem.transform(<thermalfoundation:fertilizer> * 2, <liquid:eutrophic_water>, [<minecraft:dye:15> * 2], true);
+FluidToItem.transform(<ore:ingotRustyIron>.firstItem, <liquid:water>, [<ore:ingotIron>], false);
     
 FluidToFluid.transform(<liquid:liquid_sunshine>, <liquid:mana_fluid>, 
     [<minecraft:double_plant>, <ore:dustGlowstone> * 4], true);
