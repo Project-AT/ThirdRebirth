@@ -13,6 +13,8 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
 furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
 furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
+furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:ingotPureIron>);
+furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:dustPureIron>);
 
 RecipeUtils.recipeTweak(true, <minecraft:paper> * 3, [[<biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>]]);
 
