@@ -22,10 +22,9 @@ ferUtils(<trutils:evil_stone>, [
 ], false);
 
 Fey.removeRecipe(<roots:salmon_of_knowledge>);
-
 ferUtils(<roots:salmon_of_knowledge>.withTag({crafter: "Fey"}), [
     <minecraft:fish:1>, <roots:baffle_cap_mushroom>, <contenttweaker:bark_wisdomwood>, <minecraft:experience_bottle>, <contenttweaker:villager_language_dictionary>
-], true);
+], false);
 
 ferUtils(<roots:wildwood_sapling>, [
     <wizardry:wisdom_sapling>, <roots:bark_wildwood>, <roots:bark_wildwood>, <roots:bark_wildwood>, <roots:bark_wildwood>
