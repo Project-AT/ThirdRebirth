@@ -18,6 +18,7 @@ import mods.integrateddynamics.MechanicalSqueezer;
 
 import scripts.grassUtils.StringHelper;
 import scripts.grassUtils.RecipeUtils;
+
 import scripts.CraftTweaker.Mods.AdvanedRocketry.Lathe;
 import scripts.CraftTweaker.Mods.AdvanedRocketry.Rollingmachine;
 
@@ -44,6 +45,7 @@ for oreName in oreNames {
     var oreCrushedInfused as IOreDictEntry = oreDict.get("oreCrushedInfused" ~ oreName);
     var oreCrushedEnriched as IOreDictEntry = oreDict.get("oreCrushedEnriched" ~ oreName);
     var oreCleanCrushedInfused as IOreDictEntry = oreDict.get("oreCleanCrushedInfused" ~ oreName);
+    var nugget as IOreDictEntry = oreDict.get("nugget" ~ oreName);
     
     if(!isNull(shard) && !shard.empty) {
         for itemIn in shard.items {
@@ -244,13 +246,10 @@ for oreName in oreNames {
         }
     }
 
-// -------------------------------------------------------------------------------
-
     if(!oreEnriched.empty && !oreAuraInfusion.empty) {
         mods.randomtweaker.botania.IOrechid.addOreRecipe(oreAuraInfusion.firstItem, oreEnriched, 1000);
     }
 
-// -------------------------------------------------------------------------------
     if (!oreAuraInfusion.empty && !ore.empty) {
         var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(oreAuraInfusion.firstItem) ~ num;
         num = num + 1;
@@ -262,16 +261,26 @@ for oreName in oreNames {
         .build();
     }
 
-    mods.trutils.WashingMachineRecipes.addRecipe(25, 80, <liquid:sulfuric_acid> * 50, oreCrushedInfused, oreCleanCrushedInfused.firstItem, <liquid:infused_slag_slurry> * 50);
+    if (!oreCrushedInfused.empty && !oreCleanCrushedInfused.empty) {
+        mods.trutils.WashingMachineRecipes.addRecipe(25, 80, <liquid:sulfuric_acid> * 50, 
+            oreCrushedInfused, oreCleanCrushedInfused.firstItem, <liquid:infused_slag_slurry> * 50);
+    }
+    
 
     if (!ingot.empty && !dust.empty) {
         mods.mekanism.crusher.addRecipe(ingot, dust.firstItem);
     }
+
+    if(!shard.empty && !nugget.empty) {
+        RecipeUtils.recipeTweak(false, nugget.firstItem * 3, [[shard]]);
+    }
+
 }
 
 for ore in oreDict {
     if (ore.name.startsWith("ingot")) {
-        
+        if (ore.empty) continue;
+
         var metal as string = RecipeUtils.getMetalNameNew(ore, "ingot");
         var plate as IOreDictEntry = oreDict.get("plate" ~ metal);
         var rod as IOreDictEntry = oreDict.get("rod" ~ metal);
@@ -279,24 +288,18 @@ for ore in oreDict {
         var stick as IOreDictEntry = oreDict.get("stick" ~ metal);
         var ingot as IOreDictEntry = ore;
 
-        if (isNull(ingot) || ingot.empty) continue;
-
-        if (!isNull(plate) && !plate.empty) {
-            print("plate - >" ~ plate.name);
-            print("ingot - >" ~ ingot.name);
-            Lathe.addRecipe([plate.firstItem % 100], 50, 160, [ingot]);
-            if (!isNull(sheet) && !sheet.empty) {
-                Lathe.addRecipe([sheet.firstItem % 100], 50, 160, [plate]);
+        if (!plate.empty) {
+            Rollingmachine.addRecipe([plate.firstItem % 100], 50, 160, [ingot]);
+            if (!sheet.empty) {
+                Rollingmachine.addRecipe([sheet.firstItem % 100], 50, 160, [plate]);
             }
         }
 
-        if (!isNull(rod) && !rod.empty) {
-            Rollingmachine.addRecipe([rod.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
+        if (!rod.empty) {
+            Lathe.addRecipe([rod.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
         }
-        else if (!isNull(stick) && !stick.empty) {
-            print("stick -> " ~ stick.name);
-            print("ingot -> " ~ ingot.name);
-            Rollingmachine.addRecipe([stick.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
+        else if (!stick.empty) {
+            Lathe.addRecipe([stick.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
         }
     }
 }
