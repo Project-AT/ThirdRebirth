@@ -142,6 +142,7 @@ var oreDictAdd as IItemStack[][string] = {
         <roots:spirit_herb_seed>,
         <roots:wildewheet_seed>,
         <extrautils2:enderlilly>,
+        <mysticalworld:assorted_seeds>,
     ],
     "toolMortarandpestle" : [
         <botania:pestleandmortar>
