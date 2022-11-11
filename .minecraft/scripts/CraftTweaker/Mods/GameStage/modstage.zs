@@ -12,6 +12,9 @@ val defaultStageModMap as string[][string] = {
     "three" : [
         "enderio", "nuclearcraft"
     ],
+    "four" : [
+        "libvulpes"
+    ],
     "root" : [
         "roots"
     ],
@@ -29,6 +32,9 @@ val defaultStageModMap as string[][string] = {
     ],
     "refraction" : [
         "refraction"
+    ],
+    "five" : [
+        "advancedrocketry", "mekanism"
     ],
 };
 

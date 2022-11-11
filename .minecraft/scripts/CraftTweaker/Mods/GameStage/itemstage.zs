@@ -42,16 +42,30 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:dustRhodochrosite>, <ore:gemRhodochrosite>, <ore:allOreCleanCrushedInfuseds>, <enderio:block_tank>, 
         <ore:enlightenedFusedQuartz>, <ore:darkFusedQuartz>, <ore:holyFusedQuartz>, <ore:holyEnlightenedFusedQuartz>, <ore:holyDarkFusedQuartz>, <ore:unholyFusedQuartz>, <ore:unholyEnlightenedFusedQuartz>, <ore:pastureFusedQuartz>, <ore:pastureEnlightenedFusedQuartz>, 
         <ore:pastureDarkFusedQuartz>, <ore:notHolyFusedQuartz>, <ore:notHolyEnlightenedFusedQuartz>, <ore:notHolyDarkFusedQuartz>, <ore:notUnholyFusedQuartz>, <ore:notUnholyEnlightenedFusedQuartz>, <ore:notUnholyDarkFusedQuartz>, 
-        <ore:notPastureFusedQuartz>, <ore:notPastureEnlightenedFusedQuartz>, <ore:notPastureDarkFusedQuartz>,
+        <ore:notPastureFusedQuartz>, <ore:notPastureEnlightenedFusedQuartz>, <ore:notPastureDarkFusedQuartz>, <contenttweaker:crude_silicon_dust>,
         <ore:enlightenedFusedGlass>, <ore:darkFusedGlass>, <ore:holyFusedGlass>, <ore:holyEnlightenedFusedGlass>, <ore:holyDarkFusedGlass>, <ore:unholyFusedGlass>, <ore:unholyEnlightenedFusedGlass>, <ore:pastureFusedGlass>, <ore:pastureEnlightenedFusedGlass>, 
         <ore:pastureDarkFusedGlass>, <ore:notHolyFusedGlass>, <ore:notHolyEnlightenedFusedGlass>, <ore:notHolyDarkFusedGlass>, <ore:notUnholyFusedGlass>, <ore:notUnholyEnlightenedFusedGlass>, <ore:notUnholyDarkFusedGlass>, 
-        <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>,
+        <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>,
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
         <contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, <ore:ingotGermanium>, 
         <ore:plateGermanium>, <ore:nuggetGermanium>, <ore:dustGermanium>, <ore:crystalGermanium>, <ore:gemEnderBiotite>, <forge:bucketfilled>.withTag({FluidName: "hdpe", Amount: 1000}), 
-
+        <ore:ingotHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:nuggetHighStrengthAluminumAlloy>, <ore:gearHighStrengthAluminumAlloy>, <ore:dustHighStrengthAluminumAlloy>,
+        <ore:rodHighStrengthAluminumAlloy>, <ore:blockHighStrengthAluminumAlloy>, <ore:plateTough>, <ore:gearTough>, <ore:blockTough>,
+    ],
+    "four" : [
+        <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
+        <contenttweaker:contains_impurities_silicon_dust>, <contenttweaker:silicon_dust>, <ore:itemSilicon>, <ore:waferSilicon>, <ore:circuitBasic>, <contenttweaker:si_transistor>,
+        <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, 
+    ],
+    "five" : [
+        <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
+        <ore:crystalPureCertusQuartz>, <ore:crystalPureFluix>, <ore:crystalPureNetherQuartz>, <ore:ingot_dark_soularium>, <enderio:item_basic_capacitor:2>, <ore:ingotLumium>,
+        <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>,
+    ],
+    "six" : [
+        <ore:circuitElite>,
     ],
     "root" : [
         <trutils:magnetic_attraction>, <ore:redstoneRoot>
@@ -61,9 +75,11 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>,
     ],
     "root" : [
-        <trutils:magnetic_attraction>
+        <trutils:magnetic_attraction>,
     ],
-    
+    "aura" : [
+        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>,
+    ],
 };
 
 //无阶段物品
@@ -109,7 +125,7 @@ val exceptItemStacks as IIngredient[] = [
     <botania:petalblock:9>, <botania:petalblock:8>, <botania:petalblock:7>, <botania:petalblock:6>, <botania:petalblock:5>, <botania:petalblock:4>, <botania:petalblock:3>, <botania:petalblock:2>, <botania:petalblock:1>, <botania:petalblock:10>, <botania:petalblock:11>, <botania:petalblock:12>, <botania:petalblock:14>, <botania:petalblock:13>, <botania:petalblock:15>, 
     <roots:mortar>, <roots:roots_guide>, <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), <ore:ingotRoseGold>, <ore:dustRoseGold>, <ore:nuggetRoseGold>, <ore:blockRoseGold>, 
     <ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed1xDirt>, <ore:compressed2xDirt>, <ore:compressed1xSand>, <ore:compressed2xSand>, <ore:compressed1xGravel>, <ore:compressed2xGravel>, <ore:compressed1xNetherrack>, <ore:compressed2xNetherrack>, 
-    <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,<botania:pestleandmortar>, <ore:dye>,
+    <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,<botania:pestleandmortar>, <ore:dye>, <ore:rodIron>, <ore:stickSteel>, <ore:rodAluminum>, 
 ];
 
 for stage, items in specialStageItemStackMap {
