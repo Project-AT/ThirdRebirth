@@ -22,6 +22,8 @@ RecipeBuilder.get("carpenter")
         [<wizardry:wisdom_wood_planks>]])
     .addTool(<ore:artisansHandsaw>, 1)
     .addOutput(<wizardry:wisdom_stick> * 5)
+    .setMinimumTier(0)
+    .setMaximumTier(1)
     .setExtraOutputOne(<mekanism:sawdust>, 0.25)
     .setExtraOutputTwo(<wizardry:wisdom_stick>, 0.5)
 .create();

@@ -83,7 +83,10 @@ RecipeBuilder.get("carpenter")
         [<ore:plankWood>]])
     .addTool(<ore:artisansHandsaw>, 2)
     .addOutput(<minecraft:stick> * 5)
+    .setMinimumTier(0)
+    .setMaximumTier(1)
     .setExtraOutputOne(<mekanism:sawdust>, 0.25)
     .setExtraOutputTwo(<minecraft:stick>, 0.5)
+
     .create();
 

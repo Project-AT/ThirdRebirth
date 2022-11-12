@@ -207,8 +207,11 @@ RecipeBuilder.get("carpenter")
     .setShapeless([<ore:scaffoldingTreatedWood>])
     .addTool(<ore:artisansHandsaw>, 1)
     .addTool(<ore:artisansFramingHammer>, 1)
+    .setMinimumTier(0)
+    .setMaximumTier(1)
     .addOutput(<immersiveengineering:treated_wood_slab>)
     .setExtraOutputOne(<immersiveengineering:material>, 1.0)
+
     .create();
 
 artisanUtils.RecipeTweakWithTools_("carpenter", true, <immersiveengineering:material> * 5, [
