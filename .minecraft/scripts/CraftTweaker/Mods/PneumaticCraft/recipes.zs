@@ -76,6 +76,8 @@ RecipeBuilder.get("engineer")
     [<ore:plateIronCompressed>, <ore:fusedQuartz>, <ore:plateIronCompressed>],
     [<ore:fusedQuartz>, <teslacorelib:machine_case>, <ore:fusedQuartz>],
     [<ore:plateIronCompressed>, <thermalfoundation:material:160>, <ore:plateIronCompressed>]])
+  .addTool(<ore:artisansDriver>, 25)
+  .addTool(<ore:artisansSpanner>, 22)
   .addOutput(<pneumaticcraft:plastic_mixer>)
   .setMinimumTier(1)
   .setMaximumTier(1)

@@ -118,7 +118,7 @@ val exceptItemStacks as IIngredient[] = [
     <extrautils2:largishchest>, <extrautils2:spike_diamond>, <extrautils2:spike_gold>, <extrautils2:minichest>, <extrautils2:redstoneclock>, <extrautils2:redstonelantern>, <extrautils2:spike_iron>, 
     <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, 
     <extrautils2:contract>, <extrautils2:endershard>, <extrautils2:filterfluids>, <extrautils2:trowel>, <extrautils2:glasscutter>, <extrautils2:sickle_stone>, <extrautils2:sickle_iron>, 
-    <extrautils2:sickle_diamond>, <extrautils2:sickle_gold>, <extrautils2:filter>, <ore:fanSteel>, 
+    <extrautils2:sickle_diamond>, <extrautils2:sickle_gold>, <extrautils2:filter>, <ore:fanSteel>, <ore:dustWood>, <mekanism:cardboardbox>, <mekanism:cardboardbox>,
     <ore:ingotPureIron>, <ore:nuggetPureIron>, <ore:blockPureIron>, <ore:platePureIron>, <ore:gearPureIron>, <ore:dustPureIron>, <ore:rodPureIron>, <ore:stickPureIron>, 
     <ore:mysticFlowerWhite>, <ore:mysticFlowerOrange>, <ore:mysticFlowerMagenta>, <ore:mysticFlowerLightBlue>, <ore:mysticFlowerYellow>, <ore:mysticFlowerLime>, <ore:mysticFlowerGray>, <ore:mysticFlowerLightGray>, <ore:mysticFlowerPink>, <ore:mysticFlowerBlack>, <ore:mysticFlowerRed>, <ore:mysticFlowerGreen>, <ore:mysticFlowerBrown>, <ore:mysticFlowerBlue>, <ore:mysticFlowerPurple>, <ore:mysticFlowerCyan>, 
     <ore:petalWhite>, <ore:petalOrange>, <ore:petalMagenta>, <ore:petalLightBlue>, <ore:petalYellow>, <ore:petalLime>, <ore:petalGray>, <ore:petalLightGray>, <ore:petalPink>, <ore:petalBlack>, <ore:petalRed>, <ore:petalGreen>, <ore:petalBrown>, <ore:petalBlue>, <ore:petalPurple>, <ore:petalCyan>, 

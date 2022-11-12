@@ -107,7 +107,7 @@
     {
       "name": "bronze",
       "harvestLevel": 2,
-      "maxUses": 500,
+      "maxUses": 325,
       "efficiency": 6.0,
       "damage": 2.0,
       "enchantability": 15,
@@ -159,7 +159,7 @@
     {
       "name": "invar",
       "harvestLevel": 2,
-      "maxUses": 450,
+      "maxUses": 425,
       "efficiency": 7.0,
       "damage": 3.0,
       "enchantability": 16,
@@ -172,7 +172,7 @@
     {
       "name": "lead",
       "harvestLevel": 1,
-      "maxUses": 150,
+      "maxUses": 100,
       "efficiency": 5.0,
       "damage": 1.0,
       "enchantability": 9,
@@ -198,7 +198,7 @@
     {
       "name": "platinum",
       "harvestLevel": 4,
-      "maxUses": 1700,
+      "maxUses": 1400,
       "efficiency": 9.0,
       "damage": 4.0,
       "enchantability": 9,
@@ -211,7 +211,7 @@
     {
       "name": "silver",
       "harvestLevel": 2,
-      "maxUses": 200,
+      "maxUses": 75,
       "efficiency": 6.0,
       "damage": 1.5,
       "enchantability": 20,
@@ -237,7 +237,7 @@
     {
       "name": "tin",
       "harvestLevel": 1,
-      "maxUses": 200,
+      "maxUses": 150,
       "efficiency": 4.5,
       "damage": 1.0,
       "enchantability": 7,
@@ -263,7 +263,7 @@
     {
       "name": "boron",
       "harvestLevel": 2,
-      "maxUses": 550,
+      "maxUses": 547,
       "efficiency": 8.0,
       "damage": 2.5,
       "enchantability": 6,
@@ -276,7 +276,7 @@
     {
       "name": "toughalloy",
       "harvestLevel": 3,
-      "maxUses": 950,
+      "maxUses": 1529,
       "efficiency": 10.0,
       "damage": 3.0,
       "enchantability": 15,
@@ -289,7 +289,7 @@
     {
       "name": "hardcarbon",
       "harvestLevel": 3,
-      "maxUses": 1250,
+      "maxUses": 1845,
       "efficiency": 11.0,
       "damage": 3.0,
       "enchantability": 12,
@@ -302,7 +302,7 @@
     {
       "name": "boronnitride",
       "harvestLevel": 4,
-      "maxUses": 1950,
+      "maxUses": 1928,
       "efficiency": 12.0,
       "damage": 2.5,
       "enchantability": 20,
@@ -311,6 +311,58 @@
       "ingredient": "ore:gemBoronNitride",
       "langKey": "material.athenaeum.boronnitride",
       "oreDictKey": "artisansToolBoronnitride"
+    },
+    {
+      "name": "crudesteel",
+      "harvestLevel": 2,
+      "maxUses": 380,
+      "efficiency": 6.0,
+      "damage": 2.5,
+      "enchantability": 10,
+      "color": "B4AEAA",
+      "shiny": false,
+      "ingredient": "ore:ingotCrudeSteel",
+      "langKey": "material.athenaeum.crudesteel",
+      "oreDictKey": "artisansToolCrudeSteel"
+    },
+    {
+      "name": "ironcompressed",
+      "harvestLevel": 3,
+      "maxUses": 650,
+      "efficiency": 7.0,
+      "damage": 2.5,
+      "enchantability": 10,
+      "color": "636363",
+      "shiny": false,
+      "ingredient": "ore:ingotIronCompressed",
+      "langKey": "material.athenaeum.ironcompressed",
+      "oreDictKey": "artisansToolWeatheringSteel"
+    },
+    {
+      "name": "amethyst",
+      "harvestLevel": 3,
+      "maxUses": 1561,
+      "efficiency": 8.0,
+      "damage": 3.0,
+      "enchantability": 10,
+      "color": "CA60FF",
+      "shiny": false,
+      "ingredient": "ore:gemAmethyst",
+      "langKey": "material.athenaeum.amethyst",
+      "oreDictKey": "artisansToolAmethyst"
+    },
+    {
+      "name": "darksteel",
+      "harvestLevel": 4,
+      "maxUses": 1000,
+      "efficiency": 8.0,
+      "damage": 3.0,
+      "enchantability": 10,
+      "color": "363636",
+      "shiny": false,
+      "ingredient": "ore:ingotDarkSteel",
+      "langKey": "material.athenaeum.darksteel",
+      "oreDictKey": "artisansToolDarkSteel"
     }
   ]
 }
