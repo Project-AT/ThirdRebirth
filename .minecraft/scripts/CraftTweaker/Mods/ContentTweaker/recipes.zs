@@ -41,6 +41,11 @@ RecipeUtils.recipeTweak(true, <contenttweaker:blast_furnace_fuel>, [
     [<ore:dustCharcoal>, <ore:dustCharcoal>]
 ]);
 
+//玫瑰金粉
+RecipeUtils.recipeTweak(false, <ore:dustRoseGold>.firstItem * 2, [
+    [<ore:dustCopper>, <ore:dustGold>]
+]);
+
 //手动驱魔配方
 RecipeUtils.recipeTweak(false, <contenttweaker:pure_iron_ingot>, [
     [<botania:spellcloth>, <botania:manaresource>]
