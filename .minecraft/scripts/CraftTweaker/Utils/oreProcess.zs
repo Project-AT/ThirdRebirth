@@ -277,7 +277,7 @@ for oreName in oreNames {
 
 }
 
-for ore in oreDict {
+for ore in oreDict.entries {
     if (ore.name.startsWith("ingot")) {
         if (ore.empty) continue;
 

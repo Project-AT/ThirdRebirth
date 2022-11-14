@@ -87,6 +87,5 @@ RecipeBuilder.get("carpenter")
     .setMaximumTier(1)
     .setExtraOutputOne(<mekanism:sawdust>, 0.25)
     .setExtraOutputTwo(<minecraft:stick>, 0.5)
-
     .create();
 

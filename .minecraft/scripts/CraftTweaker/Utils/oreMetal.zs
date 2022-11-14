@@ -15,7 +15,7 @@ var orePlainNames as string[] = [
 var oreNames as string[] = [
     "Tin", "Nickel", "Invar", "Bronze", "Constantan", "Electrum", "Steel", "Titanium", "TitaniumIridium", 
     "TitaniumAluminide", "Germanium", "Tough","Enderium", "Signalum", "Lumium", "Iridium", 
-    "Mithril", "HighStrengthAluminumAlloy"
+    "Mithril", "HighStrengthAluminumAlloy", "IronCompressed"
 ];
 
 var onlyPlateOreNames as string[] = [

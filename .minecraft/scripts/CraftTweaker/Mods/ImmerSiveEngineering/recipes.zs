@@ -211,7 +211,6 @@ RecipeBuilder.get("carpenter")
     .setMaximumTier(1)
     .addOutput(<immersiveengineering:treated_wood_slab>)
     .setExtraOutputOne(<immersiveengineering:material>, 1.0)
-
     .create();
 
 artisanUtils.RecipeTweakWithTools_("carpenter", true, <immersiveengineering:material> * 5, [

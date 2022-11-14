@@ -153,12 +153,13 @@ var oreDictAdd as IItemStack[][string] = {
     "rootsBark" : [
         <contenttweaker:bark_wisdomwood>
     ],
-    "plateIronCompressed" : [<contenttweaker:iron_compressed_plate>],
     "listAllturkeyraw" : [<betteranimalsplus:turkey_leg_raw>, <betteranimalsplus:turkey_raw>],
     "listAllturkeycooked" : [<betteranimalsplus:turkey_leg_cooked>, <betteranimalsplus:turkey_cooked>],
+    "plateIronCompressed" : [<contenttweaker:iron_compressed_plate>],
+    "ingotIronCompressed" : [<pneumaticcraft:ingot_iron_compressed>],
+    "gearIronCompressed" : [<pneumaticcraft:compressed_iron_gear>],
+    "blockIronCompressed" : [<pneumaticcraft:compressed_iron_block>]
 };
-
-
 
 var oreDictRemove as IItemStack[] = [
     <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, 
