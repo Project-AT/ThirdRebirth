@@ -16,7 +16,7 @@ val defaultStageModMap as string[][string] = {
         "libvulpes"
     ],
     "root" : [
-        "roots"
+        "roots","naturescompass"
     ],
     "wizardry" : [
         "wizardry"

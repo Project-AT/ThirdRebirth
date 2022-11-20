@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "location": "mod_id:turbine_id",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "immersiveengineering:metal_decoration0",
+          "meta": 3
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "turbine_generator",
+        "type": "geo"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "immersiveengineering:dieselgenerator",
+        "loop": true,
+        "delay": 0,
+        "volume": 0.8,
+        "pitch": 1.1
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "turbine",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AA",
+        "B@",
+        "CC"
+      ],
+      [
+        "AD",
+        "EE",
+        "FG"
+      ],
+      [
+        "AA",
+        "EE",
+        "FG"
+      ],
+      [
+        "IA",
+        "AA",
+        "AA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "mod_id:turbine_id",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "energyinput": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 4
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "Wateroutput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "Steaminput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "energyinput"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "Wateroutput"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "I": [
+        "Steaminput"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "turbine",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "a4bb2014-433b-48fb-a709-2845bb99109a",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:20}"
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 400
+          }
+        ]
+      }
+    }
+  ]
+}

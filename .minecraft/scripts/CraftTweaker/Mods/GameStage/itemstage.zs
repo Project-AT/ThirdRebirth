@@ -73,13 +73,13 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "botania" : [
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
-        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>,
+        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
     ],
     "aura" : [
-        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>,
+        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>,
     ],
 };
 
@@ -112,11 +112,11 @@ val exceptItemStacks as IIngredient[] = [
     <contenttweaker:ironcoal_ore>, <contenttweaker:udorealuminum>, <contenttweaker:udorenickel>, <contenttweaker:udoreuranium>, <contenttweaker:udoreboron>, <contenttweaker:udorelithium>, 
     <contenttweaker:udoremagnesium>, <contenttweaker:udorethorium>, <contenttweaker:endorelithium>, <contenttweaker:endorerutile>, <wizardry:book>, <appliedenergistics2:grindstone>, 
     <appliedenergistics2:crank>, <contenttweaker:crude_silicon_dust>, <extrautils2:pipe>, <wizardry:wisdom_stick>, <wizardry:wisdom_leaves>, <contenttweaker:bark_wisdomwood>, 
-    <ore:blockRustyIron>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:rootsBark>, 
+    <ore:blockRustyIron>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:rootsBark>, <ore:allIngots>, <ore:alldusts>,
     <roots:petals>, <ore:dustWheat>, <ore:eye>, <ore:knife>, <extrautils2:trashcan>, <extrautils2:trashcanfluid>, <extrautils2:trashcanenergy>, <ore:wildroot>, <roots:terra_spores>, 
     <extrautils2:spike_wood>, <extrautils2:spike_stone>, <roots:fire_starter>, <enderio:item_broken_spawner>,
     <extrautils2:largishchest>, <extrautils2:spike_diamond>, <extrautils2:spike_gold>, <extrautils2:minichest>, <extrautils2:redstoneclock>, <extrautils2:redstonelantern>, <extrautils2:spike_iron>, 
-    <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, 
+    <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, <ore:dustQuartz>,
     <extrautils2:contract>, <extrautils2:endershard>, <extrautils2:filterfluids>, <extrautils2:trowel>, <extrautils2:glasscutter>, <extrautils2:sickle_stone>, <extrautils2:sickle_iron>, 
     <extrautils2:sickle_diamond>, <extrautils2:sickle_gold>, <extrautils2:filter>, <ore:fanSteel>, <ore:dustWood>, <mekanism:cardboardbox>, <mekanism:cardboardbox>,
     <ore:ingotPureIron>, <ore:nuggetPureIron>, <ore:blockPureIron>, <ore:platePureIron>, <ore:gearPureIron>, <ore:dustPureIron>, <ore:rodPureIron>, <ore:stickPureIron>, 

@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "location": "minecraft:refinery",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "modularcontroller:refinery_controller",
+          "meta": 3
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "multiblocked:obj/refinery.obj",
+        "type": "obj"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BCD",
+        "EFE",
+        "EFG",
+        "HHH"
+      ],
+      [
+        "IAJ",
+        "KLM",
+        "NFG",
+        "NFE",
+        "HHH"
+      ],
+      [
+        "A@A",
+        "OPQ",
+        "EFE",
+        "EFG",
+        "HHH"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "embers:block_caminite_brick",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "minecraft:refinery",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "embers:reaction_chamber",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "F": {
+        "states": [
+          {
+            "id": "embers:block_dawnstone",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "states": [
+          {
+            "id": "fluiddrawers:tank",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "H": {
+        "states": [
+          {
+            "id": "embers:block_caminite_brick_slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "embers:copper_cell",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "J": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device0",
+            "meta": 2
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "K": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "embers:heat_coil",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "M": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "extrautils2:largishchest",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "O": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "embers:mech_edge",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ]
+    }
+  }
+}

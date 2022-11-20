@@ -1,22 +1,51 @@
 {
-  "consumeCatalyst": false,
+  "version": 1,
   "location": "multiblocked:steam_boiler",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "modelLocation": "multiblocked:steam_boiler_controller",
-    "type": "imodel"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "formedRenderer": {
-    "modelLocation": "multiblocked:obj/steam_boiler.obj",
-    "type": "obj"
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:steam_boiler_controller",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "multiblocked:obj/steam_boiler.obj",
+        "type": "obj"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "modelLocation": "multiblocked:obj/steam_boiler_light.obj",
+        "type": "obj"
+      },
+      "parent": "idle",
+      "sound": {
+        "sound": "embers:block.heat_coil.low_loop",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "workingRenderer": {
-    "modelLocation": "multiblocked:obj/steam_boiler_light.obj",
-    "type": "obj"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "85701754-ce99-40e8-9c07-bfb3bd8424d4",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -163,6 +192,5 @@
         "FluidFuelInput"
       ]
     }
-  },
-  "recipeMap": "85701754-ce99-40e8-9c07-bfb3bd8424d4"
+  }
 }

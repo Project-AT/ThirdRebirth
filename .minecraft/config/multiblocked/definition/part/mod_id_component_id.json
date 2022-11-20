@@ -1,0 +1,16 @@
+{
+  "canShared": false,
+  "location": "mod_id:component_id",
+  "traits": {},
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:obj/boiler_controller.obj",
+    "type": "obj"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:obj/boiler_controller.obj",
+    "type": "obj"
+  },
+  "isOpaqueCube": false
+}

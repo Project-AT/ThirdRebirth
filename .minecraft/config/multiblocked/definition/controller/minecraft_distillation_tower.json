@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "location": "minecraft:distillation_tower",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "modularcontroller:fractionator_controller",
+          "meta": 1
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "multiblocked:obj/distillation_tower.obj",
+        "type": "obj"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "AAAAA",
+        " A@A ",
+        " AAA ",
+        " BCB ",
+        " ACA ",
+        " BCB ",
+        " ACA ",
+        " BCB ",
+        " ACA ",
+        " BCB ",
+        " ACA ",
+        " BCB ",
+        " ACA ",
+        " ACA ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        " D D ",
+        " AEA ",
+        " C C ",
+        " CEC ",
+        " C C ",
+        " CEC ",
+        " C C ",
+        " CEC ",
+        " C C ",
+        " CEC ",
+        " C C ",
+        " CEC ",
+        " C C ",
+        " ADA "
+      ],
+      [
+        "AAAAA",
+        " AFA ",
+        " AAA ",
+        " BDB ",
+        " ACA ",
+        " BDB ",
+        " ACA ",
+        " BDB ",
+        " ACA ",
+        " BDB ",
+        " ACA ",
+        " BDB ",
+        " ACA ",
+        " ACA ",
+        " AAA "
+      ],
+      [
+        "AAAAA",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "contenttweaker:basic_machine_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "minecraft:distillation_tower",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 2
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "C": {
+        "states": [
+          {
+            "id": "embers:block_dawnstone",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "D": {
+        "states": [
+          {
+            "id": "fluiddrawers:tank",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:iron_trapdoor",
+            "meta": 10
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device0",
+            "meta": 2
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

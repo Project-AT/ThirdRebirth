@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "location": "minecraft:mana_remover",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:manavoid",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "multiblocked:obj/mana_remover.obj",
+        "type": "obj"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "A@A",
+        "CBC",
+        "   "
+      ],
+      [
+        "BDB",
+        "EDF",
+        "BGB",
+        " H "
+      ],
+      [
+        "ABA",
+        "ABA",
+        "CBC",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:livingrock",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "minecraft:mana_remover",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:quartztypemana",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:livingrock0slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "extrautils2:largishchest",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "F": {
+        "states": [
+          {
+            "id": "extrautils2:largishchest",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "G": {
+        "states": [
+          {
+            "id": "botania:manavoid",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "H": {
+        "states": [
+          {
+            "id": "botania:pool",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

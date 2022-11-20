@@ -3,4 +3,4 @@
 
 import mods.immersiveengineering.Fermenter;
 
-Fermenter.addRecipe(null, <liquid:ethanol> * 80, <ore:listAlljuice>, 2048);
+Fermenter.addRecipe(null, <liquid:ethanol> * 80, <harvestcraft:grapejuiceitem>, 2048);
