@@ -23,7 +23,13 @@ val specialStageLiquidMap as ILiquidStack[][string] = {
     "three" : [
         <liquid:germanium_slurry>, 
         <liquid:hdpe>, 
-    ]
+    ],
+    "aura" : [
+        <liquid:aura_overworld>,
+        <liquid:aura_end>,
+        <liquid:aura_nether>,
+        <liquid:aura_underworld>,
+    ],
 };
 
 for stage, liquids in specialStageLiquidMap {

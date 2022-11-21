@@ -7,6 +7,7 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+
 var recipeNames = [
     "embers:block_tank",
 ] as string[];
@@ -14,6 +15,12 @@ var recipeNames = [
 for str in recipeNames {
     recipes.removeByRecipeName(str);
 }
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <embers:heat_coil>, [
+    [<ore:coilCopper>, <ore:coilCopper>, <ore:coilCopper>],
+    [<embers:brick_caminite>, <ore:blockCopper>, <embers:brick_caminite>],
+    [null, <embers:mech_core>, null]
+], {<ore:artisansDriver> : 18, <ore:artisansSpanner> : 20} as int[IIngredient]);
 
 RecipeUtils.recipeTweak(true, <embers:sealed_planks> * 8,
     RecipeUtils.createSurround(<ore:slimeball>, <immersiveengineering:treated_wood>)

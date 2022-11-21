@@ -54,6 +54,11 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:plateGermanium>, <ore:nuggetGermanium>, <ore:dustGermanium>, <ore:crystalGermanium>, <ore:gemEnderBiotite>, 
         <ore:ingotHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:nuggetHighStrengthAluminumAlloy>, <ore:gearHighStrengthAluminumAlloy>, <ore:dustHighStrengthAluminumAlloy>,
         <ore:rodHighStrengthAluminumAlloy>, <ore:blockHighStrengthAluminumAlloy>, <ore:plateTough>, <ore:gearTough>, <ore:blockTough>,
+        <ore:crystalCertusQuartz>, <appliedenergistics2:material:1>, <ore:dustCertusQuartz>, <appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_pillar>, 
+        <appliedenergistics2:chiseled_quartz_block>, <appliedenergistics2:quartz_stairs>, <appliedenergistics2:chiseled_quartz_stairs>, <appliedenergistics2:quartz_pillar_stairs>,
+        <appliedenergistics2:quartz_slab>, <appliedenergistics2:chiseled_quartz_slab>, <appliedenergistics2:quartz_pillar_slab>,
+        <appliedenergistics2:certus_quartz_axe>, <appliedenergistics2:certus_quartz_hoe>, <appliedenergistics2:certus_quartz_spade>, <appliedenergistics2:certus_quartz_pickaxe>,
+        <appliedenergistics2:certus_quartz_cutting_knife>,
     ],
     "four" : [
         <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
@@ -63,7 +68,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "five" : [
         <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
         <ore:crystalPureCertusQuartz>, <ore:crystalPureFluix>, <ore:crystalPureNetherQuartz>, <ore:ingot_dark_soularium>, <enderio:item_basic_capacitor:2>, <ore:ingotLumium>,
-        <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>,
+        <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>,
     ],
     "six" : [
         <ore:circuitElite>,
@@ -73,7 +78,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "botania" : [
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
-        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>,
+        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
@@ -81,6 +86,9 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "aura" : [
         <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>,
     ],
+    "evilstone" : [
+        <trutils:evil_stone>
+    ]
 };
 
 //无阶段物品
@@ -114,7 +122,7 @@ val exceptItemStacks as IIngredient[] = [
     <appliedenergistics2:crank>, <contenttweaker:crude_silicon_dust>, <extrautils2:pipe>, <wizardry:wisdom_stick>, <wizardry:wisdom_leaves>, <contenttweaker:bark_wisdomwood>, 
     <ore:blockRustyIron>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:rootsBark>, <ore:allIngots>, <ore:alldusts>,
     <roots:petals>, <ore:dustWheat>, <ore:eye>, <ore:knife>, <extrautils2:trashcan>, <extrautils2:trashcanfluid>, <extrautils2:trashcanenergy>, <ore:wildroot>, <roots:terra_spores>, 
-    <extrautils2:spike_wood>, <extrautils2:spike_stone>, <roots:fire_starter>, <enderio:item_broken_spawner>,
+    <extrautils2:spike_wood>, <extrautils2:spike_stone>, <roots:fire_starter>, <enderio:item_broken_spawner>, <trutils:equivalent_fuel>,
     <extrautils2:largishchest>, <extrautils2:spike_diamond>, <extrautils2:spike_gold>, <extrautils2:minichest>, <extrautils2:redstoneclock>, <extrautils2:redstonelantern>, <extrautils2:spike_iron>, 
     <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, <ore:dustQuartz>,
     <extrautils2:contract>, <extrautils2:endershard>, <extrautils2:filterfluids>, <extrautils2:trowel>, <extrautils2:glasscutter>, <extrautils2:sickle_stone>, <extrautils2:sickle_iron>, 
