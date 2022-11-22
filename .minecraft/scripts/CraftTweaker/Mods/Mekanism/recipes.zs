@@ -14,7 +14,7 @@ RecipeUtils.recipeTweak(true, <mekanism:basicblock:8>, [
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [
     [<ore:ingotTough>, <ore:circuitBasic>, <ore:ingotTough>],
     [<enderio:block_tank:1>, <mekanism:basicblock:8>, <enderio:block_tank:1>],
-    [<ore:ingotTough>, <ore:circuitBasic>, <ore:ingotTough>]
+    [<ore:actuator>, <ore:circuitBasic>, <ore:actuator>]
 ]);
 //冶金灌注机
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:8>, [
@@ -28,6 +28,26 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:5>.withTag({recipeType: 0})
     [<ore:plateInvar>, <mekanism:basicblock:8>, <ore:plateInvar>],
     [<ore:ingotFerroboron>, <embers:heat_coil>, <ore:ingotFerroboron>]
 ]);
+//基础粉碎工厂
+RecipeUtils.recipeTweak(true, <mekanism:machineblock:5>.withTag({recipeType: 2}), [
+    [<ore:ingotFerroboron>, <ore:actuator>, <ore:ingotFerroboron>],
+    [<ore:gearTough>, <mekanism:basicblock:8>, <ore:gearTough>],
+    [<ore:ingotFerroboron>, <ore:actuator>, <ore:ingotFerroboron>]
+]);
+//富集仓
+RecipeUtils.recipeTweak(true, <mekanism:machineblock>, [
+    [<ore:ingotSignalum>, <ore:circuitBasic>, <ore:ingotSignalum>],
+    [<ore:servo>, <mekanism:basicblock:8>, <ore:servo>],
+    [<ore:ingotSignalum>, <ore:circuitBasic>, <ore:ingotSignalum>]
+]);
+//融合机
+RecipeUtils.recipeTweak(true, <mekanism:machineblock:2>, [
+    [<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>],
+    [<ore:actuator>, <mekanism:basicblock:8>, <ore:actuator>],
+    [<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>]
+]);
+//合成配方
+recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
 
 
 recipes.replaceAllOccurences(<mekanism:energytablet>, <ore:mekTabletReplacement>);

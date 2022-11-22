@@ -15,5 +15,11 @@ var toRemoveDescriptors as IItemStack[] = [
 for toRemove in toRemoveDescriptors {
     MoreJei.removeDescription(toRemove);
 }
-
+//碎石块
 MoreJei.addDescription(<survivalist:rock>, [game.localize("thirdrebirth.description.survivalist.rock")]);
+//词典之纸
+MoreJei.addDescription(<contenttweaker:dictionary_paper>, [game.localize("thirdrebirth.description.contenttweaker.dictionary_paper")]);
+//虫瘿苹果
+MoreJei.addDescription(<mysticalworld:gall_apple>, [game.localize("thirdrebirth.description.mysticalworld.gall_apple")]);
+//邪恶之石
+MoreJei.addDescription(<trutils:evil_stone>, [game.localize("thirdrebirth.description.trutils.evil_stone")]);

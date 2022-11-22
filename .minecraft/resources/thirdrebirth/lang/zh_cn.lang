@@ -15,8 +15,10 @@ thirdrebirth.title.endportal.dimerror=末地传送门只能在主世界建设。
 thirdrebirth.title.villager.interact=你无法听懂村民的语言
 
 #JEI DESCRIPTION
-thirdrebirth.Description.survivalist.rock=使用铲子尝试破坏石头时有一定概率会掉落碎石块
-
+thirdrebirth.description.survivalist.rock=使用铲子尝试破坏石头时有一定概率会掉落碎石块。
+thirdrebirth.description.contenttweaker.dictionary_paper=破坏书架有一定概率掉落词典之纸。 \n使用匕首/小刀破坏书架可以增加掉落词典之纸的掉落几率。
+thirdrebirth.description.mysticalworld.gall_apple=把黄蜂诱引剂放置在橡木的侧面即可种植虫瘿苹果。
+thirdrebirth.description.trutils.evil_stone=将邪恶之石按照常见的地狱门样式搭建, 即高5格宽4格的框架, 然后在以邪恶之石为中心的半径4格范围内击杀怪物, 使邪恶之石积累气血。当作为框架的邪恶之石全都满了之后，便可以使用打火石点火激活传送门，打开通往地狱的道路。
 #JEI TITLE
 jei.magnetic_attraction.title=仪式 - 磁力吸引
 

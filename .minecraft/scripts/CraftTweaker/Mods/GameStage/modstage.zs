@@ -44,7 +44,7 @@ var modUsed as string[] = [
     "immersiveengineering", "akashictome", "morphtool", "tombstone", "harvestcraft", "survivalist", "cookingforblockheads",
     "mysticalworld", "storagedrawers", "fluiddrawers", "netherex", "openglider", "waystones", "betteranimalsplus",
     "thermalfoundation", "biomesoplenty", "familiarfauna", "ironchest", "traverse", "compactdrawers", "bountifulbaubles",
-    "pouchofunknown", "The One Probe", "forge", "chisel", "ftbquests"
+    "pouchofunknown", "The One Probe", "forge", "chisel", "ftbquests","toolbelt"
 ];
 
 for stage, modids in defaultStageModMap {

@@ -69,6 +69,24 @@ RecipeUtils.recipeTweak(true, <roots:fey_crafter>,
 }));
 
 RecipeBuilder.get("carpenter")
+    .setShapeless([<roots:wildwood_log>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_wildwood> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
+    .setShapeless([<minecraft:log2>])
+    .addTool(<ore:knife>, 1)
+    .addOutput(<roots:bark_acacia> * 5)
+    .setExtraOutputOne(<mekanism:sawdust>, 1.0)
+    .setExtraOutputTwo(<mekanism:sawdust>, 0.25)
+    .setMaximumTier(1)
+    .create();
+
+RecipeBuilder.get("carpenter")
     .setShapeless([<minecraft:log>])
     .addTool(<ore:knife>, 1)
     .addOutput(<roots:bark_oak> * 5)
