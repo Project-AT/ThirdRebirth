@@ -6,13 +6,13 @@ import crafttweaker.oredict.IOreDict;
 import mods.mekatweaker.InfuserType;
 import mods.mekanism.infuser;
 
-//信素 龙石 晶素
+//信素 龙素 晶素
 var types as string[] = ["Signalum", "Draconium", "Crystaltine"];
 
 for type in types {
     InfuserType.addTypeObject(oreDict.get("ingot" + type), type, 10);
     InfuserType.addTypeObject(oreDict.get("dust" + type), type, 10);
-    InfuserType.addTypeObject(itemUtils.getItem("contenttweaker:compressed_" + type.toLowerCase()), type, 80);
+    InfuserType.addTypeObject(itemUtils.getItem("contenttweaker:compressed_" + type.toLowerCase()), type, 40);
 }
 
 InfuserType.addTypeObject(<embers:shard_ember>, "ember", 10);

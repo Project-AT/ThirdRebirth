@@ -6,6 +6,8 @@ import crafttweaker.item.IIngredient;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>,<ore:dustMagnesium>,<ore:dustObsidian>,<ore:powderMana>,<ore:foodCurrypowder>]);
+
 electronicAssembly.addRecipe("engineer", true, <enderio:item_material:69> * 2, [
     [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
     [null, <ore:ingotIron>],

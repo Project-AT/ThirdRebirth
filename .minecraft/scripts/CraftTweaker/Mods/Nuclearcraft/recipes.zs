@@ -5,6 +5,8 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+recipes.remove(<nuclearcraft:compound:1>);
+
 RecipeUtils.recipeTweak(true, <ore:ingotSiCSiCCMC>.firstItem, 
     RecipeUtils.createSurround(<embers:brick_caminite>, <ore:fiberSiliconCarbide>)
 );

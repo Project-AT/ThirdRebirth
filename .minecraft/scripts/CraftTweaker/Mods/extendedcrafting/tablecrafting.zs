@@ -158,11 +158,11 @@ tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
 ]);
 
 tableCraftingUtils(<mekanism:controlcircuit:1> * 4, [
-	[<ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>], 
-	[<ore:dustOsmium>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustOsmium>], 
+	[<ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>], 
+	[<ore:dustCrystalBinder>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustCrystalBinder>], 
 	[<ore:alloyAdvanced>, <ore:dustSignalum>, <enderio:item_basic_capacitor:2>, <ore:dustSignalum>, <ore:alloyAdvanced>], 
-	[<ore:dustOsmium>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustOsmium>], 
-	[<ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>, <ore:dustOsmium>, <ore:alloyAdvanced>]
+	[<ore:dustCrystalBinder>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustCrystalBinder>], 
+	[<ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>]
 ]);
 
 tableCraftingUtils(<mekanism:controlcircuit:2> * 8, [
