@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
+import scripts.grassUtils.RecipeUtils;
 
 recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>,<ore:dustMagnesium>,<ore:dustObsidian>,<ore:powderMana>,<ore:foodCurrypowder>]);
 
@@ -77,3 +78,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacito
     [<enderio:item_basic_capacitor:1>, <ore:dustLumium>, <enderio:item_basic_capacitor:1>],
     [null, <ore:ingot_dark_soularium>]
 ], {<ore:artisansSolderer> : 12, <ore:artisansDriver> : 16} as int[IIngredient]);
+
+RecipeUtils.recipeTweak(true, <enderio:item_material:52>, [
+    [<ore:dustSoularium>, <ore:dustFluix>, <enderio:item_material:49>],
+    [<ore:dustFluix>, <enderio:item_material:50>, <ore:dustFluix>],
+    [<enderio:item_material:49>, <ore:dustFluix>, <ore:dustSoularium>]
+]);

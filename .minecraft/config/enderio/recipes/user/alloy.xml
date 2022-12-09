@@ -56,4 +56,13 @@
     
     <!-- CrT: <ore:ingot_dark_soularium> -->
     <recipe name="Alloy: Dark Soularium Alloy" required="true" disabled="true"/>
+
+    <!-- 染料 -->
+    <recipe name="Alloy: Brown Dye" required="true" disabled="true"/>
+    <recipe name="Alloy: Brown Dye, Variant" required="true" disabled="true"/>
+    <recipe name="Alloy: Brown Dye, Oredict" required="true" disabled="true"/>
+    <recipe name="Alloy: Brown Dye, Oredict Variant" required="true" disabled="true"/>
+    <recipe name="Alloy: Black Dye" required="true" disabled="true"/>
+    <recipe name="Alloy: Black Dye, Variant" required="true" disabled="true"/>
+
 </enderio:recipes>

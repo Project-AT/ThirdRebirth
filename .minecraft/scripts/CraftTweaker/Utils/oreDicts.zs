@@ -219,6 +219,7 @@ for item in loadedMods["mysticalworld"].items {
 }
 
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
+<ore:blockIce>.remove(<netherex:frostburn_ice>);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",

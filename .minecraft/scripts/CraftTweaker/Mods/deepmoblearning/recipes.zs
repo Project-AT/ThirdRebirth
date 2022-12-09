@@ -13,3 +13,23 @@ RecipeUtils.recipeTweak(true, <deepmoblearning:polymer_clay> * 16,
         "B" : <ore:clayBall>,
         "C" : <rftools:dimensional_shard>,
 }));
+//曜黑板材机械外壳
+RecipeUtils.recipeTweak(true, <deepmoblearning:machine_casing>, [
+    [<ore:dustSignalum>, <deepmoblearning:soot_covered_plate>, <ore:dustSignalum>],
+    [<deepmoblearning:soot_covered_plate>, <mekanism:basicblock:8>, <deepmoblearning:soot_covered_plate>],
+    [<ore:dustSignalum>, <deepmoblearning:soot_covered_plate>, <ore:dustSignalum>]
+]);
+//深度学习器
+RecipeUtils.recipeTweak(true, <deepmoblearning:deep_learner>, [
+    [<deepmoblearning:soot_covered_plate>, <advancedrocketry:misc>, <deepmoblearning:soot_covered_plate>],
+    [<advancedrocketry:dataunit>, <ore:circuitAdvanced>, <advancedrocketry:dataunit>],
+    [<deepmoblearning:soot_covered_plate>, <ore:blockGlassHardened>, <deepmoblearning:soot_covered_plate>]
+]);
+//空白数据模型
+RecipeUtils.recipeTweak(true, <deepmoblearning:data_model_blank>, [
+    [<ore:alloyElite>, <ore:dyeSoulMachine>, <ore:alloyElite>],
+    [<deepmoblearning:soot_covered_plate>, <ore:circuitAdvanced>, <deepmoblearning:soot_covered_plate>],
+    [<ore:alloyElite>, <advancedrocketry:dataunit>, <ore:alloyElite>]
+]);
+
+recipes.remove(<deepmoblearning:soot_covered_plate>);

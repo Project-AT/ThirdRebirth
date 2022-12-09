@@ -3,6 +3,12 @@
 
 import scripts.grassUtils.RecipeUtils;
 
+//数据存储
+RecipeUtils.recipeTweak(true, <advancedrocketry:dataunit>, [
+    [<ore:ingotVibrantAlloy>],
+    [<pneumaticcraft:unassembled_pcb>],
+    [<ore:ingotSoularium>]
+]);
 
 RecipeUtils.recipeTweak(true, <advancedrocketry:structuretower> * 6, [
     [<ore:rodHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>],
