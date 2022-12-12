@@ -8,10 +8,12 @@ import crafttweaker.item.IIngredient;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
+import scripts.CraftTweaker.Mods.GameStage.allstages;
 
 global NACRE_PEARL as IIngredient = <wizardry:nacre_pearl>.withTag({purity: 600 as long}) | 
                                     <wizardry:nacre_pearl>.withTag({purity: 599 as long}) | 
                                     <wizardry:nacre_pearl>.withTag({purity: 601 as long});
+global ALLSTAGES as allstages.allStage = allstages.allStage();
 
 
 var toolTypes as string[] = ["sword", "axe", "pickaxe", "shovel"];

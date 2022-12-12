@@ -1,4 +1,4 @@
-#priority 15
+#priority 11
 #modloaded trutils
 #loader crafttweaker reloadableevents
 
@@ -48,6 +48,7 @@ var modUsed as string[] = [
 ];
 
 for stage, modids in defaultStageModMap {
+    ALLSTAGES.insert(stage);
     for modid in modids {
         ItemStages.stageModItems(stage, modid);
         modUsed += modid;

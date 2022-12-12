@@ -33,6 +33,7 @@ val specialStageLiquidMap as ILiquidStack[][string] = {
 };
 
 for stage, liquids in specialStageLiquidMap {
+    ALLSTAGES.insert(stage);
     for liquid in liquids {
         ItemStages.stageLiquidAndBucket(stage, liquid);
     }

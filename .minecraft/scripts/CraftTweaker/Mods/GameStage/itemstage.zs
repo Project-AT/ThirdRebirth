@@ -138,6 +138,7 @@ val exceptItemStacks as IIngredient[] = [
 ];
 
 for stage, items in specialStageItemStackMap {
+    ALLSTAGES.insert(stage);
     for item in items {
         if (item instanceof IOreDictEntry) {
             var ore as IOreDictEntry = item;
