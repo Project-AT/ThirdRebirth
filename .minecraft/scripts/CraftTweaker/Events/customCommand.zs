@@ -11,6 +11,6 @@ command.execute = function(command, server, sender, args) {
     for stage in ALLSTAGES.getStageName() {
         player.addGameStage(stage);
     }
-    sender.sendMessage(game.localize("et2.command.unlockallstages.success"));
+    sender.sendMessage(game.localize("thirdrebirth.command.unlockallstages.success"));
 };
 command.register();

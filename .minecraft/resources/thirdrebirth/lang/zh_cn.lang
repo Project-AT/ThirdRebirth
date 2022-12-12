@@ -24,6 +24,7 @@ jei.magnetic_attraction.title=仪式 - 磁力吸引
 
 #OTHERS
 thirdrebirth.others.unlockedstage=您已解锁新阶段!
+thirdrebirth.command.unlockallstages.success=您已解锁所有阶段!
 
 #Machine
 modularmachinery.runes_engraving=符文刻印机
