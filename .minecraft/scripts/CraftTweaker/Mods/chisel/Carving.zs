@@ -1,7 +1,7 @@
 #priority 5
 #modloaded trutils
-import crafttweaker.oredict.IOreDictEntry;
 
+import crafttweaker.oredict.IOreDictEntry;
 import mods.chisel.Carving;
 
 
@@ -18,3 +18,7 @@ function addChiselByOre(ore as IOreDictEntry) as void
 }
 
 addChiselByOre(<ore:mold>);
+Carving.removeVariation("ice", <netherex:frostburn_ice>);
+Carving.removeVariation("netherrack", <netherex:fiery_netherrack>);
+Carving.removeVariation("netherrack", <netherex:icy_netherrack>);
+Carving.removeVariation("netherrack", <netherex:gloomy_netherrack>);

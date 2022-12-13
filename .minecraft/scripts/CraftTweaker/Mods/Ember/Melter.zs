@@ -57,7 +57,6 @@ val oreLiquids as ILiquidStack[IIngredient] = {
     <ore:ingotBrickNether> : <liquid:nether_brick> * 72,
     <ore:ingotGraphite> : <liquid:coal> * 100,
     <ore:ingotHardCarbon> : <liquid:hard_carbon> * 144,
-    <ore:ingotLithiumManganeseDioxide> : <liquid:manganese_dioxide> * 144,
     <ore:ingotLeadPlatinum> : <liquid:lead_platinum> * 144,
     <ore:ingotCocoaButter> : <liquid:cocoa_butter> * 144,
     <ore:ingotUnsweetenedChocolate> : <liquid:unsweetened_chocolate> * 144,

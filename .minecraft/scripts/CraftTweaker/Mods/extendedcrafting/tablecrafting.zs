@@ -10,7 +10,8 @@ function tableCraftingUtils(output as IItemStack, input as IIngredient[][]) {
 	recipes.remove(output.withAmount(1));
 	TableCrafting.addShaped(0, output, input);
 }
-
+//高级合成#############################################################################################
+//合成核心
 TableCrafting.remove(<extendedcrafting:crafting_core>);
 tableCraftingUtils(<extendedcrafting:crafting_core>, [
 	[<ore:blockTough>, <ore:plateTough>, <extendedcrafting:material:10>, <ore:plateTough>, <ore:blockTough>], 
@@ -20,6 +21,101 @@ tableCraftingUtils(<extendedcrafting:crafting_core>, [
 	[<ore:blockTough>, <extendedcrafting:material:18>, <extendedcrafting:material:16>, <extendedcrafting:material:18>, <ore:blockTough>]
 ]);
 
+//单推进燃料箱
+tableCraftingUtils(<advancedrocketry:fueltank>, [
+	[null, <ore:plateAdvanced>, <immersiveengineering:metal_device0:6>, <ore:plateAdvanced>, null], 
+	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
+	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
+	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
+	[null, <ore:plateAdvanced>, <immersiveengineering:metal_device0:6>, <ore:plateAdvanced>, null]
+]);
+
+//高级火箭发动机
+tableCraftingUtils(<advancedrocketry:advrocketmotor>, [
+	[<ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>, <ore:ingotExtreme>, <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>], 
+	[<ore:ingotTitaniumAluminide>, <ore:ingotExtreme>, <ore:ingotExtreme>, <ore:ingotExtreme>, <ore:ingotTitaniumAluminide>], 
+	[<ore:ingotTitaniumAluminide>, <simplyjetpacks:metaitemmods:11>, <ore:ingotExtreme>, <simplyjetpacks:metaitemmods:11>, <ore:ingotTitaniumAluminide>], 
+	[<ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>], 
+	[<ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>]
+]);
+
+//单推进火箭发动机
+tableCraftingUtils(<advancedrocketry:rocketmotor>, [
+	[<ore:ingotHighStrengthAluminumAlloy>, <ore:ingotHighStrengthAluminumAlloy>, <ore:ingotTough>, <ore:ingotHighStrengthAluminumAlloy>, <ore:ingotHighStrengthAluminumAlloy>], 
+	[<ore:ingotHighStrengthAluminumAlloy>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotHighStrengthAluminumAlloy>], 
+	[<ore:ingotHighStrengthAluminumAlloy>, <simplyjetpacks:metaitemmods:10>, <ore:ingotTough>, <simplyjetpacks:metaitemmods:10>, <ore:ingotHighStrengthAluminumAlloy>], 
+	[<ore:ingotSiCSiCCMC>, <simplyjetpacks:metaitemmods:10>, null, <simplyjetpacks:metaitemmods:10>, <ore:ingotSiCSiCCMC>], 
+	[<ore:ingotSiCSiCCMC>, null, null, null, <ore:ingotSiCSiCCMC>]
+]);
+
+//分子装配机
+tableCraftingUtils(<appliedenergistics2:molecular_assembler>, [
+	[<ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>, <ore:fusedQuartz>, <ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>], 
+	[<ore:stickHighStrengthAluminumAlloy>, <extendedcrafting:material:8>, <appliedenergistics2:material:24>, <extendedcrafting:material:8>, <ore:stickHighStrengthAluminumAlloy>], 
+	[<ore:fusedQuartz>, <appliedenergistics2:material:24>, <extendedcrafting:table_basic>, <appliedenergistics2:material:24>, <ore:fusedQuartz>], 
+	[<ore:stickHighStrengthAluminumAlloy>, <extendedcrafting:material:8>, <appliedenergistics2:material:24>, <extendedcrafting:material:8>, <ore:stickHighStrengthAluminumAlloy>], 
+	[<ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>, <ore:fusedQuartz>, <ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>]
+]);
+
+//ME控制器
+tableCraftingUtils(<appliedenergistics2:controller>, [
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:dustSignalum>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<appliedenergistics2:material:1>, <appliedenergistics2:material:24>, <ore:circuitBasic>, <appliedenergistics2:material:24>, <appliedenergistics2:material:1>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:dustSignalum>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>]
+]);
+
+//ME驱动器
+tableCraftingUtils(<appliedenergistics2:drive>, [
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <appliedenergistics2:material:24>, <ore:pearlFluix>, <appliedenergistics2:material:24>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:pearlFluix>, <matteroverdrive:me_conversion_matrix>, <ore:pearlFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <appliedenergistics2:material:24>, <ore:pearlFluix>, <appliedenergistics2:material:24>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
+	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateHighStrengthAluminumAlloy>]
+]);
+
+//飞龙注入合成装置
+tableCraftingUtils(<draconicevolution:crafting_injector:1>, [
+	[<ore:ingotTritanium>, <ore:ingotTritanium>, null, <ore:ingotTritanium>, <ore:ingotTritanium>], 
+	[<ore:ingotExtreme>, <rftools:dimensional_shard>, <draconicevolution:wyvern_core>, <rftools:dimensional_shard>, <ore:ingotExtreme>], 
+	[<ore:alloyAdvanced>, <draconicevolution:draconic_core>, <ore:gemDilithium>, <draconicevolution:draconic_core>, <ore:alloyAdvanced>], 
+	[<ore:alloyAdvanced>, <matteroverdrive:s_magnet>, <ore:blockDraconium>, <matteroverdrive:s_magnet>, <ore:alloyAdvanced>], 
+	[<ore:ingotExtreme>, <rftools:dimensional_shard>, <draconicevolution:crafting_injector>, <rftools:dimensional_shard>, <ore:ingotExtreme>]
+]);
+
+//双足飞龙核心
+tableCraftingUtils(<draconicevolution:wyvern_core>, [
+	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null], 
+	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
+	[<ore:alloyAdvanced>, <ore:ingotTritanium>, <ore:circuitAdvanced>, <ore:ingotTritanium>, <ore:alloyAdvanced>], 
+	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
+	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null]
+]);
+
+//超导磁体
+tableCraftingUtils(<matteroverdrive:s_magnet>, [
+	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null], 
+	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
+	[<ore:dustSignalum>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:dustSignalum>], 
+	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
+	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null]
+]);
+
+//高级控制电路
+tableCraftingUtils(<mekanism:controlcircuit:1> * 4, [
+	[<ore:dustCrystalBinder>, <ore:itemEnrichedAlloy>, <nuclearcraft:supercold_ice>, <ore:itemEnrichedAlloy>, <ore:dustCrystalBinder>], 
+	[<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <enderio:item_basic_capacitor:2>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>], 
+	[<nuclearcraft:supercold_ice>, <enderio:item_basic_capacitor:2>, <ore:dustCrystalBinder>, <enderio:item_basic_capacitor:2>, <nuclearcraft:supercold_ice>], 
+	[<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <enderio:item_basic_capacitor:2>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>], 
+	[<ore:dustCrystalBinder>, <ore:itemEnrichedAlloy>, <nuclearcraft:supercold_ice>, <ore:itemEnrichedAlloy>, <ore:dustCrystalBinder>]
+]);
+
+
+//精英合成#############################################################################################
+//晶素锭
 TableCrafting.remove(<extendedcrafting:material:24>);
 tableCraftingUtils(<extendedcrafting:material:24> * 2, [
 	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>], 
@@ -31,6 +127,7 @@ tableCraftingUtils(<extendedcrafting:material:24> * 2, [
 	[null, null, null, null, null, null, null]
 ]);
 
+//自动化接口
 tableCraftingUtils(<extendedcrafting:interface>, [
 	[null, <ore:ingotTough>, <ore:ingotTough>, <extendedcrafting:material:10>, <ore:ingotTough>, <ore:ingotTough>, null], 
 	[<ore:ingotTough>, <ore:alloyElite>, <ore:blockTough>, <appliedenergistics2:material:23>, <ore:blockTough>, <ore:alloyElite>, <ore:ingotTough>], 
@@ -41,72 +138,7 @@ tableCraftingUtils(<extendedcrafting:interface>, [
 	[null, <ore:ingotTough>, <ore:ingotTough>, <extendedcrafting:material:12>, <ore:ingotTough>, <ore:ingotTough>, null]
 ]);
 
-tableCraftingUtils(<advancedrocketry:fueltank>, [
-	[null, <ore:plateAdvanced>, <immersiveengineering:metal_device0:6>, <ore:plateAdvanced>, null], 
-	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
-	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
-	[<ore:plateAdvanced>, null, null, null, <ore:plateAdvanced>], 
-	[null, <ore:plateAdvanced>, <immersiveengineering:metal_device0:6>, <ore:plateAdvanced>, null]
-]);
-
-tableCraftingUtils(<advancedrocketry:advrocketmotor>, [
-	[<ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>, <ore:ingotExtreme>, <ore:ingotTitaniumAluminide>, <ore:ingotTitaniumAluminide>], 
-	[<ore:ingotTitaniumAluminide>, <ore:ingotExtreme>, <ore:ingotExtreme>, <ore:ingotExtreme>, <ore:ingotTitaniumAluminide>], 
-	[<ore:ingotTitaniumAluminide>, <simplyjetpacks:metaitemmods:11>, <ore:ingotExtreme>, <simplyjetpacks:metaitemmods:11>, <ore:ingotTitaniumAluminide>], 
-	[<ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>], 
-	[<ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>, null, <ore:ingotSiCSiCCMC>]
-]);
-
-tableCraftingUtils(<advancedrocketry:rocketmotor>, [
-	[<ore:ingotHighStrengthAluminumAlloy>, <ore:ingotHighStrengthAluminumAlloy>, <ore:ingotTough>, <ore:ingotHighStrengthAluminumAlloy>, <ore:ingotHighStrengthAluminumAlloy>], 
-	[<ore:ingotHighStrengthAluminumAlloy>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotHighStrengthAluminumAlloy>], 
-	[<ore:ingotHighStrengthAluminumAlloy>, <simplyjetpacks:metaitemmods:10>, <ore:ingotTough>, <simplyjetpacks:metaitemmods:10>, <ore:ingotHighStrengthAluminumAlloy>], 
-	[<ore:ingotSiCSiCCMC>, <simplyjetpacks:metaitemmods:10>, null, <simplyjetpacks:metaitemmods:10>, <ore:ingotSiCSiCCMC>], 
-	[<ore:ingotSiCSiCCMC>, null, null, null, <ore:ingotSiCSiCCMC>]
-]);
-
-tableCraftingUtils(<appliedenergistics2:molecular_assembler>, [
-	[<ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>, <ore:fusedQuartz>, <ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>], 
-	[<ore:stickHighStrengthAluminumAlloy>, <extendedcrafting:material:8>, <appliedenergistics2:material:24>, <extendedcrafting:material:8>, <ore:stickHighStrengthAluminumAlloy>], 
-	[<ore:fusedQuartz>, <appliedenergistics2:material:24>, <extendedcrafting:table_basic>, <appliedenergistics2:material:24>, <ore:fusedQuartz>], 
-	[<ore:stickHighStrengthAluminumAlloy>, <extendedcrafting:material:8>, <appliedenergistics2:material:24>, <extendedcrafting:material:8>, <ore:stickHighStrengthAluminumAlloy>], 
-	[<ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>, <ore:fusedQuartz>, <ore:stickHighStrengthAluminumAlloy>, <ore:stickHighStrengthAluminumAlloy>]
-]);
-
-tableCraftingUtils(<appliedenergistics2:controller>, [
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:dustSignalum>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<appliedenergistics2:material:1>, <appliedenergistics2:material:24>, <ore:circuitBasic>, <appliedenergistics2:material:24>, <appliedenergistics2:material:1>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:dustSignalum>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>]
-]);
-
-tableCraftingUtils(<appliedenergistics2:drive>, [
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <appliedenergistics2:material:24>, <ore:pearlFluix>, <appliedenergistics2:material:24>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:pearlFluix>, <matteroverdrive:me_conversion_matrix>, <ore:pearlFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:crystalFluix>, <appliedenergistics2:material:24>, <ore:pearlFluix>, <appliedenergistics2:material:24>, <ore:crystalFluix>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:crystalFluix>, <appliedenergistics2:material:1>, <ore:plateHighStrengthAluminumAlloy>], 
-	[<ore:plateHighStrengthAluminumAlloy>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateTough>, <ore:plateHighStrengthAluminumAlloy>]
-]);
-
-tableCraftingUtils(<draconicevolution:crafting_injector:1>, [
-	[<ore:ingotTritanium>, <ore:ingotTritanium>, null, <ore:ingotTritanium>, <ore:ingotTritanium>], 
-	[<ore:ingotExtreme>, <rftools:dimensional_shard>, <draconicevolution:wyvern_core>, <rftools:dimensional_shard>, <ore:ingotExtreme>], 
-	[<ore:alloyAdvanced>, <draconicevolution:draconic_core>, <ore:gemDilithium>, <draconicevolution:draconic_core>, <ore:alloyAdvanced>], 
-	[<ore:alloyAdvanced>, <matteroverdrive:s_magnet>, <ore:blockDraconium>, <matteroverdrive:s_magnet>, <ore:alloyAdvanced>], 
-	[<ore:ingotExtreme>, <rftools:dimensional_shard>, <draconicevolution:crafting_injector>, <rftools:dimensional_shard>, <ore:ingotExtreme>]
-]);
-
-tableCraftingUtils(<draconicevolution:wyvern_core>, [
-	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null], 
-	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
-	[<ore:alloyAdvanced>, <ore:ingotTritanium>, <ore:circuitAdvanced>, <ore:ingotTritanium>, <ore:alloyAdvanced>], 
-	[<ore:ingotDraconium>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotExtreme>, <ore:ingotDraconium>], 
-	[null, <ore:ingotDraconium>, <ore:alloyAdvanced>, <ore:ingotDraconium>, null]
-]);
-
+//神龙注入合成装置
 tableCraftingUtils(<draconicevolution:crafting_injector:2>, [
 	[null, null, null, <draconicevolution:wyvern_core>, null, null, null], 
 	[<rftools:dimensional_shard>, <ore:alloyElite>, <draconicevolution:wyvern_core>, <draconicevolution:awakened_core>, <draconicevolution:wyvern_core>, <ore:alloyElite>, <rftools:dimensional_shard>], 
@@ -117,26 +149,7 @@ tableCraftingUtils(<draconicevolution:crafting_injector:2>, [
 	[<rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotExtreme>, <rftools:dimensional_shard>]
 ]);
 
-tableCraftingUtils(<draconicevolution:crafting_injector:3>, [
-	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <draconicevolution:awakened_core>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>], 
-	[<ore:ingotCrystaltine>, <ore:gemDilithium>, <ore:ingotCrystaltine>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <ore:ingotCrystaltine>, <ore:gemDilithium>, <ore:ingotCrystaltine>], 
-	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <matteroverdrive:s_magnet>, <ore:gemDilithium>, <ore:ingotExtreme>, <ore:gemDilithium>, <matteroverdrive:s_magnet>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <ore:gemDilithium>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:gemDilithium>, <ore:alloyUltimate>], 
-	[<matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:alloyUltimate>, <rftools:dimensional_shard>, <draconicevolution:crafting_injector:2>, <rftools:dimensional_shard>, <ore:alloyUltimate>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>], 
-	[<ore:alloyUltimate>, <ore:gemDilithium>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:gemDilithium>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <matteroverdrive:s_magnet>, <ore:gemDilithium>, <ore:ingotExtreme>, <ore:gemDilithium>, <matteroverdrive:s_magnet>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>]
-]);
-
-tableCraftingUtils(<matteroverdrive:s_magnet>, [
-	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null], 
-	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
-	[<ore:dustSignalum>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:dustSignalum>], 
-	[<ore:ingotTritanium>, <ore:dustSignalum>, <ore:ingotEnderium>, <ore:dustSignalum>, <ore:ingotTritanium>], 
-	[null, <ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>, null]
-]);
-
+//海森堡补偿器
 tableCraftingUtils(<matteroverdrive:h_compensator>, [
 	[null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null], 
 	[<ore:plateTritanium>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <extendedcrafting:material:48>, <ore:gemDilithium>, <ore:plateTritanium>], 
@@ -147,6 +160,7 @@ tableCraftingUtils(<matteroverdrive:h_compensator>, [
 	[null, null, <ore:plateTritanium>, <ore:plateTritanium>, <ore:plateTritanium>, null, null]
 ]);
 
+//质能转换矩阵
 tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
 	[null, null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null, null], 
 	[null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:circuitElite>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null], 
@@ -157,14 +171,7 @@ tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
 	[null, null, <ore:ingotExtreme>, <extendedcrafting:material:48>, <ore:ingotExtreme>, null, null]
 ]);
 
-tableCraftingUtils(<mekanism:controlcircuit:1> * 4, [
-	[<ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>], 
-	[<ore:dustCrystalBinder>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustCrystalBinder>], 
-	[<ore:alloyAdvanced>, <ore:dustSignalum>, <enderio:item_basic_capacitor:2>, <ore:dustSignalum>, <ore:alloyAdvanced>], 
-	[<ore:dustCrystalBinder>, <ore:circuitBasic>, <ore:dustSignalum>, <ore:circuitBasic>, <ore:dustCrystalBinder>], 
-	[<ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>, <ore:dustCrystalBinder>, <ore:alloyAdvanced>]
-]);
-
+//精英控制电路
 tableCraftingUtils(<mekanism:controlcircuit:2> * 8, [
 	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null], 
 	[<ore:dustGermanium>, <ore:circuitAdvanced>, <ore:skullGuardianDiode>, <ore:circuitAdvanced>, <enderio:item_basic_capacitor:2>, <ore:circuitAdvanced>, <ore:dustGermanium>], 
@@ -175,6 +182,9 @@ tableCraftingUtils(<mekanism:controlcircuit:2> * 8, [
 	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null]
 ]);
 
+
+//终极合成#############################################################################################
+//终极控制电路
 tableCraftingUtils(<mekanism:controlcircuit:3> * 12, [
 	[<ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>], 
 	[<ore:ingotExtreme>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotExtreme>], 
@@ -185,4 +195,17 @@ tableCraftingUtils(<mekanism:controlcircuit:3> * 12, [
 	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>], 
 	[<ore:ingotExtreme>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotExtreme>], 
 	[<ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>]
+]);
+
+//混沌注入合成装置
+tableCraftingUtils(<draconicevolution:crafting_injector:3>, [
+	[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <draconicevolution:awakened_core>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>], 
+	[<ore:ingotCrystaltine>, <ore:gemDilithium>, <ore:ingotCrystaltine>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <ore:ingotCrystaltine>, <ore:gemDilithium>, <ore:ingotCrystaltine>], 
+	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <matteroverdrive:s_magnet>, <ore:gemDilithium>, <ore:ingotExtreme>, <ore:gemDilithium>, <matteroverdrive:s_magnet>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>], 
+	[<ore:alloyUltimate>, <matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>, <ore:alloyUltimate>], 
+	[<ore:alloyUltimate>, <ore:gemDilithium>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:gemDilithium>, <ore:alloyUltimate>], 
+	[<matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:alloyUltimate>, <rftools:dimensional_shard>, <draconicevolution:crafting_injector:2>, <rftools:dimensional_shard>, <ore:alloyUltimate>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>], 
+	[<ore:alloyUltimate>, <ore:gemDilithium>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <rftools:dimensional_shard>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:gemDilithium>, <ore:alloyUltimate>], 
+	[<ore:alloyUltimate>, <matteroverdrive:s_magnet>, <ore:ingotExtreme>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <ore:ingotExtreme>, <matteroverdrive:s_magnet>, <ore:alloyUltimate>], 
+	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <matteroverdrive:s_magnet>, <ore:gemDilithium>, <ore:ingotExtreme>, <ore:gemDilithium>, <matteroverdrive:s_magnet>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>]
 ]);
