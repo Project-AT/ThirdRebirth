@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
@@ -32,4 +33,19 @@ RecipeUtils.recipeTweak(true, <deepmoblearning:data_model_blank>, [
     [<ore:alloyElite>, <advancedrocketry:dataunit>, <ore:alloyElite>]
 ]);
 
-recipes.remove(<deepmoblearning:soot_covered_plate>);
+var removeitem as IItemStack[] = [
+    <deepmoblearning:data_model_zombie>,
+    <deepmoblearning:soot_covered_plate>,
+    <deepmoblearning:data_model_skeleton>,
+    <deepmoblearning:data_model_creeper>,
+    <deepmoblearning:data_model_spider>,
+    <deepmoblearning:data_model_slime>,
+    <deepmoblearning:data_model_witch>,
+    <deepmoblearning:data_model_blaze>,
+    <deepmoblearning:data_model_ghast>,
+    <deepmoblearning:data_model_wither_skeleton>,
+];
+
+for item in removeitem {
+    recipes.remove(item);
+}

@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.block.IBlock;
 
 import mods.orestages.OreStages;
 
@@ -12,3 +13,6 @@ for ore in oreDict.entries {
         OreStages.addNonDefaultingReplacement("oreStage", ore);
     }
 }
+mods.orestages.OreStages.addNonDefaultingReplacement("craftingtable", <minecraft:crafting_table>, <minecraft:planks:0>);
+mods.orestages.OreStages.addNonDefaultingReplacement("craftingtable", <minecraft:furnace:*>, <minecraft:brick_block>);
+mods.orestages.OreStages.addNonDefaultingReplacement("treatedwood", <ore:plankTreatedWood>, <minecraft:planks:5>);

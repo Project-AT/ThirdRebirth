@@ -16,7 +16,9 @@ furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:ingotPureIron>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:dustPureIron>);
 
-RecipeUtils.recipeTweak(true, <minecraft:paper> * 3, [[<biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>]]);
+recipes.addShapeless(<minecraft:paper> * 3,
+    [<biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>
+]);
 
 RecipeUtils.recipeTweak(true, <minecraft:crafting_table>, [
     [null, <ore:leather>],

@@ -172,20 +172,20 @@ tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
 ]);
 
 //精英控制电路
-tableCraftingUtils(<mekanism:controlcircuit:2> * 8, [
-	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null], 
-	[<ore:dustGermanium>, <ore:circuitAdvanced>, <ore:skullGuardianDiode>, <ore:circuitAdvanced>, <enderio:item_basic_capacitor:2>, <ore:circuitAdvanced>, <ore:dustGermanium>], 
-	[<ore:alloyElite>, <enderio:item_basic_capacitor:2>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <ore:skullGuardianDiode>, <ore:alloyElite>], 
-	[<ore:dustPlatinum>, <ore:circuitAdvanced>, <ore:itemInfinityGoop>, <ore:skullEnderResonator>, <ore:itemInfinityGoop>, <ore:circuitAdvanced>, <ore:dustPlatinum>], 
-	[<ore:alloyElite>, <ore:skullGuardianDiode>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <ore:itemInfinityGoop>, <enderio:item_basic_capacitor:2>, <ore:alloyElite>], 
-	[<ore:dustGermanium>, <ore:circuitAdvanced>, <enderio:item_basic_capacitor:2>, <ore:circuitAdvanced>, <ore:skullGuardianDiode>, <ore:circuitAdvanced>, <ore:dustGermanium>], 
-	[null, <ore:dustGermanium>, <ore:alloyElite>, <ore:dustPlatinum>, <ore:alloyElite>, <ore:dustGermanium>, null]
+tableCraftingUtils(<mekanism:controlcircuit:2> * 4, [
+	[<ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>], 
+	[<ore:dustPlatinum>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:dustPlatinum>], 
+	[<ore:itemInfinityGoop>, <enderio:item_capacitor_melodic>, <ore:circuitAdvanced>, <contenttweaker:ge_wafer>, <ore:circuitAdvanced>, <enderio:item_capacitor_melodic>, <ore:itemInfinityGoop>], 
+	[<ore:dustPlatinum>, <ore:skullGuardianDiode>, <contenttweaker:ge_wafer>, <ore:itemInfinityGoop>, <contenttweaker:ge_wafer>, <ore:skullGuardianDiode>, <ore:dustPlatinum>], 
+	[<ore:itemInfinityGoop>, <enderio:item_capacitor_melodic>, <ore:circuitAdvanced>, <contenttweaker:ge_wafer>, <ore:circuitAdvanced>, <enderio:item_capacitor_melodic>, <ore:itemInfinityGoop>], 
+	[<ore:dustPlatinum>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:dustPlatinum>], 
+	[<ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>]
 ]);
 
 
 //终极合成#############################################################################################
 //终极控制电路
-tableCraftingUtils(<mekanism:controlcircuit:3> * 12, [
+tableCraftingUtils(<mekanism:controlcircuit:3> * 4, [
 	[<ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>, <ore:ingotExtreme>, <ore:alloyUltimate>], 
 	[<ore:ingotExtreme>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotDraconiumAwakened>, <ore:circuitElite>, <ore:ingotExtreme>], 
 	[<ore:alloyUltimate>, <ore:ingotDraconiumAwakened>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <contenttweaker:si_gr_ge_transistor>, <enderio:item_basic_capacitor:2>, <ore:ingotDraconiumAwakened>, <ore:alloyUltimate>], 
