@@ -18,6 +18,7 @@ mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_skeleton>, <deepmo
 mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_skeleton>, <deepmoblearning:data_model_blank>, ["quark:ashen"], 25000000, 15);
 mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_skeleton>, <deepmoblearning:data_model_blank>, ["mekanism:babyskeleton"], 25000000, 15);
 mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_skeleton>, <deepmoblearning:data_model_blank>, ["minecraft:stray"], 25000000, 15);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_skeleton>, <deepmoblearning:data_model_blank>, ["quark:pirate "], 25000000, 15);
 
 //爬行者数据模型
 mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_creeper>, <deepmoblearning:data_model_blank>, ["minecraft:creeper"], 25000000, 15);
@@ -50,6 +51,27 @@ mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_ghast>, <deepmoble
 mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_ghast>, <deepmoblearning:data_model_blank>, ["netherex:ghast_queen"], 25000000, 15);
 
 //凋灵骷髅数据模型
-mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_wither_skeleton>, <deepmoblearning:data_model_blank>, ["minecraft:wither_skeleton"], 25000000, 18);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_wither_skeleton>, <deepmoblearning:data_model_blank>, ["minecraft:wither_skeleton"], 30000000, 18);
 
 //凋灵数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_wither>, <deepmoblearning:data_model_blank>, ["botania:pink_wither"], 50000000, 30);
+
+//末影人数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_enderman>, <deepmoblearning:data_model_blank>, ["minecraft:enderman"], 30000000, 18);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_enderman>, <deepmoblearning:data_model_blank>, ["deepmoblearning:trial_enderman"], 30000000, 18);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_enderman>, <deepmoblearning:data_model_blank>, ["mysticalworld:entity_endermini"], 30000000, 18);
+
+//潜影贝数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_shulker>, <deepmoblearning:data_model_blank>, ["minecraft:shulker"], 28000000, 18);
+
+//守卫者数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_guardian>, <deepmoblearning:data_model_blank>, ["minecraft:guardian"], 25000000, 15);
+
+//热力元素数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_thermal_elemental>, <deepmoblearning:data_model_blank>, ["thermalfoundation:blizz"], 25000000, 15);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_thermal_elemental>, <deepmoblearning:data_model_blank>, ["thermalfoundation:blitz"], 25000000, 15);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_thermal_elemental>, <deepmoblearning:data_model_blank>, ["thermalfoundation:basalz"], 25000000, 15);
+
+//机器人数据模型
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_mo_android>, <deepmoblearning:data_model_blank>, ["matteroverdrive:ranged_rogue_android"], 30000000, 18);
+mods.enderio.SoulBinder.addRecipe(<deepmoblearning:data_model_mo_android>, <deepmoblearning:data_model_blank>, ["matteroverdrive:rogue_android"], 30000000, 18);

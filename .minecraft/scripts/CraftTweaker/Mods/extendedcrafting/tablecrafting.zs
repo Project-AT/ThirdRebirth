@@ -113,11 +113,20 @@ tableCraftingUtils(<mekanism:controlcircuit:1> * 4, [
 	[<ore:dustCrystalBinder>, <ore:itemEnrichedAlloy>, <nuclearcraft:supercold_ice>, <ore:itemEnrichedAlloy>, <ore:dustCrystalBinder>]
 ]);
 
+//模拟室
+tableCraftingUtils(<deepmoblearning:simulation_chamber>, [
+	[<ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>], 
+	[<ore:alloyElite>, <ore:itemInfinityGoop>, <matteroverdrive:holo_sign>, <ore:itemInfinityGoop>, <ore:alloyElite>], 
+	[<ore:ingotTough>, <ore:circuitAdvanced>, <deepmoblearning:machine_casing>, <ore:circuitAdvanced>, <ore:ingotTough>], 
+	[<ore:alloyElite>, <ore:itemInfinityGoop>, <draconicevolution:draconic_spawner>, <ore:itemInfinityGoop>, <ore:alloyElite>], 
+	[<ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>]
+]);
+
 
 //精英合成#############################################################################################
 //晶素锭
 TableCrafting.remove(<extendedcrafting:material:24>);
-tableCraftingUtils(<extendedcrafting:material:24> * 2, [
+tableCraftingUtils(<extendedcrafting:material:24> * 4, [
 	[<ore:manaDiamond>, <naturesaura:sky_ingot>, <ore:ingotLumium>, <ore:gemRime>, <ore:ingotLumium>, <naturesaura:sky_ingot>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
 	[<ore:manaDiamond>, <ore:ingotCrystallineAlloy>, <ore:ingotSoularium>, <ore:nuggetNetherStar>, <ore:ingotSoularium>, <ore:ingotCrystallineAlloy>, <ore:manaDiamond>], 
@@ -173,13 +182,13 @@ tableCraftingUtils(<matteroverdrive:me_conversion_matrix>, [
 
 //精英控制电路
 tableCraftingUtils(<mekanism:controlcircuit:2> * 4, [
-	[<ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>], 
-	[<ore:dustPlatinum>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:dustPlatinum>], 
+	[<ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>], 
+	[<ore:alloyElite>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:alloyElite>], 
 	[<ore:itemInfinityGoop>, <enderio:item_capacitor_melodic>, <ore:circuitAdvanced>, <contenttweaker:ge_wafer>, <ore:circuitAdvanced>, <enderio:item_capacitor_melodic>, <ore:itemInfinityGoop>], 
-	[<ore:dustPlatinum>, <ore:skullGuardianDiode>, <contenttweaker:ge_wafer>, <ore:itemInfinityGoop>, <contenttweaker:ge_wafer>, <ore:skullGuardianDiode>, <ore:dustPlatinum>], 
+	[<ore:alloyElite>, <ore:skullGuardianDiode>, <contenttweaker:ge_wafer>, <ore:itemInfinityGoop>, <contenttweaker:ge_wafer>, <ore:skullGuardianDiode>, <ore:alloyElite>], 
 	[<ore:itemInfinityGoop>, <enderio:item_capacitor_melodic>, <ore:circuitAdvanced>, <contenttweaker:ge_wafer>, <ore:circuitAdvanced>, <enderio:item_capacitor_melodic>, <ore:itemInfinityGoop>], 
-	[<ore:dustPlatinum>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:dustPlatinum>], 
-	[<ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>, <ore:dustPlatinum>, <ore:itemInfinityGoop>]
+	[<ore:alloyElite>, <contenttweaker:ge_wafer>, <ore:skullEnderResonator>, <ore:skullGuardianDiode>, <ore:skullEnderResonator>, <contenttweaker:ge_wafer>, <ore:alloyElite>], 
+	[<ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>, <ore:alloyElite>, <ore:itemInfinityGoop>]
 ]);
 
 

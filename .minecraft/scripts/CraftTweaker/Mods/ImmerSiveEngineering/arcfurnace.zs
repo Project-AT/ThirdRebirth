@@ -45,6 +45,7 @@ ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:ingotSteel> * 2, nul
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, null, 200, 2048, [<ore:ingotBronze>, <ore:ingotElectricalSteel>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>], "Alloying");
 ArcFurnace.addRecipe(<refraction:reflective_alloy> * 5, <ore:ingotIron> * 3, null, 200, 2048, [<ore:ingotEnergeticSilver>, <ore:ingotGold>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:ingotPlatinum>, null, 200, 2048, [<ore:itemPulsatingPowder>], "Alloying");
 
 
 //LV3

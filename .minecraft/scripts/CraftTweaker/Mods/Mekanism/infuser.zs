@@ -27,7 +27,7 @@ infuser.addRecipe("DRACONIUM", 10, <ore:alloyElite>, <ore:alloyUltimate>.firstIt
 infuser.removeRecipe(<ore:dustRefinedObsidian>);
 infuser.addRecipe("CRYSTALTINE", 10, <ore:dustObsidian>, <ore:dustRefinedObsidian>.firstItem);
 infuser.addRecipe("REDSTONE", 40, <ore:ingotSmithingIron>, <ore:ingotRedstoneAlloy>.firstItem);
-infuser.addRecipe("DIAMOND", 10, <ore:ingotGold>, <ore:ingotCrystallineAlloy>.firstItem);
+infuser.addRecipe("DIAMOND", 10, <ore:ingotPlatinum>, <ore:ingotCrystallineAlloy>.firstItem);
 infuser.addRecipe("OBSIDIAN", 40, <ore:plateAdvanced>, <deepmoblearning:soot_covered_plate>);
 infuser.addRecipe("EMBER", 10, <ore:ingotRoseGold>, <ore:ingotDawnstone>.firstItem);
 infuser.addRecipe("EMBER", 40, <ore:ingotSilver>, <ore:ingotEnergeticSilver>.firstItem);

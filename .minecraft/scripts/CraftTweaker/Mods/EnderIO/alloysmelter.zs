@@ -32,6 +32,7 @@ AlloySmelter.addRecipe(<enderio:item_alloy_ingot:6> * 2, [<ore:dustPetrotheum>, 
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3> * 2, [<ore:gemRedstone>, <ore:ingotBronze>, <ore:ingotElectricalSteel>]);
 AlloySmelter.addRecipe(<enderio:item_alloy_ingot:2>, [<ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>]);
 AlloySmelter.addRecipe(<refraction:reflective_alloy> * 5, [<ore:ingotIron> * 3, <ore:ingotEnergeticSilver>, <ore:ingotGold>]);
+AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:1>, [<ore:itemPulsatingPowder>, <ore:ingotPlatinum>]);
 
 //Lv3
 AlloySmelter.addRecipe(<simplyjetpacks:metaitemmods:12>, [<ore:ingotSoularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>]);
