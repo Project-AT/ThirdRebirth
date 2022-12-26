@@ -158,7 +158,8 @@ var oreDictAdd as IItemStack[][string] = {
     "plateIronCompressed" : [<contenttweaker:iron_compressed_plate>],
     "ingotIronCompressed" : [<pneumaticcraft:ingot_iron_compressed>],
     "gearIronCompressed" : [<pneumaticcraft:compressed_iron_gear>],
-    "blockIronCompressed" : [<pneumaticcraft:compressed_iron_block>]
+    "blockIronCompressed" : [<pneumaticcraft:compressed_iron_block>],
+    "oreQuartz" : [<embers:ore_quartz>]
 };
 
 var oreDictRemove as IItemStack[] = [

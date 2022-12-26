@@ -23,3 +23,5 @@ MoreJei.addDescription(<contenttweaker:dictionary_paper>, [game.localize("thirdr
 MoreJei.addDescription(<mysticalworld:gall_apple>, [game.localize("thirdrebirth.description.mysticalworld.gall_apple")]);
 //邪恶之石
 MoreJei.addDescription(<trutils:evil_stone>, [game.localize("thirdrebirth.description.trutils.evil_stone")]);
+//燃料等价物
+MoreJei.addDescription(<trutils:equivalent_fuel>, [game.localize("thirdrebirth.description.trutils:equivalent_fuel")]);

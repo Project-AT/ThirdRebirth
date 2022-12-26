@@ -29,7 +29,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <enderio:item_conduit_facade:1>, <enderio:item_yeta_wrench>, <enderio:block_omni_reservoir>, <enderio:block_solar_panel>, <enderio:item_liquid_conduit:1>, <enderio:item_item_conduit>,
         <enderio:item_alloy_ingot:5>, <enderio:item_alloy_nugget:5>, <enderio:block_alloy:2>, <enderio:item_alloy_nugget:3>, <enderio:block_alloy:9>, <enderio:block_alloy:3>,
         <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:9>, <enderio:item_alloy_nugget:9>, <enderio:item_alloy_ingot:4>, <enderio:item_ender_food>, <ore:ingotManganese>, 
-        <buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>,
+        <buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <bedrockores:bedrock_miner>,
         <enderio:block_self_resetting_lever5>, <enderio:block_self_resetting_lever10>, <enderio:block_self_resetting_lever30>, <enderio:block_self_resetting_lever60>, <enderio:block_self_resetting_lever300>, 
         <enderio:block_self_resetting_lever5i>, <enderio:block_self_resetting_lever10i>, <enderio:block_self_resetting_lever30i>, <enderio:block_self_resetting_lever60i>, <enderio:block_self_resetting_lever300i>, 
         <enderio:block_fused_glass:*>, <trutils:washing_machine>, <ore:dustBedrock>, <ore:itemPulsatingPowder>, <embers:mech_core>,
@@ -88,20 +88,23 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "evilstone" : [
         <trutils:evil_stone>
-    ]
+    ],
+    "elixir" : [
+        <contenttweaker:elixir_eyesight>
+    ],
 };
 
 //无阶段物品
 val exceptItemStacks as IIngredient[] = [
     <buildinggadgets:constructionpaste>, <buildinggadgets:constructionblock>, <buildinggadgets:constructionblockpowder>, <botania:flowerbag>, 
-    <buildinggadgets:constructionblock_dense>, <buildinggadgets:construction_chunk_dense>, <enderio:item_material:32>,
+    <buildinggadgets:constructionblock_dense>, <buildinggadgets:construction_chunk_dense>, <enderio:item_material:32>, <integrateddynamics:squeezer>, 
     <nuclearcraft:ingot:8>, <nuclearcraft:dust:8>, <wizardry:wisdom_sapling>, <wizardry:wisdom_wood_log>, <wizardry:wisdom_wood_planks>, 
-    <wizardry:wisdom_wood_fence>, <wizardry:wisdom_wood_fence_gate>, <wizardry:wisdom_wood_door>, <wizardry:wisdom_wood_trapdoor>, 
-    <wizardry:wisdom_wood_stairs>, <wizardry:wisdom_wood_slab>,<integrateddynamics:on_the_dynamics_of_integration>, 
-    <integrateddynamics:crystalized_menril_block>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_sapling>, 
+    <wizardry:wisdom_wood_fence>, <wizardry:wisdom_wood_fence_gate>, <wizardry:wisdom_wood_door>, <wizardry:wisdom_wood_trapdoor>, <ore:oreQuartz>,
+    <wizardry:wisdom_wood_stairs>, <wizardry:wisdom_wood_slab>,<integrateddynamics:on_the_dynamics_of_integration>, <integrateddynamics:mechanical_squeezer>,
+    <integrateddynamics:crystalized_menril_block>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_sapling>, <integrateddynamics:mechanical_drying_basin>,
     <integrateddynamics:menril_leaves>, <integrateddynamics:menril_log_filled>, <integrateddynamics:menril_log>, <integrateddynamics:menril_berries>, 
     <integrateddynamics:crystalized_menril_brick_stairs>, <integrateddynamics:menril_planks_stairs>, <integrateddynamics:crystalized_menril_chunk>, 
-    <integrateddynamics:menril_torch>, <integrateddynamics:menril_door>, <integrateddynamics:crystalized_menril_brick>, 
+    <integrateddynamics:menril_torch>, <integrateddynamics:menril_door>, <integrateddynamics:crystalized_menril_brick>, <integrateddynamics:drying_basin>, 
     <integrateddynamics:crystalized_menril_block_stairs>, <botania:petalblock>, <botania:doubleflower1>, <botania:flower>, <botania:petal>, 
     <botania:specialflower>.withTag({type: "puredaisy"}), <botania:lexicon>, <botania:blacklotus:1>, <botania:blacklotus>, <embers:tinker_hammer>, 
     <embers:block_caminite_brick_slab>, <embers:brick_caminite>, <embers:blend_caminite>, <embers:plate_caminite>, <embers:stamp_bar>, <embers:stamp_flat>,
@@ -120,11 +123,11 @@ val exceptItemStacks as IIngredient[] = [
     <contenttweaker:ironcoal_ore>, <contenttweaker:udorealuminum>, <contenttweaker:udorenickel>, <contenttweaker:udoreuranium>, <contenttweaker:udoreboron>, <contenttweaker:udorelithium>, 
     <contenttweaker:udoremagnesium>, <contenttweaker:udorethorium>, <contenttweaker:endorelithium>, <contenttweaker:endorerutile>, <wizardry:book>, <appliedenergistics2:grindstone>, 
     <appliedenergistics2:crank>, <contenttweaker:crude_silicon_dust>, <extrautils2:pipe>, <wizardry:wisdom_stick>, <wizardry:wisdom_leaves>, <contenttweaker:bark_wisdomwood>, 
-    <ore:blockRustyIron>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:rootsBark>, <ore:allIngots>, <ore:alldusts>,
+    <ore:blockRustyIron>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:rootsBark>, <ore:allIngots>, <ore:alldusts>, <extrautils2:wateringcan:1000>,
     <roots:petals>, <ore:dustWheat>, <ore:eye>, <ore:knife>, <extrautils2:trashcan>, <extrautils2:trashcanfluid>, <extrautils2:trashcanenergy>, <ore:wildroot>, <roots:terra_spores>, 
-    <extrautils2:spike_wood>, <extrautils2:spike_stone>, <roots:fire_starter>, <enderio:item_broken_spawner>, <trutils:equivalent_fuel>,
+    <extrautils2:spike_wood>, <extrautils2:spike_stone>, <roots:fire_starter>, <enderio:item_broken_spawner>, <trutils:equivalent_fuel>, <extrautils2:wateringcan>,
     <extrautils2:largishchest>, <extrautils2:spike_diamond>, <extrautils2:spike_gold>, <extrautils2:minichest>, <extrautils2:redstoneclock>, <extrautils2:redstonelantern>, <extrautils2:spike_iron>, 
-    <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, <ore:dustQuartz>,
+    <extrautils2:wrench>, <roots:wildroot_stew>, <ore:ingotCrudeSteel>, <ore:blockCrudeSteel>,  <ore:nuggetCrudeSteel>, <ore:dustQuartz>, <simplyjetpacks:metaitem:4>,
     <extrautils2:contract>, <extrautils2:endershard>, <extrautils2:filterfluids>, <extrautils2:trowel>, <extrautils2:glasscutter>, <extrautils2:sickle_stone>, <extrautils2:sickle_iron>, 
     <extrautils2:sickle_diamond>, <extrautils2:sickle_gold>, <extrautils2:filter>, <ore:fanSteel>, <ore:dustWood>, <mekanism:cardboardbox>, <mekanism:cardboardbox>,
     <ore:ingotPureIron>, <ore:nuggetPureIron>, <ore:blockPureIron>, <ore:platePureIron>, <ore:gearPureIron>, <ore:dustPureIron>, <ore:rodPureIron>, <ore:stickPureIron>, 
@@ -135,6 +138,8 @@ val exceptItemStacks as IIngredient[] = [
     <roots:mortar>, <roots:roots_guide>, <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"}), <ore:ingotRoseGold>, <ore:dustRoseGold>, <ore:nuggetRoseGold>, <ore:blockRoseGold>, 
     <ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed1xDirt>, <ore:compressed2xDirt>, <ore:compressed1xSand>, <ore:compressed2xSand>, <ore:compressed1xGravel>, <ore:compressed2xGravel>, <ore:compressed1xNetherrack>, <ore:compressed2xNetherrack>, 
     <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,<botania:pestleandmortar>, <ore:dye>, <ore:rodIron>, <ore:stickSteel>, <ore:rodAluminum>, 
+    <multiblocked:steam_boiler>, <multiblocked:turbine_generator>, <modularmachinery:blockbunker>, <multiblocked:multiblock_builder>,
+    <ore:gearWood>, <ore:gearStone>,
 ];
 
 for stage, items in specialStageItemStackMap {

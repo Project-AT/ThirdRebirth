@@ -1,3 +1,16 @@
+# 机器
+tile.multiblocked.steam_boiler.name=蒸汽锅炉控制器
+steam_boiler.name=蒸汽锅炉
+multiblocked.recipe_map.steam_boiler=蒸汽锅炉
+multiblocked.recipe_map.steam_boiler Fuel=蒸汽锅炉燃料
+multiblocked.steam_boiler.description=可以燃烧固体或液体燃料，加热水以生产蒸汽的设备。\n其顶部为蒸汽输出口 ，底部的两个输入口都是燃料输入口，剩下的那个液体输入口便是输入水的。
+
+tile.multiblocked.turbine_generator.name=蒸汽涡轮发电机控制器
+turbine_generator.name=蒸汽涡轮发电机
+multiblocked.recipe_map.turbine=蒸汽涡轮发电机
+multiblocked.turbine_generator.description=可以通过输入蒸汽来发电的发电机。\n其尾部的液体输入口为蒸汽输入口 ，做功后的蒸汽冷凝为水后会储存在靠近头部的液体输出口。
+
+
 multiblocked.multiblock.formed=结构形成！
 
 multiblocked.capability.tc6_aspect=神秘要素

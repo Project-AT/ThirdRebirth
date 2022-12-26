@@ -6,6 +6,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.jei.JEI;
 
+import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 for meta in 22 to 28 {
@@ -38,3 +39,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:
     [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>],
     [null, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansDriver> : 4, <ore:artisansSpanner> : 4} as int[IIngredient]);
+
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>*2,
+    [<thermalfoundation:bait>, <ore:string>
+]);

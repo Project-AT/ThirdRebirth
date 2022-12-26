@@ -317,7 +317,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <modularmachinery:blockbunke
     inputPattern(["ABA", "C C", "ACA"])
         .with("A", <ore:rodSteel>)
         .with("B", <minecraft:iron_trapdoor>)
-        .with("C", <modularmachinery:itemmodularium>).get()
+        .with("C", <ore:ingotSteel>).get()
 , {<ore:artisansSpanner> : 14} as int[IIngredient]);
 
 RecipeUtils.recipeTweak(true, <modularmachinery:blockcasing:2> * 2, 

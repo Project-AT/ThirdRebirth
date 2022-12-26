@@ -103,7 +103,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <artisanworktables:workstation:
     [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
     [<ore:stairWood>, <artisanworktables:worktable:1>, <ore:stairWood>],
     [<minecraft:ladder>, <ore:chestWood>, <minecraft:ladder>]
-], {<ore:artisansHandsaw> : 30, <ore:artisansSartisansFramingHammerpanner> : 35} as int[IIngredient]);
+], {<ore:artisansHandsaw> : 30, <ore:artisansFramingHammer> : 35} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <artisanautomation:automator_power_rf>, [
     [<ore:ingotIronCompressed>, <embers:wrapped_sealed_planks>, <ore:ingotIronCompressed>],

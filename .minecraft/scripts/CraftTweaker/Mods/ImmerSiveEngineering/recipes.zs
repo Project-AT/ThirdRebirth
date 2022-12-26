@@ -121,7 +121,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:3> * 2, 
     RecipeUtils.createCrossWithCore(<ore:ingotBronze>, <ore:plateIron>, <ore:dustRedstone>)
-, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 5} as int[IIngredient]);
+, {<ore:artisansSpanner> : 8, <ore:artisansDriver> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:4> * 2, 
     inputPattern(["ILI", "TCT", "ILI"])
@@ -129,7 +129,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
         .with("L", <immersiveengineering:material:8>)
         .with("T", <ore:ingotCopper>)
         .with("C", <ore:gearBronze>).get()
-, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 3} as int[IIngredient]);
+, {<ore:artisansSpanner> : 10, <ore:artisansDriver> : 12} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:5> * 2, 
     inputPattern(["GLG", "DCD", "GLG"])
@@ -137,7 +137,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
         .with("L", <immersiveengineering:material:9>)
         .with("D", <ore:ingotSteel>)
         .with("C", <ore:gearElectrum>).get()
-, {<ore:artisansSpanner> : 5, <ore:artisansDriver> : 8} as int[IIngredient]);
+, {<ore:artisansSpanner> : 12, <ore:artisansDriver> : 15} as int[IIngredient]);
 
 electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:9>, 
     inputPattern(["  G", " Q ", "G"])
@@ -217,3 +217,9 @@ artisanUtils.RecipeTweakWithTools_("carpenter", true, <immersiveengineering:mate
     [<ore:plankTreatedWood>],
     [<ore:plankTreatedWood>]
 ], {<ore:artisansHandsaw> : 2} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_decoration0:6> * 2, [
+    [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
+    [<ore:ingotElectrum>, <ore:coilCopper>, <ore:ingotElectrum>],
+    [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]
+], {<ore:artisansSpanner> : 12, <ore:artisansDriver> : 15} as int[IIngredient]);
