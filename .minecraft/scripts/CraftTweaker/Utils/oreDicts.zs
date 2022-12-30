@@ -10,7 +10,7 @@ import mods.jei.JEI;
 var oreDictNames as string[] = [
     "Copper", "Tin", "Lead", "Aluminum", "Nickel", "Silver", "Uranium", "Boron", "Lithium", "Magnesium", 
     "Thorium", "Bronze", "Constantan", "Electrum", "Steel", "Iridium", "Invar", "Quartz", "Gold", "Iron",
-    "Diamond", "Emerald", "NetherQuartz"
+    "Diamond", "Emerald", "NetherQuartz",
 ];
 var partNames as string[] = [
     "ingot", "ore", "plate", "gear", "block", "nugget", "dust"
@@ -102,16 +102,6 @@ var oreDictAdd as IItemStack[][string] = {
         <minecraft:acacia_boat>,
         <minecraft:dark_oak_boat>
     ],
-    "mold" : [
-        <immersiveengineering:mold>,
-        <immersiveengineering:mold:1>,
-        <immersiveengineering:mold:2>,
-        <immersiveengineering:mold:3>,
-        <immersiveengineering:mold:4>,
-        <immersiveengineering:mold:5>,
-        <immersiveengineering:mold:6>,
-        <immersiveengineering:mold:7>
-    ],
     "stonePolished" : [
         <chisel:stonebrick2:9>
     ],
@@ -159,7 +149,12 @@ var oreDictAdd as IItemStack[][string] = {
     "ingotIronCompressed" : [<pneumaticcraft:ingot_iron_compressed>],
     "gearIronCompressed" : [<pneumaticcraft:compressed_iron_gear>],
     "blockIronCompressed" : [<pneumaticcraft:compressed_iron_block>],
-    "oreQuartz" : [<embers:ore_quartz>]
+    "dustAluminium" : [<thermalfoundation:material:68>],
+    "blockAluminium" : [<thermalfoundation:storage:4>],
+    "plateAluminium" : [<thermalfoundation:material:324>],
+    "nuggetAluminium" : [<thermalfoundation:material:196>],
+    "oreAluminium" : [<thermalfoundation:ore:4>],
+    "gearAluminium" : [<thermalfoundation:material:260>],
 };
 
 var oreDictRemove as IItemStack[] = [
@@ -221,6 +216,7 @@ for item in loadedMods["mysticalworld"].items {
 
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
 <ore:blockIce>.remove(<netherex:frostburn_ice>);
+<ore:dustAluminium>.remove(<nuclearcraft:dust:12>);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",

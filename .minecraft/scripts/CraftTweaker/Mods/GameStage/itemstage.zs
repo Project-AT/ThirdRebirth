@@ -47,6 +47,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:enlightenedFusedGlass>, <ore:darkFusedGlass>, <ore:holyFusedGlass>, <ore:holyEnlightenedFusedGlass>, <ore:holyDarkFusedGlass>, <ore:unholyFusedGlass>, <ore:unholyEnlightenedFusedGlass>, <ore:pastureFusedGlass>, <ore:pastureEnlightenedFusedGlass>, 
         <ore:pastureDarkFusedGlass>, <ore:notHolyFusedGlass>, <ore:notHolyEnlightenedFusedGlass>, <ore:notHolyDarkFusedGlass>, <ore:notUnholyFusedGlass>, <ore:notUnholyEnlightenedFusedGlass>, <ore:notUnholyDarkFusedGlass>, 
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>,
+        <multiblocked:pneumatic_pressure.any>,
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
@@ -78,19 +79,22 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "botania" : [
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
-        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>,
+        <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>, <multiblocked:bot_mana.any>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
     ],
     "aura" : [
-        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>,
+        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>, <multiblocked:natures_aura.any>,
     ],
     "evilstone" : [
         <trutils:evil_stone>
     ],
     "elixir" : [
         <contenttweaker:elixir_eyesight>
+    ],
+    "ember" : [
+        <multiblocked:ember.any>
     ],
 };
 
@@ -139,7 +143,10 @@ val exceptItemStacks as IIngredient[] = [
     <ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed1xDirt>, <ore:compressed2xDirt>, <ore:compressed1xSand>, <ore:compressed2xSand>, <ore:compressed1xGravel>, <ore:compressed2xGravel>, <ore:compressed1xNetherrack>, <ore:compressed2xNetherrack>, 
     <ore:itemSalt>, <ore:dustSalt>, <ore:foodSalt>, <ore:blockSalt>, <roots:wooden_shears>, <ore:redstoneRoot>,<botania:pestleandmortar>, <ore:dye>, <ore:rodIron>, <ore:stickSteel>, <ore:rodAluminum>, 
     <multiblocked:steam_boiler>, <multiblocked:turbine_generator>, <modularmachinery:blockbunker>, <multiblocked:multiblock_builder>,
-    <ore:gearWood>, <ore:gearStone>,
+    <ore:gearWood>, <ore:gearStone>, <botania:felpumpkin>, <extrautils2:flattransfernode>, <extrautils2:flattransfernode:1>, <extrautils2:grocket>,
+    <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
+    <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
+
 ];
 
 for stage, items in specialStageItemStackMap {

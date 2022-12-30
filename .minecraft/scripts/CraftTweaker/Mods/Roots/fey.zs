@@ -17,7 +17,7 @@ ferUtils(<roots:runic_shears>, [
     <roots:wooden_shears>, <roots:pereskia>, <ore:ingotGold>, <roots:runic_dust>, <roots:runic_dust>
 ], true);
 
-ferUtils(<roots:elemental_soil>, [
+ferUtils(<roots:elemental_soil> * 2, [
     <roots:runic_dust>, <minecraft:dirt:1>, <contenttweaker:mana_petals>, <roots:terra_moss>, <ore:wildroot>
 ], true);
 

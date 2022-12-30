@@ -15,7 +15,6 @@ AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 3, [<ore:ingotSteel> 
 AlloySmelter.addRecipe(<contenttweaker:glazed_refractory_brick>, [<ore:ingotBrickNether>, <contenttweaker:refractory_clay_ball> * 2, <contenttweaker:glaze>]);
 AlloySmelter.addRecipe(<enderio:item_material:50> * 2, [<psi:material:5> * 2, <quark:black_ash> * 4, <ore:slimeball>]);
 AlloySmelter.addRecipe(<enderio:item_material:49> * 2, [<ore:dyeBrown> , <ore:itemSlagRich> * 2, <ore:slimeball>]);
-AlloySmelter.addRecipe(<enderio:item_material:75>, [<ore:substanceEbony>, <ore:dustBedrock> * 2]);
 AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem * 2, [<ore:ingotGold>, <ore:ingotCopper>]);
 
 //Lv2

@@ -26,7 +26,7 @@ RecipeUtils.recipeTweak(true, <embers:sealed_planks> * 8,
     RecipeUtils.createSurround(<ore:slimeball>, <immersiveengineering:treated_wood>)
 );
 
-RecipeUtils.recipeTweak(true, <embers:plate_caminite_raw>, [
+RecipeUtils.recipeTweak(false, <embers:plate_caminite_raw>, [
     [<embers:blend_caminite>, <embers:stamp_plate>.reuse() | <immersiveengineering:mold>.reuse()]
 ]);
 
