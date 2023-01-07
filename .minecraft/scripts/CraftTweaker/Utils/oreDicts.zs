@@ -155,6 +155,28 @@ var oreDictAdd as IItemStack[][string] = {
     "nuggetAluminium" : [<thermalfoundation:material:196>],
     "oreAluminium" : [<thermalfoundation:ore:4>],
     "gearAluminium" : [<thermalfoundation:material:260>],
+    "gemCoal" : [<minecraft:coal>],
+    "gemCertusQuartz" : [<appliedenergistics2:material:0>],
+    "gemAmethyst" : [<netherex:amethyst_crystal>],
+    "gemRime" : [<netherex:rime_crystal>],
+    "oreRime" : [<netherex:rime_ore>],
+    "oreAmethyst" : [<netherex:amethyst_ore>],
+    "oreDiamond" : [<minecraft:diamond_ore>],
+    "gemDiamond" : [<minecraft:diamond>],
+    "dustDiamond" : [<nuclearcraft:gem_dust:0>],
+    "oreEmerald" : [<minecraft:emerald_ore>],
+    "gemEmerald" : [<minecraft:emerald>],
+    "dustEmerald" : [<lightningcraft:material:2>],
+    "gemDilithium" : [<matteroverdrive:dilithium_crystal>],
+    "dustDilithium" : [<contenttweaker:dilithium_dust>],
+    "oreDilithium" : [<matteroverdrive:dilithium_ore>],
+    "oreCoal" : [<minecraft:coal_ore>],
+    "dustCoal" : [<thermalfoundation:material:768>],
+    "gemChargedCertusQuartz": [<appliedenergistics2:material:1>],
+    "dustChargedCertusQuartz": [<appliedenergistics2:material:2>],
+    "crystalRedstone": [<minecraft:redstone>],
+    "crystalLapis": [<minecraft:dye:4>],
+    "dustLapis": [<enderio:item_material:32>],
 };
 
 var oreDictRemove as IItemStack[] = [
@@ -217,11 +239,17 @@ for item in loadedMods["mysticalworld"].items {
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
 <ore:blockIce>.remove(<netherex:frostburn_ice>);
 <ore:dustAluminium>.remove(<nuclearcraft:dust:12>);
+<ore:dustEmerald>.remove(<teslacorelib:powder_emerald>);
+<ore:gemAmethyst>.remove(<biomesoplenty:gem>);
+<ore:oreAmethyst>.remove(<biomesoplenty:gem_ore>);
+<ore:dustCoal>.remove(<nuclearcraft:gem_dust:7>);
+<ore:dustCoal>.remove(<enderio:item_material:23>);
+<ore:oreCertusQuartz>.remove(<appliedenergistics2:charged_quartz_ore>);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
-    "Lead", "Aluminum", "Dilithium", "Germanium"
+    "Lead", "Aluminum", "Germanium"
 ];
 
 for oreName in oreNames {

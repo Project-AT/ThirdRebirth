@@ -1,4 +1,4 @@
-#priority 5
+#priority 4
 #modloaded trutils
 
 import mods.embers.Stamper;
@@ -8,3 +8,8 @@ Stamper.add(<contenttweaker:rune> * 2, null, <embers:stamp_plate>, <botania:livi
 
 Stamper.add(<mekanism:polyethene>, <liquid:hdpe> * 100, <contenttweaker:stamp_nugget>);
 Stamper.add(<ore:ingotManganeseDioxide>.firstItem, <liquid:manganese_dioxide> * 144, <embers:stamp_bar>);
+
+mods.embers.Stamper.remove(<thermalfoundation:material:16>);
+mods.embers.Stamper.remove(<thermalfoundation:material:17>);
+Stamper.add(<thermalfoundation:material:16>, <liquid:diamond> * 76, <contenttweaker:stamp_nugget>);
+Stamper.add(<thermalfoundation:material:17>, <liquid:emerald> * 76, <contenttweaker:stamp_nugget>);

@@ -61,7 +61,6 @@ var removeAndHide as IItemStack[] = [
     <libvulpes:coalgenerator>,
     <libvulpes:productdust>,
     <libvulpes:ore0>,
-    <matteroverdrive:dilithium_ore>,
     <teslathingies:powder_maker>,
     <extendedcrafting:material>,
     <extendedcrafting:material:1>,
@@ -74,6 +73,7 @@ var removeAndHide as IItemStack[] = [
     <nuclearcraft:gem:6>,
     <nuclearcraft:dust:12>,
     <embers:ore_quartz>,
+    <teslathingies:tesla_plant_seeds>,
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -121,7 +121,8 @@ var baned as IItemStack[] = [
     <teslathingies:fluid_burner>,
     <teslathingies:incinerator>,
     <teslathingies:item_compound_producer>,
-    <embers:dust_metallurgic>
+    <embers:dust_metallurgic>,
+    <biomesoplenty:gem_ore>,
 ];
 
 val banRitual as IItemStack[] = [
@@ -131,9 +132,14 @@ val banRitual as IItemStack[] = [
     <roots:ritual_warding_protection>
 ];
 
+//隐藏的jei类型
 val hideCategory as string[] = [
     "nuclearcraft_alloy_furnace",
-    "Painter"
+    "Painter",
+    "item_compound_producer",
+    "incinerator",
+    "fluid_burner",
+    "compound_maker",
 ];
 
 for item in removeAndHide {

@@ -210,7 +210,7 @@ for oreName in oreNames {
         Crusher.removeRecipesForInput(crystal.firstItem);
         Crusher.addRecipe(dust.firstItem * 2, crystal, 2000, dust.firstItem, 1.0);
 
-        LightningCrusher.remove(crystal.firstItem);
+        LightningCrusher.remove(dust.firstItem);
         LightningCrusher.add(dust.firstItem * 3, crystal);
 
         enrichment.removeRecipe(crystal.firstItem);
@@ -301,5 +301,175 @@ for ore in oreDict.entries {
         else if (!stick.empty) {
             Lathe.addRecipe([stick.firstItem * 3 % 100], 50, 100, [ingot], [<liquid:water> * 100]);
         }
+    }
+}
+
+//--------------------------------宝石类矿石处理----------------------------------
+//无粉类的钻石级矿
+var LvDiamondNondust as string[] = [
+    "Rime", "Amethyst", 
+];
+
+for oreName in LvDiamondNondust {
+    var LvDiamondOreNondust as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var LvDiamondgemNondust as IOreDictEntry = oreDict.get("gem" ~ oreName);
+
+    if(!LvDiamondOreNondust.empty && !LvDiamondgemNondust.empty) {
+        
+        //2 块
+        //Grinder.removeRecipe(LvDiamondOreNondust.firstItem);
+        Grinder.addRecipe(LvDiamondgemNondust.firstItem * 2, LvDiamondOreNondust.firstItem, 8);
+
+        //Squeezer.removeRecipe(oreAuraInfusion.firstItem);
+        Squeezer.addRecipe(LvDiamondOreNondust.firstItem, LvDiamondgemNondust.firstItem, 1.0, LvDiamondgemNondust.firstItem, 1.0);
+
+        //3 块
+        //MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
+        MechanicalSqueezer.addRecipe(LvDiamondOreNondust.firstItem, LvDiamondgemNondust.firstItem * 2, 1.0, LvDiamondgemNondust.firstItem, 1.0);
+
+        Crusher.removeRecipesForInput(LvDiamondOreNondust.firstItem);
+        Crusher.addRecipe(LvDiamondgemNondust.firstItem * 2, LvDiamondOreNondust, 2000, LvDiamondgemNondust.firstItem, 1.0);
+
+        LightningCrusher.remove(LvDiamondgemNondust.firstItem);
+        LightningCrusher.add(LvDiamondgemNondust.firstItem * 3, LvDiamondOreNondust);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(LvDiamondgemNondust.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(LvDiamondgemNondust.firstItem);
+        Altar.addRecipe(name, LvDiamondOreNondust, LvDiamondgemNondust.firstItem * 3, <naturesaura:crushing_catalyst>, 500, 100);
+
+        enrichment.removeRecipe(LvDiamondOreNondust.firstItem);
+        enrichment.addRecipe(LvDiamondOreNondust, LvDiamondgemNondust.firstItem * 3);
+    }
+}
+//有粉类的钻石级矿
+var LvDiamondOre as string[] = [
+    "Diamond", "Emerald", "Dilithium"
+];
+
+for oreName in LvDiamondOre {
+    var LvDiamondOre as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var LvDiamondGem as IOreDictEntry = oreDict.get("gem" ~ oreName);
+    var LvDiamondDust as IOreDictEntry = oreDict.get("dust" ~ oreName);
+
+    if(!LvDiamondOre.empty && !LvDiamondGem.empty && !LvDiamondDust.empty) {
+        
+        //2 粉
+        //Grinder.removeRecipe(LvDiamondOre.firstItem);
+        Grinder.addRecipe(LvDiamondDust.firstItem * 2, LvDiamondOre.firstItem, 8);
+
+        //2 块
+        Squeezer.removeRecipesWithOutput(LvDiamondOre.firstItem);
+        Squeezer.addRecipe(LvDiamondOre.firstItem, LvDiamondGem.firstItem, 1.0, LvDiamondGem.firstItem, 1.0);
+
+        //3 块
+        MechanicalSqueezer.removeRecipesWithOutput(LvDiamondOre.firstItem);
+        MechanicalSqueezer.addRecipe(LvDiamondOre.firstItem, LvDiamondGem.firstItem * 2, 1.0, LvDiamondGem.firstItem, 1.0);
+
+        Crusher.removeRecipesForInput(LvDiamondOre.firstItem);
+        Crusher.addRecipe(LvDiamondGem.firstItem * 2, LvDiamondOre, 2000, LvDiamondGem.firstItem, 1.0);
+
+        enrichment.removeRecipe(LvDiamondOre.firstItem);
+        enrichment.addRecipe(LvDiamondOre, LvDiamondGem.firstItem * 3);
+
+        //3粉
+        LightningCrusher.remove(<lightningcraft:material:1>);
+        LightningCrusher.remove(LvDiamondDust.firstItem);
+        LightningCrusher.add(LvDiamondDust.firstItem * 3, LvDiamondOre);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(LvDiamondDust.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(LvDiamondDust.firstItem);
+        Altar.addRecipe(name, LvDiamondOre, LvDiamondDust.firstItem * 3, <naturesaura:crushing_catalyst>, 500, 100);
+
+    }
+}
+//煤炭级矿
+var LvCoalOre as string[] = [
+    "Coal", "Quartz", "CertusQuartz", "ChargedCertusQuartz"
+];
+
+for oreName in LvCoalOre {
+    var LvCoalOre as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var LvCoalGem as IOreDictEntry = oreDict.get("gem" ~ oreName);
+    var LvCoalDust as IOreDictEntry = oreDict.get("dust" ~ oreName);
+
+    if(!LvCoalOre.empty && !LvCoalGem.empty && !LvCoalDust.empty) {
+        
+        //3 粉
+        //Grinder.removeRecipe(LvCoalOre.firstItem);
+        Grinder.addRecipe(LvCoalDust.firstItem * 3, LvCoalOre.firstItem, 8);
+
+        //4 块
+        //Squeezer.removeRecipe(oreAuraInfusion.firstItem);
+        Squeezer.addRecipe(LvCoalOre.firstItem, LvCoalGem.firstItem * 2, 1.0, LvCoalGem.firstItem * 2, 1.0);
+
+        //5 块
+        //MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
+        MechanicalSqueezer.addRecipe(LvCoalOre.firstItem, LvCoalGem.firstItem * 3, 1.0, LvCoalGem.firstItem * 2, 1.0);
+
+        Crusher.removeRecipesForInput(LvCoalOre.firstItem);
+        Crusher.addRecipe(LvCoalGem.firstItem * 3, LvCoalOre, 2000, LvCoalGem.firstItem * 2, 1.0);
+
+        //6 块
+        enrichment.removeRecipe(LvCoalOre.firstItem);
+        enrichment.addRecipe(LvCoalOre, LvCoalGem.firstItem * 6);
+
+        //4粉
+        LightningCrusher.remove(<lightningcraft:material:3>);
+        LightningCrusher.remove(LvCoalDust.firstItem);
+        LightningCrusher.add(LvCoalDust.firstItem * 4, LvCoalOre);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(LvCoalDust.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(LvCoalDust.firstItem);
+        Altar.addRecipe(name, LvCoalOre, LvCoalDust.firstItem * 4, <naturesaura:crushing_catalyst>, 500, 100);
+
+    }
+}
+//红石级矿
+var LvRedstoneOre as string[] = [
+    "Redstone", "Lapis",
+];
+
+for oreName in LvRedstoneOre {
+    var LvRedstoneOre as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var LvRedstoneCrystal as IOreDictEntry = oreDict.get("crystal" ~ oreName);
+    var LvRedstoneDust as IOreDictEntry = oreDict.get("dust" ~ oreName);
+
+    if(!LvRedstoneOre.empty && !LvRedstoneCrystal.empty && !LvRedstoneDust.empty) {
+        
+        //4 粉
+        //Grinder.removeRecipe(LvRedstoneOre.firstItem);
+        Grinder.addRecipe(LvRedstoneDust.firstItem * 4, LvRedstoneOre.firstItem, 8);
+
+        //6 块
+        //Squeezer.removeRecipe(oreAuraInfusion.firstItem);
+        Squeezer.addRecipe(LvRedstoneOre.firstItem, LvRedstoneCrystal.firstItem * 3, 1.0, LvRedstoneCrystal.firstItem * 3, 1.0);
+
+        //8 块
+        //MechanicalSqueezer.removeRecipe(oreAuraInfusion.firstItem);
+        MechanicalSqueezer.addRecipe(LvRedstoneOre.firstItem, LvRedstoneCrystal.firstItem * 4, 1.0, LvRedstoneCrystal.firstItem * 4, 1.0);
+
+        Crusher.removeRecipesForInput(LvRedstoneCrystal.firstItem);
+        Crusher.addRecipe(LvRedstoneCrystal.firstItem * 4, LvRedstoneOre, 2000, LvRedstoneCrystal.firstItem * 4, 1.0);
+
+        //12 块
+        enrichment.removeRecipe(LvRedstoneOre.firstItem);
+        enrichment.addRecipe(LvRedstoneOre, LvRedstoneCrystal.firstItem * 12);
+
+        //8粉
+        LightningCrusher.remove(LvRedstoneCrystal.firstItem);
+        LightningCrusher.add(LvRedstoneDust.firstItem * 8, LvRedstoneOre);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(LvRedstoneDust.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(LvRedstoneDust.firstItem);
+        Altar.addRecipe(name, LvRedstoneOre, LvRedstoneDust.firstItem * 8, <naturesaura:crushing_catalyst>, 500, 100);
+
     }
 }

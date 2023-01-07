@@ -3,6 +3,8 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
@@ -257,4 +259,18 @@ artisanUtils.RecipeTweakWithLiquid("basic", false, <embers:sealed_planks>, [
     [<ore:plankTreatedWood>]
 ], <liquid:slime> * 18);
 
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<embers:archaic_bricks>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<embers:archaic_brick> * 2)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .setExtraOutputOne(<embers:archaic_brick>, 0.75)
+  .setExtraOutputTwo(<embers:archaic_brick>, 0.5)
+  .create();
 
+recipes.addShaped(<embers:archaic_light> * 2,
+    [[<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>],
+    [<embers:archaic_brick>, <ore:runeFireB>, <embers:archaic_brick>],
+    [<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>]]
+);
