@@ -245,6 +245,8 @@ for item in loadedMods["mysticalworld"].items {
 <ore:dustCoal>.remove(<nuclearcraft:gem_dust:7>);
 <ore:dustCoal>.remove(<enderio:item_material:23>);
 <ore:oreCertusQuartz>.remove(<appliedenergistics2:charged_quartz_ore>);
+<ore:ingotAluminium>.remove(<embers:ingot_aluminum>);
+<ore:plateAluminium>.remove(<embers:plate_aluminum>);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",

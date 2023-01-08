@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
@@ -274,3 +275,9 @@ recipes.addShaped(<embers:archaic_light> * 2,
     [<embers:archaic_brick>, <ore:runeFireB>, <embers:archaic_brick>],
     [<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>]]
 );
+
+var emberIngot as IItemStack[] = [<embers:ingot_copper>, <embers:ingot_lead>, <embers:ingot_silver>, <embers:ingot_aluminum>, <embers:ingot_tin>, <embers:ingot_nickel>];
+
+for Ingot in emberIngot {
+    furnace.remove(Ingot);
+}
