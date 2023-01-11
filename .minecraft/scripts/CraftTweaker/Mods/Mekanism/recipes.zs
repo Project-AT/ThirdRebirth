@@ -49,6 +49,9 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:2>, [
 //合成配方
 recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
 
+furnace.remove(<mekanism:ingot:6>);
+furnace.remove(<mekanism:ingot:4>);
+furnace.remove(<mekanism:ingot:5>);
 
 recipes.replaceAllOccurences(<mekanism:energytablet>, <ore:mekTabletReplacement>);
 RecipeUtils.recipeTweak(false, <mekanism:energytablet>, [[<contenttweaker:inactive_energytablet>]]);

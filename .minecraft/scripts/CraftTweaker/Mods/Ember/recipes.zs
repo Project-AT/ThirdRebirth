@@ -43,7 +43,7 @@ electronicAssembly.addRecipe("engineer", true, <embers:archaic_circuit> * 2, [
     [<embers:archaic_brick>, <ore:wireCopper>, <embers:archaic_brick>],
     [<embers:archaic_brick>, <ore:plateCopper>, <embers:archaic_brick>],
     [<embers:archaic_brick>, <ore:wireCopper>, <embers:archaic_brick>]
-], {<ore:artisansDriver> : 2, <ore:artisansSolderer> : 2} as int[IIngredient]);
+], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mech_core>, [
     [<ore:ingotSteel>, <ore:plateIron>, <ore:ingotSteel>],
@@ -55,7 +55,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mixer>, [
     [<ore:plateSteel>, <immersiveengineering:metal_decoration0:4>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:fanSteel>, <ore:plateSteel>],
     [<embers:block_caminite_brick>, <embers:mech_core>, <embers:block_caminite_brick>]
-], {<ore:artisansSpanner> : 10, <ore:artisansDriver> : 10} as int[IIngredient]);
+], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 15} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:pump>, [
     [null, <ore:dustRedstone>], 
@@ -88,7 +88,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:breaker>,
         .with("L", <ore:ingotLead>)
         .with("B", <ore:plateLead>)
         .with("R", <ore:dustRedstone>).get()
-, {<ore:artisansDriver> : 5, <ore:artisansSpanner> : 5} as int[IIngredient]);
+, {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 10} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <embers:blend_caminite> * 12,
     inputPattern(["NLN", "KSK", "NYN"])
@@ -104,7 +104,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stamper_base>,
         .with("G", <ore:ingotSteel>)
         .with("K", <embers:block_caminite_brick>)
         .with("T", <minecraft:bucket>).get()
-, {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
+, {<ore:artisansHammer> : 13, <ore:artisansSpanner> : 6});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stamper>, 
     inputPattern(["FGF", "TKT", "F F"])
@@ -112,56 +112,56 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stamper>,
         .with("G", <ore:ingotSteel>)
         .with("T", <ore:ingotCopper>)
         .with("K", <ore:blockSteel>).get()
-, {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 7});
+, {<ore:artisansHammer> : 15, <ore:artisansSpanner> : 8});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:item_transfer>,
     inputPattern(["QWQ", "EWE", "E E"])
         .with("Q", <ore:plateLead>)
         .with("W", <embers:item_pipe>)
         .with("E", <ore:ingotLead>).get()
-, {<ore:artisansSpanner> : 24});
+, {<ore:artisansSpanner> : 8});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:fluid_transfer>,
     inputPattern(["QWQ", "EWE", "E E"])
         .with("Q", <ore:plateIron>)
         .with("W", <embers:item_pipe>)
         .with("E", <ore:ingotIron>).get()
-, {<ore:artisansSpanner> : 24});
+, {<ore:artisansSpanner> : 8});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:bin>,
     inputPattern(["E E", "E E", "EQE"])
         .with("Q", <ore:plateIron>)
         .with("W", <embers:item_pipe>)
         .with("E", <ore:ingotIron>).get()
-, {<ore:artisansSpanner> : 20});
+, {<ore:artisansSpanner> : 5});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stone_valve>,
     inputPattern(["EEE", "W W", "EEE"])
         .with("Q", <ore:plateIron>)
         .with("W", <ore:ingotSteel>)
         .with("E", <embers:wall_caminite_brick>).get()
-, {<ore:artisansSpanner> : 24});
+, {<ore:artisansSpanner> : 12});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stone_edge>,
     inputPattern(["EEE", "W W", "EEE"])
         .with("Q", <ore:plateIron>)
         .with("W", <embers:brick_caminite>)
         .with("E", <embers:wall_caminite_brick>).get()
-, {<ore:artisansTrowel> : 24});
+, {<ore:artisansTrowel> : 12});
 
 artisanUtils.RecipeTweakWithTools_("engineer", true, <embers:block_tank>,
     inputPattern(["W W", "Q Q", "WEW"])
         .with("Q", <ore:plateIron>)
         .with("E", <ore:ingotSteel>)
         .with("W", <embers:brick_caminite>).get()
-, {<ore:artisansSpanner> : 27});
+, {<ore:artisansSpanner> : 10});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:large_tank>,
     inputPattern(["W W", "E E", "WQW"])
         .with("Q", <embers:block_tank>)
         .with("E", <ore:plateSteel>)
         .with("W", <embers:stairs_caminite_brick>).get()
-, {<ore:artisansTrowel> : 26});
+, {<ore:artisansTrowel> : 20});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_funnel>,
     inputPattern(["W W", "EQE", " E"])
@@ -182,46 +182,46 @@ electronicAssembly.addRecipe("engineer", true, <embers:spark_plug>,
         .with("Q", <embers:aspectus_silver>)
         .with("E", <ore:ingotAluminum>)
         .with("W", <ore:plateSteel>).get()
-, {<ore:artisansDriver> : 24, <ore:artisansSpanner> : 27});
+, {<ore:artisansDriver> : 12, <ore:artisansSpanner> : 13});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mini_boiler>,
     inputPattern(["WWW", "E W", "WWW"])
         .with("Q", <embers:aspectus_silver>)
         .with("E", <ore:ingotCopper>)
         .with("W", <ore:plateIron>).get()
-, {<ore:artisansDriver> : 22, <ore:artisansSpanner> : 18});
+, {<ore:artisansDriver> : 12, <ore:artisansSpanner> : 14});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_receiver> * 2,
     inputPattern(["E E", "WQW"])
         .with("Q", <embers:plate_caminite>)
         .with("E", <ore:ingotIron>)
         .with("W", <ore:ingotCopper>).get()
-, {<ore:artisansDriver> : 14, <ore:artisansSpanner> : 21});
+, {<ore:artisansDriver> : 5, <ore:artisansSpanner> : 7});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_emitter> * 2,
     inputPattern([" W"," W", "EQE"])
         .with("Q", <embers:plate_caminite>)
         .with("E", <ore:ingotIron>)
         .with("W", <ore:ingotCopper>).get()
-, {<ore:artisansDriver> : 17, <ore:artisansSpanner> : 14});
+, {<ore:artisansDriver> : 5, <ore:artisansSpanner> : 7});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:boiler>, [
     [<ore:rodCopper>, <ore:ingotCopper>, <ore:rodCopper>],
     [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>],
     [<ore:ingotSteel>, <ore:blockCopper>, <ore:ingotSteel>]
-], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
+], {<ore:artisansDriver> : 23, <ore:artisansSpanner> : 27} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:ember_activator>, [
     [<ore:rodCopper>, <ore:ingotCopper>, <ore:rodCopper>],
     [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>],
     [<embers:brick_caminite>, <ore:plateSteel>, <embers:brick_caminite>]
-], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
+], {<ore:artisansDriver> : 20, <ore:artisansSpanner> : 18} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:cinder_plinth>, [
     [null, <ore:plateLead>],
     [<ore:ingotSilver>, <minecraft:furnace>, <ore:ingotSilver>],
     [<ore:plateLead>, <embers:block_caminite_brick>, <ore:plateLead>]
-], {<ore:artisansDriver> : 33, <ore:artisansSpanner> : 33} as int[IIngredient]);
+], {<ore:artisansDriver> : 24, <ore:artisansSpanner> : 23} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:crystal_cell>,
     inputPattern(["QAQ", "WAW", "OUO"])
@@ -230,27 +230,27 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:crystal_cell>,
         .with("O", <embers:block_caminite_brick>)
         .with("U", <ore:blockCopper>)
         .with("A", <embers:crystal_ember>).get()
-, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+, {<ore:artisansSpanner> : 30, <ore:artisansDriver> : 28});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}),
     inputPattern(["QAQ", "AWA", "QAQ"])
         .with("A", <ore:ingotIron>)
         .with("W", <ore:blockCopper>)
         .with("Q", <embers:brick_caminite>).get()
-, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 18});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:reaction_chamber>,
     inputPattern(["QQQ", "Q Q", "OAO"])
         .with("Q", <ore:plateConstantan>)
         .with("O", <ore:ingotBronze>)
         .with("A", <embers:spark_plug>).get()
-, {<ore:artisansSpanner> : 22, <ore:artisansDriver> : 28});
+, {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 15});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:block_furnace>, [
     [<embers:plate_caminite>, null, <embers:plate_caminite>],
     [<ore:ingotSteel>, <ore:runeFireB>, <ore:ingotSteel>],
     [<ore:plateSteel>, <ore:coilCopper>, <ore:plateSteel>]
-], {<ore:artisansSpanner> : 23, <ore:artisansDriver> : 25});
+], {<ore:artisansSpanner> : 18, <ore:artisansDriver> : 17});
 
 artisanUtils.RecipeTweakWithLiquid("carpenter", false, <embers:sealed_planks>, [
     [<ore:plankTreatedWood>]

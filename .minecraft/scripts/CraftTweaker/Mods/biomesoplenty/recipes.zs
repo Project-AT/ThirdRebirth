@@ -6,6 +6,8 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+furnace.remove(<biomesoplenty:gem:0>);
+
 RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:0>, [
     [<biomesoplenty:waterlily:1>, <biomesoplenty:waterlily:1>]
 ]);

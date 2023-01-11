@@ -10,6 +10,22 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+var Ingots as IItemStack[] = [
+    <immersiveengineering:metal:8>,
+    <immersiveengineering:metal:7>,
+    <immersiveengineering:metal:6>,
+    <immersiveengineering:metal:5>,
+    <immersiveengineering:metal:4>,
+    <immersiveengineering:metal:3>,
+    <immersiveengineering:metal:2>,
+    <immersiveengineering:metal:1>,
+    <immersiveengineering:metal:0>,
+];
+
+for ingot in Ingots {
+    furnace.remove(ingot);
+}
+
 artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_decoration:1> * 3, [
     [<ore:ingotBrickNether>, <contenttweaker:refractory_brick>, <ore:ingotBrickNether>],
     [<contenttweaker:refractory_brick>, <buildinggadgets:constructionpaste>, <contenttweaker:refractory_brick>],
@@ -223,3 +239,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:metal_
     [<ore:ingotElectrum>, <ore:coilCopper>, <ore:ingotElectrum>],
     [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]
 ], {<ore:artisansSpanner> : 12, <ore:artisansDriver> : 15} as int[IIngredient]);
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<immersiveengineering:stone_decoration:10>])
+  .addTool(<ore:artisansHammer>, 2)
+  .addOutput(<contenttweaker:refractory_brick>)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .setExtraOutputOne(<minecraft:brick>, 1.0)
+  .setExtraOutputTwo(<contenttweaker:refractory_brick>, 0.75)
+  .setExtraOutputThree(<minecraft:brick>, 0.75)
+  .create();

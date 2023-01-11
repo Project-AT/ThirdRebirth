@@ -3,6 +3,11 @@
 
 import scripts.grassUtils.RecipeUtils;
 
+furnace.remove(<libvulpes:productingot:6>);
+furnace.remove(<libvulpes:productingot:9>);
+furnace.remove(<libvulpes:productingot:10>);
+furnace.remove(<libvulpes:productingot:0>);
+
 RecipeUtils.recipeTweak(true, <libvulpes:linker>, [
     [null, <ore:dustSignalum>, null],
     [<contenttweaker:high_strength_aluminum_alloy_plate>, <appliedenergistics2:material:23>, <contenttweaker:high_strength_aluminum_alloy_plate>],
