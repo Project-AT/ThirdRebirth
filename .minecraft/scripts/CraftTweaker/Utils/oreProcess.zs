@@ -3,6 +3,7 @@
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jei.JEI;
@@ -345,7 +346,7 @@ for oreName in LvDiamondNondust {
 }
 //有粉类的钻石级矿
 var LvDiamondOre as string[] = [
-    "Diamond", "Emerald", "Dilithium"
+    "Diamond", "Emerald", "Dilithium" ,"Draconium"
 ];
 
 for oreName in LvDiamondOre {

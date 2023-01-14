@@ -177,6 +177,10 @@ var oreDictAdd as IItemStack[][string] = {
     "crystalRedstone": [<minecraft:redstone>],
     "crystalLapis": [<minecraft:dye:4>],
     "dustLapis": [<enderio:item_material:32>],
+    "gemDraconium":[<draconicevolution:draconium_dust>],
+    "gemCharcoal":[<minecraft:coal:1>],
+    "gemCoke":[<immersiveengineering:material:6>],
+    "gemFluix":[<appliedenergistics2:material:7>],
 };
 
 var oreDictRemove as IItemStack[] = [

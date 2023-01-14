@@ -1,3 +1,6 @@
+#priority -4
+#modloaded trutils
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
@@ -9,9 +12,91 @@ import mods.naturesaura.Altar;
 import mods.lightningcraft.LightningCrusher;
 import mods.roots.Mortar;
 import mods.modularmachinery.RecipePrimer;
+import mods.immersiveengineering.Crusher;
+import mods.mekanism.crusher;
+import mods.poweredthingies.Tweaker.powderMakerTweaker;
+import mods.nuclearcraft.Manufactory;
 
 import scripts.grassUtils.StringHelper;
+import scripts.grassUtils.RecipeUtils;
 
+var Metal as string[] = [
+    "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
+    "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
+    "Lead", "Aluminum", "Dilithium", "Germanium", "Steel", "Electrum", "Invar", "Bronze", "Constantan", "Signalum", "Lumium", "Enderium",
+    "ManganeseDioxide" ,"ManganeseOxide", "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite",
+];
+
+var Gem as string[] = [
+    "Diamond", "Emerald", "Dilithium", "Coal", "Quartz", "CertusQuartz", "ChargedCertusQuartz", "Lapis",
+    "Charcoal", "Fluorite", "BoronNitride", "Rhodochrosite", "Fluix", "Coke"
+];
+
+var num as int = 0;
+
+function powderMaker(input as IItemStack, output as IItemStack){
+    powderMakerTweaker().addRecipe(input, [output % 100]);
+}
+
+for MetalName in Metal {
+    var ingotMetal as IOreDictEntry = oreDict.get("ingot" ~ MetalName);
+    var dustMetal as IOreDictEntry = oreDict.get("dust" ~ MetalName);
+
+    if(!ingotMetal.empty && !dustMetal.empty) {
+        
+        Grinder.removeRecipe(ingotMetal.firstItem);
+        Grinder.addRecipe(dustMetal.firstItem, ingotMetal.firstItem, 4);
+
+        Crusher.removeRecipesForInput(ingotMetal.firstItem);
+        Crusher.addRecipe(dustMetal.firstItem, ingotMetal, 2000);
+
+        LightningCrusher.add(dustMetal.firstItem, ingotMetal);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(ingotMetal.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(dustMetal.firstItem);
+        Altar.addRecipe(name, ingotMetal, dustMetal.firstItem, <naturesaura:crushing_catalyst>, 250, 100);
+
+        crusher.removeRecipe(ingotMetal.firstItem);
+        crusher.addRecipe(ingotMetal, dustMetal.firstItem);
+
+        powderMaker(ingotMetal.firstItem, dustMetal.firstItem);
+
+        mods.nuclearcraft.Manufactory.removeRecipeWithInput(ingotMetal);
+        mods.nuclearcraft.Manufactory.addRecipe(ingotMetal, dustMetal.firstItem);
+    }
+}
+for GemName in Gem {
+    var gemMetal as IOreDictEntry = oreDict.get("gem" ~ GemName);
+    var dustMetal as IOreDictEntry = oreDict.get("dust" ~ GemName);
+
+    if(!gemMetal.empty && !dustMetal.empty) {
+        
+        Grinder.removeRecipe(gemMetal.firstItem);
+        Grinder.addRecipe(dustMetal.firstItem, gemMetal.firstItem, 4);
+
+        Crusher.removeRecipesForInput(gemMetal.firstItem);
+        Crusher.addRecipe(dustMetal.firstItem, gemMetal, 2000);
+
+        LightningCrusher.add(dustMetal.firstItem, gemMetal);
+
+        var name as string = "Altar" ~ StringHelper.getItemNameWithUnderline(gemMetal.firstItem) ~ num;
+        num = num + 1;
+
+        Altar.removeRecipe(dustMetal.firstItem);
+        Altar.addRecipe(name, gemMetal, dustMetal.firstItem, <naturesaura:crushing_catalyst>, 250, 100);
+
+        crusher.removeRecipe(gemMetal.firstItem);
+        crusher.addRecipe(gemMetal, dustMetal.firstItem);
+
+        powderMaker(gemMetal.firstItem, dustMetal.firstItem);
+
+        mods.nuclearcraft.Manufactory.removeRecipeWithInput(gemMetal);
+        mods.nuclearcraft.Manufactory.addRecipe(gemMetal, dustMetal.firstItem);
+    }
+}
+#------------------------------------------------------------------------------------
 function getRecipeName(output as IItemStack) as string {
     var recipeName as string = "ThirdRebirth_" + StringHelper.getItemNameWithUnderline(output);
     return recipeName;
