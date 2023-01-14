@@ -7,7 +7,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 val defaultStageModMap as string[][string] = {
     "two" : [
-        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets", "teslacorelib"
+        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets", "teslacorelib", "artisanautomation"
     ],
     "three" : [
         "enderio", "nuclearcraft"
@@ -25,7 +25,7 @@ val defaultStageModMap as string[][string] = {
         "naturesaura"
     ],
     "botania" : [
-        "botania", "botanianeedsit"
+        "botania", "botanianeedsit", "botania_tweaks"
     ],
     "ember" : [
         "embers"
@@ -36,6 +36,12 @@ val defaultStageModMap as string[][string] = {
     "five" : [
         "advancedrocketry", "mekanism"
     ],
+    "lightning" : [
+        "lightningcraft"
+    ],
+    "ductdynamic" : [
+        "thermaldynamics"
+    ]
 };
 
 //无阶段mod
@@ -44,7 +50,7 @@ var modUsed as string[] = [
     "immersiveengineering", "akashictome", "morphtool", "tombstone", "harvestcraft", "survivalist", "cookingforblockheads",
     "mysticalworld", "storagedrawers", "fluiddrawers", "netherex", "openglider", "waystones", "betteranimalsplus",
     "thermalfoundation", "biomesoplenty", "familiarfauna", "ironchest", "traverse", "compactdrawers", "bountifulbaubles",
-    "pouchofunknown", "The One Probe", "forge", "chisel", "ftbquests", "toolbelt", "jecalculation", "theoneprobe"
+    "pouchofunknown", "The One Probe", "forge", "chisel", "ftbquests", "toolbelt", "jecalculation", "theoneprobe",
 ];
 
 for stage, modids in defaultStageModMap {

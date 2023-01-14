@@ -6,6 +6,9 @@ import crafttweaker.item.IIngredient;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+recipes.addShaped(<teslathingies:crop_farm>,
+[[<mysticalworld:assorted_seeds>, <teslathingies:misc_farmer>, <mysticalworld:assorted_seeds>]]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslacorelib:machine_case>,
     RecipeUtils.createCrossWithCore(<immersiveengineering:material:27>, <ore:stonePolished>, <ore:ingotSteel>)
 , {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 5} as int[IIngredient]);

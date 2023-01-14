@@ -79,7 +79,15 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <embers:item_pipe> * 8, [
 
 artisanUtils.RecipeTweakWithTools("basic", false, <embers:wrapped_sealed_planks>, [
     [<embers:sealed_planks>, <ore:barsIron>]
+], {<ore:artisansHammer> | <ore:artisansFramingHammer> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("blacksmith", false, <embers:wrapped_sealed_planks>, [
+    [<embers:sealed_planks>, <ore:barsIron>]
 ], {<ore:artisansHammer> : 1} as int[IIngredient]);
+
+artisanUtils.RecipeTweakWithTools("carpenter", false, <embers:wrapped_sealed_planks>, [
+    [<embers:sealed_planks>, <ore:barsIron>]
+], {<ore:artisansFramingHammer> : 1} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:breaker>,
     inputPattern(["TDT", "LBL", "LRL"])

@@ -80,6 +80,8 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "botania" : [
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
         <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>, <multiblocked:bot_mana.any>,
+        <lightningcraft:stone_block>, <lightningcraft:stone_block:1>, <lightningcraft:stone_block:2>, <lightningcraft:stone_block:9>, <lightningcraft:stone_block:12>, 
+        <lightningcraft:slab_block>, <lightningcraft:thunder_stairs>, <lightningcraft:slab_block_double>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
@@ -96,6 +98,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "ember" : [
         <multiblocked:ember.any>
     ],
+    
 };
 
 //无阶段物品

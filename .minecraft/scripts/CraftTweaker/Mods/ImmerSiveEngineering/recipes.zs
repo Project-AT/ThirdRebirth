@@ -26,6 +26,10 @@ for ingot in Ingots {
     furnace.remove(ingot);
 }
 
+recipes.addShaped(<minecraft:torch> * 8,
+ [[<ore:fuelCoke>, null, null],
+ [<ore:stickWood>, <ore:stickWood>, null],]);
+
 artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_decoration:1> * 3, [
     [<ore:ingotBrickNether>, <contenttweaker:refractory_brick>, <ore:ingotBrickNether>],
     [<contenttweaker:refractory_brick>, <buildinggadgets:constructionpaste>, <contenttweaker:refractory_brick>],
@@ -203,7 +207,7 @@ electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27
         .with("W", <embers:archaic_circuit>)
         .with("S", <contenttweaker:insulating_substrate>)
         .with("E", <ore:electronTube>).get()
-, {<ore:artisansSolderer> : 23});
+, {<ore:artisansSolderer> : 24});
 
 electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27>,
     inputPattern(["Q Q", "EQE", "SSS"])
@@ -211,7 +215,7 @@ electronicAssembly.addRecipe("engineer", true, <immersiveengineering:material:27
         .with("W", <embers:archaic_circuit>)
         .with("S", <contenttweaker:insulating_substrate>)
         .with("E", <ore:electronTube>).get()
-, {<ore:artisansSolderer> : 21});
+, {<ore:artisansSolderer> : 10});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <immersiveengineering:stone_decoration:2>, [
     [null, <ore:plateSteel>],
