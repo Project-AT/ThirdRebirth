@@ -26,9 +26,10 @@ for ingot in Ingots {
     furnace.remove(ingot);
 }
 
-recipes.addShaped(<minecraft:torch> * 8,
- [[<ore:fuelCoke>, null, null],
- [<ore:stickWood>, <ore:stickWood>, null],]);
+RecipeUtils.recipeTweak(true, <minecraft:torch> * 8, [
+    [<ore:fuelCoke>],
+    [<ore:stickWood>, <ore:stickWood>]
+]);
 
 artisanUtils.RecipeTweakWithTools("basic", true, <immersiveengineering:stone_decoration:1> * 3, [
     [<ore:ingotBrickNether>, <contenttweaker:refractory_brick>, <ore:ingotBrickNether>],

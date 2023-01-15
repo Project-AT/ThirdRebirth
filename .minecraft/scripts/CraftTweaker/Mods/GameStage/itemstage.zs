@@ -149,7 +149,7 @@ val exceptItemStacks as IIngredient[] = [
     <ore:gearWood>, <ore:gearStone>, <botania:felpumpkin>, <extrautils2:flattransfernode>, <extrautils2:flattransfernode:1>, <extrautils2:grocket>,
     <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
-    <ore:dustEmerald>, <ore:dustDiamond>,
+    <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>
 ];
 
 for stage, items in specialStageItemStackMap {
