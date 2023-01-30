@@ -19,7 +19,8 @@ function addChiselByOre(ore as IOreDictEntry) as void
     return;
 }
 
-addChiselByOre(<ore:mold>);
+addChiselByOre(<ore:blockAshenStone>);
+
 Carving.removeVariation("ice", <netherex:frostburn_ice>);
 Carving.removeVariation("netherrack", <netherex:fiery_netherrack>);
 Carving.removeVariation("netherrack", <netherex:icy_netherrack>);

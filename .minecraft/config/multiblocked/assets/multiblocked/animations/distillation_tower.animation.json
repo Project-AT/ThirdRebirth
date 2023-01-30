@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true,
+			"bones": {
+				"bone3": {
+					"position": {
+						"vector": [0, -0.16, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

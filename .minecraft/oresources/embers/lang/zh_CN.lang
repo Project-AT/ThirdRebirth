@@ -116,6 +116,9 @@ tile.geo_separator.name=地质分离器
 tile.item_request.name=物品请求节点
 tile.reaction_chamber.name=反应锅炉
 tile.ember_pipe.name=不稳定灰烬能量管道
+tile.mech_edge.name=机器边缘
+tile.inferno_forge_edge.name=炼狱锻造炉边缘
+tile.advanced_edge.name=晶胞灰烬能量单元边缘
 
 fluid.iron=熔融铁
 fluid.gold=熔融金

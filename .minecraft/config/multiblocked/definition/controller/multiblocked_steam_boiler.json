@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "location": "multiblocked:steam_boiler",
   "traits": {},
   "properties": {
@@ -45,7 +45,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "85701754-ce99-40e8-9c07-bfb3bd8424d4",
+  "recipeMap": "steam_boiler",
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -123,17 +123,6 @@
         "type": "states",
         "disableRenderFormed": true
       },
-      "C": {
-        "states": [
-          {
-            "id": "fluiddrawers:tank",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true,
-        "io": "IN"
-      },
       "FluidInput": {
         "capability": "fluid",
         "type": "capability",
@@ -179,8 +168,7 @@
         "B"
       ],
       "C": [
-        "FluidOutput",
-        "C"
+        "FluidOutput"
       ],
       "D": [
         "FluidInput"

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "location": "mod_id:turbine_id",
+  "version": 2,
+  "location": "multiblocked:turbine_generator",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,11 +16,8 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "immersiveengineering:metal_decoration0",
-          "meta": 3
-        },
-        "type": "blockstate"
+        "modelLocation": "multiblocked:turbine_generator_controller",
+        "type": "imodel"
       }
     },
     "idle": {
@@ -103,7 +100,7 @@
         "disableRenderFormed": true
       },
       "controller": {
-        "location": "mod_id:turbine_id",
+        "location": "multiblocked:turbine_generator",
         "type": "component"
       },
       "C": {

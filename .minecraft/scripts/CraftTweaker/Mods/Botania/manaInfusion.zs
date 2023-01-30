@@ -13,3 +13,5 @@ ManaInfusion.addInfusion(<botania:storage:0>, <ore:blockRustyIron>, 36000);
 ManaInfusion.addInfusion(<contenttweaker:mana_petals>, <roots:petals>, 500);
 ManaInfusion.addInfusion(<botania:manaresource:16>, <contenttweaker:straw_rope>, 3000);
 ManaInfusion.addInfusion(<botania:manaresource:16>, <ore:string>, 6000);
+ManaInfusion.addInfusion(<botania:manaresource:0>, <ore:ingotPureIron>, 1500);
+ManaInfusion.addInfusion(<botania:storage:0>, <ore:blockPureIron>, 13500);

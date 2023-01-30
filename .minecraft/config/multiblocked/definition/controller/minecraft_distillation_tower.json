@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "location": "minecraft:distillation_tower",
+  "version": 2,
+  "location": "multiblocked:distillation_tower",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,28 +16,32 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "modularcontroller:fractionator_controller",
-          "meta": 1
-        },
-        "type": "blockstate"
+        "modelLocation": "multiblocked:distillation_tower_controller",
+        "type": "imodel"
       }
     },
     "idle": {
       "renderer": {
-        "modelLocation": "multiblocked:obj/distillation_tower.obj",
-        "type": "obj"
+        "modelName": "distillation_tower",
+        "type": "geo"
       },
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "parent": "idle",
+      "sound": {
+        "sound": "embers:block.copper_charger.loop",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
     }
   },
-  "recipeMap": "empty",
+  "recipeMap": "distillation",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -94,21 +98,21 @@
         " C C ",
         " CEC ",
         " C C ",
-        " ADA "
+        " AMA "
       ],
       [
         "AAAAA",
         " AFA ",
         " AAA ",
-        " BDB ",
+        " BHB ",
         " ACA ",
-        " BDB ",
+        " BIB ",
         " ACA ",
-        " BDB ",
+        " BJB ",
         " ACA ",
-        " BDB ",
+        " BKB ",
         " ACA ",
-        " BDB ",
+        " BLB ",
         " ACA ",
         " ACA ",
         " AAA "
@@ -154,6 +158,19 @@
       ]
     ],
     "predicates": {
+      "LiquidInput": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "dt1": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt1"
+      },
       "A": {
         "states": [
           {
@@ -165,7 +182,7 @@
         "disableRenderFormed": true
       },
       "controller": {
-        "location": "minecraft:distillation_tower",
+        "location": "multiblocked:distillation_tower",
         "type": "component"
       },
       "B": {
@@ -178,6 +195,13 @@
         "type": "states",
         "disableRenderFormed": true
       },
+      "dt3": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt3"
+      },
       "C": {
         "states": [
           {
@@ -188,15 +212,19 @@
         "type": "states",
         "disableRenderFormed": true
       },
-      "D": {
-        "states": [
-          {
-            "id": "fluiddrawers:tank",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
+      "dt2": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt2"
+      },
+      "dt5": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt5"
       },
       "E": {
         "states": [
@@ -208,15 +236,25 @@
         "type": "states",
         "disableRenderFormed": true
       },
-      "F": {
-        "states": [
-          {
-            "id": "immersiveengineering:metal_device0",
-            "meta": 2
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
+      "dt4": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt4"
+      },
+      "FEinput": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "dt6": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT",
+        "slotName": "dt6"
       },
       "any": {
         "type": "any"
@@ -239,13 +277,31 @@
         "C"
       ],
       "D": [
-        "D"
+        "LiquidInput"
       ],
       "E": [
         "E"
       ],
       "F": [
-        "F"
+        "FEinput"
+      ],
+      "H": [
+        "dt1"
+      ],
+      "I": [
+        "dt2"
+      ],
+      "J": [
+        "dt3"
+      ],
+      "K": [
+        "dt4"
+      ],
+      "L": [
+        "dt5"
+      ],
+      "M": [
+        "dt6"
       ]
     }
   }

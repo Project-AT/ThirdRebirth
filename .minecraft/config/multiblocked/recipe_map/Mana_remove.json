@@ -1,0 +1,778 @@
+{
+  "name": "Mana_remove",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "b7658da2-7f50-4cb4-bb31-e62574b61582",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:pure_iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 0
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "679358aa-4fe4-403e-bcb2-ace75aee45af",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:pure_iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 1
+            },
+            "count": 1
+          }
+        },
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 0
+          }
+        }
+      ]
+    },
+    {
+      "uid": "d683986e-8d78-494d-a4d9-2aedc3773c87",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:pure_iron_ingot\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1500
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovequartz1",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:quartz\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:quartz\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 125
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 0
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovequartz2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:quartz\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:quartz\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 125
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 1
+            },
+            "count": 1
+          }
+        },
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 0
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovequartz3",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:quartz\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:quartz\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 125
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovediamond1",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 0
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovediamond2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 1
+            },
+            "count": 1
+          }
+        },
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 0
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovediamond3",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovepearl1",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 6000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 0
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovepearl2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 6000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 1
+            },
+            "count": 1
+          }
+        },
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 0
+          }
+        }
+      ]
+    },
+    {
+      "uid": "manaremovepearl3",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:manaresource\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 6000
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "silicon1",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mana_infused_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:infused_protective_layer_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1250
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 0
+            },
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "uid": "silicon2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mana_infused_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:infused_protective_layer_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1250
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 1
+            },
+            "count": 1
+          }
+        },
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 0
+          }
+        }
+      ]
+    },
+    {
+      "uid": "silicon3",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mana_infused_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:infused_protective_layer_crude_silicon_dust\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 1250
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "botania:storage",
+              "meta": 2
+            },
+            "count": 2
+          }
+        }
+      ]
+    }
+  ]
+}

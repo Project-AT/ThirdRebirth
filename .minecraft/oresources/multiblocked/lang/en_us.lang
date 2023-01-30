@@ -1,16 +1,31 @@
-# 机器
+# Machinery ------------------------------------------------------
+#Steam Boiler
 tile.multiblocked.steam_boiler.name=Steam Boiler Controller
 steam_boiler.name=Steam Boiler
 multiblocked.recipe_map.steam_boiler=Steam Boiler
 multiblocked.recipe_map.steam_boiler Fuel=Steam Boiler Fuel
-multiblocked.steam_boiler.description=Equipment that can burn solid or liquid fuels and heat water to produce steam. \nThe top is the steam output port, the bottom two input port are the fuel input port, and the remaining liquid input port is the water input port.
-
+multiblocked.steam_boiler.description=Equipment that can burn solid or liquid fuels and heat water to produce steam. The top is the steam output port, the bottom two input port are the fuel input port, and the remaining liquid input port is the water input port.
+#Steam Turbine Generator
 tile.multiblocked.turbine_generator.name=Steam Turbine Generator Controller
 turbine_generator.name=Steam Turbine Generator
 multiblocked.recipe_map.turbine=Steam Turbine Generator
-multiblocked.turbine_generator.description=A generator that generates electricity by inputting steam.\nThe liquid input port at the tail is the steam input port, and the steam after work is condensed into water and stored at the liquid output port near the head.
-
-
+multiblocked.turbine_generator.description=A generator that generates electricity by inputting steam.The liquid input port at the tail is the steam input port, and the steam after work is condensed into water and stored at the liquid output port near the head.
+#Mana Remover
+tile.multiblocked.mana_remover.name=Mana Remove Core
+mana_remover.name=Mana Remover
+multiblocked.recipe_map.Mana_remove=Mana Remover
+multiblocked.mana_remover.description=A device that can remove Mana from items and collect Mana which separated from the items. The input and output ports at corresponding positions can be arbitrarily set in the controller. Replacing all Block of Manasteel in the structure with Block of Elementium can increase the processing speed by 60% compared, while replacing one of the two Block of Elementium with Blcok of Terrasteel can increase the processing speed to one time per tick.
+#Refinery
+tile.multiblocked.refinery.name=Refinery Controller
+refinery.name=Refinery
+multiblocked.recipe_map.refinery=Refinery
+multiblocked.refinery.description=Items or fluids can be refined or extracted by consuming FE and Ember Energy.
+#Distillation Tower
+tile.multiblocked.distillation_tower.name=Distillation Tower Contrpller
+distillation_tower.name=Distillation Tower
+multiblocked.recipe_map.distillation_tower=Distillation Tower
+multiblocked.distillation_tower.description=The Distillation Tower made of Dawn Stone can separate different products from Crude Oil.
+#---------------------------------------------------------------
 multiblocked.multiblock.formed= formed!
 
 multiblocked.capability.recipe_progress=Recipe Progress

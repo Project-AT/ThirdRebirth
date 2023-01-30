@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "location": "minecraft:mana_remover",
+  "version": 2,
+  "location": "multiblocked:mana_remover",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,11 +16,8 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "botania:manavoid",
-          "meta": 0
-        },
-        "type": "blockstate"
+        "modelLocation": "multiblocked:mana_remover_controller",
+        "type": "imodel"
       }
     },
     "idle": {
@@ -31,13 +28,20 @@
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "parent": "idle",
+      "sound": {
+        "sound": "botania:manapoolcraft",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
     }
   },
-  "recipeMap": "empty",
+  "recipeMap": "Mana_remove",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -90,7 +94,7 @@
         "disableRenderFormed": true
       },
       "controller": {
-        "location": "minecraft:mana_remover",
+        "location": "multiblocked:mana_remover",
         "type": "component"
       },
       "B": {
@@ -111,7 +115,56 @@
         ],
         "type": "states"
       },
-      "D": {
+      "TerraSteel": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "ManaPool": {
+        "capability": "bot_mana",
+        "type": "capability",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      },
+      "Item": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true
+      },
+      "AManaStell": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "BElementium": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "ManaDiamond": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "AManaDiamond": {
         "states": [
           {
             "id": "botania:storage",
@@ -120,47 +173,15 @@
         ],
         "type": "states"
       },
-      "E": {
+      "zzsy": {
         "states": [
           {
-            "id": "extrautils2:largishchest",
+            "id": "botania:quartztypemana",
             "meta": 1
           }
         ],
         "type": "states",
         "disableRenderFormed": true
-      },
-      "F": {
-        "states": [
-          {
-            "id": "extrautils2:largishchest",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
-      },
-      "G": {
-        "states": [
-          {
-            "id": "botania:manavoid",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
-      },
-      "H": {
-        "states": [
-          {
-            "id": "botania:pool",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
@@ -180,19 +201,24 @@
         "C"
       ],
       "D": [
-        "D"
+        "AManaStell",
+        "TerraSteel",
+        "BElementium"
       ],
       "E": [
-        "E"
+        "Item",
+        "B"
       ],
       "F": [
-        "F"
+        "Item",
+        "zzsy"
       ],
       "G": [
-        "G"
+        "ManaDiamond",
+        "AManaDiamond"
       ],
       "H": [
-        "H"
+        "ManaPool"
       ]
     }
   }

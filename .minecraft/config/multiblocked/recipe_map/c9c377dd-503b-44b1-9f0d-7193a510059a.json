@@ -1,0 +1,62 @@
+{
+  "name": "distillation",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "bd54ecf3-e953-48c1-a8c1-ca5019a30962",
+      "duration": 10,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "slotName": "dt1",
+            "content": "{FluidName:\"petrotheum\",Amount:30}"
+          },
+          {
+            "chance": 1.0,
+            "slotName": "dt2",
+            "content": "{FluidName:\"diesel\",Amount:10}"
+          },
+          {
+            "chance": 1.0,
+            "slotName": "dt3",
+            "content": "{FluidName:\"kerosene\",Amount:10}"
+          },
+          {
+            "chance": 1.0,
+            "slotName": "dt4",
+            "content": "{FluidName:\"fuel\",Amount:10}"
+          },
+          {
+            "chance": 1.0,
+            "slotName": "dt5",
+            "content": "{FluidName:\"lpg\",Amount:20}"
+          },
+          {
+            "chance": 1.0,
+            "slotName": "dt6",
+            "content": "{FluidName:\"vapor_of_levity\",Amount:20}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 200
+          }
+        ]
+      }
+    }
+  ]
+}

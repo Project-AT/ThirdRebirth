@@ -1,0 +1,122 @@
+{
+  "name": "steam_boiler",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 20,
+  "recipes": [
+    {
+      "uid": "814422a5-dee4-41fe-8d71-0e8d7f7a3921",
+      "duration": 10,
+      "tickInputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:10}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"steam\",Amount:50}"
+          }
+        ]
+      }
+    }
+  ],
+  "fuelRecipes": [
+    {
+      "uid": "d66a2e6a-9c2d-4bee-898c-a3b9fd760347",
+      "duration": 20,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"trutils:equivalent_fuel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "reverse": true,
+            "dim": "the_nether"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "8108913a-c280-4bc5-a52a-4000f5ad8ced",
+      "duration": 30,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"trutils:equivalent_fuel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_nether"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "1ef4c648-cd8c-4f9a-bf75-d87101353ea1",
+      "duration": 20,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:250}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "reverse": true,
+            "dim": "the_nether"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "636a6d8f-15cc-4816-8e22-60c5ff445cff",
+      "duration": 30,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:250}"
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_nether"
+          }
+        }
+      ]
+    }
+  ]
+}

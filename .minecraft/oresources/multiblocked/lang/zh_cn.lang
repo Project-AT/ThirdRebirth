@@ -1,16 +1,31 @@
-# 机器
+# 机器 ------------------------------------------------------
+#蒸汽锅炉
 tile.multiblocked.steam_boiler.name=蒸汽锅炉控制器
 steam_boiler.name=蒸汽锅炉
 multiblocked.recipe_map.steam_boiler=蒸汽锅炉
 multiblocked.recipe_map.steam_boiler Fuel=蒸汽锅炉燃料
-multiblocked.steam_boiler.description=可以燃烧固体或液体燃料，加热水以生产蒸汽的设备。\n其顶部为蒸汽输出口 ，底部的两个输入口都是燃料输入口，剩下的那个液体输入口便是输入水的。
-
+multiblocked.steam_boiler.description=可以燃烧固体或液体燃料，加热水以生产蒸汽的设备。其顶部为蒸汽输出口 ，底部的两个输入口都是燃料输入口，剩下的那个液体输入口便是输入水的。
+#蒸汽涡轮发电机
 tile.multiblocked.turbine_generator.name=蒸汽涡轮发电机控制器
 turbine_generator.name=蒸汽涡轮发电机
 multiblocked.recipe_map.turbine=蒸汽涡轮发电机
-multiblocked.turbine_generator.description=可以通过输入蒸汽来发电的发电机。\n其尾部的液体输入口为蒸汽输入口 ，做功后的蒸汽冷凝为水后会储存在靠近头部的液体输出口。
-
-
+multiblocked.turbine_generator.description=可以通过输入蒸汽来发电的发电机。其尾部的液体输入口为蒸汽输入口 ，做功后的蒸汽冷凝为水后会储存在靠近头部的液体输出口。
+#驱魔机
+tile.multiblocked.mana_remover.name=驱魔核心
+mana_remover.name=驱魔机
+multiblocked.recipe_map.mana_remove=驱魔机
+multiblocked.mana_remover.description=可以将魔力从物品中祛除,并收集分离出来的魔力的设备。可以在控制器任意设置在对应位置的输入输出口。将结构内的魔力钢块全部换成源质钢块可以比原先提高60%的处理速度,而将两块的源质钢块的其中一个换成泰拉钢块,就可以把处理速度提升到每tick一次的速度。
+#提炼机
+tile.multiblocked.refinery.name=提炼机控制器
+refinery.name=提炼机
+multiblocked.recipe_map.refinery=提炼机
+multiblocked.refinery.description=可以通过消耗FE和余烬能量，对物品或流体进行提炼或萃取。
+#精馏塔
+tile.multiblocked.distillation_tower.name=精馏塔控制器
+distillation_tower.name=精馏塔
+multiblocked.recipe_map.distillation_tower=精馏塔
+multiblocked.distillation_tower.description=以黎明石为建筑材料的精馏塔，可以将原油中的不同产物分离出来。
+#---------------------------------------------------------------
 multiblocked.multiblock.formed=结构形成！
 
 multiblocked.capability.tc6_aspect=神秘要素

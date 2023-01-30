@@ -1,0 +1,257 @@
+{
+  "name": "refinery",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "da2f118f-b8f8-404f-8469-c58bc23a4064",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:tartaric_acid\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"infused_slag_slurry\",Amount:500}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"slag_waste_slurry\",Amount:450}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"germanium_slurry\",Amount:50}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d65d6d9e-6f00-4263-9aeb-cf79e8e4d12d",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:frostburn_ice\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"gas_dwarf\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cryotheum\",Amount:50}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9d6e05df-39b9-4573-9121-a3c1c22869a1",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"embers:dust_ash\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil_soul\",Amount:250}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:soul_extract\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil\",Amount:250}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "98222195-9d2b-4fe8-a068-17bcecbbd739",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:icy_netherrack\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:icy_netherbrick\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 5.0E-4,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:rime_crystal\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"cryotheum\",Amount:10}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "002610d0-55ab-4fec-b24f-13f5793acec7",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:1b,Damage:8s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"menrilresin\",Amount:4000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:menril_essence_crystal\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"resin\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4524de79-f626-48b4-b2ff-8b723aec6ca3",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:fiery_netherrack\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"netherex:fiery_netherbrick\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:10}"
+          }
+        ]
+      }
+    }
+  ],
+  "fuelRecipes": [
+    {
+      "uid": "0d24c64e-d7dd-4fd3-b9b4-2ac8559e4b13",
+      "duration": 50,
+      "inputs": {
+        "ember": [
+          {
+            "chance": 1.0,
+            "content": 200.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      }
+    }
+  ]
+}

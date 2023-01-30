@@ -181,6 +181,7 @@ var oreDictAdd as IItemStack[][string] = {
     "gemCharcoal":[<minecraft:coal:1>],
     "gemCoke":[<immersiveengineering:material:6>],
     "gemFluix":[<appliedenergistics2:material:7>],
+    "blockAshenStone":[<embers:ashen_stone>, <embers:ashen_brick>, <embers:ashen_tile>],
 };
 
 var oreDictRemove as IItemStack[] = [

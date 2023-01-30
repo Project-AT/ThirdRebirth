@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "location": "minecraft:refinery",
+  "version": 2,
+  "location": "multiblocked:refinery",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,11 +16,8 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "modularcontroller:refinery_controller",
-          "meta": 3
-        },
-        "type": "blockstate"
+        "modelLocation": "multiblocked:refinery_controller",
+        "type": "imodel"
       }
     },
     "idle": {
@@ -31,13 +28,20 @@
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "parent": "idle",
+      "sound": {
+        "sound": "embers:block.copper_charger.loop",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
     }
   },
-  "recipeMap": "empty",
+  "recipeMap": "refinery",
   "basePattern": {
     "structureDir": [
       "RIGHT",
@@ -49,13 +53,13 @@
         "AAA",
         "BCD",
         "EFE",
-        "EFG",
+        "EFR",
         "HHH"
       ],
       [
         "IAJ",
         "KLM",
-        "NFG",
+        "SFG",
         "NFE",
         "HHH"
       ],
@@ -63,7 +67,7 @@
         "A@A",
         "OPQ",
         "EFE",
-        "EFG",
+        "EFR",
         "HHH"
       ]
     ],
@@ -82,6 +86,12 @@
       ]
     ],
     "predicates": {
+      "ember_in": {
+        "capability": "ember",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
       "A": {
         "states": [
           {
@@ -93,7 +103,7 @@
         "disableRenderFormed": true
       },
       "controller": {
-        "location": "minecraft:refinery",
+        "location": "multiblocked:refinery",
         "type": "component"
       },
       "B": {
@@ -143,16 +153,6 @@
         "type": "states",
         "disableRenderFormed": true
       },
-      "G": {
-        "states": [
-          {
-            "id": "fluiddrawers:tank",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
-      },
       "H": {
         "states": [
           {
@@ -162,25 +162,11 @@
         ],
         "type": "states"
       },
-      "I": {
-        "states": [
-          {
-            "id": "embers:copper_cell",
-            "meta": 0
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
-      },
-      "J": {
-        "states": [
-          {
-            "id": "immersiveengineering:metal_device0",
-            "meta": 2
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
+      "fe_in": {
+        "capability": "forge_energy",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
       },
       "K": {
         "states": [
@@ -201,6 +187,12 @@
         "type": "states",
         "disableRenderFormed": true
       },
+      "fluid_in": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
       "M": {
         "states": [
           {
@@ -210,15 +202,11 @@
         ],
         "type": "states"
       },
-      "N": {
-        "states": [
-          {
-            "id": "extrautils2:largishchest",
-            "meta": 1
-          }
-        ],
-        "type": "states",
-        "disableRenderFormed": true
+      "fluid_out": {
+        "capability": "fluid",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
       },
       "O": {
         "states": [
@@ -246,6 +234,18 @@
           }
         ],
         "type": "states"
+      },
+      "item_in": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "item_out": {
+        "capability": "item",
+        "type": "capability",
+        "disableRenderFormed": true,
+        "io": "OUT"
       }
     },
     "symbolMap": {
@@ -271,16 +271,16 @@
         "F"
       ],
       "G": [
-        "G"
+        "fluid_in"
       ],
       "H": [
         "H"
       ],
       "I": [
-        "I"
+        "ember_in"
       ],
       "J": [
-        "J"
+        "fe_in"
       ],
       "K": [
         "K"
@@ -292,7 +292,7 @@
         "M"
       ],
       "N": [
-        "N"
+        "item_out"
       ],
       "O": [
         "O"
@@ -302,6 +302,12 @@
       ],
       "Q": [
         "Q"
+      ],
+      "R": [
+        "fluid_out"
+      ],
+      "S": [
+        "item_in"
       ]
     }
   }
