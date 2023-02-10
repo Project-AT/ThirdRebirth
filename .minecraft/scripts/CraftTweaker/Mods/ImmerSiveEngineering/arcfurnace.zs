@@ -30,6 +30,7 @@ ArcFurnace.addRecipe(<contenttweaker:glazed_refractory_brick>, <ore:ingotBrickNe
 ArcFurnace.addRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, null, 200, 2048, [<quark:black_ash> * 4, <ore:slimeball>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_material:49> * 2, <ore:dyeBrown> * 2, null, 200, 2048, [<ore:itemSlagRich> * 2, <ore:slimeball>], "Alloying");
 ArcFurnace.addRecipe(<ore:ingotRoseGold>.firstItem * 2, <ore:ingotGold>, null, 200, 2048, [<ore:ingotCopper>], "Alloying");
+ArcFurnace.addRecipe(<embers:archaic_brick> * 2, <ore:netherrack>, null, 200, 2048, [<ore:soulSand>], "Alloying");
 
 //LV2
 ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotHighStrengthAluminumAlloy>, null, 200, 2048, [<ore:ingotDarkSteel>], "Alloying");

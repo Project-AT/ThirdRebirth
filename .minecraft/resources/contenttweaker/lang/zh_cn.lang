@@ -70,6 +70,7 @@ tile.contenttweaker.basic_machine_casing.name=基础机械外壳
 tile.contenttweaker.toughed_machine_casing.name=高强机械外壳
 tile.contenttweaker.basic_machine_circuitry.name=基础机械电路板
 tile.contenttweaker.advance_machine_circuitry.name=高级机械电路板
+tile.contenttweaker.sky_block.name=天空之块
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=冥界铝矿石

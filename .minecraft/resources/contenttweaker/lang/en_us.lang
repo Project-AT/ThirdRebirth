@@ -71,6 +71,7 @@ tile.contenttweaker.basic_machine_casing.name=Basic Machine Casing
 tile.contenttweaker.toughed_machine_casing.name=Toughed Machine Casing
 tile.contenttweaker.basic_machine_circuitry.name=Basic Machine Circuitry
 tile.contenttweaker.advance_machine_circuitry.name=Advance Machine Circuitry
+tile.contenttweaker.sky_block.name=Sky Block
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=Underworld Aluminum Ore

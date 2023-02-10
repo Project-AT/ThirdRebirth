@@ -16,6 +16,7 @@ AlloySmelter.addRecipe(<contenttweaker:glazed_refractory_brick>, [<ore:ingotBric
 AlloySmelter.addRecipe(<enderio:item_material:50> * 2, [<psi:material:5> * 2, <quark:black_ash> * 4, <ore:slimeball>]);
 AlloySmelter.addRecipe(<enderio:item_material:49> * 2, [<ore:dyeBrown> , <ore:itemSlagRich> * 2, <ore:slimeball>]);
 AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem * 2, [<ore:ingotGold>, <ore:ingotCopper>]);
+AlloySmelter.addRecipe(<embers:archaic_brick> * 2, [<ore:soulSand>, <ore:netherrack>]);
 
 //Lv2
 AlloySmelter.addRecipe(<nuclearcraft:alloy:1> * 2, [<ore:ingotHighStrengthAluminumAlloy>, <ore:ingotDarkSteel>]);

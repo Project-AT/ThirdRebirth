@@ -24,7 +24,8 @@ var Metal as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
     "Lead", "Aluminum", "Dilithium", "Germanium", "Steel", "Electrum", "Invar", "Bronze", "Constantan", "Signalum", "Lumium", "Enderium",
-    "ManganeseDioxide" ,"ManganeseOxide", "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite",
+    "ManganeseDioxide" ,"ManganeseOxide", "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite", "RoseGold",
+    "HighStrengthAluminumAlloy", "PureIron"
 ];
 
 var Gem as string[] = [

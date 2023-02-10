@@ -23,3 +23,5 @@ AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:ingotNickel>, 
 AlloySmelter.addRecipe(<thermalfoundation:material:164> * 2, <ore:dustNickel>, <ore:ingotCopper>, 200);
 
 AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem * 2, <ore:ingotGold>, <ore:ingotCopper>, 200);
+
+AlloySmelter.addRecipe(<embers:archaic_brick> * 2, <ore:soulSand>, <ore:netherrack>, 200);

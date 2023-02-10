@@ -110,12 +110,15 @@ artisanUtils.RecipeTweakWithLiquid("engineer", false, <contenttweaker:tinned_cop
     [<ore:wireCopper>]
 ], <liquid:tin> * 16);
 
+#锭、块关系
 var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotTough> : <ore:blockTough>,
     <ore:ingotExtreme> : <ore:blockExtreme>,
     <ore:ingotRustyIron> : <ore:blockRustyIron>,
     <ore:ingotHighStrengthAluminumAlloy> : <ore:blockHighStrengthAluminumAlloy>,
-    <ore:ingotPureIron> : <ore:blockPureIron>
+    <ore:ingotPureIron> : <ore:blockPureIron>,
+    <ore:ingotRoseGold> : <ore:blockRoseGold>,
+    <ore:ingotSky> : <ore:blockSky>,
 };
 
 for k, v in recipe {

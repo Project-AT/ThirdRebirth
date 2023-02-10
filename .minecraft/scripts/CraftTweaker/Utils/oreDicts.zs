@@ -182,6 +182,9 @@ var oreDictAdd as IItemStack[][string] = {
     "gemCoke":[<immersiveengineering:material:6>],
     "gemFluix":[<appliedenergistics2:material:7>],
     "blockAshenStone":[<embers:ashen_stone>, <embers:ashen_brick>, <embers:ashen_tile>],
+    "drawerBasic":[<storagedrawers:customdrawers:*>],
+    "ingotSky":[<naturesaura:sky_ingot>],
+    "blockSky":[<contenttweaker:sky_block>],
 };
 
 var oreDictRemove as IItemStack[] = [

@@ -81,7 +81,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
         <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>, <multiblocked:bot_mana.any>,
         <lightningcraft:stone_block>, <lightningcraft:stone_block:1>, <lightningcraft:stone_block:2>, <lightningcraft:stone_block:9>, <lightningcraft:stone_block:12>, 
-        <lightningcraft:slab_block>, <lightningcraft:thunder_stairs>, <lightningcraft:slab_block_double>,
+        <lightningcraft:slab_block>, <lightningcraft:thunder_stairs>, <lightningcraft:slab_block_double>, <lightningcraft:guide>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
@@ -98,7 +98,13 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "ember" : [
         <multiblocked:ember.any>
     ],
-    
+    "manacapacitor" : [
+        <botanianeedsit:mana_capacitor_manasteel:1>, <botanianeedsit:mana_capacitor_elementium:1>, <botanianeedsit:mana_capacitor_terrasteel:1>,
+        <botanianeedsit:mana_capacitor_manasteel>, <botanianeedsit:mana_capacitor_elementium>, <botanianeedsit:mana_capacitor_terrasteel>,
+    ],
+    "manaremove" : [<multiblocked:mana_remover>],
+    "extract" : [<multiblocked:refinery>],
+    "distillation" : [<multiblocked:distillation_tower>],
 };
 
 //无阶段物品
