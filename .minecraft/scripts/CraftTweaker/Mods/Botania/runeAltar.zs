@@ -16,8 +16,8 @@ runeAltarUtil(<contenttweaker:rune1> * 2, [
     <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}), <botania_tweaks:compressed_tiny_potato_1>
 ], 10000, false);
 
-runeAltarUtil(<contenttweaker:teleport_rune> * 2, [
-    <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaDiamond>, <ore:manaPearl>, <ore:manaPearl>
+runeAltarUtil(<contenttweaker:teleport_rune>, [
+    <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaPearl>
 ], 10000, false);
 
 runeAltarUtil(<bountifulbaubles:magicmirror>, [

@@ -42,6 +42,7 @@ ArcFurnace.addRecipe(<enderio:item_alloy_ingot:8>, <ore:dustDimensional> * 2, nu
 ArcFurnace.addRecipe(<thermalfoundation:material:167> * 2, <ore:ingotEnderiumBase>, null, 2000, 2048, [<integrateddynamics:crystalized_chorus_chunk> * 4, <ore:ingotVibrantAlloy>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:2> * 2, <ore:ingotEndSteel>, null, 200, 2048, [<integrateddynamics:crystalized_chorus_chunk> * 4, <ore:ingotManganese>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:dustPetrotheum>, <ore:gemEnderBiotite>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:dustPetrotheum>, <ore:substanceEbony>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, null, 200, 2048, [<ore:ingotBronze>, <ore:ingotElectricalSteel>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>], "Alloying");
 ArcFurnace.addRecipe(<refraction:reflective_alloy> * 5, <ore:ingotIron> * 3, null, 200, 2048, [<ore:ingotEnergeticSilver>, <ore:ingotGold>], "Alloying");

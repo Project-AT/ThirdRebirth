@@ -1,17 +1,17 @@
 [
     {
-        "_comment": "Molten Tesla + Fluid Redstone => More Molten Tesla",
+        "_comment": "poison + sulfuric_acid => etchacid",
         "input_a": {
-            "name": "tf-molten_tesla",
+            "name": "poison",
             "quantity": 100
         },
         "input_b": {
-            "name": "redstone",
+            "name": "sulfuric_acid",
             "quantity": 100
         },
         "output": {
-            "name": "tf-molten_tesla",
-            "quantity": 150
+            "name": "etchacid",
+            "quantity": 100
         }
     },
     {
