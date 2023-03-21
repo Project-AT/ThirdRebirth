@@ -54,6 +54,9 @@ item.contenttweaker.tinned_copper_wire.name=镀锡铜线
 item.contenttweaker.inactive_energytablet.name=未激活的能量板
 item.contenttweaker.inactive_view_cell.name=未激活的显示元件
 item.contenttweaker.menril_essence_crystal.name=门瑞欧精华晶体
+item.contenttweaker.research_point_Lv0.name=手稿残页
+item.contenttweaker.research_point_Lv1.name=灵感灯泡
+item.contenttweaker.research_point_Lv1_incomplete.name=未点亮的灵感灯泡
 
 #Item
 #Bauble
@@ -71,6 +74,7 @@ tile.contenttweaker.toughed_machine_casing.name=高强机械外壳
 tile.contenttweaker.basic_machine_circuitry.name=基础机械电路板
 tile.contenttweaker.advance_machine_circuitry.name=高级机械电路板
 tile.contenttweaker.sky_block.name=天空之块
+tile.contenttweaker.ember_crystal_block.name=灰烬晶块
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=冥界铝矿石

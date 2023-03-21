@@ -47,7 +47,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:enlightenedFusedGlass>, <ore:darkFusedGlass>, <ore:holyFusedGlass>, <ore:holyEnlightenedFusedGlass>, <ore:holyDarkFusedGlass>, <ore:unholyFusedGlass>, <ore:unholyEnlightenedFusedGlass>, <ore:pastureFusedGlass>, <ore:pastureEnlightenedFusedGlass>, 
         <ore:pastureDarkFusedGlass>, <ore:notHolyFusedGlass>, <ore:notHolyEnlightenedFusedGlass>, <ore:notHolyDarkFusedGlass>, <ore:notUnholyFusedGlass>, <ore:notUnholyEnlightenedFusedGlass>, <ore:notUnholyDarkFusedGlass>, 
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>,
-        <multiblocked:pneumatic_pressure.any>,
+        <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>,
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
@@ -64,7 +64,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "four" : [
         <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
         <contenttweaker:contains_impurities_silicon_dust>, <contenttweaker:silicon_dust>, <ore:itemSilicon>, <ore:waferSilicon>, <ore:circuitBasic>, <contenttweaker:si_transistor>,
-        <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, 
+        <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>
     ],
     "five" : [
         <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
@@ -72,7 +72,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>,
     ],
     "six" : [
-        <ore:circuitElite>,
+        <ore:circuitElite>, <contenttweaker:compressed_crystaltine>
     ],
     "root" : [
         <trutils:magnetic_attraction>, <ore:redstoneRoot>
@@ -87,7 +87,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <trutils:magnetic_attraction>,
     ],
     "aura" : [
-        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>, <multiblocked:natures_aura.any>,
+        <ore:allOreCrushedInfuseds>, <ore:allOreAuraInfusions>, <ore:allshards>, <multiblocked:natures_aura.any>, <ore:blockSky>
     ],
     "evilstone" : [
         <trutils:evil_stone>
@@ -96,7 +96,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <contenttweaker:elixir_eyesight>
     ],
     "ember" : [
-        <multiblocked:ember.any>
+        <multiblocked:ember.any>, <contenttweaker:ember_crystal_block>
     ],
     "manacapacitor" : [
         <botanianeedsit:mana_capacitor_manasteel:1>, <botanianeedsit:mana_capacitor_elementium:1>, <botanianeedsit:mana_capacitor_terrasteel:1>,
@@ -155,7 +155,7 @@ val exceptItemStacks as IIngredient[] = [
     <ore:gearWood>, <ore:gearStone>, <botania:felpumpkin>, <extrautils2:flattransfernode>, <extrautils2:flattransfernode:1>, <extrautils2:grocket>,
     <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
-    <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>
+    <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>
 ];
 
 for stage, items in specialStageItemStackMap {

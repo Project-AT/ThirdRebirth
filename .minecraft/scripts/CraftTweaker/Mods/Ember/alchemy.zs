@@ -36,7 +36,7 @@ function isContainsASP(item as IItemStack) as bool {
 
 Alchemy.add(<enderio:item_alloy_endergy_ingot:5> * 4,
     [<embers:crystal_ember>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], {
-        ASP(<embers:aspectus_silver>) : 16 .. 33
+        ASP(<embers:aspectus_silver>) : 16 .. 32
     }
 );
 
@@ -70,6 +70,12 @@ Alchemy.add(<botania:rune:7>,
 
 Alchemy.add(<ore:blockEnergeticSilver>.firstItem * 4,
     [<embers:ember_cluster>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>], {
+        ASP(<embers:aspectus_silver>) : 64 .. 128,
+    }
+);
+
+Alchemy.add(<ore:blockEnergeticSilver>.firstItem * 4,
+    [<contenttweaker:ember_crystal_block>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>], {
         ASP(<embers:aspectus_silver>) : 128 .. 256,
     }
 );

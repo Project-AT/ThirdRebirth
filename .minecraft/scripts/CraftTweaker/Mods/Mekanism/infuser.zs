@@ -17,6 +17,7 @@ for type in types {
 
 InfuserType.addTypeObject(<embers:shard_ember>, "ember", 10);
 InfuserType.addTypeObject(<embers:crystal_ember>, "ember", 60);
+InfuserType.addTypeObject(<contenttweaker:ember_crystal_block>, "ember", 540);
 
 infuser.removeRecipe(<ore:itemEnrichedAlloy>);
 infuser.addRecipe("SIGNALUM", 10, <ore:ingotFerroboron>, <ore:itemEnrichedAlloy>.firstItem);

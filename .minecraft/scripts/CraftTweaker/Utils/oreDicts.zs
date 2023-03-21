@@ -185,6 +185,9 @@ var oreDictAdd as IItemStack[][string] = {
     "drawerBasic":[<storagedrawers:customdrawers:*>],
     "ingotSky":[<naturesaura:sky_ingot>],
     "blockSky":[<contenttweaker:sky_block>],
+    "blockEmber":[<contenttweaker:ember_crystal_block>],
+    "shardEmber":[<embers:shard_ember>],
+    "crystalEmber":[<embers:crystal_ember>],
 };
 
 var oreDictRemove as IItemStack[] = [

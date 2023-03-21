@@ -3,6 +3,8 @@
 
 import mods.botania.ManaInfusion;
 ManaInfusion.addAlchemy(<contenttweaker:mana_crystal>, <ore:manaDiamond>, 50000);
+ManaInfusion.addConjuration(<contenttweaker:research_point_lv1> * 2, <contenttweaker:research_point_lv1_incomplete>, 10000);
+ManaInfusion.addInfusion(<contenttweaker:research_point_lv1>, <contenttweaker:research_point_lv1_incomplete>, 2500);
 
 ManaInfusion.removeRecipe(<botania:manaresource:23>);
 ManaInfusion.addInfusion(<botania:manaresource:23>, <roots:runic_dust>, 555);
