@@ -108,8 +108,9 @@ artisanUtils.RecipeTweakWithTools("basic", true, <embers:blend_caminite> * 12,
 , {<ore:artisansMortar> : 4} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:stamper_base>, 
-    inputPattern(["   ", "G G", "KTK"])
+    inputPattern(["G G", "BTB", "KBK"])
         .with("G", <ore:ingotSteel>)
+        .with("B", <contenttweaker:glazed_refractory_brick>)
         .with("K", <embers:block_caminite_brick>)
         .with("T", <minecraft:bucket>).get()
 , {<ore:artisansHammer> : 13, <ore:artisansSpanner> : 6});

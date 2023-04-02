@@ -16,3 +16,4 @@ AltarTweak(<ore:dustGraphite>.firstItem, <ore:dustCoal>, <naturesaura:conversion
 AltarTweak(<naturesaura:infused_iron>, <ore:ingotPureIron>, null, 15000, 80);
 AltarTweak(<naturesaura:infused_iron_block>, <ore:blockPureIron>, null, 135000, 70);
 AltarTweak(<contenttweaker:infused_crude_silicon_dust>, <contenttweaker:crude_silicon_dust>, null, 10000, 80);
+AltarTweak(<contenttweaker:research_point_lv1>, <contenttweaker:research_point_lv1_incomplete>, null, 12500, 50);

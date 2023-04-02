@@ -21,7 +21,7 @@ for recipe in removeRecipes {
 //Lv是指合金等级，决定耗电量和时间
 
 //LV1
-ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <contenttweaker:soul_extract> * 4, null, 200, 2048, [<ore:ingotDawnstone>], "Alloying");
+/*ArcFurnace.addRecipe(<enderio:item_alloy_ingot:7>, <contenttweaker:soul_extract> * 4, null, 200, 2048, [<ore:ingotDawnstone>], "Alloying");
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotSteel> * 2, null, 200, 2048, [<ore:ingotAluminum>], "Alloying");
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, null, 200, 2048, [<ore:dustAluminum>], "Alloying");
 ArcFurnace.addRecipe(<modularmachinery:itemmodularium> * 3, <ore:dustSteel> * 2, null, 200, 2048, [<ore:ingotAluminum>], "Alloying");
@@ -30,10 +30,10 @@ ArcFurnace.addRecipe(<contenttweaker:glazed_refractory_brick>, <ore:ingotBrickNe
 ArcFurnace.addRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, null, 200, 2048, [<quark:black_ash> * 4, <ore:slimeball>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_material:49> * 2, <ore:dyeBrown> * 2, null, 200, 2048, [<ore:itemSlagRich> * 2, <ore:slimeball>], "Alloying");
 ArcFurnace.addRecipe(<ore:ingotRoseGold>.firstItem * 2, <ore:ingotGold>, null, 200, 2048, [<ore:ingotCopper>], "Alloying");
-ArcFurnace.addRecipe(<embers:archaic_brick> * 2, <ore:netherrack>, null, 200, 2048, [<ore:soulSand>], "Alloying");
+ArcFurnace.addRecipe(<embers:archaic_brick> * 2, <ore:netherrack>, null, 200, 2048, [<ore:soulSand>], "Alloying");*/
 
 //LV2
-ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotHighStrengthAluminumAlloy>, null, 200, 2048, [<ore:ingotDarkSteel>], "Alloying");
+/*ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotHighStrengthAluminumAlloy>, null, 200, 2048, [<ore:ingotDarkSteel>], "Alloying");
 ArcFurnace.addRecipe(<contenttweaker:high_strength_aluminum_alloy_ingot> * 6, <ore:ingotAluminum> * 4, null, 200, 2048, [<ore:ingotMagnesium>, <ore:ingotCopper>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot> * 5, <ore:ingotSteel> * 3, null, 2000, 2048, [<ore:ingotAluminum>, <ore:ingotNickel>], "Alloying");
 ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 6, <ore:ingotSteel> * 4, null, 200, 2048, [<ore:ingotManganese>, <ore:ingotConstantan>], "Alloying");
@@ -46,15 +46,17 @@ ArcFurnace.addRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:ingotSteel> * 2, nul
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, null, 200, 2048, [<ore:ingotBronze>, <ore:ingotElectricalSteel>], "Alloying");
 ArcFurnace.addRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, null, 200, 2048, [<ore:nuggetTerrasteel>], "Alloying");
 ArcFurnace.addRecipe(<refraction:reflective_alloy> * 5, <ore:ingotIron> * 3, null, 200, 2048, [<ore:ingotEnergeticSilver>, <ore:ingotGold>], "Alloying");
-ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:ingotPlatinum>, null, 200, 2048, [<ore:itemPulsatingPowder>], "Alloying");
+ArcFurnace.addRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:ingotPlatinum>, null, 200, 2048, [<ore:itemPulsatingPowder>], "Alloying");*/
 
 
 //LV3
+/*
 ArcFurnace.addRecipe(<nuclearcraft:alloy:10> * 3, <ore:ingotTough>, null, 200, 2048, [<ore:ingotTitaniumIridium>, <ore:ingotSignalum>], "Alloying");
 ArcFurnace.addRecipe(<thermalfoundation:material:165> * 8, <ore:ingotEnergeticSilver> * 4, null, 200, 2048, [<embers:ember_cluster>, <ore:ingotRedstoneAlloy> * 4], "Alloying");
 ArcFurnace.addRecipe(<extendedcrafting:material:48>, <ore:ingotEnderium>, null, 200, 2048, [<extendedcrafting:material:41>], "Alloying");
 ArcFurnace.addRecipe(<draconicevolution:draconium_ingot> * 2, <ore:ingotMelodicAlloy>, null, 200, 2048, [<ore:ingotRefinedObsidian>, <ore:dustDraconium>], "Alloying");
 ArcFurnace.addRecipe(<simplyjetpacks:metaitemmods:12>, <ore:ingotSoularium>, null, 200, 2048, [<ore:dustFluix> * 4, <ore:itemPulsatingCrystal>], "Alloying");
+*/
 
 ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:ingotIron>, null, 200, 2048);
 ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 200, 2048);

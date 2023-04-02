@@ -17,3 +17,4 @@ ManaInfusion.addInfusion(<botania:manaresource:16>, <contenttweaker:straw_rope>,
 ManaInfusion.addInfusion(<botania:manaresource:16>, <ore:string>, 6000);
 ManaInfusion.addInfusion(<botania:manaresource:0>, <ore:ingotPureIron>, 1500);
 ManaInfusion.addInfusion(<botania:storage:0>, <ore:blockPureIron>, 13500);
+ManaInfusion.addAlchemy(<thermalfoundation:material:865>, <ore:itemSlag>, 5000);
