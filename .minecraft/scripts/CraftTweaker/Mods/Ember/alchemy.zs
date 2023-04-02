@@ -70,12 +70,19 @@ Alchemy.add(<botania:rune:7>,
 
 Alchemy.add(<ore:blockEnergeticSilver>.firstItem * 4,
     [<embers:ember_cluster>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>], {
-        ASP(<embers:aspectus_silver>) : 64 .. 128,
+        ASP(<embers:aspectus_silver>) : 64 .. 96,
     }
 );
 
 Alchemy.add(<ore:blockEnergeticSilver>.firstItem * 4,
     [<contenttweaker:ember_crystal_block>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>], {
         ASP(<embers:aspectus_silver>) : 128 .. 256,
+    }
+);
+
+Alchemy.add(<contenttweaker:research_point_lv1> * 20,
+    [<ore:crystalEmber>, <immersiveengineering:material:27>, <immersiveengineering:material:27>, <immersiveengineering:material:27>, <immersiveengineering:material:27>], {
+        ASP(<embers:aspectus_silver>) : 32 .. 64,
+        ASP(<embers:aspectus_copper>) : 32 .. 96,
     }
 );

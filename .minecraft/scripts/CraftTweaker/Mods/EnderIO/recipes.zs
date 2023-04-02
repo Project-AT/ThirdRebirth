@@ -9,6 +9,30 @@ import scripts.grassUtils.RecipeUtils;
 
 recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>,<ore:dustMagnesium>,<ore:dustObsidian>,<ore:powderMana>,<ore:foodCurrypowder>]);
 
+RecipeUtils.recipeTweak(true, <enderio:item_material:9>, [
+    [null, <ore:stickWood>],
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null, <ore:stickWood>]
+]);
+
+RecipeUtils.recipeTweak(true, <enderio:item_material:9>, [
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null],
+    [<ore:stickWood>, null, <ore:stickWood>]
+]);
+
+RecipeUtils.recipeTweak(true, <enderio:item_material:10>, [
+    [<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>],
+    [<ore:cobblestone>, null, <ore:cobblestone>],
+    [<ore:stickWood>, <ore:cobblestone>, <ore:stickWood>]
+]);
+
+RecipeUtils.recipeTweak(true, <enderio:item_material:10>, [
+    [null, <ore:cobblestone>, null],
+    [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>],
+    [null, <ore:cobblestone>, null]
+]);
+
 electronicAssembly.addRecipe("engineer", true, <enderio:item_material:69> * 2, [
     [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
     [null, <ore:ingotIron>],
@@ -84,3 +108,6 @@ RecipeUtils.recipeTweak(true, <enderio:item_material:52>, [
     [<ore:dustFluix>, <enderio:item_material:50>, <ore:dustFluix>],
     [<enderio:item_material:49>, <ore:dustFluix>, <ore:dustSoularium>]
 ]);
+
+furnace.remove(<enderio:item_material:4>);
+recipes.remove(<enderio:item_material:22>);

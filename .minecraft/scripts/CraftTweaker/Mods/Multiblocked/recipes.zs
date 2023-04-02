@@ -43,9 +43,9 @@ RecipeBuilder.get("engineer")
 
 RecipeBuilder.get("engineer")
   .setShaped([
-    [<embers:brick_caminite>, <embers:brick_caminite>, <embers:brick_caminite>],
-    [<embers:brick_caminite>, <embers:mech_core>, <embers:brick_caminite>],
-    [<embers:brick_caminite>, <embers:brick_caminite>, <embers:brick_caminite>]])
+    [<immersiveengineering:stone_decoration:2>, <embers:block_caminite_brick>, <immersiveengineering:stone_decoration:2>],
+    [<embers:block_caminite_brick>, <embers:mech_core>, <embers:block_caminite_brick>],
+    [<immersiveengineering:stone_decoration:2>, <embers:block_caminite_brick>, <immersiveengineering:stone_decoration:2>]])
   .addTool(<ore:artisansSpanner>, 22)
   .addTool(<ore:artisansDriver>, 25)
   .setMinimumTier(0)

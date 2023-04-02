@@ -14,11 +14,11 @@ function runeAltarUtil(output as IItemStack, input as IIngredient[], mana as int
 
 runeAltarUtil(<contenttweaker:rune1> * 2, [
     <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}), <botania_tweaks:compressed_tiny_potato_1>
-], 10000, false);
+], 6666, false);
 
 runeAltarUtil(<contenttweaker:teleport_rune>, [
     <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaPearl>
-], 10000, false);
+], 20000, false);
 
 runeAltarUtil(<bountifulbaubles:magicmirror>, [
     <contenttweaker:teleport_rune>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:spectralsilt>,
@@ -49,6 +49,37 @@ for i in 0 .. 4 {
     runeAltarUtil(<botania:rune>.definition.makeStack(i) * 2, inputItem, 6666, true);
 }
 
+for i in 0 .. 4 {
+    var inputItem = inputitems[i];
+    inputItem += <contenttweaker:mystery_dust>;
+    runeAltarUtil(<botania:rune>.definition.makeStack(i) * 2, inputItem, 2500, false);
+}
+
+var inputSeasonitems as IIngredient[][] = [
+    [<roots:spirit_herb>, <naturesaura:token_joy>, <ore:treeSapling>],
+    [<roots:pereskia>, <naturesaura:token_anger>, <ore:sand>],
+    [<roots:wildewheet>, <naturesaura:token_fear>, <ore:treeLeaves>],
+    [<roots:moonglow_leaf>, <naturesaura:token_sorrow>, <minecraft:snow>]
+];
+
 for i in 4 .. 8 {
-    RuneAltar.removeRecipe(<botania:rune>.definition.makeStack(i));
+    var inputSeasonItem = inputSeasonitems[i - 4];
+    inputSeasonItem += <contenttweaker:mystery_dust>;
+    runeAltarUtil(<botania:rune>.definition.makeStack(i), inputSeasonItem, 7500, true);
+}
+
+var inputSinitems as IIngredient[][] = [
+    [<naturesaura:token_rage>, <embers:diffraction_barrel>],
+    [<naturesaura:token_grief>, <embers:caster_orb>],
+    [<naturesaura:token_euphoria>, <embers:resonating_bell>],
+    [<naturesaura:token_terror>, <embers:jet_augment>],
+    [<naturesaura:token_rage>, <embers:superheater>],
+    [<naturesaura:token_grief>, <embers:tinker_lens>],
+    [<embers:golems_eye> ,<naturesaura:token_rage>],
+];
+
+for i in 9 .. 16 {
+    var inputSinItem = inputSinitems[i - 9];
+    inputSinItem += <contenttweaker:mystery_dust>;
+    runeAltarUtil(<botania:rune>.definition.makeStack(i), inputSinItem, 12000, true);
 }
