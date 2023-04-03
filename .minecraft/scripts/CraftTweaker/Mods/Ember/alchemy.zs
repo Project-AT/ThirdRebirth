@@ -86,3 +86,12 @@ Alchemy.add(<contenttweaker:research_point_lv1> * 20,
         ASP(<embers:aspectus_copper>) : 32 .. 96,
     }
 );
+
+Alchemy.add(<contenttweaker:mystery_dust> * 4,
+    [<contenttweaker:mana_crystal>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>, <ore:powderMana>], {
+        ASP(<botania:rune:4>) : 16 .. 32,
+        ASP(<botania:rune:5>) : 16 .. 32,
+        ASP(<botania:rune:6>) : 16 .. 32,
+        ASP(<botania:rune:7>) : 16 .. 32,
+    }
+);
