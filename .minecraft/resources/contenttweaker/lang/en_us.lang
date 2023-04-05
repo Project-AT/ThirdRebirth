@@ -59,6 +59,7 @@ item.contenttweaker.research_point_Lv0.name=Remnant Pages of Manuscript
 item.contenttweaker.research_point_Lv1.name=Inspired Bulb
 item.contenttweaker.research_point_Lv1_incomplete.name=Unlighted Inspiration Bulb
 item.contenttweaker.mystery_dust.name=Mystery Dust
+item.contenttweaker.PCB_Substrate.name=PCB Substrate
 
 #Item
 #Bauble
@@ -76,7 +77,7 @@ tile.contenttweaker.toughed_machine_casing.name=Toughed Machine Casing
 tile.contenttweaker.basic_machine_circuitry.name=Basic Machine Circuitry
 tile.contenttweaker.advance_machine_circuitry.name=Advance Machine Circuitry
 tile.contenttweaker.sky_block.name=Sky Block
-ile.contenttweaker.ember_crystal_block.name=Ember Crystal Block
+tile.contenttweaker.ember_crystal_block.name=Ember Crystal Block
 
 #BlockUnderWorldOre
 tile.contenttweaker.udOreAluminum.name=Underworld Aluminum Ore

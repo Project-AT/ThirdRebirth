@@ -47,7 +47,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:enlightenedFusedGlass>, <ore:darkFusedGlass>, <ore:holyFusedGlass>, <ore:holyEnlightenedFusedGlass>, <ore:holyDarkFusedGlass>, <ore:unholyFusedGlass>, <ore:unholyEnlightenedFusedGlass>, <ore:pastureFusedGlass>, <ore:pastureEnlightenedFusedGlass>, 
         <ore:pastureDarkFusedGlass>, <ore:notHolyFusedGlass>, <ore:notHolyEnlightenedFusedGlass>, <ore:notHolyDarkFusedGlass>, <ore:notUnholyFusedGlass>, <ore:notUnholyEnlightenedFusedGlass>, <ore:notUnholyDarkFusedGlass>, 
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>,
-        <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>,
+        <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 

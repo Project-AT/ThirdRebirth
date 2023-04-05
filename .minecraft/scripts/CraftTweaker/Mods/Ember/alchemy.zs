@@ -41,28 +41,28 @@ Alchemy.add(<enderio:item_alloy_endergy_ingot:5> * 4,
 );
 
 Alchemy.add(<botania:rune:4>,
-    [<contenttweaker:rune>, <ore:wildroot>, <ore:treeSapling>, <roots:spirit_herb>, <ore:treeSapling>], {
+    [<contenttweaker:rune>, <ore:wildroot>, <naturesaura:token_joy>, <roots:spirit_herb>, <ore:treeSapling>], {
         ASP(<botania:rune>) : 32 .. 64,
         ASP(<botania:rune:1>) : 32 .. 64,
     }
 );
 
 Alchemy.add(<botania:rune:5>,
-    [<contenttweaker:rune>, <minecraft:speckled_melon>, <ore:sand>, <roots:pereskia>, <ore:sand>], {
+    [<contenttweaker:rune>, <minecraft:speckled_melon>, <naturesaura:token_anger>, <roots:pereskia>, <ore:sand>], {
         ASP(<botania:rune:3>) : 32 .. 64,
         ASP(<botania:rune:2>) : 32 .. 64,
     }
 );
 
 Alchemy.add(<botania:rune:6>,
-    [<contenttweaker:rune>, <ore:eye>, <ore:treeLeaves>, <roots:wildewheet>, <ore:treeLeaves>], {
+    [<contenttweaker:rune>, <ore:eye>, <naturesaura:token_fear>, <roots:wildewheet>, <ore:treeLeaves>], {
         ASP(<botania:rune:3>) : 32 .. 64,
         ASP(<botania:rune:1>) : 32 .. 64,
     }
 );
 
 Alchemy.add(<botania:rune:7>,
-    [<contenttweaker:rune>, <ore:foodCake>, <minecraft:snow>, <roots:moonglow_leaf>, <minecraft:snow>], {
+    [<contenttweaker:rune>, <ore:foodCake>, <naturesaura:token_sorrow>, <roots:moonglow_leaf>, <minecraft:snow>], {
         ASP(<botania:rune>) : 32 .. 64,
         ASP(<botania:rune:2>) : 32 .. 64,
     }

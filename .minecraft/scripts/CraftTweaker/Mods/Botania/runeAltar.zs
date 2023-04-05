@@ -13,8 +13,12 @@ function runeAltarUtil(output as IItemStack, input as IIngredient[], mana as int
 }
 
 runeAltarUtil(<contenttweaker:rune1> * 2, [
-    <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}), <botania_tweaks:compressed_tiny_potato_1>
+    <contenttweaker:mystery_dust>, <lightningcraft:stone_block>, <botania_tweaks:compressed_tiny_potato_1>
 ], 6666, false);
+
+runeAltarUtil(<contenttweaker:rune1> * 2, [
+    <ore:ingotManasteel>, <ore:powderMana>, <lightningcraft:stone_block>, <roots:spell_dust>.withTag({spell_storage: {s: "roots:spell_storm_cloud"}}), <botania_tweaks:compressed_tiny_potato_1>
+], 2500, false);
 
 runeAltarUtil(<contenttweaker:teleport_rune>, [
     <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaPearl>

@@ -18,6 +18,8 @@ mods.embers.Stamper.remove(<thermalfoundation:material:16>);
 mods.embers.Stamper.remove(<thermalfoundation:material:17>);
 Stamper.add(<thermalfoundation:material:16>, <liquid:diamond> * 76, <contenttweaker:stamp_nugget>);
 Stamper.add(<thermalfoundation:material:17>, <liquid:emerald> * 76, <contenttweaker:stamp_nugget>);
+Stamper.add(<pneumaticcraft:empty_pcb:100>, null, <pneumaticcraft:pcb_blueprint> ,<contenttweaker:pcb_substrate>);
+
 
 var emberIngotorPlate as IItemStack[] = [
     <embers:ingot_copper>,

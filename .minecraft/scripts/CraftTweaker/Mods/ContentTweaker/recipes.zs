@@ -9,6 +9,8 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
+import mods.artisanworktables.builder.RecipeBuilder;
+
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("thirdrebirth.title.flcn.tooltip"));
 
@@ -18,6 +20,10 @@ furnace.addRecipe(<contenttweaker:stamp_nugget>, <contenttweaker:raw_stamp_nugge
 furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
 furnace.addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
 furnace.addRecipe(<appliedenergistics2:material:5>, <contenttweaker:silicon_dust>);
+
+recipes.addShapeless(<contenttweaker:pcb_substrate>,
+    [<ore:plasticGreen>, <ore:plateCopper>
+]);
 
 RecipeUtils.recipeTweak(true, <contenttweaker:villager_language_dictionary>, [
     [<ore:leather>,<contenttweaker:dictionary_paper>],
@@ -119,6 +125,7 @@ var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotPureIron> : <ore:blockPureIron>,
     <ore:ingotRoseGold> : <ore:blockRoseGold>,
     <ore:ingotSky> : <ore:blockSky>,
+    <ore:crystalEmber> : <ore:blockEmber>,
 };
 
 for k, v in recipe {
@@ -141,3 +148,21 @@ RecipeUtils.recipeTweak(false, <contenttweaker:inactive_view_cell>, [[<applieden
 RecipeUtils.recipeTweak(true, <contenttweaker:inactive_view_cell>, 
     RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>, <ore:fusedQuartz>)
 );
+
+recipes.addShapeless(<contenttweaker:research_point_lv0> * 2, [<ore:paper>, <ore:paper>, <ore:feather>.reuse(), <ore:dyeBlack>]);
+
+RecipeBuilder.get("basic")
+  .setShapeless([<ore:paper>])
+  .addTool(<ore:artisansPencil>, 20)
+  .addOutput(<contenttweaker:research_point_lv0>)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("designer")
+  .setShapeless([<ore:paper>])
+  .addTool(<ore:artisansPencil>, 10)
+  .addOutput(<contenttweaker:research_point_lv0>)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
