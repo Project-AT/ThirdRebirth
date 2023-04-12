@@ -188,6 +188,7 @@ var oreDictAdd as IItemStack[][string] = {
     "blockEmber":[<contenttweaker:ember_crystal_block>],
     "shardEmber":[<embers:shard_ember>],
     "crystalEmber":[<embers:crystal_ember>],
+    "endPortal":[<minecraft:end_portal_frame>],
 };
 
 var oreDictRemove as IItemStack[] = [

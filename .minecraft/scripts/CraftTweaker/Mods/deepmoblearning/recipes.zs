@@ -44,6 +44,12 @@ var removeitem as IItemStack[] = [
     <deepmoblearning:data_model_blaze>,
     <deepmoblearning:data_model_ghast>,
     <deepmoblearning:data_model_wither_skeleton>,
+    <deepmoblearning:data_model_wither>,
+    <deepmoblearning:data_model_enderman>,
+    <deepmoblearning:data_model_shulker>,
+    <deepmoblearning:data_model_guardian>,
+    <deepmoblearning:data_model_thermal_elemental>,
+    <deepmoblearning:data_model_mo_android>,
 ];
 
 for item in removeitem {

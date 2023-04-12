@@ -91,3 +91,32 @@ RecipeBuilder.get("carpenter")
     .setExtraOutputTwo(<minecraft:stick>, 0.5)
     .create();
 
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<minecraft:brick_block>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:brick> * 2)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .setExtraOutputOne(<minecraft:brick>, 0.75)
+  .setExtraOutputTwo(<minecraft:brick>, 0.5)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<minecraft:nether_brick>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:netherbrick> * 2)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .setExtraOutputOne(<minecraft:netherbrick>, 0.75)
+  .setExtraOutputTwo(<minecraft:netherbrick>, 0.5)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<embers:block_caminite_brick>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<embers:brick_caminite> * 2)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .setExtraOutputOne(<embers:brick_caminite>, 0.75)
+  .setExtraOutputTwo(<embers:brick_caminite>, 0.5)
+  .create();

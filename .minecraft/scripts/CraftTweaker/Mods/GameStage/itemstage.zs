@@ -51,19 +51,15 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
-        <contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, <ore:ingotGermanium>, 
-        <ore:plateGermanium>, <ore:nuggetGermanium>, <ore:dustGermanium>, <ore:crystalGermanium>, <ore:gemEnderBiotite>, 
-        <ore:ingotHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:nuggetHighStrengthAluminumAlloy>, <ore:gearHighStrengthAluminumAlloy>, <ore:dustHighStrengthAluminumAlloy>,
-        <ore:rodHighStrengthAluminumAlloy>, <ore:blockHighStrengthAluminumAlloy>, <ore:plateTough>, <ore:gearTough>, <ore:blockTough>,
-        <ore:crystalCertusQuartz>, <appliedenergistics2:material:1>, <ore:dustCertusQuartz>, <appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_pillar>, 
+        <ore:gemEnderBiotite>, <ore:ingotHighStrengthAluminumAlloy>, <ore:plateHighStrengthAluminumAlloy>, <ore:nuggetHighStrengthAluminumAlloy>, 
+        <ore:gearHighStrengthAluminumAlloy>, <ore:dustHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>, <ore:blockHighStrengthAluminumAlloy>, <ore:plateTough>, 
+        <ore:gearTough>, <ore:blockTough>, <ore:crystalCertusQuartz>, <appliedenergistics2:material:1>, <ore:dustCertusQuartz>, <appliedenergistics2:quartz_block>, <appliedenergistics2:quartz_pillar>, 
         <appliedenergistics2:chiseled_quartz_block>, <appliedenergistics2:quartz_stairs>, <appliedenergistics2:chiseled_quartz_stairs>, <appliedenergistics2:quartz_pillar_stairs>,
         <appliedenergistics2:quartz_slab>, <appliedenergistics2:chiseled_quartz_slab>, <appliedenergistics2:quartz_pillar_slab>,
         <appliedenergistics2:certus_quartz_axe>, <appliedenergistics2:certus_quartz_hoe>, <appliedenergistics2:certus_quartz_spade>, <appliedenergistics2:certus_quartz_pickaxe>,
         <appliedenergistics2:certus_quartz_cutting_knife>,
     ],
     "four" : [
-        <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
-        <contenttweaker:contains_impurities_silicon_dust>, <contenttweaker:silicon_dust>, <ore:itemSilicon>, <ore:waferSilicon>, <ore:circuitBasic>, <contenttweaker:si_transistor>,
         <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>
     ],
     "five" : [
@@ -96,7 +92,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <contenttweaker:elixir_eyesight>
     ],
     "ember" : [
-        <multiblocked:ember.any>, <contenttweaker:ember_crystal_block>
+        <multiblocked:ember.any>, <contenttweaker:ember_crystal_block>, <contenttweaker:mystery_dust>
     ],
     "manacapacitor" : [
         <botanianeedsit:mana_capacitor_manasteel:1>, <botanianeedsit:mana_capacitor_elementium:1>, <botanianeedsit:mana_capacitor_terrasteel:1>,
@@ -105,6 +101,12 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "manaremove" : [<multiblocked:mana_remover>],
     "extract" : [<multiblocked:refinery>],
     "distillation" : [<multiblocked:distillation_tower>],
+    "Ge" : [<contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, <ore:ingotGermanium>, 
+            <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>],
+    "Si" : [
+        <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
+        <contenttweaker:contains_impurities_silicon_dust>, <contenttweaker:silicon_dust>, <ore:itemSilicon>, <ore:waferSilicon>, <ore:circuitBasic>, <contenttweaker:si_transistor>,
+    ],
 };
 
 //无阶段物品

@@ -11,6 +11,8 @@ FluidToItem.transform(<contenttweaker:mana_petals>, <liquid:mana_fluid>, [<roots
 FluidToItem.transform(<contenttweaker:glaze>, <liquid:glaze_slurry>, [<buildinggadgets:constructionpaste>], true);
 FluidToItem.transform(<thermalfoundation:fertilizer> * 2, <liquid:eutrophic_water>, [<minecraft:dye:15> * 2], true);
 FluidToItem.transform(<ore:ingotRustyIron>.firstItem, <liquid:water>, [<ore:ingotIron>], false);
+FluidToItem.transform(<contenttweaker:research_point_lv1> * 4, <liquid:glowstone>, [<contenttweaker:research_point_lv1_incomplete> * 4], true);
+
     
 FluidToFluid.transform(<liquid:liquid_sunshine>, <liquid:mana_fluid>, 
     [<minecraft:double_plant>, <ore:dustGlowstone> * 4], true);

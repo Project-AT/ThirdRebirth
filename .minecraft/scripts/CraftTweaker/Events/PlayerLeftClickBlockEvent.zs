@@ -3,9 +3,12 @@
 #loader crafttweaker reloadableevents
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemDefinition;
+import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.player.IPlayer;
 import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 
 import crafttweaker.event.PlayerLeftClickBlockEvent;
 
@@ -39,7 +42,7 @@ events.onPlayerLeftClickBlock(function(event as PlayerLeftClickBlockEvent){
         }
 
         if(!isNull(currentItem) && (currentItem.toolClasses has "pickaxe") && !(player.creative)) {
-            if(currentItem.getHarvestLevel("pickaxe") >= 3 && block has <minecraft:end_portal_frame>) {
+            if(currentItem.getHarvestLevel("pickaxe") >= 3 && block.definition.id == "minecraft:end_portal_frame") {
                 currentItem.mutable().withDamage(currentItem.damage + 1);
 
                 if(Math.random() <= 0.10) 
