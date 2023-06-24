@@ -21,6 +21,10 @@ val itemToLiquids as ILiquidStack[IItemStack] = {
     <embers:ingot_dawnstone> : <liquid:dawnstone> *  144,
     <embers:plate_dawnstone> : <liquid:dawnstone> *  144,
     <minecraft:purpur_block> : <liquid:purpur> *  288,
+    <integrateddynamics:crystalized_chorus_block> : <liquid:liquidchorus> * 1000,
+    <integrateddynamics:crystalized_chorus_brick> : <liquid:liquidchorus> * 1000,
+    <integrateddynamics:crystalized_chorus_brick_stairs> : <liquid:liquidchorus> * 750,
+    <integrateddynamics:crystalized_chorus_block_stairs> : <liquid:liquidchorus> * 750,
 };
 
 val oreToLiquids as ILiquidStack[IOreDictEntry] = {
@@ -60,6 +64,7 @@ val oreToLiquids as ILiquidStack[IOreDictEntry] = {
     <ore:blockLapis> : <liquid:lapis> *  5994,
     <ore:blockDiamond> : <liquid:diamond> *  5994,
     <ore:blockEmerald> : <liquid:emerald> *  5994,
+    <ore:blockSalt> : <liquid:brine> * 60,
 
     <ore:netherrack> : <liquid:nether_brick> *  72,
     <ore:crystalsPrismarine> : <liquid:prismarine> *  144,

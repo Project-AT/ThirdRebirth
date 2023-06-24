@@ -32,22 +32,22 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <buildinggadgets:buildingtool>, <buildinggadgets:exchangertool>, <buildinggadgets:copypastetool>, <bedrockores:bedrock_miner>,
         <enderio:block_self_resetting_lever5>, <enderio:block_self_resetting_lever10>, <enderio:block_self_resetting_lever30>, <enderio:block_self_resetting_lever60>, <enderio:block_self_resetting_lever300>, 
         <enderio:block_self_resetting_lever5i>, <enderio:block_self_resetting_lever10i>, <enderio:block_self_resetting_lever30i>, <enderio:block_self_resetting_lever60i>, <enderio:block_self_resetting_lever300i>, 
-        <enderio:block_fused_glass:*>, <trutils:washing_machine>, <ore:dustBedrock>, <ore:itemPulsatingPowder>, <embers:mech_core>,
-        <ore:itemVibrantPowder>, <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>, <ore:itemRemoteAwarenessUpgrade>,
+        <enderio:block_fused_glass:*>, <trutils:washing_machine>, <ore:dustBedrock>, <ore:itemPulsatingPowder>, <embers:mech_core>, <ore:dustAlugentum>, <ore:dustArsenic>,
+        <ore:itemVibrantPowder>, <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>, <ore:itemRemoteAwarenessUpgrade>, <ore:dustCarobbiite>, <ore:dustBeryllium>, 
         <ore:paperBlack>, <ore:gearVibrant>, <ore:itemBinderComposite>, <ore:itemPlatePhotovoltaic>, <ore:itemConduitBinder>, <ore:itemPowderPhotovoltaic>, <ore:ingotManganeseDioxide>, 
         <ore:gearIronInfinity>, <ore:itemSimpleMachineChassi>, <ore:itemSimpleChassiParts>, <ore:gearEnergized>, <ore:ingotManganeseOxide>, <ore:dustManganeseDioxide>, <ore:dustManganeseOxide>, 
         <ore:dustSoularium>, <ore:nuggetRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:nuggetConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:blockManganese>, 
         <ore:blockConstructionAlloy>, <ore:nuggetEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:blockEnergeticAlloy>, <ore:blockConductiveIron>, <ore:nuggetVibrantAlloy>, 
         <ore:ingotVibrantAlloy>, <ore:blockVibrantAlloy>, <ore:nuggetElectricalSteel>, <ore:ingotElectricalSteel>, <ore:blockElectricalSteel>, <ore:nuggetSoularium>, <ore:dustManganese>, 
         <ore:ingotSoularium>, <ore:blockSoularium>, <ore:nuggetPulsatingIron>, <ore:ingotPulsatingIron>, <ore:blockPulsatingIron>, <ore:nuggetConductiveIron>, <ore:ingotConductiveIron>, 
-        <ore:dustRhodochrosite>, <ore:gemRhodochrosite>, <ore:allOreCleanCrushedInfuseds>, <enderio:block_tank>, 
+        <ore:dustRhodochrosite>, <ore:gemRhodochrosite>, <ore:allOreCleanCrushedInfuseds>, <enderio:block_tank>, <ore:dustVilliaumite>, <ore:dustZirconium>, <ore:dustFluorite>,
         <ore:enlightenedFusedQuartz>, <ore:darkFusedQuartz>, <ore:holyFusedQuartz>, <ore:holyEnlightenedFusedQuartz>, <ore:holyDarkFusedQuartz>, <ore:unholyFusedQuartz>, <ore:unholyEnlightenedFusedQuartz>, <ore:pastureFusedQuartz>, <ore:pastureEnlightenedFusedQuartz>, 
         <ore:pastureDarkFusedQuartz>, <ore:notHolyFusedQuartz>, <ore:notHolyEnlightenedFusedQuartz>, <ore:notHolyDarkFusedQuartz>, <ore:notUnholyFusedQuartz>, <ore:notUnholyEnlightenedFusedQuartz>, <ore:notUnholyDarkFusedQuartz>, 
         <ore:notPastureFusedQuartz>, <ore:notPastureEnlightenedFusedQuartz>, <ore:notPastureDarkFusedQuartz>, <contenttweaker:crude_silicon_dust>,
         <ore:enlightenedFusedGlass>, <ore:darkFusedGlass>, <ore:holyFusedGlass>, <ore:holyEnlightenedFusedGlass>, <ore:holyDarkFusedGlass>, <ore:unholyFusedGlass>, <ore:unholyEnlightenedFusedGlass>, <ore:pastureFusedGlass>, <ore:pastureEnlightenedFusedGlass>, 
         <ore:pastureDarkFusedGlass>, <ore:notHolyFusedGlass>, <ore:notHolyEnlightenedFusedGlass>, <ore:notHolyDarkFusedGlass>, <ore:notUnholyFusedGlass>, <ore:notUnholyEnlightenedFusedGlass>, <ore:notUnholyDarkFusedGlass>, 
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>,
-        <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>
+        <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>, <ore:exosuitSensorLight>,
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
@@ -77,7 +77,8 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <gugu-utils:lenstransform>, <contenttweaker:teleport_rune>, <contenttweaker:rune>, <contenttweaker:rune1>, <trutils:advance_stick_thunder>, <trutils:stick_thunder>,
         <ore:artisansToolManasteel>, <contenttweaker:mana_crystal>, <ore:allOreEnricheds>, <ore:allOreCrushedEnricheds>, <trutils:good_feeling_level>, <multiblocked:bot_mana.any>,
         <lightningcraft:stone_block>, <lightningcraft:stone_block:1>, <lightningcraft:stone_block:2>, <lightningcraft:stone_block:9>, <lightningcraft:stone_block:12>, 
-        <lightningcraft:slab_block>, <lightningcraft:thunder_stairs>, <lightningcraft:slab_block_double>, <lightningcraft:guide>,
+        <lightningcraft:slab_block>, <lightningcraft:thunder_stairs>, <lightningcraft:slab_block_double>, <lightningcraft:guide>, <contenttweaker:fury>, <contenttweaker:calm>, 
+        <contenttweaker:excavation>,
     ],
     "root" : [
         <trutils:magnetic_attraction>,
@@ -101,12 +102,25 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "manaremove" : [<multiblocked:mana_remover>],
     "extract" : [<multiblocked:refinery>],
     "distillation" : [<multiblocked:distillation_tower>],
-    "Ge" : [<contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, <ore:ingotGermanium>, 
-            <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>],
+    "Ge" : [
+        <contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, 
+        <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>
+    ],
     "Si" : [
         <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 
         <contenttweaker:contains_impurities_silicon_dust>, <contenttweaker:silicon_dust>, <ore:itemSilicon>, <ore:waferSilicon>, <ore:circuitBasic>, <contenttweaker:si_transistor>,
     ],
+    "Enderium" : [
+        <ore:ingotEnderium>, <ore:endstone>, <integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_chorus_brick_stairs>,
+        <integrateddynamics:crystalized_chorus_block_stairs>, <integrateddynamics:crystalized_chorus_block>, <integrateddynamics:crystalized_chorus_brick>, <enderio:item_material:39>
+    ],
+    "ductdynamic" : [
+        <enderio:item_item_conduit>, <enderio:item_liquid_conduit>, <enderio:item_liquid_conduit:1>, <enderio:item_liquid_conduit:2>, <enderio:item_redstone_conduit>,
+        <enderio:item_gas_conduit:1>, <enderio:item_gas_conduit:2>, <enderio:item_gas_conduit>, 
+    ],
+    "xnet" : [
+        <rftools:storage_scanner>, <rftools:storage_terminal>, <rftools:remote_storage>, <rftools:modular_storage>, 
+    ]
 };
 
 //无阶段物品
@@ -127,10 +141,10 @@ val exceptItemStacks as IIngredient[] = [
     <embers:archaic_circuit>, <embers:stairs_caminite_brick>, <embers:block_tank>, <embers:pipe>, <embers:pump>, <embers:fluid_gauge>, <embers:large_tank>, 
     <embers:plate_caminite_raw>, <embers:stamp_bar_raw>, <embers:archaic_brick>, <embers:block_caminite_brick>, <embers:wall_caminite_brick>, 
     <embers:fluid_dropper>, <embers:archaic_tile>, <embers:archaic_light>, <embers:sealed_planks>, <embers:wrapped_sealed_planks>, <embers:item_transfer>,
-    <embers:vacuum>, <embers:breaker>, <embers:stone_valve>, <embers:fluid_transfer>, <embers:caminite_lever>, <embers:archaic_edge>, 
+    <embers:vacuum>, <embers:breaker>, <embers:stone_valve>, <embers:fluid_transfer>, <embers:caminite_lever>, <embers:archaic_edge>, <contenttweaker:four_leaf_clover_necklace>,
     <embers:archaic_bricks>, <embers:stone_edge>, <embers:item_pump>, <embers:bin>, <embers:item_pipe>, <embers:item_dropper>, <roots:pestle>, 
     <trutils:crude_steel_feet>, <trutils:crude_steel_head>, <trutils:crude_steel_legs>, <trutils:crude_steel_chest>, <trutils:crude_steel_pickaxe>, 
-    <trutils:crude_steel_axe>, <trutils:crude_steel_shovel>, <trutils:crude_steel_hoe>, <trutils:crude_steel_sword>, <trutils:flint_hoe>, 
+    <trutils:crude_steel_axe>, <trutils:crude_steel_shovel>, <trutils:crude_steel_hoe>, <trutils:crude_steel_sword>, <trutils:flint_hoe>, <solcarrot:food_book>,
     <contenttweaker:four_leaf_clover>, <contenttweaker:straw_rope>, <contenttweaker:end_portal_frame_debris>, <contenttweaker:insulating_substrate>, 
     <contenttweaker:blast_furnace_fuel>, <contenttweaker:dust_crude_steel>, <contenttweaker:dictionary_paper>, <contenttweaker:refractory_brick>, 
     <contenttweaker:refractory_clay_ball>, <contenttweaker:rusty_iron_ingot>, <contenttweaker:research_icon>, <contenttweaker:glazed_refractory_brick>, <trutils:rusty_iron>, 
@@ -157,7 +171,8 @@ val exceptItemStacks as IIngredient[] = [
     <ore:gearWood>, <ore:gearStone>, <botania:felpumpkin>, <extrautils2:flattransfernode>, <extrautils2:flattransfernode:1>, <extrautils2:grocket>,
     <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
-    <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>
+    <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>, <extendedcrafting:handheld_table>, <extendedcrafting:crafting_table>,
+
 ];
 
 for stage, items in specialStageItemStackMap {

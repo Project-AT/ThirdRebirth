@@ -53,8 +53,8 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_smelter>, 
     inputPattern(["SBS", "GCG", "SQS"])
-        .with("S", <ore:ingotSteel>)
-        .with("B", <ore:plateSteel>)
+        .with("S", <ore:ingotInvar>)
+        .with("B", <ore:plateInvar>)
         .with("G", <ore:gearSteel>)
         .with("C", <ore:itemSimpleMachineChassi>)
         .with("Q", <immersiveengineering:metal_device1:1>).get()

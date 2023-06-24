@@ -16,3 +16,4 @@ runicshearsUtils(<wizardry:fairy_dust>, <entity:minecraft:creeper>, 30);
 runicshearsUtils(<wizardry:blackened_spirit>, <entity:minecraft:enderman>, 30);
 runicshearsUtils(<wizardry:unicorn_horn>, <entity:betteranimalsplus:goat>, 30);
 runicshearsUtils(<wizardry:fairy_wings>, <entity:familiarfauna:familiarfauna.butterfly>, 30);
+runicshearsUtils(<minecraft:ghast_tear>, <entity:minecraft:ghast>, 180);

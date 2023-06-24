@@ -95,3 +95,11 @@ Alchemy.add(<contenttweaker:mystery_dust> * 4,
         ASP(<botania:rune:7>) : 16 .. 32,
     }
 );
+
+Alchemy.add(<minecraft:ghast_tear>,
+    [<netherex:ghast_meat_raw>, <embers:alchemic_waste>, <embers:alchemic_waste>, <botania:manabottle>, <botania:manabottle>], {
+        ASP(<botania:rune:0>) : 32 .. 48,
+        ASP(<embers:aspectus_dawnstone>) : 32 .. 48,
+        ASP(<embers:aspectus_silver>) : 32 .. 48,
+    }
+);

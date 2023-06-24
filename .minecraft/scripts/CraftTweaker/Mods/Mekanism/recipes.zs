@@ -49,6 +49,8 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:2>, [
 //合成配方
 recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
 
+recipes.addShapeless(<mekanism:salt> * 4, [<ore:blockSalt>]);
+
 furnace.remove(<mekanism:ingot:6>);
 furnace.remove(<mekanism:ingot:4>);
 furnace.remove(<mekanism:ingot:5>);

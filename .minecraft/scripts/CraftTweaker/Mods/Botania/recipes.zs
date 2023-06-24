@@ -3,8 +3,12 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+
+import mods.artisanworktables.builder.RecipeBuilder;
 
 import scripts.grassUtils.RecipeUtils;
+import scripts.grassUtils.StringHelper;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 //封印之布手动驱魔配方
@@ -126,4 +130,25 @@ for i in 0 to 16 {
 
 for input, output in manaTransform {
     recipes.addShapeless(output, [input, <botania:spellcloth>.anyDamage().transformDamage()]);
+}
+
+var Quartz as string[] = [
+    "Mana", "Blaze", "Lavender", "Red", "Elven", "Sunny"
+];
+
+for QuartzName in Quartz {
+    var gemQuartz as IOreDictEntry = oreDict.get("quartz" ~ QuartzName);
+    var Quartzblock as IOreDictEntry = oreDict.get("blockQuartz" ~ QuartzName);
+
+    if(!gemQuartz.empty && !Quartzblock.empty) {
+        
+        RecipeBuilder.get("blacksmith")
+            .setShapeless([Quartzblock])
+            .addTool(<ore:artisansHammer>, 1)
+            .addOutput(gemQuartz.firstItem * 4)
+            .setMinimumTier(0)
+            .setMaximumTier(1)
+            .create();
+
+    }
 }

@@ -3,6 +3,8 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -37,3 +39,35 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>, [
 ], {<ore:artisansDriver> : 8, <ore:artisansSpanner> : 15} as int[IIngredient]);
 
 RecipeUtils.recipeTweak(false, <survivalist:tanned_leather>, [[<ore:itemLeather>, <mysticalworld:tannins>]]);
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<ore:cobblestone> | <ore:stone>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<survivalist:rock> * 9)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<ore:stoneAndesite>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<survivalist:rock:1> * 9)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<ore:stoneDiorite>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<survivalist:rock:2> * 9)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<ore:stoneGranite>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<survivalist:rock:3> * 9)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();

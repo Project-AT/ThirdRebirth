@@ -3,6 +3,8 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -43,3 +45,11 @@ RecipeUtils.recipeTweak(true, <primal_tech:wooden_hopper>, [
     [<ore:plankWood>, <extrautils2:minichest>, <ore:plankWood>],
     [null, <ore:plankWood>]
 ]);
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<primal_tech:flint_block>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:flint> * 4)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();

@@ -41,6 +41,9 @@ val defaultStageModMap as string[][string] = {
     ],
     "ductdynamic" : [
         "thermaldynamics"
+    ],
+    "xnet" : [
+        "xnet"
     ]
 };
 

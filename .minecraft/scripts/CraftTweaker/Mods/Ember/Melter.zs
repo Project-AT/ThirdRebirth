@@ -119,6 +119,7 @@ val oreLiquids as ILiquidStack[IIngredient] = {
     <ore:blockLapis> : <liquid:lapis> * 5994,
     <ore:blockDiamond> : <liquid:diamond> * 5994,
     <ore:blockEmerald> : <liquid:emerald> * 5994,
+    <ore:blockSalt> : <liquid:brine> * 60,
 
     <ore:itemSalt> : <liquid:brine> * 15,   
     <ore:netherrack> : <liquid:nether_brick> * 72,
@@ -136,6 +137,10 @@ val oreLiquids as ILiquidStack[IIngredient] = {
     <nuclearcraft:ground_cocoa_nibs> : <liquid:chocolate_liquor> * 144,
     <nuclearcraft:gelatin> : <liquid:gelatin> * 144,
     <minecraft:purpur_block> : <liquid:purpur> * 288,
+    <integrateddynamics:crystalized_chorus_block> : <liquid:liquidchorus> * 1000,
+    <integrateddynamics:crystalized_chorus_brick> : <liquid:liquidchorus> * 1000,
+    <integrateddynamics:crystalized_chorus_brick_stairs> : <liquid:liquidchorus> * 750,
+    <integrateddynamics:crystalized_chorus_block_stairs> : <liquid:liquidchorus> * 750,
 };
 
 for ore, liquid in oreLiquids {

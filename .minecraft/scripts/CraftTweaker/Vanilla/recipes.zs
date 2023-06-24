@@ -120,3 +120,27 @@ RecipeBuilder.get("blacksmith")
   .setExtraOutputOne(<embers:brick_caminite>, 0.75)
   .setExtraOutputTwo(<embers:brick_caminite>, 0.5)
   .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<ore:blockQuartz>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:quartz> * 3)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<minecraft:red_sandstone>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:sand:1> * 3)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<minecraft:sandstone>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<minecraft:sand> * 3)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();

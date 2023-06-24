@@ -71,7 +71,7 @@ RecipeUtils.recipeTweak(true, <trutils:crude_steel_shovel>,
 }));
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <trutils:washing_machine>, [
-    [<ore:plateSteel>, <ore:fanSteel>, <ore:plateSteel>],
+    [null, <ore:fanSteel>, null],
     [<minecraft:bucket>, <ore:itemSimpleMachineChassi>, <minecraft:bucket>],
-    [<ore:plateSteel>, <immersiveengineering:toolupgrade:7>, <ore:plateSteel>]
+    [null, <immersiveengineering:toolupgrade:7>, null]
 ], {<ore:artisansSpanner> : 35, <ore:artisansDriver> : 40} as int[IIngredient]);

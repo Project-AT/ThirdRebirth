@@ -3,6 +3,8 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -31,3 +33,11 @@ RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:1>, [
 RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:2> * 2, [
     [<biomesoplenty:waterlily:1>]
 ]);
+
+RecipeBuilder.get("blacksmith")
+  .setShapeless([<biomesoplenty:white_sandstone>])
+  .addTool(<ore:artisansHammer>, 1)
+  .addOutput(<biomesoplenty:white_sand> * 3)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .create();

@@ -59,9 +59,9 @@ electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:9>, [
 ], {<ore:artisansDriver> : 10, <ore:artisansSolderer> : 15});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:rock_crusher>, [
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+    [null, <minecraft:piston>, null],
     [<ore:gearSteel>, <ore:itemSimpleMachineChassi>, <ore:gearSteel>],
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+    [null, <minecraft:piston>, null]
 ], {<ore:artisansDriver> : 51, <ore:artisansSpanner> : 49});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:crystallizer>, [
