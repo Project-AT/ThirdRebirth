@@ -2,6 +2,8 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.recipes.ICraftingRecipe;
 
 import mods.artisanworktables.builder.RecipeBuilder;
 
@@ -18,8 +20,8 @@ RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:1> * 2, [
     [<biomesoplenty:waterlily:0>]
 ]);
 
-RecipeUtils.recipeTweak(false, <minecraft:waterlily>, [
-    [<biomesoplenty:waterlily:0>, <biomesoplenty:waterlily:0>]
+recipes.addShapeless(<minecraft:waterlily>, [
+    <biomesoplenty:waterlily:0>, <biomesoplenty:waterlily:0>
 ]);
 
 RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:0> * 2, [
@@ -32,6 +34,18 @@ RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:1>, [
 
 RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:2> * 2, [
     [<biomesoplenty:waterlily:1>]
+]);
+
+recipes.addShapeless(<biomesoplenty:waterlily:3>, [
+    <minecraft:waterlily>, <ore:allFlowers>
+]);
+
+recipes.addShapeless(<minecraft:waterlily>, [
+    <biomesoplenty:waterlily:3>
+]);
+
+recipes.addShapeless(<minecraft:paper> * 3, [
+    <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>, <biomesoplenty:plant_1:8>
 ]);
 
 RecipeBuilder.get("blacksmith")

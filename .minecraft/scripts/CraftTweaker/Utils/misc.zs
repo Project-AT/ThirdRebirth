@@ -70,8 +70,8 @@ for recipe in recipes.getRecipesFor(<ore:fenceGateWood>) {
         .setMaximumTier(1)
         .setShapeless([recipe.output])
         .addOutput(recipe.ingredients1D[1].itemArray[0])
-        .addTool(<ore:artisansHandsaw>, 3)
-        .addTool(<ore:artisansFramingHammer>, 2)
+        .addTool(<ore:artisansHandsaw>, 1)
+        .addTool(<ore:artisansFramingHammer>, 1)
         .setExtraOutputOne(<minecraft:stick> * 3, 1.0)
     .create();
 }
@@ -81,7 +81,7 @@ for recipe in recipes.getRecipesFor(<ore:doorWood>) {
         .setMaximumTier(1)
         .setShapeless([recipe.output.withAmount(1)])
         .addOutput(recipe.ingredients1D[0].itemArray[0])
-        .addTool(<ore:artisansHandsaw>, 3)
+        .addTool(<ore:artisansHandsaw>, 1)
         .addTool(<ore:artisansFramingHammer>, 2)
     .create();
 }
@@ -91,7 +91,7 @@ for recipe in recipes.getRecipesFor(<ore:boatWood>) {
         .setMaximumTier(1)
         .setShapeless([recipe.output])
         .addOutput(recipe.ingredients1D[0].itemArray[0] * 3)
-        .addTool(<ore:artisansHandsaw>, 3)
+        .addTool(<ore:artisansHandsaw>, 2)
         .addTool(<ore:artisansFramingHammer>, 2)
     .create();
 }

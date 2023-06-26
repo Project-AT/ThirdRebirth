@@ -189,6 +189,50 @@ var oreDictAdd as IItemStack[][string] = {
     "shardEmber":[<embers:shard_ember>],
     "crystalEmber":[<embers:crystal_ember>],
     "endPortal":[<minecraft:end_portal_frame>],
+
+    "mushroomAny":[<biomesoplenty:mushroom:0>, <biomesoplenty:mushroom:1>, <biomesoplenty:mushroom:2>, <biomesoplenty:mushroom:3>, <biomesoplenty:mushroom:4>, <biomesoplenty:mushroom:5>],
+    "listAllmushroom":[<biomesoplenty:mushroom:0>, <biomesoplenty:mushroom:1>, <biomesoplenty:mushroom:2>, <biomesoplenty:mushroom:3>, <biomesoplenty:mushroom:4>, <biomesoplenty:mushroom:5>],
+    "mushroom":[<biomesoplenty:mushroom:0>, <biomesoplenty:mushroom:1>, <biomesoplenty:mushroom:2>, <biomesoplenty:mushroom:3>, <biomesoplenty:mushroom:4>, <biomesoplenty:mushroom:5>],
+    "allFlowers":[
+        <biomesoplenty:flower_0:1>, <biomesoplenty:flower_0:2>, <biomesoplenty:flower_0:3>, <biomesoplenty:flower_0:4>,
+        <biomesoplenty:flower_0:5>, <biomesoplenty:flower_0:6>, <biomesoplenty:flower_0:7>, <biomesoplenty:flower_0:8>,
+        <biomesoplenty:flower_0:9>, <biomesoplenty:flower_0:10>, <biomesoplenty:flower_0:11>, <biomesoplenty:flower_0:12>,
+        <biomesoplenty:flower_0:13>, <biomesoplenty:flower_0:14>, <biomesoplenty:flower_0:15>, <biomesoplenty:flower_0:0>,
+        <biomesoplenty:flower_1:1>, <biomesoplenty:flower_1:2>, <biomesoplenty:flower_1:3>, <biomesoplenty:flower_1:4>,
+        <biomesoplenty:flower_1:5>, <biomesoplenty:flower_1:0>,
+    ],
+    "cropRice":[<biomesoplenty:plant_1:3>],
+    "listAllgrain":[<biomesoplenty:plant_1:11>, <biomesoplenty:double_plant:3>],
+    "cropBarley":[<biomesoplenty:plant_1:11>],
+    "cropOats":[<biomesoplenty:double_plant:3>],
+    "cropFlax":[<biomesoplenty:double_plant>],
+    "listAllfiber":[<biomesoplenty:double_plant>],
+    "cropBambooshoot":[<biomesoplenty:sapling_0:2>],
+    "listAllveggie":[<biomesoplenty:sapling_0:2>, <biomesoplenty:seaweed>, <roots:pereskia_bulb>],
+    "cropSeaweed":[<biomesoplenty:seaweed>],
+    "listAllgreenveggie":[<biomesoplenty:seaweed>],
+    "cropEdibleroot":[<quark:root>, <quark:root_flower>, <quark:root_flower:1>, <quark:root_flower:2>, <roots:wildroot>],
+    "listAllrootveggie":[<roots:pereskia_bulb>],
+    "listAllberry":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
+    "listAllfruit":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
+    "foodCrabraw":[<quark:crab_leg>],
+    "foodCrabcooked":[<quark:cooked_crab_leg>],
+    "foodFrograw":[<quark:frog_leg>],
+    "foodFrogcooked":[<quark:cooked_frog_leg>],
+    "foodFriedegg":[<betteranimalsplus:fried_egg>],
+    "foodEelraw":[<betteranimalsplus:eel_meat_raw>],
+    "foodMarshmellows":[<nuclearcraft:marshmallow>],
+
+    "doorWood":[
+        <biomesoplenty:mangrove_door>, <biomesoplenty:sacred_oak_door>, <biomesoplenty:cherry_door>, <biomesoplenty:umbran_door>,
+        <biomesoplenty:fir_door>, <biomesoplenty:ethereal_door>, <biomesoplenty:magic_door>, <biomesoplenty:palm_door>, 
+        <traverse:fir_door>, <wizardry:wisdom_wood_door>, <biomesoplenty:pine_door>, <biomesoplenty:willow_door>,
+        <biomesoplenty:redwood_door>, <biomesoplenty:eucalyptus_door>, <biomesoplenty:ebony_door>, <biomesoplenty:jacaranda_door>,
+        <biomesoplenty:mahogany_door>, <biomesoplenty:hellbark_door>, <integrateddynamics:menril_door>
+    ],
+    "trapdoorWood":[<roots:wildwood_trapdoor>],
+    "fenceGateWood":[<traverse:fir_fence_gate>, <roots:wildwood_fence_gate>], 
+    "fenceWood":[<roots:wildwood_fence>, <wizardry:wisdom_wood_fence>, <traverse:fir_fence>],
 };
 
 var oreDictRemove as IItemStack[] = [
@@ -259,6 +303,7 @@ for item in loadedMods["mysticalworld"].items {
 <ore:oreCertusQuartz>.remove(<appliedenergistics2:charged_quartz_ore>);
 <ore:ingotAluminium>.remove(<embers:ingot_aluminum>);
 <ore:plateAluminium>.remove(<embers:plate_aluminum>);
+<ore:fenceGateWood>.remove(<traverse:fir_fence>);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",

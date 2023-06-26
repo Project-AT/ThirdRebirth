@@ -26,7 +26,7 @@ for ingot in Ingots {
     furnace.remove(ingot);
 }
 
-RecipeUtils.recipeTweak(true, <minecraft:torch> * 8, [
+recipes.addShapedMirrored(<minecraft:torch> * 8, [
     [<ore:fuelCoke>],
     [<ore:stickWood>, <ore:stickWood>]
 ]);

@@ -32,6 +32,12 @@ RecipeUtils.recipeTweak(true, <trutils:flint_hoe>, [
     [null, <ore:stickWood>]
 ]);
 
+RecipeUtils.recipeTweak(false, <survivalist:plant_fibres> * 2, [
+    [<ore:knife>.transformDamage(), <ore:tallgrass> | <ore:vine> | <biomesoplenty:willow_vine> | <ore:plantShortgrass> | <ore:plantMediumgrass> | <ore:plantWheatgrass> |
+                                    <ore:plantDampgrass> | <ore:plantCloverpatch> |<ore:plantDeadgrass> | <ore:plantDesertgrass> | <ore:plantDunegrass> | <ore:plantDevilweed> |
+                                    <biomesoplenty:ivy> | <ore:plantSprout> | <ore:plantKoru>]
+]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <survivalist:sawmill>, [
     [<ore:ingotIron>, <thermalfoundation:material:657>, <ore:ingotIron>],
     [<ore:cobblestone>, null, <ore:cobblestone>],

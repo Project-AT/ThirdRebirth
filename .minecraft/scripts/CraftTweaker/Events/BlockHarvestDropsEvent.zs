@@ -47,13 +47,13 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent){
     if(!world.remote) {
         if(common.getBlockID(block) == "minecraft:tallgrass" && !player.creative) {
             if(player.isPotionActive(<potion:minecraft:luck>) && fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (2 * random * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (0.05 * random * fortune);
             } else if(fortune != 0) {
-                event.drops += <contenttweaker:four_leaf_clover> % (5 * fortune);
+                event.drops += <contenttweaker:four_leaf_clover> % (0.05 * fortune);
             } else if(player.isPotionActive(<potion:minecraft:luck>)) {
-                event.drops += <contenttweaker:four_leaf_clover> % (5 * random);
+                event.drops += <contenttweaker:four_leaf_clover> % (0.05 * random);
             } else {
-                event.drops += <contenttweaker:four_leaf_clover> % 5;
+                event.drops += <contenttweaker:four_leaf_clover> % 0.05;
             } 
         }
 
