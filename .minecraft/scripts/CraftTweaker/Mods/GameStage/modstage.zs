@@ -44,6 +44,9 @@ val defaultStageModMap as string[][string] = {
     ],
     "xnet" : [
         "xnet"
+    ],
+    "psi" : [
+        "psi"
     ]
 };
 

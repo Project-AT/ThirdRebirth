@@ -60,6 +60,9 @@ item.contenttweaker.research_point_Lv1.name=Inspired Bulb
 item.contenttweaker.research_point_Lv1_incomplete.name=Unlighted Inspiration Bulb
 item.contenttweaker.mystery_dust.name=Mystery Dust
 item.contenttweaker.PCB_Substrate.name=PCB Substrate
+item.contenttweaker.Token_of_Elven_Friendship_Big.name=Big Token of Elven's Fridendship
+item.contenttweaker.Token_of_Elven_Friendship_Medium.name=Medium Token of Elven's Fridendship
+item.contenttweaker.Token_of_Elven_Friendship_Small.name=Small Token of Elven's Fridendship
 
 #Item
 #Bauble

@@ -32,6 +32,12 @@ RecipeUtils.recipeTweak(true, <botania:altar>, [
     [<minecraft:cobblestone>, <ore:livingrock>, <minecraft:cobblestone>]
 ]);
 
+RecipeUtils.recipeTweak(true, <botania:baublebox>, [
+    [<ore:gemLapis>, <harvestcraft:hardenedleatheritem>, <ore:gemLapis>],
+    [<harvestcraft:hardenedleatheritem>, <ore:chest>, <harvestcraft:hardenedleatheritem>],
+    [<ore:gemLapis>, <harvestcraft:hardenedleatheritem>, <ore:gemLapis>]
+]);
+
 RecipeUtils.recipeTweak(false, <botania:manaresource:6>, [
     [<quark:root>, <ore:dustRedstone>]
 ]);

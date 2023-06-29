@@ -110,6 +110,7 @@ var baned as IItemStack[] = [
     <primal_tech:bone_sword>,
     <primal_tech:bone_shovel>,
     <primal_tech:bone_shears>,
+    <primal_tech:bone_shard>,
     <nuclearcraft:alloy_furnace>,
 	<roots:unending_bowl>,
     <advancedrocketry:electrolyser>,
@@ -163,6 +164,7 @@ for name in removeByRecipeName {
 for item in baned {
     item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
     recipes.remove(item);
+    JEI.removeAndHide(item);
 }
 
 for item in banRitual {

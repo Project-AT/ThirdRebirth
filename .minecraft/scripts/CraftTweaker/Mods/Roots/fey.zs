@@ -14,7 +14,7 @@ function ferUtils(output as IItemStack, input as IIngredient[], isRemove as bool
 }
 
 ferUtils(<roots:runic_shears>, [
-    <roots:wooden_shears>, <roots:pereskia>, <ore:ingotGold>, <roots:runic_dust>, <roots:runic_dust>
+    <roots:wooden_shears>, <roots:pereskia>, <contenttweaker:mana_petals>, <roots:runic_dust>, <roots:runic_dust>
 ], true);
 
 ferUtils(<roots:elemental_soil> * 2, [

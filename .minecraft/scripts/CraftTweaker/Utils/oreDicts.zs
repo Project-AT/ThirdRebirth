@@ -222,6 +222,8 @@ var oreDictAdd as IItemStack[][string] = {
     "foodFriedegg":[<betteranimalsplus:fried_egg>],
     "foodEelraw":[<betteranimalsplus:eel_meat_raw>],
     "foodMarshmellows":[<nuclearcraft:marshmallow>],
+    "listAllchickenraw":[<betteranimalsplus:pheasantraw>],
+    "listAllchickencooked":[<betteranimalsplus:pheasantcooked>],
 
     "doorWood":[
         <biomesoplenty:mangrove_door>, <biomesoplenty:sacred_oak_door>, <biomesoplenty:cherry_door>, <biomesoplenty:umbran_door>,

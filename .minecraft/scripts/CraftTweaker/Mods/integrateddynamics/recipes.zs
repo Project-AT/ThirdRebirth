@@ -3,6 +3,8 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -30,3 +32,18 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <integrateddynamics:mechanic
         "D" : <integrateddynamics:drying_basin>,
         "E" : <embers:wrapped_sealed_planks>
 }), {<ore:artisansSpanner> : 12} as int[IIngredient]);
+
+recipes.remove(<integrateddynamics:energy_battery>.withTag({energy: 0}));
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<embers:sealed_planks>, <embers:sealed_planks>, <embers:sealed_planks>],
+    [<ore:blockRedstone>, <fluiddrawers:tank>, <ore:blockRedstone>],
+    [<embers:sealed_planks>, <embers:sealed_planks>, <embers:sealed_planks>]])
+  .setFluid(<liquid:menrilresin> * 4000)
+  .addTool(<ore:artisansDriver>, 12)
+  .addTool(<ore:artisansSpanner>, 10)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
+  .addOutput(<integrateddynamics:energy_battery>.withTag({energy: 0}))
+  .create();
