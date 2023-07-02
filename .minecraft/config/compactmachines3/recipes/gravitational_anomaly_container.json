@@ -1,0 +1,101 @@
+{
+    "name": "compactmachine3:gravitational_anomaly_container",
+
+    "disable": false,
+
+    "target-item" : "contenttweaker:gravitational_anomaly_container",
+    "target-count" : "1",
+
+    "duration" : 2400 ,
+    "symmetrical" : true,
+
+    "catalyst" : "deepmoblearning:pristine_matter_enderman",
+
+    "input-types": {
+    "a": {
+      "id": "thermalfoundation:glass_alloy",
+      "meta": 7
+    },
+    "b": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 2
+    },
+    "c": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 1
+    },
+    "d": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 5
+    },
+    "e": {
+      "id": "matteroverdrive:gravitational_anomaly",
+      "meta": 0
+    },
+    "f": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 4
+    },
+    "g": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 0
+    },
+    "h": {
+      "id": "matteroverdrive:gravitational_stabilizer",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "f",
+        "e",
+        "d"
+      ],
+      [
+        "a",
+        "h",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "a",
+        "g",
+        "a"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ]
+    ]
+  ]
+}

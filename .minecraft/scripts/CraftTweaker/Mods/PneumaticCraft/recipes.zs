@@ -13,6 +13,8 @@ RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_valve>, [[<pneum
 //压力室玻璃合成
 RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_glass>, [[<ore:blockGlass>, <pneumaticcraft:pressure_chamber_wall>]]);
 
+recipes.remove(<pneumaticcraft:advanced_pcb>);
+
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])
         .with("D", <immersiveengineering:material:27>)

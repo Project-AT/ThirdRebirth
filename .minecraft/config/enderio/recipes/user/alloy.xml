@@ -57,6 +57,12 @@
     <!-- CrT: <ore:ingot_dark_soularium> -->
     <recipe name="Alloy: Dark Soularium Alloy" required="true" disabled="true"/>
 
+    <!-- CrT: <ore:ingotConductiveIron> -->
+    <recipe name="Alloy: Conductive Iron" required="true" disabled="true"/>
+
+    <!-- CrT: <ore:ingotSteel> -->
+    <recipe name="Alloy: Steel" required="true" disabled="true"/> 
+
     <!-- 染料 -->
     <recipe name="Alloy: Brown Dye" required="true" disabled="true"/>
     <recipe name="Alloy: Brown Dye, Variant" required="true" disabled="true"/>

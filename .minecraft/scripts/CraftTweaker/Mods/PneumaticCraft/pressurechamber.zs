@@ -11,3 +11,4 @@ pressurechamber.removeRecipe([<pneumaticcraft:empty_pcb:100>]);
 pressurechamber.removeRecipe([<forge:bucketfilled>.withTag({FluidName: "etchacid", Amount: 1000})]);
 
 pressurechamber.addRecipe([<ore:dustCoke>], 3.0, [<immersiveengineering:material:18>]);
+pressurechamber.addRecipe([<embers:intelligent_apparatus>, <pneumaticcraft:printed_circuit_board>], 3.5, [<pneumaticcraft:advanced_pcb> * 4]);

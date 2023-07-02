@@ -215,8 +215,8 @@ var oreDictAdd as IItemStack[][string] = {
     "listAllrootveggie":[<roots:pereskia_bulb>],
     "listAllberry":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
     "listAllfruit":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
-    "foodCrabraw":[<quark:crab_leg>],
-    "foodCrabcooked":[<quark:cooked_crab_leg>],
+    "foodCrabraw":[<quark:crab_leg>, <betteranimalsplus:crab_meat_raw>],
+    "foodCrabcooked":[<quark:cooked_crab_leg>, <betteranimalsplus:crab_meat_cooked>],
     "foodFrograw":[<quark:frog_leg>],
     "foodFrogcooked":[<quark:cooked_frog_leg>],
     "foodFriedegg":[<betteranimalsplus:fried_egg>],
@@ -224,6 +224,13 @@ var oreDictAdd as IItemStack[][string] = {
     "foodMarshmellows":[<nuclearcraft:marshmallow>],
     "listAllchickenraw":[<betteranimalsplus:pheasantraw>],
     "listAllchickencooked":[<betteranimalsplus:pheasantcooked>],
+    "bread":[<survivalist:round_bread>, <roots:wildewheet_bread>],
+    "foodBread":[<survivalist:round_bread>],
+    "foodDough":[<survivalist:dough>],
+    "tallow":[<betteranimalsplus:blubber>],
+    "cropLychee":[<harvestcraft:lycheeitem>],
+    "cropJackfruit":[<harvestcraft:jackfruititem>],
+    "listAllyogurt":[<harvestcraft:plainyogurtitem>],
 
     "doorWood":[
         <biomesoplenty:mangrove_door>, <biomesoplenty:sacred_oak_door>, <biomesoplenty:cherry_door>, <biomesoplenty:umbran_door>,
@@ -340,4 +347,25 @@ for oreName in oreNames {
     if(!isNull(oreCrushedInfused) && !oreCrushedInfused.empty) oreDict.get("allOreCrushedInfuseds").addAll(oreCrushedInfused);
     if(!isNull(oreCrushedEnriched) && !oreCrushedEnriched.empty) oreDict.get("allOreCrushedEnricheds").addAll(oreCrushedEnriched);
     if(!isNull(oreCleanCrushedInfused) && !oreCleanCrushedInfused.empty) oreDict.get("allOreCleanCrushedInfuseds").addAll(oreCleanCrushedInfused);
+}
+
+var materialNames as string[] = [
+    "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
+    "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
+    "Lead", "Aluminum", "Germanium", "Dilithium", "Steel", "Electrum", "Invar", "Bronze", "Constantan", "Signalum", "Lumium", "Enderium",
+    "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite", "RoseGold", "HighStrengthAluminumAlloy", "PureIron",
+    "IronCompressed", "Soularium", "Beryllium", "Zirconium", "Tough", "Dawnstone", "Diamond", "Emerald", "Dilithium", "Coal", "Quartz", "CertusQuartz", 
+    "ChargedCertusQuartz", "Lapis", "Charcoal", "Fluorite", "BoronNitride", "Rhodochrosite", "Fluix", "Coke"
+];
+
+for metalName in materialNames {
+    var dust as IOreDictEntry = oreDict.get("dust" ~ metalName);
+    var ingot as IOreDictEntry = oreDict.get("ingot" ~ metalName);
+    var plate as IOreDictEntry = oreDict.get("plate" ~ metalName);
+    var gem as IOreDictEntry = oreDict.get("gem" ~ metalName);
+
+    if(!isNull(dust) && !dust.empty) oreDict.get(metalName).addAll(dust);
+    if(!isNull(ingot) && !ingot.empty) oreDict.get(metalName).addAll(ingot);
+    if(!isNull(plate) && !plate.empty) oreDict.get(metalName).addAll(plate);
+    if(!isNull(gem) && !gem.empty) oreDict.get(metalName).addAll(gem);
 }

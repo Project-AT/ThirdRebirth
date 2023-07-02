@@ -58,4 +58,5 @@ modularmachinery.experimental_stargate=Experimental Stargate
 modularmachinery.stargate=Stargate
 modularmachinery.refinery=Refinery Machine
 modularmachinery.electronic_assembly_machine=Electronic Assembly Machine
+modularmachinery.mage_assembly_machine=Mage's Assembly Machine
 modularmachinery.modifier.1=When using a Maching Circuitry to replace the Maching Casing in the recipe, the additional output probability will be increased by 2.5%.

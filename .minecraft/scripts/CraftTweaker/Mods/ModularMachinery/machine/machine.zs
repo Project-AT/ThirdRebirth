@@ -31,9 +31,9 @@ RecipeBuilder.newBuilder("ordinary_turbines_recipe", "ordinary_turbines", 10)
     .addFluidOutput(<liquid:water> * 800)
 .build();
 
-RecipeBuilder.newBuilder("fractionator_recipe", "fractionator", 100)
+RecipeBuilder.newBuilder("fractionator_recipe", "fractionator", 10)
     .addFluidInput(<liquid:oil> * 100)
-    .addEnergyPerTickInput(100)
+    .addEnergyPerTickInput(1000)
     .addFluidOutput(<liquid:lpg> * 20)
     .addFluidOutput(<liquid:fuel> * 10)
     .addFluidOutput(<liquid:diesel> * 10)

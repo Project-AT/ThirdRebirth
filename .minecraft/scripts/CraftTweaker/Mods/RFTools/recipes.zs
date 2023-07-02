@@ -1,6 +1,8 @@
 #priority 5
 #modloaded trutils
 
+import mods.artisanworktables.builder.RecipeBuilder;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -41,3 +43,14 @@ RecipeUtils.recipeTweak(true, <rftools:sensor_block>, [
 artisanUtils.RecipeTweakWithTools("engineer", true, <rftools:machine_frame>, 
     RecipeUtils.createCrossWithCore(<ore:dustRedstone>, <ore:ingotSteel>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>)
 , {<ore:artisansHammer> : 10, <ore:artisansSpanner> : 10});
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:ingotSteel>, <ore:ingotSmithingIron>, <ore:ingotSteel>],
+    [<ore:ingotSmithingIron>, <minecraft:redstone>, <ore:ingotSmithingIron>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addTool(<ore:artisansSpanner>, 5)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<rftools:machine_base>)
+  .create();

@@ -1,6 +1,8 @@
+/*
 #priority 5
 #modloaded trutils
 #loader crafttweaker reloadableevents
+
 
 import crafttweaker.block.IBlock;
 import crafttweaker.world.IWorld;
@@ -8,9 +10,14 @@ import crafttweaker.world.IFacing;
 import crafttweaker.world.IBlockPos;
 
 import mods.modularmachinery.RecipeBuilder;
+
 import mods.modularcontroller.MachineRecipeBaseEvent;
+
 import mods.modularcontroller.RecipeModifierOperation;
+import mods.modularmachinery.RecipeModifierBuilder;
+
 import mods.modularcontroller.MachineRecipeCompleteEvent;
+import mods.modularmachinery.RecipeFinishEvent;
 
 var recipes as int[][int] = {
     1 : [8 , 8, 4800],
@@ -92,3 +99,4 @@ function isBlockElementium(world as IWorld, pos as IBlockPos) as bool {
     var block as IBlock = world.getBlock(pos);
     return block.definition.id == "botania:storage" && block.meta == 2;
 }
+*/

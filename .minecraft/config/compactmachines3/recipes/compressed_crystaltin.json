@@ -1,0 +1,94 @@
+{
+    "name": "compactmachine3:compressed_crystaltin",
+
+    "disable": false,
+
+    "target-item" : "contenttweaker:compressed_crystaltine",
+    "target-count" : "16",
+
+    "duration" : 1000 ,
+    "symmetrical" : true,
+
+    "catalyst" : "appliedenergistics2:material",
+    "catalyst-meta" : 9,
+
+    "input-types": {
+    "a": {
+      "id": "enderio:block_alloy_endergy",
+      "meta": 1
+    },
+    "b": {
+      "id": "botania:storage",
+      "meta": 3
+    },
+    "c": {
+      "id": "thermalfoundation:storage_alloy",
+      "meta": 6
+    },
+    "d": {
+      "id": "netherex:rime_block",
+      "meta": 0
+    },
+    "e": {
+      "id": "enderio:block_alloy",
+      "meta": 7
+    },
+    "f": {
+      "id": "extendedcrafting:storage",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "e",
+        "f",
+        "e"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ],
+    [
+      [
+        "_",
+        "a",
+        "_"
+      ],
+      [
+        "c",
+        "d",
+        "c"
+      ],
+      [
+        "_",
+        "a",
+        "_"
+      ]
+    ]
+  ]
+}

@@ -64,15 +64,3 @@ RecipeBuilder.get("mage")
   .setMaximumTier(1)
   .addOutput(<multiblocked:mana_remover>)
   .create();
-
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<ore:plateIronCompressed>, <embers:heat_coil>, <ore:plateIronCompressed>],
-    [<immersiveengineering:metal_device1:1>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_device1:1>],
-    [<ore:plateIronCompressed>, <immersiveengineering:material:27>, <ore:plateIronCompressed>]])
-  .addTool(<ore:artisansSpanner>, 25)
-  .addTool(<ore:artisansDriver>, 28)
-  .setMinimumTier(0)
-  .setMaximumTier(1)
-  .addOutput(<multiblocked:distillation_tower>)
-  .create();

@@ -7,10 +7,10 @@ import crafttweaker.liquid.ILiquidStack;
 
 val defaultStageModMap as string[][string] = {
     "two" : [
-        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets", "teslacorelib", "artisanautomation"
+        "teslathingies", "pneumaticcraft", "extrautils2", "buildinggadgets", "teslacorelib", "artisanautomation", "rftools", "modularmachinery",
     ],
     "three" : [
-        "enderio", "nuclearcraft"
+        "enderio", "nuclearcraft", "simplyjetpacks"
     ],
     "four" : [
         "libvulpes"
@@ -40,13 +40,13 @@ val defaultStageModMap as string[][string] = {
         "lightningcraft"
     ],
     "ductdynamic" : [
-        "thermaldynamics"
+        "thermaldynamics", "enderstorage:ender_storage"
     ],
     "xnet" : [
         "xnet"
     ],
     "psi" : [
-        "psi"
+        "psi", "psicosts", "psicaster"
     ]
 };
 

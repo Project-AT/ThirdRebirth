@@ -58,4 +58,5 @@ modularmachinery.experimental_stargate=实验型星门
 modularmachinery.stargate=太空星门
 modularmachinery.refinery=提炼机
 modularmachinery.electronic_assembly_machine=电子部件装配机
+modularmachinery.mage_assembly_machine=法师装配机
 modularmachinery.modifier.1=每一个机械电路板替换机械外壳可以使额外产出概率增加2.5%。

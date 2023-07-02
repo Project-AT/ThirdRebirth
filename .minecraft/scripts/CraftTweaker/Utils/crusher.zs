@@ -25,7 +25,7 @@ var Metal as string[] = [
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
     "Lead", "Aluminum", "Dilithium", "Germanium", "Steel", "Electrum", "Invar", "Bronze", "Constantan", "Signalum", "Lumium", "Enderium",
     "ManganeseDioxide" ,"ManganeseOxide", "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite", "RoseGold",
-    "HighStrengthAluminumAlloy", "PureIron"
+    "HighStrengthAluminumAlloy", "PureIron", "Soularium", "Beryllium", "Zirconium",
 ];
 
 var Gem as string[] = [

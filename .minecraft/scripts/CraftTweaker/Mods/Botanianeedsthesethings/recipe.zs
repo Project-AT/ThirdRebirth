@@ -29,6 +29,8 @@ RecipeBuilder.get("mage")
     [<ore:ingotPureIron>, <ore:ingotElvenElementium>, <ore:ingotPureIron>]])
   .addTool(<ore:artisansAthame>, 20)
   .addTool(<ore:artisansGemCutter>, 30)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
   .addOutput(<botanianeedsit:mana_capacitor_elementium:1> * 8)
   .create();
 
@@ -40,5 +42,7 @@ RecipeBuilder.get("mage")
     [<ore:ingotPureIron>, <ore:nuggetTerrasteel>, <ore:ingotPureIron>]])
   .addTool(<ore:artisansAthame>, 50)
   .addTool(<ore:artisansGemCutter>, 50)
+  .setMinimumTier(0)
+  .setMaximumTier(1)
   .addOutput(<botanianeedsit:mana_capacitor_terrasteel:1>)
   .create();

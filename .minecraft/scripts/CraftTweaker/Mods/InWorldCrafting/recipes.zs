@@ -28,3 +28,5 @@ FluidToFluid.transform(<liquid:ichor>, <liquid:blood>,
     [<wizardry:devil_dust> * 10, <minecraft:magma_cream> * 4], true);
 FluidToFluid.transform(<liquid:poison>, <liquid:water>, 
     [<roots:baffle_cap_mushroom>, <minecraft:poisonous_potato>, <ore:spiderEye>, <minecraft:fish:3>], true);
+FluidToFluid.transform(<liquid:sand>, <liquid:water>, 
+    [<ore:ballMud> * 8, <ore:sand> * 2], true);

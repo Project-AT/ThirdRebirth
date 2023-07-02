@@ -10,6 +10,8 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+recipes.addShapeless(<harvestcraft:honeyitem> * 4, [<biomesoplenty:jar_filled>.giveBack(<biomesoplenty:jar_empty>)]);
+
 furnace.remove(<biomesoplenty:gem:0>);
 
 RecipeUtils.recipeTweak(false, <biomesoplenty:waterlily:0>, [

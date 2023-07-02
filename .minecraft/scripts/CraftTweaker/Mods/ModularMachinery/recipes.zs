@@ -263,11 +263,6 @@ artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itembluepr
     [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
 ], {<ore:artisansTSquare> : 21, <ore:artisansPencil> : 19});
 
-artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:refinery"}), [
-    [<ore:plateSteel>, <ore:ingotDawnstone>, <ore:blockGlassHardened>],
-    [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
-], {<ore:artisansTSquare> : 50, <ore:artisansPencil> : 50});
-
 artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ordinary_turbines"}), [
     [null, <ore:dustRedstone>],
     [<modularmachinery:itemmodularium>, <ore:plateSteel>, <ore:ingotBronze>],
@@ -288,30 +283,6 @@ artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itembluepr
     [null, <naturesaura:infused_iron>, <modularmachinery:itemmodularium>],
     [<artisanworktables:design_pattern>, <artisanworktables:design_pattern>, <artisanworktables:design_pattern>]
 ], {<ore:artisansTSquare> : 26, <ore:artisansPencil> : 29});
-
-artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_turbine"}),
-    inputPattern([" D ", "ABC", "LLL"])
-        .with("A", <modularmachinery:itemmodularium>)
-        .with("B", <ore:plateIron>)
-        .with("C", <ore:ingotBronze>)
-        .with("D", <ore:dustRedstone>)
-        .with("L", <artisanworktables:design_pattern>).get()
-, {<ore:artisansPencil> : 11, <ore:artisansTSquare> : 13} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:small_thermal_boilers"}),
-    inputPattern(["ABC", "LLL"])
-        .with("A", <modularmachinery:itemmodularium>)
-        .with("B", <ore:plateIron>)
-        .with("C", <ore:coal> | <ore:charcoal>)
-        .with("L", <artisanworktables:design_pattern>).get()
-, {<ore:artisansPencil> : 12, <ore:artisansTSquare> : 12} as int[IIngredient]);
-
-artisanUtils.RecipeTweakWithTools("designer", true, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:exorcism"}),
-    inputPattern(["ABA", "LLL"])
-        .with("A", <ore:quartzMana>)
-        .with("B", <ore:blockQuartzMana>)
-        .with("L", <artisanworktables:design_pattern>).get()
-, {<ore:artisansPencil> : 12, <ore:artisansTSquare> : 12} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <modularmachinery:blockbunker>,
     inputPattern(["ABA", "C C", "ACA"])

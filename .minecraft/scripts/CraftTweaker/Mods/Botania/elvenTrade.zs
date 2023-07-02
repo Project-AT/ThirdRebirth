@@ -22,7 +22,10 @@ var experienceRecipes as double[IIngredient] = {
     <ore:gemPearl> : 0.05D,
     <ore:gemAmethyst> : 0.25D,
     <ore:foodBread> : -100.0D,
-    <ore:flourEqualswheat> : -10.0D
+    <ore:flourEqualswheat> : -10.0D,
+    <contenttweaker:token_of_elven_friendship_small> : 1.0D,
+    <contenttweaker:token_of_elven_friendship_medium> : 10.0D,
+    <contenttweaker:token_of_elven_friendship_big> : 50.0D,
 };
 
 var elvenTradeRecipes as double[int][IIngredient[]][IItemStack] = {

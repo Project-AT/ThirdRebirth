@@ -74,6 +74,10 @@ var removeAndHide as IItemStack[] = [
     <nuclearcraft:dust:12>,
     <embers:ore_quartz>,
     <teslathingies:tesla_plant_seeds>,
+    <rftools:coalgenerator>,
+    <rftools:endergenic>,
+    <rftools:pearl_injector>,
+    <rftools:ender_monitor>,
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -124,6 +128,7 @@ var baned as IItemStack[] = [
     <teslathingies:item_compound_producer>,
     <embers:dust_metallurgic>,
     <biomesoplenty:gem_ore>,
+    <teslathingies:tesla_plant_seeds>,
 ];
 
 val banRitual as IItemStack[] = [
@@ -141,6 +146,25 @@ val hideCategory as string[] = [
     "incinerator",
     "fluid_burner",
     "compound_maker",
+    "xu2_machine_extrautils2:furnace",
+    "xu2_machine_extrautils2:crusher",
+    "modularmachinery.recipes.big_embers_furnace",
+    "xu2_machine_extrautils2:generator_survival",
+    "xu2_machine_extrautils2:generator",
+    "xu2_machine_extrautils2:generator_culinary",
+    "xu2_machine_extrautils2:generator_lava",
+    "xu2_machine_extrautils2:generator_redstone",
+    "xu2_machine_extrautils2:generator_ender",
+    "xu2_machine_extrautils2:generator_potion",
+    "xu2_machine_extrautils2:generator_pink",
+    "xu2_machine_extrautils2:generator_overclock",
+    "xu2_machine_extrautils2:generator_tnt",
+    "xu2_machine_extrautils2:generator_netherstar",
+    "xu2_machine_extrautils2:generator_dragonsbreath",
+    "xu2_machine_extrautils2:generator_ice",
+    "xu2_machine_extrautils2:generator_death",
+    "xu2_machine_extrautils2:generator_enchant",
+    "xu2_machine_extrautils2:generator_slime",
 ];
 
 for item in removeAndHide {

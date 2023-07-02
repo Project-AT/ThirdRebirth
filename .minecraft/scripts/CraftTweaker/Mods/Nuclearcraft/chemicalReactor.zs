@@ -60,7 +60,7 @@ var recipes as ILiquidStack[][ILiquidStack[]] = {
     [<liquid:fluoromethane> * 250, <liquid:water> * 250] : [<liquid:methanol> * 250, <liquid:hydrofluoric_acid> * 250],
     [<liquid:ethene> * 250, <liquid:sodium_fluoride_solution> * 333] : [<liquid:fluoromethane> * 500, <liquid:naoh> * 333],
     [<liquid:ethene> * 250, <liquid:potassium_fluoride_solution> * 333] : [<liquid:fluoromethane> * 500, <liquid:koh> * 333],
-    [<liquid:helium> * 1000, <liquid:aerotheum> * 250] : [<liquid:vapor_of_levity> * 1000, <liquid:gas_dwarf> * 1000],
+    [<liquid:helium> * 2000, <liquid:aerotheum> * 250] : [<liquid:vapor_of_levity> * 1000, <liquid:gas_dwarf> * 1000],
 };
 
 for key, value in recipes {

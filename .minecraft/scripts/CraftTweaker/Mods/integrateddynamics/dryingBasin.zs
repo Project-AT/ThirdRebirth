@@ -12,7 +12,9 @@ function addDryingBasinRecipe(input as IItemStack, inputFluid as ILiquidStack, o
     MechanicalDryingBasin.addRecipe(input, inputFluid, output, outputFluid, mechanicalDuration);
 }
 
-addDryingBasinRecipe(null, <liquid:ichor> * 1000, <lightningcraft:material:5>, null, 20, 10);
+addDryingBasinRecipe(null, <liquid:ichor> * 1000, <lightningcraft:material:5>, null, 100, 20);
+addDryingBasinRecipe(<ore:blockMud>.firstItem, null, <minecraft:dirt>, null, 40, 10);
+
 MechanicalDryingBasin.addRecipe(null, <liquid:petrotheum> * 250, <thermalfoundation:material:1027>, null);
 MechanicalDryingBasin.addRecipe(null, <liquid:slag_waste_slurry> * 250, <thermalfoundation:material:865>, null);
 MechanicalDryingBasin.addRecipe(null, <liquid:aerotheum> * 250, <thermalfoundation:material:1026>, null);

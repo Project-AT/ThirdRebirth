@@ -57,18 +57,59 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:chiseled_quartz_block>, <appliedenergistics2:quartz_stairs>, <appliedenergistics2:chiseled_quartz_stairs>, <appliedenergistics2:quartz_pillar_stairs>,
         <appliedenergistics2:quartz_slab>, <appliedenergistics2:chiseled_quartz_slab>, <appliedenergistics2:quartz_pillar_slab>,
         <appliedenergistics2:certus_quartz_axe>, <appliedenergistics2:certus_quartz_hoe>, <appliedenergistics2:certus_quartz_spade>, <appliedenergistics2:certus_quartz_pickaxe>,
-        <appliedenergistics2:certus_quartz_cutting_knife>,
+        <appliedenergistics2:certus_quartz_cutting_knife>, <ore:substanceEbony>, <ore:substanceIvory>,
     ],
     "four" : [
-        <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>
+        <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>,
+        <nuclearcraft:fission_heater_port:0>, <nuclearcraft:fission_heater_port:1>, <nuclearcraft:fission_heater_port:2>, <nuclearcraft:fission_heater_port:3>, 
+        <nuclearcraft:fission_heater_port:4>, <nuclearcraft:fission_heater_port:5>, <nuclearcraft:fission_heater_port:6>, <nuclearcraft:fission_heater_port:7>, 
+        <nuclearcraft:fission_heater_port:8>, <nuclearcraft:fission_heater_port:9>, <nuclearcraft:fission_heater_port:10>, <nuclearcraft:fission_heater_port:11>,
+        <nuclearcraft:fission_heater_port:12>, <nuclearcraft:fission_heater_port:13>, <nuclearcraft:fission_heater_port:14>, <nuclearcraft:fission_heater_port:15>,
+        <nuclearcraft:fission_heater_port2:0>, <nuclearcraft:fission_heater_port2:1>, <nuclearcraft:fission_heater_port2:2>, <nuclearcraft:fission_heater_port2:3>, 
+        <nuclearcraft:fission_heater_port2:4>, <nuclearcraft:fission_heater_port2:5>, <nuclearcraft:fission_heater_port2:6>, <nuclearcraft:fission_heater_port2:7>, 
+        <nuclearcraft:fission_heater_port2:8>, <nuclearcraft:fission_heater_port2:9>, <nuclearcraft:fission_heater_port2:10>, <nuclearcraft:fission_heater_port2:11>,
+        <nuclearcraft:fission_heater_port2:12>, <nuclearcraft:fission_heater_port2:13>, <nuclearcraft:fission_heater_port2:14>, <nuclearcraft:fission_heater_port2:15>,
+        <nuclearcraft:fission_computer_port>, <nuclearcraft:fission_irradiator_port>, <nuclearcraft:fission_cell_port>, <nuclearcraft:fission_vessel_port>,
+        <nuclearcraft:fission_shield_manager>, <nuclearcraft:solid_fission_controller>, <nuclearcraft:solid_fission_cell>, <nuclearcraft:fission_source:2>,
+        <nuclearcraft:fission_shield>, <nuclearcraft:fission_conductor>, <nuclearcraft:fission_monitor>, <nuclearcraft:fission_reflector>, <nuclearcraft:fission_reflector:1>,
+        <nuclearcraft:fission_power_port>, <nuclearcraft:fission_vent>, <nuclearcraft:fission_irradiator>, <nuclearcraft:fission_source>, <nuclearcraft:fission_source:1>,
+        <nuclearcraft:fission_glass>, <nuclearcraft:fission_casing>, <nuclearcraft:quantum_computer_qubit>, <nuclearcraft:quantum_computer_controller>, 
+        <nuclearcraft:heavy_water_moderator>, <nuclearcraft:tritium_lamp>, <nuclearcraft:quantum_computer_gate_swap>, <nuclearcraft:quantum_computer_gate_swap:1>, 
+        <nuclearcraft:quantum_computer_connector>, <nuclearcraft:quantum_computer_code_generator>, <nuclearcraft:quantum_computer_code_generator:1>,
+        <nuclearcraft:quantum_computer_gate_single:0>, <nuclearcraft:quantum_computer_gate_single:1>, <nuclearcraft:quantum_computer_gate_single:2>, <nuclearcraft:quantum_computer_gate_single:3>, 
+        <nuclearcraft:quantum_computer_gate_single:4>, <nuclearcraft:quantum_computer_gate_single:5>, <nuclearcraft:quantum_computer_gate_single:6>, <nuclearcraft:quantum_computer_gate_single:7>, 
+        <nuclearcraft:quantum_computer_gate_single:8>, <nuclearcraft:quantum_computer_gate_single:9>, <nuclearcraft:quantum_computer_gate_single:10>, <nuclearcraft:quantum_computer_gate_single:11>,
+        <nuclearcraft:quantum_computer_gate_control:0>, <nuclearcraft:quantum_computer_gate_control:1>, <nuclearcraft:quantum_computer_gate_control:2>, <nuclearcraft:quantum_computer_gate_control:3>, 
+        <nuclearcraft:quantum_computer_gate_control:4>, <nuclearcraft:quantum_computer_gate_control:5>, <nuclearcraft:quantum_computer_gate_control:6>, <nuclearcraft:quantum_computer_gate_control:7>, 
+        <nuclearcraft:quantum_computer_gate_control:8>, <nuclearcraft:quantum_computer_gate_control:9>, <nuclearcraft:quantum_computer_gate_control:10>, <nuclearcraft:quantum_computer_gate_control:11>,
+        <nuclearcraft:solid_fission_sink:0>, <nuclearcraft:solid_fission_sink:1>, <nuclearcraft:solid_fission_sink:2>, <nuclearcraft:solid_fission_sink:3>, 
+        <nuclearcraft:solid_fission_sink:4>, <nuclearcraft:solid_fission_sink:5>, <nuclearcraft:solid_fission_sink:6>, <nuclearcraft:solid_fission_sink:7>, 
+        <nuclearcraft:solid_fission_sink:8>, <nuclearcraft:solid_fission_sink:9>, <nuclearcraft:solid_fission_sink:10>, <nuclearcraft:solid_fission_sink:11>,
+        <nuclearcraft:solid_fission_sink:12>, <nuclearcraft:solid_fission_sink:13>, <nuclearcraft:solid_fission_sink:14>, <nuclearcraft:solid_fission_sink:15>,
+        <nuclearcraft:solid_fission_sink2:0>, <nuclearcraft:solid_fission_sink2:1>, <nuclearcraft:solid_fission_sink2:2>, <nuclearcraft:solid_fission_sink2:3>, 
+        <nuclearcraft:solid_fission_sink2:4>, <nuclearcraft:solid_fission_sink2:5>, <nuclearcraft:solid_fission_sink2:6>, <nuclearcraft:solid_fission_sink2:7>, 
+        <nuclearcraft:solid_fission_sink2:8>, <nuclearcraft:solid_fission_sink2:9>, <nuclearcraft:solid_fission_sink2:10>, <nuclearcraft:solid_fission_sink2:11>,
+        <nuclearcraft:solid_fission_sink2:12>, <nuclearcraft:solid_fission_sink2:13>, <nuclearcraft:solid_fission_sink2:14>, <nuclearcraft:solid_fission_sink2:15>,
+        <nuclearcraft:salt_fission_heater:0>, <nuclearcraft:salt_fission_heater:1>, <nuclearcraft:salt_fission_heater:2>, <nuclearcraft:salt_fission_heater:3>, 
+        <nuclearcraft:salt_fission_heater:4>, <nuclearcraft:salt_fission_heater:5>, <nuclearcraft:salt_fission_heater:6>, <nuclearcraft:salt_fission_heater:7>, 
+        <nuclearcraft:salt_fission_heater:8>, <nuclearcraft:salt_fission_heater:9>, <nuclearcraft:salt_fission_heater:10>, <nuclearcraft:salt_fission_heater:11>,
+        <nuclearcraft:salt_fission_heater:12>, <nuclearcraft:salt_fission_heater:13>, <nuclearcraft:salt_fission_heater:14>, <nuclearcraft:salt_fission_heater:15>,
+        <nuclearcraft:salt_fission_heater2:0>, <nuclearcraft:salt_fission_heater2:1>, <nuclearcraft:salt_fission_heater2:2>, <nuclearcraft:salt_fission_heater2:3>, 
+        <nuclearcraft:salt_fission_heater2:4>, <nuclearcraft:salt_fission_heater2:5>, <nuclearcraft:salt_fission_heater2:6>, <nuclearcraft:salt_fission_heater2:7>, 
+        <nuclearcraft:salt_fission_heater2:8>, <nuclearcraft:salt_fission_heater2:9>, <nuclearcraft:salt_fission_heater2:10>, <nuclearcraft:salt_fission_heater2:11>,
+        <nuclearcraft:salt_fission_heater2:12>, <nuclearcraft:salt_fission_heater2:13>, <nuclearcraft:salt_fission_heater2:14>, <nuclearcraft:salt_fission_heater2:15>,
+        <nuclearcraft:salt_fission_controller>, <nuclearcraft:salt_fission_vessel>,
     ],
     "five" : [
         <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
         <ore:crystalPureCertusQuartz>, <ore:crystalPureFluix>, <ore:crystalPureNetherQuartz>, <ore:ingot_dark_soularium>, <enderio:item_basic_capacitor:2>, <ore:ingotLumium>,
-        <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>,
+        <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>, <ore:crystalFluix>, <ore:pearlFluix>,
+        <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
+        <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
+        <ore:ingot_dark_soularium>,
     ],
     "six" : [
-        <ore:circuitElite>, <contenttweaker:compressed_crystaltine>
+        <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>,
     ],
     "root" : [
         <trutils:magnetic_attraction>, <ore:redstoneRoot>
@@ -93,7 +134,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <contenttweaker:elixir_eyesight>
     ],
     "ember" : [
-        <multiblocked:ember.any>, <contenttweaker:ember_crystal_block>, <contenttweaker:mystery_dust>
+        <multiblocked:ember.any>, <contenttweaker:ember_crystal_block>, <contenttweaker:mystery_dust>, <modularmachinery:big_embers_furnace_controller>, <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_embers_furnace"}),
     ],
     "manacapacitor" : [
         <botanianeedsit:mana_capacitor_manasteel:1>, <botanianeedsit:mana_capacitor_elementium:1>, <botanianeedsit:mana_capacitor_terrasteel:1>,
@@ -101,7 +142,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "manaremove" : [<multiblocked:mana_remover>],
     "extract" : [<multiblocked:refinery>],
-    "distillation" : [<multiblocked:distillation_tower>],
+    "distillation" : [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractionator"}), <modularmachinery:fractionator_controller>],
     "Ge" : [
         <contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, 
         <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>
@@ -120,6 +161,9 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "xnet" : [
         <rftools:storage_scanner>, <rftools:storage_terminal>, <rftools:remote_storage>, <rftools:modular_storage>, 
+    ],
+    "EndPortal" : [
+        <contenttweaker:ender_portal>
     ]
 };
 
@@ -127,15 +171,15 @@ val specialStageItemStackMap as IIngredient[][string] = {
 val exceptItemStacks as IIngredient[] = [
     <buildinggadgets:constructionpaste>, <buildinggadgets:constructionblock>, <buildinggadgets:constructionblockpowder>, <botania:flowerbag>, 
     <buildinggadgets:constructionblock_dense>, <buildinggadgets:construction_chunk_dense>, <enderio:item_material:32>, <integrateddynamics:squeezer>, 
-    <nuclearcraft:ingot:8>, <nuclearcraft:dust:8>, <wizardry:wisdom_sapling>, <wizardry:wisdom_wood_log>, <wizardry:wisdom_wood_planks>, 
+    <nuclearcraft:ingot:8>, <nuclearcraft:dust:8>, <wizardry:wisdom_sapling>, <wizardry:wisdom_wood_log>, <wizardry:wisdom_wood_planks>, <ore:blockNetherStar>,
     <wizardry:wisdom_wood_fence>, <wizardry:wisdom_wood_fence_gate>, <wizardry:wisdom_wood_door>, <wizardry:wisdom_wood_trapdoor>, <ore:oreQuartz>,
     <wizardry:wisdom_wood_stairs>, <wizardry:wisdom_wood_slab>,<integrateddynamics:on_the_dynamics_of_integration>, <integrateddynamics:mechanical_squeezer>,
     <integrateddynamics:crystalized_menril_block>, <integrateddynamics:menril_planks>, <integrateddynamics:menril_sapling>, <integrateddynamics:mechanical_drying_basin>,
     <integrateddynamics:menril_leaves>, <integrateddynamics:menril_log_filled>, <integrateddynamics:menril_log>, <integrateddynamics:menril_berries>, 
-    <integrateddynamics:crystalized_menril_brick_stairs>, <integrateddynamics:menril_planks_stairs>, <integrateddynamics:crystalized_menril_chunk>, 
+    <integrateddynamics:crystalized_menril_brick_stairs>, <integrateddynamics:menril_planks_stairs>, <integrateddynamics:crystalized_menril_chunk>, <baubles:ring>,
     <integrateddynamics:menril_torch>, <integrateddynamics:menril_door>, <integrateddynamics:crystalized_menril_brick>, <integrateddynamics:drying_basin>, 
     <integrateddynamics:crystalized_menril_block_stairs>, <botania:petalblock>, <botania:doubleflower1>, <botania:flower>, <botania:petal>, <botania:cosmetic:31>,
-    <botania:specialflower>.withTag({type: "puredaisy"}), <botania:lexicon>, <botania:blacklotus:1>, <botania:blacklotus>, <embers:tinker_hammer>, 
+    <botania:specialflower>.withTag({type: "puredaisy"}), <botania:lexicon>, <botania:blacklotus:1>, <botania:blacklotus>, <embers:tinker_hammer>, <ore:nuggetNetherStar>,
     <embers:block_caminite_brick_slab>, <embers:brick_caminite>, <embers:blend_caminite>, <embers:plate_caminite>, <embers:stamp_bar>, <embers:stamp_flat>,
     <embers:stamp_plate>, <embers:stamp_gear>, <embers:stamp_flat_raw>, <embers:stamp_plate_raw>, <embers:stamp_gear_raw>, <embers:ancient_motive_core>, 
     <embers:archaic_circuit>, <embers:stairs_caminite_brick>, <embers:block_tank>, <embers:pipe>, <embers:pump>, <embers:fluid_gauge>, <embers:large_tank>, 
