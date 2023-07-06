@@ -8,7 +8,7 @@ import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 recipes.remove(<nuclearcraft:compound:1>);
 
 RecipeUtils.recipeTweak(true, <ore:ingotSiCSiCCMC>.firstItem, 
-    RecipeUtils.createSurround(<embers:brick_caminite>, <ore:fiberSiliconCarbide>)
+    RecipeUtils.createSurround(<ore:ingotBrickNetherGlazed>, <ore:fiberSiliconCarbide>)
 );
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:10>, [
@@ -18,14 +18,14 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:10>, [
 ], {<ore:artisansDriver> : 36, <ore:artisansSpanner> : 49});
 
 RecipeUtils.recipeTweak(true, <nuclearcraft:part> * 2, [
-    [<ore:plateLead>, <ore:dustGraphite>],
-    [<ore:dustGraphite>, <ore:plateLead>]
+    [<ore:plateLead>, <ore:pyrolyticCarbon>],
+    [<ore:pyrolyticCarbon>, <ore:plateLead>]
 ]);
 
 RecipeUtils.recipeTweak(true, <nuclearcraft:part:1>, [
-    [null, <ore:dustRedstone>],
-    [<ore:ingotDarkSteel>, <ore:plateBasic>, <ore:ingotDarkSteel>],
-    [null, <ore:dustRedstone>]
+    [null, <ore:ingotRedstoneAlloy>],
+    [<ore:ingotFerroboron>, <ore:plateBasic>, <ore:ingotFerroboron>],
+    [null, <ore:ingotRedstoneAlloy>]
 ]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:12>, [
@@ -36,13 +36,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:12>, [
 
 electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:4>, [
     [<ore:wireCopper>, <ore:wireCopper>],
-    [<ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotSmithingIron>, <ore:ingotSmithingIron>],
     [<ore:wireCopper>, <ore:wireCopper>]
 ], {<ore:artisansDriver> : 12, <ore:artisansSpanner> : 8});
 
 electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:7>, [
     [<ore:ingotFerroboron>, null, <ore:ingotFerroboron>],
-    [<ore:dustRedstone>, <pneumaticcraft:printed_circuit_board>, <ore:dustRedstone>],
+    [<ore:ingotRedstoneAlloy>, <pneumaticcraft:printed_circuit_board>, <ore:ingotRedstoneAlloy>],
     [<ore:plateSteel>, <ore:solenoidCopper>, <ore:plateSteel>]
 ], {<ore:artisansDriver> : 15, <ore:artisansSolderer> : 20});
 
@@ -53,16 +53,16 @@ electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:8>, [
 ], {<ore:artisansDriver> : 15, <ore:artisansSpanner> : 10});
 
 electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:9>, [
-    [null, null, <lightningcraft:rod:1>],
-    [<nuclearcraft:alloy:6>, <lightningcraft:rod:1>],
-    [<nuclearcraft:part:4>, <nuclearcraft:alloy:6>]
+    [null, null, <ore:stickSteel>],
+    [<ore:ingotFerroboron>, <ore:stickSteel>],
+    [<ore:solenoidCopper>, <ore:ingotFerroboron>]
 ], {<ore:artisansDriver> : 10, <ore:artisansSolderer> : 15});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:rock_crusher>, [
     [null, <minecraft:piston>, null],
     [<ore:gearSteel>, <ore:itemSimpleMachineChassi>, <ore:gearSteel>],
     [null, <minecraft:piston>, null]
-], {<ore:artisansDriver> : 51, <ore:artisansSpanner> : 49});
+], {<ore:artisansDriver> : 21, <ore:artisansSpanner> : 29});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:crystallizer>, [
     [<ore:plateAdvanced>, <ore:solenoidCopper>, <ore:plateAdvanced>],
@@ -159,6 +159,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:fuel_reprocess
     [<ore:ingotTough>, <ore:chassis>, <ore:ingotTough>],
     [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]
 ], {<ore:artisansDriver> : 25, <ore:artisansSpanner> : 22});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:alloy_furnace>, [
+    [<ore:plateBasic>, <minecraft:furnace>, <ore:plateBasic>],
+    [<contenttweaker:glazed_refractory_brick>, <ore:chassis>, <contenttweaker:glazed_refractory_brick>],
+    [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]  
+], {<ore:artisansDriver> : 15, <ore:artisansSpanner> : 18});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:assembler>, [
     [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>],

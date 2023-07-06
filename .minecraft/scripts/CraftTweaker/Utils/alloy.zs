@@ -14,30 +14,30 @@ import mods.enderio.AlloySmelter;
 //mods.immersiveengineering.ArcFurnace.addRecipe(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, @Optional IIngredient[] additives, @Optional String specialRecipeType);
 function Lv1AlloyRecipe(Lv1output as IItemStack, Lv1input1 as IIngredient, Lv1input2 as IIngredient, Lv1input3 as IIngredient){
     if(isNull(Lv1input3)){
-        ArcFurnace.addRecipe(Lv1output, Lv1input1, null, 80, 100, [Lv1input2], "Alloying");
+        ArcFurnace.addRecipe(Lv1output, Lv1input1, null, 100, 640, [Lv1input2], "Alloying");
         AlloySmelter.addRecipe(Lv1output, [Lv1input1, Lv1input2], 4000);
     } else {
-        ArcFurnace.addRecipe(Lv1output, Lv1input1, null, 100, 100, [Lv1input2 ,Lv1input3], "Alloying");
+        ArcFurnace.addRecipe(Lv1output, Lv1input1, null, 125, 640, [Lv1input2 ,Lv1input3], "Alloying");
         AlloySmelter.addRecipe(Lv1output, [Lv1input1, Lv1input2, Lv1input3], 5000);
     }
 
 }
 function Lv2AlloyRecipe(Lv2output as IItemStack, Lv2input1 as IIngredient, Lv2input2 as IIngredient, Lv2input3 as IIngredient){
     if(isNull(Lv2input3)){
-        ArcFurnace.addRecipe(Lv2output, Lv2input1, null, 180, 120, [Lv2input2], "Alloying");
+        ArcFurnace.addRecipe(Lv2output, Lv2input1, null, 225, 764, [Lv2input2], "Alloying");
         AlloySmelter.addRecipe(Lv2output, [Lv2input1, Lv2input2], 15000);
     } else {
-        ArcFurnace.addRecipe(Lv2output, Lv2input1, null, 200, 120, [Lv2input2 ,Lv2input3], "Alloying");
+        ArcFurnace.addRecipe(Lv2output, Lv2input1, null, 250, 764, [Lv2input2 ,Lv2input3], "Alloying");
         AlloySmelter.addRecipe(Lv2output, [Lv2input1, Lv2input2, Lv2input3], 20000);
     }
 
 }
 function Lv3AlloyRecipe(Lv3output as IItemStack, Lv3input1 as IIngredient, Lv3input2 as IIngredient, Lv3input3 as IIngredient){
     if(isNull(Lv3input3)){
-        ArcFurnace.addRecipe(Lv3output, Lv3input1, null, 280, 130, [Lv3input2], "Alloying");
+        ArcFurnace.addRecipe(Lv3output, Lv3input1, null, 350, 830, [Lv3input2], "Alloying");
         AlloySmelter.addRecipe(Lv3output, [Lv3input1, Lv3input2], 30000);
     } else {
-        ArcFurnace.addRecipe(Lv3output, Lv3input1, null, 300, 130, [Lv3input2 ,Lv3input3], "Alloying");
+        ArcFurnace.addRecipe(Lv3output, Lv3input1, null, 375, 830, [Lv3input2 ,Lv3input3], "Alloying");
         AlloySmelter.addRecipe(Lv3output, [Lv3input1, Lv3input2, Lv3input3], 40000);
     }
 
@@ -56,13 +56,16 @@ Lv1AlloyRecipe(<embers:archaic_brick> * 2, <ore:soulSand>, <ore:netherrack>, nul
 Lv1AlloyRecipe(<ore:ingotConductiveIron>.firstItem, <ore:PureIron>, <ore:dustRedstone>, null);
 Lv1AlloyRecipe(<ore:ingotSteel>.firstItem, <ore:PureIron>, <ore:Coke>, null);
 Lv1AlloyRecipe(<ore:ingotSteel>.firstItem * 2, <ore:CrudeSteel> * 2, <ore:Coke>, null);
-ArcFurnace.addRecipe(<ore:ingotConstantan>.firstItem * 2, <ore:Copper>, null, 80, 100, [<ore:Nickel>], "Alloying");
+Lv1AlloyRecipe(<ore:ingotElectrum>.firstItem * 2, <ore:Gold> , <ore:Sliver>, null);
+Lv1AlloyRecipe(<ore:ingotBronze>.firstItem * 4, <ore:Tin> , <ore:Copper> * 3, null);
+Lv1AlloyRecipe(<ore:ingotInvar>.firstItem * 3, <ore:Nickel> , <ore:Iron> * 2, null);
+Lv1AlloyRecipe(<ore:ingotConstantan>.firstItem * 2, <ore:Copper> , <ore:Nickel>, null);
 
 //Lv2
 Lv2AlloyRecipe(<nuclearcraft:alloy:1> * 2, <ore:HighStrengthAluminumAlloy>, <ore:ingotDarkSteel>, null);
 Lv2AlloyRecipe(<contenttweaker:high_strength_aluminum_alloy_ingot> * 6, <ore:Aluminum> * 4, <ore:Magnesium>, <ore:Copper>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot> * 5, <ore:Aluminum>, <ore:Nickel>, <ore:Steel> * 3);
-Lv2AlloyRecipe(<pneumaticcraft:ingot_iron_compressed> * 6, <ore:Constantan>, <ore:Steel> * 4, <ore:Manganese>);
+Lv2AlloyRecipe(<pneumaticcraft:ingot_iron_compressed> * 6, <ore:Steel> * 4, <ore:Constantan>, <ore:Manganese>);
 Lv2AlloyRecipe(<thermalfoundation:material:166> * 2, <extendedcrafting:material:7> * 2, <ore:ingotRefinedGlowstone> ,<ore:ingotEnergeticSilver>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:8>, <ore:ingotDarkSteel>, <ore:dustDimensional> * 2, null);
 Lv2AlloyRecipe(<thermalfoundation:material:167> * 2, <ore:ingotEnderiumBase>, <integrateddynamics:crystalized_chorus_chunk> * 4, <ore:ingotVibrantAlloy>);
@@ -76,9 +79,10 @@ Lv2AlloyRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:itemPulsatingPowder>, 
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
+Lv3AlloyRecipe(<ore:ingotFerroboron>.firstItem * 2, <ore:IronCompressed>, <ore:Boron>, null);
 Lv3AlloyRecipe(<nuclearcraft:alloy:10> * 3, <ore:Tough>, <ore:ingotTitaniumIridium>, <ore:ingotSignalum>);
 Lv3AlloyRecipe(<thermalfoundation:material:165> * 8, <embers:ember_cluster>, <ore:ingotEnergeticSilver> * 4, <ore:ingotRedstoneAlloy> * 4);
 Lv3AlloyRecipe(<extendedcrafting:material:48>, <ore:ingotEnderium>, <extendedcrafting:material:41>, null);
 Lv3AlloyRecipe(<draconicevolution:draconium_ingot> * 3, <ore:ingotMelodicAlloy>, <ore:ingotRefinedObsidian>, <ore:dustDraconium>);
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:12>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
-ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 180, 100, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");
+ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 375, 830, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");

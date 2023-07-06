@@ -61,7 +61,25 @@
     <recipe name="Alloy: Conductive Iron" required="true" disabled="true"/>
 
     <!-- CrT: <ore:ingotSteel> -->
-    <recipe name="Alloy: Steel" required="true" disabled="true"/> 
+    <recipe name="Alloy: Steel" required="true" disabled="true"/>
+
+    <!-- CrT: <ore:ingotInvar> -->
+    <recipe name="Alloy: Invar Ingot (Thermal Expansion)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotElectrum> -->
+    <recipe name="Alloy: Electrum Ingot (Thermal Expansion)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotBronze> -->
+    <recipe name="Alloy: Bronze (Thermal Expansion)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotConstantan> -->
+    <recipe name="Alloy: Constantan (Thermal Expansion)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:<ore:ingotFerroboron> -->
+    <recipe name="Alloy: FerroBoron (Nuclearcraft)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotBrickNetherGlazed> -->
+    <recipe name="Alloy: Nethercotta" required="true" disabled="true"/> 
 
     <!-- 染料 -->
     <recipe name="Alloy: Brown Dye" required="true" disabled="true"/>

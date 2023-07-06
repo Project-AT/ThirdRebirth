@@ -313,6 +313,9 @@ for item in loadedMods["mysticalworld"].items {
 <ore:ingotAluminium>.remove(<embers:ingot_aluminum>);
 <ore:plateAluminium>.remove(<embers:plate_aluminum>);
 <ore:fenceGateWood>.remove(<traverse:fir_fence>);
+<ore:dustCopper>.remove(<enderio:item_material:26>);
+<ore:dustTin>.remove(<enderio:item_material:27>);
+
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
@@ -354,8 +357,10 @@ var materialNames as string[] = [
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
     "Lead", "Aluminum", "Germanium", "Dilithium", "Steel", "Electrum", "Invar", "Bronze", "Constantan", "Signalum", "Lumium", "Enderium",
     "Manganese", "Graphite", "Electricium", "Skyfather", "Mystic", "HOPGraphite", "RoseGold", "HighStrengthAluminumAlloy", "PureIron",
-    "IronCompressed", "Soularium", "Beryllium", "Zirconium", "Tough", "Dawnstone", "Diamond", "Emerald", "Dilithium", "Coal", "Quartz", "CertusQuartz", 
-    "ChargedCertusQuartz", "Lapis", "Charcoal", "Fluorite", "BoronNitride", "Rhodochrosite", "Fluix", "Coke"
+    "IronCompressed", "Soularium", "Beryllium", "Zirconium", "Tough", "Dawnstone", "TitaniumAluminide", "TitaniumIridium",
+    
+    "Diamond", "Emerald", "Dilithium", "Coal", "Quartz", "CertusQuartz", 
+    "ChargedCertusQuartz", "Lapis", "Charcoal", "Fluorite", "BoronNitride", "Rhodochrosite", "Fluix", "Coke",
 ];
 
 for metalName in materialNames {

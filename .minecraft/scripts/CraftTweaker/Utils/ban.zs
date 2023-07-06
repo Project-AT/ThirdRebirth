@@ -115,7 +115,6 @@ var baned as IItemStack[] = [
     <primal_tech:bone_shovel>,
     <primal_tech:bone_shears>,
     <primal_tech:bone_shard>,
-    <nuclearcraft:alloy_furnace>,
 	<roots:unending_bowl>,
     <advancedrocketry:electrolyser>,
     <teslathingies:simple_tank>,
@@ -140,7 +139,6 @@ val banRitual as IItemStack[] = [
 
 //隐藏的jei类型
 val hideCategory as string[] = [
-    "nuclearcraft_alloy_furnace",
     "Painter",
     "item_compound_producer",
     "incinerator",
