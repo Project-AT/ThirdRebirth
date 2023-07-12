@@ -106,7 +106,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>, <ore:crystalFluix>, <ore:pearlFluix>,
         <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
         <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
-        <ore:ingot_dark_soularium>,
+        <ore:ingot_dark_soularium>, <modularmachinery:electronic_assembly_machine_mk1_controller>
     ],
     "six" : [
         <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>,
@@ -163,7 +163,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <rftools:storage_scanner>, <rftools:storage_terminal>, <rftools:remote_storage>, <rftools:modular_storage>, 
     ],
     "EndPortal" : [
-        <contenttweaker:ender_portal>
+        <contenttweaker:ender_portal>, <psi:material:5>, <psi:material:6>
     ]
 };
 

@@ -315,6 +315,8 @@ for item in loadedMods["mysticalworld"].items {
 <ore:fenceGateWood>.remove(<traverse:fir_fence>);
 <ore:dustCopper>.remove(<enderio:item_material:26>);
 <ore:dustTin>.remove(<enderio:item_material:27>);
+<ore:dustSulfur>.remove(<mekanism:otherdust:3>);
+<ore:dustSulfur>.remove(<nuclearcraft:gem_dust:6>);
 
 
 var oreNames as string[] = [

@@ -81,6 +81,22 @@
     <!-- CrT: <ore:ingotBrickNetherGlazed> -->
     <recipe name="Alloy: Nethercotta" required="true" disabled="true"/> 
 
+    <!-- CrT: <ore:ingotSteel> -->
+    <recipe name="Alloy: Steel (Oredict)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotHardCarbon> -->
+    <recipe name="Alloy: Hard Carbon (Nuclearcraft)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotMagnesiumDiboride> -->
+    <recipe name="Alloy: Magnesium Diboride Alloy (Nuclearcraft)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotLithiumManganeseDioxide> -->
+    <recipe name="Alloy: Lithium Manganese Alloy (Nuclearcraft)" required="true" disabled="true"/> 
+
+    <!-- CrT: <ore:ingotThermoconducting> -->
+    <recipe name="Alloy: Thermoconducting Alloy (Nuclearcraft)" required="true" disabled="true"/> 
+
+
     <!-- 染料 -->
     <recipe name="Alloy: Brown Dye" required="true" disabled="true"/>
     <recipe name="Alloy: Brown Dye, Variant" required="true" disabled="true"/>

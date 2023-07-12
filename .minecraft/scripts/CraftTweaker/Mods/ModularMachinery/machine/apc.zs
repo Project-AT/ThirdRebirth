@@ -3,6 +3,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.modularmachinery.RecipeBuilder;
 
@@ -14,7 +15,7 @@ var itemTransform as int[IItemStack][IItemStack] = {
     <contenttweaker:pure_iron_ingot> : {<naturesaura:infused_iron> : 15000},
     <minecraft:quartz> : {<minecraft:prismarine_shard> : 5500},
     <minecraft:glass_bottle> : {<minecraft:potion>.withTag({Potion: "minecraft:water"}) : 25000},
-    <contenttweaker:sub_block_holder_2:12> : {<naturesaura:infused_iron_block> : 135000},
+    <ore:blockPureIron>.firstItem : {<naturesaura:infused_iron_block> : 135000},
     <minecraft:red_mushroom> : {<minecraft:nether_wart> : 30000},
     <minecraft:stone> : {<naturesaura:infused_stone> : 7500},
 };
@@ -28,6 +29,27 @@ for input, output in itemTransform {
             .addItemInput(input)
             .addItemOutput(output_)
             .addAuraInput(aura / 10, true)
+        .build();
+    }
+}
+
+var oreNames as string[] = [
+    "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
+    "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
+    "Lead", "Aluminum", "Dilithium", "Germanium"
+];
+
+for oreName in oreNames {
+
+    var ore as IOreDictEntry = oreDict.get("ore" ~ oreName);
+    var oreAuraInfusion as IOreDictEntry = oreDict.get("oreAuraInfusion" ~ oreName);
+
+    if (!ore.empty && !oreAuraInfusion.empty) {
+        var name = StringHelper.getItemNameWithUnderline(oreAuraInfusion.firstItem);
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 20)
+            .addItemInput(ore)
+            .addItemOutput(oreAuraInfusion.firstItem)
+            .addAuraInput(500, true)
         .build();
     }
 }

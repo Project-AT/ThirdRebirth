@@ -43,11 +43,14 @@ function Lv3AlloyRecipe(Lv3output as IItemStack, Lv3input1 as IIngredient, Lv3in
 
 }
 
+//arcFurnace_energyModifier=0.157
+//arcFurnace_timeModifier=0.8
+
 //注意配方的项必须为4个，不能多也不能少，不然直接全用不了（
 //Lv1
 Lv1AlloyRecipe(<enderio:item_material:4> * 16, <embers:blend_caminite> * 8, <enderio:item_material:49>, null);
 Lv1AlloyRecipe(<enderio:item_alloy_ingot:7>, <ore:Dawnstone>, <contenttweaker:soul_extract> * 4, null);
-Lv1AlloyRecipe(<modularmachinery:itemmodularium> * 3, <ore:ingotIronCompressed> * 2, <ore:Aluminum>, null);
+Lv1AlloyRecipe(<modularmachinery:itemmodularium> * 3, <ore:IronCompressed> * 2, <ore:Aluminum>, null);
 Lv1AlloyRecipe(<contenttweaker:glazed_refractory_brick>, <ore:ingotBrickNether>, <contenttweaker:refractory_clay_ball> * 2, <contenttweaker:glaze>);
 Lv1AlloyRecipe(<enderio:item_material:50> * 2, <psi:material:5> * 2, <quark:black_ash> * 4, <ore:slimeball>);
 Lv1AlloyRecipe(<enderio:item_material:49> * 2, <ore:dyeBrown> , <ore:itemSlagRich> * 2, <ore:slimeball>);
@@ -76,13 +79,24 @@ Lv2AlloyRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, <ore:Bronze>
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, null);
 Lv2AlloyRecipe(<refraction:reflective_alloy> * 5, <ore:Iron> * 3, <ore:ingotEnergeticSilver>, <ore:Gold>);
 Lv2AlloyRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:itemPulsatingPowder>, <ore:Platinum>, null);
+Lv2AlloyRecipe(<ore:ingotMagnesiumDiboride>.firstItem * 3, <ore:Magnesium>, <ore:Boron> * 2, null);
+Lv2AlloyRecipe(<ore:ingotLithiumManganeseDioxide>.firstItem * 2, <ore:ingotMagnesiumDiboride>, <ore:Lithium> * 2, null);
+Lv2AlloyRecipe(<ore:ingotZircaloy>.firstItem * 8, <ore:Tin>, <ore:Zirconium> * 7, null);
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
 Lv3AlloyRecipe(<ore:ingotFerroboron>.firstItem * 2, <ore:IronCompressed>, <ore:Boron>, null);
-Lv3AlloyRecipe(<nuclearcraft:alloy:10> * 3, <ore:Tough>, <ore:ingotTitaniumIridium>, <ore:ingotSignalum>);
+Lv3AlloyRecipe(<ore:ingotHardCarbon>.firstItem, <ore:ingotHOPGraphite>, <ore:Diamond>, null);
+Lv3AlloyRecipe(<ore:ingotThermoconducting>.firstItem * 2, <ore:ingotHardCarbon>, <ore:gemBoronArsenide>, null);
+Lv3AlloyRecipe(<ore:ingotBrickNetherGlazed>.firstItem, <contenttweaker:glazed_refractory_brick>, <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"}), null);
+Lv3AlloyRecipe(<nuclearcraft:alloy:10> * 3, <ore:Tough>, <ore:TitaniumIridium>, <ore:Signalum>);
 Lv3AlloyRecipe(<thermalfoundation:material:165> * 8, <embers:ember_cluster>, <ore:ingotEnergeticSilver> * 4, <ore:ingotRedstoneAlloy> * 4);
-Lv3AlloyRecipe(<extendedcrafting:material:48>, <ore:ingotEnderium>, <extendedcrafting:material:41>, null);
+Lv3AlloyRecipe(<extendedcrafting:material:48>, <ore:Enderium>, <extendedcrafting:material:41>, null);
 Lv3AlloyRecipe(<draconicevolution:draconium_ingot> * 3, <ore:ingotMelodicAlloy>, <ore:ingotRefinedObsidian>, <ore:dustDraconium>);
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:12>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
-ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 375, 830, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");
+Lv3AlloyRecipe(<ore:ingotHSLASteel>.firstItem * 16, <ore:PureIron> * 15, <ore:dustCarbonManganese>, null);
+Lv3AlloyRecipe(<ore:ingotZirconiumMolybdenum>.firstItem * 16, <ore:Zirconium>, <ore:dustMolybdenum> * 15, null);
+
+ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 12, <ore:Steel> * 4, null, 2547, 955, [<ore:Constantan>, <ore:Manganese>, <ore:Boron> * 6], "Alloying");
+ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 2547, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");
+ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 24, <ore:Steel> * 8, null, 3821, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>, <ore:Boron> * 12], "Alloying");

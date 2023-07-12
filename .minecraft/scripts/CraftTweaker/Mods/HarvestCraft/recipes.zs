@@ -38,11 +38,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:waterfilter>,
         "E" : <ore:plankTreatedWood>
 }), {<ore:artisansSpanner> : 3} as int[IIngredient]);
 
-//火烤菠萝蜜
-recipes.addShapeless(<harvestcraft:bbqjackfruititem>,
-    [<ore:toolSkillet>.reuse(), <ore:cropJackfruit>, <ore:foodBbqsauce>]
-);
-
 //德式油煎香肠
 recipes.addShapeless(<harvestcraft:bratwurstitem>,
     [<ore:toolCuttingboard>.reuse(), <ore:foodPinkel>, <ore:foodPickles>, <ore:cropOnion>, <ore:foodBread>]
@@ -68,11 +63,6 @@ recipes.addShapeless(<harvestcraft:imitationcrabsticksitem>,
     [<ore:toolCuttingboard>.reuse(), <ore:listAllgrain>, <ore:listAllfishcooked>, <ore:listAllegg>, <minecraft:dye:1>]
 );
 
-//荔枝茶
-recipes.addShapeless(<harvestcraft:lycheeteaitem>,
-    [<ore:toolPot>.reuse(), <ore:cropLychee>, <ore:cropTea>]
-);
-
 //猪油脆皮
 recipes.addShapeless(<harvestcraft:cracklinsitem>,
     [<ore:toolPot>.reuse(), <ore:listAllporkraw>, <ore:foodOliveoil>, <ore:tallow>, <ore:cropSpiceleaf>]
@@ -88,7 +78,7 @@ recipes.addShapeless(<harvestcraft:garlicsteakitem>,
     [<ore:toolSkillet>.reuse(), <ore:listAllbeefraw>, <ore:cropGarlic>, <ore:foodButter>, <ore:cropSpiceleaf>]
 );
 
-//小黄瓜种子
+//腌菜种子
 recipes.addShapeless(<harvestcraft:gigapickleseeditem>,
     [<ore:foodGigapickle>]
 );

@@ -100,7 +100,7 @@ zenClass electronicAssemblyRecipe {
         }
 
         for ore, num in m_oreInput {
-            m_primer.addItemInput(ore, num);
+            m_primer.addItemInput(ore * num);
         }
 
         m_primer.addItemOutput(m_itemOutput);
