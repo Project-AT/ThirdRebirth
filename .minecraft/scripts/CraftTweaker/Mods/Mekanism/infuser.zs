@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import crafttweaker.oredict.IOreDict;
+import crafttweaker.item.IIngredient;
 
 import mods.mekatweaker.InfuserType;
 import mods.mekanism.infuser;
@@ -37,3 +38,4 @@ infuser.removeRecipe(<mekanism:otherdust:1>);
 infuser.addRecipe("CARBON", 10, <mekanism:enrichediron>, <ore:dustSteel>.firstItem);
 infuser.removeRecipe(<mekanism:ingot:2>);
 infuser.addRecipe("TIN", 10, <ore:ingotCopper>, <ore:ingotBronze>.firstItem);
+infuser.removeRecipe(<ore:circuitBasic>);
