@@ -11,6 +11,7 @@ val recipes as ILiquidStack[IIngredient] = {
     <integrateddynamics:crystalized_chorus_brick> : <liquid:liquidchorus> * 1000,
     <integrateddynamics:crystalized_chorus_brick_stairs> : <liquid:liquidchorus> * 750,
     <integrateddynamics:crystalized_chorus_block_stairs> : <liquid:liquidchorus> * 750,
+    <mekanism:polyethene> : <liquid:hdpe> * 100,
 };
 
 for output, input in recipes {

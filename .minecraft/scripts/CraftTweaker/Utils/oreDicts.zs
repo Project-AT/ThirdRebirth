@@ -242,6 +242,7 @@ var oreDictAdd as IItemStack[][string] = {
     "trapdoorWood":[<roots:wildwood_trapdoor>],
     "fenceGateWood":[<traverse:fir_fence_gate>, <roots:wildwood_fence_gate>], 
     "fenceWood":[<roots:wildwood_fence>, <wizardry:wisdom_wood_fence>, <traverse:fir_fence>],
+    "itemWitheringDust":[<quark:black_ash>],
 };
 
 var oreDictRemove as IItemStack[] = [
@@ -317,6 +318,10 @@ for item in loadedMods["mysticalworld"].items {
 <ore:dustTin>.remove(<enderio:item_material:27>);
 <ore:dustSulfur>.remove(<mekanism:otherdust:3>);
 <ore:dustSulfur>.remove(<nuclearcraft:gem_dust:6>);
+<ore:itemSilicon>.remove(<libvulpes:productingot:3>);
+<ore:blockAmethyst>.remove(<biomesoplenty:gem_block>);
+<ore:ingotAluminium>.remove(<nuclearcraft:ingot:12>);
+<ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
 
 
 var oreNames as string[] = [

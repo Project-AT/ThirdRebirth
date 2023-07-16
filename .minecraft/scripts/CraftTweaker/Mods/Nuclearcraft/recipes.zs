@@ -22,6 +22,16 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:part> * 2, [
     [<ore:pyrolyticCarbon>, <ore:plateLead>]
 ]);
 
+RecipeUtils.recipeTweak(false, <nuclearcraft:fission_glass>, [
+    [<nuclearcraft:fission_casing>, <ore:blockGlassHardened>]
+]);
+
+RecipeUtils.recipeTweak(true, <nuclearcraft:part:14>, [
+    [<ore:plateAdvanced>, <ore:ingotFerroboron>, <ore:plateAdvanced>],
+    [<ore:ingotFerroboron>, null, <ore:ingotFerroboron>],
+    [<ore:plateAdvanced>, <ore:ingotFerroboron>, <ore:plateAdvanced>]
+]);
+
 RecipeUtils.recipeTweak(true, <nuclearcraft:part:1>, [
     [null, <ore:ingotRedstoneAlloy>],
     [<ore:ingotFerroboron>, <ore:plateBasic>, <ore:ingotFerroboron>],
@@ -171,6 +181,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:assembler>, [
     [<ore:actuator>, <ore:chassis>, <ore:actuator>],
     [<ore:plateAdvanced>, <ore:servo>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 42});
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:solid_fission_controller>, [
+    [<ore:plateAdvanced>, <ore:ingotExtreme>, <ore:plateAdvanced>],
+    [<modularmachinery:blockcasing:5>, <nuclearcraft:part:12>, <modularmachinery:blockcasing:5>],
+    [<ore:plateAdvanced>, <ore:ingotExtreme>, <ore:plateAdvanced>]
+], {<ore:artisansSolderer> : 51, <ore:artisansDriver> : 48});
 
 RecipeUtils.recipeTweak(true, <nuclearcraft:alloy:13>, 
     inputPatternGet(["AA", "AA"], {

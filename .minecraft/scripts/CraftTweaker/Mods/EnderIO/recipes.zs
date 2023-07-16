@@ -7,7 +7,7 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 import scripts.grassUtils.RecipeUtils;
 
-recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>,<ore:dustMagnesium>,<ore:dustObsidian>,<ore:powderMana>,<ore:foodCurrypowder>]);
+recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>, <quark:black_ash>, <ore:dustObsidian>, <contenttweaker:mystery_dust> ,<ore:foodCurrypowder>, <ore:dustBedrock>]);
 
 RecipeUtils.recipeTweak(true, <enderio:item_material:9>, [
     [null, <ore:stickWood>],

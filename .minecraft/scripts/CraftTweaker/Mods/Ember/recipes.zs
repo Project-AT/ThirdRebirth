@@ -285,6 +285,11 @@ recipes.addShaped(<embers:archaic_light> * 2,
     [<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>]]
 );
 
+recipes.addShaped(<embers:crystal_ember>,
+    [[<ore:shardEmber>, <ore:shardEmber>, <ore:shardEmber>],
+    [<ore:shardEmber>, <ore:shardEmber>, <ore:shardEmber>],]
+);
+
 var emberIngot as IItemStack[] = [<embers:ingot_copper>, <embers:ingot_lead>, <embers:ingot_silver>, <embers:ingot_aluminum>, <embers:ingot_tin>, <embers:ingot_nickel>];
 
 for Ingot in emberIngot {

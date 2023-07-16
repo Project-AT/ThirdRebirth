@@ -5,6 +5,9 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import mods.immersiveengineering.MetalPress;
 
+//mods.immersiveengineering.MetalPress.removeRecipe(IItemstack output);
+//mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
+
 var plateMetals as string[] = [
     "Iron", "Gold", "Copper", "Silver", "Lead", "Aluminum", "Nickel", "Steel", "Electrum", "Constantan", 
 ];
@@ -18,6 +21,7 @@ for i in 30 to 41 {
 }
 
 MetalPress.removeRecipe(<libvulpes:productrod:4>);
+MetalPress.removeRecipe(<embers:plate_aluminum>);
 
 for i in 1 to 4 {
     MetalPress.removeRecipe(<immersiveengineering:material>.definition.makeStack(i));

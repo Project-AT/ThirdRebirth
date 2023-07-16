@@ -82,6 +82,7 @@ Lv2AlloyRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:itemPulsatingPowder>, 
 Lv2AlloyRecipe(<ore:ingotMagnesiumDiboride>.firstItem * 3, <ore:Magnesium>, <ore:Boron> * 2, null);
 Lv2AlloyRecipe(<ore:ingotLithiumManganeseDioxide>.firstItem * 2, <ore:ingotMagnesiumDiboride>, <ore:Lithium> * 2, null);
 Lv2AlloyRecipe(<ore:ingotZircaloy>.firstItem * 8, <ore:Tin>, <ore:Zirconium> * 7, null);
+Lv2AlloyRecipe(<ore:ingotTitaniumIridium>.firstItem * 2, <ore:Titanium>, <ore:Iridium>, null);
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
@@ -96,7 +97,9 @@ Lv3AlloyRecipe(<draconicevolution:draconium_ingot> * 3, <ore:ingotMelodicAlloy>,
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:12>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
 Lv3AlloyRecipe(<ore:ingotHSLASteel>.firstItem * 16, <ore:PureIron> * 15, <ore:dustCarbonManganese>, null);
 Lv3AlloyRecipe(<ore:ingotZirconiumMolybdenum>.firstItem * 16, <ore:Zirconium>, <ore:dustMolybdenum> * 15, null);
+Lv3AlloyRecipe(<ore:ingotTitaniumAluminide>.firstItem * 9, <ore:Titanium> * 3, <ore:HighStrengthAluminumAlloy> * 6, null);
 
-ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 12, <ore:Steel> * 4, null, 2547, 955, [<ore:Constantan>, <ore:Manganese>, <ore:Boron> * 6], "Alloying");
-ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 2547, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");
-ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 24, <ore:Steel> * 8, null, 3821, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>, <ore:Boron> * 12], "Alloying");
+ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 12, <ore:Steel> * 4, null, 500, 955, [<ore:Constantan>, <ore:Manganese>, <ore:Boron> * 6], "Alloying");
+ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 500, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");
+ArcFurnace.addRecipe(<ore:ingotTitaniumAluminide>.firstItem * 9, <ore:Titanium> * 3, null, 500, 955, [<ore:Aluminum> * 4, <ore:Magnesium>, <ore:Copper>], "Alloying");
+ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 24, <ore:Steel> * 8, null, 625, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>, <ore:Boron> * 12], "Alloying");

@@ -22,7 +22,7 @@ function ElectronicLaserAssembly(itemOutput as IItemStack, itemInputs as IIngred
     .build();
 }
 
-ElectronicLaserAssembly(<ore:circuitBasic>.firstItem, [<contenttweaker:si_transistor> * 2, <ore:waferSilicon>, <enderio:item_basic_capacitor:1> * 2, <extendedcrafting:material:7> * 4], 2500, 100);
+ElectronicLaserAssembly(<ore:circuitBasic>.firstItem, [<contenttweaker:si_transistor> * 2, <ore:waferSilicon>, <enderio:item_basic_capacitor:1> * 2, <extendedcrafting:material:7> * 4], 1500, 300);
 
 var assembly as IItemStack[IIngredient[]] = {
     [<contenttweaker:ge_transistor> * 2, <contenttweaker:ge_wafer>, <enderio:item_basic_capacitor>, <mekanism:polyethene:2>] : <contenttweaker:germanium_integrated_circuit_board>,
@@ -38,12 +38,12 @@ var assembly as IItemStack[IIngredient[]] = {
     [<ore:dyeMagenta> * 256, <botania:lens:14>.withTag({color: 2}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter:6>,
     [<ore:dyePink> * 256, <botania:lens:14>.withTag({color: 6}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter:7>,
     [<ore:dyeOrange> * 256, <botania:lens:14>.withTag({color: 1}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter:8>,
-    [<ore:dustArsenic>, <ore:dustBoron>, <contenttweaker:tinned_copper_wire> * 2, <ore:itemSilicon>] : <contenttweaker:si_transistor>,
+    [<ore:itemSilicon>] : <ore:waferSilicon>.firstItem,
 
 };
 
 for inputs, outout in assembly{
-    ElectronicLaserAssembly(outout, inputs, 1000, 20);
+    ElectronicLaserAssembly(outout, inputs, 1000, 50);
 }
 
 var normalAssembly as IItemStack[IIngredient[]] = {

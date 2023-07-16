@@ -51,6 +51,10 @@ recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nugget
 
 recipes.addShapeless(<mekanism:salt> * 4, [<ore:blockSalt>]);
 
+RecipeUtils.recipeTweak(false, <mekanism:polyethene:2>, [
+    [<mekanism:polyethene>, <mekanism:polyethene>, <mekanism:polyethene>],
+]);
+
 furnace.remove(<mekanism:ingot:6>);
 furnace.remove(<mekanism:ingot:4>);
 furnace.remove(<mekanism:ingot:5>);

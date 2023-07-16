@@ -11,6 +11,8 @@ import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 recipes.addShapeless(<harvestcraft:honeyitem> * 4, [<biomesoplenty:jar_filled>.giveBack(<biomesoplenty:jar_empty>)]);
+recipes.remove(<biomesoplenty:gem_block>);
+recipes.remove(<biomesoplenty:gem>);
 
 furnace.remove(<biomesoplenty:gem:0>);
 
