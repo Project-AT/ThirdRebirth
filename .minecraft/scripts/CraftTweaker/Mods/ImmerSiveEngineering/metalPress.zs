@@ -45,3 +45,4 @@ MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveeng
 MetalPress.addRecipe(<contenttweaker:insulating_substrate> * 9, <immersiveengineering:stone_decoration:8>, <immersiveengineering:mold>, 2400);
 MetalPress.addRecipe(<contenttweaker:rune> * 2, <botania:livingrock>, <immersiveengineering:mold>, 2400);
 MetalPress.addRecipe(<pneumaticcraft:empty_pcb:100>, <contenttweaker:pcb_substrate>, <pneumaticcraft:pcb_blueprint>, 2400);
+MetalPress.addRecipe(<ore:xuUpgradeBlank>.firstItem, <ore:ingotRedstoneAlloy>   , <immersiveengineering:mold>, 2400);

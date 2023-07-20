@@ -93,6 +93,16 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:resonator>, [
     [<ore:ingotIron>, <ore:dyeBlack>, <ore:ingotIron>]
 ], {<ore:artisansSpanner> : 20, <ore:artisansDriver> : 25});
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <extrautils2:ingredients:6>, [
+    [null, <ore:ingotDawnstone>, null],
+    [<contenttweaker:research_point_lv1>, <ore:xuUpgradeBlank>, <contenttweaker:research_point_lv1>],
+    [null, <ore:ingotDawnstone>, null]
+], {<ore:artisansSolderer> : 10, <ore:artisansDriver> : 10});
+
+artisanUtils.RecipeTweakWithTools("engineer", false, <extrautils2:ingredients:7>, [
+    [<ore:xuUpgradeBlank>, <contenttweaker:research_point_lv1>, <ore:ingotElectrum>]
+], {<ore:artisansSolderer> : 10, <ore:artisansDriver> : 10});
+
 RecipeUtils.recipeTweak(true, <extrautils2:suncrystal:250>, 
     inputPatternGet([" A", "A A", " A"], {
         "A" : <ore:clathrateGlowstone>

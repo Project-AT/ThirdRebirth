@@ -43,7 +43,7 @@ val defaultStageModMap as string[][string] = {
         "thermaldynamics", "enderstorage:ender_storage"
     ],
     "xnet" : [
-        "xnet"
+        "xnet", "rftoolscontrol"
     ],
     "psi" : [
         "psi", "psicosts", "psicaster"

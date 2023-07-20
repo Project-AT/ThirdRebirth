@@ -9,3 +9,4 @@ Crystallizer.addRecipe(<liquid:germanium_slurry> * 500, <contenttweaker:germaniu
 Crystallizer.addRecipe(<liquid:ender> * 250, <thermalfoundation:material:895>, 0.5, 0.5);
 Crystallizer.addRecipe(<liquid:glowstone> * 250, <thermalfoundation:material:894>, 0.5, 0.5);
 Crystallizer.addRecipe(<liquid:redstone> * 100, <thermalfoundation:material:893>, 0.5, 0.5);
+Crystallizer.addRecipe(<liquid:germanium_matrix> * 50, <contenttweaker:germanium_matrix>, 1, 8);

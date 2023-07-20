@@ -62,6 +62,7 @@ item.contenttweaker.PCB_Substrate.name=印刷基板
 item.contenttweaker.Token_of_Elven_Friendship_Big.name=精灵友谊之证（大）
 item.contenttweaker.Token_of_Elven_Friendship_Medium.name=精灵友谊之证（中）
 item.contenttweaker.Token_of_Elven_Friendship_Small.name=精灵友谊之证（小）
+item.contenttweaker.germanium_matrix.name=锗运算矩阵
 
 #Item
 #Bauble
@@ -102,6 +103,7 @@ fluid.infused_slag_slurry=灌注矿渣浆液
 fluid.germanium_slurry=锗浆液
 fluid.tartaric_acid_solution=酒石酸溶液
 fluid.slag_waste_slurry=矿渣废液
+fluid.germanium_matrix=液态锗运算矩阵
 
 #Enchantment
 enchantment.critical=会心一击

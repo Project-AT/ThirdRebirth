@@ -15,7 +15,8 @@ var fluidList as int[string] = {
     "infused_slag_slurry" : 0xB7ABC1,
     "germanium_slurry" : 0xD8D1BF,
     "tartaric_acid_solution" : 0xF7F7F7,
-    "slag_waste_slurry" : 0x4F351C
+    "slag_waste_slurry" : 0x4F351C,
+    "germanium_matrix" : 0xD6C69C
 };
 
 

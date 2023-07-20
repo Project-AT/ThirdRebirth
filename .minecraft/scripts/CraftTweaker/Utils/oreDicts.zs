@@ -322,6 +322,7 @@ for item in loadedMods["mysticalworld"].items {
 <ore:blockAmethyst>.remove(<biomesoplenty:gem_block>);
 <ore:ingotAluminium>.remove(<nuclearcraft:ingot:12>);
 <ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
+<ore:nuggetNetherStar>.remove(<extendedcrafting:material:140>);
 
 
 var oreNames as string[] = [

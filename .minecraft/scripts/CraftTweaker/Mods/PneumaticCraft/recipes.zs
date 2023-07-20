@@ -14,6 +14,7 @@ RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_valve>, [[<pneum
 RecipeUtils.recipeTweak(false, <pneumaticcraft:pressure_chamber_glass>, [[<ore:blockGlass>, <pneumaticcraft:pressure_chamber_wall>]]);
 
 recipes.remove(<pneumaticcraft:advanced_pcb>);
+recipes.remove(<pneumaticcraft:speed_upgrade>);
 
 artisanUtils.RecipeTweakWithTools("designer", true, <pneumaticcraft:pcb_blueprint>,
     inputPattern([" D ", "LLL", "TTT"])
@@ -83,6 +84,19 @@ RecipeBuilder.get("engineer")
   .addOutput(<pneumaticcraft:plastic_mixer>)
   .setMinimumTier(1)
   .setMaximumTier(1)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<ore:gemLapis>, <ore:listAllsugar>, <ore:gemLapis>],
+    [<ore:listAllsugar>, <contenttweaker:research_point_lv1>, <ore:listAllsugar>],
+    [<ore:gemLapis>, <ore:listAllsugar>, <ore:gemLapis>]])
+  .setFluid(<liquid:lubricant> * 250)
+  .addTool(<ore:artisansDriver>, 10)
+  .addTool(<ore:artisansSolderer>, 10)
+  .setMinimumTier(1)
+  .setMaximumTier(1)
+  .addOutput(<pneumaticcraft:speed_upgrade>)
   .create();
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <pneumaticcraft:assembly_controller>, [

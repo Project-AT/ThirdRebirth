@@ -21,7 +21,7 @@ var harvestcraftPresser as IIngredient[IIngredient[]] = {
     [<harvestcraft:coconutmilkitem>, <harvestcraft:veggiebaititem>] : <ore:cropCoconut>,
     [<minecraft:slime_ball>, <harvestcraft:freshwateritem>] : <ore:dropHoney>,
     [<harvestcraft:bubblywateritem>, <harvestcraft:bubblywateritem>] : <harvestcraft:freshwateritem>,
-    [<harvestcraft:bubblywateritem>, <harvestcraft:bubblywateritem>] : <harvestcraft:maplesyrupitem>,
+    [<minecraft:slime_ball>, <harvestcraft:freshwateritem>] : <harvestcraft:maplesyrupitem>,
     [<harvestcraft:carrotjuiceitem>, <harvestcraft:grainbaititem>] : <ore:cropCarrot>,
 };
 
