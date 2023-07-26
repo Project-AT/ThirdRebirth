@@ -30,7 +30,6 @@ val oreLiquids as ILiquidStack[IIngredient] = {
     <ore:dustSteel> : <liquid:steel> * 144,
     <ore:dustBeryllium> : <liquid:beryllium> * 144,
     <ore:dustZirconium> : <liquid:zirconium> * 144,
-    <ore:dustEnder> : <liquid:enderium> * 144,
     <ore:dustThorium> : <liquid:thorium> * 144,
     <ore:dustUranium> : <liquid:uranium> * 144,
     <ore:dustBoron> : <liquid:boron> * 144,

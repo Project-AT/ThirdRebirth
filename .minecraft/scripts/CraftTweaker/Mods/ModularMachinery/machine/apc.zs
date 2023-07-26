@@ -20,6 +20,14 @@ var itemTransform as int[IItemStack][IItemStack] = {
     <minecraft:stone> : {<naturesaura:infused_stone> : 7500},
 };
 
+var dimnessInfuse as int[IItemStack][IIngredient] = {
+    <ore:sand> : {<lightningcraft:under_sand> : 10000},
+    <ore:cobblestone> : {<lightningcraft:stone_block:6> : 10000},
+    <ore:logWood> : {<lightningcraft:wood_log> : 10000},
+    <minecraft:sea_lantern> : {<lightningcraft:light_block> : 10000},
+    <ore:gunpowder> : {<lightningcraft:material:12> : 20000},
+};
+
 var machineName = "aura_perfusion_changer";
 
 for input, output in itemTransform {
@@ -29,6 +37,18 @@ for input, output in itemTransform {
             .addItemInput(input)
             .addItemOutput(output_)
             .addAuraInput(aura / 10, true)
+        .build();
+    }
+}
+
+for input, output in dimnessInfuse {
+    for output_, aura in output {
+        var name = StringHelper.getItemNameWithUnderline(output_);
+        RecipeBuilder.newBuilder(machineName ~ name, machineName, 20)
+            .addItemInput(input)
+            .addItemOutput(output_)
+            .addFluidInput(<liquid:aura_underworld> * 100)
+            .addAuraInput(aura / 20, true)
         .build();
     }
 }

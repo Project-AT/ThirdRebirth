@@ -40,6 +40,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <thermalfoundation:material:
     [null, <ore:plateIron>, <ore:plateIron>]
 ], {<ore:artisansDriver> : 4, <ore:artisansSpanner> : 4} as int[IIngredient]);
 
-recipes.addShapeless(<harvestcraft:fishtrapbaititem>*2,
-    [<thermalfoundation:bait>, <ore:string>
-]);
+val removeItem as IItemStack[] = [
+    <thermalfoundation:bait:2>, <thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:3>,
+    <thermalfoundation:upgrade:33>, <thermalfoundation:upgrade:34>, <thermalfoundation:upgrade:35>, <thermalfoundation:security>, <thermalfoundation:material:512>,
+    <thermalfoundation:material:513>, <thermalfoundation:material:514>, <thermalfoundation:material:515>, <thermalfoundation:material:640>, <thermalfoundation:material:1024>,
+    <thermalfoundation:material:1025>, <thermalfoundation:material:1026>, <thermalfoundation:material:1027>, 
+];
+
+for i in removeItem {
+    recipes.remove(i);
+}

@@ -75,7 +75,7 @@ Lv2AlloyRecipe(<thermalfoundation:material:167> * 2, <ore:ingotEnderiumBase>, <i
 Lv2AlloyRecipe(<enderio:item_alloy_endergy_ingot:2> * 2, <ore:ingotEndSteel>, <integrateddynamics:crystalized_chorus_chunk> * 4, <ore:Manganese>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, <ore:Steel> * 2, <ore:gemEnderBiotite>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, <ore:Steel> * 2, <ore:substanceEbony>);
-Lv2AlloyRecipe(<enderio:item_alloy_ingot:3> * 2, <ore:gemRedstone>, <ore:Bronze>, <ore:ingotElectricalSteel>);
+Lv2AlloyRecipe(<enderio:item_alloy_ingot:3>, <ore:gemRedstone>, <ore:Bronze>, <ore:ingotElectricalSteel>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, null);
 Lv2AlloyRecipe(<refraction:reflective_alloy> * 5, <ore:Iron> * 3, <ore:ingotEnergeticSilver>, <ore:Gold>);
 Lv2AlloyRecipe(<enderio:item_alloy_endergy_ingot:1>, <ore:itemPulsatingPowder>, <ore:Platinum>, null);
@@ -83,6 +83,19 @@ Lv2AlloyRecipe(<ore:ingotMagnesiumDiboride>.firstItem * 3, <ore:Magnesium>, <ore
 Lv2AlloyRecipe(<ore:ingotLithiumManganeseDioxide>.firstItem * 2, <ore:ingotMagnesiumDiboride>, <ore:Lithium> * 2, null);
 Lv2AlloyRecipe(<ore:ingotZircaloy>.firstItem * 8, <ore:Tin>, <ore:Zirconium> * 7, null);
 Lv2AlloyRecipe(<ore:ingotTitaniumIridium>.firstItem * 2, <ore:Titanium>, <ore:Iridium>, null);
+Lv2AlloyRecipe(<thermalfoundation:glass>, <ore:fusedQuartz>, <ore:Copper> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:1>, <ore:fusedQuartz>, <ore:Tin> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:2>, <ore:fusedQuartz>, <ore:Sliver> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:4>, <ore:fusedQuartz>, <ore:Aluminum> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:5>, <ore:fusedQuartz>, <ore:Nickel> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:6>, <ore:fusedQuartz>, <ore:Platinum> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:7>, <ore:fusedQuartz>, <ore:Iridium> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass:8>, <ore:fusedQuartz>, <ore:Mithril> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass_alloy>, <ore:fusedQuartz>, <ore:Steel> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass_alloy:1>, <ore:fusedQuartz>, <ore:Electrum> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass_alloy:2>, <ore:fusedQuartz>, <ore:Invar> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass_alloy:3>, <ore:fusedQuartz>, <ore:Bronze> * 4, null);
+Lv2AlloyRecipe(<thermalfoundation:glass_alloy:4>, <ore:fusedQuartz>, <ore:Constantan> * 4, null);
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
@@ -98,6 +111,9 @@ Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:12>, <ore:Soularium>, <ore:dustFluix
 Lv3AlloyRecipe(<ore:ingotHSLASteel>.firstItem * 16, <ore:PureIron> * 15, <ore:dustCarbonManganese>, null);
 Lv3AlloyRecipe(<ore:ingotZirconiumMolybdenum>.firstItem * 16, <ore:Zirconium>, <ore:dustMolybdenum> * 15, null);
 Lv3AlloyRecipe(<ore:ingotTitaniumAluminide>.firstItem * 9, <ore:Titanium> * 3, <ore:HighStrengthAluminumAlloy> * 6, null);
+Lv3AlloyRecipe(<thermalfoundation:glass_alloy:5>, <ore:fusedQuartz>, <ore:Signalum> * 4, null);
+Lv3AlloyRecipe(<thermalfoundation:glass_alloy:6>, <ore:fusedQuartz>, <ore:Lumium> * 4, null);
+Lv3AlloyRecipe(<thermalfoundation:glass_alloy:7>, <ore:fusedQuartz>, <ore:Enderium> * 4, null);
 
 ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 12, <ore:Steel> * 4, null, 500, 955, [<ore:Constantan>, <ore:Manganese>, <ore:Boron> * 6], "Alloying");
 ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 500, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");

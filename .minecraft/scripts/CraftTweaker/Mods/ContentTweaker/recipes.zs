@@ -66,7 +66,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <contenttweaker:refractory_clay
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],
     [<ore:dustCoal>, <ore:clayBall>, <ore:dustQuartz>],
     [<ore:clayBall>, <ore:clayBall>, <ore:clayBall>],
-], {<ore:artisansMortar> : 7} as int[IIngredient]);
+], {<ore:artisansMortar> : 2} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithAll("chemist", true, <contenttweaker:elixir_eyesight>, [
     [null, <roots:wildewheet>],
@@ -149,9 +149,11 @@ RecipeUtils.recipeTweak(true, <contenttweaker:inactive_energytablet>, [
 ]);
 
 RecipeUtils.recipeTweak(false, <contenttweaker:inactive_view_cell>, [[<appliedenergistics2:view_cell>]]);
-RecipeUtils.recipeTweak(true, <contenttweaker:inactive_view_cell>, 
-    RecipeUtils.createCrossWithCore(<ore:dustGlowstone>, <ore:ingotElectricalSteel> | <ore:ingotPureIron>, <ore:fusedQuartz>)
-);
+RecipeUtils.recipeTweak(true, <contenttweaker:inactive_view_cell>, [
+    [null, <ore:fusedGlass>, null],
+    [<ore:ingotSmithingIron>, <contenttweaker:research_point_lv1>, <ore:ingotSmithingIron>],
+    [null, <ore:ingotSmithingIron>, null]
+]);
 
 recipes.addShapeless(<contenttweaker:research_point_lv0> * 2, [<ore:paper>, <ore:paper>, <ore:feather>.reuse(), <ore:dyeBlack>]);
 

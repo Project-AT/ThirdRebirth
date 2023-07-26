@@ -53,3 +53,5 @@ RecipeBuilder.get("blacksmith")
   .setMinimumTier(0)
   .setMaximumTier(1)
   .create();
+
+recipes.removeByInput(<primal_tech:bone_knife>);

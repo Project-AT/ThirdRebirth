@@ -15,6 +15,14 @@ RecipeUtils.recipeTweak(false, <harvestcraft:beeswaxitem>, [[<harvestcraft:waxco
 RecipeUtils.recipeTweak(false, <harvestcraft:honeyitem> * 4, [[<biomesoplenty:honey_block>]]);
 RecipeUtils.recipeTweak(false, <harvestcraft:honeyitem> * 9, [[<harvestcraft:honey>]]);
 
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>*2,
+    [<thermalfoundation:bait>, <ore:string>
+]);
+
+recipes.addShapeless(<harvestcraft:fishtrapbaititem>*4,
+    [<thermalfoundation:bait:1>, <ore:string>, <ore:string>
+]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:grinder>,
     inputPatternGet(["CBC", "D D", "EEE"], {
         "B" : <minecraft:iron_sword>,

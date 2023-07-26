@@ -16,6 +16,8 @@ furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:ingotPureIron>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:dustPureIron>);
 
+recipes.addShapeless(<minecraft:dye:15> * 9, [<betteranimalsplus:antler>]);
+
 RecipeUtils.recipeTweak(true, <minecraft:crafting_table>, [
     [null, <ore:leather>],
     [<ore:plankTreatedWood>, <primal_tech:work_stump_upgraded>, <ore:plankTreatedWood>],

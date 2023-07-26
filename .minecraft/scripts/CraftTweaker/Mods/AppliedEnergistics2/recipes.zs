@@ -14,10 +14,6 @@ RecipeUtils.recipeTweak(true, <appliedenergistics2:view_cell>,
     [[<contenttweaker:inactive_view_cell>]]
 );
 
-RecipeUtils.recipeTweak(true, <advancedrocketry:misc>, 
-    RecipeUtils.createCrossWithCore(<ore:aeViewCellReplacement>, <ore:plasticBlack>, <ore:fusedQuartz>)
-);
-
 RecipeUtils.recipeTweak(false, <appliedenergistics2:part:220>, [
     [<appliedenergistics2:interface>, <rftools:sensor_block>]
 ]);

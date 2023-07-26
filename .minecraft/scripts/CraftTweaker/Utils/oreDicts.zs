@@ -231,6 +231,14 @@ var oreDictAdd as IItemStack[][string] = {
     "cropLychee":[<harvestcraft:lycheeitem>],
     "cropJackfruit":[<harvestcraft:jackfruititem>],
     "listAllyogurt":[<harvestcraft:plainyogurtitem>],
+    "plantThorn":[<netherex:thornstalk>],
+    "listAllfishcooked":[<betteranimalsplus:eel_meat_cooked>],
+    "listAllfishfresh":[<betteranimalsplus:eel_meat_raw>, <harvestcraft:eelrawitem>],
+    "listAllfishraw":[<betteranimalsplus:eel_meat_raw>, <harvestcraft:eelrawitem>],
+    "vine":[<biomesoplenty:willow_vine>, <biomesoplenty:ivy>],
+    "tallgrass":[
+        <biomesoplenty:plant_0>, <biomesoplenty:plant_0:1>, <biomesoplenty:plant_0:7>, <biomesoplenty:plant_0:8>, <biomesoplenty:plant_1>, <biomesoplenty:plant_1:7>
+    ],
 
     "doorWood":[
         <biomesoplenty:mangrove_door>, <biomesoplenty:sacred_oak_door>, <biomesoplenty:cherry_door>, <biomesoplenty:umbran_door>,
@@ -243,6 +251,15 @@ var oreDictAdd as IItemStack[][string] = {
     "fenceGateWood":[<traverse:fir_fence_gate>, <roots:wildwood_fence_gate>], 
     "fenceWood":[<roots:wildwood_fence>, <wizardry:wisdom_wood_fence>, <traverse:fir_fence>],
     "itemWitheringDust":[<quark:black_ash>],
+    "mycelium":[<biomesoplenty:grass:8>],
+    "grass":[
+        <biomesoplenty:grass:1>, <biomesoplenty:grass:2>, <biomesoplenty:grass:3>, <biomesoplenty:grass:4>, <biomesoplenty:grass:5>, <biomesoplenty:grass:6>,
+        <biomesoplenty:grass:7>,
+    ],
+    "dirt":[<biomesoplenty:dirt:1>, <biomesoplenty:dirt:2>],
+    "sandstone":[<biomesoplenty:white_sandstone:1>],
+    "slabSandstone":[<biomesoplenty:other_slab:1>],
+    "blockPackedIce":[<biomesoplenty:hard_ice>],
 };
 
 var oreDictRemove as IItemStack[] = [
@@ -323,6 +340,7 @@ for item in loadedMods["mysticalworld"].items {
 <ore:ingotAluminium>.remove(<nuclearcraft:ingot:12>);
 <ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
 <ore:nuggetNetherStar>.remove(<extendedcrafting:material:140>);
+<ore:blockAluminium>.remove(<embers:block_aluminum>);
 
 
 var oreNames as string[] = [

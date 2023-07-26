@@ -10,6 +10,10 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:dataunit>, [
     [<ore:ingotSoularium>]
 ]);
 
+RecipeUtils.recipeTweak(true, <advancedrocketry:misc>, 
+    RecipeUtils.createCrossWithCore(<ore:aeViewCellReplacement>, <ore:plasticBlack>, <ore:fusedQuartz>)
+);
+
 RecipeUtils.recipeTweak(true, <advancedrocketry:structuretower> * 6, [
     [<ore:rodHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>, <ore:rodHighStrengthAluminumAlloy>],
     [<ore:rodHighStrengthAluminumAlloy>, null, <ore:rodHighStrengthAluminumAlloy>],

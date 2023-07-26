@@ -1,6 +1,7 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import scripts.grassUtils.RecipeUtils;
@@ -104,3 +105,11 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:material:7> * 2,
         "A" : <enderio:block_holier_fog>,
         "B" : <extrautils2:suncrystal>
 }));
+
+val removeItem as IItemStack[] = [
+    <extendedcrafting:material:36>, <extendedcrafting:material:37>, <extendedcrafting:storage:5>
+];
+
+for i in removeItem {
+    recipes.remove(i);
+}

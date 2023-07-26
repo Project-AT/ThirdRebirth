@@ -128,6 +128,11 @@ var baned as IItemStack[] = [
     <embers:dust_metallurgic>,
     <biomesoplenty:gem_ore>,
     <teslathingies:tesla_plant_seeds>,
+    <primal_tech:stick_bundle>, 
+    <primal_tech:fibre_torch>, 
+    <primal_tech:fibre_torch_lit>,
+    <primal_tech:plant_fibres>, 
+    <primal_tech:twine>,
 ];
 
 val banRitual as IItemStack[] = [

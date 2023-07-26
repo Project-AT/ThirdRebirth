@@ -192,3 +192,7 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:alloy:13>,
     inputPatternGet(["AA", "AA"], {
         "A" : <nuclearcraft:part:13>
 }));
+
+RecipeUtils.recipeTweak(true, <nuclearcraft:compound:9> * 8 , 
+    RecipeUtils.createCrossWithCore(<ore:dustLumium>, <ore:dustEndstone>, <lightningcraft:material:12>)
+);
