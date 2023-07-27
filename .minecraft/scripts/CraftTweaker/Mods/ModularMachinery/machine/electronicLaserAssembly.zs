@@ -26,7 +26,7 @@ ElectronicLaserAssembly(<ore:circuitBasic>.firstItem, [<contenttweaker:si_transi
 
 var assembly as IItemStack[IIngredient[]] = {
     [<contenttweaker:ge_transistor> * 2, <contenttweaker:ge_wafer>, <enderio:item_basic_capacitor>, <mekanism:polyethene:2>] : <contenttweaker:germanium_integrated_circuit_board>,
-    [<ore:itemSimpleMachineChassi>, <ore:ingotReflectiveAlloy> * 6, <embers:focal_lens>, <ore:opticFiber> * 4, <ore:ingotSignalum> * 2, <ore:lensGlass> * 3, <ore:ingotPlatinum>] : <refraction:electric_laser>,
+    [<ore:itemMachineChassi>, <ore:ingotReflectiveAlloy> * 6, <embers:focal_lens>, <ore:opticFiber> * 4, <ore:ingotSignalum> * 2, <ore:lensGlass> * 3, <ore:ingotPlatinum>] : <refraction:electric_laser>,
     [<ore:lensGlass> * 6, <ore:ingotReflectiveAlloy> * 6, <ore:opticFiber> * 4, <refraction:splitter>] : <refraction:electron_exciter>,
     [<ore:itemSimpleMachineChassi>, <refraction:reflective_alloy> * 6, <embers:focal_lens>, <refraction:lens> * 3, <ore:gemRedstone> * 2, <ore:blockGlowstone>] : <refraction:laser>,
     [<ore:dyeWhite> * 256, <botania:lens:14>.withTag({color: 0}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter>,

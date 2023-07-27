@@ -140,7 +140,7 @@ base.material.aluminum=铝
 base.material.magnesium=镁
 base.material.dilithium=二锂
 base.material.tritanium=三钛
-base.material.titanium=金红石
+base.material.titanium=钛
 base.material.crude_steel=铁碳
 base.material.mithril=蕴魔秘银
 base.material.germanium=锗
@@ -150,6 +150,11 @@ base.material.extreme=极限合金
 base.material.high_strength_aluminum_alloy=高强度铝合金
 base.material.rose_gold=玫瑰金
 base.material.iron_compressed=耐候钢
+base.material.titanium_aluminide=钛铝合金
+base.material.titanium_iridium=钛铱合金
+base.material.electricium=雷电
+base.material.skyfather=天域
+base.material.mystic=神秘
 
 #flower
 tile.botania:flower.aura_flower.name=灵雾兰

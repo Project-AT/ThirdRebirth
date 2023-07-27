@@ -2,6 +2,13 @@
 #modloaded trutils
 
 import scripts.grassUtils.RecipeUtils;
+import scripts.CraftTweaker.Utils.artisanUtils;
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <advancedrocketry:centrifuge>, [
+    [<ore:plateHighStrengthAluminumAlloy>, <advancedrocketry:misc>, <ore:plateHighStrengthAluminumAlloy>],
+    [<ore:gearTough>, <ore:itemMachineChassi>, <ore:gearTough>],
+    [<ore:plateHighStrengthAluminumAlloy>, <contenttweaker:germanium_integrated_circuit_board>, <ore:plateHighStrengthAluminumAlloy>]
+], {<ore:artisansDriver> : 66, <ore:artisansSpanner> : 79});
 
 //数据存储
 RecipeUtils.recipeTweak(true, <advancedrocketry:dataunit>, [

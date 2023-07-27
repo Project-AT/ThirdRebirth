@@ -58,7 +58,7 @@ electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:7>, [
 
 electronicAssembly.addRecipe("engineer", true, <nuclearcraft:part:8>, [
     [<ore:plateSteel>, <ore:plateSteel>],
-    [<ore:solenoidCopper>, <ore:solenoidCopper>, <ore:stickIron>],
+    [<ore:solenoidCopper>, <ore:solenoidCopper>, <ore:stickSteel>],
     [<ore:plateSteel>, <ore:plateSteel>]
 ], {<ore:artisansDriver> : 15, <ore:artisansSpanner> : 10});
 
@@ -179,7 +179,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:alloy_furnace>
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:assembler>, [
     [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>],
     [<ore:actuator>, <ore:chassis>, <ore:actuator>],
-    [<ore:plateAdvanced>, <ore:servo>, <ore:plateAdvanced>]
+    [<ore:plateAdvanced>, <contenttweaker:germanium_integrated_circuit_board>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 35, <ore:artisansSpanner> : 42});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:solid_fission_controller>, [

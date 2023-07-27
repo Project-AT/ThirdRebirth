@@ -28,7 +28,7 @@ assemblyTableRecipe(<contenttweaker:germanium_integrated_circuit_board>,
 
 AssemblyTable.remove(<refraction:mirror>);
 assemblyTableRecipe(<refraction:electric_laser>,
-    [<ore:itemSimpleMachineChassi>, <refraction:reflective_alloy> * 6, <embers:focal_lens>, <refraction:optic_fiber> * 4, <ore:ingotSignalum> * 2, <refraction:lens> * 3, <ore:ingotPlatinum>],
+    [<ore:itemMachineChassi>, <refraction:reflective_alloy> * 6, <embers:focal_lens>, <refraction:optic_fiber> * 4, <ore:ingotSignalum> * 2, <refraction:lens> * 3, <ore:ingotPlatinum>],
     64, 128, 0, 0, 96, 160, 255, 255, true
 );
 

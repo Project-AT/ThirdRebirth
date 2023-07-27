@@ -263,8 +263,13 @@ var oreDictAdd as IItemStack[][string] = {
 };
 
 var oreDictRemove as IItemStack[] = [
-    <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, 
-    <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>
+    <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
+    <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>, <lightningcraft:rod:2>, <lightningcraft:rod:3>, <lightningcraft:rod:5>,
+    <lightningcraft:rod:6>, <lightningcraft:rod:7>, <lightningcraft:rod:8>, <lightningcraft:rod:9>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
+    <advancedrocketry:productdust>, <advancedrocketry:productdust:1>, <advancedrocketry:productingot>, <advancedrocketry:productingot:1>,
+    <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <advancedrocketry:productrod>, <advancedrocketry:productrod:1>,
+    <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <libvulpes:productdust:7>, <libvulpes:productingot:7>, <libvulpes:productplate:7>, 
+    <libvulpes:productrod:7>, <libvulpes:productgear:7>
 ];
 
 for key, value in oreDictAdd {
@@ -341,6 +346,7 @@ for item in loadedMods["mysticalworld"].items {
 <ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
 <ore:nuggetNetherStar>.remove(<extendedcrafting:material:140>);
 <ore:blockAluminium>.remove(<embers:block_aluminum>);
+<ore:plateElectricium>.remove(<lightningcraft:plate:7>);
 
 
 var oreNames as string[] = [

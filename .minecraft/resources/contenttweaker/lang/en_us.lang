@@ -150,6 +150,11 @@ base.material.extreme=Extreme
 base.material.high_strength_aluminum_alloy=High Strength Aluminum Alloy
 base.material.rose_gold=Rose Gold
 base.material.iron_compressed=Weathering Steel
+base.material.titanium_aluminide=TitaniumAluminide
+base.material.titanium_iridium=TitaniumIridium
+base.material.electricium=Electricium
+base.material.skyfather=Skyfather
+base.material.mystic=Mystic
 
 #flower
 tile.botania:flower.aura_flower.name=Aura flower

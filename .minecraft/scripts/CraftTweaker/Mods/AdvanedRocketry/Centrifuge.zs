@@ -23,5 +23,5 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
 }
 
 addRecipe([
-    <enderio:block_holier_fog> * 3 % 20, <enderio:block_holier_fog> * 2 % 30, <enderio:block_holier_fog> % 50
-], 500, 160, [<liquid:glowstone> * 500]);
+    <enderio:block_holier_fog> * 1 % 20, <enderio:block_holier_fog> * 1 % 30, <enderio:block_holier_fog> % 50
+], 500, 160, [<liquid:glowstone> * 1000]);

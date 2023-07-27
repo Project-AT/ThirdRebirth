@@ -78,6 +78,7 @@ var removeAndHide as IItemStack[] = [
     <rftools:endergenic>,
     <rftools:pearl_injector>,
     <rftools:ender_monitor>,
+    <advancedrocketry:platepress>,
 ];
 
 var removeAndBanBecauseBug as IItemStack[] = [
@@ -98,7 +99,9 @@ var removeByRecipeName as string[] = [
     "thermalfoundation:dust_lumium", 
     "modularmachinery:modularium_ingot", 
     "refraction:reflective_alloy",
-    "netherex:wither_bone"
+    "netherex:wither_bone",
+    "zmaster587.AR.platePresser",
+    "zmaster587.AR.electrolyzer",
 ];
 
 var baned as IItemStack[] = [
