@@ -155,6 +155,8 @@ base.material.titanium_iridium=钛铱合金
 base.material.electricium=雷电
 base.material.skyfather=天域
 base.material.mystic=神秘
+base.material.steel=钢
+base.material.emerald=绿宝石
 
 #flower
 tile.botania:flower.aura_flower.name=灵雾兰

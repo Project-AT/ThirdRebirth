@@ -100,8 +100,6 @@ var removeByRecipeName as string[] = [
     "modularmachinery:modularium_ingot", 
     "refraction:reflective_alloy",
     "netherex:wither_bone",
-    "zmaster587.AR.platePresser",
-    "zmaster587.AR.electrolyzer",
 ];
 
 var baned as IItemStack[] = [
@@ -171,6 +169,8 @@ val hideCategory as string[] = [
     "xu2_machine_extrautils2:generator_death",
     "xu2_machine_extrautils2:generator_enchant",
     "xu2_machine_extrautils2:generator_slime",
+    "zmaster587.AR.platePresser",
+    "zmaster587.AR.electrolyzer",
 ];
 
 for item in removeAndHide {

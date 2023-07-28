@@ -155,6 +155,8 @@ base.material.titanium_iridium=TitaniumIridium
 base.material.electricium=Electricium
 base.material.skyfather=Skyfather
 base.material.mystic=Mystic
+base.material.steel=Steel
+base.material.emerald=Emerald
 
 #flower
 tile.botania:flower.aura_flower.name=Aura flower

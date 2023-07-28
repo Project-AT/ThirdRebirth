@@ -17,7 +17,7 @@ var materials as int[string] = {
     "Platinum" : 0x33B2FF,
     "Titanium" : 0xC9C5F6,
     "Mithril" : 0x6CCDFF,
-    "Iridium" : 0xBABAD6,
+    "Iridium" : 0xEFECF3,
     "Boron" : 0x5F5F5F,
     "Lithium" : 0xEEEEEE,
     "Magnesium" : 0xEFD3ED,

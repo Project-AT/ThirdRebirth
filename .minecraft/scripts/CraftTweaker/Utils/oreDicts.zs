@@ -266,10 +266,10 @@ var oreDictRemove as IItemStack[] = [
     <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
     <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>, <lightningcraft:rod:2>, <lightningcraft:rod:3>, <lightningcraft:rod:5>,
     <lightningcraft:rod:6>, <lightningcraft:rod:7>, <lightningcraft:rod:8>, <lightningcraft:rod:9>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
-    <advancedrocketry:productdust>, <advancedrocketry:productdust:1>, <advancedrocketry:productingot>, <advancedrocketry:productingot:1>,
+    <advancedrocketry:productdust>, <advancedrocketry:productdust:1>, <advancedrocketry:productingot>, <advancedrocketry:productingot:1>, <lightningcraft:material:2>,
     <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <advancedrocketry:productrod>, <advancedrocketry:productrod:1>,
     <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <libvulpes:productdust:7>, <libvulpes:productingot:7>, <libvulpes:productplate:7>, 
-    <libvulpes:productrod:7>, <libvulpes:productgear:7>
+    <libvulpes:productrod:7>, <libvulpes:productgear:7>, <libvulpes:productrod:10>, <thermalfoundation:material:802>, <thermalfoundation:material:800>
 ];
 
 for key, value in oreDictAdd {

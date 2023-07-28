@@ -60,7 +60,8 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:chiseled_quartz_block>, <appliedenergistics2:quartz_stairs>, <appliedenergistics2:chiseled_quartz_stairs>, <appliedenergistics2:quartz_pillar_stairs>,
         <appliedenergistics2:quartz_slab>, <appliedenergistics2:chiseled_quartz_slab>, <appliedenergistics2:quartz_pillar_slab>, <appliedenergistics2:quartz_pillar>,
         <appliedenergistics2:certus_quartz_axe>, <appliedenergistics2:certus_quartz_hoe>, <appliedenergistics2:certus_quartz_spade>, <appliedenergistics2:certus_quartz_pickaxe>,
-        <appliedenergistics2:certus_quartz_cutting_knife>, <ore:substanceEbony>, <ore:substanceIvory>,
+        <appliedenergistics2:certus_quartz_cutting_knife>, <ore:substanceEbony>, <ore:substanceIvory>, <extendedcrafting:trimmed>, <extendedcrafting:trimmed:1>, 
+        <extendedcrafting:trimmed:2>, <extendedcrafting:trimmed:3>,
     ],
     "four" : [
         <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>,
@@ -111,10 +112,12 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
         <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
         <ore:ingot_dark_soularium>, <modularmachinery:electronic_assembly_machine_mk1_controller>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>,
-        <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>
+        <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, <extendedcrafting:table_advanced>,
+        <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>
     ],
     "six" : [
-        <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>,
+        <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:trimmed:4>,
+        <extendedcrafting:table_elite>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:12>, <extendedcrafting:material:18>
     ],
     "root" : [
         <trutils:magnetic_attraction>, <ore:redstoneRoot>

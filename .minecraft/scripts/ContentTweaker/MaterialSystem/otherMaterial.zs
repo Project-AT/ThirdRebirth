@@ -10,6 +10,7 @@ var materials as int[string] = {
     "Extreme" : 0x722A3C,
     "Dilithium" : 0x8FD6D6,
     "IronCompressed" : 0x636363,
+    "Emerald" : 0x41F384,
 };
 
 var lightningMaterials_ as int[string] = {
@@ -25,6 +26,7 @@ var rodMaterials_ as int[string] = {
     "Tin" : 0xCAE3E3,
     "Steel" : 0xB3B3B3,
     "Aluminum" : 0xEBEBF4,
+    "Iridium" : 0xEFECF3,
 };
 
 var otherMaterial as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("otherMaterial");
@@ -38,6 +40,8 @@ otherMaterial.registerMaterialPart("Tough", "block");
 otherMaterial.registerMaterialPart("Extreme", "block");
 otherMaterial.registerMaterialPart("Dilithium", "dust");
 otherMaterial.registerMaterialPart("IronCompressed", "plate");
+otherMaterial.registerMaterialPart("IronCompressed", "rod");
+otherMaterial.registerMaterialPart("Emerald" , "dust");
 
 var lightningOreProcess_ as MaterialSystemHelper = CotUtils.getMaterialSystemHelper("ore_process_");
 lightningOreProcess_.addParts(["plate", "rod"] as string[]);

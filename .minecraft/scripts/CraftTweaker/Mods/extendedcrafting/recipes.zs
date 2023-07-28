@@ -113,3 +113,5 @@ val removeItem as IItemStack[] = [
 for i in removeItem {
     recipes.remove(i);
 }
+
+recipes.replaceAllOccurences(<extendedcrafting:storage>, <ore:blockTough>);

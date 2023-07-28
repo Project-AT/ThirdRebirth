@@ -6,9 +6,7 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 import mods.artisanworktables.builder.RecipeBuilder;
 //钢质机壳
 RecipeUtils.recipeTweak(true, <mekanism:basicblock:8>, [
-    [<ore:ingotTough>, <ore:plateIronCompressed>, <ore:ingotTough>],
-    [<ore:plateIronCompressed>, <ore:itemMachineChassi>, <ore:plateIronCompressed>],
-    [<ore:ingotTough>, <ore:plateIronCompressed>, <ore:ingotTough>]
+    RecipeUtils.createCrossWithCore(<ore:itemMachineChassi>, <ore:ingotFerroboron>, <ore:plateTough>)
 ]);
 //锇压缩机
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [
