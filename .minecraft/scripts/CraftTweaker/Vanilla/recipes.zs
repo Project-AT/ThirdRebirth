@@ -10,11 +10,7 @@ import crafttweaker.recipes.ICraftingRecipe;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
-furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
 furnace.addRecipe(<ore:nuggetGold>.firstItem * 3, <minecraft:golden_carrot>);
-furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
-furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:ingotPureIron>);
-furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:dustPureIron>);
 
 recipes.addShapeless(<minecraft:dye:15> * 9, [<betteranimalsplus:antler>]);
 
@@ -75,7 +71,6 @@ artisanUtils.RecipeTweakWithTools("carpenter", false, <minecraft:stick> * 2, [
 artisanUtils.RecipeTweakWithTools("carpenter", false, <minecraft:stick> * 2, [
     [<minecraft:ladder>]
 ], {<ore:artisansHandsaw> : 1} as int[IIngredient]);
-
 
 RecipeBuilder.get("carpenter")
     .setShaped([

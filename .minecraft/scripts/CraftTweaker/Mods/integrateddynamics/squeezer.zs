@@ -7,6 +7,9 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.integrateddynamics.Squeezer;
 import mods.integrateddynamics.MechanicalSqueezer;
 
+//Squeezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid);
+//MechanicalSqueezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid, @Optional(10) int duration);
+
 function addSqueezerRecipeByTwoOutput(input as IItemStack, output1 as IItemStack, output2 as IItemStack, output2Chance as float, output2MechanicalChance as float) {
     Squeezer.addRecipe(input, output1, 1.0, output2, output2Chance);
     MechanicalSqueezer.addRecipe(input, output1, 1.0, output2, output2MechanicalChance);

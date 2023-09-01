@@ -4,12 +4,13 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
+import mods.unidict.removalByKind;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
 var orePlainNames as string[] = [
-    "PureIron", "Iron", "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "Dawnstone"
+    "PureIron", "Iron", "Gold", "Platinum", "Silver", "Copper", "Lead", "Aluminum", "Dawnstone", "RoseGold"
 ];
 
 var oreNames as string[] = [
@@ -23,6 +24,8 @@ var onlyPlateOreNames as string[] = [
 ];
 
 var oreStickOrRodTemp as string[] = [];
+
+mods.unidict.removalByKind.get("Crafting").remove("rod");
 
 for index, i in orePlainNames {
     var gear as IOreDictEntry = oreDict.get("gear" ~ i);

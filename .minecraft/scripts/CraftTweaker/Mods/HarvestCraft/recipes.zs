@@ -8,6 +8,17 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 recipes.addShapeless(<harvestcraft:oliveoilitem> * 2, [<quark:tallow>, <harvestcraft:potitem>.reuse()]);
 recipes.addShapeless(<harvestcraft:oliveoilitem> * 2, [<mysticalworld:cooked_seeds>, <ore:toolJuicer>.reuse()]);
+recipes.addShapeless(<harvestcraft:oliveoilitem> * 2, [<mysticalworld:cooked_seeds>, <ore:toolJuicer>.reuse()]);
+
+recipes.addShapeless(<minecraft:sugar>, [<ore:listAlljuice>, <ore:toolSaucepan>.reuse()]);
+recipes.addShapeless(<minecraft:sugar>, [<harvestcraft:fruitbaititem>]);
+recipes.addShapeless(<harvestcraft:seaweeditem>, [<biomesoplenty:seaweed>]);
+
+recipes.addShapeless(<minecraft:paper> * 2, [
+    <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>, <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>, <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>
+]);
+
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 RecipeUtils.recipeTweak(false, <harvestcraft:hardenedleatheritem>, [[<ore:materialLeather>, <ore:materialPressedwax>]]);
 RecipeUtils.recipeTweak(false, <harvestcraft:honeyitem>, [[<harvestcraft:honeycombitem> | <biomesoplenty:filled_honeycomb>]]);

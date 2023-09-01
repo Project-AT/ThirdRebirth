@@ -34,6 +34,9 @@ function isContainsASP(item as IItemStack) as bool {
     return false;
 }
 
+mods.embers.Alchemy.remove(<embers:dust_metallurgic>);
+
+
 Alchemy.add(<enderio:item_alloy_endergy_ingot:5> * 4,
     [<embers:crystal_ember>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], {
         ASP(<embers:aspectus_silver>) : 16 .. 32

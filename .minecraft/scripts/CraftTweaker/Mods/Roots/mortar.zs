@@ -10,6 +10,8 @@ import scripts.grassUtils.StringHelper;
 
 static tweakedRecipesAmount as int = 0;
 
+Mortar.removeRecipe(<roots:flour>);
+
 function mortarUtils(output as IItemStack, input as IIngredient[]) {
     Mortar.addRecipe(StringHelper.getItemNameWithUnderline(output) + tweakedRecipesAmount,  output,  input);
     tweakedRecipesAmount += 1;
@@ -30,6 +32,8 @@ mortarUtils(<contenttweaker:mana_petals>, [<roots:cloud_berry>]);
 mortarUtils(<contenttweaker:mana_petals>, [<roots:dewgonia>]);
 mortarUtils(<contenttweaker:mana_petals>, [<roots:moonglow_leaf>]);
 mortarUtils(<contenttweaker:mana_petals>, [<roots:pereskia>]);
+mortarUtils(<ore:foodFlour>.firstItem, [<minecraft:wheat>]);
+mortarUtils(<ore:foodFlour>.firstItem, [<minecraft:potato>]);
 
 Mortar.changeSpell("spell_chrysopoeia", [
     NACRE_PEARL, <ore:gunpowder>, <wizardry:blackened_spirit>, <wizardry:fairy_dust>, <wizardry:devil_dust>

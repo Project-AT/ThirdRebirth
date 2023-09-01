@@ -51,6 +51,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, 
         <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>, 
         <ore:exosuitSensorLight>, <appliedenergistics2:part:140>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>, <enderio:block_self_resetting_lever300i>,
+        <ore:stickIronCompressed>, 
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
@@ -173,7 +174,10 @@ val specialStageItemStackMap as IIngredient[][string] = {
     ],
     "EndPortal" : [
         <contenttweaker:ender_portal>, <psi:material:5>, <psi:material:6>
-    ]
+    ],
+    "lightning" : [
+        <ore:plateElectricium>, <ore:plateMystic>, <ore:plateSkyfather>
+    ],
 };
 
 //无阶段物品
@@ -232,7 +236,8 @@ val exceptItemStacks as IIngredient[] = [
     <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
     <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>, <extendedcrafting:handheld_table>, <extendedcrafting:crafting_table>,
-    <scalinghealth:healingitem>, <scalinghealth:healingitem:1>
+    <scalinghealth:healingitem>, <scalinghealth:healingitem:1>, <ore:stickCopper>, <ore:rodIridium>, <ore:rodTin>, <ore:rodGold>,
+    <ore:stickRoseGold>, <ore:rodLead>
 ];
 
 for stage, items in specialStageItemStackMap {

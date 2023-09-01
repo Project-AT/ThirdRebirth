@@ -15,7 +15,8 @@ var items as string[] = [
     "tartaric_acid", "crude_silicon_dust", "infused_crude_silicon_dust", "infused_protective_layer_crude_silicon_dust",
     "mana_infused_crude_silicon_dust", "contains_impurities_silicon_dust", "silicon_dust", "tinned_copper_wire",
     "inactive_view_cell", "inactive_energytablet", "menril_essence_crystal", "research_point_Lv0", "research_point_Lv1", "research_point_Lv1_incomplete",
-    "mystery_dust","PCB_Substrate", "Token_of_Elven_Friendship_Big", "Token_of_Elven_Friendship_Medium", "Token_of_Elven_Friendship_Small", "germanium_matrix"
+    "mystery_dust","PCB_Substrate", "Token_of_Elven_Friendship_Big", "Token_of_Elven_Friendship_Medium", "Token_of_Elven_Friendship_Small", "germanium_matrix",
+    "iron_rod"
 ];
 
 for item in items {

@@ -25,3 +25,5 @@ MoreJei.addDescription(<mysticalworld:gall_apple>, [game.localize("thirdrebirth.
 MoreJei.addDescription(<trutils:evil_stone>, [game.localize("thirdrebirth.description.trutils.evil_stone")]);
 //燃料等价物
 MoreJei.addDescription(<trutils:equivalent_fuel>, [game.localize("thirdrebirth.description.trutils:equivalent_fuel")]);
+//水果采集组件
+MoreJei.addDescription(<teslathingies:fruit_picker_addon>, [game.localize("thirdrebirth.description.trutils:fruit_picker_addon")]);

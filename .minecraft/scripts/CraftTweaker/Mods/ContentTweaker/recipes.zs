@@ -14,14 +14,26 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 <contenttweaker:four_leaf_clover_necklace>.addShiftTooltip(game.localize("thirdrebirth.title.flcn.tooltip"));
 
-furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:oreCrudeSteel>);
-furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:dustCrudeSteel>);
 furnace.addRecipe(<contenttweaker:stamp_nugget>, <contenttweaker:raw_stamp_nugget>);
 furnace.addRecipe(<contenttweaker:refractory_brick>, <contenttweaker:refractory_clay_ball>);
-furnace.addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
-furnace.addRecipe(<appliedenergistics2:material:5>, <contenttweaker:silicon_dust>);
+
 furnace.addRecipe(<ore:oreRutile>.firstItem * 2, <ore:oreEndRutile>);
 furnace.addRecipe(<ore:oreLithium>.firstItem * 2, <ore:oreEndLithium>);
+
+furnace.addRecipe(<ore:nuggetIron>.firstItem * 6, <ore:ingotRustyIron>);
+furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:ingotPureIron>);
+furnace.addRecipe(<ore:ingotIron>.firstItem, <ore:dustPureIron>);
+
+furnace.addRecipe(<ore:ingotTitanium>.firstItem, <ore:oreTitanium>);
+furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:oreCrudeSteel>);
+
+furnace.addRecipe(<ore:ingotCrudeSteel>.firstItem, <ore:dustCrudeSteel>);
+furnace.addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
+furnace.addRecipe(<appliedenergistics2:material:5>, <contenttweaker:silicon_dust>);
+furnace.addRecipe(<ore:ingotGermanium>.firstItem, <ore:dustGermanium>);
+furnace.addRecipe(<ore:ingotTitanium>.firstItem, <ore:dustTitanium>);
+furnace.addRecipe(<ore:ingotTitaniumIridium>.firstItem, <ore:dustTitaniumIridium>);
+furnace.addRecipe(<ore:ingotTitaniumAluminide>.firstItem, <ore:dustTitaniumAluminide>);
 
 recipes.addShapeless(<contenttweaker:pcb_substrate>,
     [<ore:plasticGreen>, <ore:plateCopper>
@@ -132,6 +144,9 @@ var recipe as IOreDictEntry[IOreDictEntry] = {
     <ore:ingotGermanium> : <ore:blockGermanium>,
     <ore:nuggetRoseGold> : <ore:ingotRoseGold>,
     <ore:nuggetPureIron> : <ore:ingotPureIron>,
+    <ore:nuggetTitaniumIridium> : <ore:ingotTitaniumIridium>,
+    <ore:nuggetTitaniumAluminide> : <ore:ingotTitaniumAluminide>,
+    <ore:nuggetTitanium> : <ore:ingotTitanium>,
 };
 
 for k, v in recipe {

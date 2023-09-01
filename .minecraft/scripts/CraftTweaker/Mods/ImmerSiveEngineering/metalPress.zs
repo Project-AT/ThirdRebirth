@@ -1,6 +1,7 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 import mods.immersiveengineering.MetalPress;
@@ -9,19 +10,30 @@ import mods.immersiveengineering.MetalPress;
 //mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
 
 var plateMetals as string[] = [
-    "Iron", "Gold", "Copper", "Silver", "Lead", "Aluminum", "Nickel", "Steel", "Electrum", "Constantan", 
+    "Iron", "Gold", "Copper", "Silver", "Lead", "Aluminum", "Nickel", "Steel", "Electrum", "Constantan", "TitaniumIridium", "TitaniumAluminide", "Titanium"
 ];
 
 var rodMetals as string[] = [
-    "Copper", "Aluminum", "Iron", "Steel"
+    "Copper", "Aluminum", "Iron", "Steel", "TitaniumIridium", "TitaniumAluminide", "Titanium"
 ];
+
+var gearMetals as string[] = [
+    "TitaniumIridium", "TitaniumAluminide", "Titanium"
+];
+
+var removeProduct as IItemStack[] = [
+    <libvulpes:productrod:4>, <embers:plate_aluminum>, <advancedrocketry:productrod:1>, <advancedrocketry:productrod>, <libvulpes:productrod:7>, <libvulpes:productrod:10>,
+    <advancedrocketry:productgear:1>, <advancedrocketry:productgear>, <libvulpes:productgear:7>, <advancedrocketry:productplate:1>, <advancedrocketry:productplate>,
+    <libvulpes:productplate:7>
+];
+
+for i in removeProduct {
+    MetalPress.removeRecipe(i);
+}
 
 for i in 30 to 41 {
     MetalPress.removeRecipe(<immersiveengineering:metal>.definition.makeStack(i));
 }
-
-MetalPress.removeRecipe(<libvulpes:productrod:4>);
-MetalPress.removeRecipe(<embers:plate_aluminum>);
 
 for i in 1 to 4 {
     MetalPress.removeRecipe(<immersiveengineering:material>.definition.makeStack(i));
@@ -39,6 +51,13 @@ for metal in rodMetals {
     var oreIngot as IOreDictEntry = oreDict.get("ingot" + metal);
 
     MetalPress.addRecipe(oreRod.firstItem * 2, oreIngot, <immersiveengineering:mold:2>, 1800);
+}
+
+for metal in gearMetals {
+    var oreGear as IOreDictEntry = oreDict.get("gear" + metal);
+    var oreIngot as IOreDictEntry = oreDict.get("ingot" + metal);
+
+    MetalPress.addRecipe(oreGear.firstItem * 4, oreIngot, <immersiveengineering:mold:1>, 2400);
 }
 
 MetalPress.addRecipe(<ore:plateTough>.firstItem, <ore:ingotTough>, <immersiveengineering:mold>, 2400);

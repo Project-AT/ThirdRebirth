@@ -96,6 +96,7 @@ Lv2AlloyRecipe(<thermalfoundation:glass_alloy:1>, <ore:fusedQuartz>, <ore:Electr
 Lv2AlloyRecipe(<thermalfoundation:glass_alloy:2>, <ore:fusedQuartz>, <ore:Invar> * 4, null);
 Lv2AlloyRecipe(<thermalfoundation:glass_alloy:3>, <ore:fusedQuartz>, <ore:Bronze> * 4, null);
 Lv2AlloyRecipe(<thermalfoundation:glass_alloy:4>, <ore:fusedQuartz>, <ore:Constantan> * 4, null);
+Lv2AlloyRecipe(<ore:ingotTitaniumAluminide>.firstItem * 3, <ore:Titanium> * 1, <ore:HighStrengthAluminumAlloy> * 2, null);
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
@@ -110,7 +111,6 @@ Lv3AlloyRecipe(<draconicevolution:draconium_ingot> * 3, <ore:ingotMelodicAlloy>,
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:12>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemPulsatingCrystal>);
 Lv3AlloyRecipe(<ore:ingotHSLASteel>.firstItem * 16, <ore:PureIron> * 15, <ore:dustCarbonManganese>, null);
 Lv3AlloyRecipe(<ore:ingotZirconiumMolybdenum>.firstItem * 16, <ore:Zirconium>, <ore:dustMolybdenum> * 15, null);
-Lv3AlloyRecipe(<ore:ingotTitaniumAluminide>.firstItem * 9, <ore:Titanium> * 3, <ore:HighStrengthAluminumAlloy> * 6, null);
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:5>, <ore:fusedQuartz>, <ore:Signalum> * 4, null);
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:6>, <ore:fusedQuartz>, <ore:Lumium> * 4, null);
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:7>, <ore:fusedQuartz>, <ore:Enderium> * 4, null);

@@ -14,12 +14,14 @@ thirdrebirth.title.flcn.tooltip="I don't have a mommy or a daddy, but I have a l
 thirdrebirth.title.endportal.dimerror=EndPortal can only be creation in OverWorld
 thirdrebirth.title.villager.interact=You can't understand the villagers' language
 
+
 #JEI DESCRIPTION
 thirdrebirth.description.survivalist.rock=When using a shovel to try to destroy a stone, there is a certain probability that rubble will drop.
 thirdrebirth.description.contenttweaker.dictionary_paper=Destroy the bookshelf has a certain probability of dropping the dictionary paper. \nDestroying the bookshelf with a knife can increase the chance of dropping dictionary paper.
 thirdrebirth.description.mysticalworld.gall_apple=Place the wasp attractant on the side of the oak wood to plant gall apples.
 thirdrebirth.description.trutils.evil_stone=Build the evil stone in the common style of Nether Gate, that is, a frame with a height of 5 blocks and a width of 4 blocks. Then kill mobs within a radius of 4 blocks centered on the evil stone, so that the evil stone can accumulate energy. When all the evil stones used as the frame are full, you can use the flint and steel to ignite the portal and then you can go to the nether.
 thirdrebirth.description.trutils:equivalent_fuel=Put burnable Items into the Bunker, which can be equivalently converted into Equivalent Fuels.
+thirdrebirth.description.trutils:fruit_picker_addon=Put this addon into the Farm Machine to pick fruits from fruit trees (Pam‘s HarvestCraft) within the work area.
 
 #JEI TITLE
 jei.magnetic_attraction.title=Ritual - Magnetic Attraction

@@ -13,7 +13,7 @@ artisanUtils.RecipeTweakWithTools("basic", true, <roots:runic_dust> * 5, [
     [<ore:stone>, <roots:moonglow_leaf>, <minecraft:dye:15>]
 ], {<ore:artisansMortar> : 5} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("basic", false, <roots:flour>, [
+artisanUtils.RecipeTweakWithTools("basic", false, <ore:foodFlour>.firstItem, [
     [<ore:cropPotato> | <ore:cropWheat>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);
 

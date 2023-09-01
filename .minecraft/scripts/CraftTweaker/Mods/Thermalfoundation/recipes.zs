@@ -9,6 +9,12 @@ import mods.jei.JEI;
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
+recipes.removeShapeless(<minecraft:paper> * 2, [<mekanism:sawdust>, <mekanism:sawdust>, <mekanism:sawdust>, <mekanism:sawdust>, <minecraft:water_bucket>]);
+
+recipes.addShapeless(<minecraft:paper> * 3, [
+    <ore:dustWood>, <ore:dustWood>, <ore:dustWood>
+]);
+
 for meta in 22 to 28 {
     var stack as IItemStack = <thermalfoundation:material>.definition.makeStack(meta);
     if (meta == 22 || meta == 23) JEI.hide(stack);

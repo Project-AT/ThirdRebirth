@@ -13,18 +13,10 @@ var removeRecipes as IItemStack[] = [
     <enderio:item_alloy_ingot:6>,
     <enderio:item_alloy_ingot:0>,
     <draconicevolution:draconium_ingot>,
-    <draconicevolution:draconium_ingot> * 2
-];
-
-for recipe in removeRecipes {
-    ArcFurnace.removeRecipe(recipe);
-}
-
-ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:Iron>, null, 100, 640);
-ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 100, 640);
-ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:gemQuartz> * 4, null, 100, 640);
-
-var oldrecipe as IItemStack[] =[
+    <draconicevolution:draconium_ingot> * 2,
+    <advancedrocketry:productingot>,
+    <advancedrocketry:productingot:1>,
+    <libvulpes:productingot:7>,
     <immersiveengineering:metal:8>,
     <immersiveengineering:metal:7>,
     <immersiveengineering:metal:6>,
@@ -37,14 +29,19 @@ var oldrecipe as IItemStack[] =[
     <enderio:item_alloy_ingot:4>,
 ];
 
-for recipe in oldrecipe{
+for recipe in removeRecipes {
     ArcFurnace.removeRecipe(recipe);
 }
+
+ArcFurnace.addRecipe(<contenttweaker:pure_iron_ingot>, <ore:Iron>, null, 100, 640);
+ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:blockQuartz>, null, 100, 640);
+ArcFurnace.addRecipe(<enderio:block_fused_quartz>, <ore:gemQuartz> * 4, null, 100, 640);
 
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
-    "Lead", "Aluminum", "Germanium", "Electrum", "Invar", "Bronze", "Constantan",
+    "Lead", "Aluminum", "Germanium", "Electrum", "Invar", "Bronze", "Constantan", "Titanium", "TitaniumAluminide",
+    "TitaniumIridium"
 ];
 
 for oreName in oreNames {

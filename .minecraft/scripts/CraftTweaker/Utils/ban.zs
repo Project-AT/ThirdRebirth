@@ -7,9 +7,9 @@ import mods.jei.JEI;
 
 var removeAndHide as IItemStack[] = [
     <appliedenergistics2:material:40>,
-    <enderio:item_endergy_conduit:*>,
+    /*<enderio:item_endergy_conduit:*>,
     <enderio:item_capacitor_crystalline:*>,
-    <enderio:item_alloy_endergy_ball:*>,
+    <enderio:item_alloy_endergy_ball:*>,*/
     <enderio:item_stellar_alloy_helmet>,
     <enderio:item_stellar_alloy_boots>,
     <enderio:item_stellar_alloy_chestplate>,
@@ -23,8 +23,6 @@ var removeAndHide as IItemStack[] = [
     <enderio:block_ender_generator>,
 	<enderio:block_enhanced_combustion_generator>,
 	<enderio:block_combustion_generator>,
-    <advancedrocketry:blackholegenerator>,
-    <advancedrocketry:solargenerator>,
     <draconicevolution:generator>,
     <extrautils2:quarry>,
     <extrautils2:teleporter:1>,
@@ -59,8 +57,6 @@ var removeAndHide as IItemStack[] = [
     <rftools:coalgenerator>,
     <rftools:endergenic>,
     <libvulpes:coalgenerator>,
-    <libvulpes:productdust>,
-    <libvulpes:ore0>,
     <teslathingies:powder_maker>,
     <extendedcrafting:material>,
     <extendedcrafting:material:1>,
@@ -127,13 +123,22 @@ var baned as IItemStack[] = [
     <teslathingies:incinerator>,
     <teslathingies:item_compound_producer>,
     <embers:dust_metallurgic>,
-    <biomesoplenty:gem_ore>,
     <teslathingies:tesla_plant_seeds>,
     <primal_tech:stick_bundle>, 
     <primal_tech:fibre_torch>, 
     <primal_tech:fibre_torch_lit>,
     <primal_tech:plant_fibres>, 
     <primal_tech:twine>,
+    <embers:plate_copper>,
+    <embers:plate_lead>,
+    <embers:plate_silver>,
+    <embers:plate_iron>,
+    <embers:plate_nickel>,
+    <embers:plate_gold>,
+    <embers:plate_aluminum>,
+    <embers:plate_bronze>,
+    <embers:plate_electrum>,
+    <embers:plate_tin>,
 ];
 
 val banRitual as IItemStack[] = [
@@ -174,17 +179,18 @@ val hideCategory as string[] = [
 ];
 
 for item in removeAndHide {
+    JEI.removeAndHide(item);
     if (item.ores.length != 0) {
         for ore in item.ores {
             ore.remove(item);
         }
     }
-    JEI.removeAndHide(item);
+
 }
 
 for item in removeAndBanBecauseBug {
     item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban.bug"));
-    recipes.remove(item);
+    JEI.removeAndHide(item);
 }
 
 for name in removeByRecipeName {
@@ -193,7 +199,6 @@ for name in removeByRecipeName {
 
 for item in baned {
     item.addTooltip("§4" ~ game.localize("thirdrebirth.tooltip.item.ban"));
-    recipes.remove(item);
     JEI.removeAndHide(item);
 }
 
@@ -203,4 +208,12 @@ for item in banRitual {
 
 for name in hideCategory {
     JEI.hideCategory(name);
+}
+
+for i in 0 to 10 {
+    JEI.hide(<lightningcraft:plate>.definition.makeStack(i));
+}
+
+for i in 0 to 7 {
+    JEI.hide(<lightningcraft:rod>.definition.makeStack(i));
 }

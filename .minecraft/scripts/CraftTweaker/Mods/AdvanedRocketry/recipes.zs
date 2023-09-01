@@ -1,6 +1,8 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 
@@ -16,6 +18,16 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:dataunit>, [
     [<pneumaticcraft:unassembled_pcb>],
     [<ore:ingotSoularium>]
 ]);
+
+var Ingots as IItemStack[] = [
+    <advancedrocketry:productingot>,
+    <advancedrocketry:productingot:1>,
+    <libvulpes:productingot:7>,
+];
+
+for ingot in Ingots {
+    furnace.remove(ingot);
+}
 
 RecipeUtils.recipeTweak(true, <advancedrocketry:misc>, 
     RecipeUtils.createCrossWithCore(<ore:aeViewCellReplacement>, <ore:plasticBlack>, <ore:fusedQuartz>)

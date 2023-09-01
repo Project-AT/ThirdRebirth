@@ -34,9 +34,6 @@ var oreDictAdd as IItemStack[][string] = {
     "plateTough" : [<contenttweaker:tough_alloy_plate>],
     "blockRustyIron" : [<trutils:rusty_iron>],
     "dustQuartz" : [<enderio:item_material:33>],
-    "stickSteel" : [<lightningcraft:rod:1>],
-    "stickAluminum" : [<lightningcraft:rod:4>],
-    "stickIron" : [<lightningcraft:rod>],
     "exosuitSensorLight" : [<psi:exosuit_sensor>, <contenttweaker:sensitive_element>],
     "ancientTree" : [<naturesaura:ancient_log>, <naturesaura:ancient_bark>],
     "foodCake" : [
@@ -214,7 +211,7 @@ var oreDictAdd as IItemStack[][string] = {
     "cropEdibleroot":[<quark:root>, <quark:root_flower>, <quark:root_flower:1>, <quark:root_flower:2>, <roots:wildroot>],
     "listAllrootveggie":[<roots:pereskia_bulb>],
     "listAllberry":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
-    "listAllfruit":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>],
+    "listAllfruit":[<biomesoplenty:berries>, <integrateddynamics:menril_berries>, <minecraft:melon>],
     "foodCrabraw":[<quark:crab_leg>, <betteranimalsplus:crab_meat_raw>],
     "foodCrabcooked":[<quark:cooked_crab_leg>, <betteranimalsplus:crab_meat_cooked>],
     "foodFrograw":[<quark:frog_leg>],
@@ -235,6 +232,10 @@ var oreDictAdd as IItemStack[][string] = {
     "listAllfishcooked":[<betteranimalsplus:eel_meat_cooked>],
     "listAllfishfresh":[<betteranimalsplus:eel_meat_raw>, <harvestcraft:eelrawitem>],
     "listAllfishraw":[<betteranimalsplus:eel_meat_raw>, <harvestcraft:eelrawitem>],
+    "cropMelon":[<minecraft:melon>],
+    "foodFlour":[<harvestcraft:flouritem>],
+    "dustWheat":[<harvestcraft:flouritem>],
+
     "vine":[<biomesoplenty:willow_vine>, <biomesoplenty:ivy>],
     "tallgrass":[
         <biomesoplenty:plant_0>, <biomesoplenty:plant_0:1>, <biomesoplenty:plant_0:7>, <biomesoplenty:plant_0:8>, <biomesoplenty:plant_1>, <biomesoplenty:plant_1:7>
@@ -260,16 +261,20 @@ var oreDictAdd as IItemStack[][string] = {
     "sandstone":[<biomesoplenty:white_sandstone:1>],
     "slabSandstone":[<biomesoplenty:other_slab:1>],
     "blockPackedIce":[<biomesoplenty:hard_ice>],
+    "stickIron":[<contenttweaker:iron_rod>],
+    "rodIron":[<contenttweaker:iron_rod>],
 };
 
 var oreDictRemove as IItemStack[] = [
     <libvulpes:productrod:4>, <immersiveengineering:material:3>, <immersiveengineering:material:2>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
     <libvulpes:productrod:6>, <immersiveengineering:material:1>, <libvulpes:productrod:1>, <lightningcraft:rod:2>, <lightningcraft:rod:3>, <lightningcraft:rod:5>,
-    <lightningcraft:rod:6>, <lightningcraft:rod:7>, <lightningcraft:rod:8>, <lightningcraft:rod:9>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
+    <lightningcraft:rod:6>, <lightningcraft:plate:7>, <lightningcraft:plate:8>, <lightningcraft:plate:9>,
     <advancedrocketry:productdust>, <advancedrocketry:productdust:1>, <advancedrocketry:productingot>, <advancedrocketry:productingot:1>, <lightningcraft:material:2>,
     <advancedrocketry:productplate>, <advancedrocketry:productplate:1>, <advancedrocketry:productrod>, <advancedrocketry:productrod:1>,
     <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <libvulpes:productdust:7>, <libvulpes:productingot:7>, <libvulpes:productplate:7>, 
-    <libvulpes:productrod:7>, <libvulpes:productgear:7>, <libvulpes:productrod:10>, <thermalfoundation:material:802>, <thermalfoundation:material:800>
+    <libvulpes:productrod:7>, <libvulpes:productgear:7>, <libvulpes:productrod:10>, <thermalfoundation:material:802>, <thermalfoundation:material:800>,
+    <lightningcraft:rod>, <lightningcraft:rod:1>, <libvulpes:productnugget:7>, <advancedrocketry:productnugget>, <advancedrocketry:productnugget:1>,
+    <appliedenergistics2:material:4>, <enderio:item_material:21>, <nuclearcraft:flour>, <roots:flour>,
 ];
 
 for key, value in oreDictAdd {

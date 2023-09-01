@@ -4,10 +4,13 @@
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import mods.artisanworktables.builder.RecipeBuilder;
+
+recipes.removeShaped(<minecraft:paper> * 6, [[<mekanism:sawdust>, <mekanism:sawdust>, <mekanism:sawdust>]]);
+
 //钢质机壳
-RecipeUtils.recipeTweak(true, <mekanism:basicblock:8>, [
+RecipeUtils.recipeTweak(true, <mekanism:basicblock:8>, 
     RecipeUtils.createCrossWithCore(<ore:itemMachineChassi>, <ore:ingotFerroboron>, <ore:plateTough>)
-]);
+);
 //锇压缩机
 RecipeUtils.recipeTweak(true, <mekanism:machineblock:1>, [
     [<ore:ingotTough>, <ore:circuitBasic>, <ore:ingotTough>],

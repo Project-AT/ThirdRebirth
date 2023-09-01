@@ -23,6 +23,8 @@ var harvestcraftPresser as IIngredient[IIngredient[]] = {
     [<harvestcraft:bubblywateritem>, <harvestcraft:bubblywateritem>] : <harvestcraft:freshwateritem>,
     [<minecraft:slime_ball>, <harvestcraft:freshwateritem>] : <harvestcraft:maplesyrupitem>,
     [<harvestcraft:carrotjuiceitem>, <harvestcraft:grainbaititem>] : <ore:cropCarrot>,
+    [<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>] : <harvestcraft:waxcombitem> | <biomesoplenty:honeycomb>,
+    [<harvestcraft:honeyitem>, <harvestcraft:beeswaxitem>] : <biomesoplenty:filled_honeycomb> | <harvestcraft:honeycombitem>,
 };
 
 var seedToOil as IIngredient[] = [
@@ -31,7 +33,7 @@ var seedToOil as IIngredient[] = [
 
 var juicedCropName as string[] = [
     "Cactusfruit", "Plum", "Lime", "Apricot", "Kiwi", "Pomegranate", "Pear", "Grapefruit", "Apple", "Strawberry", "Orange", "Persimmon", "Blackberry", "Peach", "Cranberry",
-    "Raspberry", "Papaya", "Blueberry", "Cherry", "Fig", "Starfruit", "Mango"
+    "Raspberry", "Papaya", "Blueberry", "Cherry", "Fig", "Starfruit", "Mango", "Melon"
 ];
 
 for outputs, input in harvestcraftPresser {
