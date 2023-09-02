@@ -18,6 +18,10 @@ recipes.addShapeless(<minecraft:paper> * 2, [
     <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>, <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>, <harvestcraft:grainbaititem> | <harvestcraft:veggiebaititem>
 ]);
 
+RecipeUtils.recipeTweak(false, <harvestcraft:wovencottonitem>, [[
+    <ore:string>, <ore:string>, <ore:string>
+]]);
+
 recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 RecipeUtils.recipeTweak(false, <harvestcraft:hardenedleatheritem>, [[<ore:materialLeather>, <ore:materialPressedwax>]]);
@@ -56,6 +60,11 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:waterfilter>,
         "D" : <ore:barsIron>,
         "E" : <ore:plankTreatedWood>
 }), {<ore:artisansSpanner> : 3} as int[IIngredient]);
+
+//下界之星吐司
+RecipeUtils.recipeTweak(false, <harvestcraft:netherstartoastitem> * 3, [[
+    <ore:toolCuttingboard>.reuse(), <ore:foodToast>, <ore:foodToast>, <ore:foodToast>, <ore:foodButter>, <ore:foodButter>, <ore:foodButter>, <ore:nuggetNetherStar>
+]]);
 
 //德式油煎香肠
 recipes.addShapeless(<harvestcraft:bratwurstitem>,

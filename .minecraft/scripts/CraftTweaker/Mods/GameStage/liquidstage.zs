@@ -31,7 +31,8 @@ val specialStageLiquidMap as ILiquidStack[][string] = {
         <liquid:aura_underworld>,
     ],
     "Ge" : [
-        <liquid:germanium_slurry>
+        <liquid:germanium_slurry>,
+        <liquid:germanium_matrix>,
     ],
     "Enderium" : [
         <liquid:liquidchorus>, 

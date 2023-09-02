@@ -274,7 +274,7 @@ var oreDictRemove as IItemStack[] = [
     <advancedrocketry:productgear>, <advancedrocketry:productgear:1>, <libvulpes:productdust:7>, <libvulpes:productingot:7>, <libvulpes:productplate:7>, 
     <libvulpes:productrod:7>, <libvulpes:productgear:7>, <libvulpes:productrod:10>, <thermalfoundation:material:802>, <thermalfoundation:material:800>,
     <lightningcraft:rod>, <lightningcraft:rod:1>, <libvulpes:productnugget:7>, <advancedrocketry:productnugget>, <advancedrocketry:productnugget:1>,
-    <appliedenergistics2:material:4>, <enderio:item_material:21>, <nuclearcraft:flour>, <roots:flour>,
+    <appliedenergistics2:material:4>, <enderio:item_material:21>, <nuclearcraft:flour>, <roots:flour>, <harvestcraft:saltitem>,
 ];
 
 for key, value in oreDictAdd {

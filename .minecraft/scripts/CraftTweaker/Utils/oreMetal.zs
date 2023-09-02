@@ -26,6 +26,7 @@ var onlyPlateOreNames as string[] = [
 var oreStickOrRodTemp as string[] = [];
 
 mods.unidict.removalByKind.get("Crafting").remove("rod");
+mods.unidict.removalByKind.get("Crafting").remove("dustsalt");
 
 for index, i in orePlainNames {
     var gear as IOreDictEntry = oreDict.get("gear" ~ i);

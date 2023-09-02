@@ -104,7 +104,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <nuclearcraft:salt_fission_heater2:8>, <nuclearcraft:salt_fission_heater2:9>, <nuclearcraft:salt_fission_heater2:10>, <nuclearcraft:salt_fission_heater2:11>,
         <nuclearcraft:salt_fission_heater2:12>, <nuclearcraft:salt_fission_heater2:13>, <nuclearcraft:salt_fission_heater2:14>, <nuclearcraft:salt_fission_heater2:15>,
         <nuclearcraft:salt_fission_controller>, <nuclearcraft:salt_fission_vessel>, <ore:blockLuminessence>, <thermalfoundation:glass_alloy:5>,
-        <ore:blockSignalum>, <ore:dustSignalum>, <ore:ingotSignalum>, <ore:nuggetSignalum>, <ore:gearSignalum>, <ore:plateSignalum>,
+        <ore:blockSignalum>, <ore:dustSignalum>, <ore:ingotSignalum>, <ore:nuggetSignalum>, <ore:gearSignalum>, <ore:plateSignalum>, <modularmachinery:blockcasing:5>,
     ],
     "five" : [
         <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
@@ -112,13 +112,17 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>, <ore:crystalFluix>, <ore:pearlFluix>,
         <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
         <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
-        <ore:ingot_dark_soularium>, <modularmachinery:electronic_assembly_machine_mk1_controller>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>,
+        <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>,
         <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, <extendedcrafting:table_advanced>,
-        <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>
+        <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>,
     ],
     "six" : [
         <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:trimmed:4>,
-        <extendedcrafting:table_elite>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:12>, <extendedcrafting:material:18>
+        <extendedcrafting:table_elite>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:12>, <extendedcrafting:material:18>,
+        <modularmachinery:blockcircuitry:1>,
+    ],
+    "seven" : [
+
     ],
     "root" : [
         <trutils:magnetic_attraction>, <ore:redstoneRoot>
@@ -155,7 +159,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
     "distillation" : [<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fractionator"}), <modularmachinery:fractionator_controller>],
     "Ge" : [
         <contenttweaker:germanium_integrated_circuit_board>, <contenttweaker:ge_transistor>, <contenttweaker:ge_wafer>, <ore:blockGermanium>, 
-        <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>
+        <ore:dustGermanium>, <ore:crystalGermanium>, <ore:nuggetGermanium>, <ore:ingotGermanium>, <ore:plateGermanium>, <contenttweaker:germanium_matrix>,
     ],
     "Si" : [
         <contenttweaker:infused_crude_silicon_dust>, <contenttweaker:infused_protective_layer_crude_silicon_dust>, <contenttweaker:mana_infused_crude_silicon_dust>, 

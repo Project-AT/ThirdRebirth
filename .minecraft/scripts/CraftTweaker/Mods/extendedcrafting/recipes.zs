@@ -107,7 +107,7 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:material:7> * 2,
 }));
 
 val removeItem as IItemStack[] = [
-    <extendedcrafting:material:36>, <extendedcrafting:material:37>, <extendedcrafting:storage:5>
+    <extendedcrafting:material:36>, <extendedcrafting:material:37>, <extendedcrafting:storage:5>, <extendedcrafting:material:140>
 ];
 
 for i in removeItem {
@@ -115,3 +115,9 @@ for i in removeItem {
 }
 
 recipes.replaceAllOccurences(<extendedcrafting:storage>, <ore:blockTough>);
+
+recipes.removeShaped(<minecraft:nether_star>, [
+    [<extendedcrafting:material:140>, <extendedcrafting:material:140>, <extendedcrafting:material:140>],
+    [<extendedcrafting:material:140>, <extendedcrafting:material:140>, <extendedcrafting:material:140>],
+    [<extendedcrafting:material:140>, <extendedcrafting:material:140>, <extendedcrafting:material:140>]
+]);

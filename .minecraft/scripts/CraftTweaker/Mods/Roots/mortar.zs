@@ -25,6 +25,10 @@ mortarUtils(<roots:runic_dust> * 5, [
     <thermalfoundation:material:769>, <minecraft:stone>, <minecraft:dye:15>, <ore:dustWheat>, <roots:moonglow_leaf>
 ]);
 
+mortarUtils(<naturesaura:gold_powder> * 8, [
+    <mysticalworld:gold_dust_tiny>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>
+]);
+
 mortarUtils(<thermalfoundation:material:768>, [<minecraft:coal>]);
 mortarUtils(<thermalfoundation:material:769>, [<minecraft:coal:1>]);
 mortarUtils(<ore:nuggetGold>.firstItem * 3, [<minecraft:golden_carrot>]);

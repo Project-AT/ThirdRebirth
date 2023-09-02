@@ -50,7 +50,9 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:2>, [
 //合成配方
 recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
 
-recipes.addShapeless(<mekanism:salt> * 4, [<ore:blockSalt>]);
+recipes.remove(<mekanism:saltblock>);
+recipes.addShaped(<ore:blockSalt>.firstItem, [[<ore:itemSalt>, <ore:itemSalt>], [<ore:itemSalt>, <ore:itemSalt>]]);
+recipes.addShapeless(<ore:itemSalt>.firstItem * 4, [<ore:blockSalt>]);
 
 RecipeUtils.recipeTweak(false, <mekanism:polyethene:2>, [
     [<mekanism:polyethene>, <mekanism:polyethene>, <mekanism:polyethene>],
