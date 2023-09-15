@@ -1,7 +1,8 @@
 #TOOLTIP
-thirdrebirth.tooltip.item.ban=此物品已被禁用
-thirdrebirth.tooltip.item.ban.bug=此物品已被禁用, 因为可能会导致存档崩溃
-thirdrebirth.tooltip.ritual.ban=此仪式已被禁用
+thirdrebirth.tooltip.item.ban=此物品已被禁用。
+thirdrebirth.tooltip.item.ban.bug=此物品已被禁用, 因为可能会导致存档崩溃。
+thirdrebirth.tooltip.ritual.ban=此仪式已被禁用。
+thirdrebirth.tooltip.alloy_furnace.description=只能用于处理同位素和核燃料的合金配方。
 
 #FailedMessage
 thirdrebirth.machine.failed=输出仓空间不足以支撑本次输出量

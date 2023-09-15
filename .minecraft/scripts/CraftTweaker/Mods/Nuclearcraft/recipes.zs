@@ -1,6 +1,8 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
@@ -10,6 +12,16 @@ recipes.remove(<nuclearcraft:compound:1>);
 RecipeUtils.recipeTweak(true, <ore:ingotSiCSiCCMC>.firstItem, 
     RecipeUtils.createSurround(<ore:ingotBrickNetherGlazed>, <ore:fiberSiliconCarbide>)
 );
+
+var dusts as IItemStack[] = [
+    <nuclearcraft:dust>,
+    <nuclearcraft:dust:1>,
+    <nuclearcraft:dust:2>,
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:10>, [
     [<ore:itemChassiParts>, <ore:ingotTough>, <ore:itemChassiParts>],

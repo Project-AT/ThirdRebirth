@@ -1,17 +1,18 @@
 #TOOLTIP
 thirdrebirth.tooltip.item.ban=This item is banned.
-thirdrebirth.tooltip.item.ban.bug=Because it may cause the world to crash
+thirdrebirth.tooltip.item.ban.bug=Because it may cause the world to crash.
 thirdrebirth.tooltip.ritual.ban=This ritual is banned.
+thirdrebirth.tooltip.alloy_furnace.description=It only deals with alloy recipes that isotopes and fuel pellets.
 
 #FailedMessage
-thirdrebirth.machine.failed=There is insufficient output bin space to support this output
+thirdrebirth.machine.failed=There is insufficient output bin space to support this output.
 
 #TITLE
 thirdrebirth.title.endportal.description=The mysterious End Portal was placed on a Ender eye, before the relics reacted, a lightning bolt crossed the ground and hit the portal, then destroyed it, perhaps the portal was built too far back in time, the residual magic on it is not enough to make it build again, it seems I have to find another way.
 thirdrebirth.title.endportal2.description=End portal activation failed, please check if the ritual is placed correctly.
 thirdrebirth.title.notree.description=Please use any axe for logging!
 thirdrebirth.title.flcn.tooltip="I don't have a mommy or a daddy, but I have a lot of fish! It's close enough!"
-thirdrebirth.title.endportal.dimerror=EndPortal can only be creation in OverWorld
+thirdrebirth.title.endportal.dimerror=EndPortal can only be creation in OverWorld.
 thirdrebirth.title.villager.interact=You can't understand the villagers' language
 
 

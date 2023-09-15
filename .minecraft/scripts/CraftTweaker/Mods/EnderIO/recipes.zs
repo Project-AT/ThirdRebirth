@@ -1,13 +1,30 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import scripts.CraftTweaker.Utils.artisanUtils;
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 import scripts.grassUtils.RecipeUtils;
 
-recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [<wizardry:devil_dust>, <quark:black_ash>, <ore:dustObsidian>, <contenttweaker:mystery_dust> ,<ore:foodCurrypowder>, <ore:dustBedrock>]);
+recipes.addShapeless(<ore:itemConfusingDust>.firstItem, [
+    <wizardry:devil_dust>, 
+    <quark:black_ash>, 
+    <ore:dustObsidian>, 
+    <contenttweaker:mystery_dust>,
+    <ore:foodCurrypowder>, 
+    <ore:dustBedrock>
+]);
+
+var dusts as IItemStack[] = [
+    <enderio:item_material:24>,
+    <enderio:item_material:25>,
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 RecipeUtils.recipeTweak(true, <enderio:item_material:9>, [
     [null, <ore:stickWood>],
@@ -111,3 +128,4 @@ RecipeUtils.recipeTweak(true, <enderio:item_material:52>, [
 
 furnace.remove(<enderio:item_material:4>);
 recipes.remove(<enderio:item_material:22>);
+recipes.remove(<enderio:item_material:15>);

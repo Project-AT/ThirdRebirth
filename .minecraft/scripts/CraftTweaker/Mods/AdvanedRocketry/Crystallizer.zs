@@ -26,16 +26,20 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
 
 addRecipe([
     <ore:crystalFluix>.firstItem * 3 % 100
-], 20, 200, [<psi:material>, <ore:dustCertusQuartz>, <ore:dustNetherQuartz>]);
+], 50, 200, [<psi:material>, <ore:dustCertusQuartz>, <ore:dustNetherQuartz>]);
 
 addRecipe([
     <ore:crystalPureCertusQuartz>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed> * 3]);
+], 100, 300, [<appliedenergistics2:crystal_seed> * 3]);
 
 addRecipe([
     <ore:crystalPureNetherQuartz>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed:600> * 3]);
+], 100, 300, [<appliedenergistics2:crystal_seed:600> * 3]);
 
 addRecipe([
     <ore:crystalPureFluix>.firstItem * 3 % 100
-], 100, 100, [<appliedenergistics2:crystal_seed:1200> * 3]);
+], 100, 600, [<appliedenergistics2:crystal_seed:1200> * 3]);
+
+addRecipe([
+    <ore:itemVibrantCrystal>.firstItem * 3 % 100
+], 200, 600, [<botanianeedsit:mana_capacitor_terrasteel> * 3, <ore:dustEmerald> * 9]);

@@ -33,7 +33,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <enderio:block_self_resetting_lever5>, <enderio:block_self_resetting_lever10>, <enderio:block_self_resetting_lever30>, <enderio:block_self_resetting_lever60>,  
         <enderio:block_self_resetting_lever5i>, <enderio:block_self_resetting_lever10i>, <enderio:block_self_resetting_lever30i>, <enderio:block_self_resetting_lever60i>,  
         <enderio:block_fused_glass:*>, <trutils:washing_machine>, <ore:dustBedrock>, <ore:itemPulsatingPowder>, <embers:mech_core>, <ore:dustAlugentum>, <ore:dustArsenic>,
-        <ore:itemVibrantPowder>, <ore:itemPulsatingCrystal>, <ore:itemVibrantCrystal>, <ore:itemRemoteAwarenessUpgrade>, <ore:dustCarobbiite>, <ore:dustBeryllium>, 
+        <ore:itemVibrantPowder>, <ore:itemPulsatingCrystal>, <ore:itemRemoteAwarenessUpgrade>, <ore:dustCarobbiite>, <ore:dustBeryllium>, 
         <ore:paperBlack>, <ore:gearVibrant>, <ore:itemBinderComposite>, <ore:itemPlatePhotovoltaic>, <ore:itemConduitBinder>, <ore:itemPowderPhotovoltaic>, <ore:ingotManganeseDioxide>, 
         <ore:gearIronInfinity>, <ore:itemSimpleMachineChassi>, <ore:itemSimpleChassiParts>, <ore:gearEnergized>, <ore:ingotManganeseOxide>, <ore:dustManganeseDioxide>, <ore:dustManganeseOxide>, 
         <ore:dustSoularium>, <ore:nuggetRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:nuggetConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:blockManganese>, 

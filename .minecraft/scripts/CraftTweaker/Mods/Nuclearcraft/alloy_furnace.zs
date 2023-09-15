@@ -31,6 +31,7 @@ var alloyFour as IItemStack[] = [
     <nuclearcraft:alloy:9>, <thermalfoundation:storage_alloy:3>, <thermalfoundation:material:227>, <thermalfoundation:material:163>, <nuclearcraft:alloy:8>, <nuclearcraft:alloy:7>
 ];
 
+<nuclearcraft:alloy_furnace>.addTooltip("§b" ~ game.localize("thirdrebirth.tooltip.alloy_furnace.description"));
 
 for items in alloyOne {
     AlloyFurnace.removeRecipeWithOutput(items * 1);

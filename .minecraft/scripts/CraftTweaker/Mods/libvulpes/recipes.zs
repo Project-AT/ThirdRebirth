@@ -1,12 +1,26 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
+
 import scripts.grassUtils.RecipeUtils;
 
 furnace.remove(<libvulpes:productingot:6>);
 furnace.remove(<libvulpes:productingot:9>);
 furnace.remove(<libvulpes:productingot:10>);
 furnace.remove(<libvulpes:productingot:0>);
+
+var dusts as IItemStack[] = [
+    <libvulpes:productdust:1>,
+    <libvulpes:productdust:2>,
+    <libvulpes:productdust:4>,
+    <libvulpes:productdust:5>,
+    <libvulpes:productdust:9>,
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 RecipeUtils.recipeTweak(true, <libvulpes:linker>, [
     [null, <ore:dustSignalum>, null],

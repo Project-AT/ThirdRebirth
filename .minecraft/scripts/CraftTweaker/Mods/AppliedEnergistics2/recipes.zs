@@ -2,12 +2,22 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import scripts.grassUtils.RecipeUtils;
 
 var ingotTwo as IIngredient = <ore:ingotElectricalSteel> | <ore:ingotPureIron>;
 
 furnace.remove(<appliedenergistics2:material:5>);
+
+var dusts as IItemStack[] = [
+    <appliedenergistics2:material:49>,
+    <appliedenergistics2:material:51>,
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 recipes.replaceAllOccurences(<appliedenergistics2:view_cell>, <ore:aeViewCellReplacement>);
 RecipeUtils.recipeTweak(true, <appliedenergistics2:view_cell>, 

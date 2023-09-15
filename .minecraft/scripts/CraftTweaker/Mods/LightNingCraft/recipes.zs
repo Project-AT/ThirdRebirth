@@ -2,9 +2,18 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
+
+var dusts as IItemStack[] = [
+    <teslacorelib:powder_emerald>
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 RecipeUtils.recipeTweak(true, <lightningcraft:stone_block> * 4,
     RecipeUtils.createCrossWithCore(<ore:runedObsidian>, <ore:quartzDark>, <naturesaura:infused_stone>)

@@ -2,6 +2,7 @@
 #modloaded trutils
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import mods.artisanworktables.builder.RecipeBuilder;
 import scripts.grassUtils.RecipeUtils;
@@ -9,6 +10,14 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 recipes.addShaped(<teslathingies:crop_farm>,
 [[<mysticalworld:assorted_seeds>, <teslathingies:misc_farmer>, <mysticalworld:assorted_seeds>]]);
+
+var dusts as IItemStack[] = [
+    <lightningcraft:material:2>, <lightningcraft:material:1>, <lightningcraft:material:3>
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslacorelib:machine_case>,
     RecipeUtils.createCrossWithCore(<immersiveengineering:material:27>, <ore:stonePolished>, <ore:ingotSteel>)

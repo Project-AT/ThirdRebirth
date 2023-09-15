@@ -1,11 +1,21 @@
 #priority 5
 #modloaded trutils
 
+import crafttweaker.item.IItemStack;
+
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.removeShaped(<minecraft:paper> * 6, [[<mekanism:sawdust>, <mekanism:sawdust>, <mekanism:sawdust>]]);
+
+var dusts as IItemStack[] = [
+    <mekanism:dust>, <mekanism:dust:1>, <mekanism:dust:5>, <mekanism:dust:6>
+];
+
+for i in dusts {
+    furnace.remove(<*>, i);
+}
 
 //钢质机壳
 RecipeUtils.recipeTweak(true, <mekanism:basicblock:8>, 
