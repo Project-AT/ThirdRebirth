@@ -17,6 +17,10 @@ artisanUtils.RecipeTweakWithTools("basic", false, <ore:foodFlour>.firstItem, [
     [<ore:cropPotato> | <ore:cropWheat>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("basic", false, <roots:runic_dust>, [
+    [<ore:runestone>]
+], {<ore:artisansMortar> : 1} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithTools("basic", false, <roots:petals>, [
     [<ore:allFlowers>]
 ], {<ore:artisansMortar> : 1} as int[IIngredient]);

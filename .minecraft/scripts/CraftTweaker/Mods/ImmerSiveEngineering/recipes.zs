@@ -10,6 +10,12 @@ import scripts.CraftTweaker.Utils.artisanUtils;
 
 import scripts.CraftTweaker.Mods.ModularMachinery.machine.electronicAssembly;
 
+var dusts as IItemStack[] = [
+    <immersiveengineering:metal:19>,
+    <immersiveengineering:metal:18>,
+];
+
+
 var Ingots as IItemStack[] = [
     <immersiveengineering:metal:8>,
     <immersiveengineering:metal:7>,
@@ -24,6 +30,10 @@ var Ingots as IItemStack[] = [
 
 for ingot in Ingots {
     furnace.remove(ingot);
+}
+
+for i in dusts {
+    furnace.remove(<*>, i);
 }
 
 recipes.addShapedMirrored(<minecraft:torch> * 8, [

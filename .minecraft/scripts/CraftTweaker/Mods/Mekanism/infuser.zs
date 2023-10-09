@@ -38,7 +38,7 @@ infuser.addRecipe("DRACONIUM", 10, <ore:alloyElite>, <ore:alloyUltimate>.firstIt
 
 infuser.removeRecipe(<ore:dustRefinedObsidian>);
 
-infuser.addRecipe("CRYSTALTINE", 10, <ore:dustObsidian>, <ore:dustRefinedObsidian>.firstItem);
+infuser.addRecipe("CRYSTALTINE", 40, <ore:dustObsidian>, <ore:dustRefinedObsidian>.firstItem);
 
 infuser.addRecipe("REDSTONE", 80, <ore:ingotElectricalSteel>, <ore:ingotRedstoneAlloy>.firstItem);
 infuser.addRecipe("REDSTONE", 10, <ore:ingotPureIron>, <ore:ingotConductiveIron>.firstItem);

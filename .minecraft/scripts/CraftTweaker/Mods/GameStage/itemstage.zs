@@ -112,7 +112,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>, <ore:crystalFluix>, <ore:pearlFluix>,
         <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
         <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
-        <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>,
+        <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>, <contenttweaker:menril_essence_crystal>,
         <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, <extendedcrafting:table_advanced>,
         <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>,
     ],
@@ -241,7 +241,7 @@ val exceptItemStacks as IIngredient[] = [
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
     <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>, <extendedcrafting:handheld_table>, <extendedcrafting:crafting_table>,
     <scalinghealth:healingitem>, <scalinghealth:healingitem:1>, <ore:stickCopper>, <ore:rodIridium>, <ore:rodTin>, <ore:rodGold>,
-    <ore:stickRoseGold>, <ore:rodLead>
+    <ore:stickRoseGold>, <ore:rodLead>, <ore:nuggetTitanium>
 ];
 
 for stage, items in specialStageItemStackMap {

@@ -47,3 +47,14 @@ RecipeBuilder.get("engineer")
   .setMaximumTier(1)
   .addOutput(<integrateddynamics:energy_battery>.withTag({energy: 0}))
   .create();
+
+var items as IIngredient[] = [
+  <integratedtunnels:part_interface_energy_item>, <integratedtunnels:part_interface_item_item>, <integratedtunnels:part_interface_fluid_item>,
+  <integrateddynamics:proxy>, <integrateddynamics:materializer>, <integrateddynamics:variable_transformer:1>, <integrateddynamics:variable>,
+  <integrateddynamics:variable_transformer>, <integratednbt:nbt_extractor_remote>.withTag({integratednbt: {}}), 
+  <integratednbt:nbt_extractor> 
+];
+
+for i in items {
+  recipes.replaceAllOccurences(<integrateddynamics:crystalized_menril_chunk>, <contenttweaker:menril_essence_crystal>, i);
+}

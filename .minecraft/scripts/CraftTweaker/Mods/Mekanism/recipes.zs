@@ -57,10 +57,19 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:2>, [
     [<ore:actuator>, <mekanism:basicblock:8>, <ore:actuator>],
     [<ore:itemEnrichedAlloy>, <ore:circuitBasic>, <ore:itemEnrichedAlloy>]
 ]);
+//电动泵
+RecipeUtils.recipeTweak(true, <mekanism:machineblock:12>, [
+    [null, <immersiveengineering:metal_device0:5>, null],
+    [<ore:motor>, <ore:steelFrame>, <ore:motor>],
+    [<ore:alloyAdvanced>, <ore:alloyAdvanced>, <ore:alloyAdvanced>]
+]);
 //合成配方
 recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
 
 recipes.remove(<mekanism:saltblock>);
+recipes.remove(<mekanism:machineblock:3>);
+recipes.remove(<mekanism:machineblock:10>);
+
 recipes.addShaped(<ore:blockSalt>.firstItem, [[<ore:itemSalt>, <ore:itemSalt>], [<ore:itemSalt>, <ore:itemSalt>]]);
 recipes.addShapeless(<ore:itemSalt>.firstItem * 4, [<ore:blockSalt>]);
 

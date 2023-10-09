@@ -9,7 +9,6 @@ var toRemoveDescriptors as IItemStack[] = [
     <lightningcraft:ingot>,
     <lightningcraft:material:11>,
     <extrautils2:ingredients:11>,
-    
 ];
 
 for toRemove in toRemoveDescriptors {

@@ -7,6 +7,7 @@ BlastFurnace.removeFuel(<minecraft:coal:1>);
 BlastFurnace.removeFuel(<thermalfoundation:storage_resource>);
 BlastFurnace.removeFuel(<thermalfoundation:material:802>);
 BlastFurnace.removeFuel(<thermalfoundation:storage_resource:1>);
+BlastFurnace.removeFuel(<immersiveengineering:material:6>);
 
 BlastFurnace.addFuel(<thermalfoundation:material:802>, 300);
 BlastFurnace.addFuel(<immersiveengineering:material:6>, 300);
