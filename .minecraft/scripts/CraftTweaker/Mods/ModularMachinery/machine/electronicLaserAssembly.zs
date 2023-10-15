@@ -39,7 +39,9 @@ var assembly as IItemStack[IIngredient[]] = {
     [<ore:dyePink> * 256, <botania:lens:14>.withTag({color: 6}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter:7>,
     [<ore:dyeOrange> * 256, <botania:lens:14>.withTag({color: 1}), <botania:elfglass> * 4, <ore:lensGlass> * 6] : <refraction:filter:8>,
     [<ore:itemSilicon>] : <ore:waferSilicon>.firstItem,
-
+    [<ore:circuitBasic>, <appliedenergistics2:material:18> * 4] : <appliedenergistics2:material:22> * 4,
+    [<ore:circuitBasic>, <appliedenergistics2:material:17> * 4] : <appliedenergistics2:material:24> * 4,
+    [<ore:circuitBasic>, <appliedenergistics2:material:16> * 4] : <appliedenergistics2:material:23> * 4,
 };
 
 for inputs, outout in assembly{
@@ -55,6 +57,7 @@ var normalAssembly as IItemStack[IIngredient[]] = {
     [<ore:ingotReflectiveAlloy> * 3, <ore:gemDiamond> * 4] : <refraction:disco_ball>,
     [<ore:opticFiber> * 4, <ore:ingotIron>, <ore:enderpearl>] : <refraction:translocator>,
     [<ore:laserTranslocator> * 6, <minecraft:piston> * 2, <minecraft:chorus_flower>] : <refraction:axyz>,
+    [<thermalfoundation:glass_alloy:6>, <mekanism:polyethene:2>] : <contenttweaker:thin_film_transistor>,
 };
 
 for inputs, outout in normalAssembly{

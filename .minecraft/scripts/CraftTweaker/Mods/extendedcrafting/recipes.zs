@@ -37,14 +37,14 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:material:10>, [
 ]);
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:14>, [
-    [null, <ore:plateTough>],
-    [<ore:ingotPureIron>, <appliedenergistics2:material:16>, <ore:ingotPureIron>],
-    [null, <ore:plateTough>]
+    [<mekanism:craftingformula>, <ore:plateTough>, <ore:bPlaceholder>],
+    [<ore:ingotIvoryPsi>, null, <ore:ingotIvoryPsi>],
+    [<ore:bPlaceholder>, <ore:plateTough>, <mekanism:craftingformula>]
 ]);
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:9>, [
-    [null, <extendedcrafting:material:15>, null],
-    [<extendedcrafting:material:15>, <ore:ingotTough>, <extendedcrafting:material:15>],
+    [null, <extendedcrafting:material:15>],
+    [<extendedcrafting:material:15>, <appliedenergistics2:material:24>, <extendedcrafting:material:15>],
     [null, <extendedcrafting:material:15>, null]
 ]);
 
@@ -56,7 +56,7 @@ RecipeUtils.recipeTweak(true, <extendedcrafting:pedestal>, [
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:8>, [
     [null, <extendedcrafting:material:14>, null],
-    [<extendedcrafting:material:14>, <ore:ingotTough>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:14>, <appliedenergistics2:material:24>, <extendedcrafting:material:14>],
     [null, <extendedcrafting:material:14>, null]
 ]);
 
@@ -95,9 +95,9 @@ recipes.replaceAllOccurences(<ore:blockBlackIron>, <ore:blockTough>, <*>.only(fu
 }));
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:15>, [
-    [null, <ore:plateTough>],
-    [<ore:ingotLumium>, <appliedenergistics2:material:16>, <ore:ingotLumium>],
-    [null, <ore:plateTough>]
+    [<mekanism:craftingformula>, <ore:plateTough>, <ore:bPlaceholder>],
+    [<ore:ingotLumium>, null, <ore:ingotLumium>],
+    [<ore:bPlaceholder>, <ore:plateTough>, <mekanism:craftingformula>]
 ]);
 
 RecipeUtils.recipeTweak(true, <extendedcrafting:material:7> * 2, 

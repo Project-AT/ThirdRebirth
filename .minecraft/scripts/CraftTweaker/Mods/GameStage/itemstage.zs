@@ -51,7 +51,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, 
         <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>, 
         <ore:exosuitSensorLight>, <appliedenergistics2:part:140>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>, <enderio:block_self_resetting_lever300i>,
-        <ore:stickIronCompressed>, 
+        <ore:stickIronCompressed>, <matteroverdrive:artifact>
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 
@@ -62,7 +62,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:quartz_slab>, <appliedenergistics2:chiseled_quartz_slab>, <appliedenergistics2:quartz_pillar_slab>, <appliedenergistics2:quartz_pillar>,
         <appliedenergistics2:certus_quartz_axe>, <appliedenergistics2:certus_quartz_hoe>, <appliedenergistics2:certus_quartz_spade>, <appliedenergistics2:certus_quartz_pickaxe>,
         <appliedenergistics2:certus_quartz_cutting_knife>, <ore:substanceEbony>, <ore:substanceIvory>, <extendedcrafting:trimmed>, <extendedcrafting:trimmed:1>, 
-        <extendedcrafting:trimmed:2>, <extendedcrafting:trimmed:3>,
+        <extendedcrafting:trimmed:2>, <extendedcrafting:trimmed:3>, <appliedenergistics2:inscriber>, 
     ],
     "four" : [
         <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>,
@@ -105,6 +105,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <nuclearcraft:salt_fission_heater2:12>, <nuclearcraft:salt_fission_heater2:13>, <nuclearcraft:salt_fission_heater2:14>, <nuclearcraft:salt_fission_heater2:15>,
         <nuclearcraft:salt_fission_controller>, <nuclearcraft:salt_fission_vessel>, <ore:blockLuminessence>, <thermalfoundation:glass_alloy:5>,
         <ore:blockSignalum>, <ore:dustSignalum>, <ore:ingotSignalum>, <ore:nuggetSignalum>, <ore:gearSignalum>, <ore:plateSignalum>, <modularmachinery:blockcasing:5>,
+        <contenttweaker:damaged_psd>,
     ],
     "five" : [
         <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
@@ -114,7 +115,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
         <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>, <contenttweaker:menril_essence_crystal>,
         <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, <extendedcrafting:table_advanced>,
-        <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>,
+        <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>, <contenttweaker:thin_film_transistor>,
     ],
     "six" : [
         <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:trimmed:4>,
@@ -240,8 +241,9 @@ val exceptItemStacks as IIngredient[] = [
     <extrautils2:grocket:2>, <extrautils2:grocket:5>, <extrautils2:grocket:6>, <extrautils2:grocket:3>, <extrautils2:grocket:4>, <extrautils2:drum>,
     <extrautils2:drum:1>, <extrautils2:drum:2>, <extrautils2:drum:3>, <multiblocked:item.any>, <multiblocked:fluid.any>, <multiblocked:forge_energy.any>,
     <ore:dustEmerald>, <ore:dustDiamond>, <ore:blockCharcoal>, <contenttweaker:research_point_lv0>, <extendedcrafting:handheld_table>, <extendedcrafting:crafting_table>,
-    <scalinghealth:healingitem>, <scalinghealth:healingitem:1>, <ore:stickCopper>, <ore:rodIridium>, <ore:rodTin>, <ore:rodGold>,
-    <ore:stickRoseGold>, <ore:rodLead>, <ore:nuggetTitanium>
+    <scalinghealth:healingitem>, <scalinghealth:healingitem:1>, <ore:stickCopper>, <ore:rodIridium>, <ore:rodTin>, <ore:rodGold>, <appliedenergistics2:material:15>,
+    <ore:stickRoseGold>, <ore:rodLead>, <ore:nuggetTitanium>, <appliedenergistics2:material:13>, <appliedenergistics2:material:14>, <appliedenergistics2:material:19>,
+    <appliedenergistics2:material:21>,
 ];
 
 for stage, items in specialStageItemStackMap {

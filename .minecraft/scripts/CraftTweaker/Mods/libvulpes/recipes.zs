@@ -23,9 +23,9 @@ for i in dusts {
 }
 
 RecipeUtils.recipeTweak(true, <libvulpes:linker>, [
-    [null, <ore:dustSignalum>, null],
+    [null, <appliedenergistics2:part:280>, null],
     [<contenttweaker:high_strength_aluminum_alloy_plate>, <appliedenergistics2:material:23>, <contenttweaker:high_strength_aluminum_alloy_plate>],
-    [<contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>, <contenttweaker:high_strength_aluminum_alloy_plate>]
+    [null, <contenttweaker:high_strength_aluminum_alloy_plate>, null]
 ]);
 
 RecipeUtils.recipeTweak(true, <libvulpes:battery:1>, [

@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.embers.EmberGeneration;
 
 import scripts.grassUtils.RecipeUtils;
 import scripts.CraftTweaker.Utils.artisanUtils;
@@ -295,3 +296,8 @@ var emberIngot as IItemStack[] = [<embers:ingot_copper>, <embers:ingot_lead>, <e
 for Ingot in emberIngot {
     furnace.remove(Ingot);
 }
+
+EmberGeneration.addMetalCoefficient(<ore:blockRoseGold>.firstItem, 1);
+EmberGeneration.addMetalCoefficient(<embers:block_dawnstone>, 1);
+EmberGeneration.addMetalCoefficient(<ore:blockEnergeticSilver>, 2);
+EmberGeneration.addMetalCoefficient(<ore:blockSignalum>, 3);

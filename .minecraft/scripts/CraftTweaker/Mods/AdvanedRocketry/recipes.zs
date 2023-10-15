@@ -168,3 +168,15 @@ RecipeUtils.recipeTweak(true, <advancedrocketry:iquartzcrucible>,
     inputPatternGet(["A A", "A A", "AAA"], {
         "A" : <appliedenergistics2:material:11>
 }));
+
+var Items as IItemStack[] = [
+    <advancedrocketry:concrete>,
+    <advancedrocketry:satelliteidchip>,
+    <advancedrocketry:planetidchip>,
+    <advancedrocketry:asteroidchip>,
+    <advancedrocketry:spacestationchip>,
+];
+
+for i in Items{
+    recipes.remove(i);
+}

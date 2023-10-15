@@ -108,13 +108,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_alloy_smelter
     [<ore:gearSteel>, <immersiveengineering:metal_device1:1>, <ore:gearSteel>]
 ], {<ore:artisansDriver> : 45, <ore:artisansSpanner> : 40} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacitor:1>, [
+electronicAssembly.addRecipe("engineer", true, <enderio:item_basic_capacitor:1>, [
     [null, <ore:ingotVibrantAlloy>],
     [<enderio:item_basic_capacitor>, <ore:dustLapis>, <enderio:item_basic_capacitor>],
     [null, <ore:ingotVibrantAlloy>]
 ], {<ore:artisansSolderer> : 8, <ore:artisansDriver> : 12} as int[IIngredient]);
 
-artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_basic_capacitor:2>, [
+electronicAssembly.addRecipe("engineer", true, <enderio:item_basic_capacitor:2>, [
     [null, <ore:ingot_dark_soularium>],
     [<enderio:item_basic_capacitor:1>, <ore:dustLumium>, <enderio:item_basic_capacitor:1>],
     [null, <ore:ingot_dark_soularium>]

@@ -64,8 +64,9 @@ RecipeUtils.recipeTweak(true, <mekanism:machineblock:12>, [
     [<ore:alloyAdvanced>, <ore:alloyAdvanced>, <ore:alloyAdvanced>]
 ]);
 //合成配方
-recipes.addShapeless(<mekanism:craftingformula>, [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]);
-
+RecipeUtils.recipeTweak(false, <mekanism:craftingformula>, [
+    [<ore:plasticWhite>,<ore:nuggetPulsatingIron>]
+]);
 recipes.remove(<mekanism:saltblock>);
 recipes.remove(<mekanism:machineblock:3>);
 recipes.remove(<mekanism:machineblock:10>);

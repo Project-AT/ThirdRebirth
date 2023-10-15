@@ -97,6 +97,8 @@ Lv2AlloyRecipe(<thermalfoundation:glass_alloy:3>, <ore:fusedQuartz>, <ore:Bronze
 Lv2AlloyRecipe(<thermalfoundation:glass_alloy:4>, <ore:fusedQuartz>, <ore:Constantan> * 4, null);
 Lv2AlloyRecipe(<ore:ingotTitaniumAluminide>.firstItem * 3, <ore:Titanium> * 1, <ore:HighStrengthAluminumAlloy> * 2, null);
 Lv2AlloyRecipe(<ore:itemPulsatingCrystal>.firstItem, <ore:enderpearl>, <ore:Electricium> * 4, null);
+Lv2AlloyRecipe(<psi:material:4>, <ore:ingotPsi>, <ore:substanceIvory> * 8, <ore:nuggetTitanium>);
+Lv2AlloyRecipe(<psi:material:3>, <ore:ingotPsi>, <enderio:item_material:50> * 8, null);
 
 //Lv3
 Lv3AlloyRecipe(<simplyjetpacks:metaitemmods:13>, <ore:Soularium>, <ore:dustFluix> * 4, <ore:itemVibrantCrystal>);

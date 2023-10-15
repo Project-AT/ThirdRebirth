@@ -27,6 +27,7 @@ var removeRecipes as IItemStack[] = [
     <immersiveengineering:metal:1>,
     <immersiveengineering:metal>,
     <enderio:item_alloy_ingot:4>,
+    <mekanism:ingot>,
 ];
 
 for recipe in removeRecipes {

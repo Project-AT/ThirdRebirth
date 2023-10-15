@@ -21,7 +21,7 @@ runeAltarUtil(<contenttweaker:rune1> * 2, [
 ], 2500, false);
 
 runeAltarUtil(<contenttweaker:teleport_rune>, [
-    <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaPearl>
+    <ore:runeSlothB>, <ore:runeAutumnB>, <ore:runeAirB>, <ore:manaDiamond>, <ore:manaPearl>, <contenttweaker:mystery_dust>
 ], 20000, false);
 
 runeAltarUtil(<bountifulbaubles:magicmirror>, [
