@@ -50,6 +50,12 @@ RecipeUtils.recipeTweak(true, <enderio:item_material:10>, [
     [null, <ore:cobblestone>, null]
 ]);
 
+RecipeUtils.recipeTweak(true, <ore:dyeEnhancedMachine>.firstItem * 4, [
+    [<ore:itemPulsatingPowder>, <contenttweaker:crude_silicon_dust>, <ore:itemPulsatingPowder>],
+    [<ore:dustTitanium>, <enderio:item_material:50>, <ore:dustTitanium>],
+    [<ore:itemPulsatingPowder>, <contenttweaker:crude_silicon_dust>, <ore:itemPulsatingPowder>]
+]);
+
 electronicAssembly.addRecipe("engineer", true, <enderio:item_material:69> * 2, [
     [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
     [null, <ore:ingotIron>],
@@ -68,6 +74,12 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:item_material:1>, [
     [<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>]
 ], {<ore:artisansDriver> : 10, <ore:artisansHammer> : 8} as int[IIngredient]);
 
+artisanUtils.RecipeTweakWithTools("engineer", true, <ore:itemEnhancedMachineChassi>.firstItem, [
+    [<ore:itemEnhancedChassiParts>, <ore:itemEnhancedChassiParts>, <ore:itemEnhancedChassiParts>],
+    [<ore:itemEnhancedChassiParts>, <embers:mech_core>, <ore:itemEnhancedChassiParts>],
+    [<ore:itemEnhancedChassiParts>, <ore:itemEnhancedChassiParts>, <ore:itemEnhancedChassiParts>]
+], {<ore:artisansDriver> : 30, <ore:artisansHammer> : 24} as int[IIngredient]);
+
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_simple_alloy_smelter>, 
     inputPattern(["SBS", "GCG", "SQS"])
         .with("S", <ore:ingotInvar>)
@@ -83,6 +95,13 @@ electronicAssembly.addRecipe("engineer", true, <enderio:item_material:2> * 4,
         .with("X", <ore:ingotDarkSteel>)
         .with("T", <ore:dyeMachine>).get()
 , {<ore:artisansHammer> : 10});
+
+electronicAssembly.addRecipe("engineer", true, <ore:itemEnhancedChassiParts>.firstItem * 4, 
+    inputPattern("LXL", " T ", "LXL")
+        .with("L", <ore:itemChassiParts>)
+        .with("X", <ore:ingotFerroboron>)
+        .with("T", <ore:dyeEnhancedMachine>).get()
+, {<ore:artisansHammer> : 25});
 
 electronicAssembly.addRecipe("engineer", true, <enderio:item_basic_capacitor>, [
     [null, <ore:nuggetSmithingIron>, <ore:pyrolyticCarbon>],   

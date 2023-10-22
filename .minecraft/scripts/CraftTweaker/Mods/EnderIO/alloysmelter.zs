@@ -46,6 +46,3 @@ AlloySmelter.addRecipe(<thermalfoundation:material:165> * 8, [<embers:ember_clus
 AlloySmelter.addRecipe(<extendedcrafting:material:48>, [<ore:ingotEnderium>, <extendedcrafting:material:41>]);
 AlloySmelter.addRecipe(<draconicevolution:draconium_ingot> * 2, [<ore:ingotMelodicAlloy>, <ore:ingotRefinedObsidian>, <ore:dustDraconium>]);
 */
-
-
-AlloySmelter.addRecipe(<enderio:item_material:1>, [<ore:dyeMachine> * 2, <ore:ingotDarkSteel> * 4, <ore:itemSimpleMachineChassi>]);

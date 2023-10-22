@@ -12,13 +12,6 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <advancedrocketry:centrifuge
     [<ore:plateHighStrengthAluminumAlloy>, <contenttweaker:germanium_integrated_circuit_board>, <ore:plateHighStrengthAluminumAlloy>]
 ], {<ore:artisansDriver> : 66, <ore:artisansSpanner> : 79});
 
-//数据存储
-RecipeUtils.recipeTweak(true, <advancedrocketry:dataunit>, [
-    [<ore:ingotVibrantAlloy>],
-    [<pneumaticcraft:unassembled_pcb>],
-    [<ore:ingotSoularium>]
-]);
-
 var Ingots as IItemStack[] = [
     <advancedrocketry:productingot>,
     <advancedrocketry:productingot:1>,

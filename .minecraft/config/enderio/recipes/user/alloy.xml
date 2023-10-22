@@ -105,4 +105,8 @@
     <recipe name="Alloy: Black Dye" required="true" disabled="true"/>
     <recipe name="Alloy: Black Dye, Variant" required="true" disabled="true"/>
 
+    <!-- Chassis -->
+    <recipe name="Enhanced Chassis" required="true" disabled="true"/>
+    <recipe name="Soul Chassis" required="true" disabled="true"/>
+
 </enderio:recipes>

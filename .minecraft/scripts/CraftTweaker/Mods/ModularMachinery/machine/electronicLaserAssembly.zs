@@ -58,6 +58,7 @@ var normalAssembly as IItemStack[IIngredient[]] = {
     [<ore:opticFiber> * 4, <ore:ingotIron>, <ore:enderpearl>] : <refraction:translocator>,
     [<ore:laserTranslocator> * 6, <minecraft:piston> * 2, <minecraft:chorus_flower>] : <refraction:axyz>,
     [<thermalfoundation:glass_alloy:6>, <mekanism:polyethene:2>] : <contenttweaker:thin_film_transistor>,
+    [<pneumaticcraft:unassembled_pcb>, <ore:ingotVibrantAlloy>, <ore:ingotSoularium>] : <advancedrocketry:dataunit>,
 };
 
 for inputs, outout in normalAssembly{

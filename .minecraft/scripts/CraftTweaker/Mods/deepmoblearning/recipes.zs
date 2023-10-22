@@ -22,7 +22,7 @@ RecipeUtils.recipeTweak(true, <deepmoblearning:machine_casing>, [
 ]);
 //深度学习器
 RecipeUtils.recipeTweak(true, <deepmoblearning:deep_learner>, [
-    [<deepmoblearning:soot_covered_plate>, <advancedrocketry:misc>, <deepmoblearning:soot_covered_plate>],
+    [<deepmoblearning:soot_covered_plate>, <matteroverdrive:holo_sign>, <deepmoblearning:soot_covered_plate>],
     [<advancedrocketry:dataunit>, <ore:circuitAdvanced>, <advancedrocketry:dataunit>],
     [<deepmoblearning:soot_covered_plate>, <ore:blockGlassHardened>, <deepmoblearning:soot_covered_plate>]
 ]);

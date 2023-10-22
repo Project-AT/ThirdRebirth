@@ -24,9 +24,9 @@ for i in dusts {
 }
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:part:10>, [
-    [<ore:itemChassiParts>, <ore:ingotTough>, <ore:itemChassiParts>],
-    [<ore:ingotTough>, <pneumaticcraft:printed_circuit_board>, <ore:ingotTough>],
-    [<ore:itemChassiParts>, <ore:ingotTough>, <ore:itemChassiParts>]
+    [<ore:itemChassiParts>, <ore:ingotHardCarbon>, <ore:itemChassiParts>],
+    [<ore:ingotHardCarbon>, <pneumaticcraft:printed_circuit_board>, <ore:ingotHardCarbon>],
+    [<ore:itemChassiParts>, <ore:ingotHardCarbon>, <ore:itemChassiParts>]
 ], {<ore:artisansDriver> : 36, <ore:artisansSpanner> : 49});
 
 RecipeUtils.recipeTweak(true, <nuclearcraft:part> * 2, [
@@ -178,7 +178,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:manufactory>, 
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:fuel_reprocessor>, [
     [<ore:plateBasic>, <ore:ingotFerroboron>, <ore:plateBasic>],
-    [<ore:ingotTough>, <ore:chassis>, <ore:ingotTough>],
+    [<ore:ingotFerroboron>, <ore:chassis>, <ore:ingotFerroboron>],
     [<ore:plateBasic>, <ore:motor>, <ore:plateBasic>]
 ], {<ore:artisansDriver> : 25, <ore:artisansSpanner> : 22});
 
