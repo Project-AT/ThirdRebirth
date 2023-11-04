@@ -119,12 +119,13 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>, <contenttweaker:menril_essence_crystal>, <ore:dyeSoulMachine>,
         <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, 
         <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>, 
-        <contenttweaker:thin_film_transistor>, <extendedcrafting:table_advanced>,
+        <contenttweaker:thin_film_transistor>, <extendedcrafting:table_advanced>, 
     ],
     "six" : [
         <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:trimmed:4>,
         <extendedcrafting:table_elite>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:12>, <extendedcrafting:material:18>,
-        <modularmachinery:blockcircuitry:1>,
+        <modularmachinery:blockcircuitry:1>, <ore:itemSoulMachineChassi>, <enderio:block_soul_binder>, <enderio:block_slice_and_splice>, <enderio:block_industrial_insulation>,
+        <ore:itemUnsouledMachineChassi>,
     ],
     "seven" : [
 

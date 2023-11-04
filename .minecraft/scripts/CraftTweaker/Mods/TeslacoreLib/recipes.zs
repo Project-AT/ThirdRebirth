@@ -29,19 +29,6 @@ RecipeUtils.recipeTweak(true, <teslacorelib:base_addon>,
         "A" : <minecraft:redstone>
 }));
 
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [null, <ore:listAllsugar>, null],
-    [<ore:listAllsugar>, <contenttweaker:research_point_lv1>, <ore:listAllsugar>],
-    [null, <ore:listAllsugar>, null]])
-  .setFluid(<liquid:lubricant> * 200)
-  .setMinimumTier(0)
-  .setMaximumTier(1)
-  .addTool(<ore:artisansDriver>, 15)
-  .addTool(<ore:artisansSolderer>, 15)
-  .addOutput(<pneumaticcraft:speed_upgrade>)
-  .create();
-
 artisanUtils.RecipeTweakWithTools("engineer", true, <teslathingies:tree_farm>,
     inputPatternGet(["ABA", "CDC", "EEE"], {
         "A" : <ore:treeSapling>,

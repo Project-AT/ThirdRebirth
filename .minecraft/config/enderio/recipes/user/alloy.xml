@@ -109,4 +109,7 @@
     <recipe name="Enhanced Chassis" required="true" disabled="true"/>
     <recipe name="Soul Chassis" required="true" disabled="true"/>
 
+    <!-- CrT: <enderio:block_industrial_insulation> -->
+    <recipe name="Alloy: Industrial Insulation" required="true" disabled="true"/>
+
 </enderio:recipes>

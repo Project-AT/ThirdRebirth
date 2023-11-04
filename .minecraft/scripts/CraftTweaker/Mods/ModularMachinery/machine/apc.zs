@@ -87,3 +87,10 @@ RecipeBuilder.newBuilder(machineName ~ "_psi_6", machineName, 50)
     .addFluidInput(<liquid:aura_end> * 100)
     .addAuraInput(100, true)
 .build();
+
+RecipeBuilder.newBuilder(machineName ~ "_eio_1", machineName, 1000)
+    .addItemInput(<ore:itemUnsouledMachineChassi>.firstItem)
+    .addItemOutput(<ore:itemSoulMachineChassi>.firstItem)
+    .addFluidInput(<liquid:aura_nether> * 256000)
+    .addAuraInput(100, true)
+.build();

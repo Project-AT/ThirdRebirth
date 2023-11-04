@@ -149,13 +149,13 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:electrolyzer>,
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:ingot_former>, [
     [<ore:plateBasic>, <ore:hopper>, <ore:plateBasic>],
     [<ore:ingotFerroboron>, <ore:chassis>, <ore:ingotFerroboron>],
-    [<ore:plateBasic>, <ore:ingotTough>, <ore:plateBasic>]
+    [<ore:plateBasic>, <ore:ingotEnergeticSilver>, <ore:plateBasic>]
 ], {<ore:artisansDriver> : 30, <ore:artisansSpanner> : 28});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:pressurizer>, [
-    [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>],
+    [<ore:plateAdvanced>, <ore:ingotDarkSteel>, <ore:plateAdvanced>],
     [<ore:actuator>, <ore:chassis>, <ore:actuator>],
-    [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>]
+    [<ore:plateAdvanced>, <ore:ingotDarkSteel>, <ore:plateAdvanced>]
 ], {<ore:artisansDriver> : 32, <ore:artisansSpanner> : 38});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:chemical_reactor>, [
@@ -208,3 +208,9 @@ RecipeUtils.recipeTweak(true, <nuclearcraft:alloy:13>,
 RecipeUtils.recipeTweak(true, <nuclearcraft:compound:9> * 8 , 
     RecipeUtils.createCrossWithCore(<ore:dustLumium>, <ore:dustEndstone>, <lightningcraft:material:12>)
 );
+
+artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:nuclear_furnace>, [
+    [<ore:plateBasic>, <ore:ingotFerroboron>, <ore:plateBasic>],
+    [<ore:ingotFerroboron>, <minecraft:furnace>, <ore:ingotFerroboron>],
+    [<ore:plateBasic>, <ore:ingotFerroboron>, <ore:plateBasic>]
+], {<ore:artisansSolderer> : 12, <ore:artisansDriver> : 17});

@@ -17,7 +17,7 @@ RecipeUtils.recipeTweak(true, <deepmoblearning:polymer_clay> * 16,
 //曜黑板材机械外壳
 RecipeUtils.recipeTweak(true, <deepmoblearning:machine_casing>, [
     [<ore:dustSignalum>, <deepmoblearning:soot_covered_plate>, <ore:dustSignalum>],
-    [<deepmoblearning:soot_covered_plate>, <mekanism:basicblock:8>, <deepmoblearning:soot_covered_plate>],
+    [<deepmoblearning:soot_covered_plate>, <ore:itemSoulMachineChassi>, <deepmoblearning:soot_covered_plate>],
     [<ore:dustSignalum>, <deepmoblearning:soot_covered_plate>, <ore:dustSignalum>]
 ]);
 //深度学习器

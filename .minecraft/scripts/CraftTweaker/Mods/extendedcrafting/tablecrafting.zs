@@ -122,6 +122,14 @@ tableCraftingUtils(<deepmoblearning:simulation_chamber>, [
 	[<ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>, <ore:alloyElite>, <ore:ingotTough>]
 ]);
 
+//离魂机器框架
+tableCraftingUtils(<enderio:item_material:55>, [
+	[<ore:itemEnhancedChassiParts>, <ore:dyeSoulMachine>, <ore:itemEnhancedChassiParts>, <ore:dyeSoulMachine>, <ore:itemEnhancedChassiParts>], 
+	[<ore:dyeSoulMachine>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>, <appliedenergistics2:material:23>, <ore:dyeSoulMachine>], 
+	[<ore:itemEnhancedChassiParts>, <appliedenergistics2:material:24>, <enderio:block_industrial_insulation>, <appliedenergistics2:material:24>, <ore:itemEnhancedChassiParts>], 
+	[<ore:dyeSoulMachine>, <appliedenergistics2:material:23>, <appliedenergistics2:material:24>, <appliedenergistics2:material:22>, <ore:dyeSoulMachine>], 
+	[<ore:itemEnhancedChassiParts>, <ore:dyeSoulMachine>, <ore:itemEnhancedChassiParts>, <ore:dyeSoulMachine>, <ore:itemEnhancedChassiParts>]
+]);
 
 //精英合成#############################################################################################
 //晶素锭
