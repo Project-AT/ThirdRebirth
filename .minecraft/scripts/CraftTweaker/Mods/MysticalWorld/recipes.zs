@@ -21,3 +21,8 @@ artisanUtils.RecipeTweakWithTools("mage", true, <mysticalworld:pearleporter>, [
 ], {<ore:artisansAthame> : 1} as int[IIngredient]);
 
 RecipeUtils.recipeTweak(false, <mysticalworld:assorted_seeds> * 4, [[<ore:listAllseed>, <ore:listAllseed>, <ore:listAllseed>, <ore:listAllseed>]]);
+
+recipes.replaceAllOccurences(<mysticalworld:aubergine>, <ore:cropEggplant>, <mysticalworld:aubergine_salad>);
+recipes.replaceAllOccurences(<mysticalworld:cooked_aubergine>, <ore:foodGrilledeggplant>, <mysticalworld:stewed_eggplant>);
+recipes.replaceAllOccurences(<mysticalworld:cooked_aubergine>, <ore:foodGrilledeggplant>, <mysticalworld:stuffed_aubergine>);
+recipes.replaceAllOccurences(<minecraft:beetroot>, <ore:cropBeet>, <mysticalworld:beetroot_salad>);

@@ -62,6 +62,9 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <appliedenergistics2:certus_quartz_cutting_knife>, <ore:substanceEbony>, <ore:substanceIvory>, <extendedcrafting:trimmed>,<appliedenergistics2:inscriber>, 
         <ore:oreCertusQuartz>, <ore:oreChargedCertusQuartz>, <appliedenergistics2:quartz_fixture>, <ore:crystalPureCertusQuartz>,
         <appliedenergistics2:crystal_seed:0>, <appliedenergistics2:crystal_seed>.withTag({progress: 200}), <appliedenergistics2:crystal_seed>.withTag({progress: 400}), 
+        <ore:ingotTitaniumAluminide>, <ore:plateTitaniumAluminide>, <ore:nuggetTitaniumAluminide>, <ore:gearTitaniumAluminide>, <ore:dustTitaniumAluminide>,
+        <ore:stickTitaniumAluminide>, <ore:blockTitaniumAluminide>, <ore:ingotTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:nuggetTitaniumIridium>, 
+        <ore:gearTitaniumIridium>, <ore:dustTitaniumIridium>, <ore:stickTitaniumIridium>, <ore:blockTitaniumIridium>
     ],
     "four" : [
         <extendedcrafting:material:7>, <advancedrocketry:centrifuge>, <enderio:item_basic_capacitor:1>, <contenttweaker:tinned_copper_wire>,
@@ -112,20 +115,20 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <extendedcrafting:trimmed:1>, <extendedcrafting:trimmed:2>, <extendedcrafting:trimmed:3>, 
     ],
     "five" : [
-        <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>,
+        <contenttweaker:compressed_signalum>, <appliedenergistics2:crystal_seed:1200>, <ore:dustFluix>, <ore:ingotExtreme>, <ore:blockExtreme>,
         <ore:crystalPureFluix>, <ore:ingot_dark_soularium>, <enderio:item_basic_capacitor:2>, <ore:ingotLumium>,
         <ore:nuggetLumium>, <ore:dustLumium>, <ore:gearLumium>, <ore:plateLumium>, <appliedenergistics2:quartz_growth_accelerator>, <ore:crystalFluix>, <ore:pearlFluix>,
         <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}), <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}), 
         <ore:ingot_dark_soularium>, <ore:blockLumium>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:compound:9>, <contenttweaker:menril_essence_crystal>, <ore:dyeSoulMachine>,
         <ore:ingotEndSteel>, <ore:blockEndSteel>, <ore:nuggetEndSteel>, <ore:itemEndSteelMachineChassi>, <enderio:block_end_iron_bars>, <extendedcrafting:table_basic>, 
         <extendedcrafting:material:14>, <extendedcrafting:material:15>, <extendedcrafting:material:8>, <extendedcrafting:material:9>, <modularmachinery:blockcircuitry>, 
-        <contenttweaker:thin_film_transistor>, <extendedcrafting:table_advanced>, 
+        <contenttweaker:thin_film_transistor>, <extendedcrafting:table_advanced>, <enderio:block_industrial_insulation>
     ],
     "six" : [
         <ore:circuitElite>, <contenttweaker:compressed_crystaltine>, <ore:ingotCrystaltine>, <ore:nuggetCrystaltine>, <ore:blockCrystaltine>, <extendedcrafting:trimmed:4>,
         <extendedcrafting:table_elite>, <extendedcrafting:material:10>, <extendedcrafting:material:16>, <extendedcrafting:material:12>, <extendedcrafting:material:18>,
-        <modularmachinery:blockcircuitry:1>, <ore:itemSoulMachineChassi>, <enderio:block_soul_binder>, <enderio:block_slice_and_splice>, <enderio:block_industrial_insulation>,
-        <ore:itemUnsouledMachineChassi>,
+        <modularmachinery:blockcircuitry:1>, <ore:itemSoulMachineChassi>, <enderio:block_soul_binder>, <enderio:block_slice_and_splice>, <ore:itemInfinityGoop>,
+        <ore:itemUnsouledMachineChassi>, 
     ],
     "seven" : [
 
@@ -252,8 +255,9 @@ val exceptItemStacks as IIngredient[] = [
     <appliedenergistics2:sky_stone_chest>, <appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_vibrant_glass>,
     <appliedenergistics2:tiny_tnt>, <appliedenergistics2:sky_stone_stairs>, <appliedenergistics2:smooth_sky_stone_stairs>, <appliedenergistics2:sky_stone_brick_stairs>,
     <appliedenergistics2:sky_stone_small_brick_stairs>, <appliedenergistics2:sky_stone_slab>, <appliedenergistics2:smooth_sky_stone_slab>, <appliedenergistics2:sky_stone_brick_slab>,
-    <appliedenergistics2:sky_stone_small_brick_slab>, <appliedenergistics2:light_detector>, <ore:crystalPureNetherQuartz>,
+    <appliedenergistics2:sky_stone_small_brick_slab>, <appliedenergistics2:light_detector>, <ore:crystalPureNetherQuartz>, 
     <appliedenergistics2:crystal_seed:600>, <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}), <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
+    <ore:plateTitanium>, <ore:gearTitanium>, <ore:stickTitanium>, <ore:blockTitanium>, <ore:oreTritanium>
 ];
 
 for stage, items in specialStageItemStackMap {

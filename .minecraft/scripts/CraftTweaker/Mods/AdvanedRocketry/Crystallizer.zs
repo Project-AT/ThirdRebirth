@@ -24,6 +24,15 @@ function addRecipe(outpuItems as WeightedItemStack[], power as int, time as int,
     recipeBuilder.build();
 }
 
+function removeRecipe(outputItems as IItemStack[]) {
+    var machineName as string = "Crystallizer";
+    var recipeRemover as RecipeRemover = RecipeTweaker.forMachine(machineName).remover();
+    recipeRemover.addOutputs(outputItems);
+    recipeRemover.remove();
+}
+
+removeRecipe([<libvulpes:productgem>]);
+
 addRecipe([
     <ore:crystalFluix>.firstItem * 3 % 100
 ], 50, 200, [<psi:material>, <ore:dustCertusQuartz>, <ore:dustNetherQuartz>]);
@@ -43,3 +52,7 @@ addRecipe([
 addRecipe([
     <ore:itemVibrantCrystal>.firstItem * 3 % 100
 ], 200, 600, [<botanianeedsit:mana_capacitor_terrasteel> * 3, <ore:dustEmerald> * 9]);
+
+addRecipe([
+    <ore:gemDilithium>.firstItem % 100
+], 100, 300, [<ore:dustDilithium>]);

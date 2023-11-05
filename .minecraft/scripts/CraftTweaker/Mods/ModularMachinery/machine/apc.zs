@@ -56,7 +56,7 @@ for input, output in dimnessInfuse {
 var oreNames as string[] = [
     "Gold", "Iron", "CrudeSteel", "Uranium", "QuartzBlack", "Tritanium", "Thorium", "Osmium", "Nickel",
     "Platinum", "Titanium", "Mithril", "Iridium", "Boron", "Lithium", "Magnesium", "Copper", "Tin", "Silver",
-    "Lead", "Aluminum", "Dilithium", "Germanium"
+    "Lead", "Aluminum", "Germanium"
 ];
 
 for oreName in oreNames {

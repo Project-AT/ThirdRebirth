@@ -98,8 +98,8 @@ electronicAssembly.addRecipe("engineer", true, <enderio:item_material:2> * 4,
 
 electronicAssembly.addRecipe("engineer", true, <ore:itemEnhancedChassiParts>.firstItem * 4, 
     inputPattern("LXL", " T ", "LXL")
-        .with("L", <ore:itemChassiParts>)
-        .with("X", <ore:ingotFerroboron>)
+        .with("L", <ore:itemSimpleChassiParts>)
+        .with("X", <ore:ingotTough>)
         .with("T", <ore:dyeEnhancedMachine>).get()
 , {<ore:artisansHammer> : 25});
 

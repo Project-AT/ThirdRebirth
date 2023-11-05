@@ -59,3 +59,5 @@ RecipeBuilder.get("blacksmith")
   .setMinimumTier(0)
   .setMaximumTier(1)
   .create();
+
+recipes.replaceAllOccurences(<biomesoplenty:plant_1:3>, <ore:cropRice>, <biomesoplenty:ricebowl>);

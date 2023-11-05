@@ -235,6 +235,8 @@ var oreDictAdd as IItemStack[][string] = {
     "cropMelon":[<minecraft:melon>],
     "foodFlour":[<harvestcraft:flouritem>],
     "dustWheat":[<harvestcraft:flouritem>],
+    "cropAubergine":[<harvestcraft:eggplantitem>],
+    "foodEggplant":[<harvestcraft:eggplantitem>],
 
     "vine":[<biomesoplenty:willow_vine>, <biomesoplenty:ivy>],
     "tallgrass":[
@@ -352,6 +354,19 @@ for item in loadedMods["mysticalworld"].items {
 <ore:nuggetNetherStar>.remove(<extendedcrafting:material:140>);
 <ore:blockAluminium>.remove(<embers:block_aluminum>);
 <ore:plateElectricium>.remove(<lightningcraft:plate:7>);
+<ore:blockQuartzMana>.remove(<botania:quartztypemana:3>);
+<ore:blockQuartzMana>.remove(<botania:quartztypemana:4>);
+<ore:blockQuartzBlaze>.remove(<botania:quartztypeblaze:3>);
+<ore:blockQuartzBlaze>.remove(<botania:quartztypeblaze:4>);
+<ore:blockQuartzLavender>.remove(<botania:quartztypelavender:3>);
+<ore:blockQuartzLavender>.remove(<botania:quartztypelavender:4>);
+<ore:blockQuartzRed>.remove(<botania:quartztypered:3>);
+<ore:blockQuartzRed>.remove(<botania:quartztypered:4>);
+<ore:blockQuartzElven>.remove(<botania:quartztypeelf:3>);
+<ore:blockQuartzElven>.remove(<botania:quartztypeelf:4>);
+<ore:blockQuartzSunny>.remove(<botania:quartztypesunny:3>);
+<ore:blockQuartzSunny>.remove(<botania:quartztypesunny:4>);
+<ore:oreDilithium>.remove(<libvulpes:ore0>);
 
 
 var oreNames as string[] = [

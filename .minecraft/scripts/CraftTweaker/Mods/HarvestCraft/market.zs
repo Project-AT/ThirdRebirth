@@ -17,6 +17,7 @@ var sell as int[IItemStack] = {
     <mysticalworld:aubergine> : 32,
     <roots:pereskia_bulb> : 32,
     <roots:wildewheet> : 32,
+    <biomesoplenty:plant_1:3> : 32,
 
     <betteranimalsplus:eel_meat_raw> : 16,
     <mysticalworld:raw_squid> : 16,

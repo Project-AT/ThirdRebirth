@@ -16,6 +16,7 @@ var Ingots as IItemStack[] = [
     <advancedrocketry:productingot>,
     <advancedrocketry:productingot:1>,
     <libvulpes:productingot:7>,
+    <libvulpes:productdust>,
 ];
 
 for ingot in Ingots {

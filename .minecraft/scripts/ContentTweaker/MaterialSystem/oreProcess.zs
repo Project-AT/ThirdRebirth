@@ -10,7 +10,7 @@ var materials as int[string] = {
     "Iron" : 0x9A8374,
     "CrudeSteel" : 0xA49892,
     "Uranium" : 0x3A5339,
-    "Tritanium" : 0x283436,
+    "Tritanium" : 0x66797F,
     "Thorium" : 0x303030,
     "Osmium" : 0xA4B5CD,
     "Nickel" : 0xD8D8A9,

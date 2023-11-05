@@ -117,7 +117,7 @@ Lv3AlloyRecipe(<ore:ingotZirconiumMolybdenum>.firstItem * 16, <ore:Zirconium>, <
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:5>, <ore:fusedQuartz>, <ore:Signalum> * 4, null);
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:6>, <ore:fusedQuartz>, <ore:Lumium> * 4, null);
 Lv3AlloyRecipe(<thermalfoundation:glass_alloy:7>, <ore:fusedQuartz>, <ore:Enderium> * 4, null);
-Lv3AlloyRecipe(<ore:itemEnhancedMachineChassi>.firstItem, <ore:itemMachineChassi>, <ore:ingotFerroboron> * 4, <ore:dyeEnhancedMachine> * 2);
+Lv3AlloyRecipe(<ore:itemEnhancedMachineChassi>.firstItem, <ore:itemSimpleMachineChassi>, <ore:ingotTough> * 4, <ore:dyeEnhancedMachine> * 2);
 
 ArcFurnace.addRecipe(<ore:ingotFerroboron>.firstItem * 12, <ore:Steel> * 4, null, 500, 955, [<ore:Constantan>, <ore:Manganese>, <ore:Boron> * 6], "Alloying");
 ArcFurnace.addRecipe(<pneumaticcraft:ingot_iron_compressed> * 12, <ore:Steel> * 8, null, 500, 955, [<ore:Manganese> * 2, <ore:Copper>, <ore:Nickel>], "Alloying");

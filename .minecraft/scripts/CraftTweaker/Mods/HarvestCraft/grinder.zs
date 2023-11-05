@@ -8,6 +8,7 @@ import mods.harvestcrafttweaker.HarvestCraftTweaker;
 
 HarvestCraftTweaker.removeGrindingByInput(<harvestcraft:seaweeditem>);
 HarvestCraftTweaker.addGrinding(<ore:cropSeaweed>, <ore:foodSalt>.firstItem, <harvestcraft:veggiebaititem>);
+HarvestCraftTweaker.addGrinding(<biomesoplenty:plant_1:3>, <harvestcraft:flouritem>, <harvestcraft:flouritem>);
 
 HarvestCraftTweaker.addGrinding(<betteranimalsplus:eel_meat_raw>, <harvestcraft:groundfishitem>, <harvestcraft:groundfishitem>);
 HarvestCraftTweaker.addGrinding(<mysticalworld:raw_squid>, <harvestcraft:groundfishitem>, <harvestcraft:groundfishitem>);
