@@ -171,9 +171,9 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:salt_mixer>, [
 ], {<ore:artisansDriver> : 28, <ore:artisansSpanner> : 32});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:manufactory>, [
-    [<ore:plateBasic>, <ore:gemRedstone>, <ore:plateBasic>],
-    [<ore:ingotDarkSteel>, <ore:steelFrame>, <ore:ingotDarkSteel>],
-    [<ore:plateBasic>, <ore:solenoidCopper>, <ore:plateBasic>]
+    [null, <immersiveengineering:material:27>, null],
+    [<ore:gearIronCompressed>, <ore:itemSimpleMachineChassi>, <ore:gearIronCompressed>],
+    [null, <immersiveengineering:material:27>, null]
 ], {<ore:artisansDriver> : 23, <ore:artisansSpanner> : 25});
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <nuclearcraft:fuel_reprocessor>, [

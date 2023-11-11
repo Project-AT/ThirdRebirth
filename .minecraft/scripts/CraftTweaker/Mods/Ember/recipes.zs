@@ -47,9 +47,9 @@ electronicAssembly.addRecipe("engineer", true, <embers:archaic_circuit> * 2, [
 ], {<ore:artisansDriver> : 3, <ore:artisansSolderer> : 5} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mech_core>, [
-    [<ore:ingotSteel>, <ore:plateIron>, <ore:ingotSteel>],
+    [null, <ore:plateIron>, null],
     [<ore:plateLead>, <immersiveengineering:metal_decoration0:5>, <ore:plateLead>],
-    [<ore:ingotSteel>, <ore:plateIron>, <ore:ingotSteel>]
+    [null, <ore:plateIron>, null]
 ], {<ore:artisansSpanner> : 15, <ore:artisansDriver> : 15} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <embers:mixer>, [

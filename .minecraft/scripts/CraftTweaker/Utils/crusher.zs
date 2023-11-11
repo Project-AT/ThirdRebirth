@@ -65,7 +65,7 @@ for MetalName in Metal {
         powderMaker(ingotMetal.firstItem, dustMetal.firstItem);
 
         mods.nuclearcraft.Manufactory.removeRecipeWithInput(ingotMetal);
-        mods.nuclearcraft.Manufactory.addRecipe(ingotMetal, dustMetal.firstItem);
+        mods.nuclearcraft.Manufactory.addRecipe(ingotMetal, dustMetal.firstItem, 0.25);
     }
 }
 for GemName in Gem {
@@ -94,7 +94,7 @@ for GemName in Gem {
         powderMaker(gemMetal.firstItem, dustMetal.firstItem);
 
         mods.nuclearcraft.Manufactory.removeRecipeWithInput(gemMetal);
-        mods.nuclearcraft.Manufactory.addRecipe(gemMetal, dustMetal.firstItem);
+        mods.nuclearcraft.Manufactory.addRecipe(gemMetal, dustMetal.firstItem, 0.25);
     }
 }
 #------------------------------------------------------------------------------------
@@ -139,6 +139,7 @@ function addRecipe(input as IItemStack, output as IItemStack) {
     mods.mekanism.crusher.addRecipe(input, output);
     mods.immersiveengineering.Crusher.addRecipe(output, input, 2048);
     Mortar.addRecipe(getRecipeName(output), output, [input]);
+    Manufactory.addRecipe(input, output, 0.25);
 
     var machineName = "high_energy_shredder";
     mods.modularmachinery.RecipeBuilder.newBuilder(machineName ~ getRecipeName(output), machineName, 40)
@@ -157,3 +158,6 @@ function addRecipe(input as IItemStack, output as IItemStack) {
 addRecipe(<enderio:item_material:5>, <contenttweaker:crude_silicon_dust>);
 addRecipe(<netherex:wither_dust>, <quark:black_ash>);
 addRecipe(<netherex:wither_bone>, <netherex:wither_dust> * 5);
+
+Manufactory.removeRecipeWithOutput(<ore:dustEndstone>);
+addRecipe(<minecraft:end_stone>, <ore:dustEndstone>.firstItem);

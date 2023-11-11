@@ -122,7 +122,7 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_alloy_smelter
 ], {<ore:artisansDriver> : 21, <ore:artisansSpanner> : 31} as int[IIngredient]);
 
 artisanUtils.RecipeTweakWithTools("engineer", true, <enderio:block_alloy_smelter>, [
-    [<ore:ingotDarkSteel>, <ore:plateSteel>, <ore:ingotDarkSteel>],
+    [<ore:ingotDarkSteel>, <ore:plateInvar>, <ore:ingotDarkSteel>],
     [<ore:gearDark>, <ore:itemMachineChassi>, <ore:gearDark>],
     [<ore:gearSteel>, <immersiveengineering:metal_device1:1>, <ore:gearSteel>]
 ], {<ore:artisansDriver> : 45, <ore:artisansSpanner> : 40} as int[IIngredient]);

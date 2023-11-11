@@ -51,7 +51,7 @@ val specialStageItemStackMap as IIngredient[][string] = {
         <ore:notPastureFusedGlass>, <ore:notPastureEnlightenedFusedGlass>, <ore:notPastureDarkFusedGlass>,<enderio:item_xp_transfer>, <enderio:block_vacuum_chest>, 
         <multiblocked:pneumatic_pressure.any>, <contenttweaker:research_point_lv1_incomplete>, <contenttweaker:research_point_lv1>, <contenttweaker:pcb_substrate>, 
         <ore:exosuitSensorLight>, <appliedenergistics2:part:140>, <enderio:block_xp_vacuum>, <ore:plateIronCompressed>, <enderio:block_self_resetting_lever300i>,
-        <ore:stickIronCompressed>, <matteroverdrive:artifact>, <appliedenergistics2:charger>
+        <ore:stickIronCompressed>, <matteroverdrive:artifact>, <appliedenergistics2:charger>, <nuclearcraft:manufactory>,
     ],
     "three" : [
         <mekanism:polyethene:0>, <mekanism:polyethene:1>, <mekanism:polyethene:2>, <mekanism:polyethene:3>, <contenttweaker:wine_stone>, <contenttweaker:tartaric_acid>, 

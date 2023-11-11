@@ -16,6 +16,7 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.lightningcraft.LightningCrusher;
 import mods.integrateddynamics.MechanicalSqueezer;
+import mods.nuclearcraft.Manufactory;
 
 import scripts.grassUtils.StringHelper;
 import scripts.grassUtils.RecipeUtils;
@@ -124,6 +125,9 @@ for oreName in oreNames {
             .addItemOutput(dust.firstItem.withAmount(2))
         .build();
 
+        Manufactory.removeRecipeWithInput(ore.firstItem);
+        Manufactory.removeRecipeWithInput(ore);
+        Manufactory.addRecipe(ore, dust.firstItem * 2, 0.5);
     }
 
     if(!oreAuraInfusion.empty && !oreCrushedInfused.empty) {
@@ -156,6 +160,8 @@ for oreName in oreNames {
             .addItemInput(oreAuraInfusion.firstItem)
             .addItemOutput(oreCrushedInfused.firstItem.withAmount(2))
         .build();
+
+        Manufactory.addRecipe(oreAuraInfusion, oreCrushedInfusion.firstItem * 2, 0.25);
     }
     
     if(!oreEnriched.empty && !oreCrushedEnriched.empty && !dust.empty) {
@@ -190,6 +196,8 @@ for oreName in oreNames {
             .addItemOutput(dust.firstItem.withAmount(1))
             .setChance(0.25)
         .build();
+
+        Manufactory.addRecipe(oreEnriched, oreCrushedEnriched.firstItem * 2, 0.25);
     }
 
     if(!crystal.empty && !dust.empty) {
@@ -221,6 +229,8 @@ for oreName in oreNames {
             .addItemInput(crystal.firstItem)
             .addItemOutput(dust.firstItem.withAmount(3))
         .build();
+
+        Manufactory.addRecipe(crystal, dust.firstItem * 3, 0.25);
     }
 
 // -------------------------------------------------------------------------------
@@ -342,6 +352,8 @@ for oreName in LvDiamondNondust {
 
         enrichment.removeRecipe(LvDiamondOreNondust.firstItem);
         enrichment.addRecipe(LvDiamondOreNondust, LvDiamondgemNondust.firstItem * 3);
+
+        Manufactory.addRecipe(LvDiamondOreNondust, LvDiamondgemNondust.firstItem * 3, 0.25);
     }
 }
 //有粉类的钻石级矿
@@ -373,6 +385,10 @@ for oreName in LvDiamondOre {
 
         enrichment.removeRecipe(LvDiamondOre.firstItem);
         enrichment.addRecipe(LvDiamondOre, LvDiamondGem.firstItem * 3);
+
+        Manufactory.removeRecipeWithInput(LvDiamondOre.firstItem);
+        Manufactory.removeRecipeWithInput(LvDiamondOre);
+        Manufactory.addRecipe(LvDiamondOre, LvDiamondGem.firstItem * 3, 0.5);
 
         //3粉
         LightningCrusher.remove(<lightningcraft:material:1>);
@@ -413,6 +429,10 @@ for oreName in LvCoalOre {
 
         Crusher.removeRecipesForInput(LvCoalOre.firstItem);
         Crusher.addRecipe(LvCoalGem.firstItem * 3, LvCoalOre, 2000, LvCoalGem.firstItem * 2, 1.0);
+
+        Manufactory.removeRecipeWithInput(LvCoalOre.firstItem);
+        Manufactory.removeRecipeWithInput(LvCoalOre);
+        Manufactory.addRecipe(LvCoalOre, LvCoalGem.firstItem * 5, 0.5);
 
         //6 块
         enrichment.removeRecipe(LvCoalOre.firstItem);
@@ -457,6 +477,10 @@ for oreName in LvRedstoneOre {
 
         Crusher.removeRecipesForInput(LvRedstoneCrystal.firstItem);
         Crusher.addRecipe(LvRedstoneCrystal.firstItem * 4, LvRedstoneOre, 2000, LvRedstoneCrystal.firstItem * 4, 1.0);
+
+        Manufactory.removeRecipeWithInput(LvRedstoneDust.firstItem);
+        Manufactory.removeRecipeWithInput(LvRedstoneDust);
+        Manufactory.addRecipe(LvRedstoneOre, LvRedstoneDust.firstItem * 8, 0.5);
 
         //12 块
         enrichment.removeRecipe(LvRedstoneOre.firstItem);
