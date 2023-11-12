@@ -61,6 +61,10 @@ artisanUtils.RecipeTweakWithTools("engineer", true, <harvestcraft:waterfilter>,
         "E" : <ore:plankTreatedWood>
 }), {<ore:artisansSpanner> : 3} as int[IIngredient]);
 
+recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>, <harvestcraft:groundtrap>);
+recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>, <harvestcraft:watertrap>);
+
+
 //下界之星吐司
 RecipeUtils.recipeTweak(false, <harvestcraft:netherstartoastitem> * 3, [[
     <ore:toolCuttingboard>.reuse(), <ore:foodToast>, <ore:foodToast>, <ore:foodToast>, <ore:foodButter>, <ore:foodButter>, <ore:foodButter>, <ore:nuggetNetherStar>

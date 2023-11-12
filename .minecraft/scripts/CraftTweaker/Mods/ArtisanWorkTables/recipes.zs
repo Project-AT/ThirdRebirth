@@ -82,7 +82,7 @@ RecipeUtils.recipeTweak(true, <artisanworktables:toolbox>,
     inputPatternGet([" A ", "BCB", " B "], {
         "A" : <ore:plateCopper>,
         "B" : <ore:plankWood>,
-        "C" : <minecraft:chest>
+        "C" : <ore:chestWood>
 }));
 
 RecipeUtils.recipeTweak(true, <artisanworktables:workstation:5>, 

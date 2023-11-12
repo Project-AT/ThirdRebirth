@@ -77,7 +77,7 @@ Lv2AlloyRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, <ore:Stee
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:6> * 2, <ore:dustPetrotheum>, <ore:Steel> * 2, <ore:substanceEbony>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:3>, <ore:gemRedstone>, <ore:Bronze>, <ore:ingotElectricalSteel>);
 Lv2AlloyRecipe(<enderio:item_alloy_ingot:2>, <ore:ingotEnergeticAlloy>, <ore:nuggetTerrasteel>, null);
-Lv2AlloyRecipe(<refraction:reflective_alloy> * 5, <ore:Iron> * 3, <ore:ingotEnergeticSilver>, <ore:Gold>);
+Lv2AlloyRecipe(<refraction:reflective_alloy> * 5, <ore:ingotEnergeticSilver>, <ore:PureIron> * 3, <ore:Gold>);
 Lv2AlloyRecipe(<ore:ingotMagnesiumDiboride>.firstItem * 3, <ore:Magnesium>, <ore:Boron> * 2, null);
 Lv2AlloyRecipe(<ore:ingotLithiumManganeseDioxide>.firstItem * 2, <ore:ingotMagnesiumDiboride>, <ore:Lithium> * 2, null);
 Lv2AlloyRecipe(<ore:ingotZircaloy>.firstItem * 8, <ore:Tin>, <ore:Zirconium> * 7, null);

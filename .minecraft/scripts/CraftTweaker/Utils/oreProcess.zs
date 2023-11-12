@@ -161,7 +161,7 @@ for oreName in oreNames {
             .addItemOutput(oreCrushedInfused.firstItem.withAmount(2))
         .build();
 
-        Manufactory.addRecipe(oreAuraInfusion, oreCrushedInfusion.firstItem * 2, 0.25);
+        Manufactory.addRecipe(oreAuraInfusion, oreCrushedInfused.firstItem * 2, 0.25);
     }
     
     if(!oreEnriched.empty && !oreCrushedEnriched.empty && !dust.empty) {

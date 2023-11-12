@@ -5,41 +5,174 @@
     "requires-blueprint": true,
     "parts": [
         {
-            "x": -1,
+            "x": -4,
             "y": 0,
-            "z": 0,
+            "z": 4,
             "elements": [
-                "modularmachinery:blockcasing@5"
+                "immersiveengineering:metal_decoration0@7"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 0,
             "z": 0,
+
             "elements": [
-                "modularmachinery:blockcontroller"
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -48,6 +181,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockenergyinputhatch"
             ]
@@ -56,437 +190,75 @@
             "x": -1,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 0,
+            "x": -5,
+            "y": 1,
+            "z": 4,
+
             "elements": [
-                "modularmachinery:blockcasing@5"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockoutputbus"
             ]
         },
         {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
             "x": 1,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "refraction:electric_laser@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 4,
             "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
             "z": 4,
             "elements": [
                 "immersiveengineering:metal_decoration0@7"
@@ -494,186 +266,11 @@
         },
         {
             "x": 5,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "enderio:block_fused_quartz@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
             "y": 1,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
             ]
         },
         {
@@ -686,16 +283,9 @@
         },
         {
             "x": 5,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
             "y": -1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -704,6 +294,7 @@
             "x": -5,
             "y": 0,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -712,6 +303,7 @@
             "x": -4,
             "y": 2,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -720,14 +312,16 @@
             "x": -4,
             "y": 0,
             "z": 3,
+
             "elements": [
-                "refraction:electric_laser@5"
+                "refraction:electric_laser"
             ]
         },
         {
             "x": -3,
             "y": 2,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -736,6 +330,7 @@
             "x": -4,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -745,7 +340,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "enderio:block_fused_quartz@0"
+                "thermalfoundation:glass_alloy@5"
             ]
         },
         {
@@ -760,6 +355,7 @@
             "x": -3,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -769,11 +365,19 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "enderio:block_fused_quartz@0"
+                "thermalfoundation:glass_alloy@5"
             ]
         },
         {
             "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 0,
             "y": 2,
             "z": 4,
             "elements": [
@@ -793,21 +397,14 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "enderio:block_fused_quartz@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "thermalfoundation:glass_alloy@5"
             ]
         },
         {
             "x": -1,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -816,6 +413,7 @@
             "x": 0,
             "y": 0,
             "z": 3,
+
             "elements": [
                 "refraction:reflection_chamber@0"
             ]
@@ -837,14 +435,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "enderio:block_fused_quartz@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 2,
             "z": 4,
@@ -854,26 +444,53 @@
         },
         {
             "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 3,
+            "x": 4,
+            "y": 2,
+            "z": 4,
+
             "elements": [
-                "enderio:block_fused_quartz@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 3,
-            "y": 2,
-            "z": 4,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "thermalfoundation:glass_alloy@5"
             ]
         },
         {
@@ -885,41 +502,19 @@
             ]
         },
         {
-            "x": 3,
+            "x": 4,
             "y": 0,
             "z": 3,
+
             "elements": [
-                "enderio:block_fused_quartz@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
+                "refraction:electric_laser"
             ]
         },
         {
             "x": 3,
             "y": -2,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "refraction:electric_laser@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -928,6 +523,16 @@
             "x": 5,
             "y": 0,
             "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -936,6 +541,7 @@
             "x": -5,
             "y": 1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -944,6 +550,7 @@
             "x": -5,
             "y": -1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -968,6 +575,7 @@
             "x": -1,
             "y": 3,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -981,22 +589,23 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "enderio:block_fused_quartz@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@5"
+            ]
+        },
+        {
             "x": 4,
             "y": 1,
             "z": 3,
@@ -1005,25 +614,53 @@
             ]
         },
         {
-            "x": 4,
+            "x": -1,
             "y": -1,
-            "z": 2,
+            "z": 6,
+
             "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
             "x": 5,
             "y": 1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
             "x": 5,
             "y": -1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1032,6 +669,7 @@
             "x": -5,
             "y": 0,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1040,6 +678,7 @@
             "x": -4,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1056,6 +695,7 @@
             "x": -3,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1080,16 +720,9 @@
             "x": 0,
             "y": 2,
             "z": 3,
+
             "elements": [
-                "refraction:electric_laser@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@5"
+                "refraction:electric_laser"
             ]
         },
         {
@@ -1097,7 +730,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "enderio:block_fused_quartz@0"
+                "thermalfoundation:glass_alloy@5"
             ]
         },
         {
@@ -1106,6 +739,15 @@
             "z": 3,
             "elements": [
                 "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -1125,27 +767,39 @@
             ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
             "x": 3,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": 4,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
@@ -1157,17 +811,62 @@
             ]
         },
         {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
             "x": 5,
             "y": 0,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": -5,
             "y": 1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1184,6 +883,7 @@
             "x": -4,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1192,6 +892,7 @@
             "x": -3,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
@@ -1200,16 +901,9 @@
             "x": -1,
             "y": 3,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "refraction:reflective_alloy_block@0"
             ]
         },
         {
@@ -1221,6 +915,23 @@
             ]
         },
         {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
             "x": -1,
             "y": -1,
             "z": 1,
@@ -1229,19 +940,29 @@
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": 1,
             "elements": [
                 "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1261,11 +982,28 @@
             ]
         },
         {
-            "x": 3,
+            "x": -2,
             "y": -1,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -1277,17 +1015,87 @@
             ]
         },
         {
-            "x": 4,
+            "x": 3,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": 5,
             "y": 1,
             "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1296,6 +1104,7 @@
             "x": -4,
             "y": 2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1304,6 +1113,7 @@
             "x": -4,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1312,6 +1122,7 @@
             "x": -3,
             "y": 2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1320,6 +1131,7 @@
             "x": -3,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
@@ -1349,6 +1161,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
             "z": 1,
@@ -1358,18 +1178,20 @@
         },
         {
             "x": 0,
-            "y": 2,
-            "z": 2,
+            "y": 0,
+            "z": 1,
+
             "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "refraction:electric_laser"
             ]
         },
         {
-            "x": 0,
+            "x": -4,
             "y": 0,
-            "z": 1,
+            "z": 5,
+
             "elements": [
-                "refraction:electric_laser@3"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1381,11 +1203,21 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 1,
+            "x": -4,
+            "y": -2,
+            "z": 4,
+
             "elements": [
-                "immersiveengineering:metal_decoration0@7"
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1397,17 +1229,52 @@
             ]
         },
         {
-            "x": 2,
+            "x": 1,
             "y": 0,
             "z": 1,
             "elements": [
-                "refraction:reflective_alloy_block@0"
+                "immersiveengineering:metal_decoration0@7"
             ]
         },
         {
             "x": 3,
             "y": 2,
             "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1416,14 +1283,109 @@
             "x": 3,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockinputbus"
             ]
         },
         {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
             "x": 4,
-            "y": 2,
-            "z": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "refraction:electric_laser"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1431,7 +1393,17 @@
         {
             "x": 4,
             "y": 0,
-            "z": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1440,6 +1412,7 @@
             "x": -4,
             "y": 1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1448,6 +1421,7 @@
             "x": -3,
             "y": 1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1464,16 +1438,9 @@
             "x": -1,
             "y": 3,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration0@7"
             ]
         },
         {
@@ -1485,7 +1452,7 @@
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 1,
             "z": 1,
             "elements": [
@@ -1496,8 +1463,52 @@
             "x": 1,
             "y": 3,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1506,6 +1517,14 @@
             "z": 1,
             "elements": [
                 "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
             ]
         },
         {
@@ -1520,6 +1539,57 @@
             "x": 3,
             "y": 1,
             "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "refraction:reflective_alloy_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1527,7 +1597,25 @@
         {
             "x": 4,
             "y": 1,
-            "z": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_decoration0@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1536,6 +1624,7 @@
             "x": -1,
             "y": 2,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -1546,6 +1635,15 @@
             "z": 1,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         }
     ]}

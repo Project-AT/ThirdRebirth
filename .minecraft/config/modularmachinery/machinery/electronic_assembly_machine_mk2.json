@@ -5,41 +5,177 @@
     "requires-blueprint": true,
     "parts": [
         {
-            "x": -1,
+            "x": -4,
             "y": 0,
-            "z": 0,
+            "z": 4,
+
             "elements": [
-                "modularmachinery:blockcircuitry@0"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 0,
             "z": 0,
+
             "elements": [
-                "modularmachinery:blockcontroller"
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "appliedenergistics2:molecular_assembler@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
@@ -48,6 +184,7 @@
             "x": 0,
             "y": -1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockenergyinputhatch"
             ]
@@ -56,646 +193,106 @@
             "x": -1,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 0,
+            "x": -5,
+            "y": 1,
+            "z": 4,
+
             "elements": [
-                "modularmachinery:blockcircuitry@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockoutputbus"
             ]
         },
         {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
             "x": 1,
             "y": 1,
             "z": 0,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "refraction:electric_laser@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "appliedenergistics2:molecular_assembler@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
             ]
         },
         {
             "x": 4,
             "y": 1,
             "z": 4,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
             "x": 5,
             "y": 1,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": 5,
             "y": -1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -704,6 +301,7 @@
             "x": -5,
             "y": 0,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -712,6 +310,7 @@
             "x": -4,
             "y": 2,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -720,14 +319,16 @@
             "x": -4,
             "y": 0,
             "z": 3,
+
             "elements": [
-                "refraction:electric_laser@5"
+                "refraction:electric_laser"
             ]
         },
         {
             "x": -3,
             "y": 2,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -736,6 +337,7 @@
             "x": -4,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -745,7 +347,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "appliedenergistics2:molecular_assembler@0"
+                "thermalfoundation:glass_alloy@6"
             ]
         },
         {
@@ -760,6 +362,7 @@
             "x": -3,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -769,15 +372,25 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "appliedenergistics2:molecular_assembler@0"
+                "thermalfoundation:glass_alloy@6"
             ]
         },
         {
             "x": -1,
             "y": 2,
             "z": 4,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
@@ -792,22 +405,16 @@
             "x": -1,
             "y": 0,
             "z": 3,
+
             "elements": [
                 "appliedenergistics2:molecular_assembler@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
             ]
         },
         {
             "x": -1,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
@@ -816,6 +423,7 @@
             "x": 0,
             "y": 0,
             "z": 3,
+
             "elements": [
                 "refraction:reflection_chamber@0"
             ]
@@ -824,8 +432,9 @@
             "x": 1,
             "y": 2,
             "z": 4,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
@@ -837,14 +446,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "appliedenergistics2:molecular_assembler@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 2,
             "z": 4,
@@ -854,26 +455,54 @@
         },
         {
             "x": 1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "appliedenergistics2:molecular_assembler@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
             "y": -2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 3,
+            "x": 4,
+            "y": 2,
+            "z": 4,
+
             "elements": [
-                "appliedenergistics2:molecular_assembler@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 3,
-            "y": 2,
-            "z": 4,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "thermalfoundation:glass_alloy@6"
             ]
         },
         {
@@ -885,41 +514,19 @@
             ]
         },
         {
-            "x": 3,
+            "x": 4,
             "y": 0,
             "z": 3,
+
             "elements": [
-                "appliedenergistics2:molecular_assembler@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
+                "refraction:electric_laser"
             ]
         },
         {
             "x": 3,
             "y": -2,
             "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "refraction:electric_laser@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -928,6 +535,16 @@
             "x": 5,
             "y": 0,
             "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -936,6 +553,7 @@
             "x": -5,
             "y": 1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -944,6 +562,7 @@
             "x": -5,
             "y": -1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -952,22 +571,25 @@
             "x": -4,
             "y": 1,
             "z": 3,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": -4,
             "y": -1,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
             "x": -1,
             "y": 3,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
@@ -981,49 +603,81 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "appliedenergistics2:molecular_assembler@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
             "z": 4,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
         },
         {
-            "x": 4,
+            "x": 0,
             "y": 1,
             "z": 3,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "appliedenergistics2:molecular_assembler@0"
             ]
         },
         {
             "x": 4,
-            "y": -1,
-            "z": 2,
+            "y": 1,
+            "z": 3,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
             "x": 5,
             "y": 1,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
             "x": 5,
             "y": -1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1032,6 +686,7 @@
             "x": -5,
             "y": 0,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1040,6 +695,7 @@
             "x": -4,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1048,14 +704,16 @@
             "x": -4,
             "y": 0,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": -3,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1072,30 +730,25 @@
             "x": -1,
             "y": 2,
             "z": 3,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": 0,
             "y": 2,
             "z": 3,
+
             "elements": [
-                "refraction:electric_laser@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
+                "refraction:electric_laser"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 2,
+
             "elements": [
                 "appliedenergistics2:molecular_assembler@0"
             ]
@@ -1104,8 +757,18 @@
             "x": 1,
             "y": 2,
             "z": 3,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
@@ -1125,49 +788,107 @@
             ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
             "x": 3,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": 4,
             "y": 2,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": 4,
             "y": 0,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": 5,
             "y": 0,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": -5,
             "y": 1,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1176,14 +897,16 @@
             "x": -4,
             "y": 1,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
             "x": -4,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1192,6 +915,7 @@
             "x": -3,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
@@ -1200,8 +924,17 @@
             "x": -1,
             "y": 3,
             "z": 3,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -1213,43 +946,57 @@
             ]
         },
         {
-            "x": 0,
+            "x": 1,
             "y": 3,
             "z": 3,
+
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": -1,
             "y": -1,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcircuitry@0"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
@@ -1261,33 +1008,124 @@
             ]
         },
         {
-            "x": 3,
+            "x": -2,
             "y": -1,
-            "z": 1,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
             "x": 4,
             "y": 1,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
-            "x": 4,
+            "x": 3,
             "y": -1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
             ]
         },
         {
             "x": 5,
             "y": 1,
             "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1296,6 +1134,7 @@
             "x": -4,
             "y": 2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1304,6 +1143,7 @@
             "x": -4,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1312,6 +1152,7 @@
             "x": -3,
             "y": 2,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1320,6 +1161,7 @@
             "x": -3,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
@@ -1344,48 +1186,72 @@
             "x": -1,
             "y": 2,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": -1,
             "y": 0,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 1,
+
             "elements": [
-                "refraction:electric_laser@3"
+                "refraction:electric_laser"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 2,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 1,
+            "x": -4,
+            "y": -2,
+            "z": 4,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -1397,17 +1263,53 @@
             ]
         },
         {
-            "x": 2,
+            "x": 1,
             "y": 0,
             "z": 1,
+
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "nuclearcraft:solid_fission_sink2@12"
             ]
         },
         {
             "x": 3,
             "y": 2,
             "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1416,14 +1318,111 @@
             "x": 3,
             "y": 0,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockinputbus"
             ]
         },
         {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
             "x": 4,
-            "y": 2,
-            "z": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "refraction:electric_laser"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1431,7 +1430,17 @@
         {
             "x": 4,
             "y": 0,
-            "z": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1440,6 +1449,7 @@
             "x": -4,
             "y": 1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1448,6 +1458,7 @@
             "x": -3,
             "y": 1,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1464,16 +1475,9 @@
             "x": -1,
             "y": 3,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "nuclearcraft:solid_fission_sink@3"
             ]
         },
         {
@@ -1485,27 +1489,83 @@
             ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 1,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@7"
+                "nuclearcraft:solid_fission_sink2@15"
             ]
         },
         {
             "x": 1,
             "y": 3,
             "z": 2,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": 1,
             "y": 1,
             "z": 1,
+
             "elements": [
-                "nuclearcraft:solid_fission_sink@3"
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -1520,6 +1580,60 @@
             "x": 3,
             "y": 1,
             "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1527,7 +1641,26 @@
         {
             "x": 4,
             "y": 1,
-            "z": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "nuclearcraft:solid_fission_sink2@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -1536,6 +1669,7 @@
             "x": -1,
             "y": 2,
             "z": 1,
+
             "elements": [
                 "modularmachinery:blockcircuitry@0"
             ]
@@ -1546,6 +1680,15 @@
             "z": 1,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
             ]
         }
     ]}
